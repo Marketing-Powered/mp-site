@@ -52,9 +52,9 @@ const designs = [
   {
     id: 6,
     name: "Console",
-    tag: "Terminal · AI-Native · Mono",
+    tag: "Dev-Tool · Terminal-Styled · Dark",
     blurb:
-      "The whole site as an AI-native command line. It boots up, types its pitch, streams logs and runs compliance checks. For an agency that builds its own systems.",
+      "A conversion-focused landing page in the language of a modern AI / dev-tool company — monospace, code windows as product visuals and a live attribution feed. For an agency that builds its own systems.",
   },
   {
     id: 7,
@@ -170,28 +170,43 @@ function Preview({ id }: { id: number }) {
     );
   if (id === 6)
     return (
-      <div className="relative h-full w-full overflow-hidden p-4" style={{ background: "#05080E", fontFamily: "'Space Mono',monospace" }}>
-        <div className="flex items-center gap-1.5">
-          <span className="h-2.5 w-2.5 rounded-full" style={{ background: "#ff5f57" }} />
-          <span className="h-2.5 w-2.5 rounded-full" style={{ background: "#febc2e" }} />
-          <span className="h-2.5 w-2.5 rounded-full" style={{ background: brand.green }} />
-          <span className="ml-2 text-[9px] text-white/35">marketing-powered — zsh</span>
-        </div>
-        <div className="mt-4 text-[11px] leading-6">
+      <div className="relative h-full w-full overflow-hidden p-5" style={{ background: "#07090F" }}>
+        <div
+          className="absolute inset-0 opacity-50"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px)",
+            backgroundSize: "32px 32px",
+            maskImage: "radial-gradient(130% 80% at 50% 0%, black, transparent 75%)",
+          }}
+        />
+        <div className="relative grid h-full grid-cols-[1.1fr_1fr] items-center gap-4">
           <div>
-            <span style={{ color: brand.green }}>mp@marketingpowered</span>
-            <span className="text-white/35">:~$ </span>
-            <span className="text-white">mp init --vertical behavioral-health</span>
+            <div className="inline-flex items-center gap-1.5 rounded-full border border-white/12 px-2.5 py-1 text-[8px]" style={{ fontFamily: "'Space Mono',monospace", color: brand.cyan }}>
+              <span className="h-1 w-1 rounded-full" style={{ background: brand.green }} /> ai-native · since 2022
+            </div>
+            <div className="mt-2 text-[clamp(1rem,2.4vw,1.5rem)] font-bold leading-[1.1] text-white" style={{ fontFamily: "'Space Mono',monospace" }}>
+              AI marketing, engineered for <span style={{ color: brand.blue }}>behavioral health</span>.
+            </div>
+            <div className="mt-3 inline-block rounded-md px-3 py-1.5 text-[9px] font-bold text-black" style={{ fontFamily: "'Space Mono',monospace", background: brand.blue }}>
+              book a discovery call →
+            </div>
           </div>
-          <div style={{ color: brand.blue }}>[ ok ] loading inference cluster · $50M+ models</div>
-          <div style={{ color: brand.green }}>[ ok ] legitscript compliance verified</div>
-          <div className="mt-2 text-[clamp(1rem,2.6vw,1.5rem)] font-bold leading-tight text-white">
-            AI agency that <span style={{ color: brand.green }}>knows</span>{" "}
-            <span style={{ color: brand.blue }}>behavioral health</span>.
-          </div>
-          <div className="mt-2 text-white">
-            <span style={{ color: brand.blue }}>▸ ./book-discovery-call.sh</span>
-            <span className="mp-caret-g" style={{ color: brand.blue }}>▋</span>
+          <div className="overflow-hidden rounded-lg border border-white/10" style={{ background: "#0C111B", fontFamily: "'Space Mono',monospace" }}>
+            <div className="flex items-center gap-1 border-b border-white/8 px-2.5 py-1.5">
+              <span className="h-2 w-2 rounded-full" style={{ background: "#ff5f57" }} />
+              <span className="h-2 w-2 rounded-full" style={{ background: "#febc2e" }} />
+              <span className="h-2 w-2 rounded-full" style={{ background: brand.green }} />
+              <span className="ml-1 text-[7px] text-white/40">attribution --live</span>
+            </div>
+            <div className="space-y-1 p-2.5 text-[8px] leading-4">
+              <div><span style={{ color: brand.green }}>● live</span></div>
+              <div className="text-white/50">form_fill <span style={{ color: brand.blue }}>score 0.91</span></div>
+              <div className="text-white/50">admission <span style={{ color: brand.green }}>✓ cpa=$42</span></div>
+              <div className="mt-1.5 border-t border-white/8 pt-1.5 text-white/70">
+                ROAS <span style={{ color: brand.blue }}>8.47x</span> · CPA <span style={{ color: brand.green }}>$42</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

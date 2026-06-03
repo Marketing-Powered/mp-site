@@ -1,333 +1,225 @@
-"use client";
-
 import Link from "next/link";
+
+/* ================================================================== */
+/*  GALLERY — index of the five homepage concepts.                    */
+/*  Each card is a miniature rendered in its own design language       */
+/*  rather than a generic swatch row.                                  */
+/* ================================================================== */
+
+const fraunces = "'Fraunces', Georgia, serif";
+const newsreader = "'Newsreader', Georgia, serif";
+const sora = "'Sora', system-ui, sans-serif";
+const archivoBlack = "'Archivo Black', sans-serif";
+const bricolage = "'Bricolage Grotesque', system-ui, sans-serif";
+const manrope = "'Manrope', system-ui, sans-serif";
 
 const designs = [
   {
     id: 1,
-    name: "Clean Minimal",
-    description:
-      "Lots of whitespace, thin sans-serif typography, subtle animations, and a muted palette. Understated elegance for a refined brand feel.",
-    colors: ["#FAFAFA", "#1A1A2E", "#4A90D9", "#F0F0F5"],
-    font: "Inter",
-    mood: "Minimal / Elegant / Airy",
+    name: "Midnight Atelier",
+    tag: "Dark · Cinematic · Luxury",
+    blurb:
+      "Near-black canvas, high-contrast Fraunces serif, champagne gradient hairlines and film-grain atmosphere. Linear's precision in a luxury suit.",
   },
   {
     id: 2,
-    name: "Bold Agency",
-    description:
-      "Dark background, oversized type, neon cyan and magenta accents, glowing effects, and full-bleed sections. Dramatic and cutting-edge.",
-    colors: ["#0A0A0A", "#00F0FF", "#FF2D6B", "#111111"],
-    font: "Space Grotesk",
-    mood: "Bold / Dramatic / Neon",
+    name: "The Quarterly",
+    tag: "Editorial · Print · Warm",
+    blurb:
+      "A high-end magazine on warm paper stock. Newsreader display serif, drop caps, ruled captions, multi-column copy and oxblood accents.",
   },
   {
     id: 3,
-    name: "Editorial / Magazine",
-    description:
-      "Serif headings, column layouts, refined spacing, and warm neutrals. Print-inspired design that feels like a luxury publication.",
-    colors: ["#FAF8F5", "#2D2A26", "#C4962C", "#8B2252"],
-    font: "Playfair Display + DM Sans",
-    mood: "Editorial / Refined / Warm",
+    name: "Aurora",
+    tag: "SaaS · Gradient · Motion",
+    blurb:
+      "Deep-space base with animated mesh orbs, frosted glassmorphism and floating UI fragments. The Stripe lineage, executed with density.",
   },
   {
     id: 4,
-    name: "Gradient Modern",
-    description:
-      "Vibrant gradient backgrounds, glassmorphism cards, rounded corners, and animated floating elements. Modern SaaS aesthetic.",
-    colors: ["#F8F9FF", "#7B2FF7", "#2196F3", "#FF6B6B"],
-    font: "Sora",
-    mood: "Vibrant / Playful / Modern",
+    name: "Grid System",
+    tag: "Swiss · Minimal · Data",
+    blurb:
+      "International Typographic Style — rigid grid, Archivo Black, a single vermillion accent and oversized numerals on pure white.",
   },
   {
     id: 5,
-    name: "Corporate Premium",
-    description:
-      "Navy and gold palette, structured grids, trust signals prominent. Polished and institutional — like a Fortune 500 brand.",
-    colors: ["#0B1A3B", "#D4A843", "#FFFFFF", "#F4F5F7"],
-    font: "Inter",
-    mood: "Premium / Trustworthy / Structured",
+    name: "The Descent",
+    tag: "Immersive · Scroll · Story",
+    blurb:
+      "Full-viewport chapters that snap and parallax, each its own visual world. Apple product page meets a cinematic agency reel.",
   },
 ];
 
+/* a tiny, design-accurate preview for each concept */
+function Preview({ id }: { id: number }) {
+  if (id === 1)
+    return (
+      <div className="relative h-full w-full overflow-hidden" style={{ background: "#0A0A0B" }}>
+        <div
+          className="absolute inset-0"
+          style={{ background: "radial-gradient(80% 60% at 50% -10%, rgba(201,162,75,0.18), transparent 60%)" }}
+        />
+        <div className="absolute left-6 top-6 text-[10px] uppercase tracking-[0.3em]" style={{ color: "#C9A24B", fontFamily: "'Space Mono',monospace" }}>
+          AI-Native Since 2022
+        </div>
+        <div className="absolute bottom-7 left-6 right-6">
+          <div className="text-[clamp(1.3rem,3vw,1.9rem)] leading-[0.98] text-[#EDEAE3]" style={{ fontFamily: fraunces }}>
+            Partner with an AI agency that{" "}
+            <span className="italic" style={{ color: "#F5E6BE" }}>knows</span> behavioral health
+          </div>
+          <div className="mt-4 inline-block rounded-full px-4 py-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-black" style={{ background: "linear-gradient(90deg,#F5E6BE,#C9A24B)" }}>
+            Book a Discovery Call
+          </div>
+        </div>
+      </div>
+    );
+  if (id === 2)
+    return (
+      <div className="relative h-full w-full overflow-hidden p-5" style={{ background: "#F4EFE6", color: "#1C1815" }}>
+        <div className="flex items-center justify-between border-b-2 border-[#1C1815] pb-1 text-[8px] uppercase tracking-[0.2em]">
+          <span>Vol. XII</span>
+          <span style={{ color: "#8A2B2B" }}>Issue 2026</span>
+        </div>
+        <div className="mt-3 text-center text-[clamp(1.4rem,3.4vw,2.2rem)] leading-none" style={{ fontFamily: newsreader, fontWeight: 500 }}>
+          Marketing Powered
+        </div>
+        <div className="mt-4 border-t border-[#1C1815]/30 pt-3">
+          <div className="text-[9px] uppercase tracking-[0.25em]" style={{ color: "#8A2B2B" }}>The Cover Story</div>
+          <p className="mt-2 text-[0.95rem] leading-tight" style={{ fontFamily: newsreader, fontWeight: 500 }}>
+            <span className="float-left mr-2 text-[2.4rem] leading-[0.7]" style={{ color: "#8A2B2B", fontFamily: fraunces }}>P</span>
+            artner with an AI marketing agency that knows behavioral health.
+          </p>
+        </div>
+      </div>
+    );
+  if (id === 3)
+    return (
+      <div className="relative h-full w-full overflow-hidden" style={{ background: "#070711" }}>
+        <div className="absolute left-[-20%] top-[-30%] h-40 w-40 rounded-full blur-2xl" style={{ background: "#5B3CFF", opacity: 0.7 }} />
+        <div className="absolute right-[-10%] bottom-[-20%] h-40 w-40 rounded-full blur-2xl" style={{ background: "#C04BFF", opacity: 0.6 }} />
+        <div className="relative flex h-full flex-col items-center justify-center px-6 text-center">
+          <div className="mb-3 rounded-full border border-white/15 px-3 py-1 text-[9px] text-white/70">AI-native · HIPAA-conscious</div>
+          <div className="text-[clamp(1.3rem,3vw,2rem)] font-bold leading-[1.05] text-white" style={{ fontFamily: sora }}>
+            The AI marketing engine for{" "}
+            <span style={{ background: "linear-gradient(110deg,#7C5CFF,#C04BFF,#34E2D6)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>
+              behavioral health
+            </span>
+          </div>
+          <div className="mt-4 rounded-full px-4 py-1.5 text-[10px] font-semibold text-black" style={{ background: "linear-gradient(110deg,#7C5CFF,#C04BFF,#34E2D6)" }}>
+            Book a Call
+          </div>
+        </div>
+      </div>
+    );
+  if (id === 4)
+    return (
+      <div className="relative h-full w-full overflow-hidden bg-white text-[#0B0B0B]">
+        <div className="flex items-stretch justify-between border-b-2 border-black">
+          <div className="px-4 py-2 text-[9px] uppercase" style={{ fontFamily: archivoBlack }}>Marketing Powered</div>
+          <div className="px-4 py-2 text-[9px] font-bold uppercase text-white" style={{ background: "#E5341E" }}>Book</div>
+        </div>
+        <div className="px-5 py-6">
+          <div className="text-[9px] font-bold uppercase tracking-[0.18em]" style={{ color: "#E5341E" }}>AI Marketing Agency</div>
+          <div className="mt-3 text-[clamp(1.8rem,5vw,3rem)] uppercase leading-[0.88]" style={{ fontFamily: archivoBlack }}>
+            Knows<br /><span style={{ color: "#E5341E" }}>Behavioral</span><br />Health.
+          </div>
+        </div>
+        <div className="absolute bottom-0 left-0 right-0 border-t-2 border-black px-5 py-2 text-[clamp(1.4rem,4vw,2rem)]" style={{ fontFamily: archivoBlack, color: "#E5341E" }}>
+          $50M+
+        </div>
+      </div>
+    );
+  return (
+    <div className="relative h-full w-full overflow-hidden" style={{ background: "#08090C" }}>
+      <div className="absolute inset-0" style={{ background: "radial-gradient(60% 60% at 80% 30%, rgba(198,242,78,0.18), transparent 60%)" }} />
+      <div className="absolute left-5 top-5 text-[9px] uppercase tracking-[0.3em]" style={{ color: "#C6F24E" }}>
+        Chapter 00
+      </div>
+      <div className="absolute bottom-7 left-5 right-5">
+        <div className="text-[clamp(1.4rem,3.4vw,2.2rem)] leading-[0.95] text-[#F2F2EC]" style={{ fontFamily: bricolage, fontWeight: 700 }}>
+          Partner with an AI Marketing Agency That Knows Behavioral Health
+        </div>
+        <div className="mt-4 flex items-center gap-2 text-[9px] uppercase tracking-[0.2em] text-white/45">
+          <span>↓</span> Scroll to descend
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function DesignGallery() {
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        background: "#0F0F12",
-        color: "#FFFFFF",
-        fontFamily: "'Inter', system-ui, sans-serif",
-      }}
-    >
-      {/* Header */}
-      <header
+    <div className="min-h-screen bg-[#0C0C0F] text-white" style={{ fontFamily: manrope }}>
+      {/* atmosphere */}
+      <div
+        aria-hidden
+        className="pointer-events-none fixed inset-0 opacity-60"
         style={{
-          padding: "60px 24px 40px",
-          maxWidth: 1200,
-          margin: "0 auto",
-          textAlign: "center",
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px)",
+          backgroundSize: "60px 60px",
+          maskImage: "radial-gradient(120% 70% at 50% 0%, black, transparent 80%)",
         }}
-      >
-        <div
-          style={{
-            display: "inline-block",
-            padding: "6px 16px",
-            border: "1px solid rgba(255,255,255,0.15)",
-            borderRadius: 100,
-            fontSize: 13,
-            color: "rgba(255,255,255,0.6)",
-            marginBottom: 24,
-            letterSpacing: "0.05em",
-            textTransform: "uppercase",
-          }}
-        >
-          Homepage Design Concepts
+      />
+
+      <header className="relative mx-auto max-w-6xl px-6 pb-16 pt-24 text-center">
+        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-1.5 text-[12px] uppercase tracking-[0.2em] text-white/60">
+          <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+          Five Homepage Concepts
         </div>
-        <h1
-          style={{
-            fontSize: "clamp(2rem, 5vw, 3.5rem)",
-            fontWeight: 700,
-            lineHeight: 1.1,
-            marginBottom: 16,
-            background: "linear-gradient(135deg, #FFFFFF, #7B8BA8)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-          }}
-        >
-          Marketing Powered
+        <h1 className="text-[clamp(2.4rem,6vw,4.5rem)] leading-[1.02]" style={{ fontFamily: fraunces, fontWeight: 500 }}>
+          Marketing Powered,
+          <br />
+          <span className="italic text-white/70">five ways.</span>
         </h1>
-        <p
-          style={{
-            fontSize: "clamp(1rem, 2vw, 1.25rem)",
-            color: "rgba(255,255,255,0.5)",
-            maxWidth: 600,
-            margin: "0 auto 16px",
-            lineHeight: 1.6,
-          }}
-        >
-          5 unique homepage directions — same content, completely different
-          visual treatments. Click any design to preview it full-screen.
+        <p className="mx-auto mt-6 max-w-xl leading-relaxed text-white/50">
+          The same content — an AI marketing agency for behavioral health — rendered
+          through five distinct visual languages. Each is a full, live homepage.
         </p>
       </header>
 
-      {/* Design Grid */}
-      <main
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "0 24px 80px",
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))",
-          gap: 24,
-        }}
-      >
-        {designs.map((design) => (
+      <main className="relative mx-auto grid max-w-6xl gap-7 px-6 pb-28 md:grid-cols-2">
+        {designs.map((d, i) => (
           <Link
-            key={design.id}
-            href={`/design-${design.id}`}
-            style={{ textDecoration: "none", color: "inherit" }}
+            key={d.id}
+            href={`/design-${d.id}`}
+            className={`group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.02] transition-all duration-300 hover:-translate-y-1 hover:border-white/25 ${
+              i === 4 ? "md:col-span-2" : ""
+            }`}
           >
-            <article
-              style={{
-                background: "#1A1A20",
-                borderRadius: 16,
-                overflow: "hidden",
-                border: "1px solid rgba(255,255,255,0.08)",
-                transition: "all 0.3s ease",
-                cursor: "pointer",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = "translateY(-4px)";
-                e.currentTarget.style.borderColor = "rgba(255,255,255,0.2)";
-                e.currentTarget.style.boxShadow =
-                  "0 20px 60px rgba(0,0,0,0.4)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = "translateY(0)";
-                e.currentTarget.style.borderColor = "rgba(255,255,255,0.08)";
-                e.currentTarget.style.boxShadow = "none";
-              }}
-            >
-              {/* Color Preview Bar */}
-              <div
-                style={{
-                  height: 120,
-                  display: "flex",
-                  position: "relative",
-                  overflow: "hidden",
-                }}
-              >
-                {design.colors.map((color, i) => (
-                  <div
-                    key={i}
-                    style={{
-                      flex: 1,
-                      background: color,
-                      position: "relative",
-                    }}
-                  />
-                ))}
-                <div
-                  style={{
-                    position: "absolute",
-                    top: 12,
-                    left: 16,
-                    background: "rgba(0,0,0,0.6)",
-                    backdropFilter: "blur(8px)",
-                    padding: "4px 12px",
-                    borderRadius: 100,
-                    fontSize: 12,
-                    fontWeight: 600,
-                    letterSpacing: "0.02em",
-                  }}
-                >
-                  Design {design.id}
-                </div>
+            <div className={`relative overflow-hidden ${i === 4 ? "h-72" : "h-64"}`}>
+              <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.03]">
+                <Preview id={d.id} />
               </div>
-
-              {/* Card Content */}
-              <div style={{ padding: "20px 24px 24px" }}>
-                <h2
-                  style={{
-                    fontSize: 20,
-                    fontWeight: 700,
-                    marginBottom: 8,
-                    lineHeight: 1.3,
-                  }}
-                >
-                  {design.name}
-                </h2>
-
-                <p
-                  style={{
-                    fontSize: 14,
-                    color: "rgba(255,255,255,0.5)",
-                    lineHeight: 1.6,
-                    marginBottom: 16,
-                  }}
-                >
-                  {design.description}
+            </div>
+            <div className="flex items-end justify-between gap-4 p-7">
+              <div>
+                <div className="flex items-center gap-3">
+                  <span className="text-[12px] tabular-nums text-white/30">
+                    0{d.id}
+                  </span>
+                  <h2 className="text-[1.5rem]" style={{ fontFamily: fraunces, fontWeight: 500 }}>
+                    {d.name}
+                  </h2>
+                </div>
+                <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-white/40">
+                  {d.tag}
+                </div>
+                <p className="mt-4 max-w-md text-[0.92rem] leading-relaxed text-white/55">
+                  {d.blurb}
                 </p>
-
-                {/* Meta */}
-                <div
-                  style={{
-                    display: "flex",
-                    gap: 16,
-                    flexWrap: "wrap",
-                    marginBottom: 16,
-                  }}
-                >
-                  <div>
-                    <span
-                      style={{
-                        fontSize: 11,
-                        color: "rgba(255,255,255,0.35)",
-                        textTransform: "uppercase",
-                        letterSpacing: "0.05em",
-                      }}
-                    >
-                      Font
-                    </span>
-                    <div style={{ fontSize: 13, marginTop: 2 }}>
-                      {design.font}
-                    </div>
-                  </div>
-                  <div>
-                    <span
-                      style={{
-                        fontSize: 11,
-                        color: "rgba(255,255,255,0.35)",
-                        textTransform: "uppercase",
-                        letterSpacing: "0.05em",
-                      }}
-                    >
-                      Mood
-                    </span>
-                    <div style={{ fontSize: 13, marginTop: 2 }}>
-                      {design.mood}
-                    </div>
-                  </div>
-                </div>
-
-                {/* Color Swatches */}
-                <div
-                  style={{
-                    display: "flex",
-                    gap: 8,
-                    marginBottom: 20,
-                  }}
-                >
-                  {design.colors.map((color, i) => (
-                    <div
-                      key={i}
-                      style={{
-                        width: 28,
-                        height: 28,
-                        borderRadius: 8,
-                        background: color,
-                        border:
-                          color === "#FFFFFF" ||
-                          color === "#FAFAFA" ||
-                          color === "#FAF8F5" ||
-                          color === "#F8F9FF" ||
-                          color === "#F4F5F7" ||
-                          color === "#F0F0F5"
-                            ? "1px solid rgba(255,255,255,0.2)"
-                            : "1px solid transparent",
-                      }}
-                      title={color}
-                    />
-                  ))}
-                </div>
-
-                {/* View Button */}
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 8,
-                    fontSize: 14,
-                    fontWeight: 600,
-                    color: "#7B8BA8",
-                    transition: "color 0.2s",
-                  }}
-                >
-                  View Design
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    style={{ transition: "transform 0.2s" }}
-                  >
-                    <path
-                      d="M3 8h10M9 4l4 4-4 4"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </div>
               </div>
-            </article>
+              <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full border border-white/15 transition-all duration-300 group-hover:border-white/40 group-hover:bg-white group-hover:text-black">
+                →
+              </span>
+            </div>
           </Link>
         ))}
       </main>
 
-      {/* Footer */}
-      <footer
-        style={{
-          borderTop: "1px solid rgba(255,255,255,0.08)",
-          padding: "24px",
-          textAlign: "center",
-          color: "rgba(255,255,255,0.3)",
-          fontSize: 13,
-        }}
-      >
-        Marketing Powered — Homepage Design Concepts
+      <footer className="relative border-t border-white/10 px-6 py-10 text-center text-[13px] text-white/35">
+        Marketing Powered — Homepage Design Concepts · AI Marketing for Behavioral Health
       </footer>
     </div>
   );

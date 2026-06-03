@@ -1,1527 +1,459 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { siteContent } from '@/lib/content';
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { siteContent as s } from "@/lib/content";
+import Reveal from "@/components/Reveal";
 
-const {
-  brand,
-  nav,
-  hero,
-  growth,
-  socialProof,
-  specializedMarketing,
-  servicesIntro,
-  services,
-  stats,
-  whyChoose,
-  bookAudit,
-  faq,
-  cta,
-  footer,
-} = siteContent;
+/* ================================================================== */
+/*  DESIGN 3 — "Aurora"                                                */
+/*  Modern SaaS in the Stripe lineage. Deep space base, animated       */
+/*  mesh-gradient orbs (indigo→fuchsia→cyan), frosted glass cards,      */
+/*  floating UI fragments, Sora geometric sans. Density + motion.      */
+/* ================================================================== */
 
-// ── Typography & Color Tokens ──────────────────────────────────────────
-const serifFont = "'Playfair Display', serif";
-const sansFont = "'DM Sans', sans-serif";
+const BASE = "#070711";
+const sans = "'Sora', system-ui, sans-serif";
 
-const colors = {
-  cream: '#FAF8F5',
-  charcoal: '#2D2A26',
-  gold: '#C4962C',
-  burgundy: '#8B2252',
-  warmGray: '#A39E97',
-  lightRule: '#D9D4CD',
-  darkBg: '#1E1C19',
-  darkSurface: '#2D2A26',
-  offWhite: '#F0ECE6',
-};
+const GRAD = "linear-gradient(110deg,#7C5CFF,#C04BFF 45%,#34E2D6)";
 
-// ── Google Fonts head link (rendered inline via style tag) ──────────────
-function FontLoader() {
-  return (
-    <style
-      dangerouslySetInnerHTML={{
-        __html: `@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');`,
-      }}
-    />
-  );
-}
-
-// ── Shared layout wrapper ──────────────────────────────────────────────
-function Section({
-  children,
-  style,
-  id,
+function Orb({
+  className,
+  color,
+  delay = 0,
 }: {
-  children: React.ReactNode;
-  style?: React.CSSProperties;
-  id?: string;
-}) {
-  return (
-    <section
-      id={id}
-      style={{
-        maxWidth: 1180,
-        margin: '0 auto',
-        padding: '0 32px',
-        ...style,
-      }}
-    >
-      {children}
-    </section>
-  );
-}
-
-// ── Decorative thin rule ───────────────────────────────────────────────
-function HairlineRule({
-  width = '100%',
-  color = colors.lightRule,
-  style,
-}: {
-  width?: string | number;
-  color?: string;
-  style?: React.CSSProperties;
+  className: string;
+  color: string;
+  delay?: number;
 }) {
   return (
     <div
+      aria-hidden
+      className={`pointer-events-none absolute rounded-full blur-[90px] ${className}`}
       style={{
-        width,
-        height: 1,
-        backgroundColor: color,
-        margin: '0 auto',
-        ...style,
+        background: color,
+        animation: `mp-float-slow ${16 + delay}s ease-in-out ${delay}s infinite`,
       }}
     />
   );
 }
 
-// ══════════════════════════════════════════════════════════════════════════
-// 1. NAV
-// ══════════════════════════════════════════════════════════════════════════
-function Nav() {
-  const [mobileOpen, setMobileOpen] = useState(false);
+export default function Design3() {
+  const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <nav
-      style={{
-        position: 'sticky',
-        top: 0,
-        zIndex: 100,
-        backgroundColor: colors.cream,
-        borderBottom: `1px solid ${colors.lightRule}`,
-      }}
+    <div
+      style={{ background: BASE, color: "#EDEBFF", fontFamily: sans }}
+      className="relative min-h-screen overflow-hidden"
     >
+      {/* mesh orbs */}
+      <Orb className="left-[-10%] top-[-8%] h-[480px] w-[480px] opacity-60" color="#5B3CFF" />
+      <Orb className="right-[-8%] top-[18%] h-[420px] w-[420px] opacity-50" color="#C04BFF" delay={3} />
+      <Orb className="bottom-[10%] left-[20%] h-[460px] w-[460px] opacity-40" color="#1FB6C9" delay={6} />
+      {/* grid overlay */}
       <div
+        aria-hidden
+        className="pointer-events-none fixed inset-0 z-0 opacity-[0.4]"
         style={{
-          maxWidth: 1180,
-          margin: '0 auto',
-          padding: '20px 32px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-        }}
-      >
-        {/* Logo */}
-        <span
-          style={{
-            fontFamily: serifFont,
-            fontSize: '1.35rem',
-            fontWeight: 700,
-            color: colors.charcoal,
-            letterSpacing: '0.02em',
-          }}
-        >
-          {brand.name}
-        </span>
-
-        {/* Desktop links */}
-        <div
-          style={{
-            display: 'flex',
-            gap: 36,
-            alignItems: 'center',
-          }}
-          className="nav-desktop"
-        >
-          {nav.map((item) => (
-            <NavLink key={item} label={item} />
-          ))}
-          <a
-            href={`tel:${brand.phone}`}
-            style={{
-              fontFamily: sansFont,
-              fontSize: '0.85rem',
-              color: colors.gold,
-              textDecoration: 'none',
-              fontWeight: 600,
-              letterSpacing: '0.04em',
-            }}
-          >
-            {brand.phone}
-          </a>
-        </div>
-
-        {/* Mobile toggle */}
-        <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
-          className="nav-mobile-toggle"
-          style={{
-            display: 'none',
-            background: 'none',
-            border: 'none',
-            cursor: 'pointer',
-            padding: 4,
-          }}
-        >
-          <div style={{ width: 24, display: 'flex', flexDirection: 'column', gap: 5 }}>
-            <span
-              style={{
-                display: 'block',
-                height: 1.5,
-                backgroundColor: colors.charcoal,
-                borderRadius: 1,
-                transition: 'all 0.3s',
-                transform: mobileOpen ? 'rotate(45deg) translateY(6.5px)' : 'none',
-              }}
-            />
-            <span
-              style={{
-                display: 'block',
-                height: 1.5,
-                backgroundColor: colors.charcoal,
-                borderRadius: 1,
-                transition: 'all 0.3s',
-                opacity: mobileOpen ? 0 : 1,
-              }}
-            />
-            <span
-              style={{
-                display: 'block',
-                height: 1.5,
-                backgroundColor: colors.charcoal,
-                borderRadius: 1,
-                transition: 'all 0.3s',
-                transform: mobileOpen ? 'rotate(-45deg) translateY(-6.5px)' : 'none',
-              }}
-            />
-          </div>
-        </button>
-      </div>
-
-      {/* Mobile menu */}
-      {mobileOpen && (
-        <div
-          className="nav-mobile-menu"
-          style={{
-            padding: '0 32px 24px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 16,
-            borderBottom: `1px solid ${colors.lightRule}`,
-          }}
-        >
-          {nav.map((item) => (
-            <a
-              key={item}
-              href="#"
-              style={{
-                fontFamily: sansFont,
-                fontSize: '1rem',
-                color: colors.charcoal,
-                textDecoration: 'none',
-              }}
-            >
-              {item}
-            </a>
-          ))}
-          <a
-            href={`tel:${brand.phone}`}
-            style={{
-              fontFamily: sansFont,
-              fontSize: '0.9rem',
-              color: colors.gold,
-              textDecoration: 'none',
-              fontWeight: 600,
-            }}
-          >
-            {brand.phone}
-          </a>
-        </div>
-      )}
-    </nav>
-  );
-}
-
-function NavLink({ label }: { label: string }) {
-  const [hovered, setHovered] = useState(false);
-  return (
-    <a
-      href="#"
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      style={{
-        fontFamily: sansFont,
-        fontSize: '0.88rem',
-        fontWeight: 500,
-        color: colors.charcoal,
-        textDecoration: 'none',
-        position: 'relative',
-        paddingBottom: 2,
-        letterSpacing: '0.03em',
-        textTransform: 'uppercase' as const,
-      }}
-    >
-      {label}
-      <span
-        style={{
-          position: 'absolute',
-          bottom: -2,
-          left: 0,
-          width: hovered ? '100%' : '0%',
-          height: 1,
-          backgroundColor: colors.gold,
-          transition: 'width 0.35s ease',
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px)",
+          backgroundSize: "64px 64px",
+          maskImage:
+            "radial-gradient(120% 80% at 50% 0%, black, transparent 75%)",
         }}
       />
-    </a>
-  );
-}
 
-// ══════════════════════════════════════════════════════════════════════════
-// 2. HERO
-// ══════════════════════════════════════════════════════════════════════════
-function Hero() {
-  const [ctaHover, setCtaHover] = useState(false);
-  return (
-    <section
-      style={{
-        backgroundColor: colors.cream,
-        paddingTop: 80,
-        paddingBottom: 80,
-      }}
-    >
-      <Section>
-        {/* Top decorative rule */}
-        <HairlineRule width={120} color={colors.gold} style={{ marginBottom: 40 }} />
+      {/* ---------- NAV ---------- */}
+      <header className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
+        <div className="flex items-center gap-2.5 text-[17px] font-semibold tracking-tight">
+          <span
+            className="grid h-8 w-8 place-items-center rounded-lg text-black"
+            style={{ background: GRAD }}
+          >
+            ◆
+          </span>
+          Marketing Powered
+        </div>
+        <nav className="hidden items-center gap-8 text-sm text-white/60 md:flex">
+          {s.nav.map((n) => (
+            <a key={n} href="#" className="transition-colors hover:text-white">
+              {n}
+            </a>
+          ))}
+        </nav>
+        <Link
+          href={s.hero.ctaLink}
+          className="rounded-full px-5 py-2.5 text-[13px] font-semibold text-black transition-transform hover:scale-[1.04]"
+          style={{ background: GRAD }}
+        >
+          Book a Call
+        </Link>
+      </header>
+
+      {/* ---------- HERO ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 pb-20 pt-14 text-center lg:px-10 lg:pt-24">
+        <div
+          className="mx-auto mb-7 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-[12px] text-white/70 backdrop-blur"
+          style={{ animation: "mp-fade-in 0.9s ease both" }}
+        >
+          <span
+            className="h-1.5 w-1.5 rounded-full"
+            style={{ background: "#34E2D6", boxShadow: "0 0 10px #34E2D6" }}
+          />
+          AI-native since 2022 · HIPAA-conscious
+        </div>
 
         <h1
-          style={{
-            fontFamily: serifFont,
-            fontSize: 'clamp(2.8rem, 7vw, 5.5rem)',
-            fontWeight: 800,
-            color: colors.charcoal,
-            lineHeight: 1.05,
-            letterSpacing: '-0.02em',
-            marginBottom: 32,
-            maxWidth: 800,
-          }}
+          className="mx-auto max-w-4xl text-[clamp(2.6rem,6vw,5rem)] font-bold leading-[1.02] tracking-tight"
+          style={{ animation: "mp-blur-in 1s cubic-bezier(0.16,1,0.3,1) both" }}
         >
-          {hero.headline}
+          The AI marketing engine for{" "}
+          <span
+            style={{
+              background: GRAD,
+              WebkitBackgroundClip: "text",
+              backgroundClip: "text",
+              color: "transparent",
+            }}
+          >
+            behavioral health
+          </span>
         </h1>
-
-        {/* Bottom decorative rule */}
-        <HairlineRule width={80} color={colors.lightRule} style={{ marginBottom: 32 }} />
-
-        <p
-          style={{
-            fontFamily: serifFont,
-            fontSize: 'clamp(1.05rem, 2vw, 1.3rem)',
-            fontStyle: 'italic',
-            color: colors.warmGray,
-            lineHeight: 1.7,
-            maxWidth: 620,
-            marginBottom: 48,
-          }}
-        >
-          {hero.subheadline}
+        <p className="mx-auto mt-7 max-w-2xl text-[clamp(1rem,1.4vw,1.2rem)] leading-relaxed text-white/60">
+          {s.hero.subheadline}
         </p>
-
-        <a
-          href={hero.ctaLink}
-          onMouseEnter={() => setCtaHover(true)}
-          onMouseLeave={() => setCtaHover(false)}
-          style={{
-            display: 'inline-block',
-            fontFamily: sansFont,
-            fontSize: '0.8rem',
-            fontWeight: 600,
-            letterSpacing: '0.2em',
-            textTransform: 'uppercase' as const,
-            color: ctaHover ? colors.cream : colors.charcoal,
-            backgroundColor: ctaHover ? colors.charcoal : 'transparent',
-            border: `1.5px solid ${colors.charcoal}`,
-            padding: '16px 40px',
-            textDecoration: 'none',
-            transition: 'all 0.35s ease',
-          }}
-        >
-          {hero.cta}
-        </a>
-
-        {/* Thin gold accent line below CTA */}
-        <HairlineRule
-          width={40}
-          color={colors.gold}
-          style={{ marginTop: 60, marginLeft: 0 }}
-        />
-
-        {/* Hero image */}
-        <div style={{ marginTop: 48 }}>
-          <img
-            src={hero.image}
-            alt={hero.imageAlt}
-            style={{
-              width: '100%',
-              maxWidth: 900,
-              height: 'auto',
-              display: 'block',
-              border: `1px solid ${colors.lightRule}`,
-              boxShadow: '0 8px 32px rgba(45,42,38,0.10)',
-            }}
-          />
-        </div>
-      </Section>
-    </section>
-  );
-}
-
-// ══════════════════════════════════════════════════════════════════════════
-// 3. GROWTH — Newspaper-style two-column
-// ══════════════════════════════════════════════════════════════════════════
-function Growth() {
-  return (
-    <section style={{ backgroundColor: colors.cream, paddingTop: 80, paddingBottom: 80 }}>
-      <Section>
-        <h2
-          style={{
-            fontFamily: serifFont,
-            fontSize: 'clamp(1.8rem, 4vw, 2.8rem)',
-            fontWeight: 700,
-            color: colors.charcoal,
-            letterSpacing: '-0.01em',
-            lineHeight: 1.15,
-            marginBottom: 48,
-            maxWidth: 560,
-          }}
-        >
-          {growth.headline}
-        </h2>
-
-        <HairlineRule style={{ marginBottom: 48 }} />
-
-        <div
-          className="growth-columns"
-          style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1px 1fr',
-            gap: 48,
-          }}
-        >
-          {/* Column 1 with drop cap */}
-          <p
-            style={{
-              fontFamily: sansFont,
-              fontSize: '1rem',
-              lineHeight: 1.75,
-              color: colors.charcoal,
-              margin: 0,
-            }}
+        <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
+          <Link
+            href={s.hero.ctaLink}
+            className="group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-[14px] font-semibold text-black transition-transform hover:scale-[1.04]"
+            style={{ background: GRAD }}
           >
-            <span
-              style={{
-                fontFamily: serifFont,
-                fontSize: '4.2rem',
-                fontWeight: 700,
-                float: 'left',
-                lineHeight: 0.8,
-                marginRight: 12,
-                marginTop: 6,
-                color: colors.gold,
-              }}
-            >
-              {growth.body.charAt(0).toUpperCase()}
+            {s.hero.cta}
+            <span className="transition-transform group-hover:translate-x-1">
+              →
             </span>
-            {/* Start body after "with" — the drop cap is the "w" so skip first char */}
-            {growth.body.slice(1)}
-          </p>
-
-          {/* Thin vertical divider */}
-          <div style={{ backgroundColor: colors.lightRule, width: 1 }} />
-
-          {/* Column 2 */}
-          <p
-            style={{
-              fontFamily: sansFont,
-              fontSize: '1rem',
-              lineHeight: 1.75,
-              color: colors.charcoal,
-              margin: 0,
-            }}
-          >
-            {growth.body2}
-          </p>
+          </Link>
+          <span className="text-[13px] text-white/45">{s.socialProof}</span>
         </div>
 
-        {/* Body 3 */}
-        {growth.body3 && (
-          <p
-            style={{
-              fontFamily: sansFont,
-              fontSize: '1rem',
-              lineHeight: 1.75,
-              color: colors.charcoal,
-              marginTop: 40,
-              maxWidth: 800,
-            }}
-          >
-            {growth.body3}
-          </p>
-        )}
-
-        {/* Growth image */}
-        {growth.image && (
-          <div style={{ marginTop: 48 }}>
-            <img
-              src={growth.image}
-              alt={growth.imageAlt}
-              style={{
-                width: '100%',
-                maxWidth: 800,
-                height: 'auto',
-                display: 'block',
-                margin: '0 auto',
-                border: `1px solid ${colors.lightRule}`,
-                boxShadow: '0 6px 24px rgba(45,42,38,0.08)',
-              }}
+        {/* floating glass dashboard */}
+        <Reveal
+          variant="blur"
+          delay={150}
+          className="relative mx-auto mt-16 max-w-5xl"
+        >
+          <div
+            className="absolute -inset-[1px] rounded-3xl opacity-70 blur-md"
+            style={{ background: GRAD }}
+          />
+          <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-white/[0.04] backdrop-blur-xl">
+            <div className="flex items-center gap-2 border-b border-white/10 px-5 py-3">
+              <span className="h-3 w-3 rounded-full bg-[#FF5F57]" />
+              <span className="h-3 w-3 rounded-full bg-[#FEBC2E]" />
+              <span className="h-3 w-3 rounded-full bg-[#28C840]" />
+              <span className="ml-3 text-[12px] text-white/40">
+                marketingpowered.ai — live attribution
+              </span>
+            </div>
+            <Image
+              src={s.hero.image}
+              alt={s.hero.imageAlt}
+              width={1200}
+              height={620}
+              priority
+              className="h-[clamp(260px,38vw,460px)] w-full object-cover opacity-90"
             />
           </div>
-        )}
-      </Section>
-    </section>
-  );
-}
-
-// ══════════════════════════════════════════════════════════════════════════
-// 4. SOCIAL PROOF — Pull-quote
-// ══════════════════════════════════════════════════════════════════════════
-function SocialProof() {
-  return (
-    <section
-      style={{
-        backgroundColor: colors.offWhite,
-        paddingTop: 80,
-        paddingBottom: 80,
-      }}
-    >
-      <Section
-        style={{
-          textAlign: 'center',
-          maxWidth: 800,
-          position: 'relative',
-        }}
-      >
-        {/* Decorative quotation mark */}
-        <span
-          style={{
-            fontFamily: serifFont,
-            fontSize: '8rem',
-            lineHeight: 1,
-            color: colors.gold,
-            opacity: 0.3,
-            display: 'block',
-            marginBottom: -40,
-          }}
-        >
-          &ldquo;
-        </span>
-        <p
-          style={{
-            fontFamily: serifFont,
-            fontSize: 'clamp(1.3rem, 3vw, 2rem)',
-            fontWeight: 500,
-            fontStyle: 'italic',
-            color: colors.charcoal,
-            lineHeight: 1.6,
-            margin: 0,
-          }}
-        >
-          {socialProof}
-        </p>
-        <span
-          style={{
-            fontFamily: serifFont,
-            fontSize: '8rem',
-            lineHeight: 1,
-            color: colors.gold,
-            opacity: 0.3,
-            display: 'block',
-            marginTop: -20,
-            transform: 'rotate(180deg)',
-          }}
-        >
-          &ldquo;
-        </span>
-      </Section>
-    </section>
-  );
-}
-
-// ══════════════════════════════════════════════════════════════════════════
-// 4b. SPECIALIZED MARKETING — Editorial feature
-// ══════════════════════════════════════════════════════════════════════════
-function SpecializedMarketing() {
-  return (
-    <section style={{ backgroundColor: colors.cream, paddingTop: 80, paddingBottom: 80 }}>
-      <Section>
-        <HairlineRule width={60} color={colors.gold} style={{ marginBottom: 32, marginLeft: 0 }} />
-
-        <h2
-          style={{
-            fontFamily: serifFont,
-            fontSize: 'clamp(1.8rem, 4vw, 2.8rem)',
-            fontWeight: 700,
-            color: colors.charcoal,
-            letterSpacing: '-0.01em',
-            lineHeight: 1.15,
-            marginBottom: 40,
-            maxWidth: 650,
-          }}
-        >
-          {specializedMarketing.headline}
-        </h2>
-
-        <HairlineRule style={{ marginBottom: 40 }} />
-
-        <div
-          className="specialized-columns"
-          style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
-            gap: 48,
-            marginBottom: 48,
-          }}
-        >
-          <div>
-            <p
-              style={{
-                fontFamily: sansFont,
-                fontSize: '1rem',
-                lineHeight: 1.75,
-                color: colors.charcoal,
-                marginBottom: 24,
-              }}
-            >
-              {specializedMarketing.body}
-            </p>
-            <p
-              style={{
-                fontFamily: sansFont,
-                fontSize: '1rem',
-                lineHeight: 1.75,
-                color: colors.charcoal,
-                margin: 0,
-              }}
-            >
-              {specializedMarketing.body2}
-            </p>
+          {/* floating stat chips */}
+          <div className="absolute -left-4 top-1/3 hidden rounded-2xl border border-white/15 bg-white/10 px-5 py-3 backdrop-blur-xl md:block" style={{ animation: "mp-float 7s ease-in-out infinite" }}>
+            <div className="text-xl font-bold" style={{ color: "#34E2D6" }}>847%</div>
+            <div className="text-[11px] text-white/60">ROAS</div>
           </div>
-
-          <div>
-            <p
-              style={{
-                fontFamily: sansFont,
-                fontSize: '1rem',
-                lineHeight: 1.75,
-                color: colors.charcoal,
-                marginBottom: 24,
-              }}
-            >
-              {specializedMarketing.body3}
-            </p>
-            <p
-              style={{
-                fontFamily: sansFont,
-                fontSize: '1rem',
-                lineHeight: 1.75,
-                color: colors.charcoal,
-                margin: 0,
-              }}
-            >
-              {specializedMarketing.body4}
-            </p>
+          <div className="absolute -right-4 bottom-1/4 hidden rounded-2xl border border-white/15 bg-white/10 px-5 py-3 backdrop-blur-xl md:block" style={{ animation: "mp-float 9s ease-in-out 1s infinite" }}>
+            <div className="text-xl font-bold" style={{ color: "#C04BFF" }}>$42</div>
+            <div className="text-[11px] text-white/60">cost / admission</div>
           </div>
+        </Reveal>
+      </section>
+
+      {/* ---------- LOGO STRIP / PROOF ---------- */}
+      <section className="relative z-10 mx-auto max-w-6xl px-6 py-10 lg:px-10">
+        <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-[13px] uppercase tracking-[0.18em] text-white/35">
+          {["$1.5–2M / mo Google Ads", "LegitScript Compliant", "Mac Studio M3 Clusters", "Full-Funnel Attribution"].map(
+            (t) => (
+              <span key={t} className="flex items-center gap-3">
+                <span className="h-1 w-1 rounded-full bg-white/40" /> {t}
+              </span>
+            ),
+          )}
         </div>
+      </section>
 
-        {/* Specialized Marketing image */}
-        {specializedMarketing.image && (
-          <div style={{ marginTop: 8 }}>
-            <img
-              src={specializedMarketing.image}
-              alt={specializedMarketing.imageAlt}
-              style={{
-                width: '100%',
-                maxWidth: 800,
-                height: 'auto',
-                display: 'block',
-                margin: '0 auto',
-                border: `1px solid ${colors.lightRule}`,
-                boxShadow: '0 6px 24px rgba(45,42,38,0.08)',
-              }}
+      {/* ---------- EXPERTS / GROWTH ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-10">
+        <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+          <Reveal>
+            <span className="text-[13px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#C04BFF" }}>
+              Built by operators
+            </span>
+            <h2 className="mt-4 text-[clamp(2rem,3.6vw,3.2rem)] font-bold leading-[1.08]">
+              {s.growth.headline}
+            </h2>
+            <p className="mt-6 leading-relaxed text-white/60">{s.growth.body}</p>
+            <p className="mt-5 leading-relaxed text-white/45">{s.growth.body3}</p>
+          </Reveal>
+          <Reveal variant="blur" delay={120} className="relative">
+            <div
+              className="absolute -inset-[1px] rounded-3xl opacity-60 blur-md"
+              style={{ background: GRAD }}
             />
-          </div>
-        )}
-      </Section>
-    </section>
-  );
-}
-
-// ══════════════════════════════════════════════════════════════════════════
-// 5. SERVICES — Two-column grid with rules
-// ══════════════════════════════════════════════════════════════════════════
-function Services() {
-  return (
-    <section style={{ backgroundColor: colors.cream, paddingTop: 80, paddingBottom: 80 }}>
-      <Section>
-        {/* Section intro */}
-        <div style={{ marginBottom: 56, maxWidth: 600 }}>
-          <p
-            style={{
-              fontFamily: sansFont,
-              fontSize: '0.75rem',
-              fontWeight: 600,
-              letterSpacing: '0.2em',
-              textTransform: 'uppercase' as const,
-              color: colors.gold,
-              marginBottom: 16,
-            }}
-          >
-            What We Do
-          </p>
-          <h2
-            style={{
-              fontFamily: serifFont,
-              fontSize: 'clamp(1.8rem, 4vw, 2.8rem)',
-              fontWeight: 700,
-              color: colors.charcoal,
-              letterSpacing: '-0.01em',
-              lineHeight: 1.15,
-              marginBottom: 20,
-            }}
-          >
-            {servicesIntro.headline}
-          </h2>
-          <p
-            style={{
-              fontFamily: sansFont,
-              fontSize: '1rem',
-              lineHeight: 1.7,
-              color: colors.warmGray,
-            }}
-          >
-            {servicesIntro.body}
-          </p>
+            <div className="relative overflow-hidden rounded-3xl border border-white/15">
+              <Image
+                src={s.growth.image}
+                alt={s.growth.imageAlt}
+                width={720}
+                height={620}
+                className="h-[clamp(320px,40vw,480px)] w-full object-cover"
+              />
+            </div>
+          </Reveal>
         </div>
+      </section>
 
-        <HairlineRule style={{ marginBottom: 48 }} />
-
-        <div
-          className="services-grid"
-          style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
-            gap: 0,
-          }}
-        >
-          {services.map((service, idx) => (
-            <ServiceItem key={idx} service={service} idx={idx} />
-          ))}
-        </div>
-      </Section>
-    </section>
-  );
-}
-
-function ServiceItem({
-  service,
-  idx,
-}: {
-  service: { title: string; description: string; icon: string };
-  idx: number;
-}) {
-  const [hovered, setHovered] = useState(false);
-  const isLeft = idx % 2 === 0;
-
-  return (
-    <div
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      style={{
-        padding: '40px 32px',
-        borderBottom: `1px solid ${colors.lightRule}`,
-        borderRight: isLeft ? `1px solid ${colors.lightRule}` : 'none',
-        transition: 'background-color 0.3s ease',
-        backgroundColor: hovered ? colors.offWhite : 'transparent',
-      }}
-    >
-      {/* Index number */}
-      <span
-        style={{
-          fontFamily: serifFont,
-          fontSize: '0.85rem',
-          fontWeight: 400,
-          color: colors.gold,
-          display: 'block',
-          marginBottom: 16,
-          fontStyle: 'italic',
-        }}
-      >
-        0{idx + 1}
-      </span>
-      <h3
-        style={{
-          fontFamily: serifFont,
-          fontSize: '1.4rem',
-          fontWeight: 600,
-          color: colors.charcoal,
-          marginBottom: 16,
-          lineHeight: 1.3,
-        }}
-      >
-        {service.title}
-      </h3>
-      <p
-        style={{
-          fontFamily: sansFont,
-          fontSize: '0.92rem',
-          lineHeight: 1.7,
-          color: colors.warmGray,
-          margin: 0,
-        }}
-      >
-        {service.description}
-      </p>
-    </div>
-  );
-}
-
-// ══════════════════════════════════════════════════════════════════════════
-// 6. STATS — Large serif numbers, small caps labels
-// ══════════════════════════════════════════════════════════════════════════
-function Stats() {
-  return (
-    <section
-      style={{
-        backgroundColor: colors.charcoal,
-        paddingTop: 80,
-        paddingBottom: 80,
-      }}
-    >
-      <Section>
-        <p
-          style={{
-            fontFamily: sansFont,
-            fontSize: '0.75rem',
-            fontWeight: 600,
-            letterSpacing: '0.2em',
-            textTransform: 'uppercase' as const,
-            color: colors.gold,
-            textAlign: 'center',
-            marginBottom: 48,
-          }}
-        >
-          Proven Results
-        </p>
-
-        <div
-          className="stats-row"
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'flex-start',
-            flexWrap: 'wrap',
-            gap: 0,
-          }}
-        >
-          {stats.map((stat, idx) => (
-            <div key={idx} style={{ display: 'flex', alignItems: 'flex-start' }}>
-              {idx > 0 && (
-                <div
-                  className="stats-divider"
-                  style={{
-                    width: 1,
-                    height: 80,
-                    backgroundColor: 'rgba(255,255,255,0.15)',
-                    alignSelf: 'center',
-                  }}
-                />
-              )}
+      {/* ---------- STATS (glass) ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 py-12 lg:px-10">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {s.stats.map((stat, i) => (
+            <Reveal
+              key={stat.value}
+              delay={i * 80}
+              className="rounded-3xl border border-white/12 bg-white/[0.04] p-7 backdrop-blur-md transition-colors hover:border-white/25"
+            >
               <div
+                className="text-[clamp(2.2rem,4vw,3rem)] font-bold leading-none"
                 style={{
-                  textAlign: 'center',
-                  padding: '0 clamp(16px, 3vw, 40px)',
-                  minWidth: 140,
+                  background: GRAD,
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  color: "transparent",
                 }}
               >
-                <span
-                  style={{
-                    fontFamily: serifFont,
-                    fontSize: 'clamp(2.2rem, 4vw, 3.2rem)',
-                    fontWeight: 700,
-                    color: colors.cream,
-                    display: 'block',
-                    letterSpacing: '-0.02em',
-                    marginBottom: 12,
-                  }}
-                >
-                  {stat.value}
-                </span>
-                <span
-                  style={{
-                    fontFamily: sansFont,
-                    fontSize: '0.72rem',
-                    fontWeight: 500,
-                    letterSpacing: '0.1em',
-                    textTransform: 'uppercase' as const,
-                    color: 'rgba(255,255,255,0.55)',
-                    lineHeight: 1.5,
-                    maxWidth: 180,
-                    display: 'block',
-                  }}
-                >
-                  {stat.label.split(' ').slice(0, 6).join(' ')}
-                </span>
+                {stat.value}
               </div>
-            </div>
+              <p className="mt-4 text-[13px] leading-relaxed text-white/55">
+                {stat.label}
+              </p>
+            </Reveal>
           ))}
         </div>
-      </Section>
-    </section>
-  );
-}
+      </section>
 
-// ══════════════════════════════════════════════════════════════════════════
-// 7. WHY CHOOSE — Magazine feature article
-// ══════════════════════════════════════════════════════════════════════════
-function WhyChoose() {
-  return (
-    <section style={{ backgroundColor: colors.cream, paddingTop: 100, paddingBottom: 100 }}>
-      <Section>
-        {/* Pull-quote headline */}
-        <div style={{ marginBottom: 56 }}>
-          <HairlineRule width={60} color={colors.gold} style={{ marginBottom: 32, marginLeft: 0 }} />
-          <h2
-            style={{
-              fontFamily: serifFont,
-              fontSize: 'clamp(2rem, 4.5vw, 3.2rem)',
-              fontWeight: 700,
-              color: colors.charcoal,
-              lineHeight: 1.15,
-              letterSpacing: '-0.01em',
-              marginBottom: 32,
-              maxWidth: 650,
-            }}
-          >
-            {whyChoose.headline}
+      {/* ---------- SERVICES (glass bento) ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-10">
+        <Reveal className="mx-auto mb-14 max-w-2xl text-center">
+          <span className="text-[13px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#34E2D6" }}>
+            The platform
+          </span>
+          <h2 className="mt-4 text-[clamp(2rem,3.6vw,3rem)] font-bold leading-[1.1]">
+            {s.servicesIntro.headline}
           </h2>
-
-          {/* Body in columns */}
-          <div
-            className="why-body-columns"
-            style={{
-              columnCount: 2,
-              columnGap: 48,
-              columnRule: `1px solid ${colors.lightRule}`,
-            }}
-          >
-            <p
-              style={{
-                fontFamily: sansFont,
-                fontSize: '1rem',
-                lineHeight: 1.75,
-                color: colors.warmGray,
-                margin: 0,
-              }}
+        </Reveal>
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {s.services.map((svc, i) => (
+            <Reveal
+              key={svc.title}
+              delay={(i % 3) * 90}
+              className="group relative overflow-hidden rounded-3xl border border-white/12 bg-white/[0.03] p-7 backdrop-blur-md transition-transform duration-300 hover:-translate-y-1.5"
             >
-              {whyChoose.body}
-            </p>
-          </div>
-        </div>
-
-        <HairlineRule style={{ marginBottom: 56 }} />
-
-        {/* Cards */}
-        <div
-          className="why-cards"
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(2, 1fr)',
-            gap: 32,
-          }}
-        >
-          {whyChoose.cards.map((card, idx) => (
-            <WhyCard key={idx} card={card} idx={idx} />
+              <div
+                className="absolute inset-x-0 top-0 h-px opacity-0 transition-opacity group-hover:opacity-100"
+                style={{ background: GRAD }}
+              />
+              <div
+                className="mb-5 grid h-11 w-11 place-items-center rounded-xl text-black"
+                style={{ background: GRAD }}
+              >
+                {["◎", "⊹", "▤", "⛨", "⚡", "⌘"][i]}
+              </div>
+              <h3 className="text-[1.2rem] font-semibold">{svc.title}</h3>
+              <p className="mt-3 text-[0.92rem] leading-relaxed text-white/55">
+                {svc.description}
+              </p>
+            </Reveal>
           ))}
         </div>
-      </Section>
-    </section>
-  );
-}
+      </section>
 
-function WhyCard({
-  card,
-  idx,
-}: {
-  card: { title: string; description: string };
-  idx: number;
-}) {
-  const [hovered, setHovered] = useState(false);
-  return (
-    <div
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      style={{
-        padding: 36,
-        border: `1px solid ${hovered ? colors.gold : colors.lightRule}`,
-        transition: 'all 0.35s ease',
-        backgroundColor: hovered ? colors.offWhite : 'transparent',
-      }}
-    >
-      <span
-        style={{
-          fontFamily: serifFont,
-          fontSize: '0.85rem',
-          fontStyle: 'italic',
-          color: colors.gold,
-          display: 'block',
-          marginBottom: 16,
-        }}
-      >
-        0{idx + 1}
-      </span>
-      <h3
-        style={{
-          fontFamily: serifFont,
-          fontSize: '1.3rem',
-          fontWeight: 600,
-          color: colors.charcoal,
-          marginBottom: 14,
-          lineHeight: 1.3,
-        }}
-      >
-        {card.title}
-      </h3>
-      <p
-        style={{
-          fontFamily: sansFont,
-          fontSize: '0.92rem',
-          lineHeight: 1.7,
-          color: colors.warmGray,
-          margin: 0,
-        }}
-      >
-        {card.description}
-      </p>
-    </div>
-  );
-}
+      {/* ---------- SPECIALIZED (split glass) ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 py-16 lg:px-10">
+        <Reveal className="overflow-hidden rounded-[2rem] border border-white/12 bg-white/[0.03] backdrop-blur-md">
+          <div className="grid lg:grid-cols-2">
+            <div className="p-10 md:p-14">
+              <span className="text-[13px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#C04BFF" }}>
+                Compliance-first
+              </span>
+              <h2 className="mt-4 text-[clamp(1.8rem,3vw,2.6rem)] font-bold leading-[1.12]">
+                {s.specializedMarketing.headline}
+              </h2>
+              <p className="mt-6 leading-relaxed text-white/60">
+                {s.specializedMarketing.body}
+              </p>
+              <p className="mt-5 leading-relaxed text-white/45">
+                {s.specializedMarketing.body4}
+              </p>
+            </div>
+            <div className="relative min-h-[300px]">
+              <Image
+                src={s.specializedMarketing.image}
+                alt={s.specializedMarketing.imageAlt}
+                fill
+                className="object-cover"
+              />
+              <div
+                className="absolute inset-0"
+                style={{
+                  background:
+                    "linear-gradient(90deg, rgba(7,7,17,0.6), transparent 30%)",
+                }}
+              />
+            </div>
+          </div>
+        </Reveal>
+      </section>
 
-// ══════════════════════════════════════════════════════════════════════════
-// 8. FAQ — Accordion with serif questions
-// ══════════════════════════════════════════════════════════════════════════
-function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+      {/* ---------- WHY CHOOSE ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-10">
+        <Reveal className="mb-12 max-w-2xl">
+          <h2 className="text-[clamp(2rem,3.6vw,3rem)] font-bold leading-[1.1]">
+            {s.whyChoose.headline}
+          </h2>
+        </Reveal>
+        <div className="grid gap-5 md:grid-cols-2">
+          {s.whyChoose.cards.map((card, i) => (
+            <Reveal
+              key={card.title}
+              delay={(i % 2) * 90}
+              className="rounded-3xl border border-white/12 bg-white/[0.03] p-8 backdrop-blur-md"
+            >
+              <h3 className="flex items-center gap-3 text-[1.2rem] font-semibold">
+                <span
+                  className="grid h-7 w-7 place-items-center rounded-lg text-[12px] font-bold text-black"
+                  style={{ background: GRAD }}
+                >
+                  {i + 1}
+                </span>
+                {card.title}
+              </h3>
+              <p className="mt-4 text-[0.95rem] leading-relaxed text-white/55">
+                {card.description}
+              </p>
+            </Reveal>
+          ))}
+        </div>
+      </section>
 
-  return (
-    <section style={{ backgroundColor: colors.offWhite, paddingTop: 80, paddingBottom: 80 }}>
-      <Section style={{ maxWidth: 780 }}>
-        <p
-          style={{
-            fontFamily: sansFont,
-            fontSize: '0.75rem',
-            fontWeight: 600,
-            letterSpacing: '0.2em',
-            textTransform: 'uppercase' as const,
-            color: colors.gold,
-            textAlign: 'center',
-            marginBottom: 16,
-          }}
-        >
-          Frequently Asked
-        </p>
-        <h2
-          style={{
-            fontFamily: serifFont,
-            fontSize: 'clamp(1.6rem, 3.5vw, 2.4rem)',
-            fontWeight: 700,
-            color: colors.charcoal,
-            textAlign: 'center',
-            marginBottom: 48,
-            letterSpacing: '-0.01em',
-          }}
-        >
-          Questions &amp; Answers
-        </h2>
-
-        <div>
-          {faq.map((item, idx) => {
-            const isOpen = openIndex === idx;
+      {/* ---------- FAQ ---------- */}
+      <section className="relative z-10 mx-auto max-w-3xl px-6 py-20 lg:px-10">
+        <Reveal>
+          <h2 className="mb-10 text-center text-[clamp(1.9rem,3.4vw,2.6rem)] font-bold">
+            Frequently asked
+          </h2>
+        </Reveal>
+        <div className="space-y-3">
+          {s.faq.map((f, i) => {
+            const isOpen = open === i;
             return (
               <div
-                key={idx}
-                style={{
-                  borderTop: idx === 0 ? `1px solid ${colors.lightRule}` : 'none',
-                  borderBottom: `1px solid ${colors.lightRule}`,
-                }}
+                key={f.question}
+                className="overflow-hidden rounded-2xl border border-white/12 bg-white/[0.03] backdrop-blur-md"
               >
                 <button
-                  onClick={() => setOpenIndex(isOpen ? null : idx)}
-                  style={{
-                    width: '100%',
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                    padding: '24px 0',
-                    background: 'none',
-                    border: 'none',
-                    cursor: 'pointer',
-                    textAlign: 'left',
-                    gap: 16,
-                  }}
+                  onClick={() => setOpen(isOpen ? null : i)}
+                  className="flex w-full items-center justify-between gap-6 px-6 py-5 text-left"
                 >
+                  <span className="font-medium">{f.question}</span>
                   <span
+                    className="grid h-7 w-7 shrink-0 place-items-center rounded-full text-black transition-transform duration-300"
                     style={{
-                      fontFamily: serifFont,
-                      fontSize: '1.1rem',
-                      fontWeight: 500,
-                      color: isOpen ? colors.gold : colors.charcoal,
-                      transition: 'color 0.3s ease',
-                      lineHeight: 1.4,
+                      background: GRAD,
+                      transform: isOpen ? "rotate(45deg)" : "none",
                     }}
                   >
-                    {item.question}
-                  </span>
-                  <span
-                    style={{
-                      fontFamily: sansFont,
-                      fontSize: '1.4rem',
-                      fontWeight: 300,
-                      color: isOpen ? colors.gold : colors.warmGray,
-                      transition: 'color 0.3s ease, transform 0.3s ease',
-                      flexShrink: 0,
-                      width: 24,
-                      textAlign: 'center',
-                      lineHeight: 1,
-                    }}
-                  >
-                    {isOpen ? '−' : '+'}
+                    +
                   </span>
                 </button>
                 <div
-                  style={{
-                    maxHeight: isOpen ? 500 : 0,
-                    overflow: 'hidden',
-                    transition: 'max-height 0.4s ease',
-                  }}
+                  className="grid transition-all duration-500 ease-out"
+                  style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
                 >
-                  <p
-                    style={{
-                      fontFamily: sansFont,
-                      fontSize: '0.95rem',
-                      lineHeight: 1.7,
-                      color: colors.warmGray,
-                      paddingBottom: 24,
-                      margin: 0,
-                    }}
-                  >
-                    {item.answer}
-                  </p>
+                  <div className="overflow-hidden">
+                    <p className="px-6 pb-6 text-[0.95rem] leading-relaxed text-white/55">
+                      {f.answer}
+                    </p>
+                  </div>
                 </div>
               </div>
             );
           })}
         </div>
-      </Section>
-    </section>
-  );
-}
+      </section>
 
-// ══════════════════════════════════════════════════════════════════════════
-// 8b. BOOK AUDIT — Pre-CTA call-to-action
-// ══════════════════════════════════════════════════════════════════════════
-function BookAudit() {
-  const [ctaHover, setCtaHover] = useState(false);
-  return (
-    <section style={{ backgroundColor: colors.cream, paddingTop: 80, paddingBottom: 80 }}>
-      <Section>
-        <div
-          className="book-audit-layout"
-          style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
-            gap: 56,
-            alignItems: 'center',
-          }}
-        >
-          <div>
-            <HairlineRule width={60} color={colors.gold} style={{ marginBottom: 32, marginLeft: 0 }} />
-            <h2
-              style={{
-                fontFamily: serifFont,
-                fontSize: 'clamp(1.8rem, 4vw, 2.8rem)',
-                fontWeight: 700,
-                color: colors.charcoal,
-                letterSpacing: '-0.01em',
-                lineHeight: 1.15,
-                marginBottom: 28,
-                maxWidth: 500,
-              }}
-            >
-              {bookAudit.headline}
+      {/* ---------- CTA ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 pb-24 lg:px-10">
+        <Reveal variant="blur" className="relative overflow-hidden rounded-[2.5rem] p-[1.5px]">
+          <div className="absolute inset-0" style={{ background: GRAD }} />
+          <div className="relative overflow-hidden rounded-[2.4rem] bg-[#0A0A18] px-8 py-20 text-center md:px-16">
+            <Orb className="left-1/2 top-0 h-[300px] w-[300px] -translate-x-1/2 opacity-40" color="#7C5CFF" />
+            <h2 className="relative mx-auto max-w-3xl text-[clamp(2rem,4vw,3.2rem)] font-bold leading-[1.08]">
+              {s.cta.headline}
             </h2>
-
-            <p
-              style={{
-                fontFamily: sansFont,
-                fontSize: '1rem',
-                lineHeight: 1.75,
-                color: colors.warmGray,
-                marginBottom: 24,
-              }}
-            >
-              {bookAudit.body}
+            <p className="relative mx-auto mt-6 max-w-xl leading-relaxed text-white/60">
+              {s.cta.body}
             </p>
-            <p
-              style={{
-                fontFamily: sansFont,
-                fontSize: '1rem',
-                lineHeight: 1.75,
-                color: colors.warmGray,
-                marginBottom: 36,
-              }}
+            <Link
+              href={s.cta.ctaLink}
+              className="relative mt-9 inline-flex items-center gap-2 rounded-full px-8 py-4 text-[14px] font-semibold text-black transition-transform hover:scale-[1.04]"
+              style={{ background: GRAD }}
             >
-              {bookAudit.body2}
-            </p>
-
-            <a
-              href={cta.ctaLink}
-              onMouseEnter={() => setCtaHover(true)}
-              onMouseLeave={() => setCtaHover(false)}
-              style={{
-                display: 'inline-block',
-                fontFamily: sansFont,
-                fontSize: '0.8rem',
-                fontWeight: 600,
-                letterSpacing: '0.2em',
-                textTransform: 'uppercase' as const,
-                color: ctaHover ? colors.cream : colors.charcoal,
-                backgroundColor: ctaHover ? colors.charcoal : 'transparent',
-                border: `1.5px solid ${colors.charcoal}`,
-                padding: '16px 40px',
-                textDecoration: 'none',
-                transition: 'all 0.35s ease',
-              }}
-            >
-              {cta.ctaText}
-            </a>
+              {s.cta.ctaText}
+              <span>→</span>
+            </Link>
           </div>
+        </Reveal>
+      </section>
 
-          {/* Book Audit image */}
-          {bookAudit.image && (
-            <div>
-              <img
-                src={bookAudit.image}
-                alt={bookAudit.imageAlt}
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  display: 'block',
-                  border: `1px solid ${colors.lightRule}`,
-                  boxShadow: '0 8px 32px rgba(45,42,38,0.10)',
-                }}
-              />
-            </div>
-          )}
-        </div>
-      </Section>
-    </section>
-  );
-}
-
-// ══════════════════════════════════════════════════════════════════════════
-// 9. CTA
-// ══════════════════════════════════════════════════════════════════════════
-function CTA() {
-  const [ctaHover, setCtaHover] = useState(false);
-  return (
-    <section style={{ backgroundColor: colors.cream, paddingTop: 100, paddingBottom: 100 }}>
-      <Section style={{ textAlign: 'center', maxWidth: 680 }}>
-        <HairlineRule width={80} color={colors.gold} style={{ marginBottom: 40 }} />
-
-        <h2
-          style={{
-            fontFamily: serifFont,
-            fontSize: 'clamp(2rem, 4.5vw, 3.4rem)',
-            fontWeight: 700,
-            color: colors.charcoal,
-            lineHeight: 1.1,
-            letterSpacing: '-0.02em',
-            marginBottom: 24,
-          }}
-        >
-          {cta.headline}
-        </h2>
-        <p
-          style={{
-            fontFamily: serifFont,
-            fontSize: '1.1rem',
-            fontStyle: 'italic',
-            lineHeight: 1.7,
-            color: colors.warmGray,
-            marginBottom: 40,
-          }}
-        >
-          {cta.body}
-        </p>
-
-        <HairlineRule width={40} color={colors.lightRule} style={{ marginBottom: 40 }} />
-
-        <a
-          href={cta.ctaLink}
-          onMouseEnter={() => setCtaHover(true)}
-          onMouseLeave={() => setCtaHover(false)}
-          style={{
-            display: 'inline-block',
-            fontFamily: sansFont,
-            fontSize: '0.8rem',
-            fontWeight: 600,
-            letterSpacing: '0.2em',
-            textTransform: 'uppercase' as const,
-            color: ctaHover ? colors.cream : colors.charcoal,
-            backgroundColor: ctaHover ? colors.charcoal : 'transparent',
-            border: `1.5px solid ${colors.charcoal}`,
-            padding: '16px 48px',
-            textDecoration: 'none',
-            transition: 'all 0.35s ease',
-          }}
-        >
-          {cta.ctaText}
-        </a>
-      </Section>
-    </section>
-  );
-}
-
-// ══════════════════════════════════════════════════════════════════════════
-// 10. FOOTER
-// ══════════════════════════════════════════════════════════════════════════
-function Footer() {
-  return (
-    <footer style={{ backgroundColor: colors.darkBg }}>
-      {/* Top rule */}
-      <div style={{ height: 1, backgroundColor: 'rgba(196,150,44,0.3)' }} />
-
-      <Section style={{ paddingTop: 64, paddingBottom: 48 }}>
-        <div
-          className="footer-grid"
-          style={{
-            display: 'grid',
-            gridTemplateColumns: '2fr 1fr 1fr',
-            gap: 48,
-            marginBottom: 48,
-          }}
-        >
-          {/* Brand column */}
-          <div>
+      {/* ---------- FOOTER ---------- */}
+      <footer className="relative z-10 border-t border-white/10 px-6 py-14 lg:px-10">
+        <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
+          <div className="flex items-center gap-2.5 text-[16px] font-semibold">
             <span
-              style={{
-                fontFamily: serifFont,
-                fontSize: '1.4rem',
-                fontWeight: 700,
-                color: colors.cream,
-                display: 'block',
-                marginBottom: 16,
-              }}
+              className="grid h-7 w-7 place-items-center rounded-lg text-black"
+              style={{ background: GRAD }}
             >
-              {brand.name}
+              ◆
             </span>
-            <p
-              style={{
-                fontFamily: serifFont,
-                fontSize: '1rem',
-                fontStyle: 'italic',
-                color: 'rgba(255,255,255,0.5)',
-                lineHeight: 1.6,
-                margin: 0,
-                maxWidth: 320,
-              }}
-            >
-              {footer.tagline}
-            </p>
+            Marketing Powered
           </div>
-
-          {/* Services column */}
-          <div>
-            <h4
-              style={{
-                fontFamily: serifFont,
-                fontSize: '0.9rem',
-                fontWeight: 600,
-                color: colors.cream,
-                letterSpacing: '0.05em',
-                marginBottom: 20,
-              }}
-            >
-              Services
-            </h4>
-            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              {footer.services.map((s, idx) => (
-                <li key={idx} style={{ marginBottom: 10 }}>
-                  <a
-                    href="#"
-                    style={{
-                      fontFamily: sansFont,
-                      fontSize: '0.85rem',
-                      color: 'rgba(255,255,255,0.45)',
-                      textDecoration: 'none',
-                      lineHeight: 1.5,
-                    }}
-                  >
-                    {s}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Contact column */}
-          <div>
-            <h4
-              style={{
-                fontFamily: serifFont,
-                fontSize: '0.9rem',
-                fontWeight: 600,
-                color: colors.cream,
-                letterSpacing: '0.05em',
-                marginBottom: 20,
-              }}
-            >
-              Contact
-            </h4>
-            <div
-              style={{
-                fontFamily: sansFont,
-                fontSize: '0.85rem',
-                color: 'rgba(255,255,255,0.45)',
-                lineHeight: 1.8,
-              }}
-            >
-              <p style={{ margin: '0 0 4px' }}>{brand.phone}</p>
-              <p style={{ margin: '0 0 4px' }}>{brand.email}</p>
-              <p style={{ margin: 0 }}>{brand.address}</p>
-            </div>
+          <div className="flex flex-wrap gap-x-7 gap-y-2 text-[13px] text-white/50">
+            {s.footer.services.map((svc) => (
+              <a key={svc} href="#" className="transition-colors hover:text-white">
+                {svc}
+              </a>
+            ))}
           </div>
         </div>
-
-        <HairlineRule color="rgba(255,255,255,0.1)" style={{ marginBottom: 24 }} />
-
-        <p
-          style={{
-            fontFamily: sansFont,
-            fontSize: '0.78rem',
-            color: 'rgba(255,255,255,0.3)',
-            textAlign: 'center',
-            margin: 0,
-            letterSpacing: '0.02em',
-          }}
-        >
-          {footer.copyright}
+        <p className="mx-auto mt-10 max-w-7xl text-[12px] text-white/30">
+          {s.footer.copyright}
         </p>
-      </Section>
-    </footer>
-  );
-}
+      </footer>
 
-// ══════════════════════════════════════════════════════════════════════════
-// MAIN PAGE
-// ══════════════════════════════════════════════════════════════════════════
-export default function Design3Page() {
-  return (
-    <>
-      <FontLoader />
-
-      {/* Responsive overrides */}
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-            *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-            html { scroll-behavior: smooth; }
-            body { background: ${colors.cream}; }
-
-            @media (max-width: 768px) {
-              .nav-desktop { display: none !important; }
-              .nav-mobile-toggle { display: flex !important; }
-              .growth-columns {
-                grid-template-columns: 1fr !important;
-                gap: 32px !important;
-              }
-              .growth-columns > div:nth-child(2) {
-                display: none !important;
-              }
-              .services-grid {
-                grid-template-columns: 1fr !important;
-              }
-              .services-grid > div {
-                border-right: none !important;
-              }
-              .stats-row {
-                flex-direction: column !important;
-                align-items: center !important;
-                gap: 32px !important;
-              }
-              .stats-divider {
-                display: none !important;
-              }
-              .why-body-columns {
-                column-count: 1 !important;
-              }
-              .why-cards {
-                grid-template-columns: 1fr !important;
-              }
-              .specialized-columns {
-                grid-template-columns: 1fr !important;
-                gap: 32px !important;
-              }
-              .book-audit-layout {
-                grid-template-columns: 1fr !important;
-                gap: 32px !important;
-              }
-              .footer-grid {
-                grid-template-columns: 1fr !important;
-                gap: 32px !important;
-              }
-            }
-
-            @media (min-width: 769px) {
-              .nav-mobile-toggle { display: none !important; }
-              .nav-mobile-menu { display: none !important; }
-            }
-          `,
-        }}
-      />
-
-      <Nav />
-      <Hero />
-      <Growth />
-      <SocialProof />
-      <SpecializedMarketing />
-      <Services />
-      <Stats />
-      <WhyChoose />
-      <FAQ />
-      <BookAudit />
-      <CTA />
-      <Footer />
-    </>
+      <Link
+        href="/"
+        className="fixed bottom-6 left-6 z-50 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[12px] text-white/70 backdrop-blur transition-colors hover:text-white"
+      >
+        ← Gallery
+      </Link>
+    </div>
   );
 }

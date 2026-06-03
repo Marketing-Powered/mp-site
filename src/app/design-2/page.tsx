@@ -1,1338 +1,386 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { siteContent } from '@/lib/content';
-
-/* ------------------------------------------------------------------ */
-/*  Design 2 — "Bold Agency"                                           */
-/*  Dark bg, neon cyan/magenta accents, Space Grotesk, dramatic        */
-/* ------------------------------------------------------------------ */
-
-const c = {
-  bg: '#0A0A0A',
-  bgCard: '#111111',
-  bgFooter: '#060606',
-  text: '#E8E8E8',
-  textMuted: '#888899',
-  cyan: '#00F0FF',
-  magenta: '#FF2D6B',
-  white: '#FFFFFF',
-  border: '#1A1A2A',
-  gradientCyan: 'linear-gradient(135deg, #00F0FF 0%, #00A8FF 100%)',
-  gradientMagenta: 'linear-gradient(135deg, #FF2D6B 0%, #FF6B9D 100%)',
-  gradientHero: 'linear-gradient(135deg, #00F0FF 0%, #FF2D6B 100%)',
-  gradientCta: 'linear-gradient(180deg, #0A0A0A 0%, #141428 50%, #0A0A0A 100%)',
-};
-
-const font = "'Space Grotesk', sans-serif";
-
-/* ---- reusable style helpers ---- */
-const sectionStyle = (overrides?: React.CSSProperties): React.CSSProperties => ({
-  padding: '100px 24px',
-  backgroundColor: c.bg,
-  fontFamily: font,
-  position: 'relative',
-  ...overrides,
-});
-
-const container: React.CSSProperties = {
-  maxWidth: 1200,
-  margin: '0 auto',
-  width: '100%',
-};
-
-const glowBtn = (color = c.cyan): React.CSSProperties => ({
-  display: 'inline-block',
-  padding: '16px 40px',
-  background: 'transparent',
-  color: color,
-  fontFamily: font,
-  fontSize: 14,
-  fontWeight: 700,
-  letterSpacing: '0.1em',
-  border: `2px solid ${color}`,
-  cursor: 'pointer',
-  textDecoration: 'none',
-  textTransform: 'uppercase' as const,
-  boxShadow: `0 0 20px ${color}44, 0 0 40px ${color}22, inset 0 0 20px ${color}11`,
-  transition: 'all 0.3s ease',
-  position: 'relative' as const,
-});
-
-/* ---- SVG icon map ---- */
-function SvgIcon({ name, size = 32, color = c.cyan }: { name: string; size?: number; color?: string }) {
-  const props = { width: size, height: size, viewBox: '0 0 24 24', fill: 'none', stroke: color, strokeWidth: 1.5, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const };
-  switch (name) {
-    case 'target':
-      return <svg {...props}><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>;
-    case 'search':
-      return <svg {...props}><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>;
-    case 'chart':
-      return <svg {...props}><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>;
-    case 'code':
-      return <svg {...props}><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>;
-    case 'shield':
-      return <svg {...props}><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>;
-    case 'zap':
-      return <svg {...props}><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" fill={color} stroke={color}/></svg>;
-    default:
-      return <svg {...props}><circle cx="12" cy="12" r="10"/></svg>;
-  }
-}
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { siteContent as s } from "@/lib/content";
+import Reveal from "@/components/Reveal";
 
 /* ================================================================== */
-/*  PAGE COMPONENT                                                     */
+/*  DESIGN 2 — "The Quarterly"                                         */
+/*  High-end print magazine. Warm paper stock, Newsreader display      */
+/*  serif, editorial multi-column copy, drop caps, ruled captions,     */
+/*  oxblood accent. Intentional asymmetry and generous margins.        */
 /* ================================================================== */
 
-export default function Design2Page() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [mobileMenu, setMobileMenu] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+const PAPER = "#F4EFE6";
+const INK = "#1C1815";
+const display = "'Newsreader', Georgia, serif";
+const accentSerif = "'Fraunces', Georgia, serif";
+const sans = "'Manrope', system-ui, sans-serif";
 
-  const d = siteContent;
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 60);
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
+export default function Design2() {
+  const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <div style={{ fontFamily: font, color: c.text, backgroundColor: c.bg, overflowX: 'hidden' }}>
-      {/* ---- Global styles & animations ---- */}
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-        html { scroll-behavior: smooth; }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        ::selection { background: #00F0FF33; color: #fff; }
+    <div
+      style={{ background: PAPER, color: INK, fontFamily: sans }}
+      className="relative min-h-screen"
+    >
+      {/* paper grain */}
+      <div
+        aria-hidden
+        className="pointer-events-none fixed inset-0 z-0 opacity-[0.45] mix-blend-multiply"
+        style={{
+          backgroundImage:
+            "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.18'/%3E%3C/svg%3E\")",
+        }}
+      />
 
-        @keyframes marquee {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
-        }
-        @keyframes glow-pulse {
-          0%, 100% { box-shadow: 0 0 20px #00F0FF44, 0 0 40px #00F0FF22; }
-          50% { box-shadow: 0 0 30px #00F0FF66, 0 0 60px #00F0FF33, 0 0 80px #00F0FF11; }
-        }
-        @keyframes glow-text {
-          0%, 100% { text-shadow: 0 0 20px #00F0FF44, 0 0 40px #00F0FF22; }
-          50% { text-shadow: 0 0 30px #00F0FF66, 0 0 60px #00F0FF33; }
-        }
-        @keyframes float {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-10px); }
-        }
-        @keyframes border-glow {
-          0%, 100% { border-color: #00F0FF; box-shadow: 0 0 15px #00F0FF33; }
-          50% { border-color: #FF2D6B; box-shadow: 0 0 15px #FF2D6B33; }
-        }
-
-        .nav-link { color: #888899; text-decoration: none; font-size: 14px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.3s; font-family: 'Space Grotesk', sans-serif; }
-        .nav-link:hover { color: #00F0FF; }
-
-        .service-card { transition: transform 0.3s, box-shadow 0.3s; }
-        .service-card:hover { transform: translateY(-6px); }
-
-        .faq-item { transition: all 0.3s ease; }
-        .faq-item:hover { border-color: #00F0FF !important; }
-
-        .glow-btn:hover {
-          background: #00F0FF !important;
-          color: #0A0A0A !important;
-          box-shadow: 0 0 30px #00F0FF66, 0 0 60px #00F0FF33, 0 0 90px #00F0FF11 !important;
-        }
-        .glow-btn-magenta:hover {
-          background: #FF2D6B !important;
-          color: #0A0A0A !important;
-          box-shadow: 0 0 30px #FF2D6B66, 0 0 60px #FF2D6B33, 0 0 90px #FF2D6B11 !important;
-        }
-
-        .why-card { transition: transform 0.3s, border-color 0.3s; }
-        .why-card:hover { transform: translateX(8px); border-color: #00F0FF !important; }
-
-        .stat-item { transition: transform 0.3s; }
-        .stat-item:hover { transform: scale(1.05); }
-
-        @media (max-width: 768px) {
-          .hero-headline { font-size: 3rem !important; }
-          .services-grid { grid-template-columns: 1fr !important; }
-          .stats-grid { grid-template-columns: 1fr !important; }
-          .why-card-inner { flex-direction: column !important; }
-          .why-number { font-size: 4rem !important; min-width: auto !important; }
-          .nav-links-desktop { display: none !important; }
-          .mobile-toggle { display: flex !important; }
-          .footer-grid { grid-template-columns: 1fr !important; }
-          .cta-headline { font-size: 2.5rem !important; }
-          .growth-text { font-size: 1.3rem !important; }
-        }
-
-        @media (max-width: 480px) {
-          .hero-headline { font-size: 2.2rem !important; line-height: 1.15 !important; }
-          .cta-headline { font-size: 1.8rem !important; }
-        }
-      `}</style>
-
-      {/* ================================================================ */}
-      {/*  1. NAV                                                          */}
-      {/* ================================================================ */}
-      <nav style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        zIndex: 1000,
-        padding: '0 24px',
-        height: 72,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: scrolled ? 'rgba(10,10,10,0.92)' : 'transparent',
-        backdropFilter: scrolled ? 'blur(20px)' : 'none',
-        borderBottom: scrolled ? `1px solid ${c.border}` : '1px solid transparent',
-        transition: 'all 0.4s ease',
-        fontFamily: font,
-      }}>
-        <div style={{ ...container, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          {/* Logo */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <div style={{
-              width: 36,
-              height: 36,
-              background: c.gradientHero,
-              clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}>
-              <span style={{ color: c.bg, fontWeight: 700, fontSize: 14 }}>MP</span>
-            </div>
-            <span style={{ fontWeight: 700, fontSize: 18, color: c.white, letterSpacing: '-0.02em' }}>
-              {d.brand.name}
-            </span>
-          </div>
-
-          {/* Desktop Links */}
-          <div className="nav-links-desktop" style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
-            {d.nav.map((link) => (
-              <a key={link} href="#" className="nav-link">{link}</a>
-            ))}
-            <a href={`tel:${d.brand.phone}`} style={{
-              ...glowBtn(c.cyan),
-              padding: '10px 24px',
-              fontSize: 12,
-              animation: 'border-glow 3s ease-in-out infinite',
-            }} className="glow-btn">
-              {d.brand.phone}
-            </a>
-          </div>
-
-          {/* Mobile toggle */}
-          <button
-            className="mobile-toggle"
-            onClick={() => setMobileMenu(!mobileMenu)}
-            style={{
-              display: 'none',
-              alignItems: 'center',
-              justifyContent: 'center',
-              width: 44,
-              height: 44,
-              background: 'transparent',
-              border: `1px solid ${c.border}`,
-              cursor: 'pointer',
-              flexDirection: 'column',
-              gap: 5,
-            }}
-          >
-            <span style={{ width: 22, height: 2, background: c.cyan, transition: 'all 0.3s', transform: mobileMenu ? 'rotate(45deg) translateY(7px)' : 'none' }} />
-            <span style={{ width: 22, height: 2, background: c.cyan, opacity: mobileMenu ? 0 : 1, transition: 'all 0.3s' }} />
-            <span style={{ width: 22, height: 2, background: c.cyan, transition: 'all 0.3s', transform: mobileMenu ? 'rotate(-45deg) translateY(-7px)' : 'none' }} />
-          </button>
+      {/* ---------- MASTHEAD ---------- */}
+      <header className="relative z-10 mx-auto max-w-6xl px-6 lg:px-10">
+        <div className="flex items-center justify-between border-b-2 border-[#1C1815] py-5 text-[11px] uppercase tracking-[0.25em]">
+          <span>Vol. XII — Behavioral Health</span>
+          <span className="hidden sm:block">Issue No. 2026</span>
+          <span>{s.brand.address.split(",")[1]}</span>
         </div>
-
-        {/* Mobile menu */}
-        {mobileMenu && (
-          <div style={{
-            position: 'absolute',
-            top: 72,
-            left: 0,
-            right: 0,
-            background: 'rgba(10,10,10,0.98)',
-            backdropFilter: 'blur(20px)',
-            padding: '32px 24px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 24,
-            borderBottom: `1px solid ${c.border}`,
-          }}>
-            {d.nav.map((link) => (
-              <a key={link} href="#" className="nav-link" style={{ fontSize: 18 }} onClick={() => setMobileMenu(false)}>{link}</a>
-            ))}
-            <a href={`tel:${d.brand.phone}`} style={{ ...glowBtn(c.cyan), textAlign: 'center', fontSize: 14 }} className="glow-btn">
-              {d.brand.phone}
-            </a>
-          </div>
-        )}
-      </nav>
-
-      {/* ================================================================ */}
-      {/*  2. HERO                                                         */}
-      {/* ================================================================ */}
-      <section style={{
-        minHeight: '100vh',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        position: 'relative',
-        overflow: 'hidden',
-        backgroundColor: c.bg,
-        fontFamily: font,
-        padding: '120px 24px 80px',
-      }}>
-        {/* Grid overlay */}
-        <div style={{
-          position: 'absolute',
-          inset: 0,
-          backgroundImage: `
-            linear-gradient(rgba(0,240,255,0.03) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(0,240,255,0.03) 1px, transparent 1px)
-          `,
-          backgroundSize: '60px 60px',
-          pointerEvents: 'none',
-        }} />
-        {/* Radial glow */}
-        <div style={{
-          position: 'absolute',
-          top: '20%',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          width: '800px',
-          height: '800px',
-          background: 'radial-gradient(circle, rgba(0,240,255,0.06) 0%, transparent 70%)',
-          pointerEvents: 'none',
-        }} />
-        {/* Corner geometric accent */}
-        <div style={{
-          position: 'absolute',
-          top: 80,
-          right: -60,
-          width: 200,
-          height: 200,
-          border: `1px solid ${c.cyan}22`,
-          transform: 'rotate(45deg)',
-          pointerEvents: 'none',
-        }} />
-        <div style={{
-          position: 'absolute',
-          bottom: 120,
-          left: -40,
-          width: 140,
-          height: 140,
-          border: `1px solid ${c.magenta}22`,
-          transform: 'rotate(30deg)',
-          pointerEvents: 'none',
-        }} />
-
-        <div style={{ ...container, textAlign: 'center', position: 'relative', zIndex: 1 }}>
-          {/* Overline */}
-          <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: 12,
-            marginBottom: 32,
-            padding: '8px 20px',
-            border: `1px solid ${c.border}`,
-            fontSize: 12,
-            fontWeight: 600,
-            letterSpacing: '0.15em',
-            textTransform: 'uppercase',
-            color: c.cyan,
-          }}>
-            <span style={{ width: 8, height: 8, backgroundColor: c.cyan, boxShadow: `0 0 10px ${c.cyan}`, display: 'inline-block' }} />
-            AI Marketing Agency
-          </div>
-
-          {/* Headline */}
-          <h1 className="hero-headline" style={{
-            fontSize: '6.5rem',
-            fontWeight: 700,
-            lineHeight: 1.05,
-            letterSpacing: '-0.03em',
-            color: c.white,
-            marginBottom: 28,
-          }}>
-            <span style={{
-              background: c.gradientHero,
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-              filter: 'drop-shadow(0 0 30px rgba(0,240,255,0.3))',
-            }}>
-              {d.hero.headline}
-            </span>
+        <div className="flex flex-col items-center border-b border-[#1C1815]/30 py-8 text-center">
+          <span className="mb-3 text-[11px] uppercase tracking-[0.4em] text-[#8A2B2B]">
+            An AI Marketing Quarterly
+          </span>
+          <h1
+            className="text-[clamp(2.4rem,7vw,5.5rem)] leading-[0.92]"
+            style={{ fontFamily: display, fontWeight: 500, letterSpacing: "-0.02em" }}
+          >
+            Marketing Powered
           </h1>
-
-          {/* Subtitle */}
-          <p style={{
-            fontSize: 18,
-            lineHeight: 1.7,
-            color: c.textMuted,
-            maxWidth: 680,
-            margin: '0 auto 48px',
-          }}>
-            {d.hero.subheadline}
-          </p>
-
-          {/* CTA */}
-          <a
-            href={d.hero.ctaLink}
-            style={{
-              ...glowBtn(c.cyan),
-              fontSize: 16,
-              padding: '18px 48px',
-              animation: 'glow-pulse 2s ease-in-out infinite',
-            }}
-            className="glow-btn"
-          >
-            {d.hero.cta}
-          </a>
-
-          {/* Hero image */}
-          <div style={{ marginTop: 64, position: 'relative' }}>
-            <div style={{
-              position: 'absolute',
-              inset: -2,
-              background: `linear-gradient(135deg, ${c.cyan}33, ${c.magenta}33)`,
-              borderRadius: 16,
-              filter: 'blur(20px)',
-              pointerEvents: 'none',
-            }} />
-            <img
-              src={d.hero.image}
-              alt={d.hero.imageAlt}
-              style={{
-                width: '100%',
-                maxWidth: 900,
-                borderRadius: 12,
-                border: `1px solid ${c.border}`,
-                position: 'relative',
-                display: 'block',
-                margin: '0 auto',
-              }}
-            />
-          </div>
-
-          {/* Scroll indicator */}
-          <div style={{
-            marginTop: 80,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: 8,
-            color: c.textMuted,
-            fontSize: 11,
-            letterSpacing: '0.15em',
-            textTransform: 'uppercase',
-          }}>
-            <span>Scroll</span>
-            <div style={{
-              width: 1,
-              height: 40,
-              background: `linear-gradient(to bottom, ${c.cyan}, transparent)`,
-            }} />
-          </div>
         </div>
-      </section>
+        <nav className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 py-4 text-[12px] uppercase tracking-[0.18em] text-[#1C1815]/70">
+          {[...s.nav, "Contact"].map((n) => (
+            <a key={n} href="#" className="transition-colors hover:text-[#8A2B2B]">
+              {n}
+            </a>
+          ))}
+        </nav>
+      </header>
 
-      {/* ================================================================ */}
-      {/*  3. GROWTH                                                       */}
-      {/* ================================================================ */}
-      <section style={sectionStyle({ padding: '120px 24px' })}>
-        <div style={container}>
-          <div style={{
-            borderLeft: `4px solid ${c.cyan}`,
-            paddingLeft: 40,
-            maxWidth: 900,
-            boxShadow: `-4px 0 30px ${c.cyan}22`,
-          }}>
-            <h2 className="growth-text" style={{
-              fontSize: '1.8rem',
-              fontWeight: 300,
-              lineHeight: 1.7,
-              color: c.text,
-            }}>
-              <span style={{ fontWeight: 700, color: c.white, fontSize: '2rem' }}>
-                {d.growth.headline}
-              </span>{' '}
-              {d.growth.body}
-            </h2>
-          </div>
-          <div style={{
-            marginTop: 48,
-            paddingLeft: 44,
-            maxWidth: 900,
-          }}>
-            <p style={{
-              fontSize: 16,
-              lineHeight: 1.8,
-              color: c.textMuted,
-            }}>
-              {d.growth.body2}
+      {/* ---------- HERO / COVER STORY ---------- */}
+      <section className="relative z-10 mx-auto max-w-6xl px-6 py-14 lg:px-10">
+        <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
+          <Reveal>
+            <p className="mb-6 text-[12px] uppercase tracking-[0.3em] text-[#8A2B2B]">
+              The Cover Story
             </p>
-            {d.growth.body3 && (
-              <p style={{
-                fontSize: 16,
-                lineHeight: 1.8,
-                color: c.textMuted,
-                marginTop: 24,
-              }}>
-                {d.growth.body3}
-              </p>
-            )}
-          </div>
+            <h2
+              className="text-[clamp(2.2rem,4.5vw,4rem)] leading-[1.02]"
+              style={{ fontFamily: display, fontWeight: 500, letterSpacing: "-0.015em" }}
+            >
+              {s.hero.headline}
+            </h2>
+            <p className="mt-8 max-w-md text-[1.05rem] leading-relaxed text-[#1C1815]/70">
+              {s.hero.subheadline}
+            </p>
+            <Link
+              href={s.hero.ctaLink}
+              className="group mt-9 inline-flex items-center gap-3 border-b-2 border-[#8A2B2B] pb-1 text-[13px] font-semibold uppercase tracking-[0.18em] text-[#8A2B2B]"
+            >
+              {s.hero.cta}
+              <span className="transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </Link>
+          </Reveal>
 
-          {/* Growth image */}
-          {d.growth.image && (
-            <div style={{ marginTop: 56, display: 'flex', justifyContent: 'center' }}>
-              <img
-                src={d.growth.image}
-                alt={d.growth.imageAlt}
-                style={{
-                  width: '100%',
-                  maxWidth: 480,
-                  borderRadius: 12,
-                  border: `1px solid ${c.border}`,
-                }}
-              />
-            </div>
-          )}
+          <Reveal variant="blur" delay={120} className="relative">
+            <figure className="relative">
+              <div className="overflow-hidden">
+                <Image
+                  src={s.hero.image}
+                  alt={s.hero.imageAlt}
+                  width={760}
+                  height={900}
+                  priority
+                  className="h-[clamp(360px,48vw,540px)] w-full object-cover"
+                  style={{ filter: "sepia(0.08) contrast(1.03)" }}
+                />
+              </div>
+              <figcaption className="mt-3 flex items-start gap-3 text-[11px] uppercase tracking-[0.14em] text-[#1C1815]/55">
+                <span className="mt-0.5 inline-block h-3 w-3 shrink-0 bg-[#8A2B2B]" />
+                Fig. 01 — Strategy built on $50M+ in managed spend
+              </figcaption>
+            </figure>
+          </Reveal>
         </div>
       </section>
 
-      {/* Geometric divider */}
-      <div style={{
-        height: 1,
-        background: `linear-gradient(90deg, transparent, ${c.cyan}44, ${c.magenta}44, transparent)`,
-        margin: '0 24px',
-        maxWidth: 1200,
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      }} />
+      {/* ---------- RULE / SOCIAL PROOF ---------- */}
+      <section className="relative z-10 mx-auto max-w-6xl px-6 lg:px-10">
+        <div className="flex flex-col items-center gap-3 border-y-2 border-[#1C1815] py-6 text-center">
+          <p
+            className="text-[clamp(1.1rem,2.4vw,1.8rem)] italic"
+            style={{ fontFamily: accentSerif }}
+          >
+            “{s.socialProof}.”
+          </p>
+        </div>
+      </section>
 
-      {/* ================================================================ */}
-      {/*  4. SOCIAL PROOF MARQUEE                                         */}
-      {/* ================================================================ */}
-      <section style={sectionStyle({ padding: '60px 0', overflow: 'hidden' })}>
-        <div style={{
-          display: 'flex',
-          whiteSpace: 'nowrap',
-          animation: 'marquee 25s linear infinite',
-        }}>
-          {Array.from({ length: 8 }).map((_, i) => (
-            <span key={i} style={{
-              fontSize: '3.5rem',
-              fontWeight: 700,
-              color: i % 2 === 0 ? c.white : 'transparent',
-              WebkitTextStroke: i % 2 === 0 ? 'none' : `1px ${c.textMuted}`,
-              letterSpacing: '-0.02em',
-              marginRight: 80,
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 24,
-            }}>
-              <span style={{
-                width: 12,
-                height: 12,
-                backgroundColor: i % 2 === 0 ? c.cyan : c.magenta,
-                boxShadow: `0 0 10px ${i % 2 === 0 ? c.cyan : c.magenta}`,
-                display: 'inline-block',
-                flexShrink: 0,
-              }} />
-              {d.socialProof}
-            </span>
+      {/* ---------- FEATURE / EXPERTS (drop cap + columns) ---------- */}
+      <section className="relative z-10 mx-auto max-w-6xl px-6 py-20 lg:px-10">
+        <div className="grid gap-12 lg:grid-cols-[0.4fr_1.6fr]">
+          <Reveal>
+            <div className="lg:sticky lg:top-10">
+              <p className="text-[12px] uppercase tracking-[0.3em] text-[#8A2B2B]">
+                Feature
+              </p>
+              <h3
+                className="mt-4 text-[clamp(1.8rem,3vw,2.6rem)] leading-[1.05]"
+                style={{ fontFamily: display, fontWeight: 500 }}
+              >
+                {s.growth.headline}
+              </h3>
+              <div className="mt-6 h-px w-16 bg-[#8A2B2B]" />
+            </div>
+          </Reveal>
+
+          <Reveal delay={120}>
+            <div className="columns-1 gap-10 md:columns-2 [&>p]:mb-5 [&>p]:text-[1.02rem] [&>p]:leading-[1.75] [&>p]:text-[#1C1815]/75">
+              <p className="first-letter:float-left first-letter:mr-3 first-letter:mt-1 first-letter:text-[4.5rem] first-letter:leading-[0.7] first-letter:text-[#8A2B2B] first-letter:[font-family:'Fraunces',serif]">
+                {s.growth.body}
+              </p>
+              <p>{s.growth.body2}</p>
+              <p>{s.growth.body3}</p>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ---------- STATS (ledger) ---------- */}
+      <section className="relative z-10 border-y-2 border-[#1C1815]">
+        <div className="mx-auto grid max-w-6xl divide-y divide-[#1C1815]/20 px-6 sm:grid-cols-2 sm:divide-y-0 sm:divide-x lg:grid-cols-4 lg:px-10">
+          {s.stats.map((stat, i) => (
+            <Reveal key={stat.value} delay={i * 80} className="px-2 py-10 sm:px-6">
+              <div
+                className="text-[clamp(2.6rem,4.5vw,3.6rem)] leading-none text-[#8A2B2B]"
+                style={{ fontFamily: display, fontWeight: 500 }}
+              >
+                {stat.value}
+              </div>
+              <p className="mt-4 text-[13px] leading-relaxed text-[#1C1815]/65">
+                {stat.label}
+              </p>
+            </Reveal>
           ))}
         </div>
       </section>
 
-      {/* ================================================================ */}
-      {/*  4b. SPECIALIZED MARKETING                                       */}
-      {/* ================================================================ */}
-      <section style={sectionStyle({ padding: '120px 24px' })}>
-        <div style={container}>
-          <div style={{ marginBottom: 48, maxWidth: 800 }}>
-            <div style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 12,
-              marginBottom: 20,
-              fontSize: 12,
-              fontWeight: 600,
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              color: c.magenta,
-            }}>
-              <span style={{ width: 30, height: 1, backgroundColor: c.magenta, display: 'inline-block' }} />
-              Specialized Expertise
-            </div>
-            <h2 style={{
-              fontSize: '3rem',
-              fontWeight: 700,
-              lineHeight: 1.1,
-              color: c.white,
-              letterSpacing: '-0.02em',
-              marginBottom: 28,
-            }}>
-              {d.specializedMarketing.headline}
-            </h2>
+      {/* ---------- SERVICES (editorial cards) ---------- */}
+      <section className="relative z-10 mx-auto max-w-6xl px-6 py-20 lg:px-10">
+        <Reveal>
+          <div className="mb-12 flex items-end justify-between border-b border-[#1C1815]/30 pb-4">
+            <h3
+              className="text-[clamp(1.8rem,3.4vw,2.8rem)]"
+              style={{ fontFamily: display, fontWeight: 500 }}
+            >
+              {s.servicesIntro.headline}
+            </h3>
+            <span className="hidden text-[12px] uppercase tracking-[0.2em] text-[#1C1815]/50 md:block">
+              Six Disciplines
+            </span>
           </div>
-
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 24, maxWidth: 900 }}>
-            <p style={{ fontSize: 16, lineHeight: 1.8, color: c.textMuted }}>
-              {d.specializedMarketing.body}
-            </p>
-            <p style={{ fontSize: 16, lineHeight: 1.8, color: c.textMuted }}>
-              {d.specializedMarketing.body2}
-            </p>
-            <p style={{ fontSize: 16, lineHeight: 1.8, color: c.textMuted }}>
-              {d.specializedMarketing.body3}
-            </p>
-            <p style={{ fontSize: 16, lineHeight: 1.8, color: c.textMuted }}>
-              {d.specializedMarketing.body4}
-            </p>
-          </div>
-
-          {d.specializedMarketing.image && (
-            <div style={{ marginTop: 56, display: 'flex', justifyContent: 'center' }}>
-              <img
-                src={d.specializedMarketing.image}
-                alt={d.specializedMarketing.imageAlt}
-                style={{
-                  width: '100%',
-                  maxWidth: 560,
-                  borderRadius: 12,
-                  border: `1px solid ${c.border}`,
-                }}
-              />
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* Geometric divider */}
-      <div style={{
-        height: 1,
-        background: `linear-gradient(90deg, transparent, ${c.magenta}44, ${c.cyan}44, transparent)`,
-        margin: '0 24px',
-        maxWidth: 1200,
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      }} />
-
-      {/* ================================================================ */}
-      {/*  5. SERVICES                                                     */}
-      {/* ================================================================ */}
-      <section style={sectionStyle()}>
-        <div style={container}>
-          {/* Section header */}
-          <div style={{ marginBottom: 72, maxWidth: 700 }}>
-            <div style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 12,
-              marginBottom: 20,
-              fontSize: 12,
-              fontWeight: 600,
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              color: c.cyan,
-            }}>
-              <span style={{ width: 30, height: 1, backgroundColor: c.cyan, display: 'inline-block' }} />
-              What We Do
-            </div>
-            <h2 style={{
-              fontSize: '3.5rem',
-              fontWeight: 700,
-              lineHeight: 1.1,
-              color: c.white,
-              letterSpacing: '-0.02em',
-              marginBottom: 20,
-            }}>
-              {d.servicesIntro.headline}
-            </h2>
-            <p style={{ fontSize: 17, lineHeight: 1.7, color: c.textMuted }}>
-              {d.servicesIntro.body}
-            </p>
-          </div>
-
-          {/* Cards grid */}
-          <div className="services-grid" style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
-            gap: 24,
-          }}>
-            {d.services.map((s, i) => {
-              const accent = i % 2 === 0 ? c.cyan : c.magenta;
-              return (
-                <div key={i} className="service-card" style={{
-                  backgroundColor: c.bgCard,
-                  border: `1px solid ${c.border}`,
-                  borderTop: `3px solid ${accent}`,
-                  padding: '40px 32px',
-                  position: 'relative',
-                  overflow: 'hidden',
-                }}>
-                  {/* Glow on hover via pseudo-element simulation */}
-                  <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    height: 1,
-                    background: `linear-gradient(90deg, transparent, ${accent}66, transparent)`,
-                    boxShadow: `0 0 30px ${accent}22`,
-                  }} />
-                  <div style={{ marginBottom: 24 }}>
-                    <SvgIcon name={s.icon} size={36} color={accent} />
-                  </div>
-                  <h3 style={{
-                    fontSize: 20,
-                    fontWeight: 700,
-                    color: c.white,
-                    marginBottom: 16,
-                    letterSpacing: '-0.01em',
-                  }}>
-                    {s.title}
-                  </h3>
-                  <p style={{ fontSize: 14, lineHeight: 1.7, color: c.textMuted }}>
-                    {s.description}
-                  </p>
-                  {/* Bottom accent line */}
-                  <div style={{
-                    marginTop: 28,
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: 8,
-                    color: accent,
-                    fontSize: 12,
-                    fontWeight: 600,
-                    letterSpacing: '0.1em',
-                    textTransform: 'uppercase',
-                    cursor: 'pointer',
-                  }}>
-                    Learn More
-                    <span style={{ fontSize: 18 }}>&rarr;</span>
-                  </div>
+        </Reveal>
+        <div className="grid gap-x-12 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+          {s.services.map((svc, i) => (
+            <Reveal key={svc.title} delay={(i % 3) * 80}>
+              <article className="group">
+                <div className="mb-4 flex items-baseline gap-3 border-b border-[#1C1815]/20 pb-3">
+                  <span
+                    className="text-[13px] text-[#8A2B2B]"
+                    style={{ fontFamily: accentSerif }}
+                  >
+                    §{i + 1}
+                  </span>
+                  <h4
+                    className="text-[1.3rem] leading-snug transition-colors group-hover:text-[#8A2B2B]"
+                    style={{ fontFamily: display, fontWeight: 500 }}
+                  >
+                    {svc.title}
+                  </h4>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================ */}
-      {/*  6. STATS / PROVEN RESULTS                                       */}
-      {/* ================================================================ */}
-      <section style={sectionStyle({ padding: '100px 24px', position: 'relative' })}>
-        {/* Background geometric */}
-        <div style={{
-          position: 'absolute',
-          top: '50%',
-          right: '5%',
-          width: 300,
-          height: 300,
-          border: `1px solid ${c.cyan}0D`,
-          transform: 'translateY(-50%) rotate(45deg)',
-          pointerEvents: 'none',
-        }} />
-        <div style={container}>
-          <div style={{ textAlign: 'center', marginBottom: 72 }}>
-            <div style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 12,
-              marginBottom: 20,
-              fontSize: 12,
-              fontWeight: 600,
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              color: c.magenta,
-            }}>
-              <span style={{ width: 30, height: 1, backgroundColor: c.magenta, display: 'inline-block' }} />
-              Proven Results
-              <span style={{ width: 30, height: 1, backgroundColor: c.magenta, display: 'inline-block' }} />
-            </div>
-            <h2 style={{
-              fontSize: '3.5rem',
-              fontWeight: 700,
-              color: c.white,
-              letterSpacing: '-0.02em',
-            }}>
-              Numbers That{' '}
-              <span style={{
-                background: c.gradientHero,
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text',
-              }}>Speak</span>
-            </h2>
-          </div>
-
-          <div className="stats-grid" style={{
-            display: 'grid',
-            gridTemplateColumns: `repeat(${d.stats.length}, 1fr)`,
-            gap: 0,
-          }}>
-            {d.stats.map((stat, i) => (
-              <div key={i} className="stat-item" style={{
-                textAlign: 'center',
-                padding: '40px 24px',
-                borderRight: i < d.stats.length - 1 ? `1px solid ${c.border}` : 'none',
-                position: 'relative',
-              }}>
-                <div style={{
-                  fontSize: '3.5rem',
-                  fontWeight: 700,
-                  color: i % 2 === 0 ? c.cyan : c.magenta,
-                  letterSpacing: '-0.02em',
-                  lineHeight: 1,
-                  marginBottom: 16,
-                  textShadow: `0 0 30px ${i % 2 === 0 ? c.cyan : c.magenta}44`,
-                  animation: 'glow-text 3s ease-in-out infinite',
-                }}>
-                  {stat.value}
-                </div>
-                <p style={{
-                  fontSize: 13,
-                  lineHeight: 1.6,
-                  color: c.textMuted,
-                  maxWidth: 200,
-                  margin: '0 auto',
-                }}>
-                  {stat.label}
+                <p className="text-[0.95rem] leading-relaxed text-[#1C1815]/70">
+                  {svc.description}
                 </p>
-              </div>
-            ))}
-          </div>
+              </article>
+            </Reveal>
+          ))}
         </div>
       </section>
 
-      {/* Geometric divider */}
-      <div style={{
-        height: 1,
-        background: `linear-gradient(90deg, transparent, ${c.magenta}44, ${c.cyan}44, transparent)`,
-        margin: '0 24px',
-        maxWidth: 1200,
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      }} />
-
-      {/* ================================================================ */}
-      {/*  7. WHY CHOOSE                                                   */}
-      {/* ================================================================ */}
-      <section style={sectionStyle()}>
-        <div style={container}>
-          <div style={{ textAlign: 'center', marginBottom: 80 }}>
-            <div style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 12,
-              marginBottom: 20,
-              fontSize: 12,
-              fontWeight: 600,
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              color: c.cyan,
-            }}>
-              <span style={{ width: 30, height: 1, backgroundColor: c.cyan, display: 'inline-block' }} />
-              Why Us
-              <span style={{ width: 30, height: 1, backgroundColor: c.cyan, display: 'inline-block' }} />
-            </div>
-            <h2 style={{
-              fontSize: '3.5rem',
-              fontWeight: 700,
-              color: c.white,
-              letterSpacing: '-0.02em',
-              marginBottom: 20,
-            }}>
-              {d.whyChoose.headline}
-            </h2>
-            <p style={{
-              fontSize: 17,
-              lineHeight: 1.7,
-              color: c.textMuted,
-              maxWidth: 700,
-              margin: '0 auto',
-            }}>
-              {d.whyChoose.body}
+      {/* ---------- PULL QUOTE + IMAGE ---------- */}
+      <section className="relative z-10 mx-auto max-w-6xl px-6 py-10 lg:px-10">
+        <div className="grid items-center gap-12 lg:grid-cols-2">
+          <Reveal variant="blur" className="relative">
+            <Image
+              src={s.specializedMarketing.image}
+              alt={s.specializedMarketing.imageAlt}
+              width={720}
+              height={620}
+              className="w-full object-cover"
+              style={{ filter: "sepia(0.06) contrast(1.02)" }}
+            />
+          </Reveal>
+          <Reveal delay={120}>
+            <p className="mb-5 text-[12px] uppercase tracking-[0.3em] text-[#8A2B2B]">
+              On Compliance
             </p>
-          </div>
-
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-            {d.whyChoose.cards.map((card, i) => {
-              const isEven = i % 2 === 0;
-              const accent = isEven ? c.cyan : c.magenta;
-              return (
-                <div key={i} className="why-card" style={{
-                  backgroundColor: c.bgCard,
-                  border: `1px solid ${c.border}`,
-                  borderLeft: `3px solid ${accent}`,
-                  padding: '48px 40px',
-                  position: 'relative',
-                  overflow: 'hidden',
-                  transition: 'all 0.3s',
-                }}>
-                  <div className="why-card-inner" style={{
-                    display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: 40,
-                    flexDirection: isEven ? 'row' : 'row-reverse',
-                  }}>
-                    {/* Big number */}
-                    <div className="why-number" style={{
-                      fontSize: '6rem',
-                      fontWeight: 700,
-                      lineHeight: 1,
-                      color: 'transparent',
-                      WebkitTextStroke: `1.5px ${accent}33`,
-                      minWidth: 140,
-                      textAlign: 'center',
-                      flexShrink: 0,
-                    }}>
-                      {String(i + 1).padStart(2, '0')}
-                    </div>
-                    {/* Content */}
-                    <div style={{ flex: 1 }}>
-                      <h3 style={{
-                        fontSize: 24,
-                        fontWeight: 700,
-                        color: c.white,
-                        marginBottom: 16,
-                        letterSpacing: '-0.01em',
-                      }}>
-                        {card.title}
-                      </h3>
-                      <p style={{ fontSize: 15, lineHeight: 1.7, color: c.textMuted }}>
-                        {card.description}
-                      </p>
-                    </div>
-                  </div>
-                  {/* Subtle glow corner */}
-                  <div style={{
-                    position: 'absolute',
-                    top: -40,
-                    right: isEven ? -40 : 'auto',
-                    left: isEven ? 'auto' : -40,
-                    width: 120,
-                    height: 120,
-                    background: `radial-gradient(circle, ${accent}0A 0%, transparent 70%)`,
-                    pointerEvents: 'none',
-                  }} />
-                </div>
-              );
-            })}
-          </div>
+            <blockquote
+              className="text-[clamp(1.4rem,2.6vw,2rem)] leading-[1.25]"
+              style={{ fontFamily: display, fontWeight: 400 }}
+            >
+              {s.specializedMarketing.headline}
+            </blockquote>
+            <p className="mt-7 leading-relaxed text-[#1C1815]/70">
+              {s.specializedMarketing.body2}
+            </p>
+          </Reveal>
         </div>
       </section>
 
-      {/* ================================================================ */}
-      {/*  8. FAQ                                                          */}
-      {/* ================================================================ */}
-      <section style={sectionStyle()}>
-        <div style={{ ...container, maxWidth: 800 }}>
-          <div style={{ textAlign: 'center', marginBottom: 72 }}>
-            <div style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 12,
-              marginBottom: 20,
-              fontSize: 12,
-              fontWeight: 600,
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              color: c.magenta,
-            }}>
-              <span style={{ width: 30, height: 1, backgroundColor: c.magenta, display: 'inline-block' }} />
-              FAQ
-              <span style={{ width: 30, height: 1, backgroundColor: c.magenta, display: 'inline-block' }} />
-            </div>
-            <h2 style={{
-              fontSize: '3rem',
-              fontWeight: 700,
-              color: c.white,
-              letterSpacing: '-0.02em',
-            }}>
-              Got Questions?
-            </h2>
-          </div>
+      {/* ---------- DOSSIER / WHY CHOOSE ---------- */}
+      <section className="relative z-10 mx-auto max-w-6xl px-6 py-20 lg:px-10">
+        <Reveal>
+          <h3
+            className="mb-3 text-[clamp(1.8rem,3.4vw,2.8rem)]"
+            style={{ fontFamily: display, fontWeight: 500 }}
+          >
+            {s.whyChoose.headline}
+          </h3>
+          <p className="mb-12 max-w-2xl leading-relaxed text-[#1C1815]/70">
+            {s.whyChoose.body}
+          </p>
+        </Reveal>
+        <div className="grid gap-px border border-[#1C1815]/25 bg-[#1C1815]/15 sm:grid-cols-2">
+          {s.whyChoose.cards.map((card, i) => (
+            <Reveal key={card.title} delay={(i % 2) * 90} className="bg-[#F4EFE6] p-8">
+              <h4
+                className="flex items-center gap-3 text-[1.25rem]"
+                style={{ fontFamily: display, fontWeight: 500 }}
+              >
+                <span className="text-[#8A2B2B]" style={{ fontFamily: accentSerif }}>
+                  0{i + 1}
+                </span>
+                {card.title}
+              </h4>
+              <p className="mt-4 text-[0.95rem] leading-relaxed text-[#1C1815]/70">
+                {card.description}
+              </p>
+            </Reveal>
+          ))}
+        </div>
+      </section>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-            {d.faq.map((item, i) => {
-              const isOpen = openFaq === i;
-              return (
-                <div key={i} className="faq-item" style={{
-                  backgroundColor: c.bgCard,
-                  border: `1px solid ${isOpen ? c.cyan : c.border}`,
-                  borderLeft: `3px solid ${isOpen ? c.cyan : c.border}`,
-                  overflow: 'hidden',
-                  transition: 'all 0.3s',
-                  boxShadow: isOpen ? `0 0 20px ${c.cyan}11` : 'none',
-                }}>
-                  <button
-                    onClick={() => setOpenFaq(isOpen ? null : i)}
+      {/* ---------- FAQ ---------- */}
+      <section className="relative z-10 mx-auto max-w-4xl px-6 py-16 lg:px-10">
+        <Reveal>
+          <h3
+            className="mb-10 text-[clamp(1.8rem,3.4vw,2.6rem)]"
+            style={{ fontFamily: display, fontWeight: 500 }}
+          >
+            Correspondence
+          </h3>
+        </Reveal>
+        <div className="border-t-2 border-[#1C1815]">
+          {s.faq.map((f, i) => {
+            const isOpen = open === i;
+            return (
+              <div key={f.question} className="border-b border-[#1C1815]/25">
+                <button
+                  onClick={() => setOpen(isOpen ? null : i)}
+                  className="flex w-full items-center justify-between gap-6 py-5 text-left"
+                >
+                  <span
+                    className="text-[1.15rem] leading-snug"
                     style={{
-                      width: '100%',
-                      padding: '24px 32px',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
-                      background: 'transparent',
-                      border: 'none',
-                      cursor: 'pointer',
-                      fontFamily: font,
-                      textAlign: 'left',
+                      fontFamily: display,
+                      fontWeight: 500,
+                      color: isOpen ? "#8A2B2B" : INK,
                     }}
                   >
-                    <span style={{
-                      fontSize: 17,
-                      fontWeight: 600,
-                      color: isOpen ? c.cyan : c.white,
-                      transition: 'color 0.3s',
-                      paddingRight: 16,
-                    }}>
-                      {item.question}
-                    </span>
-                    <span style={{
-                      fontSize: 24,
-                      color: isOpen ? c.cyan : c.textMuted,
-                      transition: 'transform 0.3s, color 0.3s',
-                      transform: isOpen ? 'rotate(45deg)' : 'rotate(0deg)',
-                      flexShrink: 0,
-                      width: 28,
-                      height: 28,
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      border: `1px solid ${isOpen ? c.cyan + '44' : c.border}`,
-                    }}>
-                      +
-                    </span>
-                  </button>
-                  <div style={{
-                    maxHeight: isOpen ? 500 : 0,
-                    overflow: 'hidden',
-                    transition: 'max-height 0.4s ease',
-                  }}>
-                    <p style={{
-                      padding: '0 32px 24px',
-                      fontSize: 15,
-                      lineHeight: 1.7,
-                      color: c.textMuted,
-                    }}>
-                      {item.answer}
+                    {f.question}
+                  </span>
+                  <span
+                    className="shrink-0 text-2xl text-[#8A2B2B] transition-transform duration-300"
+                    style={{ transform: isOpen ? "rotate(45deg)" : "none" }}
+                  >
+                    +
+                  </span>
+                </button>
+                <div
+                  className="grid transition-all duration-500 ease-out"
+                  style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
+                >
+                  <div className="overflow-hidden">
+                    <p className="pb-6 text-[0.97rem] leading-relaxed text-[#1C1815]/70">
+                      {f.answer}
                     </p>
                   </div>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================ */}
-      {/*  8b. BOOK AUDIT                                                  */}
-      {/* ================================================================ */}
-      <section style={sectionStyle({ padding: '120px 24px' })}>
-        <div style={container}>
-          <div style={{ maxWidth: 800, margin: '0 auto', textAlign: 'center' }}>
-            <div style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 12,
-              marginBottom: 20,
-              fontSize: 12,
-              fontWeight: 600,
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              color: c.cyan,
-            }}>
-              <span style={{ width: 30, height: 1, backgroundColor: c.cyan, display: 'inline-block' }} />
-              Get Started
-              <span style={{ width: 30, height: 1, backgroundColor: c.cyan, display: 'inline-block' }} />
-            </div>
-            <h2 style={{
-              fontSize: '3rem',
-              fontWeight: 700,
-              lineHeight: 1.1,
-              color: c.white,
-              letterSpacing: '-0.02em',
-              marginBottom: 32,
-            }}>
-              {d.bookAudit.headline}
-            </h2>
-            <p style={{
-              fontSize: 16,
-              lineHeight: 1.8,
-              color: c.textMuted,
-              marginBottom: 24,
-              textAlign: 'left',
-            }}>
-              {d.bookAudit.body}
-            </p>
-            <p style={{
-              fontSize: 16,
-              lineHeight: 1.8,
-              color: c.textMuted,
-              textAlign: 'left',
-            }}>
-              {d.bookAudit.body2}
-            </p>
-
-            {d.bookAudit.image && (
-              <div style={{ marginTop: 56, display: 'flex', justifyContent: 'center' }}>
-                <img
-                  src={d.bookAudit.image}
-                  alt={d.bookAudit.imageAlt}
-                  style={{
-                    width: '100%',
-                    maxWidth: 560,
-                    borderRadius: 12,
-                    border: `1px solid ${c.border}`,
-                  }}
-                />
               </div>
-            )}
-          </div>
+            );
+          })}
         </div>
       </section>
 
-      {/* Geometric divider */}
-      <div style={{
-        height: 1,
-        background: `linear-gradient(90deg, transparent, ${c.cyan}44, ${c.magenta}44, transparent)`,
-        margin: '0 24px',
-        maxWidth: 1200,
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      }} />
-
-      {/* ================================================================ */}
-      {/*  9. CTA                                                          */}
-      {/* ================================================================ */}
-      <section style={{
-        padding: '140px 24px',
-        background: c.gradientCta,
-        fontFamily: font,
-        textAlign: 'center',
-        position: 'relative',
-        overflow: 'hidden',
-      }}>
-        {/* Grid overlay */}
-        <div style={{
-          position: 'absolute',
-          inset: 0,
-          backgroundImage: `
-            linear-gradient(rgba(0,240,255,0.02) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(0,240,255,0.02) 1px, transparent 1px)
-          `,
-          backgroundSize: '80px 80px',
-          pointerEvents: 'none',
-        }} />
-        {/* Radial glow */}
-        <div style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          width: 600,
-          height: 600,
-          background: 'radial-gradient(circle, rgba(0,240,255,0.05) 0%, transparent 60%)',
-          pointerEvents: 'none',
-        }} />
-        <div style={{ ...container, position: 'relative', zIndex: 1 }}>
-          <h2 className="cta-headline" style={{
-            fontSize: '4.5rem',
-            fontWeight: 700,
-            lineHeight: 1.1,
-            color: c.white,
-            letterSpacing: '-0.03em',
-            marginBottom: 24,
-          }}>
-            {d.cta.headline.split('?')[0]}
-            <span style={{
-              background: c.gradientHero,
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-            }}>?</span>
-          </h2>
-          <p style={{
-            fontSize: 18,
-            lineHeight: 1.7,
-            color: c.textMuted,
-            maxWidth: 600,
-            margin: '0 auto 48px',
-          }}>
-            {d.cta.body}
-          </p>
-          <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a
-              href={d.cta.ctaLink}
-              style={{
-                ...glowBtn(c.cyan),
-                fontSize: 16,
-                padding: '18px 48px',
-                animation: 'glow-pulse 2s ease-in-out infinite',
-              }}
-              className="glow-btn"
-            >
-              {d.cta.ctaText}
-            </a>
-            <a
-              href={`tel:${d.brand.phone}`}
-              style={{
-                ...glowBtn(c.magenta),
-                fontSize: 16,
-                padding: '18px 48px',
-              }}
-              className="glow-btn-magenta"
-            >
-              CONTACT US
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================ */}
-      {/*  10. FOOTER                                                      */}
-      {/* ================================================================ */}
-      <footer style={{
-        backgroundColor: c.bgFooter,
-        padding: '80px 24px 40px',
-        fontFamily: font,
-        borderTop: `1px solid ${c.border}`,
-      }}>
-        <div style={container}>
-          <div className="footer-grid" style={{
-            display: 'grid',
-            gridTemplateColumns: '2fr 1fr 1fr',
-            gap: 60,
-            marginBottom: 60,
-          }}>
-            {/* Brand col */}
+      {/* ---------- CTA / BACK PAGE ---------- */}
+      <section className="relative z-10 mx-auto max-w-6xl px-6 pb-20 lg:px-10">
+        <Reveal className="border-2 border-[#1C1815] bg-[#1C1815] p-10 text-[#F4EFE6] md:p-16">
+          <div className="grid gap-10 md:grid-cols-[1.4fr_1fr] md:items-center">
             <div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20 }}>
-                <div style={{
-                  width: 32,
-                  height: 32,
-                  background: c.gradientHero,
-                  clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
-                }} />
-                <span style={{ fontWeight: 700, fontSize: 18, color: c.white }}>
-                  {d.brand.name}
-                </span>
-              </div>
-              <p style={{ fontSize: 15, lineHeight: 1.7, color: c.textMuted, marginBottom: 24, maxWidth: 360 }}>
-                {d.footer.tagline}
+              <p className="mb-5 text-[12px] uppercase tracking-[0.3em] text-[#E0A0A0]">
+                The Invitation
               </p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                <a href={`tel:${d.brand.phone}`} style={{
-                  color: c.cyan,
-                  textDecoration: 'none',
-                  fontSize: 14,
-                  fontWeight: 500,
-                  transition: 'color 0.3s',
-                }}>
-                  {d.brand.phone}
-                </a>
-                <a href={`mailto:${d.brand.email}`} style={{
-                  color: c.textMuted,
-                  textDecoration: 'none',
-                  fontSize: 14,
-                  transition: 'color 0.3s',
-                }}>
-                  {d.brand.email}
-                </a>
-              </div>
+              <h3
+                className="text-[clamp(1.8rem,3.6vw,3rem)] leading-[1.05]"
+                style={{ fontFamily: display, fontWeight: 500 }}
+              >
+                {s.cta.headline}
+              </h3>
+              <p className="mt-6 max-w-md leading-relaxed text-[#F4EFE6]/70">
+                {s.cta.body}
+              </p>
             </div>
-
-            {/* Services col */}
-            <div>
-              <h4 style={{
-                fontSize: 12,
-                fontWeight: 700,
-                letterSpacing: '0.15em',
-                textTransform: 'uppercase',
-                color: c.cyan,
-                marginBottom: 24,
-              }}>
-                Services
-              </h4>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                {d.footer.services.map((svc, i) => (
-                  <a key={i} href="#" style={{
-                    color: c.textMuted,
-                    textDecoration: 'none',
-                    fontSize: 14,
-                    transition: 'color 0.3s',
-                  }}
-                    onMouseOver={(e) => (e.currentTarget.style.color = c.cyan)}
-                    onMouseOut={(e) => (e.currentTarget.style.color = c.textMuted)}
-                  >
-                    {svc}
-                  </a>
-                ))}
-              </div>
-            </div>
-
-            {/* Navigation col */}
-            <div>
-              <h4 style={{
-                fontSize: 12,
-                fontWeight: 700,
-                letterSpacing: '0.15em',
-                textTransform: 'uppercase',
-                color: c.magenta,
-                marginBottom: 24,
-              }}>
-                Navigation
-              </h4>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                {d.nav.map((link) => (
-                  <a key={link} href="#" style={{
-                    color: c.textMuted,
-                    textDecoration: 'none',
-                    fontSize: 14,
-                    transition: 'color 0.3s',
-                  }}
-                    onMouseOver={(e) => (e.currentTarget.style.color = c.magenta)}
-                    onMouseOut={(e) => (e.currentTarget.style.color = c.textMuted)}
-                  >
-                    {link}
-                  </a>
-                ))}
-              </div>
+            <div className="flex md:justify-end">
+              <Link
+                href={s.cta.ctaLink}
+                className="group inline-flex items-center gap-3 bg-[#8A2B2B] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[#F4EFE6] transition-colors hover:bg-[#a13434]"
+              >
+                {s.cta.ctaText}
+                <span className="transition-transform group-hover:translate-x-1">
+                  →
+                </span>
+              </Link>
             </div>
           </div>
+        </Reveal>
+      </section>
 
-          {/* Bottom bar */}
-          <div style={{
-            borderTop: `1px solid ${c.border}`,
-            paddingTop: 32,
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            gap: 16,
-          }}>
-            <p style={{ fontSize: 13, color: c.textMuted }}>
-              {d.footer.copyright}
-            </p>
-            <div style={{ display: 'flex', gap: 24 }}>
-              <a href="#" style={{ color: c.textMuted, textDecoration: 'none', fontSize: 13 }}>Privacy</a>
-              <a href="#" style={{ color: c.textMuted, textDecoration: 'none', fontSize: 13 }}>Terms</a>
-            </div>
-          </div>
+      {/* ---------- FOOTER ---------- */}
+      <footer className="relative z-10 mx-auto max-w-6xl px-6 pb-16 lg:px-10">
+        <div className="flex flex-col gap-6 border-t-2 border-[#1C1815] pt-8 text-[12px] uppercase tracking-[0.16em] text-[#1C1815]/60 md:flex-row md:items-center md:justify-between">
+          <span style={{ fontFamily: accentSerif }} className="text-base normal-case tracking-normal">
+            Marketing Powered
+          </span>
+          <span>{s.brand.phone}</span>
+          <span className="normal-case tracking-normal">{s.footer.copyright}</span>
         </div>
       </footer>
+
+      <Link
+        href="/"
+        className="fixed bottom-6 left-6 z-50 inline-flex items-center gap-2 border border-[#1C1815] bg-[#F4EFE6] px-4 py-2 text-[11px] uppercase tracking-[0.16em] text-[#1C1815] transition-colors hover:bg-[#1C1815] hover:text-[#F4EFE6]"
+      >
+        ← Gallery
+      </Link>
     </div>
   );
 }

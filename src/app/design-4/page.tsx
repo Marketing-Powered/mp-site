@@ -1,1721 +1,420 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { siteContent } from '@/lib/content';
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { siteContent as s } from "@/lib/content";
+import Reveal from "@/components/Reveal";
 
-const {
-  brand,
-  nav,
-  hero,
-  growth,
-  socialProof,
-  specializedMarketing,
-  servicesIntro,
-  services,
-  stats,
-  whyChoose,
-  bookAudit,
-  faq,
-  cta,
-  footer,
-} = siteContent;
+/* ================================================================== */
+/*  DESIGN 4 — "Grid System"                                          */
+/*  International Typographic Style. Pure white, rigid 12-col grid,    */
+/*  Archivo Black display, single vermillion accent, oversized        */
+/*  numerals, hairline rules, relentless negative space.              */
+/* ================================================================== */
 
-// ── Typography & Color Tokens ──────────────────────────────────────────
-const font = "'Sora', sans-serif";
+const RED = "#E5341E";
+const black = "#0B0B0B";
+const display = "'Archivo Black', sans-serif";
+const sans = "'Archivo', system-ui, sans-serif";
 
-const colors = {
-  bg: '#F8F9FF',
-  white: '#FFFFFF',
-  text: '#1A1A2E',
-  textMuted: '#6B7094',
-  purpleStart: '#7B2FF7',
-  purpleEnd: '#2196F3',
-  pinkStart: '#FF6B6B',
-  pinkEnd: '#FFA726',
-  darkStart: '#1A1A2E',
-  darkEnd: '#2D1B69',
-  glass: 'rgba(255,255,255,0.15)',
-  glassBorder: 'rgba(255,255,255,0.25)',
-  glassCard: 'rgba(255,255,255,0.7)',
-  glassCardBorder: 'rgba(255,255,255,0.5)',
-};
-
-const gradients = {
-  primary: `linear-gradient(135deg, ${colors.purpleStart}, ${colors.purpleEnd})`,
-  secondary: `linear-gradient(135deg, ${colors.pinkStart}, ${colors.pinkEnd})`,
-  dark: `linear-gradient(135deg, ${colors.darkStart}, ${colors.darkEnd})`,
-  hero: `linear-gradient(135deg, #7B2FF7 0%, #2196F3 50%, #00BCD4 100%)`,
-  purpleSubtle: `linear-gradient(135deg, rgba(123,47,247,0.08), rgba(33,150,243,0.08))`,
-};
-
-// ── Google Fonts ──────────────────────────────────────────────────────
-function FontLoader() {
-  return (
-    <style
-      dangerouslySetInnerHTML={{
-        __html: `@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');`,
-      }}
-    />
-  );
-}
-
-// ── Keyframe Animations ──────────────────────────────────────────────
-function Animations() {
-  return (
-    <style
-      dangerouslySetInnerHTML={{
-        __html: `
-          @keyframes floatOrb1 {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            33% { transform: translate(60px, -40px) scale(1.1); }
-            66% { transform: translate(-30px, 30px) scale(0.95); }
-          }
-          @keyframes floatOrb2 {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            33% { transform: translate(-50px, 50px) scale(1.05); }
-            66% { transform: translate(40px, -20px) scale(0.9); }
-          }
-          @keyframes floatOrb3 {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            50% { transform: translate(30px, -60px) scale(1.08); }
-          }
-          @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-          }
-          @keyframes pulse {
-            0%, 100% { opacity: 0.6; }
-            50% { opacity: 1; }
-          }
-          @keyframes spinSlow {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-          }
-          * { box-sizing: border-box; margin: 0; padding: 0; }
-          html { scroll-behavior: smooth; }
-          body { overflow-x: hidden; }
-        `,
-      }}
-    />
-  );
-}
-
-// ── Section wrapper ──────────────────────────────────────────────────
-function Section({
-  children,
-  style,
-  id,
-}: {
-  children: React.ReactNode;
-  style?: React.CSSProperties;
-  id?: string;
-}) {
-  return (
-    <section
-      id={id}
-      style={{
-        padding: '100px 24px',
-        maxWidth: 1200,
-        margin: '0 auto',
-        fontFamily: font,
-        ...style,
-      }}
-    >
-      {children}
-    </section>
-  );
-}
-
-// ── Service Icon Component ───────────────────────────────────────────
-function ServiceIcon({ icon }: { icon: string }) {
-  const iconMap: Record<string, string> = {
-    target: '🎯',
-    search: '🔍',
-    chart: '📊',
-    code: '💻',
-    shield: '🛡️',
-    zap: '⚡',
-  };
-
-  return (
-    <div
-      style={{
-        width: 56,
-        height: 56,
-        borderRadius: 16,
-        background: gradients.primary,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize: 24,
-        marginBottom: 20,
-        flexShrink: 0,
-      }}
-    >
-      {iconMap[icon] || '✦'}
-    </div>
-  );
-}
-
-// ── Gradient Text Helper ─────────────────────────────────────────────
-function GradientText({
-  children,
-  style,
-  gradient,
-}: {
-  children: React.ReactNode;
-  style?: React.CSSProperties;
-  gradient?: string;
-}) {
+function Tag({ children }: { children: React.ReactNode }) {
   return (
     <span
-      style={{
-        background: gradient || gradients.primary,
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
-        backgroundClip: 'text',
-        ...style,
-      }}
+      className="text-[11px] font-bold uppercase tracking-[0.18em]"
+      style={{ color: RED }}
     >
       {children}
     </span>
   );
 }
 
-// ── Chevron SVG ──────────────────────────────────────────────────────
-function Chevron({ open }: { open: boolean }) {
-  return (
-    <svg
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      style={{
-        transition: 'transform 0.3s ease',
-        transform: open ? 'rotate(180deg)' : 'rotate(0deg)',
-        flexShrink: 0,
-      }}
-    >
-      <defs>
-        <linearGradient id="chevronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor={colors.purpleStart} />
-          <stop offset="100%" stopColor={colors.purpleEnd} />
-        </linearGradient>
-      </defs>
-      <path
-        d="M6 9l6 6 6-6"
-        stroke="url(#chevronGrad)"
-        strokeWidth="2.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-// ══════════════════════════════════════════════════════════════════════
-// ██ MAIN PAGE COMPONENT
-// ══════════════════════════════════════════════════════════════════════
-export default function Design4Page() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const [mobileMenu, setMobileMenu] = useState(false);
+export default function Design4() {
+  const [open, setOpen] = useState<number | null>(0);
 
   return (
     <div
-      style={{
-        fontFamily: font,
-        background: colors.bg,
-        color: colors.text,
-        minHeight: '100vh',
-        overflowX: 'hidden',
-      }}
+      style={{ background: "#FFFFFF", color: black, fontFamily: sans }}
+      className="relative min-h-screen"
     >
-      <FontLoader />
-      <Animations />
-
-      {/* ── 1. FLOATING GLASS NAV ─────────────────────────────────── */}
-      <nav
-        style={{
-          position: 'fixed',
-          top: 16,
-          left: 16,
-          right: 16,
-          zIndex: 1000,
-          background: 'rgba(255,255,255,0.75)',
-          backdropFilter: 'blur(20px)',
-          WebkitBackdropFilter: 'blur(20px)',
-          borderRadius: 20,
-          border: '1px solid rgba(255,255,255,0.5)',
-          boxShadow: '0 8px 32px rgba(123,47,247,0.08), 0 2px 8px rgba(0,0,0,0.04)',
-          padding: '14px 28px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          maxWidth: 1200,
-          margin: '0 auto',
-        }}
-      >
-        <div
-          style={{
-            fontSize: 22,
-            fontWeight: 800,
-            fontFamily: font,
-            letterSpacing: '-0.5px',
-          }}
-        >
-          <GradientText>{brand.name}</GradientText>
-        </div>
-
-        {/* Desktop nav links */}
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 32,
-          }}
-        >
+      {/* ---------- NAV ---------- */}
+      <header className="sticky top-0 z-30 border-b-2 border-black bg-white">
+        <div className="mx-auto flex max-w-[1400px] items-stretch justify-between">
           <div
-            style={{
-              display: 'flex',
-              gap: 28,
-              alignItems: 'center',
-            }}
-            className="nav-links-desktop"
+            className="flex items-center border-r-2 border-black px-6 py-4 text-[15px] uppercase tracking-tight"
+            style={{ fontFamily: display }}
           >
-            {nav.map((item) => (
-              <a
-                key={item}
-                href="#"
-                style={{
-                  textDecoration: 'none',
-                  color: colors.text,
-                  fontSize: 14,
-                  fontWeight: 500,
-                  fontFamily: font,
-                  transition: 'color 0.2s',
-                  whiteSpace: 'nowrap',
-                }}
-                onMouseEnter={(e) =>
-                  (e.currentTarget.style.color = colors.purpleStart)
-                }
-                onMouseLeave={(e) =>
-                  (e.currentTarget.style.color = colors.text)
-                }
-              >
-                {item}
-              </a>
-            ))}
+            Marketing Powered
           </div>
-
-          <a
-            href="#contact"
-            style={{
-              background: gradients.primary,
-              color: '#fff',
-              padding: '10px 24px',
-              borderRadius: 50,
-              fontSize: 14,
-              fontWeight: 600,
-              fontFamily: font,
-              textDecoration: 'none',
-              transition: 'transform 0.2s, box-shadow 0.2s',
-              boxShadow: '0 4px 15px rgba(123,47,247,0.3)',
-              whiteSpace: 'nowrap',
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = 'scale(1.05)';
-              e.currentTarget.style.boxShadow =
-                '0 6px 20px rgba(123,47,247,0.4)';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = 'scale(1)';
-              e.currentTarget.style.boxShadow =
-                '0 4px 15px rgba(123,47,247,0.3)';
-            }}
-            className="nav-cta-desktop"
-          >
-            {hero.cta}
-          </a>
-
-          {/* Mobile menu button */}
-          <button
-            onClick={() => setMobileMenu(!mobileMenu)}
-            style={{
-              display: 'none',
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              padding: 4,
-            }}
-            className="mobile-menu-btn"
-            aria-label="Toggle menu"
-          >
-            <div
-              style={{
-                width: 24,
-                height: 2,
-                background: colors.purpleStart,
-                borderRadius: 2,
-                marginBottom: 6,
-                transition: 'transform 0.3s',
-                transform: mobileMenu ? 'rotate(45deg) translate(4px, 4px)' : 'none',
-              }}
-            />
-            <div
-              style={{
-                width: 24,
-                height: 2,
-                background: colors.purpleStart,
-                borderRadius: 2,
-                marginBottom: 6,
-                opacity: mobileMenu ? 0 : 1,
-                transition: 'opacity 0.3s',
-              }}
-            />
-            <div
-              style={{
-                width: 24,
-                height: 2,
-                background: colors.purpleStart,
-                borderRadius: 2,
-                transition: 'transform 0.3s',
-                transform: mobileMenu ? 'rotate(-45deg) translate(4px, -4px)' : 'none',
-              }}
-            />
-          </button>
-        </div>
-
-        {/* Mobile dropdown */}
-        {mobileMenu && (
-          <div
-            style={{
-              position: 'absolute',
-              top: '100%',
-              left: 0,
-              right: 0,
-              marginTop: 8,
-              background: 'rgba(255,255,255,0.95)',
-              backdropFilter: 'blur(20px)',
-              WebkitBackdropFilter: 'blur(20px)',
-              borderRadius: 16,
-              padding: '20px 24px',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: 16,
-              boxShadow: '0 12px 40px rgba(0,0,0,0.1)',
-              border: '1px solid rgba(255,255,255,0.5)',
-            }}
-          >
-            {nav.map((item) => (
+          <nav className="hidden items-center md:flex">
+            {s.nav.map((n) => (
               <a
-                key={item}
+                key={n}
                 href="#"
-                onClick={() => setMobileMenu(false)}
-                style={{
-                  textDecoration: 'none',
-                  color: colors.text,
-                  fontSize: 16,
-                  fontWeight: 500,
-                  fontFamily: font,
-                  padding: '4px 0',
-                }}
+                className="border-l border-black/15 px-6 py-4 text-[12px] font-semibold uppercase tracking-[0.12em] transition-colors hover:bg-black hover:text-white"
               >
-                {item}
+                {n}
               </a>
             ))}
-            <a
-              href="#contact"
-              onClick={() => setMobileMenu(false)}
-              style={{
-                background: gradients.primary,
-                color: '#fff',
-                padding: '12px 24px',
-                borderRadius: 50,
-                fontSize: 14,
-                fontWeight: 600,
-                fontFamily: font,
-                textDecoration: 'none',
-                textAlign: 'center',
-              }}
+            <Link
+              href={s.hero.ctaLink}
+              className="border-l-2 border-black px-7 py-4 text-[12px] font-bold uppercase tracking-[0.12em] text-white transition-opacity hover:opacity-90"
+              style={{ background: RED }}
             >
-              {hero.cta}
-            </a>
+              Book a Call
+            </Link>
+          </nav>
+        </div>
+      </header>
+
+      {/* ---------- HERO ---------- */}
+      <section className="mx-auto max-w-[1400px] border-b-2 border-black">
+        <div className="grid lg:grid-cols-12">
+          <div className="border-black px-6 py-14 lg:col-span-7 lg:border-r-2 lg:py-20 lg:pl-12">
+            <div
+              className="mb-8 flex items-center gap-4"
+              style={{ animation: "mp-fade-in 0.8s ease both" }}
+            >
+              <Tag>AI Marketing Agency</Tag>
+              <span className="h-px flex-1 bg-black/20" />
+              <span className="text-[11px] font-semibold uppercase tracking-[0.15em] text-black/50">
+                Est. 2022
+              </span>
+            </div>
+            <h1
+              className="text-[clamp(2.5rem,6.2vw,5.4rem)] uppercase leading-[0.92]"
+              style={{ fontFamily: display, letterSpacing: "-0.01em" }}
+            >
+              Knows
+              <br />
+              <span style={{ color: RED }}>Behavioral</span>
+              <br />
+              Health.
+            </h1>
+            <p className="mt-8 max-w-md text-[1.05rem] leading-relaxed text-black/70">
+              {s.hero.subheadline}
+            </p>
+            <Link
+              href={s.hero.ctaLink}
+              className="group mt-10 inline-flex items-center gap-3 border-2 border-black px-7 py-3.5 text-[12px] font-bold uppercase tracking-[0.14em] transition-colors hover:bg-black hover:text-white"
+            >
+              {s.hero.cta}
+              <span className="transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </Link>
           </div>
-        )}
-      </nav>
+          <div className="relative min-h-[300px] lg:col-span-5">
+            <Image
+              src={s.hero.image}
+              alt={s.hero.imageAlt}
+              fill
+              priority
+              className="object-cover grayscale"
+            />
+            <div
+              className="absolute bottom-0 left-0 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.14em] text-white"
+              style={{ background: RED }}
+            >
+              Fig. 01 / Strategy
+            </div>
+          </div>
+        </div>
+      </section>
 
-      {/* Responsive styles injected */}
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-            @media (max-width: 768px) {
-              .nav-links-desktop { display: none !important; }
-              .nav-cta-desktop { display: none !important; }
-              .mobile-menu-btn { display: block !important; }
-              .hero-grid { flex-direction: column !important; text-align: center !important; }
-              .hero-heading { font-size: 40px !important; }
-              .services-grid { grid-template-columns: 1fr !important; }
-              .stats-grid { grid-template-columns: 1fr 1fr !important; }
-              .why-card { flex-direction: column !important; }
-              .footer-grid { grid-template-columns: 1fr !important; text-align: center !important; }
-              .growth-inner { flex-direction: column !important; }
-            }
-            @media (min-width: 769px) {
-              .mobile-menu-btn { display: none !important; }
-            }
-            @media (max-width: 480px) {
-              .stats-grid { grid-template-columns: 1fr !important; }
-              .hero-heading { font-size: 32px !important; }
-            }
-          `,
-        }}
-      />
-
-      {/* ── 2. HERO SECTION ───────────────────────────────────────── */}
-      <section
-        style={{
-          position: 'relative',
-          minHeight: '100vh',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          padding: '140px 24px 100px',
-          overflow: 'hidden',
-          background: colors.bg,
-        }}
-      >
-        {/* Animated gradient orbs */}
-        <div
-          style={{
-            position: 'absolute',
-            top: '10%',
-            left: '-5%',
-            width: 500,
-            height: 500,
-            borderRadius: '50%',
-            background: 'radial-gradient(circle, rgba(123,47,247,0.15) 0%, transparent 70%)',
-            animation: 'floatOrb1 12s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            bottom: '5%',
-            right: '-8%',
-            width: 600,
-            height: 600,
-            borderRadius: '50%',
-            background: 'radial-gradient(circle, rgba(33,150,243,0.12) 0%, transparent 70%)',
-            animation: 'floatOrb2 15s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            top: '50%',
-            left: '60%',
-            width: 350,
-            height: 350,
-            borderRadius: '50%',
-            background: 'radial-gradient(circle, rgba(255,107,107,0.1) 0%, transparent 70%)',
-            animation: 'floatOrb3 10s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-
-        {/* Decorative floating glass cards */}
-        <div
-          style={{
-            position: 'absolute',
-            top: '18%',
-            right: '8%',
-            width: 140,
-            height: 90,
-            borderRadius: 16,
-            background: 'rgba(255,255,255,0.4)',
-            backdropFilter: 'blur(10px)',
-            WebkitBackdropFilter: 'blur(10px)',
-            border: '1px solid rgba(255,255,255,0.5)',
-            animation: 'floatOrb1 8s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            bottom: '20%',
-            left: '5%',
-            width: 100,
-            height: 100,
-            borderRadius: 20,
-            background: 'rgba(123,47,247,0.08)',
-            backdropFilter: 'blur(8px)',
-            WebkitBackdropFilter: 'blur(8px)',
-            border: '1px solid rgba(123,47,247,0.1)',
-            animation: 'floatOrb2 11s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            top: '60%',
-            right: '15%',
-            width: 80,
-            height: 60,
-            borderRadius: 14,
-            background: 'rgba(33,150,243,0.08)',
-            backdropFilter: 'blur(6px)',
-            WebkitBackdropFilter: 'blur(6px)',
-            border: '1px solid rgba(33,150,243,0.1)',
-            animation: 'floatOrb3 9s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-
-        <div
-          style={{
-            maxWidth: 800,
-            textAlign: 'center',
-            position: 'relative',
-            zIndex: 1,
-          }}
-        >
-          <h1
-            className="hero-heading"
-            style={{
-              fontSize: 64,
-              fontWeight: 800,
-              fontFamily: font,
-              lineHeight: 1.1,
-              marginBottom: 24,
-              letterSpacing: '-2px',
-            }}
+      {/* ---------- BIG STAT BANNER ---------- */}
+      <section className="mx-auto max-w-[1400px] border-b-2 border-black bg-black text-white">
+        <div className="flex flex-col items-baseline gap-2 px-6 py-10 md:flex-row md:items-end md:justify-between lg:px-12">
+          <div
+            className="text-[clamp(3rem,9vw,8rem)] leading-[0.85]"
+            style={{ fontFamily: display, color: RED }}
           >
-            <GradientText gradient={gradients.hero}>{hero.headline}</GradientText>
-          </h1>
-          <p
-            style={{
-              fontSize: 18,
-              lineHeight: 1.7,
-              color: colors.textMuted,
-              maxWidth: 600,
-              margin: '0 auto 40px',
-              fontFamily: font,
-              fontWeight: 400,
-            }}
-          >
-            {hero.subheadline}
+            $50M+
+          </div>
+          <p className="max-w-md text-[15px] uppercase leading-relaxed tracking-[0.05em] text-white/70">
+            {s.socialProof}
           </p>
-          <a
-            href={hero.ctaLink}
-            style={{
-              display: 'inline-block',
-              background: gradients.primary,
-              color: '#fff',
-              padding: '16px 40px',
-              borderRadius: 50,
-              fontSize: 16,
-              fontWeight: 700,
-              fontFamily: font,
-              textDecoration: 'none',
-              boxShadow: '0 8px 30px rgba(123,47,247,0.35)',
-              transition: 'transform 0.3s, box-shadow 0.3s',
-              letterSpacing: '0.5px',
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = 'scale(1.08)';
-              e.currentTarget.style.boxShadow =
-                '0 12px 40px rgba(123,47,247,0.45)';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = 'scale(1)';
-              e.currentTarget.style.boxShadow =
-                '0 8px 30px rgba(123,47,247,0.35)';
-            }}
-          >
-            {hero.cta}
-          </a>
-
-          {/* Hero Image */}
-          {hero.image && (
-            <div
-              style={{
-                marginTop: 60,
-                borderRadius: 24,
-                padding: 3,
-                background: gradients.hero,
-                display: 'inline-block',
-                boxShadow: '0 20px 60px rgba(123,47,247,0.2)',
-              }}
-            >
-              <img
-                src={hero.image}
-                alt={hero.imageAlt}
-                style={{
-                  display: 'block',
-                  width: '100%',
-                  maxWidth: 700,
-                  borderRadius: 22,
-                  objectFit: 'cover',
-                }}
-              />
-            </div>
-          )}
         </div>
       </section>
 
-      {/* ── 3. GROWTH SECTION ─────────────────────────────────────── */}
-      <section
-        style={{
-          padding: '0 24px 100px',
-        }}
-      >
-        <div
-          style={{
-            maxWidth: 1200,
-            margin: '0 auto',
-            borderRadius: 24,
-            background: gradients.primary,
-            padding: 3,
-          }}
-        >
-          <div
-            style={{
-              borderRadius: 22,
-              background: 'rgba(255,255,255,0.92)',
-              backdropFilter: 'blur(20px)',
-              WebkitBackdropFilter: 'blur(20px)',
-              padding: '60px',
-            }}
-          >
-            <div
-              className="growth-inner"
-              style={{
-                display: 'flex',
-                gap: 48,
-                alignItems: 'flex-start',
-              }}
-            >
-              <div style={{ flex: 1 }}>
-                <div
-                  style={{
-                    width: 60,
-                    height: 4,
-                    borderRadius: 2,
-                    background: gradients.primary,
-                    marginBottom: 24,
-                  }}
-                />
-                <h2
-                  style={{
-                    fontSize: 36,
-                    fontWeight: 800,
-                    fontFamily: font,
-                    lineHeight: 1.2,
-                    marginBottom: 20,
-                    letterSpacing: '-1px',
-                  }}
-                >
-                  <GradientText>{growth.headline}</GradientText>
-                </h2>
-                <p
-                  style={{
-                    fontSize: 16,
-                    lineHeight: 1.8,
-                    color: colors.textMuted,
-                    fontFamily: font,
-                  }}
-                >
-                  {growth.body}
-                </p>
-              </div>
-              <div style={{ flex: 1 }}>
-                <p
-                  style={{
-                    fontSize: 16,
-                    lineHeight: 1.8,
-                    color: colors.textMuted,
-                    fontFamily: font,
-                  }}
-                >
-                  {growth.body2}
-                </p>
-                {growth.body3 && (
-                  <p
-                    style={{
-                      fontSize: 16,
-                      lineHeight: 1.8,
-                      color: colors.textMuted,
-                      fontFamily: font,
-                      marginTop: 16,
-                    }}
-                  >
-                    {growth.body3}
-                  </p>
-                )}
-              </div>
-            </div>
-
-            {/* Growth Image */}
-            {growth.image && (
-              <div
-                style={{
-                  marginTop: 40,
-                  borderRadius: 20,
-                  overflow: 'hidden',
-                  boxShadow: '0 8px 32px rgba(123,47,247,0.1)',
-                }}
-              >
-                <img
-                  src={growth.image}
-                  alt={growth.imageAlt}
-                  style={{
-                    display: 'block',
-                    width: '100%',
-                    borderRadius: 20,
-                    objectFit: 'cover',
-                  }}
-                />
-              </div>
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* ── 4. SOCIAL PROOF ───────────────────────────────────────── */}
-      <section
-        style={{
-          padding: '40px 24px 80px',
-          textAlign: 'center',
-        }}
-      >
-        <div
-          style={{
-            display: 'inline-block',
-            padding: '14px 36px',
-            borderRadius: 50,
-            background: 'rgba(255,255,255,0.8)',
-            backdropFilter: 'blur(10px)',
-            WebkitBackdropFilter: 'blur(10px)',
-            border: '2px solid transparent',
-            backgroundImage: `linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), ${gradients.primary}`,
-            backgroundOrigin: 'border-box',
-            backgroundClip: 'padding-box, border-box',
-            boxShadow: '0 4px 20px rgba(123,47,247,0.1)',
-          }}
-        >
-          <span
-            style={{
-              fontSize: 16,
-              fontWeight: 600,
-              fontFamily: font,
-            }}
-          >
-            <GradientText>{socialProof}</GradientText>
-          </span>
-        </div>
-      </section>
-
-      {/* ── 4b. SPECIALIZED MARKETING ─────────────────────────────── */}
-      <Section>
-        <div
-          style={{
-            display: 'flex',
-            gap: 48,
-            alignItems: 'flex-start',
-            flexWrap: 'wrap',
-          }}
-          className="growth-inner"
-        >
-          <div style={{ flex: 1, minWidth: 300 }}>
+      {/* ---------- EXPERTS / GROWTH ---------- */}
+      <section className="mx-auto max-w-[1400px] border-b-2 border-black">
+        <div className="grid lg:grid-cols-12">
+          <Reveal className="border-black px-6 py-16 lg:col-span-4 lg:border-r-2 lg:px-12">
+            <Tag>01 — Origin</Tag>
             <h2
-              style={{
-                fontSize: 42,
-                fontWeight: 800,
-                fontFamily: font,
-                marginBottom: 24,
-                letterSpacing: '-1.5px',
-              }}
+              className="mt-5 text-[clamp(1.8rem,2.6vw,2.6rem)] uppercase leading-[0.98]"
+              style={{ fontFamily: display }}
             >
-              <GradientText>{specializedMarketing.headline}</GradientText>
+              {s.growth.headline}
             </h2>
-            <p
-              style={{
-                fontSize: 16,
-                lineHeight: 1.8,
-                color: colors.textMuted,
-                fontFamily: font,
-                marginBottom: 16,
-              }}
-            >
-              {specializedMarketing.body}
-            </p>
-            <p
-              style={{
-                fontSize: 16,
-                lineHeight: 1.8,
-                color: colors.textMuted,
-                fontFamily: font,
-                marginBottom: 16,
-              }}
-            >
-              {specializedMarketing.body2}
-            </p>
-            <p
-              style={{
-                fontSize: 16,
-                lineHeight: 1.8,
-                color: colors.textMuted,
-                fontFamily: font,
-                marginBottom: 16,
-              }}
-            >
-              {specializedMarketing.body3}
-            </p>
-            <p
-              style={{
-                fontSize: 16,
-                lineHeight: 1.8,
-                color: colors.textMuted,
-                fontFamily: font,
-              }}
-            >
-              {specializedMarketing.body4}
-            </p>
-          </div>
-          {specializedMarketing.image && (
-            <div style={{ flex: 1, minWidth: 300 }}>
-              <div
-                style={{
-                  borderRadius: 24,
-                  padding: 3,
-                  background: gradients.secondary,
-                  boxShadow: '0 16px 48px rgba(255,107,107,0.12)',
-                }}
-              >
-                <img
-                  src={specializedMarketing.image}
-                  alt={specializedMarketing.imageAlt}
-                  style={{
-                    display: 'block',
-                    width: '100%',
-                    borderRadius: 22,
-                    objectFit: 'cover',
-                  }}
-                />
-              </div>
-            </div>
-          )}
-        </div>
-      </Section>
-
-      {/* ── 5. SERVICES ───────────────────────────────────────────── */}
-      <Section id="services">
-        <div style={{ textAlign: 'center', marginBottom: 60 }}>
-          <h2
-            style={{
-              fontSize: 42,
-              fontWeight: 800,
-              fontFamily: font,
-              marginBottom: 16,
-              letterSpacing: '-1.5px',
-            }}
-          >
-            <GradientText>{servicesIntro.headline}</GradientText>
-          </h2>
-          <p
-            style={{
-              fontSize: 17,
-              lineHeight: 1.7,
-              color: colors.textMuted,
-              maxWidth: 600,
-              margin: '0 auto',
-              fontFamily: font,
-            }}
-          >
-            {servicesIntro.body}
-          </p>
-        </div>
-
-        <div
-          className="services-grid"
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
-            gap: 24,
-          }}
-        >
-          {services.map((service, i) => (
-            <div
-              key={i}
-              style={{
-                background: colors.glassCard,
-                backdropFilter: 'blur(12px)',
-                WebkitBackdropFilter: 'blur(12px)',
-                border: '1px solid rgba(255,255,255,0.6)',
-                borderRadius: 20,
-                padding: 32,
-                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-                cursor: 'default',
-                boxShadow: '0 4px 24px rgba(123,47,247,0.06)',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-8px)';
-                e.currentTarget.style.boxShadow =
-                  '0 16px 48px rgba(123,47,247,0.12)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow =
-                  '0 4px 24px rgba(123,47,247,0.06)';
-              }}
-            >
-              <ServiceIcon icon={service.icon} />
-              <h3
-                style={{
-                  fontSize: 19,
-                  fontWeight: 700,
-                  fontFamily: font,
-                  marginBottom: 12,
-                  color: colors.text,
-                  letterSpacing: '-0.3px',
-                }}
-              >
-                {service.title}
-              </h3>
-              <p
-                style={{
-                  fontSize: 14,
-                  lineHeight: 1.7,
-                  color: colors.textMuted,
-                  fontFamily: font,
-                }}
-              >
-                {service.description}
+          </Reveal>
+          <Reveal delay={120} className="px-6 py-16 lg:col-span-8 lg:px-12">
+            <p className="max-w-2xl text-[1.15rem] leading-[1.7]">{s.growth.body}</p>
+            <div className="mt-10 grid gap-8 border-t-2 border-black pt-8 sm:grid-cols-2">
+              <p className="text-[0.95rem] leading-relaxed text-black/70">
+                {s.growth.body2}
+              </p>
+              <p className="text-[0.95rem] leading-relaxed text-black/70">
+                {s.growth.body3}
               </p>
             </div>
-          ))}
-        </div>
-      </Section>
-
-      {/* ── 6. STATS / PROVEN RESULTS ─────────────────────────────── */}
-      <section
-        style={{
-          background: gradients.primary,
-          padding: '100px 24px',
-          position: 'relative',
-          overflow: 'hidden',
-        }}
-      >
-        {/* Background decorative orbs */}
-        <div
-          style={{
-            position: 'absolute',
-            top: '-20%',
-            right: '-10%',
-            width: 400,
-            height: 400,
-            borderRadius: '50%',
-            background: 'rgba(255,255,255,0.05)',
-            animation: 'floatOrb1 14s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            bottom: '-15%',
-            left: '-5%',
-            width: 300,
-            height: 300,
-            borderRadius: '50%',
-            background: 'rgba(255,255,255,0.03)',
-            animation: 'floatOrb2 12s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-
-        <div
-          style={{
-            maxWidth: 1200,
-            margin: '0 auto',
-            position: 'relative',
-            zIndex: 1,
-          }}
-        >
-          <h2
-            style={{
-              fontSize: 42,
-              fontWeight: 800,
-              fontFamily: font,
-              textAlign: 'center',
-              color: '#fff',
-              marginBottom: 60,
-              letterSpacing: '-1.5px',
-            }}
-          >
-            Proven Results
-          </h2>
-
-          <div
-            className="stats-grid"
-            style={{
-              display: 'grid',
-              gridTemplateColumns: `repeat(${stats.length}, 1fr)`,
-              gap: 20,
-            }}
-          >
-            {stats.map((stat, i) => (
-              <div
-                key={i}
-                style={{
-                  background: 'rgba(255,255,255,0.15)',
-                  backdropFilter: 'blur(16px)',
-                  WebkitBackdropFilter: 'blur(16px)',
-                  border: '1px solid rgba(255,255,255,0.25)',
-                  borderRadius: 20,
-                  padding: 28,
-                  textAlign: 'center',
-                  transition: 'transform 0.3s ease',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-4px)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                }}
-              >
-                <div
-                  style={{
-                    fontSize: 40,
-                    fontWeight: 800,
-                    fontFamily: font,
-                    color: '#fff',
-                    marginBottom: 8,
-                    letterSpacing: '-1px',
-                  }}
-                >
-                  {stat.value}
-                </div>
-                <p
-                  style={{
-                    fontSize: 13,
-                    lineHeight: 1.6,
-                    color: 'rgba(255,255,255,0.8)',
-                    fontFamily: font,
-                    fontWeight: 400,
-                  }}
-                >
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </div>
+          </Reveal>
         </div>
       </section>
 
-      {/* ── 7. WHY CHOOSE ─────────────────────────────────────────── */}
-      <Section id="why">
-        <div style={{ textAlign: 'center', marginBottom: 60 }}>
-          <h2
-            style={{
-              fontSize: 42,
-              fontWeight: 800,
-              fontFamily: font,
-              marginBottom: 16,
-              letterSpacing: '-1.5px',
-            }}
-          >
-            <GradientText>{whyChoose.headline}</GradientText>
-          </h2>
-          <p
-            style={{
-              fontSize: 17,
-              lineHeight: 1.7,
-              color: colors.textMuted,
-              maxWidth: 700,
-              margin: '0 auto',
-              fontFamily: font,
-            }}
-          >
-            {whyChoose.body}
-          </p>
-        </div>
-
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 24,
-          }}
-        >
-          {whyChoose.cards.map((card, i) => (
-            <div
-              key={i}
-              className="why-card"
-              style={{
-                display: 'flex',
-                alignItems: 'stretch',
-                gap: 0,
-                borderRadius: 20,
-                overflow: 'hidden',
-                background: colors.glassCard,
-                backdropFilter: 'blur(12px)',
-                WebkitBackdropFilter: 'blur(12px)',
-                border: '1px solid rgba(255,255,255,0.6)',
-                boxShadow: '0 4px 24px rgba(123,47,247,0.06)',
-                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow =
-                  '0 12px 40px rgba(123,47,247,0.1)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow =
-                  '0 4px 24px rgba(123,47,247,0.06)';
-              }}
+      {/* ---------- STATS GRID ---------- */}
+      <section className="mx-auto max-w-[1400px] border-b-2 border-black">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4">
+          {s.stats.map((stat, i) => (
+            <Reveal
+              key={stat.value}
+              delay={i * 70}
+              className={`group px-6 py-12 lg:px-8 ${
+                i < s.stats.length - 1 ? "border-b-2 sm:border-b-0 lg:border-r-2" : ""
+              } ${i % 2 === 0 ? "border-r-2 sm:border-r-2" : ""} border-black transition-colors hover:bg-black hover:text-white`}
             >
-              {/* Gradient left border accent */}
-              <div
-                style={{
-                  width: 6,
-                  flexShrink: 0,
-                  background: i % 2 === 0 ? gradients.primary : gradients.secondary,
-                  borderRadius: '20px 0 0 20px',
-                }}
-              />
-              <div style={{ padding: '32px 36px', flex: 1 }}>
-                <h3
-                  style={{
-                    fontSize: 22,
-                    fontWeight: 700,
-                    fontFamily: font,
-                    marginBottom: 10,
-                    color: colors.text,
-                    letterSpacing: '-0.5px',
-                  }}
-                >
-                  {card.title}
-                </h3>
-                <p
-                  style={{
-                    fontSize: 15,
-                    lineHeight: 1.8,
-                    color: colors.textMuted,
-                    fontFamily: font,
-                  }}
-                >
-                  {card.description}
-                </p>
+              <div className="text-[11px] font-bold tracking-[0.2em] text-black/40 group-hover:text-white/40">
+                / 0{i + 1}
               </div>
-            </div>
+              <div
+                className="mt-4 text-[clamp(2.6rem,4.5vw,3.8rem)] leading-none transition-colors"
+                style={{ fontFamily: display }}
+              >
+                <span className="group-hover:hidden">{stat.value}</span>
+                <span className="hidden group-hover:inline" style={{ color: RED }}>
+                  {stat.value}
+                </span>
+              </div>
+              <p className="mt-5 text-[13px] leading-relaxed text-black/65 group-hover:text-white/70">
+                {stat.label}
+              </p>
+            </Reveal>
           ))}
         </div>
-      </Section>
+      </section>
 
-      {/* ── 8. FAQ ────────────────────────────────────────────────── */}
-      <Section id="faq">
-        <div style={{ textAlign: 'center', marginBottom: 60 }}>
+      {/* ---------- SERVICES (numbered grid) ---------- */}
+      <section className="mx-auto max-w-[1400px] border-b-2 border-black">
+        <div className="border-b-2 border-black px-6 py-10 lg:px-12">
+          <Tag>02 — Capabilities</Tag>
           <h2
-            style={{
-              fontSize: 42,
-              fontWeight: 800,
-              fontFamily: font,
-              marginBottom: 16,
-              letterSpacing: '-1.5px',
-            }}
+            className="mt-4 max-w-3xl text-[clamp(1.8rem,3.4vw,3rem)] uppercase leading-[1.0]"
+            style={{ fontFamily: display }}
           >
-            <GradientText>Frequently Asked Questions</GradientText>
+            {s.servicesIntro.headline}
           </h2>
         </div>
-
-        <div
-          style={{
-            maxWidth: 800,
-            margin: '0 auto',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 16,
-          }}
-        >
-          {faq.map((item, i) => (
-            <div
-              key={i}
-              style={{
-                background: colors.glassCard,
-                backdropFilter: 'blur(12px)',
-                WebkitBackdropFilter: 'blur(12px)',
-                border: '1px solid rgba(255,255,255,0.6)',
-                borderRadius: 20,
-                overflow: 'hidden',
-                boxShadow: '0 4px 20px rgba(123,47,247,0.05)',
-                transition: 'box-shadow 0.3s ease',
-              }}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3">
+          {s.services.map((svc, i) => (
+            <Reveal
+              key={svc.title}
+              delay={(i % 3) * 70}
+              className={`group px-6 py-10 lg:px-8 ${
+                (i + 1) % 3 !== 0 ? "lg:border-r-2" : ""
+              } ${i % 2 === 0 ? "md:border-r-2 lg:border-r-2" : ""} ${
+                i < s.services.length - (s.services.length % 3 || 3) ? "border-b-2" : ""
+              } border-black`}
             >
-              <button
-                onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                style={{
-                  width: '100%',
-                  background: 'none',
-                  border: 'none',
-                  padding: '24px 28px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  cursor: 'pointer',
-                  fontFamily: font,
-                  fontSize: 17,
-                  fontWeight: 600,
-                  color: colors.text,
-                  textAlign: 'left',
-                  gap: 16,
-                }}
-              >
-                <span>{item.question}</span>
-                <Chevron open={openFaq === i} />
-              </button>
               <div
-                style={{
-                  maxHeight: openFaq === i ? 500 : 0,
-                  overflow: 'hidden',
-                  transition: 'max-height 0.4s ease',
-                }}
+                className="text-[2.5rem] leading-none text-black/15 transition-colors group-hover:text-[color:var(--r)]"
+                style={{ fontFamily: display, ["--r" as string]: RED }}
               >
-                <p
-                  style={{
-                    padding: '0 28px 24px',
-                    fontSize: 15,
-                    lineHeight: 1.8,
-                    color: colors.textMuted,
-                    fontFamily: font,
-                  }}
-                >
-                  {item.answer}
-                </p>
+                {String(i + 1).padStart(2, "0")}
               </div>
-            </div>
+              <h3 className="mt-5 text-[1.2rem] font-bold uppercase tracking-tight">
+                {svc.title}
+              </h3>
+              <p className="mt-3 text-[0.92rem] leading-relaxed text-black/65">
+                {svc.description}
+              </p>
+            </Reveal>
           ))}
         </div>
-      </Section>
+      </section>
 
-      {/* ── 8b. BOOK AUDIT ──────────────────────────────────────── */}
-      <section
-        style={{
-          padding: '0 24px 100px',
-        }}
-      >
-        <div
-          style={{
-            maxWidth: 1200,
-            margin: '0 auto',
-            borderRadius: 24,
-            background: gradients.secondary,
-            padding: 3,
-          }}
-        >
-          <div
-            style={{
-              borderRadius: 22,
-              background: 'rgba(255,255,255,0.92)',
-              backdropFilter: 'blur(20px)',
-              WebkitBackdropFilter: 'blur(20px)',
-              padding: '60px',
-            }}
-          >
-            <div
-              className="growth-inner"
-              style={{
-                display: 'flex',
-                gap: 48,
-                alignItems: 'flex-start',
-              }}
+      {/* ---------- SPECIALIZED ---------- */}
+      <section className="mx-auto max-w-[1400px] border-b-2 border-black">
+        <div className="grid lg:grid-cols-12">
+          <div className="relative min-h-[320px] border-black lg:col-span-5 lg:border-r-2">
+            <Image
+              src={s.specializedMarketing.image}
+              alt={s.specializedMarketing.imageAlt}
+              fill
+              className="object-cover grayscale"
+            />
+          </div>
+          <Reveal className="px-6 py-16 lg:col-span-7 lg:px-12">
+            <Tag>03 — The Discipline</Tag>
+            <h2
+              className="mt-5 text-[clamp(1.8rem,3vw,2.8rem)] uppercase leading-[1.0]"
+              style={{ fontFamily: display }}
             >
-              <div style={{ flex: 1 }}>
+              {s.specializedMarketing.headline}
+            </h2>
+            <p className="mt-7 max-w-xl leading-relaxed text-black/70">
+              {s.specializedMarketing.body}
+            </p>
+            <p className="mt-5 max-w-xl leading-relaxed text-black/60">
+              {s.specializedMarketing.body3}
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ---------- WHY CHOOSE ---------- */}
+      <section className="mx-auto max-w-[1400px] border-b-2 border-black">
+        <div className="border-b-2 border-black px-6 py-10 lg:px-12">
+          <Tag>04 — Evidence</Tag>
+          <h2
+            className="mt-4 max-w-3xl text-[clamp(1.8rem,3.4vw,3rem)] uppercase leading-[1.0]"
+            style={{ fontFamily: display }}
+          >
+            {s.whyChoose.headline}
+          </h2>
+        </div>
+        <div className="grid sm:grid-cols-2">
+          {s.whyChoose.cards.map((card, i) => (
+            <Reveal
+              key={card.title}
+              delay={(i % 2) * 80}
+              className={`px-6 py-10 lg:px-12 ${i % 2 === 0 ? "sm:border-r-2" : ""} ${
+                i < 2 ? "border-b-2" : ""
+              } border-black`}
+            >
+              <h3 className="flex items-baseline gap-4 text-[1.2rem] font-bold uppercase tracking-tight">
+                <span style={{ color: RED, fontFamily: display }}>0{i + 1}</span>
+                {card.title}
+              </h3>
+              <p className="mt-4 text-[0.95rem] leading-relaxed text-black/65">
+                {card.description}
+              </p>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      {/* ---------- FAQ ---------- */}
+      <section className="mx-auto max-w-[1400px] border-b-2 border-black">
+        <div className="grid lg:grid-cols-12">
+          <div className="border-black px-6 py-12 lg:col-span-4 lg:border-r-2 lg:px-12">
+            <Tag>05 — Questions</Tag>
+            <h2
+              className="mt-4 text-[clamp(1.8rem,2.6vw,2.4rem)] uppercase leading-[1.0]"
+              style={{ fontFamily: display }}
+            >
+              The Common Five
+            </h2>
+          </div>
+          <div className="lg:col-span-8">
+            {s.faq.map((f, i) => {
+              const isOpen = open === i;
+              return (
                 <div
-                  style={{
-                    width: 60,
-                    height: 4,
-                    borderRadius: 2,
-                    background: gradients.secondary,
-                    marginBottom: 24,
-                  }}
-                />
-                <h2
-                  style={{
-                    fontSize: 36,
-                    fontWeight: 800,
-                    fontFamily: font,
-                    lineHeight: 1.2,
-                    marginBottom: 20,
-                    letterSpacing: '-1px',
-                  }}
+                  key={f.question}
+                  className={`${i < s.faq.length - 1 ? "border-b-2" : ""} border-black`}
                 >
-                  <GradientText gradient={gradients.secondary}>
-                    {bookAudit.headline}
-                  </GradientText>
-                </h2>
-                <p
-                  style={{
-                    fontSize: 16,
-                    lineHeight: 1.8,
-                    color: colors.textMuted,
-                    fontFamily: font,
-                    marginBottom: 16,
-                  }}
-                >
-                  {bookAudit.body}
-                </p>
-                <p
-                  style={{
-                    fontSize: 16,
-                    lineHeight: 1.8,
-                    color: colors.textMuted,
-                    fontFamily: font,
-                  }}
-                >
-                  {bookAudit.body2}
-                </p>
-              </div>
-              {bookAudit.image && (
-                <div style={{ flex: 1 }}>
-                  <div
-                    style={{
-                      borderRadius: 20,
-                      overflow: 'hidden',
-                      boxShadow: '0 8px 32px rgba(255,107,107,0.12)',
-                    }}
+                  <button
+                    onClick={() => setOpen(isOpen ? null : i)}
+                    className="flex w-full items-center gap-5 px-6 py-6 text-left lg:px-12"
                   >
-                    <img
-                      src={bookAudit.image}
-                      alt={bookAudit.imageAlt}
-                      style={{
-                        display: 'block',
-                        width: '100%',
-                        borderRadius: 20,
-                        objectFit: 'cover',
-                      }}
-                    />
+                    <span
+                      className="text-[13px] font-bold"
+                      style={{ color: RED, fontFamily: display }}
+                    >
+                      0{i + 1}
+                    </span>
+                    <span className="flex-1 text-[1.05rem] font-bold uppercase tracking-tight">
+                      {f.question}
+                    </span>
+                    <span
+                      className="text-2xl transition-transform duration-300"
+                      style={{ transform: isOpen ? "rotate(45deg)" : "none" }}
+                    >
+                      +
+                    </span>
+                  </button>
+                  <div
+                    className="grid transition-all duration-500 ease-out"
+                    style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
+                  >
+                    <div className="overflow-hidden">
+                      <p className="px-6 pb-6 pl-[3.4rem] text-[0.95rem] leading-relaxed text-black/65 lg:px-12 lg:pl-[5.4rem]">
+                        {f.answer}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              )}
-            </div>
+              );
+            })}
           </div>
         </div>
       </section>
 
-      {/* ── 9. CTA ────────────────────────────────────────────────── */}
+      {/* ---------- CTA ---------- */}
       <section
-        id="contact"
-        style={{
-          background: gradients.primary,
-          padding: '100px 24px',
-          textAlign: 'center',
-          position: 'relative',
-          overflow: 'hidden',
-        }}
+        className="mx-auto max-w-[1400px] border-b-2 border-black text-white"
+        style={{ background: RED }}
       >
-        {/* Decorative orbs */}
-        <div
-          style={{
-            position: 'absolute',
-            top: '-30%',
-            left: '20%',
-            width: 500,
-            height: 500,
-            borderRadius: '50%',
-            background: 'rgba(255,255,255,0.05)',
-            animation: 'floatOrb1 16s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            bottom: '-20%',
-            right: '10%',
-            width: 400,
-            height: 400,
-            borderRadius: '50%',
-            background: 'rgba(255,255,255,0.03)',
-            animation: 'floatOrb2 13s ease-in-out infinite',
-            pointerEvents: 'none',
-          }}
-        />
-
-        <div
-          style={{
-            maxWidth: 700,
-            margin: '0 auto',
-            position: 'relative',
-            zIndex: 1,
-          }}
-        >
-          <h2
-            style={{
-              fontSize: 48,
-              fontWeight: 800,
-              fontFamily: font,
-              color: '#fff',
-              marginBottom: 20,
-              letterSpacing: '-1.5px',
-            }}
-          >
-            {cta.headline}
-          </h2>
-          <p
-            style={{
-              fontSize: 18,
-              lineHeight: 1.7,
-              color: 'rgba(255,255,255,0.85)',
-              marginBottom: 40,
-              fontFamily: font,
-            }}
-          >
-            {cta.body}
-          </p>
-          <a
-            href={cta.ctaLink}
-            style={{
-              display: 'inline-block',
-              background: '#fff',
-              color: colors.purpleStart,
-              padding: '16px 44px',
-              borderRadius: 50,
-              fontSize: 16,
-              fontWeight: 700,
-              fontFamily: font,
-              textDecoration: 'none',
-              boxShadow: '0 8px 30px rgba(0,0,0,0.15)',
-              transition: 'transform 0.3s, box-shadow 0.3s',
-              letterSpacing: '0.5px',
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = 'scale(1.08)';
-              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0,0,0,0.2)';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = 'scale(1)';
-              e.currentTarget.style.boxShadow = '0 8px 30px rgba(0,0,0,0.15)';
-            }}
-          >
-            {cta.ctaText}
-          </a>
+        <div className="grid lg:grid-cols-12">
+          <div className="px-6 py-16 lg:col-span-8 lg:px-12 lg:py-24">
+            <h2
+              className="text-[clamp(2rem,4.4vw,3.6rem)] uppercase leading-[0.98]"
+              style={{ fontFamily: display }}
+            >
+              {s.cta.headline}
+            </h2>
+            <p className="mt-7 max-w-xl leading-relaxed text-white/85">
+              {s.cta.body}
+            </p>
+          </div>
+          <div className="flex items-center justify-center border-white/20 px-6 py-12 lg:col-span-4 lg:border-l-2">
+            <Link
+              href={s.cta.ctaLink}
+              className="group inline-flex items-center gap-3 bg-white px-8 py-4 text-[12px] font-bold uppercase tracking-[0.14em] text-black"
+            >
+              {s.cta.ctaText}
+              <span className="transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* ── 10. FOOTER ────────────────────────────────────────────── */}
-      <footer
-        style={{
-          background: gradients.dark,
-          padding: '80px 24px 40px',
-          position: 'relative',
-          overflow: 'hidden',
-        }}
-      >
-        {/* Subtle gradient orb accent */}
-        <div
-          style={{
-            position: 'absolute',
-            top: '50%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-            width: 600,
-            height: 600,
-            borderRadius: '50%',
-            background: 'radial-gradient(circle, rgba(123,47,247,0.08) 0%, transparent 70%)',
-            pointerEvents: 'none',
-          }}
-        />
-
-        <div
-          className="footer-grid"
-          style={{
-            maxWidth: 1200,
-            margin: '0 auto',
-            display: 'grid',
-            gridTemplateColumns: '2fr 1fr 1fr',
-            gap: 48,
-            position: 'relative',
-            zIndex: 1,
-          }}
-        >
-          {/* Brand column */}
-          <div>
-            <div
-              style={{
-                fontSize: 24,
-                fontWeight: 800,
-                fontFamily: font,
-                marginBottom: 16,
-              }}
-            >
-              <GradientText
-                gradient="linear-gradient(135deg, #A78BFA, #60A5FA)"
-              >
-                {brand.name}
-              </GradientText>
+      {/* ---------- FOOTER ---------- */}
+      <footer className="mx-auto max-w-[1400px]">
+        <div className="grid gap-6 px-6 py-12 lg:grid-cols-12 lg:px-12">
+          <div className="lg:col-span-4">
+            <div className="text-[15px] uppercase" style={{ fontFamily: display }}>
+              Marketing Powered
             </div>
-            <p
-              style={{
-                fontSize: 15,
-                lineHeight: 1.7,
-                color: 'rgba(255,255,255,0.6)',
-                fontFamily: font,
-                marginBottom: 24,
-                maxWidth: 350,
-              }}
-            >
-              {footer.tagline}
+            <p className="mt-3 max-w-xs text-[13px] text-black/55">
+              {s.footer.tagline}
             </p>
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                gap: 8,
-              }}
-            >
-              <span
-                style={{
-                  fontSize: 14,
-                  color: 'rgba(255,255,255,0.5)',
-                  fontFamily: font,
-                }}
-              >
-                {brand.phone}
-              </span>
-              <span
-                style={{
-                  fontSize: 14,
-                  color: 'rgba(255,255,255,0.5)',
-                  fontFamily: font,
-                }}
-              >
-                {brand.email}
-              </span>
-            </div>
           </div>
-
-          {/* Services column */}
-          <div>
-            <h4
-              style={{
-                fontSize: 14,
-                fontWeight: 700,
-                fontFamily: font,
-                color: 'rgba(255,255,255,0.9)',
-                textTransform: 'uppercase',
-                letterSpacing: '1.5px',
-                marginBottom: 20,
-              }}
-            >
-              Services
-            </h4>
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                gap: 12,
-              }}
-            >
-              {footer.services.map((service, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  style={{
-                    fontSize: 14,
-                    color: 'rgba(255,255,255,0.5)',
-                    textDecoration: 'none',
-                    fontFamily: font,
-                    transition: 'color 0.2s',
-                  }}
-                  onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = 'rgba(255,255,255,0.9)')
-                  }
-                  onMouseLeave={(e) =>
-                    (e.currentTarget.style.color = 'rgba(255,255,255,0.5)')
-                  }
-                >
-                  {service}
-                </a>
-              ))}
-            </div>
+          <div className="flex flex-wrap gap-x-8 gap-y-2 text-[12px] font-semibold uppercase tracking-[0.1em] text-black/60 lg:col-span-6">
+            {s.footer.services.map((svc) => (
+              <a key={svc} href="#" className="transition-colors hover:text-[color:var(--r)]" style={{ ["--r" as string]: RED }}>
+                {svc}
+              </a>
+            ))}
           </div>
-
-          {/* Quick links */}
-          <div>
-            <h4
-              style={{
-                fontSize: 14,
-                fontWeight: 700,
-                fontFamily: font,
-                color: 'rgba(255,255,255,0.9)',
-                textTransform: 'uppercase',
-                letterSpacing: '1.5px',
-                marginBottom: 20,
-              }}
-            >
-              Quick Links
-            </h4>
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                gap: 12,
-              }}
-            >
-              {nav.map((item, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  style={{
-                    fontSize: 14,
-                    color: 'rgba(255,255,255,0.5)',
-                    textDecoration: 'none',
-                    fontFamily: font,
-                    transition: 'color 0.2s',
-                  }}
-                  onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = 'rgba(255,255,255,0.9)')
-                  }
-                  onMouseLeave={(e) =>
-                    (e.currentTarget.style.color = 'rgba(255,255,255,0.5)')
-                  }
-                >
-                  {item}
-                </a>
-              ))}
-            </div>
+          <div className="text-[12px] text-black/45 lg:col-span-2">
+            {s.brand.phone}
           </div>
         </div>
-
-        {/* Divider */}
-        <div
-          style={{
-            maxWidth: 1200,
-            margin: '48px auto 0',
-            borderTop: '1px solid rgba(255,255,255,0.08)',
-            paddingTop: 24,
-            position: 'relative',
-            zIndex: 1,
-          }}
-        >
-          <p
-            style={{
-              fontSize: 13,
-              color: 'rgba(255,255,255,0.35)',
-              fontFamily: font,
-              textAlign: 'center',
-            }}
-          >
-            {footer.copyright}
-          </p>
+        <div className="border-t-2 border-black px-6 py-5 text-[11px] uppercase tracking-[0.12em] text-black/45 lg:px-12">
+          {s.footer.copyright}
         </div>
       </footer>
+
+      <Link
+        href="/"
+        className="fixed bottom-6 left-6 z-50 inline-flex items-center gap-2 border-2 border-black bg-white px-4 py-2 text-[11px] font-bold uppercase tracking-[0.14em] transition-colors hover:bg-black hover:text-white"
+      >
+        ← Gallery
+      </Link>
     </div>
   );
 }

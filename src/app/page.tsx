@@ -49,6 +49,20 @@ const designs = [
     blurb:
       "Full-viewport chapters that tell the story top to bottom — operators, numbers, system, compliance, evidence. Premium and cinematic.",
   },
+  {
+    id: 6,
+    name: "Console",
+    tag: "Terminal · AI-Native · Mono",
+    blurb:
+      "The whole site as an AI-native command line. It boots up, types its pitch, streams logs and runs compliance checks. For an agency that builds its own systems.",
+  },
+  {
+    id: 7,
+    name: "Mission Control",
+    tag: "Dashboard · Data-Viz · Live",
+    blurb:
+      "The agency as a live analytics product. An animated click→admission funnel, count-up KPIs, sparklines and a growth chart. The data is the design.",
+  },
 ];
 
 /* design-accurate mini previews, all on brand */
@@ -137,18 +151,84 @@ function Preview({ id }: { id: number }) {
         </div>
       </div>
     );
-  return (
-    <div className="relative h-full w-full overflow-hidden" style={{ background: "#03060E" }}>
-      <div className="absolute inset-0" style={{ background: "radial-gradient(60% 60% at 82% 25%, rgba(0,144,240,0.20), transparent 55%), radial-gradient(50% 50% at 0% 100%, rgba(0,168,96,0.14), transparent 55%)" }} />
-      <div className="absolute left-5 top-5 text-[9px] uppercase tracking-[0.3em]" style={{ color: brand.blue }}>
-        Chapter 00
-      </div>
-      <div className="absolute bottom-7 left-5 right-5">
-        <div className="text-[clamp(1.4rem,3.4vw,2.2rem)] leading-[0.95] text-[#F2F2EC]" style={{ fontFamily: bricolage, fontWeight: 700 }}>
-          Partner with an AI Marketing Agency That Knows Behavioral Health
+  if (id === 5)
+    return (
+      <div className="relative h-full w-full overflow-hidden" style={{ background: "#03060E" }}>
+        <div className="absolute inset-0" style={{ background: "radial-gradient(60% 60% at 82% 25%, rgba(0,144,240,0.20), transparent 55%), radial-gradient(50% 50% at 0% 100%, rgba(0,168,96,0.14), transparent 55%)" }} />
+        <div className="absolute left-5 top-5 text-[9px] uppercase tracking-[0.3em]" style={{ color: brand.blue }}>
+          Chapter 00
         </div>
-        <div className="mt-4 inline-block rounded-full px-4 py-1.5 text-[10px] font-bold uppercase tracking-[0.14em] text-black" style={{ background: brand.blue }}>
-          Book a Discovery Call
+        <div className="absolute bottom-7 left-5 right-5">
+          <div className="text-[clamp(1.4rem,3.4vw,2.2rem)] leading-[0.95] text-[#F2F2EC]" style={{ fontFamily: bricolage, fontWeight: 700 }}>
+            Partner with an AI Marketing Agency That Knows Behavioral Health
+          </div>
+          <div className="mt-4 inline-block rounded-full px-4 py-1.5 text-[10px] font-bold uppercase tracking-[0.14em] text-black" style={{ background: brand.blue }}>
+            Book a Discovery Call
+          </div>
+        </div>
+      </div>
+    );
+  if (id === 6)
+    return (
+      <div className="relative h-full w-full overflow-hidden p-4" style={{ background: "#05080E", fontFamily: "'Space Mono',monospace" }}>
+        <div className="flex items-center gap-1.5">
+          <span className="h-2.5 w-2.5 rounded-full" style={{ background: "#ff5f57" }} />
+          <span className="h-2.5 w-2.5 rounded-full" style={{ background: "#febc2e" }} />
+          <span className="h-2.5 w-2.5 rounded-full" style={{ background: brand.green }} />
+          <span className="ml-2 text-[9px] text-white/35">marketing-powered — zsh</span>
+        </div>
+        <div className="mt-4 text-[11px] leading-6">
+          <div>
+            <span style={{ color: brand.green }}>mp@marketingpowered</span>
+            <span className="text-white/35">:~$ </span>
+            <span className="text-white">mp init --vertical behavioral-health</span>
+          </div>
+          <div style={{ color: brand.blue }}>[ ok ] loading inference cluster · $50M+ models</div>
+          <div style={{ color: brand.green }}>[ ok ] legitscript compliance verified</div>
+          <div className="mt-2 text-[clamp(1rem,2.6vw,1.5rem)] font-bold leading-tight text-white">
+            AI agency that <span style={{ color: brand.green }}>knows</span>{" "}
+            <span style={{ color: brand.blue }}>behavioral health</span>.
+          </div>
+          <div className="mt-2 text-white">
+            <span style={{ color: brand.blue }}>▸ ./book-discovery-call.sh</span>
+            <span className="mp-caret-g" style={{ color: brand.blue }}>▋</span>
+          </div>
+        </div>
+      </div>
+    );
+  return (
+    <div className="relative h-full w-full overflow-hidden bg-[#EEF4FB] p-4" style={{ color: brand.navy }}>
+      <div className="flex items-center justify-between">
+        <span className="text-[10px] font-bold">Attribution Overview</span>
+        <span className="flex items-center gap-1 text-[9px] font-bold text-[#00854C]">
+          <span className="h-1.5 w-1.5 rounded-full" style={{ background: brand.green }} /> LIVE
+        </span>
+      </div>
+      <div className="mt-3 grid grid-cols-2 gap-2">
+        {[["ROAS", "847%", brand.blue], ["Cost / Adm.", "$42", brand.green]].map(([l, v, c]) => (
+          <div key={l as string} className="rounded-lg bg-white p-2.5">
+            <div className="text-[8px] font-bold uppercase tracking-wider" style={{ color: "#5A6B82" }}>{l}</div>
+            <div className="text-[1.1rem] font-extrabold" style={{ color: c as string }}>{v}</div>
+          </div>
+        ))}
+      </div>
+      <div className="mt-3 rounded-lg bg-white p-3">
+        <div className="space-y-1.5">
+          {[["Click", 100], ["Form / Call", 68], ["Qualified", 41], ["Admission", 23]].map(([l, p], i) => (
+            <div key={l as string} className="flex items-center gap-2">
+              <span className="w-16 shrink-0 text-[8px] font-semibold">{l}</span>
+              <div className="h-3 flex-1 overflow-hidden rounded bg-[#E5EEF8]">
+                <div
+                  className="h-full rounded"
+                  style={{
+                    width: `${p}%`,
+                    background: `linear-gradient(90deg, ${brand.blue}, ${i === 3 ? brand.green : brand.cyan})`,
+                  }}
+                />
+              </div>
+              <span className="w-7 text-right text-[8px] font-bold" style={{ color: brand.navy }}>{p}%</span>
+            </div>
+          ))}
         </div>
       </div>
     </div>
@@ -173,17 +253,17 @@ export default function DesignGallery() {
         </div>
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-1.5 text-[12px] uppercase tracking-[0.2em] text-white/60">
           <span className="h-1.5 w-1.5 rounded-full" style={{ background: brand.green }} />
-          Five Homepage Concepts
+          Seven Homepage Concepts
         </div>
         <h1 className="text-[clamp(2.2rem,5.5vw,4rem)] font-extrabold leading-[1.04]" style={{ color: "#FFFFFF" }}>
           One agency.{" "}
           <span style={{ background: brandGradient, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>
-            Five directions.
+            Seven directions.
           </span>
         </h1>
         <p className="mx-auto mt-6 max-w-xl leading-relaxed text-white/55">
           The same story — an AI-native marketing agency for behavioral health —
-          explored through five on-brand homepage designs. Each is a full, live page.
+          explored through seven on-brand homepage designs. Each is a full, live page.
         </p>
       </header>
 

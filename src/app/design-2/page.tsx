@@ -1,172 +1,187 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { siteContent as s } from "@/lib/content";
 import Reveal from "@/components/Reveal";
+import { Logo, Figure, brand, brandGradient } from "@/components/brand";
 
 /* ================================================================== */
-/*  DESIGN 2 — "The Quarterly"                                         */
-/*  High-end print magazine. Warm paper stock, Newsreader display      */
-/*  serif, editorial multi-column copy, drop caps, ruled captions,     */
-/*  oxblood accent. Intentional asymmetry and generous margins.        */
+/*  DESIGN 2 — "Clarity"                                              */
+/*  A clean, trust-forward B2B agency homepage built around what the  */
+/*  company actually is: an AI-native marketing agency for behavioral */
+/*  health. Light, structured, results-led, fully on brand            */
+/*  (blue / green / navy). Modern Manrope, calm healthcare credibility.*/
 /* ================================================================== */
 
-const PAPER = "#F4EFE6";
-const INK = "#1C1815";
-const display = "'Newsreader', Georgia, serif";
-const accentSerif = "'Fraunces', Georgia, serif";
 const sans = "'Manrope', system-ui, sans-serif";
+const INK = "#0A1322";
+const MUTE = "#48566B";
+const SOFT = "#F3F8FD";
+
+function ServiceIcon({ name }: { name: string }) {
+  const common = {
+    width: 22,
+    height: 22,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: 1.8,
+    strokeLinecap: "round" as const,
+    strokeLinejoin: "round" as const,
+  };
+  switch (name) {
+    case "target":
+      return (
+        <svg {...common}>
+          <circle cx="12" cy="12" r="9" />
+          <circle cx="12" cy="12" r="5" />
+          <circle cx="12" cy="12" r="1.5" />
+        </svg>
+      );
+    case "search":
+      return (
+        <svg {...common}>
+          <circle cx="11" cy="11" r="7" />
+          <path d="m20 20-3.5-3.5" />
+        </svg>
+      );
+    case "chart":
+      return (
+        <svg {...common}>
+          <path d="M3 3v18h18" />
+          <path d="M7 15l3-4 3 2 4-6" />
+        </svg>
+      );
+    case "shield":
+      return (
+        <svg {...common}>
+          <path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3Z" />
+          <path d="m9 12 2 2 4-4" />
+        </svg>
+      );
+    case "zap":
+      return (
+        <svg {...common}>
+          <path d="M13 2 5 14h6l-1 8 8-12h-6l1-8Z" />
+        </svg>
+      );
+    default:
+      return (
+        <svg {...common}>
+          <path d="m8 9-3 3 3 3" />
+          <path d="m16 9 3 3-3 3" />
+          <path d="m13 6-2 12" />
+        </svg>
+      );
+  }
+}
 
 export default function Design2() {
   const [open, setOpen] = useState<number | null>(0);
 
-  return (
-    <div
-      style={{ background: PAPER, color: INK, fontFamily: sans }}
-      className="relative min-h-screen"
-    >
-      {/* paper grain */}
-      <div
-        aria-hidden
-        className="pointer-events-none fixed inset-0 z-0 opacity-[0.45] mix-blend-multiply"
-        style={{
-          backgroundImage:
-            "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.18'/%3E%3C/svg%3E\")",
-        }}
-      />
+  const trust = [
+    { v: "$50M+", l: "Managed ad spend" },
+    { v: "0", l: "Account suspensions" },
+    { v: "LegitScript", l: "Compliant campaigns" },
+  ];
 
-      {/* ---------- MASTHEAD ---------- */}
-      <header className="relative z-10 mx-auto max-w-6xl px-6 lg:px-10">
-        <div className="flex items-center justify-between border-b-2 border-[#1C1815] py-5 text-[11px] uppercase tracking-[0.25em]">
-          <span>Vol. XII — Behavioral Health</span>
-          <span className="hidden sm:block">Issue No. 2026</span>
-          <span>{s.brand.address.split(",")[1]}</span>
-        </div>
-        <div className="flex flex-col items-center border-b border-[#1C1815]/30 py-8 text-center">
-          <span className="mb-3 text-[11px] uppercase tracking-[0.4em] text-[#8A2B2B]">
-            An AI Marketing Quarterly
-          </span>
-          <h1
-            className="text-[clamp(2.4rem,7vw,5.5rem)] leading-[0.92]"
-            style={{ fontFamily: display, fontWeight: 500, letterSpacing: "-0.02em" }}
+  return (
+    <div style={{ background: "#FFFFFF", color: INK, fontFamily: sans }} className="min-h-screen">
+      {/* ---------- NAV ---------- */}
+      <header className="sticky top-0 z-40 border-b border-[#E4ECF5] bg-white/85 backdrop-blur-md">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
+          <Logo tone="dark" />
+          <nav className="hidden items-center gap-8 text-[14px] font-medium text-[#3A4760] md:flex">
+            {s.nav.map((n) => (
+              <a key={n} href="#" className="transition-colors hover:text-[#0090F0]">
+                {n}
+              </a>
+            ))}
+          </nav>
+          <Link
+            href={s.hero.ctaLink}
+            className="rounded-full px-5 py-2.5 text-[13px] font-bold text-white shadow-[0_8px_24px_-8px_rgba(0,144,240,0.7)] transition-transform hover:scale-[1.03]"
+            style={{ background: brand.blue }}
           >
-            Marketing Powered
-          </h1>
+            Book a Call
+          </Link>
         </div>
-        <nav className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 py-4 text-[12px] uppercase tracking-[0.18em] text-[#1C1815]/70">
-          {[...s.nav, "Contact"].map((n) => (
-            <a key={n} href="#" className="transition-colors hover:text-[#8A2B2B]">
-              {n}
-            </a>
-          ))}
-        </nav>
       </header>
 
-      {/* ---------- HERO / COVER STORY ---------- */}
-      <section className="relative z-10 mx-auto max-w-6xl px-6 py-14 lg:px-10">
-        <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
-          <Reveal>
-            <p className="mb-6 text-[12px] uppercase tracking-[0.3em] text-[#8A2B2B]">
-              The Cover Story
-            </p>
-            <h2
-              className="text-[clamp(2.2rem,4.5vw,4rem)] leading-[1.02]"
-              style={{ fontFamily: display, fontWeight: 500, letterSpacing: "-0.015em" }}
+      {/* ---------- HERO ---------- */}
+      <section className="relative overflow-hidden">
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0"
+          style={{
+            background:
+              "radial-gradient(70% 60% at 85% 10%, rgba(0,144,240,0.10), transparent 60%), radial-gradient(50% 50% at 0% 100%, rgba(0,168,96,0.08), transparent 60%)",
+          }}
+        />
+        <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:py-24 lg:px-8">
+          <div>
+            <div
+              className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#CDE6FA] bg-[#EAF5FE] px-4 py-1.5 text-[12px] font-semibold tracking-wide text-[#0072D8]"
+              style={{ animation: "mp-fade-in 0.8s ease both" }}
             >
+              <span className="h-1.5 w-1.5 rounded-full" style={{ background: brand.green }} />
+              AI-native since 2022 · HIPAA-conscious
+            </div>
+            <h1 className="text-[clamp(2.3rem,4.6vw,3.7rem)] font-extrabold leading-[1.05] tracking-tight" style={{ color: brand.navy }}>
               {s.hero.headline}
-            </h2>
-            <p className="mt-8 max-w-md text-[1.05rem] leading-relaxed text-[#1C1815]/70">
+            </h1>
+            <p className="mt-6 max-w-xl text-[1.08rem] leading-relaxed" style={{ color: MUTE }}>
               {s.hero.subheadline}
             </p>
-            <Link
-              href={s.hero.ctaLink}
-              className="group mt-9 inline-flex items-center gap-3 border-b-2 border-[#8A2B2B] pb-1 text-[13px] font-semibold uppercase tracking-[0.18em] text-[#8A2B2B]"
-            >
-              {s.hero.cta}
-              <span className="transition-transform group-hover:translate-x-1">
-                →
-              </span>
-            </Link>
-          </Reveal>
-
-          <Reveal variant="blur" delay={120} className="relative">
-            <figure className="relative">
-              <div className="overflow-hidden">
-                <Image
-                  src={s.hero.image}
-                  alt={s.hero.imageAlt}
-                  width={760}
-                  height={900}
-                  priority
-                  className="h-[clamp(360px,48vw,540px)] w-full object-cover"
-                  style={{ filter: "sepia(0.08) contrast(1.03)" }}
-                />
-              </div>
-              <figcaption className="mt-3 flex items-start gap-3 text-[11px] uppercase tracking-[0.14em] text-[#1C1815]/55">
-                <span className="mt-0.5 inline-block h-3 w-3 shrink-0 bg-[#8A2B2B]" />
-                Fig. 01 — Strategy built on $50M+ in managed spend
-              </figcaption>
-            </figure>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* ---------- RULE / SOCIAL PROOF ---------- */}
-      <section className="relative z-10 mx-auto max-w-6xl px-6 lg:px-10">
-        <div className="flex flex-col items-center gap-3 border-y-2 border-[#1C1815] py-6 text-center">
-          <p
-            className="text-[clamp(1.1rem,2.4vw,1.8rem)] italic"
-            style={{ fontFamily: accentSerif }}
-          >
-            “{s.socialProof}.”
-          </p>
-        </div>
-      </section>
-
-      {/* ---------- FEATURE / EXPERTS (drop cap + columns) ---------- */}
-      <section className="relative z-10 mx-auto max-w-6xl px-6 py-20 lg:px-10">
-        <div className="grid gap-12 lg:grid-cols-[0.4fr_1.6fr]">
-          <Reveal>
-            <div className="lg:sticky lg:top-10">
-              <p className="text-[12px] uppercase tracking-[0.3em] text-[#8A2B2B]">
-                Feature
-              </p>
-              <h3
-                className="mt-4 text-[clamp(1.8rem,3vw,2.6rem)] leading-[1.05]"
-                style={{ fontFamily: display, fontWeight: 500 }}
+            <div className="mt-8 flex flex-wrap items-center gap-4">
+              <Link
+                href={s.hero.ctaLink}
+                className="group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-[14px] font-bold text-white shadow-[0_12px_30px_-10px_rgba(0,144,240,0.7)] transition-transform hover:scale-[1.03]"
+                style={{ background: brand.blue }}
               >
-                {s.growth.headline}
-              </h3>
-              <div className="mt-6 h-px w-16 bg-[#8A2B2B]" />
+                {s.hero.cta}
+                <span className="transition-transform group-hover:translate-x-1">→</span>
+              </Link>
+              <a href="#services" className="text-[14px] font-bold text-[#0072D8]">
+                See how it works →
+              </a>
             </div>
-          </Reveal>
-
-          <Reveal delay={120}>
-            <div className="columns-1 gap-10 md:columns-2 [&>p]:mb-5 [&>p]:text-[1.02rem] [&>p]:leading-[1.75] [&>p]:text-[#1C1815]/75">
-              <p className="first-letter:float-left first-letter:mr-3 first-letter:mt-1 first-letter:text-[4.5rem] first-letter:leading-[0.7] first-letter:text-[#8A2B2B] first-letter:[font-family:'Fraunces',serif]">
-                {s.growth.body}
-              </p>
-              <p>{s.growth.body2}</p>
-              <p>{s.growth.body3}</p>
+            <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4 border-t border-[#E4ECF5] pt-7">
+              {trust.map((t) => (
+                <div key={t.l}>
+                  <div className="text-[1.4rem] font-extrabold" style={{ color: brand.blue }}>
+                    {t.v}
+                  </div>
+                  <div className="text-[12px] font-medium" style={{ color: MUTE }}>
+                    {t.l}
+                  </div>
+                </div>
+              ))}
             </div>
+          </div>
+          <Reveal variant="blur">
+            <Figure src={s.hero.image} alt={s.hero.imageAlt} ratio="16 / 11" priority />
           </Reveal>
         </div>
       </section>
 
-      {/* ---------- STATS (ledger) ---------- */}
-      <section className="relative z-10 border-y-2 border-[#1C1815]">
-        <div className="mx-auto grid max-w-6xl divide-y divide-[#1C1815]/20 px-6 sm:grid-cols-2 sm:divide-y-0 sm:divide-x lg:grid-cols-4 lg:px-10">
+      {/* ---------- STATS ---------- */}
+      <section style={{ background: SOFT }}>
+        <div className="mx-auto grid max-w-6xl gap-5 px-6 py-16 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
           {s.stats.map((stat, i) => (
-            <Reveal key={stat.value} delay={i * 80} className="px-2 py-10 sm:px-6">
+            <Reveal
+              key={stat.value}
+              delay={i * 80}
+              className="rounded-2xl border border-[#E1ECF7] bg-white p-7 shadow-[0_18px_40px_-30px_rgba(0,24,72,0.5)]"
+            >
               <div
-                className="text-[clamp(2.6rem,4.5vw,3.6rem)] leading-none text-[#8A2B2B]"
-                style={{ fontFamily: display, fontWeight: 500 }}
+                className="text-[clamp(2rem,3.4vw,2.8rem)] font-extrabold leading-none"
+                style={{ color: i % 2 ? brand.green : brand.blue }}
               >
                 {stat.value}
               </div>
-              <p className="mt-4 text-[13px] leading-relaxed text-[#1C1815]/65">
+              <p className="mt-4 text-[13px] leading-relaxed" style={{ color: MUTE }}>
                 {stat.label}
               </p>
             </Reveal>
@@ -174,143 +189,183 @@ export default function Design2() {
         </div>
       </section>
 
-      {/* ---------- SERVICES (editorial cards) ---------- */}
-      <section className="relative z-10 mx-auto max-w-6xl px-6 py-20 lg:px-10">
-        <Reveal>
-          <div className="mb-12 flex items-end justify-between border-b border-[#1C1815]/30 pb-4">
-            <h3
-              className="text-[clamp(1.8rem,3.4vw,2.8rem)]"
-              style={{ fontFamily: display, fontWeight: 500 }}
-            >
-              {s.servicesIntro.headline}
-            </h3>
-            <span className="hidden text-[12px] uppercase tracking-[0.2em] text-[#1C1815]/50 md:block">
-              Six Disciplines
-            </span>
-          </div>
-        </Reveal>
-        <div className="grid gap-x-12 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          {s.services.map((svc, i) => (
-            <Reveal key={svc.title} delay={(i % 3) * 80}>
-              <article className="group">
-                <div className="mb-4 flex items-baseline gap-3 border-b border-[#1C1815]/20 pb-3">
-                  <span
-                    className="text-[13px] text-[#8A2B2B]"
-                    style={{ fontFamily: accentSerif }}
-                  >
-                    §{i + 1}
-                  </span>
-                  <h4
-                    className="text-[1.3rem] leading-snug transition-colors group-hover:text-[#8A2B2B]"
-                    style={{ fontFamily: display, fontWeight: 500 }}
-                  >
-                    {svc.title}
-                  </h4>
-                </div>
-                <p className="text-[0.95rem] leading-relaxed text-[#1C1815]/70">
-                  {svc.description}
-                </p>
-              </article>
+      {/* ---------- EXPERTS / GROWTH ---------- */}
+      <section className="mx-auto max-w-6xl px-6 py-24 lg:px-8">
+        <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
+          <Reveal variant="blur" className="order-2 lg:order-1">
+            <Figure src={s.growth.image} alt={s.growth.imageAlt} ratio="16 / 11" />
+          </Reveal>
+          <div className="order-1 lg:order-2">
+            <Reveal>
+              <p className="text-[13px] font-bold uppercase tracking-[0.16em]" style={{ color: brand.blue }}>
+                Built by operators
+              </p>
+              <h2 className="mt-4 text-[clamp(1.8rem,3.2vw,2.8rem)] font-extrabold leading-[1.1]" style={{ color: brand.navy }}>
+                {s.growth.headline}
+              </h2>
             </Reveal>
-          ))}
-        </div>
-      </section>
-
-      {/* ---------- PULL QUOTE + IMAGE ---------- */}
-      <section className="relative z-10 mx-auto max-w-6xl px-6 py-10 lg:px-10">
-        <div className="grid items-center gap-12 lg:grid-cols-2">
-          <Reveal variant="blur" className="relative">
-            <Image
-              src={s.specializedMarketing.image}
-              alt={s.specializedMarketing.imageAlt}
-              width={720}
-              height={620}
-              className="w-full object-cover"
-              style={{ filter: "sepia(0.06) contrast(1.02)" }}
-            />
-          </Reveal>
-          <Reveal delay={120}>
-            <p className="mb-5 text-[12px] uppercase tracking-[0.3em] text-[#8A2B2B]">
-              On Compliance
-            </p>
-            <blockquote
-              className="text-[clamp(1.4rem,2.6vw,2rem)] leading-[1.25]"
-              style={{ fontFamily: display, fontWeight: 400 }}
-            >
-              {s.specializedMarketing.headline}
-            </blockquote>
-            <p className="mt-7 leading-relaxed text-[#1C1815]/70">
-              {s.specializedMarketing.body2}
-            </p>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* ---------- DOSSIER / WHY CHOOSE ---------- */}
-      <section className="relative z-10 mx-auto max-w-6xl px-6 py-20 lg:px-10">
-        <Reveal>
-          <h3
-            className="mb-3 text-[clamp(1.8rem,3.4vw,2.8rem)]"
-            style={{ fontFamily: display, fontWeight: 500 }}
-          >
-            {s.whyChoose.headline}
-          </h3>
-          <p className="mb-12 max-w-2xl leading-relaxed text-[#1C1815]/70">
-            {s.whyChoose.body}
-          </p>
-        </Reveal>
-        <div className="grid gap-px border border-[#1C1815]/25 bg-[#1C1815]/15 sm:grid-cols-2">
-          {s.whyChoose.cards.map((card, i) => (
-            <Reveal key={card.title} delay={(i % 2) * 90} className="bg-[#F4EFE6] p-8">
-              <h4
-                className="flex items-center gap-3 text-[1.25rem]"
-                style={{ fontFamily: display, fontWeight: 500 }}
-              >
-                <span className="text-[#8A2B2B]" style={{ fontFamily: accentSerif }}>
-                  0{i + 1}
-                </span>
-                {card.title}
-              </h4>
-              <p className="mt-4 text-[0.95rem] leading-relaxed text-[#1C1815]/70">
-                {card.description}
+            <Reveal delay={120}>
+              <p className="mt-6 leading-relaxed" style={{ color: MUTE }}>
+                {s.growth.body}
               </p>
             </Reveal>
-          ))}
+            <Reveal delay={200}>
+              <div
+                className="mt-7 flex items-center gap-5 rounded-2xl border border-[#E1ECF7] p-5"
+                style={{ background: SOFT }}
+              >
+                <span className="text-[2.6rem] font-extrabold leading-none" style={{ color: brand.green }}>
+                  3→24
+                </span>
+                <span className="text-[13px] font-medium leading-snug" style={{ color: MUTE }}>
+                  Haven Health locations scaled under our marketing leadership.
+                </span>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- SERVICES ---------- */}
+      <section id="services" style={{ background: SOFT }}>
+        <div className="mx-auto max-w-6xl px-6 py-24 lg:px-8">
+          <Reveal className="mx-auto mb-14 max-w-2xl text-center">
+            <p className="text-[13px] font-bold uppercase tracking-[0.16em]" style={{ color: brand.blue }}>
+              What we do
+            </p>
+            <h2 className="mt-4 text-[clamp(1.8rem,3.2vw,2.8rem)] font-extrabold leading-[1.1]" style={{ color: brand.navy }}>
+              {s.servicesIntro.headline}
+            </h2>
+            <p className="mt-5 leading-relaxed" style={{ color: MUTE }}>
+              {s.servicesIntro.body}
+            </p>
+          </Reveal>
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            {s.services.map((svc, i) => (
+              <Reveal
+                key={svc.title}
+                delay={(i % 3) * 80}
+                className="group rounded-2xl border border-[#E1ECF7] bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_50px_-28px_rgba(0,24,72,0.45)]"
+              >
+                <div
+                  className="mb-5 grid h-12 w-12 place-items-center rounded-xl text-white"
+                  style={{ background: i % 2 ? brand.green : brand.blue }}
+                >
+                  <ServiceIcon name={svc.icon} />
+                </div>
+                <h3 className="text-[1.15rem] font-bold" style={{ color: brand.navy }}>
+                  {svc.title}
+                </h3>
+                <p className="mt-3 text-[0.92rem] leading-relaxed" style={{ color: MUTE }}>
+                  {svc.description}
+                </p>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- SPECIALIZED ---------- */}
+      <section className="mx-auto max-w-6xl px-6 py-24 lg:px-8">
+        <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
+          <Reveal>
+            <p className="text-[13px] font-bold uppercase tracking-[0.16em]" style={{ color: brand.blue }}>
+              Why specialized matters
+            </p>
+            <h2 className="mt-4 text-[clamp(1.7rem,3vw,2.6rem)] font-extrabold leading-[1.12]" style={{ color: brand.navy }}>
+              {s.specializedMarketing.headline}
+            </h2>
+            <p className="mt-6 leading-relaxed" style={{ color: MUTE }}>
+              {s.specializedMarketing.body}
+            </p>
+            <ul className="mt-7 space-y-3">
+              {[
+                "No retargeting in Google's sensitive vertical — we plan around it",
+                "LegitScript & Meta Special Ad Category compliance, built in",
+                "Attribution tracked from first click through to admission",
+              ].map((point) => (
+                <li key={point} className="flex items-start gap-3 text-[0.95rem]" style={{ color: INK }}>
+                  <span
+                    className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full text-[12px] font-bold text-white"
+                    style={{ background: brand.green }}
+                  >
+                    ✓
+                  </span>
+                  {point}
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+          <Reveal variant="blur" delay={120}>
+            <Figure src={s.specializedMarketing.image} alt={s.specializedMarketing.imageAlt} ratio="16 / 10" />
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ---------- RESULTS / WHY CHOOSE ---------- */}
+      <section style={{ background: SOFT }}>
+        <div className="mx-auto max-w-6xl px-6 py-24 lg:px-8">
+          <Reveal className="mb-12 max-w-2xl">
+            <p className="text-[13px] font-bold uppercase tracking-[0.16em]" style={{ color: brand.blue }}>
+              Proven results
+            </p>
+            <h2 className="mt-4 text-[clamp(1.8rem,3.2vw,2.8rem)] font-extrabold leading-[1.1]" style={{ color: brand.navy }}>
+              {s.whyChoose.headline}
+            </h2>
+            <p className="mt-5 leading-relaxed" style={{ color: MUTE }}>
+              {s.whyChoose.body}
+            </p>
+          </Reveal>
+          <div className="grid gap-5 md:grid-cols-2">
+            {s.whyChoose.cards.map((card, i) => (
+              <Reveal
+                key={card.title}
+                delay={(i % 2) * 90}
+                className="rounded-2xl border border-[#E1ECF7] bg-white p-8"
+              >
+                <h3 className="flex items-center gap-3 text-[1.15rem] font-bold" style={{ color: brand.navy }}>
+                  <span
+                    className="grid h-8 w-8 place-items-center rounded-lg text-[13px] font-extrabold text-white"
+                    style={{ background: i % 2 ? brand.green : brand.blue }}
+                  >
+                    {i + 1}
+                  </span>
+                  {card.title}
+                </h3>
+                <p className="mt-4 text-[0.95rem] leading-relaxed" style={{ color: MUTE }}>
+                  {card.description}
+                </p>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* ---------- FAQ ---------- */}
-      <section className="relative z-10 mx-auto max-w-4xl px-6 py-16 lg:px-10">
+      <section className="mx-auto max-w-3xl px-6 py-24 lg:px-8">
         <Reveal>
-          <h3
-            className="mb-10 text-[clamp(1.8rem,3.4vw,2.6rem)]"
-            style={{ fontFamily: display, fontWeight: 500 }}
-          >
-            Correspondence
-          </h3>
+          <h2 className="mb-10 text-center text-[clamp(1.7rem,3vw,2.4rem)] font-extrabold" style={{ color: brand.navy }}>
+            Frequently asked questions
+          </h2>
         </Reveal>
-        <div className="border-t-2 border-[#1C1815]">
+        <div className="space-y-3">
           {s.faq.map((f, i) => {
             const isOpen = open === i;
             return (
-              <div key={f.question} className="border-b border-[#1C1815]/25">
+              <div
+                key={f.question}
+                className="overflow-hidden rounded-2xl border border-[#E1ECF7] bg-white"
+              >
                 <button
                   onClick={() => setOpen(isOpen ? null : i)}
-                  className="flex w-full items-center justify-between gap-6 py-5 text-left"
+                  className="flex w-full items-center justify-between gap-6 px-6 py-5 text-left"
                 >
-                  <span
-                    className="text-[1.15rem] leading-snug"
-                    style={{
-                      fontFamily: display,
-                      fontWeight: 500,
-                      color: isOpen ? "#8A2B2B" : INK,
-                    }}
-                  >
+                  <span className="text-[1.02rem] font-bold" style={{ color: brand.navy }}>
                     {f.question}
                   </span>
                   <span
-                    className="shrink-0 text-2xl text-[#8A2B2B] transition-transform duration-300"
-                    style={{ transform: isOpen ? "rotate(45deg)" : "none" }}
+                    className="grid h-7 w-7 shrink-0 place-items-center rounded-full text-white transition-transform duration-300"
+                    style={{ background: brand.blue, transform: isOpen ? "rotate(45deg)" : "none" }}
                   >
                     +
                   </span>
@@ -320,7 +375,7 @@ export default function Design2() {
                   style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
                 >
                   <div className="overflow-hidden">
-                    <p className="pb-6 text-[0.97rem] leading-relaxed text-[#1C1815]/70">
+                    <p className="px-6 pb-6 text-[0.95rem] leading-relaxed" style={{ color: MUTE }}>
                       {f.answer}
                     </p>
                   </div>
@@ -331,53 +386,58 @@ export default function Design2() {
         </div>
       </section>
 
-      {/* ---------- CTA / BACK PAGE ---------- */}
-      <section className="relative z-10 mx-auto max-w-6xl px-6 pb-20 lg:px-10">
-        <Reveal className="border-2 border-[#1C1815] bg-[#1C1815] p-10 text-[#F4EFE6] md:p-16">
-          <div className="grid gap-10 md:grid-cols-[1.4fr_1fr] md:items-center">
-            <div>
-              <p className="mb-5 text-[12px] uppercase tracking-[0.3em] text-[#E0A0A0]">
-                The Invitation
-              </p>
-              <h3
-                className="text-[clamp(1.8rem,3.6vw,3rem)] leading-[1.05]"
-                style={{ fontFamily: display, fontWeight: 500 }}
-              >
-                {s.cta.headline}
-              </h3>
-              <p className="mt-6 max-w-md leading-relaxed text-[#F4EFE6]/70">
-                {s.cta.body}
-              </p>
-            </div>
-            <div className="flex md:justify-end">
-              <Link
-                href={s.cta.ctaLink}
-                className="group inline-flex items-center gap-3 bg-[#8A2B2B] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[#F4EFE6] transition-colors hover:bg-[#a13434]"
-              >
-                {s.cta.ctaText}
-                <span className="transition-transform group-hover:translate-x-1">
-                  →
-                </span>
-              </Link>
-            </div>
-          </div>
+      {/* ---------- CTA ---------- */}
+      <section className="px-6 pb-24 lg:px-8">
+        <Reveal
+          variant="blur"
+          className="relative mx-auto max-w-6xl overflow-hidden rounded-[2rem] px-8 py-20 text-center md:px-16"
+          style={{ background: brandGradient }}
+        >
+          <h2 className="mx-auto max-w-3xl text-[clamp(1.9rem,3.6vw,3rem)] font-extrabold leading-[1.1] text-white">
+            {s.cta.headline}
+          </h2>
+          <p className="mx-auto mt-6 max-w-xl leading-relaxed text-white/85">
+            {s.cta.body}
+          </p>
+          <Link
+            href={s.cta.ctaLink}
+            className="group mt-9 inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-[14px] font-bold text-[#0072D8] transition-transform hover:scale-[1.03]"
+          >
+            {s.cta.ctaText}
+            <span className="transition-transform group-hover:translate-x-1">→</span>
+          </Link>
         </Reveal>
       </section>
 
       {/* ---------- FOOTER ---------- */}
-      <footer className="relative z-10 mx-auto max-w-6xl px-6 pb-16 lg:px-10">
-        <div className="flex flex-col gap-6 border-t-2 border-[#1C1815] pt-8 text-[12px] uppercase tracking-[0.16em] text-[#1C1815]/60 md:flex-row md:items-center md:justify-between">
-          <span style={{ fontFamily: accentSerif }} className="text-base normal-case tracking-normal">
-            Marketing Powered
-          </span>
-          <span>{s.brand.phone}</span>
-          <span className="normal-case tracking-normal">{s.footer.copyright}</span>
+      <footer className="border-t border-[#E4ECF5]">
+        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-12 md:flex-row md:items-start md:justify-between lg:px-8">
+          <div className="max-w-xs">
+            <Logo tone="dark" />
+            <p className="mt-3 text-[13px]" style={{ color: MUTE }}>
+              {s.footer.tagline}
+            </p>
+            <p className="mt-3 text-[13px]" style={{ color: MUTE }}>
+              {s.brand.phone} · {s.brand.email}
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-x-8 gap-y-2 text-[13px]" style={{ color: MUTE }}>
+            {s.footer.services.map((svc) => (
+              <a key={svc} href="#" className="transition-colors hover:text-[#0090F0]">
+                {svc}
+              </a>
+            ))}
+          </div>
+        </div>
+        <div className="border-t border-[#E4ECF5] px-6 py-5 text-center text-[12px] lg:px-8" style={{ color: MUTE }}>
+          {s.footer.copyright}
         </div>
       </footer>
 
       <Link
         href="/"
-        className="fixed bottom-6 left-6 z-50 inline-flex items-center gap-2 border border-[#1C1815] bg-[#F4EFE6] px-4 py-2 text-[11px] uppercase tracking-[0.16em] text-[#1C1815] transition-colors hover:bg-[#1C1815] hover:text-[#F4EFE6]"
+        className="fixed bottom-6 left-6 z-50 inline-flex items-center gap-2 rounded-full border border-[#D5E5F5] bg-white/90 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.14em] backdrop-blur transition-colors hover:text-[#0090F0]"
+        style={{ color: INK }}
       >
         ← Gallery
       </Link>

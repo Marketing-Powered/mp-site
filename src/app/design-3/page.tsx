@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { siteContent as s } from "@/lib/content";
 import Reveal from "@/components/Reveal";
+import { Logo, Figure } from "@/components/brand";
 
 /* ================================================================== */
 /*  DESIGN 3 — "Aurora"                                                */
@@ -13,10 +14,10 @@ import Reveal from "@/components/Reveal";
 /*  floating UI fragments, Sora geometric sans. Density + motion.      */
 /* ================================================================== */
 
-const BASE = "#070711";
+const BASE = "#04070F";
 const sans = "'Sora', system-ui, sans-serif";
 
-const GRAD = "linear-gradient(110deg,#7C5CFF,#C04BFF 45%,#34E2D6)";
+const GRAD = "linear-gradient(110deg,#0090F0,#00A8D8 48%,#00A860)";
 
 function Orb({
   className,
@@ -44,13 +45,13 @@ export default function Design3() {
 
   return (
     <div
-      style={{ background: BASE, color: "#EDEBFF", fontFamily: sans }}
+      style={{ background: BASE, color: "#E6F2FF", fontFamily: sans }}
       className="relative min-h-screen overflow-hidden"
     >
       {/* mesh orbs */}
-      <Orb className="left-[-10%] top-[-8%] h-[480px] w-[480px] opacity-60" color="#5B3CFF" />
-      <Orb className="right-[-8%] top-[18%] h-[420px] w-[420px] opacity-50" color="#C04BFF" delay={3} />
-      <Orb className="bottom-[10%] left-[20%] h-[460px] w-[460px] opacity-40" color="#1FB6C9" delay={6} />
+      <Orb className="left-[-10%] top-[-8%] h-[480px] w-[480px] opacity-60" color="#0072E0" />
+      <Orb className="right-[-8%] top-[18%] h-[420px] w-[420px] opacity-50" color="#00A8D8" delay={3} />
+      <Orb className="bottom-[10%] left-[20%] h-[460px] w-[460px] opacity-40" color="#00A8D8" delay={6} />
       {/* grid overlay */}
       <div
         aria-hidden
@@ -66,15 +67,7 @@ export default function Design3() {
 
       {/* ---------- NAV ---------- */}
       <header className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
-        <div className="flex items-center gap-2.5 text-[17px] font-semibold tracking-tight">
-          <span
-            className="grid h-8 w-8 place-items-center rounded-lg text-black"
-            style={{ background: GRAD }}
-          >
-            ◆
-          </span>
-          Marketing Powered
-        </div>
+        <Logo tone="light" />
         <nav className="hidden items-center gap-8 text-sm text-white/60 md:flex">
           {s.nav.map((n) => (
             <a key={n} href="#" className="transition-colors hover:text-white">
@@ -99,7 +92,7 @@ export default function Design3() {
         >
           <span
             className="h-1.5 w-1.5 rounded-full"
-            style={{ background: "#34E2D6", boxShadow: "0 0 10px #34E2D6" }}
+            style={{ background: "#00A860", boxShadow: "0 0 10px #00A860" }}
           />
           AI-native since 2022 · HIPAA-conscious
         </div>
@@ -156,22 +149,27 @@ export default function Design3() {
                 marketingpowered.ai — live attribution
               </span>
             </div>
-            <Image
-              src={s.hero.image}
-              alt={s.hero.imageAlt}
-              width={1200}
-              height={620}
-              priority
-              className="h-[clamp(260px,38vw,460px)] w-full object-cover opacity-90"
-            />
+            <div
+              className="relative w-full bg-white"
+              style={{ aspectRatio: "16 / 8.5" }}
+            >
+              <Image
+                src={s.hero.image}
+                alt={s.hero.imageAlt}
+                fill
+                priority
+                sizes="100vw"
+                className="object-contain"
+              />
+            </div>
           </div>
           {/* floating stat chips */}
           <div className="absolute -left-4 top-1/3 hidden rounded-2xl border border-white/15 bg-white/10 px-5 py-3 backdrop-blur-xl md:block" style={{ animation: "mp-float 7s ease-in-out infinite" }}>
-            <div className="text-xl font-bold" style={{ color: "#34E2D6" }}>847%</div>
+            <div className="text-xl font-bold" style={{ color: "#00A860" }}>847%</div>
             <div className="text-[11px] text-white/60">ROAS</div>
           </div>
           <div className="absolute -right-4 bottom-1/4 hidden rounded-2xl border border-white/15 bg-white/10 px-5 py-3 backdrop-blur-xl md:block" style={{ animation: "mp-float 9s ease-in-out 1s infinite" }}>
-            <div className="text-xl font-bold" style={{ color: "#C04BFF" }}>$42</div>
+            <div className="text-xl font-bold" style={{ color: "#00A8D8" }}>$42</div>
             <div className="text-[11px] text-white/60">cost / admission</div>
           </div>
         </Reveal>
@@ -194,7 +192,7 @@ export default function Design3() {
       <section className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-10">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <Reveal>
-            <span className="text-[13px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#C04BFF" }}>
+            <span className="text-[13px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#00A8D8" }}>
               Built by operators
             </span>
             <h2 className="mt-4 text-[clamp(2rem,3.6vw,3.2rem)] font-bold leading-[1.08]">
@@ -208,15 +206,13 @@ export default function Design3() {
               className="absolute -inset-[1px] rounded-3xl opacity-60 blur-md"
               style={{ background: GRAD }}
             />
-            <div className="relative overflow-hidden rounded-3xl border border-white/15">
-              <Image
-                src={s.growth.image}
-                alt={s.growth.imageAlt}
-                width={720}
-                height={620}
-                className="h-[clamp(320px,40vw,480px)] w-full object-cover"
-              />
-            </div>
+            <Figure
+              src={s.growth.image}
+              alt={s.growth.imageAlt}
+              ratio="16 / 11"
+              rounded="1.5rem"
+              className="relative"
+            />
           </Reveal>
         </div>
       </section>
@@ -252,7 +248,7 @@ export default function Design3() {
       {/* ---------- SERVICES (glass bento) ---------- */}
       <section className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-10">
         <Reveal className="mx-auto mb-14 max-w-2xl text-center">
-          <span className="text-[13px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#34E2D6" }}>
+          <span className="text-[13px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#00A860" }}>
             The platform
           </span>
           <h2 className="mt-4 text-[clamp(2rem,3.6vw,3rem)] font-bold leading-[1.1]">
@@ -290,7 +286,7 @@ export default function Design3() {
         <Reveal className="overflow-hidden rounded-[2rem] border border-white/12 bg-white/[0.03] backdrop-blur-md">
           <div className="grid lg:grid-cols-2">
             <div className="p-10 md:p-14">
-              <span className="text-[13px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#C04BFF" }}>
+              <span className="text-[13px] font-semibold uppercase tracking-[0.2em]" style={{ color: "#00A8D8" }}>
                 Compliance-first
               </span>
               <h2 className="mt-4 text-[clamp(1.8rem,3vw,2.6rem)] font-bold leading-[1.12]">
@@ -303,19 +299,13 @@ export default function Design3() {
                 {s.specializedMarketing.body4}
               </p>
             </div>
-            <div className="relative min-h-[300px]">
+            <div className="relative flex items-center justify-center bg-white p-5 md:p-8">
               <Image
                 src={s.specializedMarketing.image}
                 alt={s.specializedMarketing.imageAlt}
-                fill
-                className="object-cover"
-              />
-              <div
-                className="absolute inset-0"
-                style={{
-                  background:
-                    "linear-gradient(90deg, rgba(7,7,17,0.6), transparent 30%)",
-                }}
+                width={760}
+                height={480}
+                className="h-auto w-full object-contain"
               />
             </div>
           </div>
@@ -403,8 +393,8 @@ export default function Design3() {
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-24 lg:px-10">
         <Reveal variant="blur" className="relative overflow-hidden rounded-[2.5rem] p-[1.5px]">
           <div className="absolute inset-0" style={{ background: GRAD }} />
-          <div className="relative overflow-hidden rounded-[2.4rem] bg-[#0A0A18] px-8 py-20 text-center md:px-16">
-            <Orb className="left-1/2 top-0 h-[300px] w-[300px] -translate-x-1/2 opacity-40" color="#7C5CFF" />
+          <div className="relative overflow-hidden rounded-[2.4rem] bg-[#06122A] px-8 py-20 text-center md:px-16">
+            <Orb className="left-1/2 top-0 h-[300px] w-[300px] -translate-x-1/2 opacity-40" color="#0090F0" />
             <h2 className="relative mx-auto max-w-3xl text-[clamp(2rem,4vw,3.2rem)] font-bold leading-[1.08]">
               {s.cta.headline}
             </h2>
@@ -426,15 +416,7 @@ export default function Design3() {
       {/* ---------- FOOTER ---------- */}
       <footer className="relative z-10 border-t border-white/10 px-6 py-14 lg:px-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
-          <div className="flex items-center gap-2.5 text-[16px] font-semibold">
-            <span
-              className="grid h-7 w-7 place-items-center rounded-lg text-black"
-              style={{ background: GRAD }}
-            >
-              ◆
-            </span>
-            Marketing Powered
-          </div>
+          <Logo tone="light" />
           <div className="flex flex-wrap gap-x-7 gap-y-2 text-[13px] text-white/50">
             {s.footer.services.map((svc) => (
               <a key={svc} href="#" className="transition-colors hover:text-white">

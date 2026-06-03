@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { siteContent as s } from "@/lib/content";
 import Reveal from "@/components/Reveal";
+import { Bolt } from "@/components/brand";
 
 /* ================================================================== */
 /*  DESIGN 4 — "Grid System"                                          */
@@ -13,7 +14,7 @@ import Reveal from "@/components/Reveal";
 /*  numerals, hairline rules, relentless negative space.              */
 /* ================================================================== */
 
-const RED = "#E5341E";
+const RED = "#0090F0";
 const black = "#0B0B0B";
 const display = "'Archivo Black', sans-serif";
 const sans = "'Archivo', system-ui, sans-serif";
@@ -41,9 +42,10 @@ export default function Design4() {
       <header className="sticky top-0 z-30 border-b-2 border-black bg-white">
         <div className="mx-auto flex max-w-[1400px] items-stretch justify-between">
           <div
-            className="flex items-center border-r-2 border-black px-6 py-4 text-[15px] uppercase tracking-tight"
+            className="flex items-center gap-2.5 border-r-2 border-black px-6 py-4 text-[15px] uppercase tracking-tight"
             style={{ fontFamily: display }}
           >
+            <Bolt className="h-5 w-5" />
             Marketing Powered
           </div>
           <nav className="hidden items-center md:flex">
@@ -104,13 +106,14 @@ export default function Design4() {
               </span>
             </Link>
           </div>
-          <div className="relative min-h-[300px] lg:col-span-5">
+          <div className="relative flex min-h-[300px] items-center justify-center bg-white p-6 lg:col-span-5">
             <Image
               src={s.hero.image}
               alt={s.hero.imageAlt}
-              fill
+              width={760}
+              height={475}
               priority
-              className="object-cover grayscale"
+              className="h-auto w-full object-contain"
             />
             <div
               className="absolute bottom-0 left-0 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.14em] text-white"
@@ -236,12 +239,13 @@ export default function Design4() {
       {/* ---------- SPECIALIZED ---------- */}
       <section className="mx-auto max-w-[1400px] border-b-2 border-black">
         <div className="grid lg:grid-cols-12">
-          <div className="relative min-h-[320px] border-black lg:col-span-5 lg:border-r-2">
+          <div className="relative flex min-h-[320px] items-center justify-center border-black bg-white p-6 lg:col-span-5 lg:border-r-2">
             <Image
               src={s.specializedMarketing.image}
               alt={s.specializedMarketing.imageAlt}
-              fill
-              className="object-cover grayscale"
+              width={760}
+              height={475}
+              className="h-auto w-full object-contain"
             />
           </div>
           <Reveal className="px-6 py-16 lg:col-span-7 lg:px-12">
@@ -386,7 +390,11 @@ export default function Design4() {
       <footer className="mx-auto max-w-[1400px]">
         <div className="grid gap-6 px-6 py-12 lg:grid-cols-12 lg:px-12">
           <div className="lg:col-span-4">
-            <div className="text-[15px] uppercase" style={{ fontFamily: display }}>
+            <div
+              className="flex items-center gap-2.5 text-[15px] uppercase"
+              style={{ fontFamily: display }}
+            >
+              <Bolt className="h-5 w-5" />
               Marketing Powered
             </div>
             <p className="mt-3 max-w-xs text-[13px] text-black/55">

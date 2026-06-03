@@ -1,10 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { siteContent as s } from "@/lib/content";
 import Reveal from "@/components/Reveal";
+import { Logo, Figure } from "@/components/brand";
 
 /* ================================================================== */
 /*  DESIGN 5 — "The Descent"                                          */
@@ -16,7 +16,7 @@ import Reveal from "@/components/Reveal";
 
 const display = "'Bricolage Grotesque', system-ui, sans-serif";
 const sans = "'Manrope', system-ui, sans-serif";
-const LIME = "#C6F24E";
+const LIME = "#0090F0";
 
 export default function Design5() {
   const [open, setOpen] = useState<number | null>(0);
@@ -38,7 +38,7 @@ export default function Design5() {
   }, []);
 
   return (
-    <div style={{ background: "#08090C", color: "#F2F2EC", fontFamily: sans }}>
+    <div style={{ background: "#03060E", color: "#F2F2EC", fontFamily: sans }}>
       <style>{`
         .mp-snap { scroll-snap-type: y proximity; }
         .mp-chapter { scroll-snap-align: start; }
@@ -59,8 +59,8 @@ export default function Design5() {
       </div>
 
       {/* fixed corner brand */}
-      <div className="fixed left-6 top-6 z-50 text-[13px] font-bold uppercase tracking-[0.2em] mix-blend-difference">
-        Marketing Powered
+      <div className="fixed left-6 top-6 z-50">
+        <Logo tone="light" />
       </div>
       <Link
         href={s.hero.ctaLink}
@@ -71,52 +71,73 @@ export default function Design5() {
       </Link>
 
       {/* ---------- CHAPTER 00 — HERO ---------- */}
-      <section className="mp-chapter relative flex min-h-screen items-end overflow-hidden">
-        <div
-          className="mp-parallax absolute inset-0"
-          style={{ backgroundImage: `url(${s.hero.image})` }}
-        />
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(to top, rgba(8,9,12,0.96) 4%, rgba(8,9,12,0.35) 55%, rgba(8,9,12,0.7))",
-          }}
-        />
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-24 lg:px-12">
-          <div
-            className="mb-6 flex items-center gap-3 text-[12px] uppercase tracking-[0.3em]"
-            style={{ color: LIME, animation: "mp-fade-in 1s ease both" }}
-          >
-            <span className="h-px w-10" style={{ background: LIME }} />
-            AI Marketing for Behavioral Health
+      <section
+        className="mp-chapter relative flex min-h-screen items-center overflow-hidden"
+        style={{
+          background:
+            "radial-gradient(120% 90% at 82% 8%, rgba(0,144,240,0.20), transparent 55%), radial-gradient(100% 80% at 0% 100%, rgba(0,168,96,0.14), transparent 55%), #03060E",
+        }}
+      >
+        <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-12 px-6 py-28 lg:grid-cols-2 lg:px-12">
+          <div>
+            <div
+              className="mb-6 flex items-center gap-3 text-[12px] uppercase tracking-[0.3em]"
+              style={{ color: LIME, animation: "mp-fade-in 1s ease both" }}
+            >
+              <span className="h-px w-10" style={{ background: LIME }} />
+              AI Marketing for Behavioral Health
+            </div>
+            <h1
+              className="text-[clamp(2.4rem,5.5vw,4.6rem)] leading-[0.96] tracking-tight"
+              style={{
+                fontFamily: display,
+                fontWeight: 700,
+                animation: "mp-blur-in 1.2s cubic-bezier(0.16,1,0.3,1) both",
+              }}
+            >
+              {s.hero.headline}
+            </h1>
+            <p className="mt-7 max-w-xl text-[1.1rem] leading-relaxed text-white/70">
+              {s.hero.subheadline}
+            </p>
+            <div className="mt-10 flex flex-wrap items-center gap-5">
+              <Link
+                href={s.hero.ctaLink}
+                className="group inline-flex items-center gap-3 rounded-full px-8 py-4 text-[12px] font-bold uppercase tracking-[0.16em] text-black"
+                style={{ background: LIME }}
+              >
+                {s.hero.cta}
+                <span className="transition-transform group-hover:translate-x-1">
+                  →
+                </span>
+              </Link>
+              <span className="flex items-center gap-2 text-[12px] uppercase tracking-[0.2em] text-white/40">
+                <span className="animate-bounce">↓</span> Scroll
+              </span>
+            </div>
           </div>
-          <h1
-            className="max-w-5xl text-[clamp(2.6rem,7vw,6.5rem)] leading-[0.92] tracking-tight"
-            style={{ fontFamily: display, fontWeight: 700, animation: "mp-blur-in 1.2s cubic-bezier(0.16,1,0.3,1) both" }}
-          >
-            {s.hero.headline}
-          </h1>
-          <p className="mt-7 max-w-xl text-[1.1rem] leading-relaxed text-white/70">
-            {s.hero.subheadline}
-          </p>
-          <div className="mt-10 flex items-center gap-5 text-[12px] uppercase tracking-[0.2em] text-white/45">
-            <span className="animate-bounce">↓</span> Scroll to descend
-          </div>
+          <Reveal variant="blur" delay={150}>
+            <Figure
+              src={s.hero.image}
+              alt={s.hero.imageAlt}
+              ratio="16 / 11"
+              priority
+            />
+          </Reveal>
         </div>
       </section>
 
       {/* ---------- CHAPTER 01 — OPERATORS ---------- */}
       <section
         className="mp-chapter relative flex min-h-screen items-center"
-        style={{ background: "#0E1A17" }}
+        style={{ background: "#04132A" }}
       >
         <div
           aria-hidden
           className="pointer-events-none absolute inset-0 opacity-30"
           style={{
             background:
-              "radial-gradient(60% 60% at 80% 50%, rgba(198,242,78,0.18), transparent 60%)",
+              "radial-gradient(60% 60% at 80% 50%, rgba(0,144,240,0.18), transparent 60%)",
           }}
         />
         <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-6 py-20 lg:grid-cols-2 lg:px-12">
@@ -152,15 +173,7 @@ export default function Design5() {
             </Reveal>
           </div>
           <Reveal variant="blur" delay={150} className="relative">
-            <div className="overflow-hidden rounded-[28px]">
-              <Image
-                src={s.growth.image}
-                alt={s.growth.imageAlt}
-                width={760}
-                height={760}
-                className="h-[clamp(340px,46vw,560px)] w-full object-cover"
-              />
-            </div>
+            <Figure src={s.growth.image} alt={s.growth.imageAlt} ratio="16 / 11" />
           </Reveal>
         </div>
       </section>
@@ -206,7 +219,7 @@ export default function Design5() {
       >
         <div className="mx-auto w-full max-w-7xl px-6 lg:px-12">
           <Reveal className="mb-12 max-w-2xl">
-            <p className="text-[12px] uppercase tracking-[0.3em] text-[#5a7a1f]">
+            <p className="text-[12px] uppercase tracking-[0.3em] text-[#0066CC]">
               Chapter 03 — The System
             </p>
             <h2
@@ -224,7 +237,7 @@ export default function Design5() {
                 className="group bg-[#F2F2EC] p-8 transition-colors hover:bg-white"
               >
                 <div
-                  className="text-[2.4rem] leading-none text-black/15 transition-colors group-hover:text-[#5a7a1f]"
+                  className="text-[2.4rem] leading-none text-black/15 transition-colors group-hover:text-[#0066CC]"
                   style={{ fontFamily: display, fontWeight: 700 }}
                 >
                   0{i + 1}
@@ -241,20 +254,15 @@ export default function Design5() {
         </div>
       </section>
 
-      {/* ---------- CHAPTER 04 — COMPLIANCE (parallax) ---------- */}
-      <section className="mp-chapter relative flex min-h-screen items-center overflow-hidden">
-        <div
-          className="mp-parallax absolute inset-0"
-          style={{ backgroundImage: `url(${s.specializedMarketing.image})` }}
-        />
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(100deg, rgba(8,9,12,0.94) 30%, rgba(8,9,12,0.55))",
-          }}
-        />
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-12">
+      {/* ---------- CHAPTER 04 — COMPLIANCE ---------- */}
+      <section
+        className="mp-chapter relative flex min-h-screen items-center overflow-hidden"
+        style={{
+          background:
+            "radial-gradient(110% 90% at 12% 50%, rgba(0,144,240,0.16), transparent 55%), #03060E",
+        }}
+      >
+        <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-14 px-6 py-20 lg:grid-cols-2 lg:px-12">
           <Reveal className="max-w-2xl">
             <p className="text-[12px] uppercase tracking-[0.3em]" style={{ color: LIME }}>
               Chapter 04 — The Constraints
@@ -272,13 +280,20 @@ export default function Design5() {
               {s.specializedMarketing.body3}
             </p>
           </Reveal>
+          <Reveal variant="blur" delay={150}>
+            <Figure
+              src={s.specializedMarketing.image}
+              alt={s.specializedMarketing.imageAlt}
+              ratio="16 / 10"
+            />
+          </Reveal>
         </div>
       </section>
 
       {/* ---------- CHAPTER 05 — EVIDENCE ---------- */}
       <section
         className="mp-chapter relative flex min-h-screen flex-col justify-center py-20"
-        style={{ background: "#0E1A17" }}
+        style={{ background: "#04132A" }}
       >
         <div className="mx-auto w-full max-w-7xl px-6 lg:px-12">
           <Reveal className="mb-12 max-w-2xl">
@@ -364,12 +379,13 @@ export default function Design5() {
       </section>
 
       {/* ---------- FINAL CTA ---------- */}
-      <section className="relative flex min-h-[80vh] items-center overflow-hidden">
-        <div
-          className="mp-parallax absolute inset-0"
-          style={{ backgroundImage: `url(${s.cta.image})` }}
-        />
-        <div className="absolute inset-0 bg-black/80" />
+      <section
+        className="relative flex min-h-[80vh] items-center overflow-hidden"
+        style={{
+          background:
+            "radial-gradient(120% 120% at 50% 0%, rgba(0,144,240,0.24), transparent 55%), radial-gradient(90% 90% at 50% 100%, rgba(0,168,96,0.18), transparent 55%), #03060E",
+        }}
+      >
         <div className="relative z-10 mx-auto w-full max-w-4xl px-6 text-center lg:px-12">
           <Reveal variant="blur">
             <h2
@@ -394,11 +410,9 @@ export default function Design5() {
       </section>
 
       {/* ---------- FOOTER ---------- */}
-      <footer className="border-t border-white/10 bg-[#08090C] px-6 py-12 lg:px-12">
+      <footer className="border-t border-white/10 bg-[#03060E] px-6 py-12 lg:px-12">
         <div className="mx-auto flex max-w-7xl flex-col gap-6 md:flex-row md:items-center md:justify-between">
-          <span className="text-[14px] font-bold uppercase tracking-[0.18em]">
-            Marketing Powered
-          </span>
+          <Logo tone="light" />
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-[12px] text-white/45">
             {s.footer.services.map((svc) => (
               <a key={svc} href="#" className="transition-colors hover:text-white">

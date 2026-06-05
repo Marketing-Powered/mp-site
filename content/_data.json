@@ -1,0 +1,207 @@
+{
+  "pages": {
+    "/services/": {
+      "file": "content/pages/services/index.md",
+      "draft_id": "1jha1qLLpOEgOjGEmQy2ay64v1GfuqmFpnV0y-9Zof7w",
+      "primary_keyword": "digital marketing services for treatment centers",
+      "secondary_keywords": "behavioral health marketing services, addiction treatment marketing",
+      "target_word_count": "800-1200"
+    },
+    "/services/landing-page-optimization/": {
+      "file": "content/pages/services/landing-page-optimization.md",
+      "draft_id": "1XTloKQO5LktnNelnLeO0EyAvdxhff6of6CWthTOK1Js",
+      "primary_keyword": "landing page optimization",
+      "secondary_keywords": "landing page conversion, treatment center landing pages",
+      "target_word_count": "1200-1800"
+    },
+    "/services/paid-media/": {
+      "file": "content/pages/services/paid-media.md",
+      "draft_id": "1-Auy1EWhJajG0u4WXx5fDQh87NMXNeYNxPVUKYWanmk",
+      "primary_keyword": "paid media management",
+      "secondary_keywords": "ppc management, healthcare paid media",
+      "target_word_count": "1200-1800"
+    },
+    "/services/meta-ads-management/": {
+      "file": "content/pages/services/meta-ads-management.md",
+      "draft_id": "1gNMYjRnKXx0-rqjab_hdAsjsyRi74LsT0EMCNl1KqfI",
+      "primary_keyword": "meta ads management",
+      "secondary_keywords": "facebook ads management, instagram ads management",
+      "target_word_count": "1200-1800"
+    },
+    "/services/analytics-and-attribution/": {
+      "file": "content/pages/services/analytics-and-attribution.md",
+      "draft_id": "1Ngz9Ong1ykEzHUv2GEiYvHor44ZEofAEFzwTg7tFLC8",
+      "primary_keyword": "marketing attribution (Vol 2,100 | KD 33 | CPC $0.50)",
+      "secondary_keywords": "attribution analytics, marketing analytics services",
+      "target_word_count": "1200-1800"
+    },
+    "/services/call-tracking-and-intake-attribution/": {
+      "file": "content/pages/services/call-tracking.md",
+      "draft_id": "11vFig1DSthpgPjmrG1B2Mb0QM31gj5MGqAEPsPUp8fM",
+      "primary_keyword": "call tracking for treatment centers",
+      "secondary_keywords": "call tracking software, intake attribution",
+      "target_word_count": "1200-1800"
+    },
+    "/services/google-ads-management/": {
+      "file": "content/pages/services/google-ads-management.md",
+      "draft_id": "1IA6CVJPdSsSj-5bsHy0z_H5O0rPMQ1Ut87FwjppATxs",
+      "primary_keyword": "google ads management",
+      "secondary_keywords": "google ads agency, healthcare google ads",
+      "target_word_count": "1200-1800"
+    },
+    "/services/web-development/": {
+      "file": "content/pages/services/web-development/index.md",
+      "draft_id": "1e2XtcoW1IbDKte-pkOupSvuyMpgKzOAJ0jJ6m8CuL9g",
+      "primary_keyword": "web development agency (Vol 12,000 | KD 55)",
+      "secondary_keywords": "marketing web development, healthcare web development",
+      "target_word_count": "1200-1800"
+    },
+    "/services/web-development/website-design-and-build/": {
+      "file": "content/pages/services/web-development/website-design.md",
+      "draft_id": "1St1e0lFANfE_a63TTVwf-AfiQvPcFPXZa8t7zCdKt5U",
+      "primary_keyword": "website design for treatment centers",
+      "secondary_keywords": "healthcare website design, addiction treatment website",
+      "target_word_count": "1200-1800"
+    },
+    "/services/web-development/cro-development/": {
+      "file": "content/pages/services/web-development/cro-development.md",
+      "draft_id": "1zulT1ogLX7gysue1YN0eUG0LJ87i-1Ur5C4evKnhCAA",
+      "primary_keyword": "conversion rate optimization (Vol 9,900 | KD 58)",
+      "secondary_keywords": "cro agency, cro services",
+      "target_word_count": "1200-1800"
+    },
+    "/services/web-development/technical-seo-and-performance/": {
+      "file": "content/pages/services/web-development/technical-seo.md",
+      "draft_id": "1sxPED8RW-4FwdZV7yPcNoOyU6_hfNWm-71q7bj15h0w",
+      "primary_keyword": "technical SEO for healthcare",
+      "secondary_keywords": "healthcare SEO audit, medical website performance",
+      "target_word_count": "1200-1800"
+    },
+    "/services/web-development/landing-page-development/": {
+      "file": "content/pages/services/web-development/landing-page-dev.md",
+      "draft_id": "1nDO6o-PrCXmM01XcOC2yYKVIa7wVeEaiWdbjUyThEPY",
+      "primary_keyword": "landing page development",
+      "secondary_keywords": "treatment center landing pages, healthcare landing pages",
+      "target_word_count": "1200-1800"
+    },
+    "/services/web-development/integrations-and-tracking/": {
+      "file": "content/pages/services/web-development/integrations.md",
+      "draft_id": "1tkQjF5FVsD2mZPI93NVjJ9GLpEgC9-DSm16QiQ22jSo",
+      "primary_keyword": "marketing integrations and tracking",
+      "secondary_keywords": "crm integration, analytics tracking setup",
+      "target_word_count": "1200-1800"
+    },
+    "/ai-edge/": {
+      "file": "content/pages/ai-edge/index.md",
+      "draft_id": "1zKEwPqY48wkQiLfQOm9CG1-EhpRXwfItb4_7FCZIScg",
+      "primary_keyword": "ai marketing agency",
+      "secondary_keywords": "ai powered marketing, ai native agency",
+      "target_word_count": "800-1200"
+    },
+    "/ai-edge/social-media/": {
+      "file": "content/pages/ai-edge/social-media.md",
+      "draft_id": "1Da7f6_3TEem1LtSaJgzDSIOxzJF_VXOGuVussn0Epsg",
+      "primary_keyword": "ai social media marketing (Vol 500 | KD 79)",
+      "secondary_keywords": "ai social media content, ai content generation",
+      "target_word_count": "1200-1800"
+    },
+    "/ai-edge/ai-governance/": {
+      "file": "content/pages/ai-edge/ai-governance.md",
+      "draft_id": "1_fGncUU5Lg3HlG566r4etzHQdsdJt3Jx0L8USkPdxpU",
+      "primary_keyword": "ai governance",
+      "secondary_keywords": "ai governance framework, responsible ai marketing",
+      "target_word_count": "1200-1800"
+    },
+    "/ai-edge/data-sovereignty/": {
+      "file": "content/pages/ai-edge/data-sovereignty.md",
+      "draft_id": "1vjvmIX1yXw53JpvzpQ_Cr--pwpwtmmEwgft5pbMHWhw",
+      "primary_keyword": "data sovereignty",
+      "secondary_keywords": "data ownership, first party data",
+      "target_word_count": "1200-1800"
+    },
+    "/ai-edge/owned-ai-systems/": {
+      "file": "content/pages/ai-edge/owned-ai-systems.md",
+      "draft_id": "1FR2wFqE0_pPcbRNH2zyF3qn2n9AVXzj1WkShhg3Ivno",
+      "primary_keyword": "owned ai systems",
+      "secondary_keywords": "custom ai models, proprietary ai marketing",
+      "target_word_count": "1200-1800"
+    },
+    "/ai-edge/ai-in-paid-media/": {
+      "file": "content/pages/ai-edge/ai-in-paid-media.md",
+      "draft_id": "1veftKGDT96FVbfDfwobNvFXklg81uJsH1Gs4x-PdXDo",
+      "primary_keyword": "ai in paid media",
+      "secondary_keywords": "ai ppc management, automated bid management",
+      "target_word_count": "1200-1800"
+    },
+    "/get-started/": {
+      "file": "content/pages/get-started/index.md",
+      "draft_id": "1_7pM4_0C3EESMy2ofYp-LcLfKKzHrjlD2S47C-A2ohw",
+      "primary_keyword": "get started marketing agency",
+      "secondary_keywords": "marketing agency consultation, behavioral health marketing audit",
+      "target_word_count": "400-600"
+    },
+    "/get-started/qualification/": {
+      "file": "content/pages/get-started/qualification.md",
+      "draft_id": "1DCsILeJcv5ITAXO_tMvQB19D4NBYctMU87iRXWDXqaA",
+      "primary_keyword": "N/A - functional routing form (noindex recommended)",
+      "secondary_keywords": "N/A",
+      "target_word_count": "200-400"
+    },
+    "/get-started/request-an-audit/": {
+      "file": "content/pages/get-started/request-an-audit.md",
+      "draft_id": "1g2mdoSutl45AORNCwi8pdv3xJLqrmAeqVaQu4xVvUW0",
+      "primary_keyword": "request marketing audit",
+      "secondary_keywords": "free ppc audit, marketing audit request",
+      "target_word_count": "200-400"
+    },
+    "/get-started/book-a-call/": {
+      "file": "content/pages/get-started/book-a-call.md",
+      "draft_id": "12uV92c5X00XTKVWnGOZpXgRZYfxTQS8R-fotzfnjNLU",
+      "primary_keyword": "book marketing consultation",
+      "secondary_keywords": "schedule marketing call, agency consultation",
+      "target_word_count": "200-400"
+    },
+    "/get-started/thanks/": {
+      "file": "content/pages/get-started/thanks.md",
+      "draft_id": "1KIJrD8sADPG80GHpic5bOfZRPT982dJy0QT-NuQnnvY",
+      "primary_keyword": "N/A - confirmation page",
+      "secondary_keywords": "N/A",
+      "target_word_count": "100-200"
+    },
+    "/who-we-help/": {
+      "file": "content/pages/who-we-help/index.md",
+      "draft_id": "123z7afOgGpTSY-GqliukMQJRKnlH6MYAI20wbRNbWlE",
+      "primary_keyword": "healthcare marketing agency (Vol 6,300 | KD 49)",
+      "secondary_keywords": "behavioral health marketing, mental health marketing",
+      "target_word_count": "800-1200"
+    },
+    "/who-we-help/behavioral-health/": {
+      "file": "content/pages/who-we-help/behavioral-health.md",
+      "draft_id": "18neFgoDiYrP6EPEeQyELko0uUc71HSitgZaOCMibq0w",
+      "primary_keyword": "behavioral health marketing",
+      "secondary_keywords": "addiction treatment marketing, rehab marketing",
+      "target_word_count": "1200-1800"
+    },
+    "/who-we-help/mental-health/": {
+      "file": "content/pages/who-we-help/mental-health.md",
+      "draft_id": "19sCYPAoDYbRjJTBwLQkDa81R4YZAoicssQKAiJvWhoc",
+      "primary_keyword": "mental health marketing",
+      "secondary_keywords": "therapy practice marketing, mental health clinic marketing",
+      "target_word_count": "1200-1800"
+    },
+    "/company/about/": {
+      "file": "content/pages/company/about.md",
+      "draft_id": "1F3jkVP7lOvdXbJlcB8m7PDtCxbTs2qt1QppAlXFhMuc",
+      "primary_keyword": "Marketing Powered (brand) + ai marketing agency",
+      "secondary_keywords": "ai marketing agency founder, behavioral health marketing expert",
+      "target_word_count": "800-1200"
+    },
+    "/company/contact/": {
+      "file": "content/pages/company/contact.md",
+      "draft_id": "1_CMUFORzQvBKd9hxuWt0gxiuvud8YhT33IdeZCFZb98",
+      "primary_keyword": "contact marketing powered",
+      "secondary_keywords": "marketing agency contact, behavioral health marketing contact",
+      "target_word_count": "200-400"
+    }
+  }
+}

@@ -1,328 +1,519 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
-import { Logo, brand, brandGradient } from "@/components/brand";
+import { siteContent as s } from "@/lib/content";
+import Reveal from "@/components/Reveal";
+import { Logo, Figure } from "@/components/brand";
 
 /* ================================================================== */
-/*  GALLERY — index of the five homepage concepts.                    */
-/*  All directions share the marketingpowered.ai brand palette         */
-/*  (blue / cyan / green / navy); each card previews its own layout.   */
+/*  DESIGN 1 — "Midnight Atelier"                                      */
+/*  Cinematic near-black canvas, high-contrast Fraunces serif,         */
+/*  champagne→amber gradient hairlines, film-grain atmosphere.         */
+/*  Think Linear's precision dressed in luxury-brand restraint.        */
 /* ================================================================== */
 
-const manrope = "'Manrope', system-ui, sans-serif";
-const fraunces = "'Fraunces', Georgia, serif";
-const sora = "'Sora', system-ui, sans-serif";
-const archivoBlack = "'Archivo Black', sans-serif";
-const bricolage = "'Bricolage Grotesque', system-ui, sans-serif";
+const INK = "#050B16";
+const serif = "'Fraunces', Georgia, serif";
+const sans = "'Manrope', system-ui, sans-serif";
+const mono = "'Space Mono', monospace";
 
-const designs = [
-  {
-    id: 1,
-    name: "Midnight Atelier",
-    tag: "Dark · Premium · Editorial",
-    blurb:
-      "A precise, high-end dark site. Serif headlines, brand-blue gradient hairlines and a calm, confident tone for a senior AI agency.",
-  },
-  {
-    id: 2,
-    name: "Clarity",
-    tag: "Light · Trust · Results",
-    blurb:
-      "A clean, conversion-focused B2B homepage. Healthcare-credible, structured, results-led — the most straightforwardly on-brand direction.",
-  },
-  {
-    id: 3,
-    name: "Aurora",
-    tag: "SaaS · Gradient · Motion",
-    blurb:
-      "Tech-forward and product-like. Animated brand-gradient orbs, frosted glass and a live-attribution dashboard. Signals AI sophistication.",
-  },
-  {
-    id: 4,
-    name: "Grid System",
-    tag: "Swiss · Data · Precision",
-    blurb:
-      "A rigid editorial grid with oversized numerals and a single brand-blue accent. Data-driven precision, nothing wasted.",
-  },
-  {
-    id: 5,
-    name: "The Descent",
-    tag: "Immersive · Scroll · Story",
-    blurb:
-      "Full-viewport chapters that tell the story top to bottom — operators, numbers, system, compliance, evidence. Premium and cinematic.",
-  },
-  {
-    id: 6,
-    name: "Console",
-    tag: "Dev-Tool · Terminal-Styled · Dark",
-    blurb:
-      "A conversion-focused landing page in the language of a modern AI / dev-tool company — monospace, code windows as product visuals and a live attribution feed. For an agency that builds its own systems.",
-  },
-  {
-    id: 7,
-    name: "Mission Control",
-    tag: "Dashboard · Data-Viz · Live",
-    blurb:
-      "The agency as a live analytics product. An animated click→admission funnel, count-up KPIs, sparklines and a growth chart. The data is the design.",
-  },
-];
-
-/* design-accurate mini previews, all on brand */
-function Preview({ id }: { id: number }) {
-  if (id === 1)
-    return (
-      <div className="relative h-full w-full overflow-hidden" style={{ background: "#050B16" }}>
-        <div
-          className="absolute inset-0"
-          style={{ background: "radial-gradient(80% 60% at 50% -10%, rgba(0,144,240,0.20), transparent 60%)" }}
-        />
-        <div className="absolute left-6 top-6 text-[10px] uppercase tracking-[0.3em]" style={{ color: brand.blue, fontFamily: "'Space Mono',monospace" }}>
-          AI-Native Since 2022
-        </div>
-        <div className="absolute bottom-7 left-6 right-6">
-          <div className="text-[clamp(1.3rem,3vw,1.9rem)] leading-[0.98] text-[#EDEAE3]" style={{ fontFamily: fraunces }}>
-            Partner with an AI agency that{" "}
-            <span className="italic" style={{ color: "#7FCBFF" }}>knows</span> behavioral health
-          </div>
-          <div className="mt-4 inline-block rounded-full px-4 py-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-black" style={{ background: "linear-gradient(90deg,#7FCBFF,#0090F0)" }}>
-            Book a Discovery Call
-          </div>
-        </div>
-      </div>
-    );
-  if (id === 2)
-    return (
-      <div className="relative h-full w-full overflow-hidden bg-white p-6" style={{ color: brand.navy }}>
-        <div
-          className="absolute inset-0"
-          style={{ background: "radial-gradient(60% 50% at 90% 5%, rgba(0,144,240,0.10), transparent 60%)" }}
-        />
-        <div className="relative inline-flex items-center gap-2 rounded-full border border-[#CDE6FA] bg-[#EAF5FE] px-3 py-1 text-[9px] font-semibold text-[#0072D8]">
-          <span className="h-1.5 w-1.5 rounded-full" style={{ background: brand.green }} /> AI-native · HIPAA-conscious
-        </div>
-        <div className="relative mt-3 text-[clamp(1.3rem,3vw,1.9rem)] font-extrabold leading-[1.05]" style={{ fontFamily: manrope }}>
-          AI marketing that knows behavioral health
-        </div>
-        <div className="relative mt-4 inline-block rounded-full px-4 py-1.5 text-[10px] font-bold text-white" style={{ background: brand.blue }}>
-          Book a Discovery Call
-        </div>
-        <div className="relative mt-5 flex gap-5">
-          {[["$50M+", brand.blue], ["0", brand.green], ["847%", brand.blue]].map(([v, c]) => (
-            <div key={v as string}>
-              <div className="text-[1.1rem] font-extrabold" style={{ color: c as string }}>{v}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  if (id === 3)
-    return (
-      <div className="relative h-full w-full overflow-hidden" style={{ background: "#04070F" }}>
-        <div className="absolute left-[-20%] top-[-30%] h-40 w-40 rounded-full blur-2xl" style={{ background: brand.blue, opacity: 0.6 }} />
-        <div className="absolute right-[-10%] bottom-[-20%] h-40 w-40 rounded-full blur-2xl" style={{ background: brand.green, opacity: 0.5 }} />
-        <div className="absolute left-[40%] top-[30%] h-32 w-32 rounded-full blur-2xl" style={{ background: brand.cyan, opacity: 0.4 }} />
-        <div className="relative flex h-full flex-col items-center justify-center px-6 text-center">
-          <div className="mb-3 rounded-full border border-white/15 px-3 py-1 text-[9px] text-white/70">AI-native · HIPAA-conscious</div>
-          <div className="text-[clamp(1.3rem,3vw,2rem)] font-bold leading-[1.05] text-white" style={{ fontFamily: sora }}>
-            The AI marketing engine for{" "}
-            <span style={{ background: brandGradient, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>
-              behavioral health
-            </span>
-          </div>
-          <div className="mt-4 rounded-full px-4 py-1.5 text-[10px] font-semibold text-black" style={{ background: brandGradient }}>
-            Book a Call
-          </div>
-        </div>
-      </div>
-    );
-  if (id === 4)
-    return (
-      <div className="relative h-full w-full overflow-hidden bg-white" style={{ color: "#0B0B0B" }}>
-        <div className="flex items-stretch justify-between border-b-2 border-black">
-          <div className="px-4 py-2 text-[9px] uppercase" style={{ fontFamily: archivoBlack }}>Marketing Powered</div>
-          <div className="px-4 py-2 text-[9px] font-bold uppercase text-white" style={{ background: brand.blue }}>Book</div>
-        </div>
-        <div className="px-5 py-6">
-          <div className="text-[9px] font-bold uppercase tracking-[0.18em]" style={{ color: brand.blue }}>AI Marketing Agency</div>
-          <div className="mt-3 text-[clamp(1.8rem,5vw,3rem)] uppercase leading-[0.88]" style={{ fontFamily: archivoBlack }}>
-            Knows<br /><span style={{ color: brand.blue }}>Behavioral</span><br />Health.
-          </div>
-        </div>
-        <div className="absolute bottom-0 left-0 right-0 border-t-2 border-black px-5 py-2 text-[clamp(1.4rem,4vw,2rem)]" style={{ fontFamily: archivoBlack, color: brand.blue }}>
-          $50M+
-        </div>
-      </div>
-    );
-  if (id === 5)
-    return (
-      <div className="relative h-full w-full overflow-hidden" style={{ background: "#03060E" }}>
-        <div className="absolute inset-0" style={{ background: "radial-gradient(60% 60% at 82% 25%, rgba(0,144,240,0.20), transparent 55%), radial-gradient(50% 50% at 0% 100%, rgba(0,168,96,0.14), transparent 55%)" }} />
-        <div className="absolute left-5 top-5 text-[9px] uppercase tracking-[0.3em]" style={{ color: brand.blue }}>
-          Chapter 00
-        </div>
-        <div className="absolute bottom-7 left-5 right-5">
-          <div className="text-[clamp(1.4rem,3.4vw,2.2rem)] leading-[0.95] text-[#F2F2EC]" style={{ fontFamily: bricolage, fontWeight: 700 }}>
-            Partner with an AI Marketing Agency That Knows Behavioral Health
-          </div>
-          <div className="mt-4 inline-block rounded-full px-4 py-1.5 text-[10px] font-bold uppercase tracking-[0.14em] text-black" style={{ background: brand.blue }}>
-            Book a Discovery Call
-          </div>
-        </div>
-      </div>
-    );
-  if (id === 6)
-    return (
-      <div className="relative h-full w-full overflow-hidden p-5" style={{ background: "#07090F" }}>
-        <div
-          className="absolute inset-0 opacity-50"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px)",
-            backgroundSize: "32px 32px",
-            maskImage: "radial-gradient(130% 80% at 50% 0%, black, transparent 75%)",
-          }}
-        />
-        <div className="relative grid h-full grid-cols-[1.1fr_1fr] items-center gap-4">
-          <div>
-            <div className="inline-flex items-center gap-1.5 rounded-full border border-white/12 px-2.5 py-1 text-[8px]" style={{ fontFamily: "'Space Mono',monospace", color: brand.cyan }}>
-              <span className="h-1 w-1 rounded-full" style={{ background: brand.green }} /> ai-native · since 2022
-            </div>
-            <div className="mt-2 text-[clamp(1rem,2.4vw,1.5rem)] font-bold leading-[1.1] text-white" style={{ fontFamily: "'Space Mono',monospace" }}>
-              AI marketing, engineered for <span style={{ color: brand.blue }}>behavioral health</span>.
-            </div>
-            <div className="mt-3 inline-block rounded-md px-3 py-1.5 text-[9px] font-bold text-black" style={{ fontFamily: "'Space Mono',monospace", background: brand.blue }}>
-              book a discovery call →
-            </div>
-          </div>
-          <div className="overflow-hidden rounded-lg border border-white/10" style={{ background: "#0C111B", fontFamily: "'Space Mono',monospace" }}>
-            <div className="flex items-center gap-1 border-b border-white/8 px-2.5 py-1.5">
-              <span className="h-2 w-2 rounded-full" style={{ background: "#ff5f57" }} />
-              <span className="h-2 w-2 rounded-full" style={{ background: "#febc2e" }} />
-              <span className="h-2 w-2 rounded-full" style={{ background: brand.green }} />
-              <span className="ml-1 text-[7px] text-white/40">attribution --live</span>
-            </div>
-            <div className="space-y-1 p-2.5 text-[8px] leading-4">
-              <div><span style={{ color: brand.green }}>● live</span></div>
-              <div className="text-white/50">form_fill <span style={{ color: brand.blue }}>score 0.91</span></div>
-              <div className="text-white/50">admission <span style={{ color: brand.green }}>✓ cpa=$42</span></div>
-              <div className="mt-1.5 border-t border-white/8 pt-1.5 text-white/70">
-                ROAS <span style={{ color: brand.blue }}>8.47x</span> · CPA <span style={{ color: brand.green }}>$42</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
+function GoldRule({ className = "" }: { className?: string }) {
   return (
-    <div className="relative h-full w-full overflow-hidden bg-[#EEF4FB] p-4" style={{ color: brand.navy }}>
-      <div className="flex items-center justify-between">
-        <span className="text-[10px] font-bold">Attribution Overview</span>
-        <span className="flex items-center gap-1 text-[9px] font-bold text-[#00854C]">
-          <span className="h-1.5 w-1.5 rounded-full" style={{ background: brand.green }} /> LIVE
-        </span>
-      </div>
-      <div className="mt-3 grid grid-cols-2 gap-2">
-        {[["ROAS", "847%", brand.blue], ["Cost / Adm.", "$42", brand.green]].map(([l, v, c]) => (
-          <div key={l as string} className="rounded-lg bg-white p-2.5">
-            <div className="text-[8px] font-bold uppercase tracking-wider" style={{ color: "#5A6B82" }}>{l}</div>
-            <div className="text-[1.1rem] font-extrabold" style={{ color: c as string }}>{v}</div>
-          </div>
-        ))}
-      </div>
-      <div className="mt-3 rounded-lg bg-white p-3">
-        <div className="space-y-1.5">
-          {[["Click", 100], ["Form / Call", 68], ["Qualified", 41], ["Admission", 23]].map(([l, p], i) => (
-            <div key={l as string} className="flex items-center gap-2">
-              <span className="w-16 shrink-0 text-[8px] font-semibold">{l}</span>
-              <div className="h-3 flex-1 overflow-hidden rounded bg-[#E5EEF8]">
-                <div
-                  className="h-full rounded"
-                  style={{
-                    width: `${p}%`,
-                    background: `linear-gradient(90deg, ${brand.blue}, ${i === 3 ? brand.green : brand.cyan})`,
-                  }}
-                />
-              </div>
-              <span className="w-7 text-right text-[8px] font-bold" style={{ color: brand.navy }}>{p}%</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
+    <span
+      className={`block h-px w-full origin-left ${className}`}
+      style={{
+        background:
+          "linear-gradient(90deg, transparent, #0090F0 18%, #7FCBFF 50%, #0090F0 82%, transparent)",
+      }}
+    />
   );
 }
 
-export default function DesignGallery() {
+export default function Design1() {
+  const [open, setOpen] = useState<number | null>(0);
+
   return (
-    <div className="min-h-screen text-white" style={{ background: "#040910", fontFamily: manrope }}>
+    <div
+      style={{ background: INK, color: "#EDEAE3", fontFamily: sans }}
+      className="relative min-h-screen overflow-hidden"
+    >
+      {/* film-grain + vignette atmosphere */}
       <div
         aria-hidden
-        className="pointer-events-none fixed inset-0"
+        className="pointer-events-none fixed inset-0 z-0 opacity-[0.05] mix-blend-screen"
+        style={{
+          backgroundImage:
+            "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")",
+        }}
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none fixed inset-0 z-0"
         style={{
           background:
-            "radial-gradient(60% 40% at 50% 0%, rgba(0,144,240,0.12), transparent 70%)",
+            "radial-gradient(120% 80% at 50% -10%, rgba(0,144,240,0.10), transparent 55%), radial-gradient(80% 60% at 100% 120%, rgba(0,144,240,0.06), transparent 60%)",
         }}
       />
 
-      <header className="relative mx-auto max-w-6xl px-6 pb-16 pt-16 text-center">
-        <div className="mb-10 flex justify-center">
-          <Logo tone="light" />
-        </div>
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-1.5 text-[12px] uppercase tracking-[0.2em] text-white/60">
-          <span className="h-1.5 w-1.5 rounded-full" style={{ background: brand.green }} />
-          Seven Homepage Concepts
-        </div>
-        <h1 className="text-[clamp(2.2rem,5.5vw,4rem)] font-extrabold leading-[1.04]" style={{ color: "#FFFFFF" }}>
-          One agency.{" "}
-          <span style={{ background: brandGradient, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>
-            Seven directions.
-          </span>
-        </h1>
-        <p className="mx-auto mt-6 max-w-xl leading-relaxed text-white/55">
-          The same story — an AI-native marketing agency for behavioral health —
-          explored through seven on-brand homepage designs. Each is a full, live page.
-        </p>
+      {/* ---------- NAV ---------- */}
+      <header className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 py-7 lg:px-12">
+        <Logo tone="light" />
+        <nav className="hidden items-center gap-9 text-[13px] tracking-wide text-white/55 md:flex">
+          {s.nav.map((n) => (
+            <a
+              key={n}
+              href="#"
+              className="transition-colors duration-300 hover:text-white"
+            >
+              {n}
+            </a>
+          ))}
+        </nav>
+        <Link
+          href={s.hero.ctaLink}
+          className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
+        >
+          <span className="relative z-10">Book a Call</span>
+          <span className="absolute inset-0 -z-0 translate-y-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] transition-transform duration-300 group-hover:translate-y-0" />
+        </Link>
       </header>
 
-      <main className="relative mx-auto grid max-w-6xl gap-7 px-6 pb-28 md:grid-cols-2">
-        {designs.map((d, i) => (
-          <Link
-            key={d.id}
-            href={`/design-${d.id}`}
-            className={`group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.02] transition-all duration-300 hover:-translate-y-1 hover:border-[#0090F0]/50 ${
-              i === 4 ? "md:col-span-2" : ""
-            }`}
-          >
-            <div className={`relative overflow-hidden ${i === 4 ? "h-72" : "h-64"}`}>
-              <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.03]">
-                <Preview id={d.id} />
-              </div>
+      {/* ---------- HERO ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 pb-24 pt-12 lg:px-12 lg:pt-20">
+        <div className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
+          <div>
+            <div
+              className="mb-8 flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
+              style={{
+                animation: "mp-fade-in 1s ease both",
+                fontFamily: mono,
+              }}
+            >
+              <span className="inline-block h-px w-8 bg-[#0090F0]" />
+              AI-Native Since 2022
             </div>
-            <div className="flex items-end justify-between gap-4 p-7">
-              <div>
-                <div className="flex items-center gap-3">
-                  <span className="text-[12px] tabular-nums text-white/30">0{d.id}</span>
-                  <h2 className="text-[1.4rem] font-extrabold">{d.name}</h2>
-                </div>
-                <div className="mt-1 text-[11px] uppercase tracking-[0.18em]" style={{ color: brand.blue }}>
-                  {d.tag}
-                </div>
-                <p className="mt-4 max-w-md text-[0.92rem] leading-relaxed text-white/55">
-                  {d.blurb}
-                </p>
-              </div>
+
+            <h1
+              className="text-[clamp(2.6rem,5.6vw,5rem)] leading-[0.98]"
+              style={{
+                fontFamily: serif,
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+              }}
+            >
+              {"Partner with an AI agency that "}
               <span
-                className="grid h-11 w-11 shrink-0 place-items-center rounded-full border border-white/15 transition-all duration-300 group-hover:border-transparent group-hover:text-white"
-                style={{ ["--g" as string]: brand.blue }}
+                className="italic"
+                style={{
+                  background:
+                    "linear-gradient(100deg,#7FCBFF,#0090F0 60%,#0066CC)",
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  color: "transparent",
+                }}
               >
-                <span className="transition-colors group-hover:[&]:text-white">→</span>
+                knows
+              </span>
+              {" behavioral health"}
+            </h1>
+
+            <p className="mt-8 max-w-xl text-[clamp(1rem,1.4vw,1.18rem)] leading-relaxed text-white/55">
+              {s.hero.subheadline}
+            </p>
+
+            <div className="mt-10 flex flex-wrap items-center gap-5">
+              <Link
+                href={s.hero.ctaLink}
+                className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)]"
+              >
+                <span className="relative z-10">{s.hero.cta}</span>
+                <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">
+                  →
+                </span>
+              </Link>
+              <span
+                className="text-[12px] uppercase tracking-[0.22em] text-white/40"
+                style={{ fontFamily: mono }}
+              >
+                {s.socialProof}
               </span>
             </div>
-          </Link>
-        ))}
-      </main>
+          </div>
 
-      <footer className="relative border-t border-white/10 px-6 py-10 text-center text-[13px] text-white/35">
-        Marketing Powered — AI-Native Marketing for Behavioral Health &amp; Mental Health
+          {/* framed hero image */}
+          <div
+            className="relative"
+            style={{
+              animation: "mp-blur-in 1.2s cubic-bezier(0.16,1,0.3,1) both",
+            }}
+          >
+            <div
+              className="absolute -inset-[2px] rounded-[28px] opacity-90"
+              style={{
+                background:
+                  "linear-gradient(140deg,#0090F0,#00A8D8 50%,#00A860)",
+              }}
+            />
+            <Figure
+              src={s.hero.image}
+              alt={s.hero.imageAlt}
+              ratio="16 / 11"
+              rounded="26px"
+              priority
+              className="relative"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- MARQUEE ---------- */}
+      <section className="relative z-10 border-y border-white/8 py-6">
+        <div className="flex overflow-hidden">
+          <div
+            className="flex shrink-0 items-center gap-16 whitespace-nowrap pr-16"
+            style={{ animation: "mp-marquee 32s linear infinite" }}
+          >
+            {[...Array(2)].map((_, dup) =>
+              [
+                "$50M+ Managed Ad Spend",
+                "847% ROAS",
+                "$42 Cost Per Admission",
+                "0 Account Suspensions",
+                "312% Organic Growth",
+                "HIPAA-Conscious Infrastructure",
+              ].map((t, i) => (
+                <span
+                  key={`${dup}-${i}`}
+                  className="flex items-center gap-16 text-[15px] uppercase tracking-[0.2em] text-white/35"
+                  style={{ fontFamily: serif, fontStyle: "italic" }}
+                >
+                  {t}
+                  <span className="text-[#0090F0]">✦</span>
+                </span>
+              )),
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- GROWTH / EXPERTS ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 py-28 lg:px-12">
+        <div className="grid gap-16 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+          <Reveal variant="blur" className="relative order-2 lg:order-1">
+            <Figure src={s.growth.image} alt={s.growth.imageAlt} ratio="16 / 12" />
+            <div
+              className="absolute -bottom-6 -right-4 rounded-2xl border border-[#0090F0]/30 bg-[#050B16]/80 px-6 py-5 backdrop-blur"
+              style={{ boxShadow: "0 24px 60px -20px rgba(0,0,0,0.8)" }}
+            >
+              <div
+                className="text-3xl"
+                style={{ fontFamily: serif, color: "#7FCBFF" }}
+              >
+                3 → 24
+              </div>
+              <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-white/45">
+                Haven Health locations
+              </div>
+            </div>
+          </Reveal>
+
+          <div className="order-1 lg:order-2">
+            <Reveal>
+              <p
+                className="mb-5 text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
+                style={{ fontFamily: mono }}
+              >
+                The Operator&apos;s Seat
+              </p>
+              <h2
+                className="text-[clamp(2rem,3.6vw,3.2rem)] leading-[1.05]"
+                style={{ fontFamily: serif, fontWeight: 400 }}
+              >
+                {s.growth.headline}
+              </h2>
+            </Reveal>
+            <Reveal delay={120}>
+              <p className="mt-7 text-[1.05rem] leading-relaxed text-white/60">
+                {s.growth.body}
+              </p>
+            </Reveal>
+            <Reveal delay={220}>
+              <GoldRule className="my-8 max-w-xs" />
+              <p className="text-[0.98rem] leading-relaxed text-white/45">
+                {s.growth.body2}
+              </p>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- STATS ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 py-16 lg:px-12">
+        <div className="grid gap-px overflow-hidden rounded-2xl border border-white/8 bg-white/[0.04] sm:grid-cols-2 lg:grid-cols-4">
+          {s.stats.map((stat, i) => (
+            <Reveal
+              key={stat.value}
+              delay={i * 90}
+              className="bg-[#050B16] p-8"
+            >
+              <div
+                className="text-[clamp(2.4rem,4vw,3.4rem)] leading-none"
+                style={{
+                  fontFamily: serif,
+                  background: "linear-gradient(180deg,#7FCBFF,#0090F0)",
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  color: "transparent",
+                }}
+              >
+                {stat.value}
+              </div>
+              <p className="mt-4 text-[13px] leading-relaxed text-white/45">
+                {stat.label}
+              </p>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      {/* ---------- SERVICES (editorial index) ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 py-28 lg:px-12">
+        <Reveal className="mb-14 max-w-2xl">
+          <p
+            className="mb-5 text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
+            style={{ fontFamily: mono }}
+          >
+            Capabilities
+          </p>
+          <h2
+            className="text-[clamp(2rem,3.6vw,3.2rem)] leading-[1.05]"
+            style={{ fontFamily: serif, fontWeight: 400 }}
+          >
+            {s.servicesIntro.headline}
+          </h2>
+        </Reveal>
+
+        <div className="border-t border-white/10">
+          {s.services.map((svc, i) => (
+            <Reveal key={svc.title} delay={i * 60}>
+              <div className="group grid grid-cols-[auto_1fr] items-baseline gap-6 border-b border-white/10 py-8 transition-colors duration-500 hover:bg-white/[0.02] md:grid-cols-[80px_0.9fr_1.4fr] md:gap-10">
+                <span
+                  className="text-sm text-white/30 transition-colors group-hover:text-[#0090F0]"
+                  style={{ fontFamily: mono }}
+                >
+                  0{i + 1}
+                </span>
+                <h3
+                  className="col-span-1 text-[1.35rem] leading-snug transition-transform duration-500 group-hover:translate-x-1"
+                  style={{ fontFamily: serif, fontWeight: 500 }}
+                >
+                  {svc.title}
+                </h3>
+                <p className="col-span-2 text-[0.95rem] leading-relaxed text-white/45 md:col-span-1">
+                  {svc.description}
+                </p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      {/* ---------- SPECIALIZED (image left) ---------- */}
+      <section className="relative z-10 overflow-hidden border-y border-white/8 py-28">
+        <div className="mx-auto grid max-w-7xl gap-14 px-6 lg:grid-cols-2 lg:items-center lg:px-12">
+          <Reveal>
+            <p
+              className="mb-5 text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
+              style={{ fontFamily: mono }}
+            >
+              Why Specialized
+            </p>
+            <h2
+              className="text-[clamp(1.9rem,3.4vw,3rem)] leading-[1.08]"
+              style={{ fontFamily: serif, fontWeight: 400 }}
+            >
+              {s.specializedMarketing.headline}
+            </h2>
+            <p className="mt-7 leading-relaxed text-white/55">
+              {s.specializedMarketing.body}
+            </p>
+            <p className="mt-5 leading-relaxed text-white/40">
+              {s.specializedMarketing.body3}
+            </p>
+          </Reveal>
+          <Reveal variant="blur" delay={120} className="relative">
+            <Figure
+              src={s.specializedMarketing.image}
+              alt={s.specializedMarketing.imageAlt}
+              ratio="16 / 10"
+            />
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ---------- RESULTS / WHY CHOOSE ---------- */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 py-28 lg:px-12">
+        <Reveal className="mb-14 max-w-2xl">
+          <h2
+            className="text-[clamp(2rem,3.6vw,3.2rem)] leading-[1.05]"
+            style={{ fontFamily: serif, fontWeight: 400 }}
+          >
+            {s.whyChoose.headline}
+          </h2>
+          <p className="mt-6 leading-relaxed text-white/50">
+            {s.whyChoose.body}
+          </p>
+        </Reveal>
+        <div className="grid gap-6 md:grid-cols-2">
+          {s.whyChoose.cards.map((card, i) => (
+            <Reveal
+              key={card.title}
+              delay={i * 80}
+              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] p-8 transition-colors hover:border-[#0090F0]/40"
+            >
+              <span
+                className="absolute right-6 top-6 text-5xl text-white/5 transition-colors group-hover:text-[#0090F0]/20"
+                style={{ fontFamily: serif }}
+              >
+                0{i + 1}
+              </span>
+              <h3
+                className="text-xl"
+                style={{ fontFamily: serif, fontWeight: 500, color: "#7FCBFF" }}
+              >
+                {card.title}
+              </h3>
+              <p className="mt-4 text-[0.95rem] leading-relaxed text-white/50">
+                {card.description}
+              </p>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      {/* ---------- FAQ ---------- */}
+      <section className="relative z-10 mx-auto max-w-4xl px-6 py-24 lg:px-12">
+        <Reveal>
+          <h2
+            className="mb-12 text-center text-[clamp(1.9rem,3.4vw,2.8rem)]"
+            style={{ fontFamily: serif, fontWeight: 400 }}
+          >
+            Questions, answered.
+          </h2>
+        </Reveal>
+        <div className="divide-y divide-white/10 border-y border-white/10">
+          {s.faq.map((f, i) => {
+            const isOpen = open === i;
+            return (
+              <div key={f.question}>
+                <button
+                  onClick={() => setOpen(isOpen ? null : i)}
+                  className="flex w-full items-center justify-between gap-6 py-6 text-left"
+                >
+                  <span
+                    className="text-[1.1rem] leading-snug transition-colors"
+                    style={{
+                      fontFamily: serif,
+                      color: isOpen ? "#7FCBFF" : "#EDEAE3",
+                    }}
+                  >
+                    {f.question}
+                  </span>
+                  <span
+                    className="grid h-8 w-8 shrink-0 place-items-center rounded-full border border-white/15 text-[#0090F0] transition-transform duration-300"
+                    style={{ transform: isOpen ? "rotate(45deg)" : "none" }}
+                  >
+                    +
+                  </span>
+                </button>
+                <div
+                  className="grid transition-all duration-500 ease-out"
+                  style={{
+                    gridTemplateRows: isOpen ? "1fr" : "0fr",
+                    opacity: isOpen ? 1 : 0,
+                  }}
+                >
+                  <div className="overflow-hidden">
+                    <p className="pb-6 pr-12 text-[0.97rem] leading-relaxed text-white/50">
+                      {f.answer}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* ---------- CTA ---------- */}
+      <section className="relative z-10 px-6 pb-28 lg:px-12">
+        <Reveal
+          variant="blur"
+          className="relative mx-auto max-w-7xl overflow-hidden rounded-[32px] border border-white/10"
+          style={{
+            background:
+              "radial-gradient(130% 150% at 50% 0%, rgba(0,144,240,0.22), transparent 55%), radial-gradient(100% 120% at 100% 100%, rgba(0,168,96,0.16), transparent 55%), #071226",
+          }}
+        >
+          <div className="relative px-8 py-20 text-center md:px-16 md:py-28">
+            <h2
+              className="mx-auto max-w-3xl text-[clamp(2rem,4vw,3.4rem)] leading-[1.05]"
+              style={{ fontFamily: serif, fontWeight: 400 }}
+            >
+              {s.cta.headline}
+            </h2>
+            <p className="mx-auto mt-7 max-w-xl leading-relaxed text-white/55">
+              {s.cta.body}
+            </p>
+            <Link
+              href={s.cta.ctaLink}
+              className="group mt-10 inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-9 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
+            >
+              {s.cta.ctaText}
+              <span className="transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </Link>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* ---------- FOOTER ---------- */}
+      <footer className="relative z-10 border-t border-white/8 px-6 py-14 lg:px-12">
+        <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
+          <div>
+            <Logo tone="light" />
+            <p className="mt-2 max-w-xs text-[13px] text-white/40">
+              {s.footer.tagline}
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-x-8 gap-y-2 text-[13px] text-white/45">
+            {s.footer.services.map((svc) => (
+              <a
+                key={svc}
+                href="#"
+                className="transition-colors hover:text-[#0090F0]"
+              >
+                {svc}
+              </a>
+            ))}
+          </div>
+        </div>
+        <p
+          className="mx-auto mt-10 max-w-7xl text-[12px] text-white/25"
+          style={{ fontFamily: mono }}
+        >
+          {s.footer.copyright}
+        </p>
       </footer>
+
+      <Link
+        href="/"
+        className="fixed bottom-6 left-6 z-50 inline-flex items-center gap-2 rounded-full border border-white/15 bg-black/60 px-4 py-2 text-[11px] uppercase tracking-[0.16em] text-white/70 backdrop-blur transition-colors hover:text-white"
+      >
+        <span style={{ color: "#0090F0" }}>←</span> Gallery
+      </Link>
     </div>
   );
 }

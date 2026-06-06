@@ -4,7 +4,9 @@ import { useState } from "react";
 import Link from "next/link";
 import { siteContent as s } from "@/lib/content";
 import Reveal from "@/components/Reveal";
-import { Logo, Figure } from "@/components/brand";
+import { Figure } from "@/components/brand";
+import Nav from "@/components/site/Nav";
+import Footer from "@/components/site/Footer";
 
 /* ================================================================== */
 /*  DESIGN 1 — "Midnight Atelier"                                      */
@@ -57,27 +59,9 @@ export default function Design1() {
       />
 
       {/* ---------- NAV ---------- */}
-      <header className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 py-7 lg:px-12">
-        <Logo tone="light" />
-        <nav className="hidden items-center gap-9 text-[13px] tracking-wide text-white/55 md:flex">
-          {s.nav.map((n) => (
-            <a
-              key={n}
-              href="#"
-              className="transition-colors duration-300 hover:text-white"
-            >
-              {n}
-            </a>
-          ))}
-        </nav>
-        <Link
-          href={s.hero.ctaLink}
-          className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
-        >
-          <span className="relative z-10">Book a Call</span>
-          <span className="absolute inset-0 -z-0 translate-y-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] transition-transform duration-300 group-hover:translate-y-0" />
-        </Link>
-      </header>
+      <div className="relative z-20">
+        <Nav />
+      </div>
 
       {/* ---------- HERO ---------- */}
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-24 pt-12 lg:px-12 lg:pt-20">
@@ -480,40 +464,7 @@ export default function Design1() {
       </section>
 
       {/* ---------- FOOTER ---------- */}
-      <footer className="relative z-10 border-t border-white/8 px-6 py-14 lg:px-12">
-        <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
-          <div>
-            <Logo tone="light" />
-            <p className="mt-2 max-w-xs text-[13px] text-white/40">
-              {s.footer.tagline}
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-x-8 gap-y-2 text-[13px] text-white/45">
-            {s.footer.services.map((svc) => (
-              <a
-                key={svc}
-                href="#"
-                className="transition-colors hover:text-[#0090F0]"
-              >
-                {svc}
-              </a>
-            ))}
-          </div>
-        </div>
-        <p
-          className="mx-auto mt-10 max-w-7xl text-[12px] text-white/25"
-          style={{ fontFamily: mono }}
-        >
-          {s.footer.copyright}
-        </p>
-      </footer>
-
-      <Link
-        href="/"
-        className="fixed bottom-6 left-6 z-50 inline-flex items-center gap-2 rounded-full border border-white/15 bg-black/60 px-4 py-2 text-[11px] uppercase tracking-[0.16em] text-white/70 backdrop-blur transition-colors hover:text-white"
-      >
-        <span style={{ color: "#0090F0" }}>←</span> Gallery
-      </Link>
+      <Footer />
     </div>
   );
 }

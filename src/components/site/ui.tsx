@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Fragment } from "react";
 import { serif, mono } from "./theme";
+import { resolveLink } from "@/lib/links";
 
 /* Gradient hairline rule used throughout the design system */
 export function GoldRule({ className = "" }: { className?: string }) {
@@ -85,15 +86,21 @@ export function RichText({ text }: { text: string }) {
     const label = m[1];
     const href = m[2];
     if (href.startsWith("/")) {
-      parts.push(
-        <Link
-          key={key++}
-          href={href}
-          className="text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"
-        >
-          {label}
-        </Link>,
-      );
+      const resolved = resolveLink(href);
+      if (resolved) {
+        parts.push(
+          <Link
+            key={key++}
+            href={resolved}
+            className="text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"
+          >
+            {label}
+          </Link>,
+        );
+      } else {
+        // no valid destination — render the anchor text as plain copy
+        parts.push(<Fragment key={key++}>{label}</Fragment>);
+      }
     } else {
       parts.push(
         <a

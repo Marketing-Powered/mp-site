@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { mono } from "./theme";
+import { resolveLink } from "@/lib/links";
 
 const LABELS: Record<string, string> = {
   services: "Services",
@@ -36,18 +37,22 @@ export default function Breadcrumbs({ url, current }: { url: string; current: st
       style={{ fontFamily: mono }}
       aria-label="Breadcrumb"
     >
-      {crumbs.map((c, i) => (
-        <span key={c.href} className="flex items-center gap-2">
-          {i > 0 && <span className="text-[#0090F0]/50">/</span>}
-          {i === crumbs.length - 1 ? (
-            <span className="text-white/55">{c.label}</span>
-          ) : (
-            <Link href={c.href} className="transition-colors hover:text-[#7FCBFF]">
-              {c.label}
-            </Link>
-          )}
-        </span>
-      ))}
+      {crumbs.map((c, i) => {
+        const isLast = i === crumbs.length - 1;
+        const dest = resolveLink(c.href);
+        return (
+          <span key={c.href} className="flex items-center gap-2">
+            {i > 0 && <span className="text-[#0090F0]/50">/</span>}
+            {isLast || !dest ? (
+              <span className="text-white/55">{c.label}</span>
+            ) : (
+              <Link href={dest} className="transition-colors hover:text-[#7FCBFF]">
+                {c.label}
+              </Link>
+            )}
+          </span>
+        );
+      })}
     </nav>
   );
 }

@@ -202,6 +202,90 @@
       "primary_keyword": "contact marketing powered",
       "secondary_keywords": "marketing agency contact, behavioral health marketing contact",
       "target_word_count": "200-400"
+    },
+    "/who-we-help/behavioral-health/residential-treatment/": {
+      "file": "content/pages/who-we-help/behavioral-health/residential-treatment.md",
+      "draft_id": "1hfUxqPXkEqhqYM9Pt9uC5gFTvoDzikuU1W2QUusx9m8",
+      "primary_keyword": "residential treatment center marketing",
+      "secondary_keywords": "residential treatment marketing, rtc marketing",
+      "target_word_count": "1200-1800"
+    },
+    "/who-we-help/mental-health/outpatient-clinics/": {
+      "file": "content/pages/who-we-help/mental-health/outpatient-clinics.md",
+      "draft_id": "1q1G4LNKoJRCOZTGmwck1MuH7Y1O7W2MjKyLOTrqAysc",
+      "primary_keyword": "outpatient clinic marketing",
+      "secondary_keywords": "outpatient mental health marketing, mental health clinic marketing",
+      "target_word_count": "1200-1800"
+    },
+    "/who-we-help/mental-health/therapy-groups/": {
+      "file": "content/pages/who-we-help/mental-health/therapy-groups.md",
+      "draft_id": "1MDxREwJiufL-xlZwC6Q_nbGdNHfbPnm93IlFKF-J97g",
+      "primary_keyword": "therapy practice marketing",
+      "secondary_keywords": "therapy group marketing, group therapy marketing",
+      "target_word_count": "1200-1800"
+    },
+    "/who-we-help/mental-health/tele-mental-health/": {
+      "file": "content/pages/who-we-help/mental-health/tele-mental-health.md",
+      "draft_id": "1A5gtkucf3JkZdZ4gy55UwqTDjg0HgH-v67sQ5sWluOk",
+      "primary_keyword": "telehealth marketing",
+      "secondary_keywords": "tele mental health, virtual therapy marketing",
+      "target_word_count": "1200-1800"
+    },
+    "/who-we-help/mental-health/psychiatric-practices/": {
+      "file": "content/pages/who-we-help/mental-health/psychiatric-practices.md",
+      "draft_id": "1x4QS4mBZH6V6xoAYq8PdslYR__uzBE81nVQkNRpLrwU",
+      "primary_keyword": "psychiatric practice marketing",
+      "secondary_keywords": "psychiatry marketing, psychiatric clinic marketing",
+      "target_word_count": "1200-1800"
+    },
+    "/problems/reduce-cpa/": {
+      "file": "content/pages/problems/reduce-cpa.md",
+      "draft_id": "18tXv5V1nu6XHxjK64VyyZtrsg9-xY312duHtXXfL-d0",
+      "primary_keyword": "reduce cpa",
+      "secondary_keywords": "lower customer acquisition cost",
+      "target_word_count": "1200-1800"
+    },
+    "/legal/privacy-policy/": {
+      "file": "content/pages/legal/privacy-policy.md",
+      "draft_id": "1vZHSkeJ_fxD86zwyvR0RlxWcMMCx2lG4NhxvNvaYLU4",
+      "primary_keyword": "privacy policy",
+      "secondary_keywords": "privacy policy template",
+      "target_word_count": "2000-3000"
+    },
+    "/legal/terms/": {
+      "file": "content/pages/legal/terms.md",
+      "draft_id": "1KUNKfVh51AQM6NrMcT2YrM3SAXjT3AGc37O9RhewFTc",
+      "primary_keyword": "terms of service",
+      "secondary_keywords": "terms and conditions, service agreement",
+      "target_word_count": "2000-3000"
+    },
+    "/legal/cookie-policy/": {
+      "file": "content/pages/legal/cookie-policy.md",
+      "draft_id": "1fZhIpU31EJctyNeJLGz1bedlCisfL-rl-YNsTdvMbJ8",
+      "primary_keyword": "cookie policy",
+      "secondary_keywords": "cookie disclosure, tracking policy",
+      "target_word_count": "1000-1500"
+    },
+    "/legal/advertising-disclaimer/": {
+      "file": "content/pages/legal/advertising-disclaimer.md",
+      "draft_id": "1SskCYjBRcSwWK4jbhhmw1ANQ4XXAjbK8MORH-KB_9os",
+      "primary_keyword": "advertising disclaimer",
+      "secondary_keywords": "ad disclaimer, advertising disclosure",
+      "target_word_count": "600-1000"
+    },
+    "/legal/hipaa-phi-disclaimer/": {
+      "file": "content/pages/legal/hipaa-phi-disclaimer.md",
+      "draft_id": "1wea6qgm-jljqM3jFdB5GlJ3UECX1VwJ708ICn_Pai9s",
+      "primary_keyword": "hipaa disclaimer",
+      "secondary_keywords": "phi disclaimer, hipaa compliance disclaimer",
+      "target_word_count": "800-1200"
+    },
+    "/company/about-us/": {
+      "file": "content/pages/company/about-us.md",
+      "draft_id": "1kQ3ZGJ-Idxhbj5pEDczgZXCTnrW3oLhIRxDm-B8jjiw",
+      "primary_keyword": "Marketing Powered about",
+      "secondary_keywords": "marketing agency team, behavioral health marketing experts",
+      "target_word_count": "800-1200"
     }
   }
 }

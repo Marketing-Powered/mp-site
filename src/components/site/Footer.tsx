@@ -35,6 +35,16 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "Contact", href: "/company/contact/" },
     ],
   },
+  {
+    title: "Legal",
+    links: [
+      { label: "Privacy Policy", href: "/legal/privacy-policy/" },
+      { label: "Terms", href: "/legal/terms/" },
+      { label: "Cookie Policy", href: "/legal/cookie-policy/" },
+      { label: "Advertising Disclaimer", href: "/legal/advertising-disclaimer/" },
+      { label: "HIPAA & PHI Disclaimer", href: "/legal/hipaa-phi-disclaimer/" },
+    ],
+  },
 ];
 
 export default function Footer() {
@@ -47,14 +57,21 @@ export default function Footer() {
             <p className="mt-4 max-w-xs text-[14px] leading-relaxed text-white/45">
               {s.footer.tagline}
             </p>
-            <div className="mt-6 space-y-1 text-[13px] text-white/45" style={{ fontFamily: mono }}>
+            <div className="mt-6 space-y-2 text-[13px] text-white/45" style={{ fontFamily: mono }}>
+              <p>
+                <a
+                  href="mailto:hello@marketingpowered.ai"
+                  className="text-[#7FCBFF] transition-colors hover:text-white"
+                >
+                  hello@marketingpowered.ai
+                </a>
+              </p>
               <p>{s.brand.phone}</p>
-              <p>{s.brand.email}</p>
               <p className="max-w-[15rem]">{s.brand.address}</p>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-4">
             {COLUMNS.map((col) => (
               <div key={col.title}>
                 <p
@@ -85,10 +102,10 @@ export default function Footer() {
             {s.footer.copyright}
           </p>
           <Link
-            href="/get-started/"
+            href="/get-started/request-an-audit/"
             className="text-[12px] uppercase tracking-[0.18em] text-white/55 transition-colors hover:text-[#7FCBFF]"
           >
-            Book a Discovery Call →
+            Request a Free Audit →
           </Link>
         </div>
       </div>

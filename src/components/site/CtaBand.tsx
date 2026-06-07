@@ -1,17 +1,21 @@
 import Reveal from "@/components/Reveal";
 import { serif } from "./theme";
-import { PrimaryCta } from "./ui";
+import { PrimaryCta, GhostCta } from "./ui";
 
 export default function CtaBand({
   headline = "Ready to see what AI-native marketing can do for your treatment center?",
-  body = "Schedule a discovery call to discuss your current performance, compliance posture, and growth objectives. We will give you an honest assessment of where the opportunities are.",
-  ctaText = "Book a Discovery Call",
-  ctaLink = "/get-started/",
+  body = "Request a free audit of your paid media, landing pages, attribution, and compliance posture. You'll get a straight assessment of where the opportunities are.",
+  ctaText = "Request a Free Audit",
+  ctaLink = "/get-started/request-an-audit/",
+  secondaryCta,
+  emailLink = true,
 }: {
   headline?: string;
   body?: string;
   ctaText?: string;
   ctaLink?: string;
+  secondaryCta?: { text: string; link: string };
+  emailLink?: boolean;
 }) {
   return (
     <section className="relative z-10 px-6 pb-28 pt-4 lg:px-12">
@@ -31,9 +35,21 @@ export default function CtaBand({
             {headline}
           </h2>
           <p className="mx-auto mt-7 max-w-xl leading-relaxed text-white/55">{body}</p>
-          <div className="mt-10 flex justify-center">
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <PrimaryCta href={ctaLink}>{ctaText}</PrimaryCta>
+            {secondaryCta && <GhostCta href={secondaryCta.link}>{secondaryCta.text}</GhostCta>}
           </div>
+          {emailLink && (
+            <p className="mt-6 text-[14px] text-white/45">
+              or email us at{" "}
+              <a
+                href="mailto:hello@marketingpowered.ai"
+                className="text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"
+              >
+                hello@marketingpowered.ai
+              </a>
+            </p>
+          )}
         </div>
       </Reveal>
     </section>

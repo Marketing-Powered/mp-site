@@ -20,16 +20,15 @@ H1: Thank You for Reaching Out
 Hero image alt: Marketing Powered logo mark on a clean white background with light blue accents
 PAGE COPY
 Thank You for Reaching Out
+We've received your request. Expect a detailed audit report in your inbox within two business days.
 What Happens Next
-Your request has been received. Within one business day, a team member will reach out to schedule your initial conversation or confirm the details of your booked call.
-Check your inbox for a confirmation email with the next steps. If you do not see it within a few minutes, check your spam folder.
+Our team reviews your paid media, landing pages, attribution, and compliance posture, then sends a written assessment straight to your inbox. No phone tag, no pressure.
+Check Your Inbox
+A confirmation email is on its way. If you do not see it within a few minutes, check your spam folder. You can reply to it any time with questions.
 Why You're in Good Hands
 Marketing Powered is led by a former treatment center CMO who has managed $50M+ in behavioral health and mental health media spend. Our team tracks attribution through to admission and operates with full LegitScript and HIPAA awareness.
-You are working with specialists who understand your compliance constraints and growth goals.
-Stay Connected
-We appreciate you taking this step. If you have questions before your call, reply directly to your confirmation email, and we will get back to you promptly.
-Explore Our Resources
-While you wait, browse our [case studies](/results/case-studies/) to see how we have helped treatment centers grow, or explore [our resources](/resources/) for insights on behavioral health marketing.
+Explore While You Wait
+Browse our [case studies](/results/case-studies/) to see how we have helped treatment centers grow, or explore [our resources](/resources/) for insights on behavioral health marketing.
 Ready to See the Full Picture?
 Explore how Marketing Powered combines AI-native infrastructure with operator experience to grow treatment centers and mental health practices.
 [CTA] Explore Our Services

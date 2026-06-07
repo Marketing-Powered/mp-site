@@ -31,11 +31,20 @@ export function LeadForm({
   const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
 
-  function onSubmit(e: React.FormEvent) {
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitting(true);
-    // No backend wired yet — route to the confirmation page.
-    setTimeout(() => router.push("/get-started/thanks/"), 350);
+    const payload = Object.fromEntries(new FormData(e.currentTarget).entries());
+    try {
+      await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+    } catch {
+      // Swallow network errors for now — still route to confirmation.
+    }
+    router.push("/get-started/thanks/");
   }
 
   return (

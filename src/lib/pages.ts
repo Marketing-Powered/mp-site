@@ -207,6 +207,15 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/who-we-help/behavioral-health/", file: "who-we-help/behavioral-health.md" },
     { href: "/who-we-help/mental-health/", file: "who-we-help/mental-health.md" },
   ],
+  "who-we-help/behavioral-health.md": [
+    { href: "/who-we-help/behavioral-health/residential-treatment/", file: "who-we-help/behavioral-health/residential-treatment.md" },
+  ],
+  "who-we-help/mental-health.md": [
+    { href: "/who-we-help/mental-health/outpatient-clinics/", file: "who-we-help/mental-health/outpatient-clinics.md" },
+    { href: "/who-we-help/mental-health/therapy-groups/", file: "who-we-help/mental-health/therapy-groups.md" },
+    { href: "/who-we-help/mental-health/tele-mental-health/", file: "who-we-help/mental-health/tele-mental-health.md" },
+    { href: "/who-we-help/mental-health/psychiatric-practices/", file: "who-we-help/mental-health/psychiatric-practices.md" },
+  ],
   "get-started/index.md": [
     { href: "/get-started/request-an-audit/", file: "get-started/request-an-audit.md" },
     { href: "/get-started/book-a-call/", file: "get-started/book-a-call.md" },

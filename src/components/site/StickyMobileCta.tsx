@@ -1,0 +1,66 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import Link from "next/link";
+
+/* Fixed bottom bar shown only on mobile (hidden on md+). Appears once
+   the visitor scrolls past the hero, hides while scrolling down, and
+   slides back in on scroll-up — the standard mobile-CTA pattern. */
+export default function StickyMobileCta() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    let lastY = window.scrollY;
+    let ticking = false;
+
+    const update = () => {
+      const y = window.scrollY;
+      const pastHero = y > 520;
+      const scrollingUp = y < lastY - 4;
+      const scrollingDown = y > lastY + 4;
+      if (pastHero && scrollingUp) setVisible(true);
+      else if (scrollingDown || !pastHero) setVisible(false);
+      lastY = y;
+      ticking = false;
+    };
+
+    const onScroll = () => {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(update);
+      }
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  return (
+    <div
+      className={`fixed inset-x-0 bottom-0 z-50 px-4 pb-[calc(env(safe-area-inset-bottom,0px)+0.75rem)] pt-3 transition-transform duration-300 md:hidden ${
+        visible ? "translate-y-0" : "translate-y-[140%]"
+      }`}
+      style={{
+        background:
+          "linear-gradient(to top, rgba(5,11,22,0.96) 55%, rgba(5,11,22,0))",
+      }}
+    >
+      <Link
+        href="/get-started/request-an-audit/"
+        className="flex w-full items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_12px_40px_-10px_rgba(0,144,240,0.7)]"
+      >
+        Request a Free Audit
+        <span>→</span>
+      </Link>
+      <p className="mt-2 text-center text-[12px] text-white/45">
+        or{" "}
+        <a
+          href="mailto:hello@marketingpowered.ai"
+          className="text-[#7FCBFF] underline underline-offset-2"
+        >
+          email us
+        </a>
+      </p>
+    </div>
+  );
+}

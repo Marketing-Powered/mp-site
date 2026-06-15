@@ -1,17 +1,56 @@
+import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import { mono } from "./theme";
 
-/* Placeholder for imagery Jason will drop in later (2-3 per page).
-   Renders an intentional dashed frame with a label + suggested ratio. */
+/* Image frame for the brand graphics (2-3 per page).
+   When `src` is supplied it renders the real image; the brand art lives on
+   white backgrounds, so `contain` sits it on a clean white artboard (no
+   cropping of the wordmark). With no `src` it falls back to an intentional
+   dashed placeholder so any slot we don't have art for still reads as
+   deliberate rather than broken. */
 export default function ImageSlot({
   label,
   ratio = "16 / 9",
   className = "",
+  src,
+  alt,
+  fit = "contain",
 }: {
   label: string;
   ratio?: string;
   className?: string;
+  src?: string;
+  alt?: string;
+  fit?: "contain" | "cover";
 }) {
+  if (src) {
+    return (
+      <Reveal variant="blur" className={className}>
+        <div
+          className="relative w-full overflow-hidden rounded-2xl"
+          style={{
+            aspectRatio: ratio,
+            background: fit === "contain" ? "#ffffff" : "#0A1322",
+            boxShadow: "0 24px 60px -32px rgba(0,24,72,0.55)",
+          }}
+        >
+          <Image
+            src={src}
+            alt={alt || label}
+            fill
+            sizes="(max-width: 1024px) 100vw, 60vw"
+            className={fit === "contain" ? "object-contain" : "object-cover"}
+            style={
+              fit === "contain"
+                ? { padding: "clamp(8px,1.6vw,22px)" }
+                : undefined
+            }
+          />
+        </div>
+      </Reveal>
+    );
+  }
+
   return (
     <Reveal variant="blur" className={className}>
       <div

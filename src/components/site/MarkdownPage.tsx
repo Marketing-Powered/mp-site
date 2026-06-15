@@ -5,6 +5,7 @@ import Breadcrumbs from "./Breadcrumbs";
 import Section from "./Section";
 import ServiceCard from "./ServiceCard";
 import ImageSlot from "./ImageSlot";
+import { pageImages } from "./pageImages";
 import InlineCta from "./InlineCta";
 import StickyMobileCta from "./StickyMobileCta";
 import FaqAccordion from "./FaqAccordion";
@@ -87,6 +88,10 @@ export default function MarkdownPage({
   const slotLabels = ["Concept Illustration", "Process Infographic", "Results & Proof"];
   let slotCount = 0;
 
+  // brand imagery for this route: [0] hero, [1..] section slots
+  const imgs = pageImages(url);
+  const heroImg = imgs[0];
+
   // inline-CTA insertion: after every ~3rd section, never after the last one
   let ctaCount = 0;
 
@@ -125,7 +130,13 @@ export default function MarkdownPage({
               style={{ background: "linear-gradient(140deg,#0090F0,#00A8D8 50%,#08AE67)" }}
             />
             <div className="relative">
-              <ImageSlot label="Hero Banner" ratio="16 / 11" />
+              <ImageSlot
+                label="Hero Banner"
+                ratio="16 / 11"
+                src={heroImg?.src}
+                alt={heroImg?.alt}
+                fit={heroImg?.fit}
+              />
             </div>
           </div>
         </div>
@@ -169,14 +180,23 @@ export default function MarkdownPage({
         return (
           <div key={i}>
             <Section heading={sec.heading} nodes={sec.nodes} />
-            {slots.has(i) && (
-              <div className="mx-auto max-w-5xl px-6 py-8 lg:px-12">
-                <ImageSlot
-                  label={slotLabels[slotCount++ % slotLabels.length]}
-                  ratio="16 / 7"
-                />
-              </div>
-            )}
+            {slots.has(i) &&
+              (() => {
+                const label = slotLabels[slotCount % slotLabels.length];
+                const sectionImg = imgs[1 + slotCount];
+                slotCount++;
+                return (
+                  <div className="mx-auto max-w-5xl px-6 py-8 lg:px-12">
+                    <ImageSlot
+                      label={label}
+                      ratio="16 / 7"
+                      src={sectionImg?.src}
+                      alt={sectionImg?.alt}
+                      fit={sectionImg?.fit}
+                    />
+                  </div>
+                );
+              })()}
             {inlineCta && (
               <InlineCta
                 headline={inlineCta.headline}

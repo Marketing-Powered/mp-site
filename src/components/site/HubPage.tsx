@@ -5,6 +5,7 @@ import Breadcrumbs from "./Breadcrumbs";
 import Section from "./Section";
 import ServiceCard from "./ServiceCard";
 import ImageSlot from "./ImageSlot";
+import { pageImages } from "./pageImages";
 import FaqAccordion from "./FaqAccordion";
 import CtaBand from "./CtaBand";
 import { serif } from "./theme";
@@ -25,6 +26,7 @@ export default function HubPage({
   const page = getPage(file);
   const url = page.frontmatter.url || "/";
   const heroCta = page.heroCta || { text: "Book a Discovery Call", link: "/get-started/" };
+  const overviewImg = pageImages(url)[1];
 
   const children =
     cards ||
@@ -89,7 +91,13 @@ export default function HubPage({
           <Section heading={sec.heading} nodes={sec.nodes} />
           {i === 1 && (
             <div className="mx-auto max-w-5xl px-6 py-8 lg:px-12">
-              <ImageSlot label="Capabilities Overview" ratio="16 / 7" />
+              <ImageSlot
+                label="Capabilities Overview"
+                ratio="16 / 7"
+                src={overviewImg?.src}
+                alt={overviewImg?.alt}
+                fit={overviewImg?.fit}
+              />
             </div>
           )}
         </div>

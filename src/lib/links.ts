@@ -34,6 +34,7 @@ const VALID = new Set<string>([
   "/who-we-help/mental-health/tele-mental-health",
   "/who-we-help/mental-health/psychiatric-practices",
   "/problems/reduce-cpa",
+  "/results/case-studies",
   "/legal/privacy-policy",
   "/legal/terms",
   "/legal/cookie-policy",
@@ -59,12 +60,23 @@ const REMAP: Record<string, string> = {
   "/who-we-help/luxury-private-pay": "/who-we-help/",
   // legacy service path → current service page
   "/services/paid-media/google-ads": "/services/google-ads-management/",
+  // results hub → the case-studies page (the real destination)
+  "/results": "/results/case-studies/",
   // sections that don't exist yet → closest relevant page
-  "/results/case-studies": "/company/about/",
-  "/results": "/company/about/",
   "/resources": "/ai-edge/",
   "/media": "/company/about/",
 };
+
+/* Indexable routes for the sitemap. Mirrors VALID, minus thin/utility
+   pages we don't want crawled (noindex confirmation + qualification). */
+const NOINDEX = new Set<string>([
+  "/get-started/thanks",
+  "/get-started/qualification",
+]);
+
+export function indexableRoutes(): string[] {
+  return [...VALID].filter((r) => !NOINDEX.has(r));
+}
 
 /** Resolve an internal href. Returns a valid path, or null if the link
     should be rendered as plain text (no good destination exists). */

@@ -22,11 +22,14 @@ export function LeadForm({
   intro,
   fields,
   submitLabel = "Submit Request",
+  source = "Website form",
 }: {
   title: string;
   intro?: string;
   fields: Field[];
   submitLabel?: string;
+  /** Identifies which form the lead came from, included in the email. */
+  source?: string;
 }) {
   const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
@@ -69,6 +72,7 @@ export function LeadForm({
         {intro && <p className="mt-4 max-w-xl leading-relaxed text-white/55">{intro}</p>}
 
         <form onSubmit={onSubmit} className="mt-8 grid gap-5 sm:grid-cols-2">
+          <input type="hidden" name="source" value={source} />
           {fields.map((f) => (
             <div key={f.name} className={f.full || f.type === "textarea" ? "sm:col-span-2" : ""}>
               <label
@@ -117,8 +121,14 @@ export function LeadForm({
   );
 }
 
-/* Calendar / booking placeholder block for the book-a-call page */
+/* Booking embed for the book-a-call page.
+   Reads NEXT_PUBLIC_BOOKING_URL (Calendly / SavvyCal / HubSpot scheduling
+   link). When set we embed the scheduler inline; when unset we render
+   nothing and the page falls back cleanly to the lead form below. */
 export function BookingBlock() {
+  const url = process.env.NEXT_PUBLIC_BOOKING_URL;
+  if (!url) return null;
+
   return (
     <section className="relative z-10 mx-auto max-w-3xl px-6 py-12 lg:px-12">
       <Reveal
@@ -133,16 +143,12 @@ export function BookingBlock() {
             Schedule
           </p>
         </div>
-        <div className="flex min-h-[360px] flex-col items-center justify-center gap-4 px-8 py-16 text-center">
-          <span className="text-2xl text-[#0090F0]/70">✦</span>
-          <p className="text-[1.05rem] text-white/70" style={{ fontFamily: serif }}>
-            Calendar embed goes here
-          </p>
-          <p className="max-w-md text-[13px] leading-relaxed text-white/40">
-            Drop in your Calendly / SavvyCal / HubSpot meetings embed to let prospects book a
-            discovery call directly. Until then, requests route through the form.
-          </p>
-        </div>
+        <iframe
+          src={url}
+          title="Book a discovery call"
+          loading="lazy"
+          className="block h-[680px] w-full border-0 bg-white"
+        />
       </Reveal>
     </section>
   );

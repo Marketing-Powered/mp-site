@@ -167,10 +167,23 @@ export function pageMetadata(file: string): Metadata {
     /noindex/i.test(p.frontmatter.primary_keyword || "") ||
     file.endsWith("thanks.md") ||
     file.endsWith("qualification.md");
+  const title = p.seo.title || p.frontmatter.title || p.h1;
+  const description = p.seo.description;
+  const url = p.frontmatter.url || undefined;
   return {
-    title: p.seo.title || p.frontmatter.title || p.h1,
-    description: p.seo.description,
-    ...(noindex ? { robots: { index: false, follow: false } } : {}),
+    title,
+    description,
+    ...(url ? { alternates: { canonical: url } } : {}),
+    ...(noindex
+      ? { robots: { index: false, follow: false } }
+      : {
+          openGraph: {
+            type: "website",
+            title,
+            description,
+            ...(url ? { url } : {}),
+          },
+        }),
   };
 }
 

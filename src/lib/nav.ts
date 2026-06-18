@@ -20,6 +20,7 @@ export const NAV: {
       { label: "LinkedIn Ads", href: "/services/linkedin-ads/" },
       { label: "Intake Optimization", href: "/services/intake-optimization/" },
       { label: "Creative Testing", href: "/services/creative-testing/" },
+      { label: "PPC", href: "/services/ppc/" },
       { label: "LLM Advertising", href: "/services/llm-advertising/" },
       { label: "ChatGPT Advertising", href: "/services/llm-advertising/chatgpt/" },
       { label: "AI Discovery Optimization", href: "/services/llm-advertising/ai-discovery-optimization/" },

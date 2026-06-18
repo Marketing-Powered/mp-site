@@ -19,6 +19,8 @@ const VALID = new Set<string>([
   "/services/linkedin-ads",
   "/services/intake-optimization",
   "/services/creative-testing",
+  "/services/ppc",
+  "/services/ppc/introduction-to-ppc-campaign-management",
   "/services/llm-advertising",
   "/services/llm-advertising/chatgpt",
   "/services/llm-advertising/ai-discovery-optimization",
@@ -63,6 +65,8 @@ const VALID = new Set<string>([
   "/get-started/thanks",
   "/company/about",
   "/company/contact",
+  // migrated legacy pages (organic-traffic SEO pages preserved at original slugs)
+  "/top-10-open-source-ai-models-of-2025",
 ]);
 
 const REMAP: Record<string, string> = {

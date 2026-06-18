@@ -189,6 +189,24 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     "Boosting behavioral health ad performance through creative testing: -25% cost per lead, +18% intake completion, 3X faster validation, 99% ad approval",
   ]),
 
+  /* ---- PPC sub-cluster (migrated legacy pages) ---- */
+
+  // Migrated from the live WordPress site. Real page photography preserved as
+  // the hero (cover fit on the dark artboard); section slots use brand graphics.
+  "/services/ppc/": [
+    { src: "/images/pages/services/ppc/01-hero.jpg", alt: "AI-driven PPC campaign management: smarter performance at scale", fit: "cover" },
+    { src: "/images/pages/services/ppc/02-body.jpg", alt: "Google Ads Keyword Planner on a mobile device — choosing the right keywords", fit: "cover" },
+    { src: "/images/pages/services/ppc/03-body.jpg", alt: "PPC performance dashboard: clicks, impressions, average CTR and position over time", fit: "cover" },
+  ],
+
+  // Hero is the page's original photographic banner (cover); the two in-article
+  // section slots fall back to brand process/takeaways graphics.
+  "/services/ppc/introduction-to-ppc-campaign-management/": [
+    { src: "/images/pages/services/ppc/introduction-to-ppc-campaign-management/01-hero.jpg", alt: "Introduction to PPC campaign management", fit: "cover" },
+    PROCESS,
+    TAKEAWAYS,
+  ],
+
   /* ---- LLM Advertising sub-cluster ---- */
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.
@@ -638,6 +656,16 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "03-process.jpg",
       "The qualification process: submit information, team review, schedule a discovery call, discuss strategy, and confirm partnership fit",
     ),
+  ],
+
+  /* ---- Migrated legacy blog (top-level slug) ---- */
+
+  // Hero is the article's original illustration (cover); in-article section
+  // slots use brand icon set + takeaways graphics.
+  "/top-10-open-source-ai-models-of-2025/": [
+    { src: "/images/pages/top-10-open-source-ai-models-of-2025/01-hero.jpg", alt: "Top 10 open source AI models of 2025", fit: "cover" },
+    ICONS,
+    TAKEAWAYS,
   ],
 };
 

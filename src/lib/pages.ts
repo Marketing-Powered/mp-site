@@ -200,7 +200,18 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/services/landing-page-optimization/", file: "services/landing-page-optimization.md" },
     { href: "/services/analytics-and-attribution/", file: "services/analytics-and-attribution.md" },
     { href: "/services/call-tracking-and-intake-attribution/", file: "services/call-tracking.md" },
+    { href: "/services/conversion-rate-optimization/", file: "services/conversion-rate-optimization.md" },
+    { href: "/services/microsoft-ads-management/", file: "services/microsoft-ads-management.md" },
+    { href: "/services/youtube-ads/", file: "services/youtube-ads.md" },
+    { href: "/services/linkedin-ads/", file: "services/linkedin-ads.md" },
+    { href: "/services/intake-optimization/", file: "services/intake-optimization.md" },
+    { href: "/services/creative-testing/", file: "services/creative-testing.md" },
+    { href: "/services/llm-advertising/", file: "services/llm-advertising/index.md" },
     { href: "/services/web-development/", file: "services/web-development/index.md" },
+  ],
+  "services/llm-advertising/index.md": [
+    { href: "/services/llm-advertising/chatgpt/", file: "services/llm-advertising/chatgpt.md" },
+    { href: "/services/llm-advertising/ai-discovery-optimization/", file: "services/llm-advertising/ai-discovery-optimization.md" },
   ],
   "services/web-development/index.md": [
     { href: "/services/web-development/website-design-and-build/", file: "services/web-development/website-design.md" },
@@ -222,12 +233,18 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
   ],
   "who-we-help/behavioral-health.md": [
     { href: "/who-we-help/behavioral-health/residential-treatment/", file: "who-we-help/behavioral-health/residential-treatment.md" },
+    { href: "/who-we-help/behavioral-health/substance-use-disorder/", file: "who-we-help/behavioral-health/substance-use-disorder.md" },
+    { href: "/who-we-help/behavioral-health/adolescent-treatment/", file: "who-we-help/behavioral-health/adolescent-treatment.md" },
+    { href: "/who-we-help/behavioral-health/dual-diagnosis/", file: "who-we-help/behavioral-health/dual-diagnosis.md" },
+    { href: "/who-we-help/behavioral-health/detox-centers/", file: "who-we-help/behavioral-health/detox-centers.md" },
+    { href: "/who-we-help/behavioral-health/iop-php/", file: "who-we-help/behavioral-health/iop-php.md" },
   ],
   "who-we-help/mental-health.md": [
     { href: "/who-we-help/mental-health/outpatient-clinics/", file: "who-we-help/mental-health/outpatient-clinics.md" },
     { href: "/who-we-help/mental-health/therapy-groups/", file: "who-we-help/mental-health/therapy-groups.md" },
     { href: "/who-we-help/mental-health/tele-mental-health/", file: "who-we-help/mental-health/tele-mental-health.md" },
     { href: "/who-we-help/mental-health/psychiatric-practices/", file: "who-we-help/mental-health/psychiatric-practices.md" },
+    { href: "/who-we-help/mental-health/adolescent-mental-health/", file: "who-we-help/mental-health/adolescent-mental-health.md" },
   ],
   "get-started/index.md": [
     { href: "/get-started/request-an-audit/", file: "get-started/request-an-audit.md" },

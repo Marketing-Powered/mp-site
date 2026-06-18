@@ -142,6 +142,88 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ],
   ),
 
+  /* ---- Services cluster (P1 additions) ---- */
+
+  "/services/conversion-rate-optimization/": std4("services/conversion-rate-optimization", [
+    "Effective conversion rate optimization services built on $50M+ in behavioral health media spend",
+    "Data-driven CRO funnel: from website visitors through A/B testing to qualified admission inquiries and census impact",
+    "Our CRO process: audit and analysis, hypothesis development, A/B and multi-variant testing, attribution connectivity, validate and scale",
+    "CRO services summary: data-driven and specialized, rigorous testing methodology, optimizing the intake journey, full-funnel attribution",
+  ]),
+
+  "/services/microsoft-ads-management/": std4("services/microsoft-ads-management", [
+    "Microsoft Ads management dashboard for behavioral health: qualified admissions, lower cost per admission, AI-optimized bidding",
+    "Maximize growth with Microsoft Ads management: behavioral health search intent, AI optimization, and policy compliance",
+    "The MP approach to Microsoft advertising: deep audit, audience architecture, optimized bidding and attribution, creative testing, compliance review",
+    "Microsoft Ads performance insights: $50M+ managed, attribution to admission, audience reach, and compliance-first results",
+  ]),
+
+  "/services/youtube-ads/": std4("services/youtube-ads", [
+    "YouTube ads agency: expert management of optimized behavioral health campaigns with clear attribution to admissions",
+    "Optimized YouTube ads for behavioral health: audience strategy, creative optimization, compliance monitoring, and attribution",
+    "Our YouTube ads management process: discovery and compliance review, audience and intent strategy, creative production, campaign execution, attribution",
+    "YouTube ads powering behavioral health admissions: 2.5B+ monthly users, precision targeting, attribution beyond the click, operator advantage",
+  ]),
+
+  "/services/linkedin-ads/": std4("services/linkedin-ads", [
+    "Expert LinkedIn ads agency services: B2B targeting precision and $50M+ in vertical expertise",
+    "Specialized LinkedIn ads agency: targeting qualified B2B decision-makers over generic, inflated-spend approaches",
+    "Optimizing LinkedIn ads management: audience architecture, targeting strategy, bid optimization, creative testing, compliance and attribution",
+    "Your behavioral health LinkedIn ads partner: unprecedented B2B precision, results-driven expertise, compliance-first framework, data-powered optimization",
+  ]),
+
+  // Hero + capabilities icons + process + quote: Asana's 02 carried hex-swatch
+  // artifacts and 04 a "Just Sans Variable" placeholder, so the clean icon set
+  // (05) fills the concept slot and the quote (06) the results slot.
+  "/services/intake-optimization/": std4("services/intake-optimization", [
+    "Optimize your behavioral health intake: turn more calls into admissions with data-driven solutions",
+    "Intake optimization capabilities: speed to lead, insurance verification, lower cost per admission, higher conversion, integrated systems, better patient experience",
+    "Our intake optimization framework: discovery call, intake audit, implementation roadmap, measurement and iteration",
+    "The treatment centers that consistently convert more leads integrate technology, staff, and continuous measurement into a repeatable system",
+  ]),
+
+  "/services/creative-testing/": std4("services/creative-testing", [
+    "Creative testing dashboard for behavioral health: A/B variants, cost per lead, and admissions performance",
+    "Creative testing flow: variant experimentation through insights to ad performance boost, with compliance confidence",
+    "Structured creative testing framework: strategy and compliance review, sequential experiments, data analysis, iterate and scale",
+    "Boosting behavioral health ad performance through creative testing: -25% cost per lead, +18% intake completion, 3X faster validation, 99% ad approval",
+  ]),
+
+  /* ---- LLM Advertising sub-cluster ---- */
+
+  // Hub (HubPage): only index [1] renders. Capabilities icon set.
+  "/services/llm-advertising/": [
+    pageImg(
+      "services/llm-advertising/hub",
+      "01-hero-banner.jpg",
+      "LLM advertising for behavioral health: AI-driven campaigns optimized for admissions",
+    ),
+    pageImg(
+      "services/llm-advertising/hub",
+      "05-capabilities.jpg",
+      "LLM advertising capabilities: contextual messaging, AI-driven optimization, healthcare compliance, closed-loop measurement, patient journey tracking, strategic growth",
+    ),
+  ],
+
+  "/services/llm-advertising/chatgpt/": std4("services/llm-advertising/chatgpt", [
+    "Revolutionize your advertising with ChatGPT: AI-native strategies for behavioral health",
+    "AI chat advertising with ChatGPT: intent-rich context and conversational engagement driving qualified admissions, compliance, and patient journey",
+    "Get started with ChatGPT advertising: audit your current state, align on compliance posture, define attribution requirements, request your audit",
+    "ChatGPT advertising takeaways: reach intent-rich audiences, strategize effective ads, navigate compliance rigor, track attribution through admission",
+  ]),
+
+  // Concept slot uses the clean capabilities icons (05) — Asana's 02 carried
+  // "Just Sans Variable" placeholder text and garbled labels.
+  "/services/llm-advertising/ai-discovery-optimization/": std4(
+    "services/llm-advertising/ai-discovery-optimization",
+    [
+      "AI discovery optimization for enhanced visibility: position your brand where AI assistants find answers",
+      "AI discovery optimization essentials: understanding AI discovery, shift from ranking to citation, generative engine optimization, practical AI search strategies, measured outcomes",
+      "Your path to AI citation visibility: discovery and assessment, comprehensive audit, strategic implementation, measurement and iteration",
+      "Accelerate visibility with data-driven AI discovery optimization: the shift from ranking to citation, generative AI reshaping search, optimized content driving citation rates",
+    ],
+  ),
+
   /* ---- Web Development sub-cluster ---- */
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.
@@ -322,6 +404,74 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "Data-driven residential treatment center marketing: 100% regulatory fluency, zero platform shutdowns, proven admission and cost-per-admission performance",
     ),
   ],
+
+  "/who-we-help/behavioral-health/substance-use-disorder/": std4(
+    "who-we-help/behavioral-health/substance-use-disorder",
+    [
+      "Expert rehab marketing for substance use disorder: scaling census with operator-built attribution and AI-native precision",
+      "The rehab marketing engine: operator expertise and scaling, data-forward decision making, and optimized patient acquisition",
+      "Our specialized rehab marketing process: compliant audit, strategic build, full-funnel attribution, and continuous optimization to admission",
+      "Specialized rehab marketing data and results: lower cost per admission, full admission attribution, and measurable census growth",
+    ],
+  ),
+
+  "/who-we-help/behavioral-health/adolescent-treatment/": std4(
+    "who-we-help/behavioral-health/adolescent-treatment",
+    [
+      "Adolescent rehab marketing: amplify teen programs with compliant, data-forward strategies",
+      "Marketing for adolescent rehab: bridging the decision-maker gap between parents and adolescents across paid search, social, and content",
+      "Streamlining adolescent rehab marketing: a five-step process from compliant strategy through attribution to admission and census",
+      "Adolescent rehab marketing data and strategy insights: the parental decision journey, compliance, and the concerns that drive admissions",
+    ],
+  ),
+
+  // 02 carries a minor "CRORGESUS" sub-label garble; tolerated — flow is clean.
+  "/who-we-help/behavioral-health/dual-diagnosis/": std4(
+    "who-we-help/behavioral-health/dual-diagnosis",
+    [
+      "Explore marketing strategies for dual diagnosis treatment: reach the right audience with expert strategies and data insights",
+      "Unlocking dual diagnosis momentum: marketing that reflects clinical complexity, turning mental health and substance use needs into qualified leads",
+      "A strategic marketing framework for dual diagnosis treatment: six steps from audience identification through compliance to scaled admissions",
+      "Dual diagnosis treatment marketing: audience identification, compliance as foundation, lead quality optimization, and scaling across locations",
+    ],
+  ),
+
+  // 02/03/04 from Asana were garbled (font-name placeholders, "[CTA]" tokens,
+  // scrambled stat labels), so the clean icon set (05), quote (06), and
+  // takeaways (08) fill the concept/process/results slots.
+  "/who-we-help/behavioral-health/detox-centers/": std4(
+    "who-we-help/behavioral-health/detox-centers",
+    [
+      "Detox center marketing: from patient searches and intake teams to a stable, growing census",
+      "Detox center marketing capabilities: compliant paid search, SEO pipeline, admission attribution, conversion optimization, compliance, and scaling operations",
+      "The difference between an agency that has managed $50,000 in behavioral health spend and one that has managed $50M+ is the depth of problem-solving when a single policy violation can shut down your primary channel overnight",
+      "Takeaways for detox center marketing: a specialized approach, core strategies that work, disciplined scaling, and the right partner attributes",
+    ],
+  ),
+
+  // 04 stats graphic was garbled ("performance performance", scrambled labels),
+  // so the clean capabilities icon set (05) fills the results slot.
+  "/who-we-help/behavioral-health/iop-php/": std4(
+    "who-we-help/behavioral-health/iop-php",
+    [
+      "Effective marketing strategies for IOP and PHP: operator-tested approaches for qualified behavioral health admissions",
+      "Targeted outpatient acquisition for IOP and PHP: intent-based keywords, geotargeting, and referral development with compliant measurement",
+      "The IOP and PHP marketing framework: click-to-admission attribution across keyword research, geo-targeted acquisition, landing pages, and ROI optimization",
+      "IOP and PHP marketing capabilities: care continuum, search strategies, qualified admissions, local referral networks, compliance, and maximized ROI",
+    ],
+  ),
+
+  // 02 concept illustration had mixed-caps headline garble, so the process (03),
+  // stats (04), and capabilities icons (05) fill the section slots.
+  "/who-we-help/mental-health/adolescent-mental-health/": std4(
+    "who-we-help/mental-health/adolescent-mental-health",
+    [
+      "Effective teen mental health treatment marketing: accelerate growth and census, reaching families with precision data",
+      "Four steps to effective teen mental health treatment marketing: intent mapping, compliant paid media, dual-audience engagement, and AI-accelerated growth",
+      "Adolescent mental health marketing insights: paid search intent mapping, dual-audience targeting, AI-powered optimization, and compliance assurance",
+      "Adolescent mental health marketing capabilities: paid search, dual-audience reach, compliance and ethics, AI-powered insights, multi-channel, and measurable growth",
+    ],
+  ),
 
   // Hero swapped to the clean concept (02) — Asana's 01 hero was unbalanced with
   // garbled labels. Three clean images.

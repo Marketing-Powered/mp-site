@@ -52,6 +52,14 @@ fbq('track', 'PageView');`}
           </noscript>
         </>
       )}
+
+      {/* "Mia" — GoHighLevel (LeadConnector) web chat widget. Loads site-wide. */}
+      <Script
+        src="https://widgets.leadconnectorhq.com/loader.js"
+        data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+        data-widget-id="69eafedccbb9f443ce9942a0"
+        strategy="afterInteractive"
+      />
     </>
   );
 }

@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { siteContent as s } from "@/lib/content";
+import { SITE_URL } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 import { Figure } from "@/components/brand";
 import Nav from "@/components/site/Nav";
@@ -32,6 +33,128 @@ function GoldRule({ className = "" }: { className?: string }) {
   );
 }
 
+/* Count-up that fires when scrolled into view. Animates only the numeric part;
+   `prefix`/`suffix` render verbatim so ranges and symbols ($50M+, 30-45%, 3 to 24)
+   reconstruct exactly. Respects prefers-reduced-motion (snaps to the final value). */
+function CountUp({
+  to,
+  prefix = "",
+  suffix = "",
+  dur = 1400,
+}: {
+  to: number;
+  prefix?: string;
+  suffix?: string;
+  dur?: number;
+}) {
+  const ref = useRef<HTMLSpanElement | null>(null);
+  // Initialize at the final value so SSR / no-JS / pre-hydration render the real
+  // number (e.g. "$50M+"), never "$0M+". On the client we reset to 0 and animate
+  // up when scrolled into view; the stats sit below the fold so there's no flash.
+  const [val, setVal] = useState(to);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const reduce =
+      typeof window !== "undefined" &&
+      window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+    if (reduce || to === 0) {
+      setVal(to);
+      return;
+    }
+    setVal(0);
+    let raf = 0;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (!entries[0].isIntersecting) return;
+        io.disconnect();
+        const t0 = performance.now();
+        const tick = (t: number) => {
+          const p = Math.min(1, (t - t0) / dur);
+          const eased = 1 - Math.pow(1 - p, 3);
+          setVal(to * eased);
+          if (p < 1) raf = requestAnimationFrame(tick);
+        };
+        raf = requestAnimationFrame(tick);
+      },
+      { threshold: 0.4 },
+    );
+    io.observe(el);
+    return () => {
+      io.disconnect();
+      cancelAnimationFrame(raf);
+    };
+  }, [to, dur]);
+
+  return (
+    <span ref={ref}>
+      {prefix}
+      {Math.round(val)}
+      {suffix}
+    </span>
+  );
+}
+
+/* Structured data: Organization + LocalBusiness + FAQPage, built entirely from
+   real site content (content.ts brand info + the homepage FAQ). Rendered as
+   JSON-LD; SSR'd into the initial HTML so crawlers see it. */
+function HomeJsonLd() {
+  const phoneE164 = "+1-561-560-6804"; // s.brand.phone "(561) 560-6804"
+  const address = {
+    "@type": "PostalAddress",
+    streetAddress: "9494 Osprey Isles Blvd",
+    addressLocality: "Palm Beach Gardens",
+    addressRegion: "FL",
+    postalCode: "33412",
+    addressCountry: "US",
+  };
+  const graph = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
+      name: s.brand.name,
+      url: SITE_URL,
+      logo: `${SITE_URL}/logo.svg`,
+      description: s.seo.description,
+      email: s.brand.email,
+      telephone: phoneE164,
+      address,
+    },
+    {
+      "@context": "https://schema.org",
+      // ProfessionalService is a LocalBusiness subtype; Google treats it as LocalBusiness.
+      "@type": "ProfessionalService",
+      "@id": `${SITE_URL}/#localbusiness`,
+      name: s.brand.name,
+      url: SITE_URL,
+      image: `${SITE_URL}/images/01-hero-banner.jpg`,
+      telephone: phoneE164,
+      email: s.brand.email,
+      address,
+      areaServed: "US",
+      parentOrganization: { "@id": `${SITE_URL}/#organization` },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": `${SITE_URL}/#faq`,
+      mainEntity: s.faq.map((f) => ({
+        "@type": "Question",
+        name: f.question,
+        acceptedAnswer: { "@type": "Answer", text: f.answer },
+      })),
+    },
+  ];
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }}
+    />
+  );
+}
+
 export default function Design1() {
   const [open, setOpen] = useState<number | null>(0);
 
@@ -40,6 +163,8 @@ export default function Design1() {
       style={{ background: INK, color: "#EDEAE3", fontFamily: sans }}
       className="relative min-h-screen overflow-hidden"
     >
+      <HomeJsonLd />
+
       {/* film-grain + vignette atmosphere */}
       <div
         aria-hidden
@@ -151,8 +276,49 @@ export default function Design1() {
         </div>
       </section>
 
+      {/* ---------- SOCIAL PROOF STRIP ---------- */}
+      {/* Built only from verified, content-backed proof points (see content.ts:
+          socialProof, stats, growth.body). No client logos/testimonials yet —
+          those need real, consented assets (flagged for Jason). */}
+      <section className="relative z-10 mx-auto max-w-7xl px-6 lg:px-12">
+        <Reveal className="rounded-2xl border border-white/10 bg-white/[0.02] px-6 py-7 md:px-10">
+          <p
+            className="mb-6 text-center text-[11px] uppercase tracking-[0.28em] text-white/40"
+            style={{ fontFamily: mono }}
+          >
+            Trusted by behavioral health &amp; mental health operators
+          </p>
+          <div className="grid grid-cols-2 gap-y-6 md:grid-cols-4">
+            {[
+              { v: "$50M+", l: "Managed ad spend" },
+              { v: "$1.5–2M/mo", l: "Google Ads managed" },
+              { v: "3 → 24", l: "Haven Health locations" },
+              { v: "Since 2022", l: "AI-native systems" },
+            ].map((p) => (
+              <div key={p.l} className="text-center">
+                <div
+                  className="text-[clamp(1.4rem,2.4vw,2rem)] leading-none"
+                  style={{
+                    fontFamily: serif,
+                    background: "linear-gradient(180deg,#7FCBFF,#0090F0)",
+                    WebkitBackgroundClip: "text",
+                    backgroundClip: "text",
+                    color: "transparent",
+                  }}
+                >
+                  {p.v}
+                </div>
+                <div className="mt-2 text-[11px] uppercase tracking-[0.16em] text-white/40">
+                  {p.l}
+                </div>
+              </div>
+            ))}
+          </div>
+        </Reveal>
+      </section>
+
       {/* ---------- MARQUEE ---------- */}
-      <section className="relative z-10 border-y border-white/8 py-6">
+      <section className="relative z-10 mt-16 border-y border-white/8 py-6">
         <div className="flex overflow-hidden">
           <div
             className="flex shrink-0 items-center gap-16 whitespace-nowrap pr-16"
@@ -251,7 +417,7 @@ export default function Design1() {
                   color: "transparent",
                 }}
               >
-                {stat.value}
+                <CountUp to={stat.to} prefix={stat.prefix} suffix={stat.suffix} />
               </div>
               <p className="mt-4 text-[13px] leading-relaxed text-white/45">
                 {stat.label}
@@ -276,6 +442,14 @@ export default function Design1() {
           >
             {s.servicesIntro.headline}
           </h2>
+          <Link
+            href="/services/"
+            className="mt-6 inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[#0090F0] transition-colors hover:text-[#7FCBFF]"
+            style={{ fontFamily: mono }}
+          >
+            View all services
+            <span aria-hidden>→</span>
+          </Link>
         </Reveal>
 
         <div className="border-t border-white/10">
@@ -292,7 +466,12 @@ export default function Design1() {
                   className="col-span-1 text-[1.35rem] leading-snug transition-transform duration-500 group-hover:translate-x-1"
                   style={{ fontFamily: serif, fontWeight: 500 }}
                 >
-                  {svc.title}
+                  <Link
+                    href={svc.href}
+                    className="transition-colors hover:text-[#7FCBFF]"
+                  >
+                    {svc.title}
+                  </Link>
                 </h3>
                 <p className="col-span-2 text-[0.95rem] leading-relaxed text-white/45 md:col-span-1">
                   {svc.description}
@@ -325,6 +504,22 @@ export default function Design1() {
             <p className="mt-5 leading-relaxed text-white/40">
               {s.specializedMarketing.body3}
             </p>
+            <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3">
+              <Link
+                href="/who-we-help/behavioral-health/"
+                className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[#0090F0] transition-colors hover:text-[#7FCBFF]"
+                style={{ fontFamily: mono }}
+              >
+                Behavioral health <span aria-hidden>→</span>
+              </Link>
+              <Link
+                href="/who-we-help/mental-health/"
+                className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[#0090F0] transition-colors hover:text-[#7FCBFF]"
+                style={{ fontFamily: mono }}
+              >
+                Mental health <span aria-hidden>→</span>
+              </Link>
+            </div>
           </Reveal>
           <Reveal variant="blur" delay={120} className="relative">
             <Figure
@@ -348,6 +543,13 @@ export default function Design1() {
           <p className="mt-6 leading-relaxed text-white/50">
             {s.whyChoose.body}
           </p>
+          <Link
+            href="/results/case-studies/"
+            className="mt-6 inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[#0090F0] transition-colors hover:text-[#7FCBFF]"
+            style={{ fontFamily: mono }}
+          >
+            See case studies &amp; results <span aria-hidden>→</span>
+          </Link>
         </Reveal>
         <div className="grid gap-6 md:grid-cols-2">
           {s.whyChoose.cards.map((card, i) => (

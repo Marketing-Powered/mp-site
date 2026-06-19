@@ -53,62 +53,84 @@ export const siteContent = {
     headline: "How AI Technology Delivers Better Marketing Outcomes",
     body: "AI is not a feature we added to check a box. It is the foundation of how we operate. Our proprietary infrastructure runs on local hardware, including Mac Studio M3 Ultra clusters and dedicated NAS storage, purpose-built for HIPAA-compliant local AI inference. Your data never leaves our controlled environment.",
   },
+  // `href` targets are all entries in links.ts VALID so they resolve to real pages.
   services: [
     {
       title: "Real-Time Campaign Optimization",
       description:
         "Multi-variant optimization that routes each visitor to the landing page variant most likely to convert them. Our AI systems handle creative testing, bid management, audience refinement, and attribution modeling continuously.",
       icon: "target",
+      href: "/services/paid-media/",
     },
     {
       title: "Predictive Lead Scoring",
       description:
         "Predictive analytics that score leads before your intake team picks up the phone. Know which prospects have the highest intent so your team prioritizes the right calls and improves close rates.",
       icon: "search",
+      href: "/services/intake-optimization/",
     },
     {
       title: "Full-Funnel Attribution",
       description:
         "Track attribution through to admission, not just to form fills or phone calls. We optimize for the metrics that affect your P&L: cost per admission, admission volume, and lifetime value by acquisition channel.",
       icon: "chart",
+      href: "/services/analytics-and-attribution/",
     },
     {
       title: "Compliance-First Architecture",
       description:
         "HIPAA-conscious infrastructure with data sovereignty that matters in healthcare. We do not send your lead data through commercial API wrappers or third-party AI platforms with unclear data handling policies.",
       icon: "shield",
+      href: "/ai-edge/data-sovereignty/",
     },
     {
       title: "Behavioral Health PPC",
       description:
         "Navigate Google Ads sensitive vertical restrictions, LegitScript certification requirements, and Meta Special Ad Categories with campaigns built by a team that has managed $1.5 to $2M monthly in behavioral health Google Ads.",
       icon: "zap",
+      href: "/services/ppc/",
     },
     {
       title: "Mental Health Content Strategy",
       description:
         "Messaging that speaks to the specific emotional and informational needs of those seeking treatment. From the family member searching at 2 a.m. to the hospital referral coordinator, we build campaigns that respect these distinctions.",
       icon: "code",
+      href: "/who-we-help/mental-health/",
     },
   ],
+  // `value` is the authoritative display string (and the reduced-motion / no-JS
+  // fallback). `prefix` + `to` + `suffix` reconstruct it exactly so the count-up
+  // animates the numeric part without breaking on ranges/mixed formats.
   stats: [
     {
       value: "$50M+",
+      prefix: "$",
+      to: 50,
+      suffix: "M+",
       label:
         "Managed in behavioral health and mental health ad spend with full-funnel attribution.",
     },
     {
       value: "3 to 24",
+      prefix: "3 to ",
+      to: 24,
+      suffix: "",
       label:
         "Locations — Haven Health scaled under our marketing leadership with predictive modeling.",
     },
     {
       value: "30-45%",
+      prefix: "30-",
+      to: 45,
+      suffix: "%",
       label:
         "Reduced cost per qualified lead through AI-driven multi-variant optimization.",
     },
     {
       value: "0",
+      prefix: "",
+      to: 0,
+      suffix: "",
       label:
         "Account suspensions — maintained LegitScript compliance across all sensitive vertical campaigns.",
     },

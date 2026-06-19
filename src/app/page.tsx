@@ -326,11 +326,14 @@ export default function Design1() {
           >
             {[...Array(2)].map((_, dup) =>
               [
+                // All figures are content-backed (official homepage doc + content.ts).
+                // The prior 847% ROAS / $42 CPA / 312% Organic Growth were not in the
+                // official content and have been replaced with verified proof points.
                 "$50M+ Managed Ad Spend",
-                "847% ROAS",
-                "$42 Cost Per Admission",
+                "$1.5–2M/mo Google Ads",
+                "3 → 24 Locations",
+                "30–45% Lower Cost Per Lead",
                 "0 Account Suspensions",
-                "312% Organic Growth",
                 "HIPAA-Conscious Infrastructure",
               ].map((t, i) => (
                 <span

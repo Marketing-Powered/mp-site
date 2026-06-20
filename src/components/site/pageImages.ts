@@ -947,6 +947,16 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ],
   ),
 
+  "/resources/guides/intake-attribution-and-call-quality-framework/": std4(
+    "resources/guides/intake-attribution-and-call-quality-framework",
+    [
+      "Optimize your intake process: an intake attribution and call quality framework that connects marketing spend to admission outcomes",
+      "From inquiry source through intake attribution and the call quality framework to admissions outcomes: identify the channels that drive admissions, not just leads",
+      "Connecting intake to admissions, a proven framework: track inquiry source, score intake calls, verify clinical fit and insurance, streamline the admissions funnel, and optimize marketing spend",
+      "Intake attribution and call quality framework, data that drives admissions: intake attribution advantages plus call quality metrics and benchmarks for call answer rate, abandonment, and the call-to-admission funnel",
+    ],
+  ),
+
   /* ---- Media cluster ---- */
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.

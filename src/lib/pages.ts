@@ -265,6 +265,20 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/ai-in-marketing/", file: "resources/ai-in-marketing.md" },
     { href: "/resources/research/", file: "resources/research.md" },
   ],
+  "legal/index.md": [
+    { href: "/legal/terms/", file: "legal/terms.md" },
+    { href: "/legal/privacy-policy/", file: "legal/privacy-policy.md" },
+    { href: "/legal/cookie-policy/", file: "legal/cookie-policy.md" },
+    { href: "/legal/advertising-disclaimer/", file: "legal/advertising-disclaimer.md" },
+    { href: "/legal/hipaa-phi-disclaimer/", file: "legal/hipaa-phi-disclaimer.md" },
+  ],
+  "company/index.md": [
+    { href: "/company/about-us/", file: "company/about-us.md" },
+    { href: "/company/contact/", file: "company/contact.md" },
+    { href: "/company/ai-systems-policy/", file: "company/ai-systems-policy.md" },
+    { href: "/company/data-sovereignty/", file: "company/data-sovereignty.md" },
+    { href: "/company/security/", file: "company/security.md" },
+  ],
   "research/index.md": [
     { href: "/research/studies/", file: "research/studies/index.md" },
   ],

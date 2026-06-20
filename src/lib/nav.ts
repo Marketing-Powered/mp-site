@@ -126,11 +126,15 @@ export const NAV: {
   },
   {
     label: "Company",
-    href: "/company/about/",
+    href: "/company/",
     children: [
+      { label: "Company Overview", href: "/company/" },
       { label: "About", href: "/company/about/" },
       { label: "About Us", href: "/company/about-us/" },
       { label: "Contact", href: "/company/contact/" },
+      { label: "AI Systems Policy", href: "/company/ai-systems-policy/" },
+      { label: "Data Sovereignty", href: "/company/data-sovereignty/" },
+      { label: "Security", href: "/company/security/" },
     ],
   },
 ];

@@ -38,11 +38,14 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
   {
     title: "Legal",
     links: [
+      { label: "Legal Center", href: "/legal/" },
       { label: "Privacy Policy", href: "/legal/privacy-policy/" },
       { label: "Terms", href: "/legal/terms/" },
       { label: "Cookie Policy", href: "/legal/cookie-policy/" },
       { label: "Advertising Disclaimer", href: "/legal/advertising-disclaimer/" },
       { label: "HIPAA & PHI Disclaimer", href: "/legal/hipaa-phi-disclaimer/" },
+      { label: "Accessibility", href: "/accessibility/" },
+      { label: "Sitemap", href: "/sitemap/" },
     ],
   },
 ];

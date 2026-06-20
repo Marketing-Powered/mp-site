@@ -94,6 +94,7 @@ const VALID = new Set<string>([
   "/resources/guides/mental-health-paid-media-playbook",
   "/resources/guides/intake-attribution-and-call-quality-framework",
   "/resources/guides/meta-ads-for-treatment-centers",
+  "/legal",
   "/legal/privacy-policy",
   "/legal/terms",
   "/legal/cookie-policy",
@@ -105,10 +106,16 @@ const VALID = new Set<string>([
   "/get-started/request-an-audit",
   "/get-started/book-a-call",
   "/get-started/thanks",
+  "/company",
   "/company/about",
   "/company/contact",
+  "/company/ai-systems-policy",
+  "/company/data-sovereignty",
+  "/company/security",
+  "/accessibility",
   // migrated legacy pages (organic-traffic SEO pages preserved at original slugs)
   "/top-10-open-source-ai-models-of-2025",
+  "/sitemap",
 ]);
 
 const REMAP: Record<string, string> = {

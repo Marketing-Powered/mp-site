@@ -946,6 +946,151 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "Data-forward insights for Meta Ads at treatment centers: navigating compliance, structuring for admissions, and optimizing for cost per admission",
     ],
   ),
+
+  /* ---- Media cluster ---- */
+
+  // Hub (HubPage): only index [1] renders. Capabilities icon set.
+  "/media/": [
+    pageImg(
+      "media/hub",
+      "01-hero-banner.jpg",
+      "Marketing Powered media coverage: industry recognition, compliance leadership, and measurable results",
+    ),
+    pageImg(
+      "media/hub",
+      "05-capabilities.jpg",
+      "Media coverage themes: media coverage, behavioral health, agency credibility, documented results, compliance leadership, and measurable impact",
+    ),
+  ],
+
+  "/media/newsroom/": std4("media/newsroom", [
+    "Latest updates from Marketing Powered: agency announcements and company news for the behavioral and mental health field",
+    "Accelerating your treatment center's visibility: predictive analytics, compliance posture, AI-native operations, and founder credentials driving better budget allocation and a faster admissions pipeline",
+    "Leveraging agency updates for admissions momentum: track the newsroom, identify strategic updates, consult your partner, deploy solutions, and optimize campaign performance",
+    "Marketing Powered driving agency growth and client impact: AI-native operations, $50M+ managed media, validated strategy, scalable growth, and what company news delivers",
+  ]),
+
+  // 01 hero carried a literal "[CTA]" placeholder button token, so the clean
+  // capabilities concept (02) is promoted to hero, followed by process (03) and
+  // performance (04). Three images.
+  "/media/email-marketing/": [
+    pageImg(
+      "media/email-marketing",
+      "01-hero-banner.jpg",
+      "Expert email marketing services: boost patient engagement, drive appointments, with HIPAA-aware, healthcare-focused, AI-driven automation",
+    ),
+    pageImg(
+      "media/email-marketing",
+      "02-concept.jpg",
+      "Our healthcare email marketing process: compliance architecture, data-driven segmentation, custom campaign development, AI-enhanced automation, and measurable optimization",
+    ),
+    pageImg(
+      "media/email-marketing",
+      "03-process.jpg",
+      "Healthcare email marketing powered by data and compliant strategy: consistent high ROI, compliant engagement, patient lifecycle impact, and key performance metrics",
+    ),
+  ],
+
+  // 03 process infographic had broken step numbering and style-spec placeholder
+  // text, so the data-insights graphic (04) fills the second slot. Three images.
+  "/media/pitch-guidelines/": [
+    pageImg(
+      "media/pitch-guidelines",
+      "01-hero-banner.jpg",
+      "Refine your outreach with data-backed pitching: effective strategies for sustained coverage and press success through credible guidelines",
+    ),
+    pageImg(
+      "media/pitch-guidelines",
+      "02-concept.jpg",
+      "Effective pitch guidelines for mental health communications: research the beat, lead with the angle, keep it concise, and include data and quotes for credible outreach",
+    ),
+    pageImg(
+      "media/pitch-guidelines",
+      "03-process.jpg",
+      "Improving your media pitches, data-driven insights for PR strategy: pitch timing optimization, key success factors, effective tactics and pitfalls, and integrating AI in outreach",
+    ),
+  ],
+
+  "/media/podcast-appearances/": std4("media/podcast-appearances", [
+    "Maximize your reach with podcast appearances: strategic placements that build authority for behavioral health brands",
+    "Strategic podcast appearances that build authority and qualified conversations: building trust, demonstrating expertise, strategic placements, founder credibility, and compliance focus",
+    "The strategic podcast placements process: identify and align, craft the pitch, secure and prepare, and amplify and track",
+    "Podcast appearances data insights: the power of auditory authority, high ROI and content compounding, founder-led credibility, and strategic placement discipline",
+  ]),
+
+  "/media/press/": std4("media/press", [
+    "Media hub: press mentions and authority building for behavioral health",
+    "From press mentions and credibility to behavioral health authority and growth and revenue, with strategic media exposure",
+    "Our framework for behavioral health press coverage: research and identification, story angle development, proactive media outreach, and placement and tracking",
+    "Press mentions and media matters: amplifying behavioral health authority, our data-driven press approach, and press coverage impact scaling Haven Health from $30M to $140M",
+  ]),
+
+  "/media/media-kit/": std4("media/media-kit", [
+    "Access our comprehensive media kit: accurate, consistent coverage starts here",
+    "Your verified resource hub with the complete media kit inside: logo files, executive bios and headshots, boilerplate and press resources, brand guidelines, and a company fact sheet",
+    "Modern journalism, accelerated workflow: traditional research versus a functional media kit workflow, with editorial time savings, brand consistency, and reduced correction requests",
+    "Essential resources, the Marketing Powered media kit: verified assets, efficient resources for journalists on deadline, and brand consistency",
+  ]),
+
+  // 04 stats carried a garbled headline ("BRAND BPIND / BRAND BRAND"), so three
+  // clean images are used: hero, the brand-kit showcase, and the access process.
+  "/media/brand-assets/": [
+    pageImg(
+      "media/brand-assets",
+      "01-hero-banner.jpg",
+      "Find and download official brand assets: logos, brand kits, and usage guidelines for media and partners",
+    ),
+    pageImg(
+      "media/brand-assets",
+      "02-concept.jpg",
+      "The Marketing Powered brand kit: logo files (PNG, SVG, EPS), the color palette, typography, and usage guidelines",
+    ),
+    pageImg(
+      "media/brand-assets",
+      "03-process.jpg",
+      "How to access and use brand assets: find and download the kit, review the guidelines, and implement and represent the brand consistently",
+    ),
+  ],
+
+  // 02 concept carried garbled sub-captions, so the process (03) and impact
+  // stats (04) are used alongside the hero. Three clean images.
+  "/media/guest-contributions/": [
+    pageImg(
+      "media/guest-contributions",
+      "01-hero-banner.jpg",
+      "Guest contributions for positioning: establish authority and expand your reach through strategic bylined articles",
+    ),
+    pageImg(
+      "media/guest-contributions",
+      "02-concept.jpg",
+      "Guest contributions process: research targets, pitch a proposal, create value, maximize reach, and track results",
+    ),
+    pageImg(
+      "media/guest-contributions",
+      "03-process.jpg",
+      "The impact of strategic guest contributions: boosting domain authority, engagement and readership, building a credibility portfolio, and measuring success",
+    ),
+  ],
+
+  // 02 concept had an awkward truncated label, so the process (03) and impact
+  // stats (04) are used alongside the hero. Three clean images.
+  "/media/syndication/": [
+    pageImg(
+      "media/syndication",
+      "01-hero-banner.jpg",
+      "Content syndication to expand your reach: strategically syndicating content to boost behavioral health outreach without risking compliance or SEO authority",
+    ),
+    pageImg(
+      "media/syndication",
+      "02-concept.jpg",
+      "Five steps to strategic content syndication: define partners and audiences, tailor content, establish compliance and SEO standards, select and distribute, and track and optimize",
+    ),
+    pageImg(
+      "media/syndication",
+      "03-process.jpg",
+      "Boosting reach, the impact of content syndication in behavioral health: amplified visibility, audience composition, SEO and authority gains, and why syndication strategy matters",
+    ),
+  ],
 };
 
 /* Ordered pools keyed by the first URL segment. */

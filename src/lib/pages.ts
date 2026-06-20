@@ -251,6 +251,30 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/get-started/book-a-call/", file: "get-started/book-a-call.md" },
     { href: "/get-started/qualification/", file: "get-started/qualification.md" },
   ],
+  "resources/index.md": [
+    { href: "/resources/guides/", file: "resources/guides/index.md" },
+    { href: "/resources/meta-ads/", file: "resources/meta-ads.md" },
+    { href: "/resources/google-ads/", file: "resources/google-ads.md" },
+    { href: "/resources/compliance-ad-policy/", file: "resources/compliance-ad-policy.md" },
+    { href: "/resources/llm-advertising/", file: "resources/llm-advertising.md" },
+    { href: "/resources/attribution-measurement/", file: "resources/attribution-measurement.md" },
+    { href: "/resources/mental-health-marketing/", file: "resources/mental-health-marketing.md" },
+    { href: "/resources/behavioral-health-marketing/", file: "resources/behavioral-health-marketing.md" },
+    { href: "/resources/paid-media/", file: "resources/paid-media.md" },
+    { href: "/resources/creative-conversion/", file: "resources/creative-conversion.md" },
+    { href: "/resources/ai-in-marketing/", file: "resources/ai-in-marketing.md" },
+    { href: "/resources/research/", file: "resources/research.md" },
+  ],
+  "resources/guides/index.md": [
+    { href: "/resources/guides/creative-testing-system-for-meta-ads/", file: "resources/guides/creative-testing-system-for-meta-ads.md" },
+    { href: "/resources/guides/google-ads-compliance-for-mental-and-behavioral-health/", file: "resources/guides/google-ads-compliance-for-mental-and-behavioral-health.md" },
+    { href: "/resources/guides/meta-ads-for-mental-health-practices/", file: "resources/guides/meta-ads-for-mental-health-practices.md" },
+    { href: "/resources/guides/behavioral-health-paid-media-playbook/", file: "resources/guides/behavioral-health-paid-media-playbook.md" },
+    { href: "/resources/guides/ai-discovery-optimization-what-replaces-traditional-seo/", file: "resources/guides/ai-discovery-optimization-what-replaces-traditional-seo.md" },
+    { href: "/resources/guides/mental-health-paid-media-playbook/", file: "resources/guides/mental-health-paid-media-playbook.md" },
+    { href: "/resources/guides/intake-attribution-and-call-quality-framework/", file: "resources/guides/intake-attribution-and-call-quality-framework.md" },
+    { href: "/resources/guides/meta-ads-for-treatment-centers/", file: "resources/guides/meta-ads-for-treatment-centers.md" },
+  ],
 };
 
 /** short blurb for hub cards: first sentence of a child page's lead */

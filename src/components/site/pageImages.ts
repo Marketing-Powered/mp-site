@@ -1208,6 +1208,89 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "Increase qualified calls with behavioral health strategies: the drivers of unqualified calls, the AI-driven advantage, and qualified call generation results",
     ),
   ],
+
+  // 03 process had broken step numbering and duplicate steps, so the hero,
+  // concept, and the clean data-driven stats graphic (04) are used.
+  "/media/editorial-topics/": [
+    pageImg(
+      "media/editorial-topics",
+      "01-hero-banner.jpg",
+      "Effective editorial topics to elevate media coverage: a guide to selecting engaging topics that build authority and drive measurable engagement",
+    ),
+    pageImg(
+      "media/editorial-topics",
+      "02-concept.jpg",
+      "Effective editorial topics emerge where audience interest, organizational expertise, and current media conversations meet to earn media coverage",
+    ),
+    pageImg(
+      "media/editorial-topics",
+      "03-process.jpg",
+      "Driving media coverage with data-driven editorial strategies: strategic topic alignment, the impact of data-driven narratives, key topic areas driving traction, and expert commentary value",
+    ),
+  ],
+
+  /* ---- Company cluster ---- */
+
+  // Hub (HubPage): only index [1] renders. Capabilities icon set.
+  "/company/": [
+    pageImg(
+      "company/hub",
+      "01-hero-banner.jpg",
+      "Marketing Powered: a behavioral health marketing agency built by former treatment center operators",
+    ),
+    pageImg(
+      "company/hub",
+      "05-capabilities.jpg",
+      "What sets Marketing Powered apart: operator experience, ethical practices, transparent reporting, measurable outcomes, proprietary AI, and compliance infrastructure",
+    ),
+  ],
+
+  // 04 stats carried "Just Sans Variable" placeholder figure captions and a
+  // "RESTULATORY" typo, so the hero, concept, and process are used (3 clean).
+  "/company/ai-systems-policy/": [
+    pageImg(
+      "company/ai-systems-policy",
+      "01-hero-banner.jpg",
+      "Understanding our AI systems policy: transparent governance, accountable practices",
+    ),
+    pageImg(
+      "company/ai-systems-policy",
+      "02-concept.jpg",
+      "Responsible AI governance built on accountability, transparency, and compliance with regulatory alignment (HIPAA, FTC)",
+    ),
+    pageImg(
+      "company/ai-systems-policy",
+      "03-process.jpg",
+      "Our responsible AI governance framework, four steps to ethical AI in regulated industries: transparent governance, data privacy commitment, responsible practices, and compliance and updates",
+    ),
+  ],
+
+  "/company/data-sovereignty/": std4("company/data-sovereignty", [
+    "Data sovereignty in healthcare: essentials for innovation and compliance",
+    "Data sovereignty in healthcare: data residency, data ownership, and client data control over a secure healthcare data infrastructure that reduces risk and builds patient trust",
+    "Building a defensible healthcare data sovereignty strategy: map data flows, identify compliance gaps, implement infrastructure, establish controls, and audit and review",
+    "Healthcare data sovereignty, key statistics and risks: the cost of compliance failures, why data governance matters, and how sovereignty builds client trust",
+  ]),
+
+  // 01 hero carried a literal "[CTA]" token in its button; the clean concept
+  // image (02, which has a real headline) is promoted to hero. Three images.
+  "/company/security/": [
+    pageImg(
+      "company/security",
+      "01-hero-banner.jpg",
+      "Security overview for behavioral health data protection: encryption, role-based access, network segmentation, and proprietary local AI inference",
+    ),
+    pageImg(
+      "company/security",
+      "02-concept.jpg",
+      "Our layered security process: data architecture, access control, encryption protocols, compliance monitoring, and ongoing review",
+    ),
+    pageImg(
+      "company/security",
+      "03-process.jpg",
+      "Security infrastructure for behavioral health marketing: proprietary AI local inference, owned hardware, managed media spend since 2022, and compliance and risk mitigation",
+    ),
+  ],
 };
 
 /* Ordered pools keyed by the first URL segment. */

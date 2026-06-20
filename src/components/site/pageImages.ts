@@ -1291,6 +1291,54 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "Security infrastructure for behavioral health marketing: proprietary AI local inference, owned hardware, managed media spend since 2022, and compliance and risk mitigation",
     ),
   ],
+
+  /* ---- Utility pages ---- */
+
+  // 01 hero carried a literal "[CTA]" token in its button and 04 stats had a
+  // "Light weight black" placeholder + typos; the clean concept (02) is promoted
+  // to hero, with the compliance process, summary takeaways, and icon set.
+  "/accessibility/": [
+    pageImg(
+      "accessibility",
+      "01-hero-banner.jpg",
+      "Our accessibility commitment, building inclusive digital experiences: ADA compliance, patient access, and WCAG 2.1 AA standards",
+    ),
+    pageImg(
+      "accessibility",
+      "02-concept.jpg",
+      "Our accessibility compliance process: full website assessment, strategic compliance plan, barrier removal guidance, and sustainable accessibility against WCAG 2.1 AA standards",
+    ),
+    pageImg(
+      "accessibility",
+      "03-process.jpg",
+      "Summary takeaways on understanding your accessibility statement: what it is, achieving WCAG 2.1 AA compliance, our human-led approach, and why accessibility matters in healthcare",
+    ),
+    pageImg(
+      "accessibility",
+      "04-results.jpg",
+      "Accessibility statement essentials: understand standards, ensure ADA compliance, perform audits, boost usability, serve patients better, and build trust",
+    ),
+  ],
+
+  // 04 stats carried a "#2CACE8" hex swatch label and multiple typos, so the
+  // clean hero, sitemap concept, and navigation process are used.
+  "/sitemap/": [
+    pageImg(
+      "sitemap",
+      "01-hero-banner.jpg",
+      "Explore our comprehensive sitemap: navigate directly to specialized behavioral health and mental health marketing services, resources, and case studies",
+    ),
+    pageImg(
+      "sitemap",
+      "02-concept.jpg",
+      "The Marketing Powered sitemap: behavioral health services, mental health resources, and performance data for efficient navigation",
+    ),
+    pageImg(
+      "sitemap",
+      "03-process.jpg",
+      "Navigating your growth with our sitemap: explore our architecture, select your vertical, access deep resources, and discover momentum",
+    ),
+  ],
 };
 
 /* Ordered pools keyed by the first URL segment. */

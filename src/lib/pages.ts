@@ -265,6 +265,15 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/ai-in-marketing/", file: "resources/ai-in-marketing.md" },
     { href: "/resources/research/", file: "resources/research.md" },
   ],
+  "research/index.md": [
+    { href: "/research/studies/", file: "research/studies/index.md" },
+  ],
+  "research/studies/index.md": [
+    { href: "/research/studies/annual-paid-media-and-ai-trends/", file: "research/studies/annual-paid-media-and-ai-trends.md" },
+    { href: "/research/studies/attribution-reality-check/", file: "research/studies/attribution-reality-check.md" },
+    { href: "/research/studies/meta-ads-benchmarks/", file: "research/studies/meta-ads-benchmarks.md" },
+    { href: "/research/studies/llm-advertising-early-signals/", file: "research/studies/llm-advertising-early-signals.md" },
+  ],
   "media/index.md": [
     { href: "/media/newsroom/", file: "media/newsroom.md" },
     { href: "/media/email-marketing/", file: "media/email-marketing.md" },

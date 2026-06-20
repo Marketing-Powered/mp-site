@@ -85,6 +85,18 @@ export const NAV: {
     ],
   },
   {
+    label: "Research",
+    href: "/research/",
+    children: [
+      { label: "Research Hub", href: "/research/" },
+      { label: "Studies", href: "/research/studies/" },
+      { label: "Annual Paid Media & AI Trends", href: "/research/studies/annual-paid-media-and-ai-trends/" },
+      { label: "Attribution Reality Check", href: "/research/studies/attribution-reality-check/" },
+      { label: "Meta Ads Benchmarks", href: "/research/studies/meta-ads-benchmarks/" },
+      { label: "LLM Advertising Early Signals", href: "/research/studies/llm-advertising-early-signals/" },
+    ],
+  },
+  {
     label: "Media",
     href: "/media/",
     children: [

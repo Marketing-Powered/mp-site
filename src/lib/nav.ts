@@ -108,6 +108,19 @@ export const NAV: {
     ],
   },
   {
+    label: "Tools",
+    href: "/tools/",
+    children: [
+      { label: "All Tools", href: "/tools/" },
+      { label: "CPA Benchmark Calculator", href: "/tools/cpa-benchmark-calculator/" },
+      { label: "LLM Visibility Check", href: "/tools/llm-visibility-check/" },
+      { label: "Paid Media Readiness Assessment", href: "/tools/paid-media-readiness-assessment/" },
+      { label: "Attribution Tracking Audit", href: "/tools/attribution-tracking-audit/" },
+      { label: "Meta Ads Readiness Score", href: "/tools/meta-ads-readiness-score/" },
+      { label: "Intake Funnel Health Check", href: "/tools/intake-funnel-health-check/" },
+    ],
+  },
+  {
     label: "Media",
     href: "/media/",
     children: [

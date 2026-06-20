@@ -50,6 +50,13 @@ const VALID = new Set<string>([
   "/who-we-help/mental-health/tele-mental-health",
   "/who-we-help/mental-health/psychiatric-practices",
   "/who-we-help/mental-health/adolescent-mental-health",
+  "/tools",
+  "/tools/cpa-benchmark-calculator",
+  "/tools/llm-visibility-check",
+  "/tools/paid-media-readiness-assessment",
+  "/tools/attribution-tracking-audit",
+  "/tools/meta-ads-readiness-score",
+  "/tools/intake-funnel-health-check",
   "/problems/reduce-cpa",
   "/problems/fix-attribution",
   "/problems/scale-multi-location-campaigns",
@@ -116,6 +123,7 @@ const VALID = new Set<string>([
   // migrated legacy pages (organic-traffic SEO pages preserved at original slugs)
   "/top-10-open-source-ai-models-of-2025",
   "/sitemap",
+  "/search",
 ]);
 
 const REMAP: Record<string, string> = {
@@ -136,6 +144,7 @@ const REMAP: Record<string, string> = {
 const NOINDEX = new Set<string>([
   "/get-started/thanks",
   "/get-started/qualification",
+  "/search",
 ]);
 
 export function indexableRoutes(): string[] {

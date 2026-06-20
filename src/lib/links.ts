@@ -52,6 +52,17 @@ const VALID = new Set<string>([
   "/who-we-help/mental-health/adolescent-mental-health",
   "/problems/reduce-cpa",
   "/results/case-studies",
+  "/media",
+  "/media/newsroom",
+  "/media/email-marketing",
+  "/media/pitch-guidelines",
+  "/media/podcast-appearances",
+  "/media/press",
+  "/media/media-kit",
+  "/media/brand-assets",
+  "/media/guest-contributions",
+  "/media/syndication",
+  "/media/editorial-topics",
   "/resources",
   "/resources/meta-ads",
   "/resources/google-ads",
@@ -100,8 +111,7 @@ const REMAP: Record<string, string> = {
   "/services/paid-media/google-ads": "/services/google-ads-management/",
   // results hub → the case-studies page (the real destination)
   "/results": "/results/case-studies/",
-  // sections that don't exist yet → closest relevant page
-  "/media": "/company/about/",
+  // (placeholder remaps removed as the real /resources and /media pages now exist)
 };
 
 /* Indexable routes for the sitemap. Mirrors VALID, minus thin/utility

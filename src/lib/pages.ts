@@ -265,6 +265,18 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/ai-in-marketing/", file: "resources/ai-in-marketing.md" },
     { href: "/resources/research/", file: "resources/research.md" },
   ],
+  "media/index.md": [
+    { href: "/media/newsroom/", file: "media/newsroom.md" },
+    { href: "/media/email-marketing/", file: "media/email-marketing.md" },
+    { href: "/media/pitch-guidelines/", file: "media/pitch-guidelines.md" },
+    { href: "/media/podcast-appearances/", file: "media/podcast-appearances.md" },
+    { href: "/media/press/", file: "media/press.md" },
+    { href: "/media/media-kit/", file: "media/media-kit.md" },
+    { href: "/media/brand-assets/", file: "media/brand-assets.md" },
+    { href: "/media/guest-contributions/", file: "media/guest-contributions.md" },
+    { href: "/media/syndication/", file: "media/syndication.md" },
+    { href: "/media/editorial-topics/", file: "media/editorial-topics.md" },
+  ],
   "resources/guides/index.md": [
     { href: "/resources/guides/creative-testing-system-for-meta-ads/", file: "resources/guides/creative-testing-system-for-meta-ads.md" },
     { href: "/resources/guides/google-ads-compliance-for-mental-and-behavioral-health/", file: "resources/guides/google-ads-compliance-for-mental-and-behavioral-health.md" },

@@ -85,6 +85,23 @@ export const NAV: {
     ],
   },
   {
+    label: "Media",
+    href: "/media/",
+    children: [
+      { label: "Media Coverage", href: "/media/" },
+      { label: "Newsroom", href: "/media/newsroom/" },
+      { label: "Press Mentions", href: "/media/press/" },
+      { label: "Media Kit", href: "/media/media-kit/" },
+      { label: "Brand Assets", href: "/media/brand-assets/" },
+      { label: "Guest Contributions", href: "/media/guest-contributions/" },
+      { label: "Podcast Appearances", href: "/media/podcast-appearances/" },
+      { label: "Content Syndication", href: "/media/syndication/" },
+      { label: "Editorial Topics", href: "/media/editorial-topics/" },
+      { label: "Email Marketing", href: "/media/email-marketing/" },
+      { label: "Pitch Guidelines", href: "/media/pitch-guidelines/" },
+    ],
+  },
+  {
     label: "Company",
     href: "/company/about/",
     children: [

@@ -1152,6 +1152,62 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "2026 Meta Ads benchmarks for behavioral health: average CPM, CTR and creative diagnostics, CPC analysis, and the CPL-to-admission economics",
     ],
   ),
+
+  "/research/studies/llm-advertising-early-signals/": std4(
+    "research/studies/llm-advertising-early-signals",
+    [
+      "Decoding early signals in LLM advertising: trends, adoption indicators, and strategic planning for leaders",
+      "LLM advertising early signals: infrastructure signals, behavioral signals, and economic signals to watch",
+      "A framework for analyzing LLM advertising early signals: infrastructure, behavioral engagement, economic flows, pattern synthesis, and developing strategic optionality",
+      "LLM advertising early signals research findings: accelerating user adoption, conversational query patterns, platform experimentation trends, and early performance insights",
+    ],
+  ),
+
+  /* ---- Problems cluster ---- */
+
+  "/problems/fix-attribution/": std4("problems/fix-attribution", [
+    "Fix GA4 attribution: stop misallocating ad spend",
+    "Resolve your marketing attribution challenges in GA4: from a broken attribution data flow to a corrected flow with efficient budget allocation",
+    "Steps to fix broken attribution in GA4: audit conversion configuration, verify cross-domain measurement, check attribution model settings, validate Google Ads linking, and test consent mode integration",
+    "Resolve your GA4 attribution challenges: common issues with attribution, the steps to fix them, and the benefits of accurate attribution",
+  ]),
+
+  "/problems/scale-multi-location-campaigns/": std4(
+    "problems/scale-multi-location-campaigns",
+    [
+      "Overcoming multi-location marketing challenges: proven frameworks for scaling campaigns across multiple treatment center locations without sacrificing lead quality or compliance",
+      "Scaling multi-location marketing: centralised control, localised execution, and data-forward visibility",
+      "The multi-location marketing scaling framework: strategy and goals, centralize infrastructure, build operational workflows, implement scalable advertising, and optimize and report",
+      "Optimizing multi-location marketing performance: key challenges at scale, strategic frameworks and data insights, and the expected outcomes",
+    ],
+  ),
+
+  "/problems/fix-lead-quality/": std4("problems/fix-lead-quality", [
+    "Resolve your lead quality challenges now: stop wasting budget on leads that never convert with targeted strategies built for behavioral health operators",
+    "From unqualified leads through lead-quality scoring to high-quality admissions",
+    "Fix lead quality, a five-step strategic process: define qualified leads, segment campaigns and content, implement lead scoring, train intake teams, and optimize and attribute admissions",
+    "Fix lead quality issues: recognize poor lead quality, improve-lead-quality strategies, and the technology enablers behind them",
+  ]),
+
+  // 01 hero carried a literal "[CTA]" token in its button; the clean concept
+  // image (02, which has a real headline) is promoted to hero. Three images.
+  "/problems/increase-qualified-calls/": [
+    pageImg(
+      "problems/increase-qualified-calls",
+      "01-hero-banner.jpg",
+      "Increase qualified calls by streamlining the path to admission: optimize every stage, from click to census",
+    ),
+    pageImg(
+      "problems/increase-qualified-calls",
+      "02-concept.jpg",
+      "The process to increase qualified calls: data-driven precision targeting, smarter pre-qualification, multi-variant AI optimization, and tracked attribution to admission",
+    ),
+    pageImg(
+      "problems/increase-qualified-calls",
+      "03-process.jpg",
+      "Increase qualified calls with behavioral health strategies: the drivers of unqualified calls, the AI-driven advantage, and qualified call generation results",
+    ),
+  ],
 };
 
 /* Ordered pools keyed by the first URL segment. */

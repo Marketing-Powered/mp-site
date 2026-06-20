@@ -58,6 +58,17 @@ export const NAV: {
     ],
   },
   {
+    label: "Problems",
+    href: "/problems/reduce-cpa/",
+    children: [
+      { label: "Reduce CPA", href: "/problems/reduce-cpa/" },
+      { label: "Fix Attribution", href: "/problems/fix-attribution/" },
+      { label: "Scale Multi-Location Campaigns", href: "/problems/scale-multi-location-campaigns/" },
+      { label: "Fix Lead Quality", href: "/problems/fix-lead-quality/" },
+      { label: "Increase Qualified Calls", href: "/problems/increase-qualified-calls/" },
+    ],
+  },
+  {
     label: "Resources",
     href: "/resources/",
     children: [

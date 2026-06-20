@@ -1091,6 +1091,67 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "Boosting reach, the impact of content syndication in behavioral health: amplified visibility, audience composition, SEO and authority gains, and why syndication strategy matters",
     ),
   ],
+
+  /* ---- Research cluster ---- */
+
+  // Hub (HubPage): only index [1] renders. Capabilities icon set.
+  "/research/": [
+    pageImg(
+      "research/hub",
+      "01-hero-banner.jpg",
+      "Marketing Powered research: behavioral health paid media performance and data insights",
+    ),
+    pageImg(
+      "research/hub",
+      "05-capabilities.jpg",
+      "Research areas: paid media data, compliance insights, performance metrics, optimization research, attribution models, and strategy implementation",
+    ),
+  ],
+
+  // Hub (HubPage): only index [1] renders. Asana's 05 icon set carried "(Black
+  // Semi Bold)" placeholder labels, so the clean takeaways graphic (08) is used.
+  "/research/studies/": [
+    pageImg(
+      "research/studies/hub",
+      "01-hero-banner.jpg",
+      "Discover our marketing studies and insights: evidence-based research for behavioral health decisions",
+    ),
+    pageImg(
+      "research/studies/hub",
+      "05-capabilities.jpg",
+      "Key takeaways from our behavioral health marketing studies: evidence over opinion, vertical-specific insights, performance under constraints, and iterative growth and ROI",
+    ),
+  ],
+
+  "/research/studies/annual-paid-media-and-ai-trends/": std4(
+    "research/studies/annual-paid-media-and-ai-trends",
+    [
+      "2026: the AI revolution in paid media — annual trends and data report",
+      "Annual paid media and AI trends for 2026: predictive modeling, cross-channel optimization, generative creative scale, and first-party data fueling growth",
+      "The AI-powered paid media optimization framework: first-party data ingestion, AI-driven audience modeling, generative variation, cross-channel automation, and continuous performance feedback",
+      "Annual paid media and AI trends, 2026 data insights: AI integration growth, performance uplift, creative automation adoption, the first-party data advantage, and generative AI risks",
+    ],
+  ),
+
+  "/research/studies/attribution-reality-check/": std4(
+    "research/studies/attribution-reality-check",
+    [
+      "Unveiling the reality in marketing attribution: how $50M+ in media spend reveals what models actually deliver",
+      "The attribution gap: marketing channels and attributed performance versus actual business outcomes and real value",
+      "Methodology, the Greenfield attribution study: gather multi-platform data, evaluate seven models, calculate accuracy ratios, identify over/under-credit, and publish robust findings",
+      "Reality check, marketing attribution study findings: the attribution gap of expectation versus reality, systematic bias by channel, and accuracy impact on media spend",
+    ],
+  ),
+
+  "/research/studies/meta-ads-benchmarks/": std4(
+    "research/studies/meta-ads-benchmarks",
+    [
+      "Meta Ads benchmarks 2026: a research study for behavioral health organizations, from CPM and CTR to cost per admission",
+      "From benchmark data through informed strategy and performance momentum to a $1,840 average admission cost and boosted census",
+      "Optimizing behavioral health Meta Ads for admissions: benchmark historical performance, diagnose creative and audience gaps, implement optimizations, refine conversion funnels, and measure admission impact",
+      "2026 Meta Ads benchmarks for behavioral health: average CPM, CTR and creative diagnostics, CPC analysis, and the CPL-to-admission economics",
+    ],
+  ),
 };
 
 /* Ordered pools keyed by the first URL segment. */

@@ -143,7 +143,6 @@ export const NAV: {
     children: [
       { label: "Company Overview", href: "/company/" },
       { label: "About", href: "/company/about/" },
-      { label: "About Us", href: "/company/about-us/" },
       { label: "Contact", href: "/company/contact/" },
       { label: "AI Systems Policy", href: "/company/ai-systems-policy/" },
       { label: "Data Sovereignty", href: "/company/data-sovereignty/" },

@@ -107,7 +107,6 @@ const VALID = new Set<string>([
   "/legal/cookie-policy",
   "/legal/advertising-disclaimer",
   "/legal/hipaa-phi-disclaimer",
-  "/company/about-us",
   "/get-started",
   "/get-started/qualification",
   "/get-started/request-an-audit",

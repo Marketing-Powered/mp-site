@@ -273,7 +273,6 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/legal/hipaa-phi-disclaimer/", file: "legal/hipaa-phi-disclaimer.md" },
   ],
   "company/index.md": [
-    { href: "/company/about-us/", file: "company/about-us.md" },
     { href: "/company/contact/", file: "company/contact.md" },
     { href: "/company/ai-systems-policy/", file: "company/ai-systems-policy.md" },
     { href: "/company/data-sovereignty/", file: "company/data-sovereignty.md" },

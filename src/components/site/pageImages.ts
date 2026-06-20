@@ -667,6 +667,285 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ICONS,
     TAKEAWAYS,
   ],
+
+  /* ---- Resources cluster ---- */
+
+  // Hub (HubPage): only index [1] renders as the "Capabilities Overview".
+  "/resources/": [
+    pageImg(
+      "resources/hub",
+      "01-hero-banner.jpg",
+      "Explore Marketing Powered's behavioral health marketing resources, guides, and playbooks",
+    ),
+    pageImg(
+      "resources/hub",
+      "05-capabilities.jpg",
+      "Resource categories: behavioral health marketing resources, paid media strategies, healthcare marketing trends, and marketing guides and playbooks",
+    ),
+  ],
+
+  // Hub (HubPage): only index [1] renders. Capabilities icon set.
+  "/resources/guides/": [
+    pageImg(
+      "resources/guides/hub",
+      "01-hero-banner.jpg",
+      "Marketing guides for enhanced strategies: actionable playbooks built from $50M+ in managed behavioral health media spend",
+    ),
+    pageImg(
+      "resources/guides/hub",
+      "05-capabilities.jpg",
+      "Guide categories: comprehensive playbooks, paid media guides, compliance frameworks, patient funnel optimization, attribution and measurement, and AI edge approach",
+    ),
+  ],
+
+  "/resources/meta-ads/": std4("resources/meta-ads", [
+    "Meta Ads guide for healthcare marketing: strategies for Special Ad Categories in 2026",
+    "The compliant healthcare marketing funnel: navigating Special Ad Category restrictions from awareness to leads and conversions",
+    "Healthcare Meta Ads campaign setup process: declare Special Ad Category, define objective, set up the ad set, and create compliant creative",
+    "2026 Meta Ads guide for healthcare: compliance, strategy, and performance data with industry CPC and CPM benchmarks",
+  ]),
+
+  // 04 stats carried a "Just Sans Variable" placeholder subtitle, so the clean
+  // key-takeaways graphic (08) fills the results slot.
+  "/resources/google-ads/": std4("resources/google-ads", [
+    "Mastering Google Ads for behavioral health and mental health treatment providers",
+    "The Google Ads resource path: keyword architecture, bid management, compliance checks, and ad structure driving qualified leads",
+    "Building your healthcare Google Ads playbook: define conventions, document workflows, set testing rules, embed compliance, and optimize repeatedly",
+    "Mastering Google Ads key takeaways: strategic keywords, thematic ad structure, data-driven bidding, relevant landing pages, and essential compliance",
+  ]),
+
+  // 01 hero and 05 icons carried garbled/typo labels; the clean concept flow (02)
+  // is promoted to hero, followed by the process (03) and stats (04). Three images.
+  "/resources/llm-advertising/": [
+    pageImg(
+      "resources/llm-advertising",
+      "01-hero-banner.jpg",
+      "LLM advertising in practice: from content briefs and data through LLM processing to measured momentum",
+    ),
+    pageImg(
+      "resources/llm-advertising",
+      "02-concept.jpg",
+      "Implementing LLM advertising, a strategic workflow: choose your tooling, integrate workflows, establish governance, and pilot and measure",
+    ),
+    pageImg(
+      "resources/llm-advertising",
+      "03-process.jpg",
+      "Unlocking LLM advertising potential: efficiency gains, personalization at scale, and testing velocity",
+    ),
+  ],
+
+  // Concept slot uses the clean compliance icon set (05) — Asana's 02 carried
+  // hex-swatch placeholders and a garbled "COMPLILADICS" label.
+  "/resources/compliance-ad-policy/": std4("resources/compliance-ad-policy", [
+    "Guide to healthcare advertising compliance: protect your campaigns, budget, and organization from preventable compliance failures",
+    "Healthcare advertising compliance areas: HIPAA regulations, LegitScript certification, FTC standards, platform policies, and compliance strategies",
+    "The healthcare advertising compliance framework: define requirements, conduct audits, build a review process, and monitor policies",
+    "Healthcare advertising compliance data: major risk layers, HIPAA checkpoints in ads, the LegitScript certification mandate, and quarterly audit benefits",
+  ]),
+
+  // Hero swapped to the clean multi-touch funnel (02) — Asana's 01 hero had a
+  // duplicated, partly garbled headline. Results slot uses the takeaways (08).
+  "/resources/attribution-measurement/": std4("resources/attribution-measurement", [
+    "Multi-touch attribution measurement: tracking the patient journey from awareness and consideration through to admission",
+    "Building a reliable attribution framework: define business outcomes, deploy robust tracking, map patient journeys, select models, and optimize budget",
+    "Measuring marketing effectiveness with attribution: the conversion path, attribution model comparison, channel contribution, and multi-touch gains",
+    "Effective marketing attribution summary: understand your attribution, choose the right models, and partner with behavioral health media expertise",
+  ]),
+
+  "/resources/mental-health-marketing/": std4("resources/mental-health-marketing", [
+    "Effective strategies for mental health marketing: data-forward insights for your practice",
+    "Mental health marketing pillars: brand positioning, audience targeting, and compliance infrastructure boosting practice reach and growth",
+    "The mental health marketing framework built for momentum: strategic foundation, compliance-first setup, search visibility, paid media, measurement, and practice momentum",
+    "Effective mental health marketing key data insights: patient journey begins with search, local SEO foundation, paid search best practices, and measuring success",
+  ]),
+
+  // 03 process infographic was a placeholder draft ("Rehulini tive Variable",
+  // broken step numbering), so the stats graphic (04) fills the second slot.
+  // Three clean images.
+  "/resources/creative-conversion/": [
+    pageImg(
+      "resources/creative-conversion",
+      "01-hero-banner.jpg",
+      "Creative testing beyond the clicks to qualified admissions: systematic iteration that optimizes ad spend for behavioral health providers",
+    ),
+    pageImg(
+      "resources/creative-conversion",
+      "02-concept.jpg",
+      "Creative testing for conversion optimization: data-driven A/B decisions that produce more qualified admissions",
+    ),
+    pageImg(
+      "resources/creative-conversion",
+      "03-process.jpg",
+      "Mastering creative testing for conversion optimization: key conversion metrics, testable creative elements, and the test-and-iterate process",
+    ),
+  ],
+
+  // 03 process infographic carried style-spec placeholder text (hex codes,
+  // "Just Sans Variable"), so the stats graphic (04) fills the second slot.
+  // Three clean images.
+  "/resources/research/": [
+    pageImg(
+      "resources/research",
+      "01-hero-banner.jpg",
+      "In-depth paid media research: behavioral health benchmarks and ROI data",
+    ),
+    pageImg(
+      "resources/research",
+      "02-concept.jpg",
+      "Data-driven research powering behavioral health paid media success: from CPC, intake, and benchmark inputs to ROI and admissions outputs",
+    ),
+    pageImg(
+      "resources/research",
+      "03-process.jpg",
+      "Behavioral health paid media benchmarks: relative keyword CPCs, click-through rate ranges, the metric that matters, and multi-variant landing page optimization",
+    ),
+  ],
+
+  /* ---- Resources guides ---- */
+
+  // 03 process infographic had a duplicated step number, so the performance
+  // stats graphic (04) fills the second slot. Three clean images.
+  "/resources/guides/creative-testing-system-for-meta-ads/": [
+    pageImg(
+      "resources/guides/creative-testing-system-for-meta-ads",
+      "01-hero-banner.jpg",
+      "Optimizing creative testing for Meta Ads: systematic iteration, data-driven results, and continuous improvement",
+    ),
+    pageImg(
+      "resources/guides/creative-testing-system-for-meta-ads",
+      "02-concept.jpg",
+      "The systematic creative testing loop for Meta Ads: hypothesize and build, structure tests, measure results, and iterate and scale",
+    ),
+    pageImg(
+      "resources/guides/creative-testing-system-for-meta-ads",
+      "03-process.jpg",
+      "Boosting Meta Ads performance through creative testing: up to 40% lower cost per acquisition, the iteration framework, and creative best practices",
+    ),
+  ],
+
+  "/resources/guides/google-ads-compliance-for-mental-and-behavioral-health/": std4(
+    "resources/guides/google-ads-compliance-for-mental-and-behavioral-health",
+    [
+      "Master Google Ads compliance for mental health: LegitScript certified, sensitive-vertical adherent, and HIPAA-compliant data",
+      "Google Ads compliance for mental and behavioral health advertising: LegitScript, HIPAA, and sensitive-vertical guardrails",
+      "Navigating Google Ads compliance for healthcare: obtain certification, implement sensitive-vertical restrictions, optimize compliant pages, and ensure regulatory alignment",
+      "Google Ads compliance data: the LegitScript certification gateway, key compliance pillars, ad-disapproval triggers, and the impact of a compliance-first posture",
+    ],
+  ),
+
+  // 01 hero had a placeholder headline and 02 was a "Just Sans Variable" draft,
+  // so the clean overview (08) is promoted to hero, followed by process (03),
+  // performance (04), and capability icons (05).
+  "/resources/guides/meta-ads-for-mental-health-practices/": std4(
+    "resources/guides/meta-ads-for-mental-health-practices",
+    [
+      "Master Meta Ads for mental health practices: compliance as a strategic advantage, an integrated Facebook framework, and authentic Instagram storytelling",
+      "Mastering Meta Ads for mental health practices: define goals and compliance, research audiences, structure campaigns, craft empathetic creative, optimize, and track conversions",
+      "Meta Ads performance and efficiency for a mental health practice: campaign efficiency trends, audience source conversion, and engagement by content type",
+      "Meta Ads for mental health capabilities: account setup, compliant campaigns, targeted reach, Instagram growth, lookalike audiences, and high-converting funnels",
+    ],
+  ),
+
+  // 04 stats graphic carried a "JUST SARGITS" placeholder block, so three clean
+  // images are used: hero, audience concept, and the 7-step strategy.
+  "/resources/guides/behavioral-health-paid-media-playbook/": [
+    pageImg(
+      "resources/guides/behavioral-health-paid-media-playbook",
+      "01-hero-banner.jpg",
+      "The ultimate guide to behavioral health paid media: the operator-level playbook for treatment centers",
+    ),
+    pageImg(
+      "resources/guides/behavioral-health-paid-media-playbook",
+      "02-concept.jpg",
+      "From intent-based search, geographic targets, and family-member reach through platform compliance to qualified admission calls",
+    ),
+    pageImg(
+      "resources/guides/behavioral-health-paid-media-playbook",
+      "03-process.jpg",
+      "Building a successful paid media strategy in seven steps: define the admission profile, select channels, allocate budget, structure campaigns, optimize landing pages, reach patients and families, and implement attribution",
+    ),
+  ],
+
+  "/resources/guides/ai-discovery-optimization-what-replaces-traditional-seo/": std4(
+    "resources/guides/ai-discovery-optimization-what-replaces-traditional-seo",
+    [
+      "The age of AI discovery is here: move beyond rankings to being cited and recommended",
+      "Moving beyond traditional SEO: from ranking on page one to being cited, referenced, and recommended through AI discovery optimization",
+      "Implementing your AI discovery optimization strategy: visibility audit, entity strategy, brand entities, AI-readable content, original research, topical authority, and monitoring",
+      "AI discovery optimization data and insights: the shift from rankings to citations, content composition for citation, and measured brand-entity impact",
+    ],
+  ),
+
+  /* ---- Resources cluster (final wave) ---- */
+
+  // 04 stats graphic carried duplicated/placeholder labels, so three clean
+  // images are used: hero, the SEO concept flow, and the success framework.
+  "/resources/behavioral-health-marketing/": [
+    pageImg(
+      "resources/behavioral-health-marketing",
+      "01-hero-banner.jpg",
+      "Master behavioral health SEO strategies: specialized strategies to boost online visibility and patient admissions for treatment centers",
+    ),
+    pageImg(
+      "resources/behavioral-health-marketing",
+      "02-concept.jpg",
+      "From behavioral health provider to qualified admissions and targeted organic visibility, via NIDA terminology, LegitScript compliance, patient journey, and local SEO",
+    ),
+    pageImg(
+      "resources/behavioral-health-marketing",
+      "03-process.jpg",
+      "The behavioral health SEO success framework: foundation and compliance, targeted content structure, authoritative reach, and measurable admissions",
+    ),
+  ],
+
+  // 02 concept illustration had headline/label typos ("Cointinuous", "Mowered"),
+  // so the management framework (03) and trackable-results graphic (04) are used.
+  "/resources/paid-media/": [
+    pageImg(
+      "resources/paid-media",
+      "01-hero-banner.jpg",
+      "Paid media resources: guides, tools, and best practices that turn channel spend into ROI and lead volume",
+    ),
+    pageImg(
+      "resources/paid-media",
+      "02-concept.jpg",
+      "The strategic paid media management framework: audience segmentation, budget and pacing, creative testing, cross-channel attribution, and compliance and optimization",
+    ),
+    pageImg(
+      "resources/paid-media",
+      "03-process.jpg",
+      "Paid media resources for trackable results and growth: channels, audience segmentation, core best practices, attribution and measurement, and performance marketing",
+    ),
+  ],
+
+  "/resources/ai-in-marketing/": std4("resources/ai-in-marketing", [
+    "AI in marketing: an AI-driven platform turning lead signals, behavioral data, and ad clicks into predictive scoring and admissions",
+    "Your comprehensive guide to AI in marketing: practical applications and automation across lead scoring, content optimization, personalized journeys, and attribution",
+    "Implementing AI in healthcare marketing, a compliance-first framework: define goals, ensure data sovereignty and HIPAA, integrate systems, optimize, and scale",
+    "Comprehensive guide to AI in marketing: adoption trends, behavioral health opportunities, automation benefits, and compliance considerations",
+  ]),
+
+  /* ---- Resources guides (final wave) ---- */
+
+  "/resources/guides/mental-health-paid-media-playbook/": std4(
+    "resources/guides/mental-health-paid-media-playbook",
+    [
+      "Mental health paid media, the complete guide for marketing leaders: a field-tested playbook built on $50M+ in managed spend",
+      "The mental health paid media playbook: navigating regulatory constraints with compliant keyword strategy to drive effective patient acquisition",
+      "The mental health paid media framework, the profitable path to patient acquisition: build the compliance foundation, uncover intent, craft risk-free ad copy, match searchers, launch, and scale",
+      "Mental health paid media performance data: ad approvals by vertical, cost per conversion by channel, search traffic breakdown, and PPC optimization results",
+    ],
+  ),
+
+  "/resources/guides/meta-ads-for-treatment-centers/": std4(
+    "resources/guides/meta-ads-for-treatment-centers",
+    [
+      "Meta Ads for treatment centers guide: compliant Facebook and Instagram advertising that drives qualified admission inquiries",
+      "Strategic Meta advertising for treatment centers: compliant targeting and education-first creative from platforms through to increased leads and revenue",
+      "Optimizing Meta Ads for treatment centers, a strategic framework: compliance and setup, audience and targeting, creative development, campaign execution, and measurement",
+      "Data-forward insights for Meta Ads at treatment centers: navigating compliance, structuring for admissions, and optimizing for cost per admission",
+    ],
+  ),
 };
 
 /* Ordered pools keyed by the first URL segment. */

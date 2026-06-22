@@ -129,7 +129,7 @@ function HomeJsonLd() {
       "@id": `${SITE_URL}/#localbusiness`,
       name: s.brand.name,
       url: SITE_URL,
-      image: `${SITE_URL}/images/01-hero-banner.jpg`,
+      image: `${SITE_URL}/images/pages/home/01-hero-banner.jpg`,
       telephone: phoneE164,
       email: s.brand.email,
       address,

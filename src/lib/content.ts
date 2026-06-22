@@ -19,7 +19,7 @@ export const siteContent = {
       "AI-native strategies built on $50M+ in managed behavioral health and mental health ad spend. No guesswork. No compliance surprises.",
     cta: "BOOK A DISCOVERY CALL",
     ctaLink: "/get-started/",
-    image: "/images/01-hero-banner.jpg",
+    image: "/images/pages/home/01-hero-banner.jpg",
     imageAlt:
       "Marketing Powered AI marketing agency team collaborating on behavioral health campaign strategy with data dashboards visible",
   },
@@ -30,7 +30,7 @@ export const siteContent = {
       "Marketing Powered is an AI marketing agency built specifically for the behavioral health and mental health verticals. We have managed over $50M in ad spend across these sectors, including $1.5 to $2M monthly in Google Ads alone. Our AI-native approach dates back to 2022, when we began building proprietary systems for predictive analytics, multi-variant optimization, and attribution modeling.",
     body3:
       "What does AI-native mean in practice? It means we do not bolt AI onto legacy processes. Our infrastructure runs on owned hardware with HIPAA-conscious protocols. Your data stays within our controlled environment. We use machine learning to optimize landing page routing per visitor, predict lead quality before intake touches a phone, and attribute conversions through to admission.",
-    image: "/images/02-key-concept-illustration.jpg",
+    image: "/images/pages/home/02-key-concept-illustration.jpg",
     imageAlt:
       "Key concepts of Marketing Powered AI marketing agency including behavioral health expertise, compliance-first architecture, and accelerated growth",
   },
@@ -45,7 +45,7 @@ export const siteContent = {
       "We build campaigns that respect these distinctions. Our targeting strategies account for the fact that you cannot retarget in this vertical. Our creative testing protocols avoid the compliance landmines that get accounts suspended. Our attribution models track from first click through admission, so you know exactly which channels are filling beds.",
     body4:
       "Mental health marketing shares some of these constraints but has its own nuances. Outpatient therapy practices, psychiatric groups, and telehealth platforms face different economics than residential treatment centers. We understand the difference between a $200 therapy intake and a $30,000 residential admission, and we build campaigns accordingly.",
-    image: "/images/05-supporting-icon-set.jpg",
+    image: "/images/pages/home/05-supporting-icon-set.jpg",
     imageAlt:
       "Supporting icons illustrating specialized behavioral health marketing compliance and strategy",
   },

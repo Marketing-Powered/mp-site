@@ -8,7 +8,9 @@ import Script from "next/script";
    via NEXT_PUBLIC_GA4_ID, but defaults to the live property — and is configured
    inside this one gtag init so GA4 is never loaded twice.
 
-   Meta Pixel stays env-gated and no-ops until configured:
+   Meta Pixel loads site-wide too — hardcoded to the live pixel so it fires in
+   production without env setup, with NEXT_PUBLIC_META_PIXEL_ID as an optional
+   override:
      - NEXT_PUBLIC_META_PIXEL_ID  e.g. 123456789012345 (Meta / Facebook Pixel)
    NEXT_PUBLIC_* values are inlined at build time. */
 
@@ -19,10 +21,10 @@ const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || "G-ECRV2LCTGQ";
 const GOOGLE_ADS_ID = "AW-17466787352";
 // LinkedIn Insight Tag partner id.
 const LINKEDIN_PARTNER_ID = "7399266";
+// Meta / Facebook Pixel — defaults to the live pixel; env can override.
+const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID || "1517109923157500";
 
 export default function Analytics() {
-  const metaPixel = process.env.NEXT_PUBLIC_META_PIXEL_ID;
-
   return (
     <>
       {/* Google Tag — one gtag.js load, then config for the GT container, GA4,
@@ -63,10 +65,9 @@ window.lintrk = window.lintrk || function(a,b){(window.lintrk.q=window.lintrk.q|
         />
       </noscript>
 
-      {metaPixel && (
-        <>
-          <Script id="meta-pixel" strategy="afterInteractive">
-            {`!function(f,b,e,v,n,t,s)
+      {/* Meta Pixel — standard fbq init + PageView, loaded once. */}
+      <Script id="meta-pixel" strategy="afterInteractive">
+        {`!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
@@ -74,20 +75,18 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '${metaPixel}');
+fbq('init', '${META_PIXEL_ID}');
 fbq('track', 'PageView');`}
-          </Script>
-          <noscript>
-            <img
-              height="1"
-              width="1"
-              style={{ display: "none" }}
-              alt=""
-              src={`https://www.facebook.com/tr?id=${metaPixel}&ev=PageView&noscript=1`}
-            />
-          </noscript>
-        </>
-      )}
+      </Script>
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style={{ display: "none" }}
+          alt=""
+          src={`https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`}
+        />
+      </noscript>
 
       {/* "Mia" — GoHighLevel (LeadConnector) web chat widget. Loads site-wide. */}
       <Script

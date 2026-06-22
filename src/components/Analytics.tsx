@@ -1,31 +1,67 @@
 import Script from "next/script";
 
 /* Analytics / tracking pixels.
-   Each loads only when its ID is configured, so the site no-ops cleanly
-   until Jason supplies the values:
-     - NEXT_PUBLIC_GA4_ID         e.g. G-XXXXXXXXXX  (Google Analytics 4)
+
+   Google Tag stack (GT container + GA4 + Google Ads) loads site-wide via a
+   single gtag.js. These are public measurement IDs (not secrets), so they're
+   hardcoded to work in production without env setup. GA4 can still be overridden
+   via NEXT_PUBLIC_GA4_ID, but defaults to the live property — and is configured
+   inside this one gtag init so GA4 is never loaded twice.
+
+   Meta Pixel stays env-gated and no-ops until configured:
      - NEXT_PUBLIC_META_PIXEL_ID  e.g. 123456789012345 (Meta / Facebook Pixel)
-   These are NEXT_PUBLIC_* so they're inlined at build time. */
+   NEXT_PUBLIC_* values are inlined at build time. */
+
+// Bootstrap id for the single gtag.js load (the Google Tag / GT container).
+const GOOGLE_TAG_ID = "GT-NCLQZNDM";
+// Configured through the same gtag init (no second loader).
+const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID || "G-ECRV2LCTGQ";
+const GOOGLE_ADS_ID = "AW-17466787352";
+// LinkedIn Insight Tag partner id.
+const LINKEDIN_PARTNER_ID = "7399266";
+
 export default function Analytics() {
-  const ga4 = process.env.NEXT_PUBLIC_GA4_ID;
   const metaPixel = process.env.NEXT_PUBLIC_META_PIXEL_ID;
 
   return (
     <>
-      {ga4 && (
-        <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${ga4}`}
-            strategy="afterInteractive"
-          />
-          <Script id="ga4-init" strategy="afterInteractive">
-            {`window.dataLayer = window.dataLayer || [];
+      {/* Google Tag — one gtag.js load, then config for the GT container, GA4,
+          and Google Ads. Loading the GT id bootstraps the stack; GA4 is folded
+          into this init rather than a second loader. */}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TAG_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', '${ga4}');`}
-          </Script>
-        </>
-      )}
+gtag('config', '${GOOGLE_TAG_ID}');
+gtag('config', '${GA4_ID}');
+gtag('config', '${GOOGLE_ADS_ID}');`}
+      </Script>
+
+      {/* LinkedIn Insight Tag (partner id 7399266). */}
+      <Script id="linkedin-insight-init" strategy="afterInteractive">
+        {`_linkedin_partner_id = "${LINKEDIN_PARTNER_ID}";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+window.lintrk = window.lintrk || function(a,b){(window.lintrk.q=window.lintrk.q||[]).push([a,b])};`}
+      </Script>
+      <Script
+        id="linkedin-insight-loader"
+        src="https://snap.licdn.com/li.lms-analytics/insight.min.js"
+        strategy="afterInteractive"
+      />
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style={{ display: "none" }}
+          alt=""
+          src={`https://px.ads.linkedin.com/collect/?pid=${LINKEDIN_PARTNER_ID}&fmt=gif`}
+        />
+      </noscript>
 
       {metaPixel && (
         <>

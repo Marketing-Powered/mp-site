@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { siteContent as s } from "@/lib/content";
 
 /* Fixed bottom bar shown only on mobile (hidden on md+). Appears once
    the visitor scrolls past the hero, hides while scrolling down, and
@@ -55,7 +56,7 @@ export default function StickyMobileCta() {
       <p className="mt-2 text-center text-[12px] text-white/45">
         or{" "}
         <a
-          href="mailto:hello@marketingpowered.ai"
+          href={`mailto:${s.brand.email}`}
           className="text-[#7FCBFF] underline underline-offset-2"
         >
           email us

@@ -28,6 +28,23 @@ export type ParsedPage = {
 
 const CONTENT_ROOT = path.join(process.cwd(), "content", "pages");
 
+function defaultCtaLink(text: string): string {
+  if (/audit/i.test(text)) return "/get-started/request-an-audit/";
+  if (/contact|question/i.test(text)) return "/company/contact/";
+  if (/book|call|consult|strategy|schedule/i.test(text)) return "/get-started/book-a-call/";
+  return "/get-started/request-an-audit/";
+}
+
+function cleanCtaLink(link: string, text: string): string {
+  const cleaned = link
+    .trim()
+    .replace(/^\[|\]$/g, "")
+    .replace(/^\((.*)\)$/g, "$1")
+    .trim();
+
+  return cleaned || defaultCtaLink(text);
+}
+
 function parse(raw: string, file: string): ParsedPage {
   // ---- frontmatter ----
   const frontmatter: Record<string, string> = {};
@@ -97,10 +114,11 @@ function parse(raw: string, file: string): ParsedPage {
       flushList();
       const rest = line.replace(/^\[CTA\]\s*/, "");
       const parts = rest.split(/→|->/).map((s) => s.trim());
+      const text = parts[0] || "Book a Discovery Call";
       nodes.push({
         type: "cta",
-        text: parts[0] || "Book a Discovery Call",
-        link: parts[1] || "",
+        text,
+        link: cleanCtaLink(parts[1] || "", text),
       });
       continue;
     }

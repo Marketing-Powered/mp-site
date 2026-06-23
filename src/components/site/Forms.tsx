@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Reveal from "@/components/Reveal";
 import { serif, mono } from "./theme";
+import { siteContent as s } from "@/lib/content";
 
 type Field = {
   name: string;
@@ -23,6 +24,7 @@ export function LeadForm({
   fields,
   submitLabel = "Submit Request",
   source = "Website form",
+  formId = "lead-form",
 }: {
   title: string;
   intro?: string;
@@ -30,6 +32,7 @@ export function LeadForm({
   submitLabel?: string;
   /** Identifies which form the lead came from, included in the email. */
   source?: string;
+  formId?: string;
 }) {
   const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
@@ -51,7 +54,7 @@ export function LeadForm({
   }
 
   return (
-    <section className="relative z-10 mx-auto max-w-3xl px-6 py-12 lg:px-12">
+    <section id={formId} className="relative z-10 mx-auto max-w-3xl px-6 py-12 lg:px-12">
       <Reveal
         variant="blur"
         className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.02] p-8 md:p-12"
@@ -127,7 +130,47 @@ export function LeadForm({
    nothing and the page falls back cleanly to the lead form below. */
 export function BookingBlock() {
   const url = process.env.NEXT_PUBLIC_BOOKING_URL;
-  if (!url) return null;
+  if (!url) {
+    return (
+      <section className="relative z-10 mx-auto max-w-3xl px-6 py-12 lg:px-12">
+        <Reveal
+          variant="blur"
+          className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.02] p-8 md:p-12"
+          style={{
+            background:
+              "radial-gradient(120% 100% at 0% 0%, rgba(0,144,240,0.10), transparent 55%), rgba(255,255,255,0.02)",
+          }}
+        >
+          <p
+            className="mb-3 text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
+            style={{ fontFamily: mono }}
+          >
+            Schedule
+          </p>
+          <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] leading-tight" style={{ fontFamily: serif }}>
+            Request a consultation time
+          </h2>
+          <p className="mt-4 max-w-xl leading-relaxed text-white/55">
+            Share your details below and our team will follow up with available times.
+            You can also email us directly at{" "}
+            <a
+              href={`mailto:${s.brand.email}`}
+              className="text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4"
+            >
+              {s.brand.email}
+            </a>
+            .
+          </p>
+          <a
+            href="#call-request-form"
+            className="mt-8 inline-flex rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)]"
+          >
+            Request My Call
+          </a>
+        </Reveal>
+      </section>
+    );
+  }
 
   return (
     <section className="relative z-10 mx-auto max-w-3xl px-6 py-12 lg:px-12">

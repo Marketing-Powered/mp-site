@@ -25,7 +25,10 @@ export default function HubPage({
 }) {
   const page = getPage(file);
   const url = page.frontmatter.url || "/";
-  const heroCta = page.heroCta || { text: "Book a Discovery Call", link: "/get-started/" };
+  const heroCta = page.heroCta || {
+    text: "Book a Discovery Call",
+    link: "/get-started/book-a-call/",
+  };
   const overviewImg = pageImages(url)[1];
 
   const children =

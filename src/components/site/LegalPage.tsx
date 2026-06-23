@@ -8,6 +8,7 @@ import StickyMobileCta from "./StickyMobileCta";
 import FaqAccordion from "./FaqAccordion";
 import { serif, mono } from "./theme";
 import { Kicker, GoldRule } from "./ui";
+import { siteContent as s } from "@/lib/content";
 
 /* Text-heavy template for legal / utility documents. No hero banner,
    no image slots, tighter measure for readability. Keeps the shared
@@ -81,10 +82,10 @@ export default function LegalPage({ file }: { file: string }) {
               <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
             <a
-              href="mailto:hello@marketingpowered.ai"
+              href={`mailto:${s.brand.email}`}
               className="text-[13px] text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"
             >
-              hello@marketingpowered.ai
+              {s.brand.email}
             </a>
           </div>
         </Reveal>

@@ -18,7 +18,7 @@ export const siteContent = {
     subheadline:
       "AI-native strategies built on $50M+ in managed behavioral health and mental health ad spend. No guesswork. No compliance surprises.",
     cta: "BOOK A DISCOVERY CALL",
-    ctaLink: "/get-started/",
+    ctaLink: "/get-started/book-a-call/",
     image: "/images/pages/home/01-hero-banner.jpg",
     imageAlt:
       "Marketing Powered AI marketing agency team collaborating on behavioral health campaign strategy with data dashboards visible",
@@ -207,7 +207,7 @@ export const siteContent = {
       "Ready to See What AI-Native Marketing Can Do for Your Treatment Center?",
     body: "Schedule a discovery call to discuss your current marketing performance, compliance posture, and growth objectives. We will give you an honest assessment of where the opportunities are and whether Marketing Powered is the right partner to pursue them.",
     ctaText: "BOOK A DISCOVERY CALL",
-    ctaLink: "/get-started/",
+    ctaLink: "/get-started/book-a-call/",
     image: "/images/08-summary-takeaways-visual.jpg",
     imageAlt:
       "Summary visual of Marketing Powered AI marketing agency takeaways and next steps",

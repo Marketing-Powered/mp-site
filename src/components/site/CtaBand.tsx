@@ -1,6 +1,7 @@
 import Reveal from "@/components/Reveal";
 import { serif } from "./theme";
 import { PrimaryCta, GhostCta } from "./ui";
+import { siteContent as s } from "@/lib/content";
 
 export default function CtaBand({
   headline = "Ready to see what AI-native marketing can do for your treatment center?",
@@ -43,10 +44,10 @@ export default function CtaBand({
             <p className="mt-6 text-[14px] text-white/45">
               or email us at{" "}
               <a
-                href="mailto:hello@marketingpowered.ai"
+                href={`mailto:${s.brand.email}`}
                 className="text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"
               >
-                hello@marketingpowered.ai
+                {s.brand.email}
               </a>
             </p>
           )}

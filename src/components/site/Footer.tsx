@@ -63,10 +63,10 @@ export default function Footer() {
             <div className="mt-6 space-y-2 text-[13px] text-white/45" style={{ fontFamily: mono }}>
               <p>
                 <a
-                  href="mailto:hello@marketingpowered.ai"
+                  href={`mailto:${s.brand.email}`}
                   className="text-[#7FCBFF] transition-colors hover:text-white"
                 >
-                  hello@marketingpowered.ai
+                  {s.brand.email}
                 </a>
               </p>
               <p>{s.brand.phone}</p>

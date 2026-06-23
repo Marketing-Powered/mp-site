@@ -12,6 +12,7 @@ import FaqAccordion from "./FaqAccordion";
 import CtaBand from "./CtaBand";
 import { serif } from "./theme";
 import { Kicker, PrimaryCta, GoldRule } from "./ui";
+import { siteContent as s } from "@/lib/content";
 
 const KICKERS: Record<string, string> = {
   services: "Capabilities",
@@ -39,13 +40,13 @@ const INLINE_CTAS = [
     variant: "secondary" as const,
     headline: "Ready to map a growth plan built for your vertical?",
     ctaText: "Get Your Custom Strategy",
-    ctaLink: "/get-started/",
+    ctaLink: "/get-started/book-a-call/",
   },
   {
     variant: "email" as const,
     headline: "Prefer to talk it through over email?",
     ctaText: "Email Us",
-    ctaLink: "mailto:hello@marketingpowered.ai",
+    ctaLink: `mailto:${s.brand.email}`,
   },
 ];
 
@@ -65,13 +66,10 @@ export default function MarkdownPage({
   const page = getPage(file);
   const url = page.frontmatter.url || "/";
 
-  // Form-first CTA strategy: de-emphasize discovery calls. Keep a content
-  // CTA only when it carries a real destination and isn't a call prompt.
-  const contentCta = page.heroCta;
-  const heroCta =
-    contentCta && contentCta.link && !/discovery call|book a call/i.test(contentCta.text)
-      ? contentCta
-      : { text: "Request a Free Audit", link: "/get-started/request-an-audit/" };
+  const heroCta = page.heroCta || {
+    text: "Request a Free Audit",
+    link: "/get-started/request-an-audit/",
+  };
 
   // hub vertical pages (behavioral-health, mental-health) get child cards
   const hubChildren = (HUB_CHILDREN[file] || []).map((c) => {
@@ -117,7 +115,7 @@ export default function MarkdownPage({
             <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
               <PrimaryCta href={heroCta.link}>{heroCta.text}</PrimaryCta>
               <a
-                href="mailto:hello@marketingpowered.ai"
+                href={`mailto:${s.brand.email}`}
                 className="text-[13px] uppercase tracking-[0.18em] text-white/50 transition-colors hover:text-[#7FCBFF]"
               >
                 or email us →
@@ -222,7 +220,7 @@ export default function MarkdownPage({
           body={cta?.body}
           ctaText={cta?.ctaText}
           ctaLink={cta?.ctaLink}
-          secondaryCta={{ text: "Get Your Custom Strategy", link: "/get-started/" }}
+          secondaryCta={{ text: "Get Your Custom Strategy", link: "/get-started/book-a-call/" }}
         />
       )}
 

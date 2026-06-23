@@ -90,7 +90,7 @@ export default function Page() {
         headline="Want the case studies for your vertical?"
         body="Tell us about your center and we'll walk you through relevant outcomes — cost per admission trends, lead quality improvements, and intake conversion — alongside a free audit of your current marketing."
         ctaText="Request the Case Studies"
-        secondaryCta={{ text: "Get Your Custom Strategy", link: "/get-started/" }}
+        secondaryCta={{ text: "Get Your Custom Strategy", link: "/get-started/book-a-call/" }}
       />
     </PageShell>
   );

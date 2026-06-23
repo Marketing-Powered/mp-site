@@ -3,10 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Logo } from "@/components/brand";
-import { NAV } from "@/lib/nav";
 import { mono } from "./theme";
 
-const DESKTOP_NAV = [
+const PRIMARY_NAV = [
   {
     label: "Services",
     href: "/services/",
@@ -79,7 +78,7 @@ export default function Nav() {
 
         {/* desktop nav */}
         <nav className="hidden items-center gap-6 lg:flex">
-          {DESKTOP_NAV.map((item) => (
+          {PRIMARY_NAV.map((item) => (
             <div
               key={item.label}
               className="relative"
@@ -137,7 +136,7 @@ export default function Nav() {
       {/* mobile drawer */}
       {mobileOpen && (
         <div className="border-t border-white/8 px-6 py-4 lg:hidden">
-          {NAV.map((item) => (
+          {PRIMARY_NAV.map((item) => (
             <div key={item.label} className="border-b border-white/5 py-3">
               <Link
                 href={item.href}

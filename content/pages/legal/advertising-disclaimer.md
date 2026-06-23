@@ -113,4 +113,4 @@ Compliance flags
 
 Missing proof points
 * The proof point 'Tracked attribution through to admission' was not naturally integrated as this is a legal/compliance page rather than a results-focused page.
-* The proof point 'Founder scaled network from 3 to 24 locations' was not used as it does not fit the legal/informational context.
+* The proof point 'Founder scaled network through multi-market growth' was not used as it does not fit the legal/informational context.

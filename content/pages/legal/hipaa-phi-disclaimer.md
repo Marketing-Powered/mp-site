@@ -123,7 +123,7 @@ Compliance flags
 
 
 Missing proof points
-* Brief references credentials such as 'Scaled Haven from 3 to 24 locations' and 'Court-certified expert witness' that were not naturally integratable into this legal/informational page type. These proof points are better suited to service or about pages.
+* Brief references credentials such as 'Scaled the organization through multi-market growth' and 'Court-certified expert witness' that were not naturally integratable into this legal/informational page type. These proof points are better suited to service or about pages.
 
 
 Banned phrasing in brief

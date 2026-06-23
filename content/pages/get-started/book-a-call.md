@@ -29,7 +29,7 @@ Direct access to operators who have managed $50M+ in behavioral health media spe
 
 
 Why Schedule a Consultation?
-When you book a marketing consultation with Marketing Powered, you get direct access to strategists who have operated at scale in behavioral health. Our founder managed $1.5 to $2M monthly at Haven Health and tracked attribution through to admission across dozens of treatment center accounts.
+When you book a marketing consultation with Marketing Powered, you get direct access to strategists who have operated at scale in behavioral health. Our founder managed $1.5 to $2M monthly at a multi-location behavioral health organization and tracked attribution through to admission across dozens of treatment center accounts.
 This is not a generic sales call. It is a working session with operators who understand LegitScript compliance, Google Ads sensitive vertical restrictions, and the real economics of cost per admission. We have managed $50M+ in lifetime media spend across behavioral health accounts and built AI-native systems since 2022 to give clients a measurable edge.
 What to Expect During Your Call
 Your consultation covers three areas: current marketing performance, growth goals, and the strategic gaps between them.
@@ -37,13 +37,13 @@ We will review your channel mix, lead quality, and attribution setup. We will di
 No pitch decks. No generic recommendations. Just a direct conversation about what is working, what is not, and what it would take to fix it.
 [CTA] Book Your Consultation Now
 Success Stories
-Our work speaks in numbers. We have scaled treatment centers from 3 to 24 locations with attribution tracked through to admission. Our court-certified marketing expert founder has testified on advertising strategy and brings that level of rigor to every engagement.
+Our work speaks in numbers. We have scaled treatment centers through multi-market growth with attribution tracked through to admission. Our court-certified marketing expert founder has testified on advertising strategy and brings that level of rigor to every engagement.
 See how we have helped behavioral health operators reduce cost per admission lead and increase qualified call volume in our case studies. These are real outcomes from real accounts, not hypothetical projections.
 How to Book Your Consultation
 Scheduling takes less than two minutes. Select a time that works for you, provide basic information about your center, such as locations, current marketing channels, and primary growth goals, and we will confirm your session.
 Come prepared with questions about lead quality, compliance, or attribution. The more specific you are, the more valuable the conversation.
 Ready to Talk Strategy?
-Book your consultation now and speak directly with operators who have scaled behavioral health marketing programs from startup to $140M+ in revenue.
+Book your consultation now and speak directly with operators who have scaled behavioral health marketing programs from startup to enterprise-scale in revenue.
 [CTA] Book Your Consultation Now
 FAQ
 Q: What marketing strategies work for behavioral health providers?
@@ -87,7 +87,7 @@ Compliance flags
 
 Missing proof points
 * Specific percentage improvements (e.g., '47% increase in qualified calls') would strengthen the Success Stories section but were not in the Proof Points Library.
-* Haven Health revenue growth figure ($30M to $140M) could strengthen credibility if approved for this page.
+* a multi-location behavioral health organization revenue growth figure (substantial revenue growth) could strengthen credibility if approved for this page.
 
 
 Banned phrasing in brief

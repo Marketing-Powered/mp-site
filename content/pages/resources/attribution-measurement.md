@@ -44,7 +44,7 @@ AI capabilities accelerate this process. Machine learning models can identify pa
 Marketing Powered has operated as an AI-native agency since 2022, building proprietary systems designed for HIPAA-conscious data handling. This infrastructure supports attribution that connects marketing technology spend to actual admissions while maintaining compliance with healthcare data regulations.
 Real-World Application in Behavioral Health
 Attribution in behavioral health presents specific challenges. Google Ads healthcare vertical restrictions prohibit retargeting, which limits standard remarketing-based attribution approaches. HIPAA requirements constrain how patient data can be used for measurement. Longer consideration windows and phone-heavy conversion paths complicate tracking.
-Despite these constraints, disciplined attribution produces results. When Haven Health scaled from 3 to 24 locations, attribution visibility into which channels generated qualified admission calls allowed for confident budget reallocation as the organization expanded into new markets.
+Despite these constraints, disciplined attribution produces results. During operator-side multi-market growth, attribution visibility into which channels generated qualified admission calls allowed for confident budget reallocation as the organization expanded into new markets.
 The pattern repeats across accounts. Managing $1.5M to $2M monthly in Google Ads across behavioral health campaigns requires knowing which campaigns, ad groups, and keywords produce admissions versus which produce unqualified inquiries. Without attribution that tracks through intake, optimization decisions rely on proxy metrics that may not correlate with actual census growth.
 The common thread across high-performing accounts is connecting marketing data to admission data within a compliant measurement framework.
 Choosing the Right Partner for Measurement
@@ -106,7 +106,7 @@ Compliance flags
 
 Missing proof points
 * Specific attribution-related metrics such as percentage improvement in attribution accuracy or reduction in wasted spend would strengthen the Real-World Application section.
-* A specific timeframe for the Haven Health scaling proof point would add credibility, for example scaling from 3 to 24 locations over a defined period.
+* A specific timeframe for an anonymized multi-location behavioral health organization scaling proof point would add credibility, for example scaling through multi-market growth over a defined period.
 
 
 Banned phrasing in brief

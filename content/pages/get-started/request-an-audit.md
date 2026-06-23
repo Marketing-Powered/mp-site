@@ -31,7 +31,7 @@ Expert assessment backed by $50M+ in managed behavioral health ad spend
 Why Choose Our Free Marketing Audit?
 Most agencies offer audits as a sales pitch. We approach them differently. With $50M+ managed specifically in behavioral health and mental health advertising, our free marketing audit draws on operator experience that understands what actually moves admissions, not vanity metrics.
 A thorough marketing performance audit identifies where your budget is working and where it is not. We assess campaign structure, audience targeting, bid strategies, and conversion tracking to surface inefficiencies that cost treatment centers thousands each month.
-Our audits are built on real accountability. We have scaled treatment center portfolios from 3 to 24 locations and managed $1.5M to $2M monthly in [Google Ads](https://marketingpowered.ai/services/paid-media/) across 11+ accounts. That depth means we spot problems and opportunities that generalist agencies miss.
+Our audits are built on real accountability. We have scaled treatment center portfolios through multi-market growth and managed $1.5M to $2M monthly in [Google Ads](https://marketingpowered.ai/services/paid-media/) across 11+ accounts. That depth means we spot problems and opportunities that generalist agencies miss.
 How Our Marketing Audit Works
 Our paid media audit follows a structured process designed for transparency.
 We start with a full assessment of your ad accounts: campaign architecture, keyword performance, audience segmentation, and conversion paths. Next, we run competitive analysis to benchmark your positioning against other treatment centers in your market. Finally, we deliver a customized strategic improvement plan with prioritized recommendations.
@@ -43,7 +43,7 @@ We also evaluate attribution discipline. Tracking clicks is not enough; we audit
 
 
 Client Success Stories
-Our operator-level insights have driven measurable results. We helped Haven Health scale from approximately $30M to $140M in revenue while expanding from 3 to 24 locations, with attribution tracked through to admission.
+Our operator-level insights have driven measurable results. We helped anonymized multi-market growth proof during a substantial growth period while expanding through multi-market growth, with attribution tracked through to admission.
 These outcomes come from understanding the behavioral health business model, not just the ad platforms. Explore more examples on our [case studies page](https://marketingpowered.ai/results/case-studies/).
 Get Started with Your Free Audit
 Requesting your free marketing audit takes less than two minutes. Complete the form below, and we will schedule a time to walk through your accounts together.

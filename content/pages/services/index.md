@@ -29,7 +29,7 @@ Operator-driven marketing services built for behavioral health and mental health
 
 
 Why Choose Our Marketing Services?
-Most agencies sell marketing services without understanding what it takes to fill beds, manage intake capacity, or navigate the compliance minefield of addiction and mental health advertising. Marketing Powered operates differently. The agency was built by operators who have managed $50M+ in behavioral health and mental health media spend, scaled treatment organizations from 3 to 24 locations, and handled $1.5M to $2M monthly in Google Ads across 11+ accounts.
+Most agencies sell marketing services without understanding what it takes to fill beds, manage intake capacity, or navigate the compliance minefield of addiction and mental health advertising. Marketing Powered operates differently. The agency was built by operators who have managed $50M+ in behavioral health and mental health media spend, scaled treatment organizations through multi-market growth, and handled $1.5M to $2M monthly in Google Ads across 11+ accounts.
 That operator background changes everything about how we approach your marketing. We understand census fluctuations, intake team bandwidth, LegitScript requirements, and the difference between a lead that converts to admission and one that wastes your clinical team's time. Our founder holds court certification as an expert witness in advertising strategy, a credential earned through deep accountability for marketing outcomes.
 Traditional agencies treat behavioral health like any other vertical. They apply generic playbooks, miss compliance nuances, and optimize for vanity metrics instead of admissions. Marketing Powered was purpose-built for [behavioral health marketing solutions](/who-we-help/behavioral-health/). We measure success the same way you do: qualified calls, admissions, and revenue growth tied to marketing investment.
 Comprehensive Paid Media Strategies
@@ -57,7 +57,7 @@ Marketing Powered builds every campaign with these restrictions as foundational 
 
 We customize strategies for your specific treatment modalities, whether residential, IOP/PHP, detox, dual diagnosis, or adolescent programs. Each service line has different patient acquisition economics, different compliance considerations, and different creative approaches. Generic marketing services ignore these differences. We build around them.
 Success Stories and Client Outcomes
-The clearest proof of our marketing services comes from client outcomes. We supported Haven Health's growth from 3 locations to 24 locations, scaling marketing spend alongside organizational expansion while maintaining lead quality and compliance standards.
+The clearest proof of our marketing services comes from client outcomes. We supported a multi-location behavioral health organization's growth through a multi-location expansion, scaling marketing spend alongside organizational expansion while maintaining lead quality and compliance standards.
 Our [success stories](/results/case-studies/) include treatment centers that have seen measurable improvements in cost per admission, lead-to-admission conversion rates, and overall census stability. We focus on these metrics because they determine whether your marketing investment produces sustainable growth or just activity reports.
 
 
@@ -66,13 +66,13 @@ Book a discovery call to talk through your current challenges, compliance requir
 [CTA] Book a Discovery Call
 FAQ
 Q: What makes Marketing Powered different from other agencies?
-A: Marketing Powered is operator-run, built by professionals who have managed $50M+ in behavioral health media spend and scaled treatment organizations from startup to 24 locations. Our founder holds a court certification as an expert witness in advertising strategy. We operate AI-native infrastructure purpose-built for healthcare compliance, not generic agency tools adapted for the vertical.
+A: Marketing Powered is operator-run, built by professionals who have managed $50M+ in behavioral health media spend and scaled treatment organizations from startup to a larger multi-market footprint. Our founder holds a court certification as an expert witness in advertising strategy. We operate AI-native infrastructure purpose-built for healthcare compliance, not generic agency tools adapted for the vertical.
 Q: How do you ensure compliance in marketing for behavioral health?
 A: Every campaign is built around LegitScript certification requirements, Google sensitive vertical policies, and HIPAA-conscious data handling. We maintain active awareness of platform-specific restrictions, including the prohibition on behavioral health retargeting. Our AI infrastructure processes data on controlled local systems rather than routing through third-party APIs.
 Q: What types of AI tools do you use?
 A: We operate proprietary AI systems for multi-variant optimization, predictive budget allocation, creative iteration, and attribution modeling. Our infrastructure includes local AI inference capabilities on owned hardware, ensuring data sovereignty and HIPAA-conscious processing. We have been AI-native since 2022, working with LM Studio, RAG, and vector databases before these tools became mainstream.
 Q: Can you provide examples of past success?
-A: We supported Haven Health's growth from 3 to 24 locations while managing marketing at scale. Our portfolio includes treatment centers with documented improvements in cost per admission, lead quality, and census stability. We track attribution through to admission, ensuring our success metrics reflect actual business outcomes rather than vanity metrics.
+A: We supported a multi-location behavioral health organization's growth through multi-market growth while managing marketing at scale. Our portfolio includes treatment centers with documented improvements in cost per admission, lead quality, and census stability. We track attribution through to admission, ensuring our success metrics reflect actual business outcomes rather than vanity metrics.
 
 
 SCHEMA RECOMMENDATION
@@ -110,7 +110,7 @@ Compliance flags
 
 Missing proof points
 * Specific percentage improvements in cost per admission or lead quality would strengthen the Success Stories section if available.
-* Named case studies beyond Haven Health would add credibility if client permissions allow.
+* Named case studies beyond anonymized multi-location proof points would add credibility if client permissions allow.
 
 
 Banned phrasing in brief

@@ -60,7 +60,7 @@ Integration with existing workflows: AI tools deliver value when they connect to
 [CTA] Schedule a Consultation
 Resources and Next Steps
 Building AI capability in healthcare marketing requires both technical infrastructure and strategic expertise. The organizations seeing results combine internal learning with specialized partners who understand the vertical.
-Start with our [AI-edge services](/ai-edge/) overview to understand how proprietary AI infrastructure differs from agency wrappers on commercial tools. Review our [case studies](/results/case-studies/) to see specific outcomes, including how we scaled Haven Health from 3 to 24 locations with AI-powered media optimization.
+Start with our [AI-edge services](/ai-edge/) overview to understand how proprietary AI infrastructure differs from agency wrappers on commercial tools. Review our [case studies](/results/case-studies/) to see specific outcomes, including how we managed operator-side multi-market growth with AI-powered media optimization.
 
 
 For hands-on learning, explore our [web development](/services/web-development/) and paid media resources. When you are ready to discuss implementation for your organization, [request an audit](/get-started/request-an-audit/) or schedule a consultation to review your current stack, compliance posture, and growth objectives.
@@ -111,7 +111,7 @@ Compliance flags
 
 Missing proof points
 * Specific percentage improvements from AI implementation would strengthen Key Applications section
-* Named client examples beyond Haven Health would add credibility if approved for public use
+* Named client examples beyond a multi-location behavioral health organization would add credibility if approved for public use
 
 
 Banned phrasing in brief

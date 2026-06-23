@@ -17,7 +17,7 @@ PAGE COPY
 
 
 Optimize Your Behavioral Health Intake Process
-Turn more qualified calls into admissions with data-driven intake optimization built by operators who have scaled treatment centers from 3 to 24 locations.
+Turn more qualified calls into admissions with data-driven intake optimization built by operators who have scaled treatment centers through multi-market growth.
 [CTA] Book a Discovery Call
 
 
@@ -41,7 +41,7 @@ Better resource allocation: When you know which channels and campaigns produce p
 Improved patient experience: Faster callbacks, clearer communication about insurance and next steps, and a coordinated handoff between intake and clinical teams all reduce the anxiety families feel during crisis moments. According to SAMHSA, most callers are already in acute distress. A smooth intake process is part of the clinical intervention.
 Compliance and documentation: A structured intake process captures the information you need for insurance authorization, clinical assessment, and regulatory reporting. This reduces rework and audit risk.
 Why Choose Marketing Powered for Intake Optimization
-Marketing Powered is not a general-purpose agency that added behavioral health to its client list. We have managed over $50M in behavioral health and mental health media spend. Our founder scaled Haven Health Management from 3 to 24 locations, building the intake and marketing infrastructure from the inside.
+Marketing Powered is not a general-purpose agency that added behavioral health to its client list. We have managed over $50M in behavioral health and mental health media spend. Our founder managed operator-side multi-market growth, building the intake and marketing infrastructure from the inside.
 That operator background changes how we approach intake optimization. We have sat in the intake coordinator's chair. We have listened to call recordings at 2 AM, trying to figure out why conversion rates dropped. We have navigated LegitScript certification, compliance requirements, and the Google Ads sensitive healthcare vertical restrictions that limit what behavioral health providers can do with paid media.
 Attribution through to admission: We do not stop at tracking leads. We track attribution through to admission so you know which campaigns, keywords, and creatives actually produce patients. This requires integration with your CRM and intake systems, which we build and maintain.
 AI-native infrastructure: We have been building with AI-native solutions since 2022, including local AI inference for data analysis that keeps your information under your control. Our systems identify patterns in call recordings, predict which leads are most likely to admit, and optimize intake workflows based on real outcomes.
@@ -68,7 +68,7 @@ A: Intake optimization is the process of refining how new patients are enrolled 
 Q: How can intake optimization benefit my treatment center?
 A: Optimized intake increases admissions without requiring more ad spend. Treatment centers typically see 15% to 25% higher conversion rates after fixing common intake funnel leaks. Additional benefits include better resource allocation, where staff spend less time on unqualified leads, improved data collection for insurance and clinical purposes, and reduced cost per admission. Most centers also report higher patient satisfaction during the enrollment process.
 Q: What makes Marketing Powered's approach different?
-A: We combine operator experience with AI-native infrastructure. Our founder scaled Haven Health Management from 3 to 24 locations, so we understand intake challenges from the inside. We have managed over $50M in behavioral health media spend and track attribution through to admission, not just to the lead. Our compliance posture includes LegitScript awareness and HIPAA-conscious practices, and we have been building with AI tools since 2022.
+A: We combine operator experience with AI-native infrastructure. Our founder managed operator-side multi-market growth, so we understand intake challenges from the inside. We have managed over $50M in behavioral health media spend and track attribution through to admission, not just to the lead. Our compliance posture includes LegitScript awareness and HIPAA-conscious practices, and we have been building with AI tools since 2022.
 Q: How long does it take to optimize an intake process?
 A: Timeline depends on the size and complexity of your organization. Most treatment centers see measurable improvements within 30 to 60 days after implementing initial changes like callback speed improvements and scripting adjustments. Full optimization, including technology integration and staff training programs, typically takes 90 to 120 days. We prioritize quick wins first so you see results while longer-term improvements are being built.
 

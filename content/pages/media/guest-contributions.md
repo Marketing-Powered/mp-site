@@ -91,7 +91,7 @@ External citations
 
 
 Brief conflicts
-* The brief's Proof Points Library focuses heavily on behavioral health marketing metrics ($50M+ managed in BH/MH, Haven scale, Google Ads spend), but the page itself is a general media/guest contributions positioning page. The proof points do not naturally integrate into this topic without forcing promotional content about the agency's BH/MH work into a page about guest contribution best practices. I have kept the page focused on its stated purpose rather than shoehorning unrelated proof points.
+* The brief's Proof Points Library focuses heavily on behavioral health marketing metrics ($50M+ managed in BH/MH, multi-location scale, Google Ads spend), but the page itself is a general media/guest contributions positioning page. The proof points do not naturally integrate into this topic without forcing promotional content about the agency's BH/MH work into a page about guest contribution best practices. I have kept the page focused on its stated purpose rather than shoehorning unrelated proof points.
 
 
 Internal link gaps
@@ -101,7 +101,7 @@ Internal link gaps
 
 Compliance flags
 * The brief's compliance guardrails prohibit claiming guaranteed publication on external platforms or specific traffic increases. The copy avoids both.
-* The brief's proof points reference specific client results (Haven 3→24 network scale) but the compliance section prohibits individual client results or testimonials. I did not include client-specific results in the body copy.
+* The brief's proof points reference specific client results (multi-location 3-to-24 network scale) but the compliance section prohibits individual client results or testimonials. I did not include client-specific results in the body copy.
 
 
 Missing proof points

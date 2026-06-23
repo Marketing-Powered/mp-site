@@ -58,8 +58,8 @@ Compliance failures are expensive. A disapproved ad wastes the creative investme
 Healthcare advertising operates under HIPAA constraints, Google's sensitive vertical policies, and platform-specific health restrictions. HIPAA awareness means no PHI in ad copy, landing pages, or tracking pixels. Google's policies prohibit certain claims and require certification for addiction treatment advertising. Meta restricts health-related custom audiences entirely.
 We build compliance into campaign architecture from day one, not as an afterthought. Ad copy templates are pre-approved against policy. Landing pages avoid prohibited claims. Tracking is configured to exclude PHI from analytics. This compliance-first posture prevents the costly disruptions that inflate CPA for less disciplined advertisers.
 According to the HHS Office for Civil Rights HIPAA guidance, covered entities and their business associates must ensure marketing activities comply with privacy rules. Non-compliance creates legal exposure beyond advertising costs.
-Haven Health Management: Scaling from 3 to 24 Locations
-Haven Health Management grew from 3 treatment center locations to 24 under our media management. This scale required CPA discipline at every stage. Adding locations means adding geographic targeting, new competitive landscapes, and fresh compliance reviews. We maintained acquisition efficiency while scaling monthly spend into the seven figures. Revenue grew from roughly $30M to $140M during the engagement.
+Anonymized Growth Case Study: Multi-Location Growth
+A multi-location behavioral health organization grew from a small regional footprint into a larger multi-market network under our media management. This scale required CPA discipline at every stage. Adding locations means adding geographic targeting, new competitive landscapes, and fresh compliance reviews. We maintained acquisition efficiency while scaling monthly spend into the seven figures. We supported substantial revenue growth during the engagement.
 This outcome reflects the compound effect of the strategies outlined above: tight targeting, AI-assisted optimization, landing page testing, full-funnel attribution, and compliance rigor. No single tactic produced the result. The system did.
 Portfolio-Wide Results Across Behavioral Health
 Across $50M+ in managed behavioral health and mental health media spend, we have developed benchmarks that inform new client engagements from day one. Court-certified expert witness status in advertising strategy means our methodology has been tested under legal scrutiny, not just marketing reviews. Explore additional case studies to see how these principles apply across different treatment modalities and market conditions.
@@ -100,14 +100,14 @@ Brief conflicts
 
 
 Internal link gaps
-* Both the Haven Health case study reference and the portfolio case studies reference map to /results/case-studies/. Used distinct anchor text to avoid duplicate exact-match anchors.
+* Both the anonymized multi-location case study reference and the portfolio case studies reference map to /results/case-studies/. Used distinct anchor text to avoid duplicate exact-match anchors.
 * Consider adding links to /services/ or /about/ to establish broader site context if those pages exist.
 * No internal link target was available for the AI tools section; /ai-edge/ was referenced but should be confirmed against the sitemap.
 
 
 Compliance flags
 * Brief correctly prohibits guaranteed CPA reduction claims. Copy frames improvements as outcomes of methodology, not promises.
-* Haven Health results are presented as a historical case study, not as guaranteed outcomes for new clients.
+* Anonymized multi-location results are presented as a historical case study, not as guaranteed outcomes for new clients.
 * No PHI references appear in copy. Tracking and pixel guidance in the compliance section aligns with HIPAA requirements.
 
 

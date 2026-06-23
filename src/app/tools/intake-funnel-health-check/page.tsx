@@ -256,7 +256,7 @@ export default function Page() {
 
       <CtaBand
         headline="See where your intake funnel is losing admissions"
-        body="Your intake funnel is either converting the leads your marketing generates or wasting them. If the results reveal gaps you want help addressing, book a discovery call to discuss implementation with a team that has scaled behavioral health operations from 3 to 24 locations."
+        body="Your intake funnel is either converting the leads your marketing generates or wasting them. If the results reveal gaps you want help addressing, book a discovery call to discuss implementation with a team that has scaled behavioral health operations through multi-market growth."
         ctaText="Book a Discovery Call"
         ctaLink="/get-started/book-a-call/"
         secondaryCta={{ text: "Request a Free Audit", link: "/get-started/request-an-audit/" }}

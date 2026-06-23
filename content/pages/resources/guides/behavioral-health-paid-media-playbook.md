@@ -118,7 +118,7 @@ A: Common challenges include high cost-per-click rates driven by competitive bid
 Q: How does Marketing Powered ensure compliance in behavioral health advertising?
 A: Marketing Powered maintains compliance through LegitScript certification awareness, HIPAA-conscious infrastructure for handling lead data, and deep familiarity with Google and Meta healthcare advertising policies. Our processes include ad copy review against platform requirements, landing page audits for compliance issues, call recording storage that meets security standards, and documentation protocols that support rapid response to platform reviews. This compliance discipline comes from managing $50M or more in behavioral health media spend under these restrictions.
 Q: Why choose Marketing Powered for treatment center paid media?
-A: Marketing Powered brings operator-level experience to behavioral health paid media, not generic agency knowledge. Our track record includes scaling Haven Health from 3 to 24 locations, managing $1.5M to $2M monthly in Google Ads across treatment center accounts, and building attribution systems that track through to admission. Our founder holds court-certified expert witness credentials in advertising strategy. We combine this experience with AI-native infrastructure that improves campaign optimization, audience analysis, and performance reporting beyond what traditional agencies deliver.
+A: Marketing Powered brings operator-level experience to behavioral health paid media, not generic agency knowledge. Our track record includes operator-side multi-market growth, managing $1.5M to $2M monthly in Google Ads across treatment center accounts, and building attribution systems that track through to admission. Our founder holds court-certified expert witness credentials in advertising strategy. We combine this experience with AI-native infrastructure that improves campaign optimization, audience analysis, and performance reporting beyond what traditional agencies deliver.
 
 
 SCHEMA RECOMMENDATION
@@ -163,7 +163,7 @@ Compliance flags
 
 Missing proof points
 * Specific cost-per-admission benchmark ranges would strengthen the measurement section and add operator credibility.
-* Named client testimonials or detailed case study references (beyond Haven Health location count) would add persuasive depth.
+* Named client testimonials or detailed case study references (beyond a multi-location behavioral health organization location count) would add persuasive depth.
 * Specific timeframes for results achieved at referenced accounts would make proof points more concrete.
 * Platform-specific conversion rate benchmarks for treatment center landing pages would help readers calibrate expectations.
 

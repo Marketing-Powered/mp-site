@@ -40,7 +40,7 @@ Our resource library organizes marketing playbooks by channel, strategy, and ver
 
 Specialized Healthcare Marketing Strategies
 Behavioral health marketing requires strategies built for the category, not adapted from generic business playbooks. The patient journey differs fundamentally from standard B2C or B2B funnels. Families research treatment options during crisis moments. Decision timelines compress from months to days. Trust signals matter more than promotional claims.
-Our healthcare marketing handbooks reflect operator experience, not just agency knowledge. The founder scaled Haven Health from 3 to 24 locations, building marketing systems that supported rapid multi-site expansion while maintaining compliance. That operator-level perspective shapes every guide in our library.
+Our healthcare marketing handbooks reflect operator experience, not just agency knowledge. The founder managed operator-side multi-market growth, building marketing systems that supported rapid multi-site expansion while maintaining compliance. That operator-level perspective shapes every guide in our library.
 These resources cover the nuances that generic marketing advice misses: how to structure campaigns for different levels of care (detox, residential, IOP/PHP), how to differentiate positioning in competitive markets, and how to align marketing spend with census goals. The strategies apply whether you operate a single trauma and PTSD clinic or a multi-state treatment network.
 
 

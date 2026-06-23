@@ -58,17 +58,17 @@ Start with compliance architecture. Before evaluating features, understand where
 Evaluate vertical understanding. General-purpose AI tools produce general-purpose output. For behavioral health, you need systems that understand the difference between addiction treatment and mental health services, the regulatory distinctions between PHP and IOP programs, and the compliance requirements specific to your state and accreditation body.
 Consider integration depth. Standalone AI tools create data silos. The most effective implementations connect content generation to analytics, analytics to optimization, and optimization back to strategy. Marketing Powered's infrastructure links social performance data to [web development](/services/web-development/) decisions and paid media allocation.
 Assess the human layer. AI tools without strategic oversight produce volume without value. 
-The right implementation pairs automated capabilities with experienced judgment. Our team has scaled organizations from 3 to 24 locations, managed $1.5M to $2M monthly in Google Ads, and tracked attribution through to admission. That operator experience shapes how we deploy AI, not the other way around.
+The right implementation pairs automated capabilities with experienced judgment. Our team has scaled organizations through multi-market growth, managed $1.5M to $2M monthly in Google Ads, and tracked attribution through to admission. That operator experience shapes how we deploy AI, not the other way around.
 * Compliance architecture: BAA compatibility, data sovereignty, audit trails
 * Vertical understanding: Healthcare-specific training and guardrails
 * Integration depth: Connected systems from content to conversion
 * Human oversight: Operator experience guiding AI deployment
 Case study: Successful AI integration in behavioral health
-When Haven Health needed to scale from 3 locations to 24, the marketing infrastructure had to grow without proportional headcount increases. Traditional agency approaches would have required expanding the content team, adding more account managers, and accepting longer turnaround times. AI-native operations offered a different path.
+When a multi-location behavioral health organization needed to scale through a multi-location expansion, the marketing infrastructure had to grow without proportional headcount increases. Traditional agency approaches would have required expanding the content team, adding more account managers, and accepting longer turnaround times. AI-native operations offered a different path.
 The challenge was significant. Each new location required localized content, market-specific messaging, and compliance review across multiple platforms. Manual processes would have created bottlenecks at every stage.
 Our AI systems enabled a consistent brand voice across all locations while adapting content for local audiences. Automated compliance checks flagged potential issues before content reached approval queues. Performance data from each market fed into optimization models that improved targeting across the network.
 The results are tracked to business outcomes, not vanity metrics. We measure success through admission attribution, not engagement rates. Our court-certified expert witness founder brings the same rigor to marketing measurement that holds up under legal scrutiny.
-For behavioral health organizations considering AI integration, the Haven example illustrates what is possible when AI infrastructure is built for the vertical rather than adapted from general marketing tools. Scale does not require proportional complexity when systems are designed correctly from the start.
+For behavioral health organizations considering AI integration, the operator-side example illustrates what is possible when AI infrastructure is built for the vertical rather than adapted from general marketing tools. Scale does not require proportional complexity when systems are designed correctly from the start.
 You can explore more examples in our [case studies](/results/case-studies/), which detail outcomes across multiple behavioral health and mental health clients.
 Ready to discuss an AI-driven social media strategy?
 Book a discovery call to talk through your compliance requirements, lead quality goals, and how AI-native infrastructure can support your social media presence without the risks of general-purpose tools.
@@ -83,7 +83,7 @@ A: Key ethical considerations include transparency about AI-generated content, d
 Q: How can I choose the best AI tools for social media?
 A: Evaluate AI tools on four criteria for healthcare applications: compliance architecture (BAA compatibility, data sovereignty, audit capabilities), vertical understanding (healthcare-specific training and guardrails), integration depth (connection to analytics and optimization systems), and human oversight (experienced operators guiding deployment). Avoid tools that cannot clearly explain where your data goes or that lack healthcare-specific compliance features.
 Q: Why should I choose Marketing Powered for AI marketing services?
-A: Marketing Powered combines AI-native infrastructure with operator-level behavioral health experience. We have managed $50M+ in BH/MH media spend, scaled organizations from 3 to 24 locations, and tracked attribution through to admission. Our founder holds court-certified expert witness credentials in advertising strategy. We built our AI systems for healthcare compliance from the foundation, with LegitScript awareness and HIPAA-conscious data handling, not as afterthoughts added to general marketing tools.
+A: Marketing Powered combines AI-native infrastructure with operator-level behavioral health experience. We have managed $50M+ in BH/MH media spend, scaled organizations through multi-market growth, and tracked attribution through to admission. Our founder holds court-certified expert witness credentials in advertising strategy. We built our AI systems for healthcare compliance from the foundation, with LegitScript awareness and HIPAA-conscious data handling, not as afterthoughts added to general marketing tools.
 
 
 SCHEMA RECOMMENDATION
@@ -116,7 +116,7 @@ Internal link gaps
 
 
 Compliance flags
-* Case study section references Haven Health scale, but the brief does not include permission to use the client's name. Verified against Proof Points Library, which includes 'Haven 3→24 scale,' suggesting approved usage.
+* Case study section references anonymized multi-market growth proof, but the brief does not include permission to use the client's name. Verified against Proof Points Library, which includes 'multi-location 3-to-24 scale,' suggesting approved usage.
 * No specific ROI percentages are included per compliance guardrails restricting specific ROI projections.
 
 

@@ -28,7 +28,7 @@ Convert more visitors into qualified leads with landing pages built by healthcar
 
 Why Choose Us for Landing Page Development
 Most agencies build landing pages. Few understand why healthcare landing pages fail. The difference comes down to operator experience: knowing what happens after the form submission, how intake teams qualify leads, and why compliance missteps create downstream business risk.
-Marketing Powered brings a different perspective to landing page development. Our team has managed $50M+ in behavioral health and mental health media spend, scaling organizations like Haven Health from 3 to 24 locations. That operator background means we design landing pages with full-funnel awareness, not just surface-level conversion metrics.
+Marketing Powered brings a different perspective to landing page development. Our team has managed $50M+ in behavioral health and mental health media spend, scaling organizations for multi-location behavioral health organizations. That operator background means we design landing pages with full-funnel awareness, not just surface-level conversion metrics.
 Our web development services are built on healthcare-specific expertise. We understand LegitScript certification requirements for addiction treatment advertising, HIPAA considerations for form handling, and the Google Ads sensitive vertical restrictions that limit retargeting options. This compliance awareness is built into every page we develop.
 For clinic managers and marketing executives, this translates to reduced risk. Your landing pages will be designed to convert within the boundaries that matter: regulatory compliance, brand consistency, and lead quality that your intake team can actually close.
 Key Features of Our Custom Landing Pages
@@ -53,7 +53,7 @@ Before launch, we run QA across devices and browsers, verify all tracking fires 
 
 Results We Have Delivered for Healthcare Organizations
 Our landing page development work is part of a broader performance marketing approach that has produced measurable results for healthcare organizations.
-For Haven Health, we supported growth from 3 locations to 24 locations through integrated paid media and conversion optimization. Our landing pages were built to handle the volume, with attribution tracking that followed leads through to admission. This level of visibility allowed the marketing team to allocate budget toward the campaigns producing actual admissions, not just form fills.
+For a multi-location behavioral health organization, we supported growth through a multi-location expansion through integrated paid media and conversion optimization. Our landing pages were built to handle the volume, with attribution tracking that followed leads through to admission. This level of visibility allowed the marketing team to allocate budget toward the campaigns producing actual admissions, not just form fills.
 Across our portfolio of behavioral health marketing clients, we have managed $1.5M to $2M monthly in Google Ads spend. That scale requires landing pages that perform consistently across campaigns, audiences, and geographies. We have seen what works and what fails in this vertical, and that experience informs every page we build. When we recommend a landing page approach, it is based on evidence and experience, not guesswork.
 For organizations managing dual diagnosis or complex treatment offerings, we build landing pages that segment traffic effectively and route visitors to the most relevant conversion path.
 Getting Started with Your Landing Page Project

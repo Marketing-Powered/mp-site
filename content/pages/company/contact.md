@@ -30,7 +30,7 @@ Connect with specialists who understand behavioral health marketing, compliance 
 
 Why Contact Marketing Powered
 Behavioral health marketing requires more than standard agency tactics. It demands compliance fluency, vertical-specific media experience, and attribution that tracks through to admission. Marketing Powered brings all three.
-With [$50M+ in managed behavioral health and mental health media spend](/who-we-help/behavioral-health/), we operate at the scale where patterns become visible and optimizations compound. Our founder scaled Haven Health from 3 to 24 locations and holds credentials as a court-certified expert witness in advertising strategy.
+With [$50M+ in managed behavioral health and mental health media spend](/who-we-help/behavioral-health/), we operate at the scale where patterns become visible and optimizations compound. Our founder managed operator-side multi-market growth and holds credentials as a court-certified expert witness in advertising strategy.
 
 
 When you contact Marketing Powered, you connect with a team that has navigated LegitScript certification, Google Ads sensitive vertical restrictions, and HIPAA-conscious infrastructure since before most agencies knew these requirements existed.
@@ -57,7 +57,7 @@ A: Use the contact form on this page to submit your inquiry, or book a call dire
 Q: What can I expect after reaching out?
 A: You will receive a response within one business day from someone who understands your vertical. We focus on your specific challenges, whether that is lead quality, compliance concerns, or scaling admissions, and tailor our follow-up accordingly.
 Q: Why choose Marketing Powered for behavioral health marketing?
-A: We have managed over $50M in behavioral health and mental health media spend, with attribution tracked through to admission. Our team understands LegitScript certification, Google Ads sensitive vertical restrictions, and HIPAA requirements. The founder scaled Haven Health from 3 to 24 locations and is a court-certified expert witness in advertising strategy.
+A: We have managed over $50M in behavioral health and mental health media spend, with attribution tracked through to admission. Our team understands LegitScript certification, Google Ads sensitive vertical restrictions, and HIPAA requirements. The founder managed operator-side multi-market growth and is a court-certified expert witness in advertising strategy.
 Q: Is there a fee for initial consultations?
 A: No. Initial consultations are free. We prioritize understanding your situation, challenges, and goals before discussing any engagement. This approach ensures we only move forward when there is a clear fit and a path to measurable results.
 SCHEMA RECOMMENDATION

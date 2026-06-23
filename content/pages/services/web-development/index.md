@@ -24,7 +24,7 @@ PAGE COPY
 
 
 Expert Web Development for the Healthcare Sector
-Marketing-focused web development built by operators who have scaled healthcare organizations from 3 to 24 locations.
+Marketing-focused web development built by operators who have scaled healthcare organizations through multi-market growth.
 [CTA] Request a Website Audit
 
 
@@ -48,7 +48,7 @@ The integration extends to AI-driven marketing solutions. Our AI-native approach
 For healthcare providers, this integration solves a persistent problem: marketing teams and web teams operating in silos, creating handoff gaps where leads disappear and attribution breaks. When the same team handles web development and marketing execution, those gaps close.
 Why Choose Marketing Powered?
 We are not a general web development agency that occasionally takes healthcare clients. Healthcare is our primary vertical, and behavioral health and mental health are our deepest specializations.
-Operator perspective, not just agency knowledge. Our founder scaled Haven Health from 3 to 24 locations. That operator experience means we understand the business pressures you face: census targets, intake team bandwidth, referral source relationships, and the compliance scrutiny that comes with operating in a regulated space. When we build your website, we're thinking about how it affects admissions, not just how it looks.
+Operator perspective, not just agency knowledge. Our founder managed operator-side multi-market growth. That operator experience means we understand the business pressures you face: census targets, intake team bandwidth, referral source relationships, and the compliance scrutiny that comes with operating in a regulated space. When we build your website, we're thinking about how it affects admissions, not just how it looks.
 Compliance built in, not bolted on. LegitScript certification requirements, HIPAA data handling standards, Google's sensitive vertical policies, and Meta's healthcare advertising restrictions are constraints we work within daily. Our court-certified expert witness credentials in advertising strategy reflect the depth of our compliance knowledge. We don't just build compliant websites. We understand why the compliance frameworks exist and how to operate within them without sacrificing performance.
 AI-native technology. We've operated with AI infrastructure since 2022, not as a recent add-on but as a core capability. Our proprietary systems run on controlled infrastructure designed for data sovereignty. For healthcare clients, this means AI-powered optimization without the PHI exposure risks that come with sending data to third-party platforms.
 Attribution discipline. We track attribution through to admission because that's the metric that matters for treatment centers and healthcare providers. Leads are an intermediate step. Admissions are the outcome. Your website should be built to support that level of tracking clarity.

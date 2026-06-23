@@ -95,5 +95,5 @@ Internal link gaps
 
 Missing proof points
 * Specific number of locations scaled (brief mentions 'founder's scaled network' but no specific count)
-* Specific revenue growth figures that could strengthen credibility (e.g., the Haven Health $30M to $140M reference from system prompt proof points)
+* Specific revenue growth figures that could strengthen credibility (e.g., an anonymized multi-location behavioral health organization substantial revenue growth reference from system prompt proof points)
 * Specific timeframe for the $50M+ managed media figure

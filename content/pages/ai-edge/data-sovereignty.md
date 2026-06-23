@@ -70,7 +70,7 @@ Self-assessment provides a starting point for understanding your current data so
 * AI-specific controls: Have you mapped data flows through AI systems, including training data, inference processing, and model storage?
 Moving from Assessment to Action
 Organizations that score poorly on multiple dimensions face an accumulated risk that grows with each AI system deployment. The gap between the current state and the compliant state often exceeds what internal teams can address without specialized support.
-Marketing Powered brings operator-level experience to data sovereignty in healthcare marketing. Our founder scaled Haven Health from 3 to 24 locations while building attribution systems that tracked through to admission, all within HIPAA and LegitScript requirements. That operational depth informs how we approach compliance: not as a checkbox exercise, but as infrastructure and process design.
+Marketing Powered brings operator-level experience to data sovereignty in healthcare marketing. Our founder managed operator-side multi-market growth while building attribution systems that tracked through to admission, all within HIPAA and LegitScript requirements. That operational depth informs how we approach compliance: not as a checkbox exercise, but as infrastructure and process design.
 Review our case studies to see how compliance-aware marketing performs at scale, or explore our paid media services to understand how we structure campaigns within sensitive vertical restrictions.
 [CTA] Request a Data Compliance Audit
 Request a Data Compliance Audit
@@ -118,7 +118,7 @@ Internal link gaps
 Compliance flags
 * HIPAA penalty figures cited ($100 to $50,000 per violation, $1.5 million annual maximum) are based on publicly available HHS guidance and should be verified against current enforcement policy before publication.
 * No specific client outcomes, recovery rates, or admission figures were claimed per compliance guardrails.
-* Haven Health reference uses founder narrative framing rather than outcome claims to stay within compliance guardrails.
+* a multi-location behavioral health organization reference uses founder narrative framing rather than outcome claims to stay within compliance guardrails.
 
 
 Missing proof points

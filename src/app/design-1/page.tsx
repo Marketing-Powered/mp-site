@@ -210,10 +210,10 @@ export default function Design1() {
                 className="text-3xl"
                 style={{ fontFamily: serif, color: "#7FCBFF" }}
               >
-                3 → 24
+                Multi-site
               </div>
               <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-white/45">
-                Haven Health locations
+                Multi-location growth
               </div>
             </div>
           </Reveal>

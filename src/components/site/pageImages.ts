@@ -76,7 +76,7 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     pageImg(
       "company/about",
       "04-results-stats.jpg",
-      "Proven results: scaling 3 to 24 locations and $50M+ in managed paid media spend with attribution discipline",
+      "Proven results: scaling multi-location growth and $50M+ in managed paid media spend with attribution discipline",
     ),
   ],
 
@@ -107,7 +107,7 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     "Expert Google Ads management for behavioral health, tracked through to admissions",
     "Google Ads path: precision targeting, intelligent bidding, and creative optimization to qualified admissions",
     "Google Ads management framework: precision targeting, intelligent bidding, creative optimization, and attribution to admission",
-    "Google Ads results: 34% lower cost per lead, more qualified calls, 2.3X return on ad spend, scaled 3 to 24 locations",
+    "Google Ads results: 34% lower cost per lead, more qualified calls, 2.3X return on ad spend, scaled multi-location growth",
   ]),
 
   "/services/meta-ads-management/": std4("services/meta-ads-management", [
@@ -121,7 +121,7 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     "Strategic landing page optimization to convert more qualified admission calls",
     "Optimized behavioral health landing page lifting conversion from 3% to 6% admissions",
     "Landing page optimization process: strategic audit, testing roadmap, execute experiments, analyze data, and implement winners",
-    "Behavioral health landing page performance: optimized pages convert 5-8%, lower bounce, Haven Health scaled 3 to 24 locations",
+    "Behavioral health landing page performance: optimized pages convert 5-8%, lower bounce, Multi-location behavioral health landing page performance",
   ]),
 
   "/services/analytics-and-attribution/": std4("services/analytics-and-attribution", [
@@ -400,7 +400,7 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     "Expert behavioral health marketing: operator-built marketing for treatment centers to scale admissions",
     "Specialized behavioral health marketing driving census growth, from qualified leads through intake and insurance verification to admissions",
     "Five steps to optimize behavioral health admissions: compliantly audit, architect strategy, build authority, full-funnel attribution, continuous optimization",
-    "Data-powered behavioral health marketing results: scaling 3 to 24 locations, $50M+ managed, +$140M revenue growth, zero compliance violations",
+    "Data-powered behavioral health marketing results: scaling multi-location growth, $50M+ managed, revenue growth, zero compliance violations",
   ]),
 
   // Hero swapped to the clean path graphic (02) — Asana's 01 hero showed literal
@@ -635,7 +635,7 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     pageImg(
       "get-started/book-a-call",
       "03-process.jpg",
-      "Behavioral health marketing results: scaling 3 to 24 locations, +700% growth, 28% lower cost per lead, 47% more qualified calls",
+      "Behavioral health marketing results: scaling multi-location growth, +700% growth, 28% lower cost per lead, 47% more qualified calls",
     ),
   ],
 
@@ -1032,7 +1032,7 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     "Media hub: press mentions and authority building for behavioral health",
     "From press mentions and credibility to behavioral health authority and growth and revenue, with strategic media exposure",
     "Our framework for behavioral health press coverage: research and identification, story angle development, proactive media outreach, and placement and tracking",
-    "Press mentions and media matters: amplifying behavioral health authority, our data-driven press approach, and press coverage impact scaling Haven Health from $30M to $140M",
+    "Press mentions and media matters: amplifying behavioral health authority, our data-driven press approach, and press coverage impact scaling a multi-location behavioral health organization from operator-side growth work",
   ]),
 
   "/media/media-kit/": std4("media/media-kit", [

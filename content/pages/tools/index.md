@@ -54,7 +54,7 @@ The tools that meet these standards vary by budget and organizational complexity
 Selecting the Right Tools for Your Needs
 Tool selection starts with clarity on what you are trying to measure and what compliance constraints you operate under. A tool that works for a general healthcare practice may violate Google Ads sensitive vertical policies when applied to addiction treatment marketing.
 Before committing to any platform, verify three things: (1) the tool handles PHI in a manner consistent with HIPAA requirements if it will touch patient data, (2) the vendor understands healthcare advertising restrictions and will not push you toward prohibited tactics like behavioral health retargeting, and (3) the tool's attribution model aligns with your actual conversion event, whether that is a phone call, form submission, or admission.
-Our case studies show how proper tool selection contributed to scaling treatment centers from 3 to 24 locations.
+Our case studies show how proper tool selection contributed to scaling treatment centers through multi-market growth.
 
 
 MP's Approach to Marketing Tools

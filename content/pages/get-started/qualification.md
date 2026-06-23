@@ -95,4 +95,4 @@ Compliance flags
 
 
 Missing proof points
-* The proof points library includes strong credentials ($50M+ managed, Haven Health scale, court-certified expert), but none fit naturally in a short qualification routing page. These are better deployed on service pages and case studies linked from this page.
+* The proof points library includes strong credentials ($50M+ managed, anonymized multi-market growth proof, court-certified expert), but none fit naturally in a short qualification routing page. These are better deployed on service pages and case studies linked from this page.

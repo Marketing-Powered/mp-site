@@ -49,7 +49,7 @@ We have operated as an AI-native agency since 2022, building proprietary systems
 The result is campaigns that improve week over week, not campaigns that run on autopilot until the next quarterly review.
 Case Studies: Success in Tele-Mental Health
 Our work in telehealth marketing builds on a foundation of proven results in behavioral health and mental health patient acquisition.
-Haven Health Management scaled from 3 to 24 locations with Marketing Powered as their marketing partner. That growth required building patient acquisition systems that worked across geographies, adapting to local market conditions while maintaining consistent cost per acquisition targets. The same principles apply to telehealth expansion: geographic precision, attribution discipline, and continuous optimization.
+Operator-side multi-market growth with Marketing Powered as their marketing partner. That growth required building patient acquisition systems that worked across geographies, adapting to local market conditions while maintaining consistent cost per acquisition targets. The same principles apply to telehealth expansion: geographic precision, attribution discipline, and continuous optimization.
 Across our [case studies](/results/case-studies/), you will see patterns relevant to telehealth providers: campaigns that tracked attribution through to admission, media spend managed with HIPAA-conscious infrastructure, and growth measured in patients served rather than just leads generated.
 For providers offering specialized services like [trauma and PTSD treatment](/who-we-help/mental-health/trauma-ptsd/), telehealth creates an opportunity to reach patients who might not access in-person care due to geographic barriers or the nature of their condition. Our experience spans these specialized service lines, building campaigns that reach the right patients with messaging that respects the sensitivity of their situation.
 Start with a Telehealth Marketing Audit
@@ -97,7 +97,7 @@ Compliance flags
 
 Missing proof points
 * Specific telehealth campaign performance metrics (CPA, ROAS) would strengthen the case studies section.
-* No telehealth-specific case study exists in the proof points library - relied on Haven Health scaling example as the closest relevant proof.
+* No telehealth-specific case study exists in the proof points library - relied on a multi-location behavioral health organization scaling example as the closest relevant proof.
 
 
 Banned phrasing in brief

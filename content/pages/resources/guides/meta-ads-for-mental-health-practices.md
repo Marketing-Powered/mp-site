@@ -72,7 +72,7 @@ These outcomes reflect patterns we have seen across $50M+ in managed ad spend. T
 [CTA] Request an Audit
 How Marketing Powered Can Elevate Your Meta Ads Strategy
 Operator experience and AI-native infrastructure for compliant, measurable growth
-Marketing Powered brings a different perspective to mental health advertising. Our team has operated in regulated healthcare verticals since our founding, managing campaigns for practices ranging from solo therapists to multi-state behavioral health systems like Haven Health Management, which scaled from 3 to 24 locations under our partnership.
+Marketing Powered brings a different perspective to mental health advertising. Our team has operated in regulated healthcare verticals since our founding, managing campaigns for practices ranging from solo therapists to multi-state behavioral health systems for multi-location behavioral health organizations.
 This operator experience translates to practical advantages. We understand compliance requirements not as abstract policies but as operational constraints we navigate daily. Our campaigns are built for LegitScript certification standards and HIPAA-aware practices from the start, not retrofitted after problems arise.
 Our AI-native approach adds capabilities that traditional agencies cannot match. We use proprietary AI systems running on controlled infrastructure to analyze campaign performance, generate creative variations, and identify optimization opportunities at a pace manual processes cannot sustain. This is purpose-built technology developed since 2022 for healthcare marketing applications.
 Attribution discipline separates our work from standard agency deliverables. We track Meta campaigns through to actual patient acquisition, not just clicks or form fills. This requires integration with your intake systems and CRM, which is work that most agencies avoid because it is technically complex and exposes their actual performance. We pursue it because it is the only way to understand true return on ad spend.
@@ -94,7 +94,7 @@ A: Successful Instagram strategies for mental health prioritize authenticity and
 Q: How does Marketing Powered ensure compliance with Meta ads?
 A: Marketing Powered builds compliance into campaign architecture from the start rather than retrofitting after problems occur. Our team has operated in regulated healthcare verticals since our founding, with campaigns structured for LegitScript certification standards and HIPAA-aware practices. We self-declare Special Ad Categories appropriately, avoid prohibited claims in ad copy, and maintain creative guidelines that align with FTC Health Products Compliance Guidance. This compliance-first approach has allowed us to manage $50M+ in ad spend without the account shutdowns that plague less experienced advertisers.
 Q: Why choose Marketing Powered for mental health ad campaigns?
-A: Marketing Powered combines operator experience in regulated healthcare verticals with AI-native technology built specifically for healthcare marketing. Our track record includes scaling Haven Health Management from 3 to 24 locations and managing $1.5M to $2M monthly in paid media across client accounts. We track attribution through to actual patient acquisition rather than just form fills, and our founder holds court-certified expert witness credentials in advertising strategy. This depth of experience means fewer compliance mistakes, faster optimization cycles, and measurable patient acquisition outcomes.
+A: Marketing Powered combines operator experience in regulated healthcare verticals with AI-native technology built specifically for healthcare marketing. Our track record includes operator-side multi-market growth and managing $1.5M to $2M monthly in paid media across client accounts. We track attribution through to actual patient acquisition rather than just form fills, and our founder holds court-certified expert witness credentials in advertising strategy. This depth of experience means fewer compliance mistakes, faster optimization cycles, and measurable patient acquisition outcomes.
 
 
 SCHEMA RECOMMENDATION
@@ -129,7 +129,7 @@ Internal link gaps
 
 Compliance flags
 * All outcome claims are framed as marketing performance metrics such as cost per lead and patient acquisition volume, not treatment efficacy
-* No specific client names are used beyond Haven Health Management, which appears in the provided Proof Points Library
+* No specific client names are used, which appears in the provided Proof Points Library
 * No PHI or patient-identifying information is included anywhere in the copy
 * No guaranteed success rates or cure language is used
 * The 34% cost-per-lead reduction and 23% patient volume attribution figures should be confirmed against actual client data before publication

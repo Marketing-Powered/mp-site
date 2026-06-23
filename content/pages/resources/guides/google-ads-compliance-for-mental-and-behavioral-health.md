@@ -60,7 +60,7 @@ Maintaining certification requires annual renewal and ongoing compliance with Le
 Case context: What certification enables
 Consider the operational reality of running a treatment center without the ability to advertise on Google. Organic search takes months or years to build. Referral relationships require sustained effort and may not scale with census needs. Direct mail and traditional advertising lack the intent signals that make paid search effective for treatment services.
 Organizations that achieve and maintain LegitScript certification gain access to the highest-intent advertising channel available for treatment services. Families actively searching for help represent a fundamentally different prospect than those reached through interruptive advertising. The certification requirement, while creating compliance overhead, also creates competitive advantage for organizations willing to meet the standard.
-Our experience scaling facilities from 3 to 24 locations at Haven Health demonstrated that Google Ads, operated compliantly with proper LegitScript certification, can serve as the primary growth engine for treatment center expansion. The compliance infrastructure is not a constraint on growth. It is the foundation that makes sustainable growth possible.
+Our experience scaling facilities through multi-market growth at a multi-location behavioral health organization demonstrated that Google Ads, operated compliantly with proper LegitScript certification, can serve as the primary growth engine for treatment center expansion. The compliance infrastructure is not a constraint on growth. It is the foundation that makes sustainable growth possible.
 
 
 Navigating Google's Sensitive Vertical Ad Policies

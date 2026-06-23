@@ -27,7 +27,7 @@ Operator experience meets AI-native infrastructure. $50M+ in managed behavioral 
 
 
 Why Choose Marketing Powered as Your Healthcare Marketing Agency?
-Most agencies pitch healthcare marketing without ever having operated inside a treatment organization. Marketing Powered is different. Founder Mike Hulick served as CMO at Haven Health Management from 2021 to 2024, scaling the network from 3 to 24 locations. That operator experience shapes every strategy we build.
+Most agencies pitch healthcare marketing without ever having operated inside a treatment organization. Marketing Powered is different. Founder Mike Hulick served as CMO at a multi-location behavioral health organization from 2021 to 2024, scaling the network through multi-market growth. That operator experience shapes every strategy we build.
 When you have managed intake teams, watched census fluctuate with seasonality, and felt the pressure of a $1.5M monthly ad budget, you learn what actually moves admissions. You learn that lead volume means nothing if your intake team cannot close the calls. You learn that compliance is not a checkbox; it is the difference between running ads and losing your LegitScript certification.
 We built Marketing Powered to be the healthcare marketing agency we wished existed when we were operators. One that speaks your language, understands your margins, and builds campaigns around admission economics rather than vanity metrics. Our AI technology powers faster optimization cycles, but operator judgment drives every decision.
 That combination of inside experience and technical capability is why treatment center executives trust us with their growth.
@@ -53,7 +53,7 @@ This compliance awareness is not a limitation. It is a competitive advantage. Wh
 
 Real Results From a Healthcare Marketing Agency With Operator Roots
 Numbers tell the story better than promises. Marketing Powered has managed over $50M in lifetime paid media spend across behavioral health and mental health verticals. We track attribution through to admission, not just to the lead form, giving our clients visibility into true patient acquisition costs.
-Our founder's operator experience includes scaling Haven Health Management across more than 20 locations during his tenure as CMO. That growth came from disciplined marketing execution: testing creative, optimizing landing pages, and building intake processes that converted calls into admissions.
+Our founder's operator experience includes scaling a multi-location behavioral health organization across more than 20 locations during his tenure as CMO. That growth came from disciplined marketing execution: testing creative, optimizing landing pages, and building intake processes that converted calls into admissions.
 Review our case studies to see how these principles translate into measurable outcomes for treatment centers and mental health practices.
 [CTA] View Case Studies
 Ready to Work With a Healthcare Marketing Agency That Understands Your Business?
@@ -67,7 +67,7 @@ A: Digital marketing allows mental health practices to reach patients at the mom
 Q: Why is compliance so critical in healthcare marketing?
 A: Non-compliance carries significant financial and operational risk. HIPAA violations can result in penalties up to $1.5 million annually per violation category. For addiction treatment advertisers, losing LegitScript certification means losing access to Google and Microsoft paid search. Marketing Powered maintains HIPAA-conscious practices and deep LegitScript awareness to protect your campaigns and your business.
 Q: What sets Marketing Powered apart from other healthcare marketing agencies?
-A: Operator experience. Founder Mike Hulick served as CMO at Haven Health Management, scaling the network from 3 to 24 locations. That inside perspective, combined with $50M+ in managed behavioral health and mental health media spend and a court-certified expert witness credential, means we understand your business at a level most agencies cannot match.
+A: Operator experience. Founder Mike Hulick served as CMO at a multi-location behavioral health organization, scaling the network through multi-market growth. That inside perspective, combined with $50M+ in managed behavioral health and mental health media spend and a court-certified expert witness credential, means we understand your business at a level most agencies cannot match.
 SCHEMA RECOMMENDATION
 Schema type: FAQPage, Organization, BreadcrumbList
 * FAQPage: mainEntity array with all four Q&A pairs from the FAQ section
@@ -99,7 +99,7 @@ Compliance flags
 
 
 Missing proof points
-* Specific revenue growth figures from Haven Health Management's tenure were not included as they were not confirmed in the brief's Proof Points Library.
+* Specific revenue growth figures from the anonymized multi-location growth period were not included as they were not confirmed in the brief's Proof Points Library.
 * Specific cost-per-lead or cost-per-admission reduction percentages would strengthen the Results section if available and verifiable.
 * Client testimonials or named case study references would improve the conversion rate on this hub page.
 

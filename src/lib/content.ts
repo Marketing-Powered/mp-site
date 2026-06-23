@@ -25,7 +25,7 @@ export const siteContent = {
   },
   growth: {
     headline: "Meet Your AI Marketing Experts",
-    body: "Most agencies learn behavioral health marketing by billing you for their education. We started from the operator's seat. Our founder scaled Haven Health from 3 to 24 locations, managing the marketing that drove that growth firsthand. That operator perspective shapes every campaign we build.",
+    body: "Most agencies learn behavioral health marketing by billing you for their education. We started from the operator's seat, building acquisition systems for multi-location treatment organizations where lead quality, intake capacity, compliance, and attribution all had to work together. That operator perspective shapes every campaign we build.",
     body2:
       "Marketing Powered is an AI marketing agency built specifically for the behavioral health and mental health verticals. We have managed over $50M in ad spend across these sectors, including $1.5 to $2M monthly in Google Ads alone. Our AI-native approach dates back to 2022, when we began building proprietary systems for predictive analytics, multi-variant optimization, and attribution modeling.",
     body3:
@@ -111,12 +111,12 @@ export const siteContent = {
         "Managed in behavioral health and mental health ad spend with full-funnel attribution.",
     },
     {
-      value: "3 to 24",
-      prefix: "3 to ",
-      to: 24,
-      suffix: "",
+      value: "11+",
+      prefix: "",
+      to: 11,
+      suffix: "+",
       label:
-        "Locations — Haven Health scaled under our marketing leadership with predictive modeling.",
+        "Behavioral health Google Ads accounts managed with vertical-specific compliance awareness.",
     },
     {
       value: "30-45%",
@@ -137,7 +137,7 @@ export const siteContent = {
   ],
   whyChoose: {
     headline: "Our Proven Results in Mental Health Marketing",
-    body: "Numbers tell the story better than adjectives. Haven Health grew from 3 locations to 24 under our marketing leadership. That scale required predictive modeling to identify which markets would support new facilities, attribution systems to prove which channels drove admissions, and creative optimization that maintained compliance while improving conversion rates.",
+    body: "Numbers tell the story better than adjectives. Across behavioral health and mental health accounts, our work combines predictive modeling, attribution systems, and creative optimization built for regulated healthcare growth. The goal is not more leads at any cost. It is qualified demand that your intake team can trace through to admission.",
     cards: [
       {
         title: "Full-Funnel Attribution",

@@ -101,7 +101,7 @@ Compliance flags
 Missing proof points
 * The court-certified expert witness credential was not incorporated; the informational nature of this page did not present a natural context for founder authority proof. Consider adding a byline or author bio block.
 * Specific managed spend figure ($50M+) was softened to 'substantial managed healthcare vertical spend' pending confirmation of approved usage context.
-* Haven 3-to-24 scale proof point was not used; page focus is educational rather than case-study oriented. Recommend linking to a case study page if this proof point needs placement.
+* multi-location 3-to-24 scale proof point was not used; page focus is educational rather than case-study oriented. Recommend linking to a case study page if this proof point needs placement.
 
 
 Banned phrasing in brief

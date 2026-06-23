@@ -229,25 +229,21 @@ export default function Design6() {
               <p className="mt-4 leading-relaxed text-white/45">{s.growth.body3}</p>
             </Reveal>
             <Reveal variant="blur" delay={120}>
-              <Window title="haven-health — growth.log">
+              <Window title="portfolio-growth — media.log">
                 <div className="space-y-1.5 text-[13px] leading-6">
                   <div>
                     <span style={{ color: GREEN }}>$</span>{" "}
-                    <span className="text-white/80">mp scale --client haven-health</span>
+                    <span className="text-white/80">mp optimize --portfolio bh-mh</span>
                   </div>
-                  <div className="text-white/45">› analyzing markets, attribution, creative…</div>
+                  <div className="text-white/45">› analyzing accounts, attribution, creative...</div>
                   <div className="flex items-end gap-5 py-3">
                     <span className="text-[clamp(2.6rem,6vw,4rem)] font-bold leading-none" style={{ color: BLUE }}>
-                      3
+                      11+
                     </span>
-                    <span className="pb-2 text-2xl text-white/30">→</span>
-                    <span className="text-[clamp(2.6rem,6vw,4rem)] font-bold leading-none" style={{ color: GREEN }}>
-                      24
-                    </span>
-                    <span className="pb-2 text-[12px] text-white/45">locations scaled</span>
+                    <span className="pb-2 text-[12px] text-white/45">BH/MH ad accounts</span>
                   </div>
                   <div>
-                    <span style={{ color: GREEN }}>[ ok ]</span> <span className="text-white/55">+700% location growth under our marketing</span>
+                    <span style={{ color: GREEN }}>[ ok ]</span> <span className="text-white/55">full-funnel attribution active</span>
                   </div>
                 </div>
               </Window>

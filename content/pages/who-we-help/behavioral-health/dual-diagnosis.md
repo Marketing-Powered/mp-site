@@ -17,7 +17,7 @@ PAGE COPY
 
 
 Explore Marketing Strategies for Dual Diagnosis Treatment
-Marketing that reflects the complexity of co-occurring disorder treatment, built by operators who have scaled behavioral health programs from 3 to 24 locations.
+Marketing that reflects the complexity of co-occurring disorder treatment, built by operators who have scaled behavioral health programs through multi-market growth.
 [CTA] Request a Free Audit
 
 
@@ -45,7 +45,7 @@ LegitScript certification is required for advertising addiction treatment on maj
 HIPAA considerations extend into marketing operations. Lead data must be handled appropriately, tracking implementations must avoid capturing protected health information, and any use of patient stories requires proper authorization and compliant framing. These safeguards must be built into every campaign from the start, not as an afterthought.
 Why Choose Marketing Powered for Dual Diagnosis Marketing
 Marketing Powered approaches dual diagnosis treatment marketing from an operator perspective, not an agency perspective. The difference shows in how we build campaigns, measure results, and communicate with your team.
-Our founder scaled Haven Health from 3 to 24 locations, managing the marketing that supported that growth firsthand. That operator experience means we understand census pressure, intake capacity constraints, and the real cost of low-quality leads. We have managed $50M+ in behavioral health and mental health media spend, including $1.5M to $2M monthly in Google Ads across 11+ accounts in this vertical.
+Our founder managed operator-side multi-market growth, managing the marketing that supported that growth firsthand. That operator experience means we understand census pressure, intake capacity constraints, and the real cost of low-quality leads. We have managed $50M+ in behavioral health and mental health media spend, including $1.5M to $2M monthly in Google Ads across 11+ accounts in this vertical.
 Attribution discipline separates our work from typical agency output. We track attribution through to admission, not just to form fill. This requires integration with your intake systems and a willingness to be measured on outcomes that matter.
 Our AI-native infrastructure, built on proprietary systems since 2022, enables optimization that off-the-shelf tools cannot match. Multi-variant optimization routes each visitor to the landing page variant most likely to convert based on their specific profile. Predictive models identify which leads are most likely to admit, allowing your intake team to prioritize accordingly.
 Start with a Marketing Audit

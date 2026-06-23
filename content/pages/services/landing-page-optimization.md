@@ -47,7 +47,7 @@ Trust signal placement matters for conversion-focused landing pages in healthcar
 Marketing Powered has been [AI-native since 2022](/ai-edge/), using machine learning models to identify optimization opportunities faster than manual analysis allows. Our proprietary systems analyze landing page performance data to surface patterns that human reviewers would miss.
 Case Studies: Proven Results in Behavioral Health
 Results in this vertical require more than screenshots of rising graphs. They require understanding the full path from click to admission.
-Marketing Powered partnered with Haven Health to scale from 3 locations to 24 locations over a growth period where landing page conversion was a primary lever. By systematically testing page variations across different treatment modalities and geographic markets, we identified which messaging resonated with each audience segment. The result was a media operation that supported revenue growth from approximately $30M to $140M.
+Marketing Powered partnered with a multi-location behavioral health organization to scale through a multi-location expansion over a growth period where landing page conversion was a primary lever. By systematically testing page variations across different treatment modalities and geographic markets, we identified which messaging resonated with each audience segment. The result was a media operation that supported revenue growth from operator-side growth work.
 Across our portfolio, we manage $1.5M to $2M monthly in Google Ads for behavioral health and mental health clients. That scale produces enough conversion data to run statistically valid tests quickly. Smaller budgets often stall on landing page testing because they cannot generate sufficient sample sizes within reasonable timeframes.
 For [dual diagnosis](/who-we-help/behavioral-health/dual-diagnosis/) programs specifically, we have found that landing pages addressing both the mental health and substance use components outperform pages that focus on only one. This insight came from controlled testing, not assumption. The data showed visitors to dual diagnosis landing pages converted at higher rates when the page validated the complexity of their situation rather than oversimplifying it.
 Our [case studies](/results/case-studies/) document specific outcomes across treatment types, geographies, and budget levels. The common thread is attribution discipline: we track which page variations produce leads that convert to admission, then allocate budget toward the winners.
@@ -110,7 +110,7 @@ Compliance flags
 
 
 Missing proof points
-* The brief's Proof Points Library does not include specific conversion rate improvements from landing page optimization work. The case study section references the Haven Health scale (3→24 locations, $30M to $140M revenue) but does not claim specific conversion rate lifts, per compliance guardrails prohibiting claims without evidence.
+* The brief's Proof Points Library does not include specific conversion rate improvements from landing page optimization work. The case study section references an anonymized multi-location growth story (multi-location locations, substantial growth) but does not claim specific conversion rate lifts, per compliance guardrails prohibiting claims without evidence.
 
 
 Banned phrasing in brief

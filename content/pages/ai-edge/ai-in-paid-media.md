@@ -54,7 +54,7 @@ The AI ppc management space includes platform-native tools from Google and Micro
 
 Case Studies of AI-Optimized Campaigns
 The difference between AI-assisted and AI-optimized campaigns shows most clearly in healthcare verticals where compliance constraints limit standard automation options.
-Haven Health Management scaled from 3 to 24 locations while Marketing Powered managed their paid media. The AI systems tracked attribution through to admission, not just to form fills or phone calls. This distinction matters because lead volume means nothing if those leads do not convert to revenue. By training models on admission data rather than surface-level conversions, the campaigns optimized for outcomes that actually drove business growth.
+Operator-side multi-market growth while Marketing Powered managed their paid media. The AI systems tracked attribution through to admission, not just to form fills or phone calls. This distinction matters because lead volume means nothing if those leads do not convert to revenue. By training models on admission data rather than surface-level conversions, the campaigns optimized for outcomes that actually drove business growth.
 Across [AI-driven marketing case studies](/results/case-studies/), a consistent pattern emerges: the combination of vertical expertise and AI capabilities outperforms either alone. Generic AI tools lack the compliance awareness required for [behavioral health marketing](/who-we-help/behavioral-health/). Manual optimization by specialists lacks the processing speed to capitalize on real-time signals. The integration of both creates campaigns that perform within regulatory constraints while adapting faster than competitors.
 
 

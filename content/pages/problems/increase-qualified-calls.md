@@ -63,7 +63,7 @@ Real results from behavioral health facilities we have partnered with
 The strategies outlined above produce measurable improvements in call quality and admission rates. Here are examples from facilities that partnered with Marketing Powered to increase qualified calls.
 One multi-location treatment provider came to us, managing intake across 3 facilities with inconsistent call quality. Their marketing was generating volume, but intake coordinators reported that fewer than 20% of calls were from appropriate candidates. We rebuilt their campaign structure around specific treatment modalities and insurance networks, implemented pre-qualification forms, and established attribution tracking through to admission. Within six months, the qualified call rate exceeded 45%, and the cost per admission dropped by 38%.
 A residential treatment center in the Southwest struggled with geographic mismatch. Their ads attracted callers from across the country, but their facility primarily served patients from three states due to insurance and licensing constraints. We restructured geographic targeting, adjusted messaging to emphasize regional service, and built landing pages that confirmed location early in the funnel. Qualified calls increased while total call volume decreased, exactly the tradeoff that improves intake efficiency.
-Our work scaling Haven Health from 3 to 24 locations demonstrates what happens when qualified call generation aligns with facility expansion. As new locations opened, marketing needed to drive qualified calls to specific facilities based on capacity, specialty, and insurance acceptance. The attribution infrastructure we built allowed real-time optimization across the portfolio, contributing to revenue growth from approximately $30M to $140M.
+Our work operator-side multi-market growth demonstrates what happens when qualified call generation aligns with facility expansion. As new locations opened, marketing needed to drive qualified calls to specific facilities based on capacity, specialty, and insurance acceptance. The attribution infrastructure we built allowed real-time optimization across the portfolio, contributing to revenue growth from operator-side growth work.
 You can explore additional [case studies](/results/case-studies/) demonstrating how these strategies translate to specific facility contexts and treatment modalities.
 Next Steps for Your Facility
 Improving call quality requires examining your current marketing through the lens of qualification, not just volume. If your intake team fields calls that consistently miss on insurance, geography, or level of care, the problem is upstream in your targeting and messaging.
@@ -86,7 +86,7 @@ A: AI systems analyze patterns in historical admission data to identify characte
 Q: What does HIPAA compliance mean for call generation?
 A: HIPAA requires that any system handling patient information maintain appropriate safeguards for privacy and security. In call generation, this means call tracking platforms, CRM systems, and attribution tools must be configured to protect caller data. Marketing Powered operates with a HIPAA-conscious infrastructure that ensures patient information remains protected throughout the marketing and intake process.
 Q: Can you provide examples of success stories?
-A: Marketing Powered has helped treatment centers significantly improve call quality through restructured targeting and pre-qualification. One facility increased qualified call rates from under 20% to over 45% while reducing cost per admission by 38%. Our work scaling Haven Health from 3 to 24 locations demonstrates how qualified call infrastructure supports multi-facility growth, contributing to revenue expansion from approximately $30M to $140M.
+A: Marketing Powered has helped treatment centers significantly improve call quality through restructured targeting and pre-qualification. One facility increased qualified call rates from under 20% to over 45% while reducing cost per admission by 38%. Our work operator-side multi-market growth demonstrates how qualified call infrastructure supports multi-facility growth, contributing to revenue expansion from operator-side growth work.
 
 
 SCHEMA RECOMMENDATION
@@ -117,7 +117,7 @@ Internal link gaps
 
 Compliance flags
 * Case study metrics (45% qualified call rate, 38% cost reduction) are written as illustrative examples based on proof points library patterns. If these represent specific client data, verify they are approved for publication.
-* Haven Health revenue figures ($30M to $140M) used per proof points library. Confirm client approval for public disclosure.
+* Anonymized multi-location revenue figures (substantial revenue growth) used per proof points library. Confirm client approval for public disclosure.
 
 
 Missing proof points

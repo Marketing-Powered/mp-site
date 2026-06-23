@@ -52,7 +52,7 @@ Both methodologies feed into strategy formation. Quantitative data tells you wha
 How Research Links to ROI and Success
 Marketing research directly impacts ROI by eliminating guesswork from budget allocation. When you know your cost per admission by channel, you can shift spend toward what works and cut what does not.
 Consider a treatment center spending $150,000 monthly across Google Ads, Meta (within compliance limits), and programmatic display. Without research-driven attribution, they might allocate budget based on lead volume alone. With proper attribution tracked through to admission, they discover that 70% of actual admissions originate from search, even though display generates more form fills. That insight shifts $30,000 monthly from low-converting channels to high-converting ones.
-We have seen this pattern repeatedly across the [case studies](/results/case-studies/) in our portfolio. Haven Health scaled from 3 to 24 locations using a research-driven media strategy. The difference was not more spending. It was a smarter allocation based on real admission data.
+We have seen this pattern repeatedly across the [case studies](/results/case-studies/) in our portfolio. Operator-side multi-market growth using a research-driven media strategy. The difference was not more spending. It was a smarter allocation based on real admission data.
 
 
 [CTA] Request an Audit

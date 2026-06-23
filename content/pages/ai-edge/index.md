@@ -31,7 +31,7 @@ AI-native infrastructure built for behavioral health and mental health marketing
 Why choose an AI advertising agency?
 Traditional digital marketing relies on manual optimization cycles, broad audience segments, and reactive adjustments. An AI advertising agency operates differently. Machine learning models analyze performance data continuously, adjusting bids, creative rotation, and audience signals faster than any human team can manage alone.
 For behavioral health and mental health providers, this speed matters. Lead quality varies dramatically by hour, by keyword, and by geographic cluster. An AI native agency can detect these patterns and shift budget allocation in near real time, reducing spend on low-intent traffic and concentrating resources where admission-ready prospects are searching.
-Marketing Powered has operated as an AI marketing agency since 2022, building proprietary systems rather than licensing third-party wrappers. Our founder scaled Haven Health from 3 to 24 locations, managing [behavioral health advertising strategies](/who-we-help/behavioral-health/) with operator-level accountability. That background shapes how we deploy AI: not as a novelty, but as infrastructure designed to improve lead quality and reduce cost per admission.
+Marketing Powered has operated as an AI marketing agency since 2022, building proprietary systems rather than licensing third-party wrappers. Our founder managed operator-side multi-market growth, managing [behavioral health advertising strategies](/who-we-help/behavioral-health/) with operator-level accountability. That background shapes how we deploy AI: not as a novelty, but as infrastructure designed to improve lead quality and reduce cost per admission.
 
 
 The difference between a traditional agency and an AI-powered marketing operation is measurable. Predictive analytics identify which creative variants will perform before full budget deployment. Multi-variant optimization routes each visitor to the landing page most likely to convert based on their entry path. Attribution modeling tracks every touchpoint from first click through completed admission, not just form fills.
@@ -122,7 +122,7 @@ Compliance flags
 Missing proof points
 * Specific percentage improvements for multi variant optimization would strengthen the AI-Driven Results section
 * Named case study or client (with permission) would add credibility to results claims
-* Specific timeframe for Haven Health scale (3 to 24 locations) would add context
+* Specific timeframe for anonymized multi-market growth proof (multi-location growth) would add context
 
 
 Banned phrasing in brief

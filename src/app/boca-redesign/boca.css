@@ -1,0 +1,144 @@
+/* ============================================================
+   Boca Recovery Center — Redesign concept
+   Scoped under .boca-root so it never leaks into the MP site.
+   Palette pulled from bocarecoverycenter.com's live brand:
+     brand indigo  rgb(44,50,143)  #2C328F
+     deep navy     rgb(30,30,78)   #1E1E4E
+     gold accent   rgb(207,169,20) #CFA914
+   ============================================================ */
+
+.boca-root {
+  --navy-950: #0a0e2a;
+  --navy-900: #0f1437;
+  --navy-850: #141a45;
+  --navy-800: #1a2156;
+  --indigo: #2c328f;
+  --indigo-600: #3a41ac;
+  --indigo-400: #6d73d6;
+  --gold: #cfa914;
+  --gold-300: #e6cb6a;
+  --gold-100: #f3e6b8;
+  --cream: #faf6ec;
+  --cream-200: #f3ecda;
+  --cream-300: #e9dfc6;
+  --ink: #1b1a22;
+  --muted: #56566a;
+  --muted-light: #8a8aa0;
+  --line: rgba(15, 20, 55, 0.1);
+
+  --font-display: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-body: var(--font-figtree), "Figtree", system-ui, sans-serif;
+
+  color: var(--ink);
+  font-family: var(--font-body);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "cv01";
+  overflow-x: clip;
+}
+
+.boca-root *,
+.boca-root *::before,
+.boca-root *::after {
+  box-sizing: border-box;
+}
+
+.boca-display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.04;
+}
+
+.boca-eyebrow {
+  font-family: var(--font-body);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.72rem;
+}
+
+/* gold underline flourish */
+.boca-rule {
+  display: inline-block;
+  width: 54px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), transparent);
+}
+
+/* subtle film grain overlay for the dark sections */
+.boca-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+}
+
+/* gold-glow gradient mesh used behind hero */
+.boca-mesh {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 55% at 78% 18%, rgba(207, 169, 20, 0.16), transparent 60%),
+    radial-gradient(50% 50% at 12% 85%, rgba(58, 65, 172, 0.45), transparent 60%),
+    radial-gradient(40% 40% at 50% 0%, rgba(109, 115, 214, 0.18), transparent 55%);
+}
+
+.boca-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 1px 2px rgba(15, 20, 55, 0.04);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s,
+    border-color 0.4s;
+}
+.boca-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px -20px rgba(15, 20, 55, 0.28);
+  border-color: rgba(207, 169, 20, 0.5);
+}
+
+.boca-link-underline {
+  background-image: linear-gradient(var(--gold), var(--gold));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.boca-link-underline:hover {
+  background-size: 100% 2px;
+}
+
+.boca-btn {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.boca-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(120deg, transparent 30%, rgba(255, 255, 255, 0.28), transparent 70%);
+  transform: translateX(-120%);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.boca-btn:hover::after {
+  transform: translateX(120%);
+}
+
+/* logo recolor to white for the dark footer */
+.boca-logo-white {
+  filter: brightness(0) invert(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boca-root * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

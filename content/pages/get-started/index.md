@@ -30,7 +30,7 @@ Operator experience and AI-native infrastructure built for behavioral health and
 
 Why Choose Marketing Powered?
 When you get started with a marketing agency, the first question is whether they actually understand your business. Most agencies treat behavioral health like any other vertical. They run generic campaigns, miss compliance requirements, and generate leads your intake team cannot close.
-Marketing Powered operates differently. Our founder scaled Haven Health from 3 to 24 locations, managing the marketing function through every stage of growth. That operator experience shapes how we build campaigns, measure results, and protect your business from compliance risk.
+Marketing Powered operates differently. Our founder managed operator-side multi-market growth, managing the marketing function through every stage of growth. That operator experience shapes how we build campaigns, measure results, and protect your business from compliance risk.
 We have managed over [$50M in behavioral health and mental health media spend](/who-we-help/behavioral-health/), with monthly Google Ads budgets ranging from $1.5M to $2M across active accounts. Our [AI-native infrastructure](/ai-edge/) has been in production since 2022, delivering attribution that tracks through to admission, not just form fills.
 Our Consultation Process
 Your [marketing agency consultation](/services/paid-media/) begins with a comprehensive audit of your current campaigns, landing pages, and attribution setup. We identify where spend is leaking, which channels are underperforming, and what compliance gaps exist in your ad accounts.
@@ -60,7 +60,7 @@ A: Yes. Marketing Powered offers a comprehensive marketing audit that reviews yo
 
 
 Q: How is Marketing Powered different from other agencies?
-A: Three factors distinguish us: AI-native infrastructure that has been in production since 2022, operator experience from scaling a behavioral health organization from 3 to 24 locations, and deep compliance awareness, including LegitScript certification requirements, HIPAA considerations, and Google Ads sensitive vertical restrictions. Our founder is also a court-certified expert witness in advertising strategy.
+A: Three factors distinguish us: AI-native infrastructure that has been in production since 2022, operator experience from scaling a behavioral health organization through multi-market growth, and deep compliance awareness, including LegitScript certification requirements, HIPAA considerations, and Google Ads sensitive vertical restrictions. Our founder is also a court-certified expert witness in advertising strategy.
 Q: What can I expect from a marketing agency consultation?
 A: The consultation covers your current marketing performance, census goals, and competitive landscape. You will receive a clear assessment of what is working, what is not, and what a potential engagement would include. We align on business objectives before discussing tactics or channel mix.
 

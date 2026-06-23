@@ -93,7 +93,7 @@ External citations
 
 
 Brief conflicts
-* The proof points provided in the brief (managed media spend, Haven Health scale, expert witness credential) are primarily relevant to marketing services rather than cookie or privacy compliance expertise. These were not incorporated as they would feel disconnected from the page topic.
+* The proof points provided in the brief (managed media spend, anonymized multi-market growth proof, expert witness credential) are primarily relevant to marketing services rather than cookie or privacy compliance expertise. These were not incorporated as they would feel disconnected from the page topic.
 
 
 Internal link gaps

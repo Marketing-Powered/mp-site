@@ -49,7 +49,7 @@ Marketing Powered builds compliance awareness into every campaign from the start
 When your marketing partner has operated in this space for years, compliance becomes a competitive advantage rather than a constraint. You move faster because you are not rebuilding campaigns after policy rejections.
 Results That Connect Marketing Spend to Clinical Outcomes
 Results in outpatient mental health marketing are measured in qualified intake calls, scheduled appointments, and patients who actually show up for their first session. Vanity metrics like impressions or clicks do not pay your clinicians.
-Our founder scaled Haven Health from 3 to 24 locations, building the patient acquisition infrastructure that supported that growth trajectory. That experience informs how we approach patient acquisition for every outpatient clinic we work with: start with unit economics, build attribution that connects marketing spend to clinical outcomes, and optimize for the metrics that actually matter to your P&L.
+Our founder managed operator-side multi-market growth, building the patient acquisition infrastructure that supported that growth trajectory. That experience informs how we approach patient acquisition for every outpatient clinic we work with: start with unit economics, build attribution that connects marketing spend to clinical outcomes, and optimize for the metrics that actually matter to your P&L.
 Across our mental health client portfolio, we have consistently reduced cost per qualified lead while improving lead quality. The combination matters. Cheaper leads that do not convert waste intake staff time. Expensive leads that convert still compress margins. The goal is qualified volume at sustainable acquisition costs, with attribution that lets you see exactly which channels and campaigns produce results.
 What separates successful outpatient clinic marketing from failed campaigns usually comes down to patience and precision. Mental health patient acquisition cycles are longer than those of urgent care or primary care. Patients research, compare, and deliberate before making contact. Campaigns need a runway to build data, and optimization requires granular conversion tracking that most agencies do not bother to implement.
 Why Outpatient Clinics Choose Marketing Powered
@@ -69,7 +69,7 @@ A: The most effective strategies combine paid search structured for Google's sen
 Q: How important is compliance in mental health marketing?
 A: Compliance is foundational, not optional. HIPAA governs patient data handling in your marketing systems. LegitScript certification validates ethical advertising standards. Google Ads healthcare policies restrict targeting and messaging for sensitive verticals. A compliance misstep can suspend your ad accounts or trigger regulatory action. We build HIPAA-conscious data handling and LegitScript awareness into every campaign from day one.
 Q: What results can I expect from outpatient clinic marketing?
-A: We measure success in qualified intake calls, scheduled appointments, and patients who show up. Our founder scaled Haven Health from 3 to 24 locations, building patient acquisition infrastructure that supported that growth. Across our portfolio, we have consistently reduced cost per qualified lead while improving lead quality, with attribution that connects marketing spend to clinical outcomes.
+A: We measure success in qualified intake calls, scheduled appointments, and patients who show up. Our founder managed operator-side multi-market growth, building patient acquisition infrastructure that supported that growth. Across our portfolio, we have consistently reduced cost per qualified lead while improving lead quality, with attribution that connects marketing spend to clinical outcomes.
 Q: How does Marketing Powered differ from other healthcare marketing agencies?
 A: Three factors set us apart: operator experience (our founder built and scaled a multi-location mental health practice), AI-native technology (proprietary systems on owned infrastructure since 2022), and budget depth ($50M+ managed in behavioral and mental health media). We are not a general agency adding mental health to a service list. This is our specialty.
 
@@ -105,12 +105,12 @@ Compliance flags
 * All outcome claims are framed as marketing performance metrics (qualified leads, cost per lead, intake calls) and not patient health outcomes.
 * No retargeting claims are made; Google Ads sensitive vertical restrictions are explicitly acknowledged in context.
 * No specific success rates are claimed without supporting context from the proof points library.
-* Haven Health reference is used only in the context of operational scale, not patient outcome claims.
+* a multi-location behavioral health organization reference is used only in the context of operational scale, not patient outcome claims.
 
 
 Missing proof points
 * Specific percentage improvements in cost per qualified lead for mental health clients would strengthen the results section.
-* Named case study examples beyond Haven Health would add credibility if available and permitted by clients.
+* Named case study examples beyond a multi-location behavioral health organization would add credibility if available and permitted by clients.
 * Specific no-show rate improvement data from patient engagement systems would support the corresponding bullet point in the strategies section.
 
 

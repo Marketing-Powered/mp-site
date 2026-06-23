@@ -45,7 +45,7 @@ Behavioral health marketing studies address questions that general marketing res
 Our research draws from campaigns where we tracked attribution through to admission, not just to form fill or phone call. This distinction matters: a campaign optimized for call volume looks different from one optimized for admitted census.
 
 
-Findings from our behavioral health marketing studies have informed client strategies at organizations we have scaled from 3 to 24 locations. The patterns hold across single-location detox centers, multi-state residential networks, and specialized adolescent programs. When research reflects that range, the insights transfer.
+Findings from our behavioral health marketing studies have informed client strategies at organizations we have scaled through multi-market growth. The patterns hold across single-location detox centers, multi-state residential networks, and specialized adolescent programs. When research reflects that range, the insights transfer.
 
 
 Applying Study Findings

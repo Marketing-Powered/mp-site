@@ -33,7 +33,7 @@ Marketing Powered has managed over $50M in behavioral health and mental health m
 The Role of Paid Media Research
 Paid media research identifies what works before the budget is committed. In behavioral health, where cost per admission inquiry can exceed $200, and compliance missteps trigger account suspensions, that identification matters.
 Our research tracks attribution through to admission, not just to form fill. This distinction separates meaningful marketing research from vanity metrics. A campaign that generates 500 leads but only 12 admissions tells a different story than one that generates 200 leads and 40 admissions. Research that stops at lead volume misses the economics entirely.
-We have scaled treatment centers from 3 to 24 locations using research-backed paid media services and tracked performance across $1.5M to $2M monthly in Google Ads. That scale generates proprietary data on creative performance, landing page conversion rates, and audience segment behavior that smaller operators cannot access independently.
+We have scaled treatment centers through multi-market growth using research-backed paid media services and tracked performance across $1.5M to $2M monthly in Google Ads. That scale generates proprietary data on creative performance, landing page conversion rates, and audience segment behavior that smaller operators cannot access independently.
 The same research methodology applies to mental health marketing, where patient acquisition economics differ but the need for rigorous data remains constant.
 Current Trends and Insights
 Several patterns have emerged from recent behavioral health marketing research.
@@ -64,7 +64,7 @@ A: Paid media research identifies which channels, creative variations, and audie
 Q: What are current trends in behavioral health marketing?
 A: Current trends include rising cost per click as competition intensifies in compliant channels, increased adoption of multi-variant landing page optimization, and more sophisticated attribution modeling that connects marketing touchpoints to admission outcomes. Organizations investing in AI-powered research and testing maintain a competitive advantage over those relying on static quarterly reports.
 Q: How does Marketing Powered differ in its research approach?
-A: Marketing Powered generates research from $50M+ in managed behavioral health and mental health media spend, analyzed through proprietary AI systems running on owned infrastructure. This is not aggregated public data or theoretical frameworks. Our research reflects real campaign performance, tracked through to admission, from an operator-level team that has scaled treatment centers from 3 to 24 locations.
+A: Marketing Powered generates research from $50M+ in managed behavioral health and mental health media spend, analyzed through proprietary AI systems running on owned infrastructure. This is not aggregated public data or theoretical frameworks. Our research reflects real campaign performance, tracked through to admission, from an operator-level team that has scaled treatment centers through multi-market growth.
 
 
 SCHEMA RECOMMENDATION

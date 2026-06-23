@@ -58,7 +58,7 @@ Case Studies: Success in Mental Health Marketing
 Results speak louder than promises. Our [case studies](/results/case-studies/) document the outcomes we have achieved for mental health and behavioral health clients across multiple verticals and scales.
 
 
-One example: Haven Health grew from 3 locations to 24 locations during our engagement. That growth required marketing infrastructure that could scale with the organization, attribution systems that connected spend to admissions across multiple facilities, and campaign management that maintained compliance as the footprint expanded. The revenue trajectory moved from approximately $30M to $140M.
+One example: A multi-location behavioral health organization expanded across multiple markets during our engagement. That growth required marketing infrastructure that could scale with the organization, attribution systems that connected spend to admissions across multiple facilities, and campaign management that maintained compliance as the footprint expanded. That work reinforced the importance of full-funnel reporting during growth periods.
 Another pattern we see repeatedly: mental health practices come to us after a bad experience with a generalist agency. The previous agency generated leads, but the leads were of low quality. The previous agency ran campaigns, but the campaigns got disapproved. The previous agency sent reports, but the reports did not connect to the metrics that actually drove the business. We rebuild from a foundation of category knowledge and compliance awareness, and the results follow.
 Our founder's credibility in this space includes status as a court-certified expert witness in advertising strategy. That level of accountability, where your methodology must withstand legal scrutiny, shapes how we approach every campaign. We build systems that can be defended, not just marketed.
 [CTA] Book a Discovery Call
@@ -107,12 +107,12 @@ Internal link gaps
 
 Compliance flags
 * All outcome claims are framed as marketing performance metrics (leads, admissions, cost per acquisition), not patient outcomes. No medical efficacy claims made.
-* Haven Health case study uses revenue and location growth metrics, not patient outcome data.
+* a multi-location behavioral health organization case study uses revenue and location growth metrics, not patient outcome data.
 * No retargeting capability implied in any paid media discussion.
 
 
 Missing proof points
-* The brief's Proof Points Library does not include specific mental health (as distinct from behavioral health) case study metrics. The Haven Health example appears to be behavioral health. If mental health-specific case studies exist, adding those proof points would strengthen the page for the stated audience.
+* The brief's Proof Points Library does not include specific mental health (as distinct from behavioral health) case study metrics. The a multi-location behavioral health organization example appears to be behavioral health. If mental health-specific case studies exist, adding those proof points would strengthen the page for the stated audience.
 * No specific cost-per-admission benchmarks for mental health vertical are provided in the proof points. If available, these would strengthen the 'Measuring Impact' section.
 
 

@@ -95,7 +95,7 @@ Compliance flags
 
 Missing proof points
 * The brief includes a court-certified expert witness proof point which could strengthen the Legal Support section if the context were appropriate for legal advisory positioning.
-* Haven 3 to 24 scale proof point was not used as it does not naturally fit legal hub content.
+* multi-location scale proof point was not used as it does not naturally fit legal hub content.
 
 
 Banned phrasing in brief

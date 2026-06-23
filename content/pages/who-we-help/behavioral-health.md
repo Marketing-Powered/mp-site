@@ -34,7 +34,7 @@ Generic marketing agencies learn these rules the hard way, usually with your bud
 The difference between a generalist agency and a specialized behavioral health marketing agency shows up in the first 30 days. Specialized teams understand that compliance is not a constraint to work around. It is the operating environment. They know which ad copy triggers manual review, which landing page elements satisfy LegitScript auditors, and which attribution models actually track a call through to admission.
 Treatment center marketing requires this level of specificity because the stakes are higher than a missed sale. A poorly targeted campaign does not just waste budget. It attracts leads who are not clinically appropriate, overwhelms intake with unqualified calls, and creates downstream operational problems that affect census and revenue. Specialized knowledge is not a premium add-on. It is the baseline for responsible performance.
 Our Operator-Driven Approach
-Marketing Powered was built by operators, not observers. Our founder scaled Haven Health from 3 locations to 24, managing patient acquisition across detox, residential, PHP, and IOP levels of care. That experience shapes everything we do, from how we structure campaigns to how we measure success.
+Marketing Powered was built by operators, not observers. Our founder scaled a multi-location behavioral health organization through a multi-location expansion, managing patient acquisition across detox, residential, PHP, and IOP levels of care. That experience shapes everything we do, from how we structure campaigns to how we measure success.
 When we say we understand treatment center marketing, we mean we have sat in the chair you are sitting in now. We have managed census targets during slow seasons. We have dealt with insurance verification bottlenecks that backed up intake. We have watched lead quality deteriorate when agencies optimized for volume instead of admissions. These are not case studies we read. They are problems we solved with our own P&L on the line.
 What operator experience means for your campaigns
 Operator experience translates into specific advantages you will notice immediately. We do not optimize for clicks or leads. We optimize for admissions because that is what actually matters to your business. Our attribution models track from first touch through intake call through admission, giving you visibility into which channels and campaigns produce patients, not just form fills.
@@ -65,8 +65,8 @@ This expertise protects your advertising accounts and your reputation. A suspend
 [CTA] Book a Discovery Call
 Case Studies: Success Stories in Behavioral Health
 The proof is in the outcomes. Here are specific examples of how our behavioral health marketing strategies have performed for treatment centers across the country.
-Haven Health: 3 to 24 locations
-Our founder led marketing during Haven Health's expansion from 3 locations to 24, growing revenue from approximately $30M to $140M. This was not agency work. This was operator-level execution with direct accountability for census targets, cost per admission, and intake team capacity.
+Anonymized Growth Case Study: Multi-Location Growth
+Our founder led marketing during a multi-location behavioral health organization's expansion through a multi-location expansion, supporting substantial revenue growth. This was not agency work. This was operator-level execution with direct accountability for census targets, cost per admission, and intake team capacity.
 The strategies developed during this growth phase form the foundation of what we deliver to clients today. We know what it takes to scale a multi-location behavioral health organization because we have done it ourselves.
 Multi-account portfolio management
 Across our current client portfolio, we manage $1.5M to $2M monthly in Google Ads spend for behavioral health and mental health treatment centers. This scale gives us pattern recognition that smaller agencies cannot match. We see which strategies work across different geographic markets, clinical specializations, and insurance mixes.
@@ -87,7 +87,7 @@ A: Effective behavioral health marketing combines high-intent paid search on Goo
 Q: How does compliance affect behavioral health marketing?
 A: Compliance shapes every aspect of behavioral health marketing. Google classifies addiction treatment as a sensitive vertical, requiring LegitScript certification and prohibiting retargeting. HIPAA requirements affect how lead data is collected and stored. Ad copy must avoid outcome claims and treatment efficacy language. These constraints are not obstacles. They are the operating environment that specialized agencies understand, and generalists often violate.
 Q: Why choose a specialized behavioral health marketing agency?
-A: Generalist agencies learn behavioral health compliance the hard way, usually with your budget and your advertising accounts at risk. Specialized agencies like Marketing Powered bring operator-level experience, platform policy expertise, and attribution models built for tracking admissions rather than leads. Our team has managed $50M+ in behavioral health media spend and scaled organizations from 3 to 24 locations.
+A: Generalist agencies learn behavioral health compliance the hard way, usually with your budget and your advertising accounts at risk. Specialized agencies like Marketing Powered bring operator-level experience, platform policy expertise, and attribution models built for tracking admissions rather than leads. Our team has managed $50M+ in behavioral health media spend and scaled organizations through multi-market growth.
 Q: What is the cost of marketing for behavioral health centers?
 A: Behavioral health marketing costs vary based on geographic competition, clinical specializations, and growth targets. Google Ads CPCs in competitive markets can range from $15 to $50+ for high-intent treatment keywords. According to WordStream benchmarks, healthcare advertising costs tend to run higher than average due to competition and regulatory requirements. We structure engagements around your specific targets and build campaigns that deliver measurable cost per admission, not just cost per lead.
 
@@ -121,4 +121,4 @@ Internal link gaps
 Missing proof points
 * Specific percentage improvements in cost per admission would strengthen the case studies section
 * Named client testimonials or logos would add credibility if available and approved
-* Specific admission volume numbers would strengthen the Haven Health case study
+* Specific admission volume numbers would strengthen the anonymized multi-location case study

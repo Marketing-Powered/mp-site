@@ -30,7 +30,7 @@ Founder-led expertise and AI-native operations built specifically for behavioral
 
 Our Founder and Leadership
 From scaling treatment centers to building the agency that scales them
-Marketing Powered was founded by Mike Hulick, a behavioral health marketing expert who spent years on the operator side before building this agency. At Haven Health Management, Mike led marketing efforts that scaled the organization from 3 locations to 24 locations across multiple states. That growth required solving the same problems treatment center operators face today: lead quality, intake conversion, compliance risk, and attribution that actually connects marketing spend to admissions.
+Marketing Powered was founded by Mike Hulick, a behavioral health marketing expert who spent years on the operator side before building this agency. At a multi-location behavioral health organization, Mike led marketing efforts that scaled the organization across a multi-state expansion. That growth required solving the same problems treatment center operators face today: lead quality, intake conversion, compliance risk, and attribution that actually connects marketing spend to admissions.
 The difference between agency knowledge and operator experience shows up in the details. Mike understands what happens after a lead comes in. He knows why intake teams reject certain calls. He has seen how attribution breaks down between the marketing dashboard and the admission paperwork. That operator perspective shapes every strategy Marketing Powered builds.
 Mike is also a court-certified expert witness in advertising strategy, a credential earned through rigorous legal scrutiny of his marketing methodology. When courts accept your expertise as credible testimony, it signals a level of discipline that most agencies never reach. That same discipline applies to every campaign, every compliance review, and every client relationship at Marketing Powered.
 This is a founder-led agency by design. Strategic decisions are made by someone who has managed budgets at scale, navigated LegitScript certification, and built attribution systems that track from first click to admission. Not by account managers following a playbook written for a different industry.
@@ -46,7 +46,7 @@ Marketing Powered brings HIPAA compliance awareness and LegitScript certificatio
 This expertise is not theoretical. It comes from managing $50M+ in lifetime paid media spend across behavioral health and mental health accounts. We know which strategies work in this vertical because we have tested them at scale, with real budgets and real compliance requirements.
 Proven Success and Case Studies
 Numbers that reflect operator-level results
-The clearest proof of Marketing Powered's capabilities is the Haven Health scaling success. Under Mike's marketing leadership, Haven Health grew from 3 locations to 24 locations. That kind of growth requires lead generation that scales, intake processes that convert, and attribution that proves which channels drive actual admissions.
+The clearest proof of Marketing Powered's capabilities is anonymized multi-location growth experience. Under Mike's marketing leadership, a multi-location behavioral health organization expanded across multiple markets. That kind of growth requires lead generation that scales, intake processes that convert, and attribution that proves which channels drive actual admissions.
 Across all clients, Marketing Powered has managed $50M+ in lifetime paid media spend specifically in the behavioral health and mental health verticals. Every dollar of that spend was tracked with attribution discipline that connects ad clicks to admission outcomes.
 These numbers represent real operational impact: census growth, cost-per-admission improvements, and marketing ROI that operators can verify against their own intake data.
 [CTA] View Case Studies
@@ -60,7 +60,7 @@ Book a discovery call to talk through your compliance posture, lead quality chal
 [CTA] Book a Discovery Call
 FAQ
 Q: What makes Marketing Powered different from other agencies?
-A: Marketing Powered combines founder-led expertise with AI-native operations and court-certified credentials. Mike Hulick built this agency after scaling Haven Health from 3 to 24 locations, bringing operator experience rather than just agency knowledge. The court-certified expert witness credential demonstrates a level of strategic discipline that has withstood legal scrutiny.
+A: Marketing Powered combines founder-led expertise with AI-native operations and court-certified credentials. Mike Hulick built this agency after managing operator-side multi-market growth, bringing operator experience rather than just agency knowledge. The court-certified expert witness credential demonstrates a level of strategic discipline that has withstood legal scrutiny.
 Q: How does an AI marketing agency benefit behavioral health providers?
 A: An AI-native approach delivers faster campaign iteration, more precise budget allocation through predictive analytics, and automated compliance monitoring. For behavioral health providers operating under Google Ads sensitive vertical restrictions and LegitScript requirements, these capabilities reduce risk while improving lead quality and cost efficiency.
 Q: What experience does Marketing Powered have in behavioral health marketing?
@@ -96,12 +96,12 @@ Internal link gaps
 
 Compliance flags
 * All outcome claims are framed as marketing performance metrics (locations scaled, media spend managed), not patient outcomes. Compliant with brief guardrails.
-* No specific success rates claimed without source. Scale metrics reference Haven Health growth and lifetime media spend from the Proof Points Library.
+* No specific success rates claimed without source. Scale metrics reference a multi-location behavioral health organization growth and lifetime media spend from the Proof Points Library.
 
 
 Missing proof points
-* Specific client logos or named case studies beyond Haven Health would strengthen the Proven Success section.
-* The founder's professional background details, such as education or prior roles before Haven Health, could add depth to the leadership section.
+* Specific client logos or named case studies beyond a multi-location behavioral health organization would strengthen the Proven Success section.
+* The founder's professional background details, such as education or prior operator-side roles, could add depth to the leadership section.
 
 
 Banned phrasing in brief

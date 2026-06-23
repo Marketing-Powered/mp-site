@@ -42,7 +42,7 @@ Marketing Powered continues to expand the infrastructure and expertise that supp
 
 Impact of Updates on Clients
 Agency announcements are not press releases for their own sake. They signal changes that affect client outcomes.
-When Marketing Powered scaled Haven Health from 3 to 24 locations, that growth required constant iteration on media strategy, attribution modeling, and compliance posture. The agency updates that emerged from that work, including new approaches to admission tracking and budget allocation frameworks, became available to other clients facing similar scaling challenges.
+When Marketing Powered supported operator-side multi-market growth, that growth required constant iteration on media strategy, attribution modeling, and compliance posture. The agency updates that emerged from that work, including new approaches to admission tracking and budget allocation frameworks, became available to other clients facing similar scaling challenges.
 Recent [case studies](/results/case-studies/) reflect how these operational improvements translate into measurable results: lower cost per qualified lead, higher admission rates from paid channels, and cleaner compliance records with platform reviewers. Clients who stay informed about company updates can request these capabilities proactively rather than waiting for a quarterly review.
 Future Projections and Plans
 Marketing Powered is investing in expanded AI governance frameworks, deeper vertical specialization, and additional infrastructure for data sovereignty. These investments address the compliance and performance pressures treatment center operators face as platform policies evolve.

@@ -22,7 +22,7 @@ PAGE COPY
 
 
 Overcoming Challenges in Multi-Location Marketing
-Proven frameworks for scaling campaigns across 3 to 24+ treatment center locations without sacrificing lead quality or compliance.
+Proven frameworks for scaling campaigns across multi-location treatment center growth without sacrificing lead quality or compliance.
 [CTA] Book Your Free Strategy Call
 
 
@@ -42,7 +42,7 @@ Effective Strategies for Multi-Location PPC
 Multi-location PPC requires a different architecture than single-site campaigns. The goal is centralized control with localized execution: one team managing strategy and compliance, with campaigns tailored to each market's competitive dynamics and patient demographics.
 A campaign structure that scales
 The most common mistake is building separate account structures for each location. This creates management overhead, fragments learning data, and makes cross-location optimization nearly impossible. Instead, use a single account with campaign-level segmentation by location and shared negative keyword lists.
-According to [Google's own documentation on location targeting](https://support.google.com/google-ads/answer/2453995), radius targeting combined with location-specific ad groups allows granular control without account fragmentation. Layer in location extensions and call extensions that route to the correct facility, and you have a structure that scales from 3 locations to 24 without rebuilding.
+According to [Google's own documentation on location targeting](https://support.google.com/google-ads/answer/2453995), radius targeting combined with location-specific ad groups allows granular control without account fragmentation. Layer in location extensions and call extensions that route to the correct facility, and you have a structure that scales through a multi-location expansion without rebuilding.
 Budget allocation should follow a tiered model. Establish a baseline spend for each location to maintain presence, then allocate incremental budget based on performance metrics like cost per qualified call and cost per admission. Review monthly and adjust quarterly.
 Operational discipline for multi-location PPC management
 Managing $1.5M to $2M monthly in [Google Ads for treatment centers](/services/paid-media/) across 11+ accounts requires operational rigor that most agencies lack. Weekly performance reviews by location, bi-weekly creative refreshes, and monthly strategy sessions with facility directors keep campaigns aligned with census goals and local market conditions.
@@ -72,7 +72,7 @@ If you are ready to discuss how to [grow your treatment center](/who-we-help/beh
 
 [CTA] Book Your Free Strategy Call → /get-started/book-a-call/
 Ready to Scale Your Multi-Location Marketing?
-Book a discovery call to discuss your multi-location strategy, compliance requirements, lead quality goals, and the channel mix that fits your growth targets. We will share what we have learned scaling treatment center networks from 3 to 24 locations.
+Book a discovery call to discuss your multi-location strategy, compliance requirements, lead quality goals, and the channel mix that fits your growth targets. We will share what we have learned scaling treatment center networks through multi-market growth.
 [CTA] Book Your Free Strategy Call
 FAQ
 Q: What is multi-location marketing?
@@ -84,7 +84,7 @@ A: Use a single Google Ads account with campaign-level segmentation by location 
 Q: Why is geotargeting important in multi-location campaigns?
 A: Geotargeting ensures your ads reach prospects in each facility's service area while preventing wasted spend on searchers outside your geographic footprint. Effective geotargeting analyzes actual patient origin data, identifies high-value ZIP codes based on insurance mix and conversion rates, and layers in location extensions that show searchers the nearest facility.
 Q: What should I look for in a multi-location marketing agency?
-A: Prioritize vertical experience in behavioral health marketing, including LegitScript and HIPAA awareness. Ask for scale credentials: specific spend amounts managed and locations scaled. Verify attribution sophistication by asking how they track from click to admission. Marketing Powered has managed $50M+ in BH/MH spend and scaled organizations from 3 to 24 locations with admission-level attribution.
+A: Prioritize vertical experience in behavioral health marketing, including LegitScript and HIPAA awareness. Ask for scale credentials: specific spend amounts managed and locations scaled. Verify attribution sophistication by asking how they track from click to admission. Marketing Powered has managed $50M+ in BH/MH spend and scaled organizations through multi-market growth with admission-level attribution.
 
 
 SCHEMA RECOMMENDATION

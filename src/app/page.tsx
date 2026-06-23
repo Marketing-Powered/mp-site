@@ -34,7 +34,7 @@ function GoldRule({ className = "" }: { className?: string }) {
 }
 
 /* Count-up that fires when scrolled into view. Animates only the numeric part;
-   `prefix`/`suffix` render verbatim so ranges and symbols ($50M+, 30-45%, 3 to 24)
+   `prefix`/`suffix` render verbatim so ranges and symbols ($50M+, 30-45%)
    reconstruct exactly. Respects prefers-reduced-motion (snaps to the final value). */
 function CountUp({
   to,
@@ -292,7 +292,7 @@ export default function Design1() {
             {[
               { v: "$50M+", l: "Managed ad spend" },
               { v: "$1.5–2M/mo", l: "Google Ads managed" },
-              { v: "3 → 24", l: "Haven Health locations" },
+              { v: "11+", l: "BH/MH ad accounts" },
               { v: "Since 2022", l: "AI-native systems" },
             ].map((p) => (
               <div key={p.l} className="text-center">
@@ -331,7 +331,7 @@ export default function Design1() {
                 // official content and have been replaced with verified proof points.
                 "$50M+ Managed Ad Spend",
                 "$1.5–2M/mo Google Ads",
-                "3 → 24 Locations",
+                "11+ BH/MH Ad Accounts",
                 "30–45% Lower Cost Per Lead",
                 "0 Account Suspensions",
                 "HIPAA-Conscious Infrastructure",
@@ -363,10 +363,10 @@ export default function Design1() {
                 className="text-3xl"
                 style={{ fontFamily: serif, color: "#7FCBFF" }}
               >
-                3 → 24
+                11+
               </div>
               <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-white/45">
-                Haven Health locations
+                BH/MH ad accounts
               </div>
             </div>
           </Reveal>

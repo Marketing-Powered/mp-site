@@ -261,19 +261,19 @@ export default function Design7() {
             </p>
           </Reveal>
 
-          {/* growth area chart 3 -> 24 */}
+          {/* account portfolio chart */}
           <Reveal variant="blur" className="rounded-2xl border border-[#E1EAF4] bg-[#FAFCFF] p-6">
             <div className="flex items-end justify-between">
               <div>
                 <div className="text-[12px] font-bold uppercase tracking-wider" style={{ color: MUTE }}>
-                  Haven Health · locations
+                  BH/MH ad accounts
                 </div>
                 <div className="mt-1 text-[2.4rem] font-extrabold leading-none" style={{ color: brand.green }}>
-                  <CountUp end={24} />
+                  <CountUp end={11} suffix="+" />
                 </div>
               </div>
               <div className="rounded-full bg-[#EAF7EF] px-3 py-1 text-[12px] font-bold text-[#00854C]">
-                +700% growth
+                $1.5-2M/mo
               </div>
             </div>
             <svg viewBox="0 0 320 140" className="mt-5 w-full">
@@ -299,8 +299,8 @@ export default function Design7() {
               <circle cx="320" cy="12" r="5" fill={brand.green} />
             </svg>
             <div className="mt-1 flex justify-between text-[11px] font-semibold" style={{ color: MUTE }}>
-              <span>3 locations</span>
-              <span>24 locations</span>
+              <span>Single account</span>
+              <span>Multi-account portfolio</span>
             </div>
           </Reveal>
         </div>

@@ -28,7 +28,7 @@ Strategic Google Ads management services built on $50M+ in managed behavioral he
 [CTA] Book a Discovery Call
 Why Choose Our Google Ads Management Services?
 Most agencies treat behavioral health like any other vertical. They apply the same playbook they use for e-commerce or SaaS, then wonder why lead quality tanks and compliance flags pile up. Google Ads management for treatment centers requires a different operating framework: one built on understanding admission economics, intake capacity constraints, and the regulatory reality of healthcare advertising.
-Marketing Powered has managed over $50M in [behavioral health marketing](/who-we-help/behavioral-health/) spend across Google Ads. That figure represents real campaigns for real treatment centers, from single-location detox facilities to multi-state behavioral health organizations. Our founder scaled Haven Health from 3 to 24 locations, giving us operator-level insight into how admission volume, bed capacity, and census targets actually connect to ad spend decisions.
+Marketing Powered has managed over $50M in [behavioral health marketing](/who-we-help/behavioral-health/) spend across Google Ads. That figure represents real campaigns for real treatment centers, from single-location detox facilities to multi-state behavioral health organizations. Our founder managed operator-side multi-market growth, giving us operator-level insight into how admission volume, bed capacity, and census targets actually connect to ad spend decisions.
 
 
 When you work with a Google Ads agency that specializes in your vertical, you get more than campaign management. You get a partner who understands why your cost per admission matters more than your cost per click, why certain keyword categories carry compliance risk, and why attribution needs to track through to the intake call, not just the form submission. That operational depth shapes every decision we make inside your account.
@@ -41,7 +41,7 @@ Our Google Ads management services follow a structured methodology built on thre
 Success Stories and Results
 Numbers tell the story better than promises. Here is what our Google Ads management approach has delivered for behavioral health clients:
 * A residential treatment center reduced cost per qualified lead by 34% within 90 days while increasing total admission-ready calls by 47%.
-* A multi-location detox network scaled from 3 facilities to 24 locations with Google Ads as the primary patient acquisition channel, maintaining stable unit economics throughout expansion.
+* A multi-location detox network scaled from a small regional footprint into a larger multi-market network with Google Ads as the primary patient acquisition channel, maintaining stable unit economics throughout expansion.
 * An IOP/PHP provider achieved 2.3x return on ad spend by restructuring campaigns around treatment modality and insurance verification status.
 Success Stories and Results
 Attribution That Tracks to Admission
@@ -116,7 +116,7 @@ Compliance flags
 Missing proof points
 * Specific CPC reduction percentages from real campaigns would strengthen the Success Stories section.
 * Named case study references (with client permission) would add credibility.
-* Specific timeframes for the Haven Health scaling proof point would add detail.
+* Specific timeframes for anonymized multi-location growth proof points would add detail.
 
 
 Banned phrasing in brief

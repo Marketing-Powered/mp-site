@@ -30,7 +30,7 @@ Marketing strategies built on operator experience, compliance discipline, and me
 
 Understanding the Residential Treatment Market
 Residential treatment center marketing operates under constraints that most agencies never encounter. Google classifies behavioral health as a sensitive vertical, which means no remarketing, restricted audience targeting, and ad copy that must clear compliance review before it runs. Add LegitScript certification requirements and state-level advertising regulations, and the margin for error shrinks further.
-The typical agency response is to treat these restrictions as obstacles. The operator response is to build systems around them. At Marketing Powered, our founder scaled Haven Health Network from 3 to 24 locations. That experience taught us what happens when lead quality drops, when intake teams are overwhelmed with unqualified calls, and when compliance failures put licenses at risk.
+The typical agency response is to treat these restrictions as obstacles. The operator response is to build systems around them. At Marketing Powered, our founder scaled a multi-location behavioral health network through multi-market growth. That experience taught us what happens when lead quality drops, when intake teams are overwhelmed with unqualified calls, and when compliance failures put licenses at risk.
 Patient acquisition for residential treatment requires understanding the decision timeline. Families and individuals searching for inpatient treatment are often in crisis. They need answers quickly, and they are comparing multiple centers simultaneously. Your marketing must reach them at the right moment, communicate credibility instantly, and route qualified prospects to intake without friction. This is where deep behavioral health marketing experience separates effective campaigns from wasted spend.
 Key Marketing Strategies for Residential Treatment Centers
 Effective residential treatment marketing combines paid media precision, organic visibility, and reputation infrastructure. Each channel serves a different function in the patient acquisition path.
@@ -109,7 +109,7 @@ Compliance flags
 
 
 Missing proof points
-* Specific RTC client case study metrics would strengthen H2 5; brief's Proof Points Library references Haven Health but no RTC-specific admission growth percentages were provided.
+* Specific RTC client case study metrics would strengthen H2 5; brief's Proof Points Library references a multi-location behavioral health organization but no RTC-specific admission growth percentages were provided.
 * Cost-per-admission benchmarks for residential treatment would add specificity to paid media discussion if available and compliant to disclose.
 
 

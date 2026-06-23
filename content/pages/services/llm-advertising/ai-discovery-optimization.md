@@ -51,7 +51,7 @@ The integration of these components creates a compounding effect. Each improveme
 Case Studies: Success with AI Discovery Optimization
 Measured outcomes from AI-native strategies
 The principles behind AI discovery optimization emerge from the same strategic foundation that has driven results across our core verticals. While our deepest expertise lies in [behavioral health marketing](/who-we-help/behavioral-health/) and [mental health marketing](/who-we-help/mental-health/), the technical methodology translates directly to AI visibility challenges.
-In behavioral health, we have managed over $50M in media spend while scaling operations from 3 to 24 locations for clients like Haven Health. That growth required sophisticated attribution tracking through to admission, not vanity metrics. The same attribution discipline applies to AI discovery: we measure actual citation frequency, not proxy metrics.
+In behavioral health, we have managed over $50M in media spend while scaling operations through multi-market growth for clients for multi-location behavioral health organizations. That growth required sophisticated attribution tracking through to admission, not vanity metrics. The same attribution discipline applies to AI discovery: we measure actual citation frequency, not proxy metrics.
 Our team manages $1.5M to $2M monthly in [paid media](/services/paid-media/) across 11+ accounts, giving us direct visibility into how AI-assisted search is shifting user behavior in real time. We see the query patterns changing. We watch click-through rates on traditional results decline for certain query types. This operational data informs our AI discovery optimization methodology.
 
 

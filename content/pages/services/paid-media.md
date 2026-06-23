@@ -30,7 +30,7 @@ Operator-backed paid media management for behavioral health and mental health tr
 
 Why Choose Our Paid Media Services
 Finding a paid media agency that understands behavioral health is harder than it should be. Most agencies treat treatment centers like any other lead generation client. They optimize for form fills, celebrate low CPCs, and never ask whether those leads actually converted to admissions. That approach burns budget and frustrates intake teams.
-Marketing Powered operates differently. Our founder built and scaled Haven Health Management from 3 to 24 locations, managing acquisitions from the inside. That operator experience shapes every campaign we run. We understand the compliance constraints that come with [behavioral health services](/who-we-help/behavioral-health/), the intake workflows that determine whether a lead becomes an admission, and the financial realities of census-driven businesses.
+Marketing Powered operates differently. Our founder built and managed operator-side multi-market growth, managing acquisitions from the inside. That operator experience shapes every campaign we run. We understand the compliance constraints that come with [behavioral health services](/who-we-help/behavioral-health/), the intake workflows that determine whether a lead becomes an admission, and the financial realities of census-driven businesses.
 
 
 Our team has managed over $50M in behavioral health and mental health media spend. We hold ourselves accountable to admission-level attribution, not vanity metrics. When you work with a PPC agency that has spent years inside the vertical, you get campaigns built for how treatment centers actually operate.
@@ -65,7 +65,7 @@ We also monitor for compliance drift. Platform policies change, account reviews 
 * Compliance monitoring for policy changes and account health
 * Predictive budget pacing based on historical conversion rates
 Client Success Stories
-Our track record includes scaling treatment organizations from regional operators to multi-state networks. Haven Health Management grew from 3 to 24 locations with Marketing Powered's founder leading the acquisition strategy from the inside. That experience, building paid acquisition systems that could support 8x facility growth, informs how we approach every client engagement.
+Our track record includes scaling treatment organizations from regional operators to multi-state networks. A multi-location behavioral health organization expanded across multiple markets with Marketing Powered's founder leading the acquisition strategy from the inside. That experience, building paid acquisition systems that could support 8x facility growth, informs how we approach every client engagement.
 We have managed paid media for treatment centers across the continuum of care: detox, residential, PHP, IOP, and outpatient. Our [case studies of success](/results/case-studies/) document specific outcomes, including cost per admission reductions, lead quality improvements, and census growth achieved through disciplined paid media management.
 The court-certified marketing expert credential our founder holds reflects the depth of expertise we bring to client work. When your paid media strategy needs to withstand scrutiny, you want a team that has operated at scale in your vertical and understands what responsible growth looks like.
 
@@ -75,7 +75,7 @@ Book a discovery call to talk through your current performance, compliance requi
 [CTA] Book a Discovery Call
 FAQ
 Q: What sets your PPC agency apart?
-A: Our founder built and scaled a behavioral health organization from 3 to 24 locations, managing acquisition from the operator side. That experience, combined with over $50M in managed BH/MH media spend, means we understand the intake workflows, compliance constraints, and census economics that shape effective campaigns. We track attribution through to admission, not just to form fills or calls.
+A: Our founder built and scaled a behavioral health organization through multi-market growth, managing acquisition from the operator side. That experience, combined with over $50M in managed BH/MH media spend, means we understand the intake workflows, compliance constraints, and census economics that shape effective campaigns. We track attribution through to admission, not just to form fills or calls.
 Q: How do you approach paid media management for behavioral health?
 A: We start with your intake capacity and work backward. Campaigns are built around admission-level attribution, with budget pacing tied to your actual conversion rates at each funnel stage. We design strategies that comply with Google Ads sensitive vertical restrictions and LegitScript requirements, ensuring sustainable performance without account risk.
 Q: Why is compliance important in paid media?

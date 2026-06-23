@@ -132,7 +132,7 @@ export default function MarkdownPage({
             <div className="relative">
               <ImageSlot
                 label="Hero Banner"
-                ratio="16 / 11"
+                ratio="16 / 9"
                 src={heroImg?.src}
                 alt={heroImg?.alt}
                 fit={heroImg?.fit}
@@ -189,7 +189,7 @@ export default function MarkdownPage({
                   <div className="mx-auto max-w-5xl px-6 py-8 lg:px-12">
                     <ImageSlot
                       label={label}
-                      ratio="16 / 7"
+                      ratio="16 / 9"
                       src={sectionImg?.src}
                       alt={sectionImg?.alt}
                       fit={sectionImg?.fit}

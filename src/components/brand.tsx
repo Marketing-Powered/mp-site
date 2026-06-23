@@ -65,7 +65,7 @@ export function Bolt({ className = "h-6 w-6" }: { className?: string }) {
 export function Figure({
   src,
   alt,
-  ratio = "16 / 10",
+  ratio = "16 / 9",
   className = "",
   rounded = "1.5rem",
   caption,
@@ -98,7 +98,7 @@ export function Figure({
           priority={priority}
           sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-contain"
-          style={{ padding: "clamp(8px,1.6vw,20px)" }}
+          style={{ padding: "clamp(4px,0.9vw,12px)", objectPosition: "center" }}
         />
       </div>
       {caption ? (

@@ -158,7 +158,7 @@ export default function Design1() {
             <Figure
               src={s.hero.image}
               alt={s.hero.imageAlt}
-              ratio="16 / 11"
+              ratio="16 / 9"
               rounded="26px"
               priority
               className="relative"
@@ -201,7 +201,7 @@ export default function Design1() {
       <section className="relative z-10 mx-auto max-w-7xl px-6 py-28 lg:px-12">
         <div className="grid gap-16 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <Reveal variant="blur" className="relative order-2 lg:order-1">
-            <Figure src={s.growth.image} alt={s.growth.imageAlt} ratio="16 / 12" />
+            <Figure src={s.growth.image} alt={s.growth.imageAlt} ratio="16 / 9" />
             <div
               className="absolute -bottom-6 -right-4 rounded-2xl border border-[#0090F0]/30 bg-[#050B16]/80 px-6 py-5 backdrop-blur"
               style={{ boxShadow: "0 24px 60px -20px rgba(0,0,0,0.8)" }}
@@ -346,7 +346,7 @@ export default function Design1() {
             <Figure
               src={s.specializedMarketing.image}
               alt={s.specializedMarketing.imageAlt}
-              ratio="16 / 10"
+              ratio="16 / 9"
             />
           </Reveal>
         </div>

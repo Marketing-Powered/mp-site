@@ -368,7 +368,7 @@ export default function Design7() {
             </div>
           </Reveal>
           <Reveal variant="blur" delay={120}>
-            <Figure src={s.specializedMarketing.image} alt={s.specializedMarketing.imageAlt} ratio="16 / 10" />
+            <Figure src={s.specializedMarketing.image} alt={s.specializedMarketing.imageAlt} ratio="16 / 9" />
           </Reveal>
         </div>
       </section>

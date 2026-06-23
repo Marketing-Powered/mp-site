@@ -42,8 +42,8 @@ export default function ImageSlot({
             className={fit === "contain" ? "object-contain" : "object-cover"}
             style={
               fit === "contain"
-                ? { padding: "clamp(8px,1.6vw,22px)" }
-                : undefined
+                ? { padding: "clamp(4px,1vw,14px)", objectPosition: "center" }
+                : { objectPosition: "center" }
             }
           />
         </div>

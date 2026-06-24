@@ -205,8 +205,8 @@ export default function Page() {
             min: 8,
             label: "of potential admissions likely lost between first contact and completed intake.",
           }}
-          ctaText="Book a Discovery Call"
-          ctaLink="/get-started/book-a-call/"
+          ctaText="Request an Intake Audit"
+          ctaLink="/get-started/request-an-audit/"
         />
       </section>
 
@@ -256,10 +256,10 @@ export default function Page() {
 
       <CtaBand
         headline="See where your intake funnel is losing admissions"
-        body="Your intake funnel is either converting the leads your marketing generates or wasting them. If the results reveal gaps you want help addressing, book a discovery call to discuss implementation with a team that has scaled behavioral health operations through multi-market growth."
-        ctaText="Book a Discovery Call"
-        ctaLink="/get-started/book-a-call/"
-        secondaryCta={{ text: "Request a Free Audit", link: "/get-started/request-an-audit/" }}
+        body="Your intake funnel is either converting the leads your marketing generates or wasting them. If the results reveal gaps you want help addressing, request an audit and send the details to a team that has scaled behavioral health operations through multi-market growth."
+        ctaText="Request a Free Audit"
+        ctaLink="/get-started/request-an-audit/"
+        secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>
   );

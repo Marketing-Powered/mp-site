@@ -60,21 +60,21 @@ export default function Design1() {
       <header className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 py-7 lg:px-12">
         <Logo tone="light" />
         <nav className="hidden items-center gap-9 text-[13px] tracking-wide text-white/55 md:flex">
-          {s.nav.map((n) => (
-            <a
-              key={n}
-              href="#"
+          {s.navLinks.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
               className="transition-colors duration-300 hover:text-white"
             >
-              {n}
-            </a>
+              {item.label}
+            </Link>
           ))}
         </nav>
         <Link
           href={s.hero.ctaLink}
           className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
         >
-          <span className="relative z-10">Book a Call</span>
+          <span className="relative z-10">Request Audit</span>
           <span className="absolute inset-0 -z-0 translate-y-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] transition-transform duration-300 group-hover:translate-y-0" />
         </Link>
       </header>
@@ -489,14 +489,14 @@ export default function Design1() {
             </p>
           </div>
           <div className="flex flex-wrap gap-x-8 gap-y-2 text-[13px] text-white/45">
-            {s.footer.services.map((svc) => (
-              <a
-                key={svc}
-                href="#"
+            {s.footer.serviceLinks.map((svc) => (
+              <Link
+                key={svc.href}
+                href={svc.href}
                 className="transition-colors hover:text-[#0090F0]"
               >
-                {svc}
-              </a>
+                {svc.label}
+              </Link>
             ))}
           </div>
         </div>

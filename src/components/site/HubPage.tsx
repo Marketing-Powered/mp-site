@@ -26,8 +26,8 @@ export default function HubPage({
   const page = getPage(file);
   const url = page.frontmatter.url || "/";
   const heroCta = page.heroCta || {
-    text: "Book a Discovery Call",
-    link: "/get-started/book-a-call/",
+    text: "Request a Free Audit",
+    link: "/get-started/request-an-audit/",
   };
   const overviewImg = pageImages(url)[1];
 

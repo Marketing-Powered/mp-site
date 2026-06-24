@@ -250,10 +250,10 @@ export default function Page() {
 
       <CtaBand
         headline="Request your attribution audit"
-        body="Get a technical review of your current tracking setup: identify gaps, correct misattributions, and build the data foundation for smarter budget decisions — backed by operators who tracked attribution through to admission while scaling through multi-market growth."
+        body="Get a technical review of your current tracking setup: identify gaps, correct misattributions, and build the data foundation for smarter budget decisions with operators who tracked attribution through to admission while scaling through multi-market growth."
         ctaText="Request Your Attribution Audit"
         ctaLink="/get-started/request-an-audit/"
-        secondaryCta={{ text: "Book a Strategy Call", link: "/get-started/book-a-call/" }}
+        secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>
   );

@@ -259,10 +259,10 @@ export default function Page() {
 
       <CtaBand
         headline="Ready to see where you stand?"
-        body="Your readiness report is a starting point. If you want to discuss your results with an operator who has managed $50M+ in behavioral health media spend, book a discovery call to walk through your findings and outline next steps."
+        body="Your readiness report is a starting point. If you want us to review the results, send the details through the audit form and an operator who has managed $50M+ in behavioral health media spend will outline next steps."
         ctaText="Request a Marketing Audit"
         ctaLink="/get-started/request-an-audit/"
-        secondaryCta={{ text: "Book a Strategy Call", link: "/get-started/book-a-call/" }}
+        secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>
   );

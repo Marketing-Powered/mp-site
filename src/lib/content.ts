@@ -9,16 +9,22 @@ export const siteContent = {
   seo: {
     title: "AI Marketing Agency for Behavioral Health",
     description:
-      "Achieve more with $50M+ in managed ad spend and AI-native strategies. Book a call.",
+      "Achieve more with $50M+ in managed ad spend and AI-native strategies. Request a free audit.",
   },
   nav: ["Home", "Services", "Specialties", "Resources"],
+  navLinks: [
+    { label: "Home", href: "/" },
+    { label: "Services", href: "/services/" },
+    { label: "Specialties", href: "/who-we-help/" },
+    { label: "Resources", href: "/resources/" },
+  ],
   hero: {
     headline:
       "Partner with an AI Marketing Agency That Knows Behavioral Health",
     subheadline:
       "AI-native strategies built on $50M+ in managed behavioral health and mental health ad spend. No guesswork. No compliance surprises.",
-    cta: "BOOK A DISCOVERY CALL",
-    ctaLink: "/get-started/book-a-call/",
+    cta: "REQUEST A FREE AUDIT",
+    ctaLink: "/get-started/request-an-audit/",
     image: "/images/pages/home/01-hero-banner.jpg?v=20260624",
     imageAlt:
       "Marketing Powered strategy team meeting in a modern office conference room",
@@ -165,10 +171,10 @@ export const siteContent = {
       "Infographic showing Marketing Powered driving growth in AI-native behavioral health marketing with key performance metrics",
   },
   bookAudit: {
-    headline: "Book a Call for a Tailored Marketing Audit",
+    headline: "Request a Tailored Marketing Audit",
     body: "Every treatment center has a different starting point. Some are spending $500K monthly on Google Ads with no clear attribution. Others are just beginning to scale beyond word-of-mouth referrals. Your strategy should reflect your specific situation, not a template pulled from another vertical.",
     body2:
-      "A discovery call with Marketing Powered covers the questions that matter: Where is your current spend going? What does your attribution look like from click to admission? Are there compliance gaps in your current campaigns? Which channels have headroom for growth?",
+      "A Marketing Powered audit covers the questions that matter: Where is your current spend going? What does your attribution look like from click to admission? Are there compliance gaps in your current campaigns? Which channels have headroom for growth?",
     image: "/images/03-infographic-process-steps.jpg",
     imageAlt:
       "Process steps infographic showing Marketing Powered's approach to behavioral health marketing audits",
@@ -205,9 +211,9 @@ export const siteContent = {
   cta: {
     headline:
       "Ready to See What AI-Native Marketing Can Do for Your Treatment Center?",
-    body: "Schedule a discovery call to discuss your current marketing performance, compliance posture, and growth objectives. We will give you an honest assessment of where the opportunities are and whether Marketing Powered is the right partner to pursue them.",
-    ctaText: "BOOK A DISCOVERY CALL",
-    ctaLink: "/get-started/book-a-call/",
+    body: "Request a free audit of your current marketing performance, compliance posture, and growth objectives. We will give you an honest assessment of where the opportunities are and whether Marketing Powered is the right partner to pursue them.",
+    ctaText: "REQUEST A FREE AUDIT",
+    ctaLink: "/get-started/request-an-audit/",
     image: "/images/08-summary-takeaways-visual.jpg",
     imageAlt:
       "Summary visual of Marketing Powered AI marketing agency takeaways and next steps",
@@ -221,6 +227,14 @@ export const siteContent = {
       "Full-Funnel Attribution",
       "Compliance-First Campaigns",
       "AI-Driven Optimization",
+    ],
+    serviceLinks: [
+      { label: "Behavioral Health PPC", href: "/services/ppc/" },
+      { label: "Mental Health Marketing", href: "/who-we-help/mental-health/" },
+      { label: "Predictive Lead Scoring", href: "/services/intake-optimization/" },
+      { label: "Full-Funnel Attribution", href: "/services/analytics-and-attribution/" },
+      { label: "Compliance-First Campaigns", href: "/resources/compliance-ad-policy/" },
+      { label: "AI-Driven Optimization", href: "/ai-edge/" },
     ],
     copyright:
       "Copyright 2025. All rights Reserved. Design by Marketing Powered AI",

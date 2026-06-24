@@ -200,8 +200,8 @@ export default function Page() {
           dimensions={DIMENSIONS}
           tiers={TIERS}
           scoreLabel="Meta Ads Health Score"
-          ctaText="Book a Strategy Call to Review Your Score"
-          ctaLink="/get-started/book-a-call/"
+          ctaText="Request an Audit of Your Score"
+          ctaLink="/get-started/request-an-audit/"
         />
       </section>
 
@@ -249,10 +249,10 @@ export default function Page() {
 
       <CtaBand
         headline="Ready to see where you stand?"
-        body="When you complete your Meta Ads readiness assessment, book a strategy call to review your results with our team. We'll walk through your score, identify the highest-impact fixes, and help you build a path to compliant, high-performing campaigns — backed by $50M+ in managed behavioral health media spend."
-        ctaText="Book a Strategy Call"
-        ctaLink="/get-started/book-a-call/"
-        secondaryCta={{ text: "Request a Free Audit", link: "/get-started/request-an-audit/" }}
+        body="When you complete your Meta Ads readiness assessment, request an audit to review your results with our team. We'll walk through your score, identify the highest-impact fixes, and help you build a path to compliant, high-performing campaigns backed by $50M+ in managed behavioral health media spend."
+        ctaText="Request a Free Audit"
+        ctaLink="/get-started/request-an-audit/"
+        secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>
   );

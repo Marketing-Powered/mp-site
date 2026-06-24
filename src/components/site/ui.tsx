@@ -39,16 +39,33 @@ export function PrimaryCta({
   children: React.ReactNode;
   className?: string;
 }) {
-  return (
-    <Link
-      href={href || "/get-started/"}
-      prefetch={false}
-      className={`group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)] ${className}`}
-    >
+  const target = href || "/get-started/request-an-audit/";
+  const isExternal = target.startsWith("mailto:") || target.startsWith("tel:") || /^https?:\/\//.test(target);
+  const buttonClass = `group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)] ${className}`;
+  const inner = (
+    <>
       <span className="relative z-10">{children}</span>
       <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">
         →
       </span>
+    </>
+  );
+
+  if (isExternal) {
+    return (
+      <a href={target} className={buttonClass}>
+        {inner}
+      </a>
+    );
+  }
+
+  return (
+    <Link
+      href={target}
+      prefetch={false}
+      className={buttonClass}
+    >
+      {inner}
     </Link>
   );
 }
@@ -63,14 +80,31 @@ export function GhostCta({
   children: React.ReactNode;
   className?: string;
 }) {
-  return (
-    <Link
-      href={href || "/get-started/"}
-      prefetch={false}
-      className={`group relative inline-flex items-center gap-2 overflow-hidden rounded-full border border-white/15 px-6 py-3.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black ${className}`}
-    >
+  const target = href || "/get-started/request-an-audit/";
+  const isExternal = target.startsWith("mailto:") || target.startsWith("tel:") || /^https?:\/\//.test(target);
+  const buttonClass = `group relative inline-flex items-center gap-2 overflow-hidden rounded-full border border-white/15 px-6 py-3.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black ${className}`;
+  const inner = (
+    <>
       <span className="relative z-10">{children}</span>
       <span className="absolute inset-0 -z-0 translate-y-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] transition-transform duration-300 group-hover:translate-y-0" />
+    </>
+  );
+
+  if (isExternal) {
+    return (
+      <a href={target} className={buttonClass}>
+        {inner}
+      </a>
+    );
+  }
+
+  return (
+    <Link
+      href={target}
+      prefetch={false}
+      className={buttonClass}
+    >
+      {inner}
     </Link>
   );
 }

@@ -104,14 +104,14 @@ export default function Design6() {
       <header className="relative z-30 mx-auto flex max-w-6xl items-center justify-between px-6 py-5 lg:px-8">
         <Logo tone="light" />
         <nav className="hidden items-center gap-8 text-[13px] text-white/55 md:flex" style={{ fontFamily: mono }}>
-          {s.nav.map((n) => (
-            <a key={n} href="#" className="transition-colors hover:text-white">
-              {n.toLowerCase()}
-            </a>
+          {s.navLinks.map((item) => (
+            <Link key={item.href} href={item.href} className="transition-colors hover:text-white">
+              {item.label.toLowerCase()}
+            </Link>
           ))}
         </nav>
         <Link href={s.hero.ctaLink} className={ctaPrimary} style={{ background: BLUE, fontFamily: mono }}>
-          book a call
+          request audit
         </Link>
       </header>
 
@@ -462,10 +462,10 @@ export default function Design6() {
             </p>
           </div>
           <div className="flex flex-wrap gap-x-7 gap-y-2 text-[13px] text-white/50" style={{ fontFamily: mono }}>
-            {s.footer.services.map((svc) => (
-              <a key={svc} href="#" className="transition-colors hover:text-white">
-                {svc}
-              </a>
+            {s.footer.serviceLinks.map((svc) => (
+              <Link key={svc.href} href={svc.href} className="transition-colors hover:text-white">
+                {svc.label}
+              </Link>
             ))}
           </div>
         </div>

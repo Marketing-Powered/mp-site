@@ -128,10 +128,10 @@ export default function Page() {
 
       <CtaBand
         headline="Need help finding something specific?"
-        body="Some questions are better answered by a person than a search bar. Book a call to speak with someone who understands behavioral health and mental health marketing, explore services, or get pointed in the right direction."
-        ctaText="Book a Call"
-        ctaLink="/get-started/book-a-call/"
-        secondaryCta={{ text: "Contact Us", link: "/company/contact/" }}
+        body="Some questions are better answered by a person than a search bar. Send us the context and someone who understands behavioral health and mental health marketing can point you in the right direction."
+        ctaText="Contact Us"
+        ctaLink="/company/contact/"
+        secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>
   );

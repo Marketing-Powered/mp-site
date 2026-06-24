@@ -183,10 +183,10 @@ export default function Page() {
 
       <CtaBand
         headline="Ready to go beyond the calculator?"
-        body="The calculator gives you a baseline. A full audit gives you the channel-level breakdown, attribution analysis, and benchmark comparisons that turn data into decisions — backed by $50M+ in managed behavioral health and mental health media spend."
-        ctaText="Book a Strategy Call"
-        ctaLink="/get-started/book-a-call/"
-        secondaryCta={{ text: "Request a Free Audit", link: "/get-started/request-an-audit/" }}
+        body="The calculator gives you a baseline. A full audit gives you the channel-level breakdown, attribution analysis, and benchmark comparisons that turn data into decisions, backed by $50M+ in managed behavioral health and mental health media spend."
+        ctaText="Request a Free Audit"
+        ctaLink="/get-started/request-an-audit/"
+        secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>
   );

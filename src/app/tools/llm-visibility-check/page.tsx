@@ -170,10 +170,10 @@ export default function Page() {
 
       <CtaBand
         headline="See where your brand stands in AI search"
-        body="The shift toward AI-assisted discovery is accelerating. Get a detailed assessment with competitive benchmarking and a prioritized action plan — built on AI-native infrastructure operating since 2022."
+        body="The shift toward AI-assisted discovery is accelerating. Get a detailed assessment with competitive benchmarking and a prioritized action plan built on AI-native infrastructure operating since 2022."
         ctaText="Request a Full LLM Visibility Audit"
         ctaLink="/get-started/request-an-audit/"
-        secondaryCta={{ text: "Book a Strategy Call", link: "/get-started/book-a-call/" }}
+        secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>
   );

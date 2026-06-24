@@ -28,10 +28,19 @@ export type ParsedPage = {
 
 const CONTENT_ROOT = path.join(process.cwd(), "content", "pages");
 
+function isCallCta(text: string): boolean {
+  return /book|call|consult|strategy|schedule/i.test(text);
+}
+
+function normalizeCtaText(text: string): string {
+  if (isCallCta(text)) return "Request a Free Audit";
+  return text;
+}
+
 function defaultCtaLink(text: string): string {
   if (/audit/i.test(text)) return "/get-started/request-an-audit/";
   if (/contact|question/i.test(text)) return "/company/contact/";
-  if (/book|call|consult|strategy|schedule/i.test(text)) return "/get-started/book-a-call/";
+  if (isCallCta(text)) return "/get-started/request-an-audit/";
   return "/get-started/request-an-audit/";
 }
 
@@ -42,7 +51,14 @@ function cleanCtaLink(link: string, text: string): string {
     .replace(/^\((.*)\)$/g, "$1")
     .trim();
 
-  return cleaned || defaultCtaLink(text);
+  if (!cleaned) return defaultCtaLink(text);
+
+  const pathOnly = cleaned.split("#")[0]?.replace(/\/+$/, "") || "";
+  if (pathOnly === "/get-started/book-a-call") {
+    return "/get-started/request-an-audit/";
+  }
+
+  return cleaned;
 }
 
 function parse(raw: string, file: string): ParsedPage {
@@ -114,7 +130,7 @@ function parse(raw: string, file: string): ParsedPage {
       flushList();
       const rest = line.replace(/^\[CTA\]\s*/, "");
       const parts = rest.split(/→|->/).map((s) => s.trim());
-      const text = parts[0] || "Book a Discovery Call";
+      const text = normalizeCtaText(parts[0] || "Request a Free Audit");
       nodes.push({
         type: "cta",
         text,

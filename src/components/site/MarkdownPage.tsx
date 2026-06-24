@@ -37,16 +37,16 @@ const INLINE_CTAS = [
     ctaLink: "/get-started/request-an-audit/",
   },
   {
-    variant: "secondary" as const,
-    headline: "Ready to map a growth plan built for your vertical?",
-    ctaText: "Get Your Custom Strategy",
-    ctaLink: "/get-started/book-a-call/",
-  },
-  {
     variant: "email" as const,
-    headline: "Prefer to talk it through over email?",
+    headline: "Prefer to send the context directly?",
     ctaText: "Email Us",
     ctaLink: `mailto:${s.brand.email}`,
+  },
+  {
+    variant: "secondary" as const,
+    headline: "Want to start with a quick message?",
+    ctaText: "Contact Us",
+    ctaLink: "/company/contact/",
   },
 ];
 
@@ -220,7 +220,7 @@ export default function MarkdownPage({
           body={cta?.body}
           ctaText={cta?.ctaText}
           ctaLink={cta?.ctaLink}
-          secondaryCta={{ text: "Get Your Custom Strategy", link: "/get-started/book-a-call/" }}
+          secondaryCta={{ text: "Email Us", link: `mailto:${s.brand.email}` }}
         />
       )}
 

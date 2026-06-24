@@ -129,10 +129,10 @@ export default function Design7() {
             </span>
           </div>
           <nav className="hidden items-center gap-7 text-[13px] font-semibold text-[#3A4760] md:flex">
-            {s.nav.map((n) => (
-              <a key={n} href="#" className="transition-colors hover:text-[#0090F0]">
-                {n}
-              </a>
+            {s.navLinks.map((item) => (
+              <Link key={item.href} href={item.href} className="transition-colors hover:text-[#0090F0]">
+                {item.label}
+              </Link>
             ))}
           </nav>
           <Link
@@ -140,7 +140,7 @@ export default function Design7() {
             className="rounded-lg px-4 py-2 text-[13px] font-bold text-white"
             style={{ background: brand.blue }}
           >
-            Book a Call
+            Request Audit
           </Link>
         </div>
       </header>
@@ -474,10 +474,10 @@ export default function Design7() {
             </p>
           </div>
           <div className="flex flex-wrap gap-x-8 gap-y-2 text-[13px]" style={{ color: MUTE }}>
-            {s.footer.services.map((svc) => (
-              <a key={svc} href="#" className="transition-colors hover:text-[#0090F0]">
-                {svc}
-              </a>
+            {s.footer.serviceLinks.map((svc) => (
+              <Link key={svc.href} href={svc.href} className="transition-colors hover:text-[#0090F0]">
+                {svc.label}
+              </Link>
             ))}
           </div>
         </div>

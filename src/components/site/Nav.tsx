@@ -117,11 +117,11 @@ export default function Nav() {
 
         <div className="flex items-center gap-4">
           <Link
-            href="/get-started/book-a-call/"
+            href="/get-started/request-an-audit/"
             prefetch={false}
             className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
           >
-            <span className="relative z-10">Get Started</span>
+            <span className="relative z-10">Request Audit</span>
             <span className="absolute inset-0 -z-0 translate-y-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] transition-transform duration-300 group-hover:translate-y-0" />
           </Link>
 
@@ -168,12 +168,12 @@ export default function Nav() {
             </div>
           ))}
           <Link
-            href="/get-started/book-a-call/"
+            href="/get-started/request-an-audit/"
             prefetch={false}
             onClick={() => setMobileOpen(false)}
             className="mt-4 inline-flex rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-6 py-3 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
           >
-            Get Started
+            Request Audit
           </Link>
         </div>
       )}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { NAV } from "@/lib/nav";
 import { indexableRoutes } from "@/lib/links";
@@ -49,15 +49,11 @@ function buildIndex(): Entry[] {
 }
 
 export default function SiteSearch() {
-  const index = useMemo(buildIndex, []);
-  const [q, setQ] = useState("");
-
-  // honor /search/?q=… on first load
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const initial = params.get("q");
-    if (initial) setQ(initial);
-  }, []);
+  const index = useMemo(() => buildIndex(), []);
+  const [q, setQ] = useState(() => {
+    if (typeof window === "undefined") return "";
+    return new URLSearchParams(window.location.search).get("q") || "";
+  });
 
   const results = useMemo(() => {
     const term = q.trim().toLowerCase();

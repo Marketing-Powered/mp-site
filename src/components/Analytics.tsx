@@ -32,9 +32,9 @@ export default function Analytics() {
           into this init rather than a second loader. */}
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TAG_ID}`}
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
-      <Script id="gtag-init" strategy="afterInteractive">
+      <Script id="gtag-init" strategy="lazyOnload">
         {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
@@ -44,7 +44,7 @@ gtag('config', '${GOOGLE_ADS_ID}');`}
       </Script>
 
       {/* LinkedIn Insight Tag (partner id 7399266). */}
-      <Script id="linkedin-insight-init" strategy="afterInteractive">
+      <Script id="linkedin-insight-init" strategy="lazyOnload">
         {`_linkedin_partner_id = "${LINKEDIN_PARTNER_ID}";
 window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
 window._linkedin_data_partner_ids.push(_linkedin_partner_id);
@@ -53,7 +53,7 @@ window.lintrk = window.lintrk || function(a,b){(window.lintrk.q=window.lintrk.q|
       <Script
         id="linkedin-insight-loader"
         src="https://snap.licdn.com/li.lms-analytics/insight.min.js"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
       <noscript>
         <img
@@ -66,7 +66,7 @@ window.lintrk = window.lintrk || function(a,b){(window.lintrk.q=window.lintrk.q|
       </noscript>
 
       {/* Meta Pixel — standard fbq init + PageView, loaded once. */}
-      <Script id="meta-pixel" strategy="afterInteractive">
+      <Script id="meta-pixel" strategy="lazyOnload">
         {`!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -93,7 +93,7 @@ fbq('track', 'PageView');`}
         src="https://widgets.leadconnectorhq.com/loader.js"
         data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
         data-widget-id="69eafedccbb9f443ce9942a0"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
     </>
   );

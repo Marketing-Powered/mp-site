@@ -150,7 +150,7 @@ export default function MarkdownPage({
           <Reveal className="mb-8 flex items-center gap-4">
             <span
               className="text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
-              style={{ fontFamily: "'Space Mono', monospace" }}
+              style={{ fontFamily: "var(--font-space-mono), ui-monospace, monospace" }}
             >
               Explore
             </span>

@@ -14,7 +14,7 @@ import { Logo, Figure, brand, brandGradient } from "@/components/brand";
 /*  blue/green/navy on a crisp, light control surface.                 */
 /* ================================================================== */
 
-const sans = "'Manrope', system-ui, sans-serif";
+const sans = "var(--font-manrope), system-ui, sans-serif";
 const INK = "#0A1322";
 const MUTE = "#5A6B82";
 const SOFT = "#EEF4FB";

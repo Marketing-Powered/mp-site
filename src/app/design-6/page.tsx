@@ -16,8 +16,8 @@ import { Logo, brand } from "@/components/brand";
 /*  to treatment-center operators: growth, compliance, attribution.     */
 /* ================================================================== */
 
-const mono = "'Space Mono', ui-monospace, monospace";
-const sans = "'Manrope', system-ui, sans-serif";
+const mono = "var(--font-space-mono), ui-monospace, monospace";
+const sans = "var(--font-manrope), system-ui, sans-serif";
 const BG = "#07090F";
 const PANEL = "#0C111B";
 const BLUE = brand.blue;

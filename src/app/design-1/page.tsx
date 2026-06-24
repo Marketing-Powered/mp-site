@@ -14,9 +14,9 @@ import { Logo, Figure } from "@/components/brand";
 /* ================================================================== */
 
 const INK = "#050B16";
-const serif = "'Fraunces', Georgia, serif";
-const sans = "'Manrope', system-ui, sans-serif";
-const mono = "'Space Mono', monospace";
+const serif = "var(--font-fraunces), Georgia, serif";
+const sans = "var(--font-manrope), system-ui, sans-serif";
+const mono = "var(--font-space-mono), ui-monospace, monospace";
 
 function GoldRule({ className = "" }: { className?: string }) {
   return (

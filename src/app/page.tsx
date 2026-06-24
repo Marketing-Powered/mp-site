@@ -17,9 +17,9 @@ import Footer from "@/components/site/Footer";
 /* ================================================================== */
 
 const INK = "#050B16";
-const serif = "'Fraunces', Georgia, serif";
-const sans = "'Manrope', system-ui, sans-serif";
-const mono = "'Space Mono', monospace";
+const serif = "var(--font-fraunces), Georgia, serif";
+const sans = "var(--font-manrope), system-ui, sans-serif";
+const mono = "var(--font-space-mono), ui-monospace, monospace";
 
 function GoldRule({ className = "" }: { className?: string }) {
   return (
@@ -59,12 +59,8 @@ function CountUp({
     const reduce =
       typeof window !== "undefined" &&
       window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    if (reduce || to === 0) {
-      setVal(to);
-      return;
-    }
-    setVal(0);
-    let raf = 0;
+    if (reduce || to === 0) return;
+    let raf = requestAnimationFrame(() => setVal(0));
     const io = new IntersectionObserver(
       (entries) => {
         if (!entries[0].isIntersecting) return;

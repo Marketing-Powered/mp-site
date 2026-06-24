@@ -72,6 +72,7 @@ export function Figure({
   priority = false,
   quality = 70,
   shadow = true,
+  fit = "contain",
 }: {
   src: string;
   alt: string;
@@ -82,6 +83,7 @@ export function Figure({
   priority?: boolean;
   quality?: number;
   shadow?: boolean;
+  fit?: "contain" | "cover";
 }) {
   return (
     <figure className={className}>
@@ -90,6 +92,7 @@ export function Figure({
         style={{
           aspectRatio: ratio,
           borderRadius: rounded,
+          background: fit === "contain" ? "#ffffff" : "#0A1322",
           boxShadow: shadow ? "0 24px 60px -28px rgba(0,24,72,0.45)" : "none",
         }}
       >
@@ -100,8 +103,12 @@ export function Figure({
           preload={priority}
           quality={quality}
           sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 48vw"
-          className="object-contain"
-          style={{ padding: "clamp(4px,0.9vw,12px)", objectPosition: "center" }}
+          className={fit === "contain" ? "object-contain" : "object-cover"}
+          style={
+            fit === "contain"
+              ? { padding: "clamp(4px,0.9vw,12px)", objectPosition: "center" }
+              : { objectPosition: "center" }
+          }
         />
       </div>
       {caption ? (

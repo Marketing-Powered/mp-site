@@ -125,7 +125,7 @@ function HomeJsonLd() {
       "@id": `${SITE_URL}/#localbusiness`,
       name: s.brand.name,
       url: SITE_URL,
-      image: `${SITE_URL}/images/pages/home/01-hero-banner.jpg`,
+      image: `${SITE_URL}/images/pages/home/01-hero-banner.jpg?v=20260624`,
       telephone: phoneE164,
       email: s.brand.email,
       address,
@@ -261,6 +261,7 @@ export default function Design1() {
               ratio="16 / 9"
               rounded="26px"
               priority
+              fit="cover"
               className="relative"
             />
           </div>
@@ -345,7 +346,12 @@ export default function Design1() {
       <section className="relative z-10 mx-auto max-w-7xl px-6 py-28 lg:px-12">
         <div className="grid gap-16 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <Reveal variant="blur" className="relative order-2 lg:order-1">
-            <Figure src={s.growth.image} alt={s.growth.imageAlt} ratio="16 / 9" />
+            <Figure
+              src={s.growth.image}
+              alt={s.growth.imageAlt}
+              ratio="16 / 9"
+              fit="cover"
+            />
             <div
               className="absolute -bottom-6 -right-4 rounded-2xl border border-[#0090F0]/30 bg-[#050B16]/80 px-6 py-5 backdrop-blur"
               style={{ boxShadow: "0 24px 60px -20px rgba(0,0,0,0.8)" }}
@@ -520,6 +526,7 @@ export default function Design1() {
               src={s.specializedMarketing.image}
               alt={s.specializedMarketing.imageAlt}
               ratio="16 / 9"
+              fit="cover"
             />
           </Reveal>
         </div>

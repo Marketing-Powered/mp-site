@@ -11,6 +11,16 @@ const nextConfig: NextConfig = {
   images: {
     minimumCacheTTL: 2678400,
     qualities: [70, 72, 75],
+    localPatterns: [
+      {
+        pathname: "/images/**",
+        search: "",
+      },
+      {
+        pathname: "/images/pages/home/**",
+        search: "?v=20260624",
+      },
+    ],
   },
   async headers() {
     return [

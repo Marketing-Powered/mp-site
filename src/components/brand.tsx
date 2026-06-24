@@ -70,6 +70,7 @@ export function Figure({
   rounded = "1.5rem",
   caption,
   priority = false,
+  quality = 70,
   shadow = true,
 }: {
   src: string;
@@ -79,6 +80,7 @@ export function Figure({
   rounded?: string;
   caption?: React.ReactNode;
   priority?: boolean;
+  quality?: number;
   shadow?: boolean;
 }) {
   return (
@@ -95,8 +97,9 @@ export function Figure({
           src={src}
           alt={alt}
           fill
-          priority={priority}
-          sizes="(max-width: 1024px) 100vw, 50vw"
+          preload={priority}
+          quality={quality}
+          sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 48vw"
           className="object-contain"
           style={{ padding: "clamp(4px,0.9vw,12px)", objectPosition: "center" }}
         />

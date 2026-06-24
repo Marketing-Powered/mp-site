@@ -88,6 +88,7 @@ export default function Footer() {
                     <li key={l.href}>
                       <Link
                         href={l.href}
+                        prefetch={false}
                         className="text-[13px] text-white/55 transition-colors hover:text-[#7FCBFF]"
                       >
                         {l.label}
@@ -106,6 +107,7 @@ export default function Footer() {
           </p>
           <Link
             href="/get-started/request-an-audit/"
+            prefetch={false}
             className="text-[12px] uppercase tracking-[0.18em] text-white/55 transition-colors hover:text-[#7FCBFF]"
           >
             Request a Free Audit →

@@ -72,7 +72,7 @@ export default function Nav() {
   return (
     <header className="relative z-40 border-b border-white/8">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-12">
-        <Link href="/" aria-label="Marketing Powered home">
+        <Link href="/" prefetch={false} aria-label="Marketing Powered home">
           <Logo tone="light" />
         </Link>
 
@@ -87,6 +87,7 @@ export default function Nav() {
             >
               <Link
                 href={item.href}
+                prefetch={false}
                 className="flex items-center gap-1.5 py-2 text-[12px] tracking-wide text-white/55 transition-colors hover:text-white"
               >
                 {item.label}
@@ -101,6 +102,7 @@ export default function Nav() {
                       <Link
                         key={c.href}
                         href={c.href}
+                        prefetch={false}
                         className="block rounded-lg px-3 py-2 text-[12px] text-white/62 transition-colors hover:bg-white/5 hover:text-[#7FCBFF]"
                       >
                         {c.label}
@@ -116,6 +118,7 @@ export default function Nav() {
         <div className="flex items-center gap-4">
           <Link
             href="/get-started/book-a-call/"
+            prefetch={false}
             className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
           >
             <span className="relative z-10">Get Started</span>
@@ -140,6 +143,7 @@ export default function Nav() {
             <div key={item.label} className="border-b border-white/5 py-3">
               <Link
                 href={item.href}
+                prefetch={false}
                 onClick={() => setMobileOpen(false)}
                 className="block text-[15px] text-white/85"
                 style={{ fontFamily: mono }}
@@ -152,6 +156,7 @@ export default function Nav() {
                     <Link
                       key={c.href}
                       href={c.href}
+                      prefetch={false}
                       onClick={() => setMobileOpen(false)}
                       className="py-1 text-[13px] text-white/50 transition-colors hover:text-[#7FCBFF]"
                     >
@@ -164,6 +169,7 @@ export default function Nav() {
           ))}
           <Link
             href="/get-started/book-a-call/"
+            prefetch={false}
             onClick={() => setMobileOpen(false)}
             className="mt-4 inline-flex rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-6 py-3 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
           >

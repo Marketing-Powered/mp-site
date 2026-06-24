@@ -191,7 +191,6 @@ export default function Design1() {
             <div
               className="mb-8 flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
               style={{
-                animation: "mp-fade-in 1s ease both",
                 fontFamily: mono,
               }}
             >
@@ -230,6 +229,7 @@ export default function Design1() {
             <div className="mt-10 flex flex-wrap items-center gap-5">
               <Link
                 href={s.hero.ctaLink}
+                prefetch={false}
                 className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)]"
               >
                 <span className="relative z-10">{s.hero.cta}</span>
@@ -247,12 +247,7 @@ export default function Design1() {
           </div>
 
           {/* framed hero image */}
-          <div
-            className="relative"
-            style={{
-              animation: "mp-blur-in 1.2s cubic-bezier(0.16,1,0.3,1) both",
-            }}
-          >
+          <div className="relative">
             <div
               className="absolute -inset-[2px] rounded-[28px] opacity-90"
               style={{

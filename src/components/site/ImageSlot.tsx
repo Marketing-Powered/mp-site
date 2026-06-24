@@ -38,7 +38,8 @@ export default function ImageSlot({
             src={src}
             alt={alt || label}
             fill
-            sizes="(max-width: 1024px) 100vw, 60vw"
+            quality={72}
+            sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 60vw"
             className={fit === "contain" ? "object-contain" : "object-cover"}
             style={
               fit === "contain"

@@ -42,6 +42,7 @@ export function PrimaryCta({
   return (
     <Link
       href={href || "/get-started/"}
+      prefetch={false}
       className={`group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)] ${className}`}
     >
       <span className="relative z-10">{children}</span>
@@ -65,6 +66,7 @@ export function GhostCta({
   return (
     <Link
       href={href || "/get-started/"}
+      prefetch={false}
       className={`group relative inline-flex items-center gap-2 overflow-hidden rounded-full border border-white/15 px-6 py-3.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black ${className}`}
     >
       <span className="relative z-10">{children}</span>
@@ -92,6 +94,7 @@ export function RichText({ text }: { text: string }) {
           <Link
             key={key++}
             href={resolved}
+            prefetch={false}
             className="text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"
           >
             {label}

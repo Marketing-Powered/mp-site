@@ -1,4 +1,6 @@
 import Script from "next/script";
+import DelayedAdPixels from "@/components/DelayedAdPixels";
+import DelayedLeadConnector from "@/components/DelayedLeadConnector";
 
 /* Analytics / tracking pixels.
 
@@ -43,18 +45,6 @@ gtag('config', '${GA4_ID}');
 gtag('config', '${GOOGLE_ADS_ID}');`}
       </Script>
 
-      {/* LinkedIn Insight Tag (partner id 7399266). */}
-      <Script id="linkedin-insight-init" strategy="lazyOnload">
-        {`_linkedin_partner_id = "${LINKEDIN_PARTNER_ID}";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-window.lintrk = window.lintrk || function(a,b){(window.lintrk.q=window.lintrk.q||[]).push([a,b])};`}
-      </Script>
-      <Script
-        id="linkedin-insight-loader"
-        src="https://snap.licdn.com/li.lms-analytics/insight.min.js"
-        strategy="lazyOnload"
-      />
       <noscript>
         <img
           height="1"
@@ -65,19 +55,6 @@ window.lintrk = window.lintrk || function(a,b){(window.lintrk.q=window.lintrk.q|
         />
       </noscript>
 
-      {/* Meta Pixel — standard fbq init + PageView, loaded once. */}
-      <Script id="meta-pixel" strategy="lazyOnload">
-        {`!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '${META_PIXEL_ID}');
-fbq('track', 'PageView');`}
-      </Script>
       <noscript>
         <img
           height="1"
@@ -88,13 +65,11 @@ fbq('track', 'PageView');`}
         />
       </noscript>
 
-      {/* "Mia" — GoHighLevel (LeadConnector) web chat widget. Loads site-wide. */}
-      <Script
-        src="https://widgets.leadconnectorhq.com/loader.js"
-        data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
-        data-widget-id="69eafedccbb9f443ce9942a0"
-        strategy="lazyOnload"
+      <DelayedAdPixels
+        linkedInPartnerId={LINKEDIN_PARTNER_ID}
+        metaPixelId={META_PIXEL_ID}
       />
+      <DelayedLeadConnector />
     </>
   );
 }

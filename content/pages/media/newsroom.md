@@ -27,10 +27,10 @@ Company news, agency announcements, and developments from your behavioral health
 
 Why Company Updates Matter
 Behavioral health and mental health marketing operates under constant pressure: shifting platform policies, compliance requirements that tighten without warning, and competitive dynamics that reward operators who move first. Staying informed about company news from your marketing partner is not a passive exercise. It is a strategic function.
-When Marketing Powered announces a new capability, partnership, or operational change, that information directly affects how your campaigns perform. Updates on [AI edge](ai-edge/) capabilities, compliance posture shifts, or new [paid media services](/services/paid-media/) translate into decisions you can act on before your competitors catch up.
+When Marketing Powered announces a new capability, partnership, or operational change, that information directly affects how your campaigns perform. Updates on [AI edge](/ai-edge) capabilities, compliance posture shifts, or new [paid media services](/services/paid-media) translate into decisions you can act on before your competitors catch up.
 For treatment center operators managing admissions pipelines, this awareness creates a planning advantage. You allocate budget more effectively when you understand what tools and approaches are available to you.
 Recent Marketing Powered Announcements
-Marketing Powered continues to expand the infrastructure and expertise that support [behavioral health marketing](/who-we-help/behavioral-health/) and [mental health treatment marketing](/who-we-help/mental-health/) clients. Here are recent company updates worth noting:
+Marketing Powered continues to expand the infrastructure and expertise that support [behavioral health marketing](/who-we-help/behavioral-health) and [mental health treatment marketing](/who-we-help/mental-health) clients. Here are recent company updates worth noting:
 
 
 * AI-native operations expansion: Marketing Powered has operated as AI-native since 2022, and recent infrastructure investments have deepened proprietary capabilities in predictive analytics, multi-variant optimization, and intelligent automation for healthcare verticals.
@@ -43,14 +43,14 @@ Marketing Powered continues to expand the infrastructure and expertise that supp
 Impact of Updates on Clients
 Agency announcements are not press releases for their own sake. They signal changes that affect client outcomes.
 When Marketing Powered supported operator-side multi-market growth, that growth required constant iteration on media strategy, attribution modeling, and compliance posture. The agency updates that emerged from that work, including new approaches to admission tracking and budget allocation frameworks, became available to other clients facing similar scaling challenges.
-Recent [case studies](/results/case-studies/) reflect how these operational improvements translate into measurable results: lower cost per qualified lead, higher admission rates from paid channels, and cleaner compliance records with platform reviewers. Clients who stay informed about company updates can request these capabilities proactively rather than waiting for a quarterly review.
+Recent [case studies](/results/case-studies) reflect how these operational improvements translate into measurable results: lower cost per qualified lead, higher admission rates from paid channels, and cleaner compliance records with platform reviewers. Clients who stay informed about company updates can request these capabilities proactively rather than waiting for a quarterly review.
 Future Projections and Plans
 Marketing Powered is investing in expanded AI governance frameworks, deeper vertical specialization, and additional infrastructure for data sovereignty. These investments address the compliance and performance pressures treatment center operators face as platform policies evolve.
 Upcoming announcements will cover new service offerings, expanded partnerships, and research findings from proprietary campaign data. Operators who track these updates gain early access to strategies tested at scale before they become standard practice.
-The [media hub](/media/) will serve as the primary channel for these announcements, alongside direct communications for existing clients.
+The [media hub](/media) will serve as the primary channel for these announcements, alongside direct communications for existing clients.
 Connect with Marketing Powered
 Stay current with company news by returning to this newsroom regularly or connecting with Marketing Powered directly.
-For operators ready to discuss how recent developments apply to their specific situation, you can [book a call](/get-started/book-a-call/) or [request an audit](/get-started/request-an-audit/) to evaluate your current marketing performance against what is now possible.
+For operators ready to discuss how recent developments apply to their specific situation, you can [book a call](/get-started/book-a-call) or [request an audit](/get-started/request-an-audit) to evaluate your current marketing performance against what is now possible.
 
 
 Agency announcements are one piece of the picture. The real value comes from applying these updates to your admissions pipeline, compliance posture, and budget allocation. That conversation starts when you reach out.

@@ -10,7 +10,7 @@ import ScoredAssessment, {
   type AssessmentTier,
 } from "@/components/site/ScoredAssessment";
 
-const URL = "/tools/paid-media-readiness-assessment/";
+const URL = "/tools/paid-media-readiness-assessment";
 
 export const metadata: Metadata = {
   title: "Paid Media Readiness Assessment Tool",
@@ -210,7 +210,7 @@ export default function Page() {
             ],
           }}
           ctaText="Request a Marketing Audit"
-          ctaLink="/get-started/request-an-audit/"
+          ctaLink="/get-started/request-an-audit"
         />
       </section>
 
@@ -261,7 +261,7 @@ export default function Page() {
         headline="Ready to see where you stand?"
         body="Your readiness report is a starting point. If you want us to review the results, send the details through the audit form and an operator who has managed $50M+ in behavioral health media spend will outline next steps."
         ctaText="Request a Marketing Audit"
-        ctaLink="/get-started/request-an-audit/"
+        ctaLink="/get-started/request-an-audit"
         secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>

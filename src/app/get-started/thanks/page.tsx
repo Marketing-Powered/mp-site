@@ -64,7 +64,7 @@ export default function Page() {
         </div>
 
         <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
-          <PrimaryCta href="/services/">Explore Our Services</PrimaryCta>
+          <PrimaryCta href="/services">Explore Our Services</PrimaryCta>
           <GhostCta href="/">Back to Home</GhostCta>
         </div>
       </section>

@@ -14,9 +14,9 @@ export const siteContent = {
   nav: ["Home", "Services", "Specialties", "Resources"],
   navLinks: [
     { label: "Home", href: "/" },
-    { label: "Services", href: "/services/" },
-    { label: "Specialties", href: "/who-we-help/" },
-    { label: "Resources", href: "/resources/" },
+    { label: "Services", href: "/services" },
+    { label: "Specialties", href: "/who-we-help" },
+    { label: "Resources", href: "/resources" },
   ],
   hero: {
     headline:
@@ -24,7 +24,7 @@ export const siteContent = {
     subheadline:
       "AI-native strategies built on $50M+ in managed behavioral health and mental health ad spend. No guesswork. No compliance surprises.",
     cta: "REQUEST A FREE AUDIT",
-    ctaLink: "/get-started/request-an-audit/",
+    ctaLink: "/get-started/request-an-audit",
     image: "/images/pages/home/01-hero-banner.jpg?v=20260624",
     imageAlt:
       "Marketing Powered strategy team meeting in a modern office conference room",
@@ -66,42 +66,42 @@ export const siteContent = {
       description:
         "Multi-variant optimization that routes each visitor to the landing page variant most likely to convert them. Our AI systems handle creative testing, bid management, audience refinement, and attribution modeling continuously.",
       icon: "target",
-      href: "/services/paid-media/",
+      href: "/services/paid-media",
     },
     {
       title: "Predictive Lead Scoring",
       description:
         "Predictive analytics that score leads before your intake team picks up the phone. Know which prospects have the highest intent so your team prioritizes the right calls and improves close rates.",
       icon: "search",
-      href: "/services/intake-optimization/",
+      href: "/services/intake-optimization",
     },
     {
       title: "Full-Funnel Attribution",
       description:
         "Track attribution through to admission, not just to form fills or phone calls. We optimize for the metrics that affect your P&L: cost per admission, admission volume, and lifetime value by acquisition channel.",
       icon: "chart",
-      href: "/services/analytics-and-attribution/",
+      href: "/services/analytics-and-attribution",
     },
     {
       title: "Compliance-First Architecture",
       description:
         "HIPAA-conscious infrastructure with data sovereignty that matters in healthcare. We do not send your lead data through commercial API wrappers or third-party AI platforms with unclear data handling policies.",
       icon: "shield",
-      href: "/ai-edge/data-sovereignty/",
+      href: "/ai-edge/data-sovereignty",
     },
     {
       title: "Behavioral Health PPC",
       description:
         "Navigate Google Ads sensitive vertical restrictions, LegitScript certification requirements, and Meta Special Ad Categories with campaigns built by a team that has managed $1.5 to $2M monthly in behavioral health Google Ads.",
       icon: "zap",
-      href: "/services/ppc/",
+      href: "/services/ppc",
     },
     {
       title: "Mental Health Content Strategy",
       description:
         "Messaging that speaks to the specific emotional and informational needs of those seeking treatment. From the family member searching at 2 a.m. to the hospital referral coordinator, we build campaigns that respect these distinctions.",
       icon: "code",
-      href: "/who-we-help/mental-health/",
+      href: "/who-we-help/mental-health",
     },
   ],
   // `value` is the authoritative display string (and the reduced-motion / no-JS
@@ -213,7 +213,7 @@ export const siteContent = {
       "Ready to See What AI-Native Marketing Can Do for Your Treatment Center?",
     body: "Request a free audit of your current marketing performance, compliance posture, and growth objectives. We will give you an honest assessment of where the opportunities are and whether Marketing Powered is the right partner to pursue them.",
     ctaText: "REQUEST A FREE AUDIT",
-    ctaLink: "/get-started/request-an-audit/",
+    ctaLink: "/get-started/request-an-audit",
     image: "/images/08-summary-takeaways-visual.jpg",
     imageAlt:
       "Summary visual of Marketing Powered AI marketing agency takeaways and next steps",
@@ -229,12 +229,12 @@ export const siteContent = {
       "AI-Driven Optimization",
     ],
     serviceLinks: [
-      { label: "Behavioral Health PPC", href: "/services/ppc/" },
-      { label: "Mental Health Marketing", href: "/who-we-help/mental-health/" },
-      { label: "Predictive Lead Scoring", href: "/services/intake-optimization/" },
-      { label: "Full-Funnel Attribution", href: "/services/analytics-and-attribution/" },
-      { label: "Compliance-First Campaigns", href: "/resources/compliance-ad-policy/" },
-      { label: "AI-Driven Optimization", href: "/ai-edge/" },
+      { label: "Behavioral Health PPC", href: "/services/ppc" },
+      { label: "Mental Health Marketing", href: "/who-we-help/mental-health" },
+      { label: "Predictive Lead Scoring", href: "/services/intake-optimization" },
+      { label: "Full-Funnel Attribution", href: "/services/analytics-and-attribution" },
+      { label: "Compliance-First Campaigns", href: "/resources/compliance-ad-policy" },
+      { label: "AI-Driven Optimization", href: "/ai-edge" },
     ],
     copyright:
       "Copyright 2025. All rights Reserved. Design by Marketing Powered AI",

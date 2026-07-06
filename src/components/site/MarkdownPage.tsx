@@ -34,7 +34,7 @@ const INLINE_CTAS = [
     variant: "primary" as const,
     headline: "Want a straight read on where your budget is leaking?",
     ctaText: "Request a Free Audit",
-    ctaLink: "/get-started/request-an-audit/",
+    ctaLink: "/get-started/request-an-audit",
   },
   {
     variant: "email" as const,
@@ -46,7 +46,7 @@ const INLINE_CTAS = [
     variant: "secondary" as const,
     headline: "Want to start with a quick message?",
     ctaText: "Contact Us",
-    ctaLink: "/company/contact/",
+    ctaLink: "/company/contact",
   },
 ];
 
@@ -68,7 +68,7 @@ export default function MarkdownPage({
 
   const heroCta = page.heroCta || {
     text: "Request a Free Audit",
-    link: "/get-started/request-an-audit/",
+    link: "/get-started/request-an-audit",
   };
 
   // hub vertical pages (behavioral-health, mental-health) get child cards

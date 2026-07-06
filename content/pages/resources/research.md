@@ -27,10 +27,10 @@ Data-driven benchmarks and methodologies that separate high-performing behaviora
 Why Paid Media Research Matters
 Running paid media in behavioral health without current benchmark data is like navigating intake volume without tracking call sources. You might hit your numbers, but you have no idea which spend is working and which is burning budget. Marketing research grounds every dollar in context.
 Treatment centers operating in this space face a unique challenge: Google Ads sensitive vertical restrictions, no behavioral health retargeting, and compliance frameworks that most agencies never learn to navigate. Without research that accounts for these constraints, you are comparing your performance to benchmarks that do not apply to your vertical.
-At Marketing Powered, we have managed [over $50M in behavioral health and mental health media spend](/who-we-help/behavioral-health/). That scale generates proprietary data that most agencies simply do not have access to. When we talk about paid media benchmarks, we are not pulling from generic SaaS reports. We are drawing from thousands of campaigns across admission-focused treatment centers, from 3-location startups to 24-location regional operators.
+At Marketing Powered, we have managed [over $50M in behavioral health and mental health media spend](/who-we-help/behavioral-health). That scale generates proprietary data that most agencies simply do not have access to. When we talk about paid media benchmarks, we are not pulling from generic SaaS reports. We are drawing from thousands of campaigns across admission-focused treatment centers, from 3-location startups to 24-location regional operators.
 Key Benchmarks in Paid Media
 Behavioral health paid media benchmarks differ significantly from standard healthcare or B2C verticals. The patient journey is longer, the decision-maker is often not the patient themselves, and the compliance environment restricts targeting options that other industries take for granted.
-Based on campaigns managing [$1.5M to $2M monthly in Google Ads](/services/paid-media/) across treatment center clients, we track benchmarks across several categories:
+Based on campaigns managing [$1.5M to $2M monthly in Google Ads](/services/paid-media) across treatment center clients, we track benchmarks across several categories:
 
 
 * Cost per click (CPC): Addiction treatment and rehab keywords consistently command premium CPCs, often 3x to 5x general healthcare terms. According to [WordStream's industry benchmarks](https://www.wordstream.com/blog/ws/2016/02/29/google-adwords-industry-benchmarks), legal and healthcare verticals see the highest CPCs, and behavioral health falls at the top of that range.
@@ -52,7 +52,7 @@ Both methodologies feed into strategy formation. Quantitative data tells you wha
 How Research Links to ROI and Success
 Marketing research directly impacts ROI by eliminating guesswork from budget allocation. When you know your cost per admission by channel, you can shift spend toward what works and cut what does not.
 Consider a treatment center spending $150,000 monthly across Google Ads, Meta (within compliance limits), and programmatic display. Without research-driven attribution, they might allocate budget based on lead volume alone. With proper attribution tracked through to admission, they discover that 70% of actual admissions originate from search, even though display generates more form fills. That insight shifts $30,000 monthly from low-converting channels to high-converting ones.
-We have seen this pattern repeatedly across the [case studies](/results/case-studies/) in our portfolio. Operator-side multi-market growth using a research-driven media strategy. The difference was not more spending. It was a smarter allocation based on real admission data.
+We have seen this pattern repeatedly across the [case studies](/results/case-studies) in our portfolio. Operator-side multi-market growth using a research-driven media strategy. The difference was not more spending. It was a smarter allocation based on real admission data.
 
 
 [CTA] Request an Audit
@@ -65,7 +65,7 @@ Implementing marketing research into your paid media strategy does not require a
 * Connect research to action: Data without implementation is just reporting. Every insight should tie to a specific budget or creative decision.
 Next Steps
 If your current agency cannot show you cost per admission by channel, or if your benchmarks come from generic reports that ignore behavioral health compliance constraints, you are operating blind.
-Marketing Powered brings [AI-native infrastructure](/ai-edge/) built specifically for healthcare marketing research, combined with the operational experience of managing eight-figure annual media budgets in this vertical. We track attribution through to admission and hold ourselves accountable to the metrics that actually matter to your census.
+Marketing Powered brings [AI-native infrastructure](/ai-edge) built specifically for healthcare marketing research, combined with the operational experience of managing eight-figure annual media budgets in this vertical. We track attribution through to admission and hold ourselves accountable to the metrics that actually matter to your census.
 
 
 Request an audit to see how your current performance compares to behavioral health benchmarks, and where the gaps are costing you admissions.

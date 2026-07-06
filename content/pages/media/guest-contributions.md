@@ -48,7 +48,7 @@ Personalization matters. Address the editor by name. Reference a specific articl
 
 
 Maximizing Impact Through Guest Contributions
-Publication is the starting point, not the finish line. Promote your guest article across your own channels: social media, email newsletters, and your website's [media outreach strategies](/media/) section. Tag the publication and editor to increase visibility and strengthen the relationship for future contributions.
+Publication is the starting point, not the finish line. Promote your guest article across your own channels: social media, email newsletters, and your website's [media outreach strategies](/media) section. Tag the publication and editor to increase visibility and strengthen the relationship for future contributions.
 
 
 Engage with readers who comment or share. Thoughtful responses demonstrate accessibility and reinforce your expertise. These interactions often lead to additional opportunities, from podcast invitations to speaking engagements to direct business inquiries.

@@ -7,7 +7,7 @@ export default function CtaBand({
   headline = "Ready to see what AI-native marketing can do for your treatment center?",
   body = "Request a free audit of your paid media, landing pages, attribution, and compliance posture. You'll get a straight assessment of where the opportunities are.",
   ctaText = "Request a Free Audit",
-  ctaLink = "/get-started/request-an-audit/",
+  ctaLink = "/get-started/request-an-audit",
   secondaryCta,
   emailLink = true,
 }: {

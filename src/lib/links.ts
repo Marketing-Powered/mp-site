@@ -126,15 +126,22 @@ const VALID = new Set<string>([
 ]);
 
 const REMAP: Record<string, string> = {
-  // sub-verticals that don't have their own page yet → parent vertical
-  "/who-we-help/behavioral-health/inpatient": "/who-we-help/behavioral-health/",
-  "/who-we-help/behavioral-health/outpatient": "/who-we-help/behavioral-health/",
-  "/who-we-help/mental-health/trauma-ptsd": "/who-we-help/mental-health/",
-  "/who-we-help/luxury-private-pay": "/who-we-help/",
+  // sub-verticals that don't have their own page yet → closest live page
+  "/who-we-help/behavioral-health/inpatient": "/who-we-help/behavioral-health/residential-treatment",
+  "/who-we-help/behavioral-health/outpatient": "/who-we-help/behavioral-health",
+  "/who-we-help/behavioral-health/sober-living": "/who-we-help/behavioral-health",
+  "/who-we-help/mental-health/trauma-ptsd": "/who-we-help/mental-health",
+  "/who-we-help/mental-health/anxiety-depression": "/who-we-help/mental-health",
+  "/who-we-help/dual-diagnosis": "/who-we-help/behavioral-health/dual-diagnosis",
+  "/who-we-help/luxury-private-pay": "/who-we-help",
   // legacy service path → current service page
-  "/services/paid-media/google-ads": "/services/google-ads-management/",
+  "/services/paid-media/google-ads": "/services/google-ads-management",
+  "/services/paid-media/seo": "/services/paid-media",
+  "/services/ai-edge": "/ai-edge",
+  // legacy company path
+  "/about-us": "/company/about",
   // results hub → the case-studies page (the real destination)
-  "/results": "/results/case-studies/",
+  "/results": "/results/case-studies",
   // (placeholder remaps removed as the real /resources and /media pages now exist)
 };
 
@@ -151,11 +158,14 @@ export function indexableRoutes(): string[] {
 }
 
 /** Resolve an internal href. Returns a valid path, or null if the link
-    should be rendered as plain text (no good destination exists). */
+    should be rendered as plain text (no good destination exists).
+    Always returns the non-trailing-slash form — the site serves
+    non-trailing-slash URLs, so a trailing slash costs a 308 hop. */
 export function resolveLink(href: string): string | null {
   const [path, hash] = href.split("#");
   const norm = path.replace(/\/+$/, "") || "/";
-  if (REMAP[norm]) return REMAP[norm];
-  if (VALID.has(norm)) return href;
+  const suffix = hash ? `#${hash}` : "";
+  if (REMAP[norm]) return `${REMAP[norm]}${suffix}`;
+  if (VALID.has(norm)) return `${norm}${suffix}`;
   return hash && norm === "" ? href : null;
 }

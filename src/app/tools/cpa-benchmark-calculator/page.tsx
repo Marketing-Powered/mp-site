@@ -7,7 +7,7 @@ import { Kicker, GoldRule, PrimaryCta } from "@/components/site/ui";
 import { serif } from "@/components/site/theme";
 import CpaCalculator from "./CpaCalculator";
 
-const URL = "/tools/cpa-benchmark-calculator/";
+const URL = "/tools/cpa-benchmark-calculator";
 
 export const metadata: Metadata = {
   title: "CPA Calculator Tool - Marketing Powered",
@@ -185,7 +185,7 @@ export default function Page() {
         headline="Ready to go beyond the calculator?"
         body="The calculator gives you a baseline. A full audit gives you the channel-level breakdown, attribution analysis, and benchmark comparisons that turn data into decisions, backed by $50M+ in managed behavioral health and mental health media spend."
         ctaText="Request a Free Audit"
-        ctaLink="/get-started/request-an-audit/"
+        ctaLink="/get-started/request-an-audit"
         secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>

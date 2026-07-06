@@ -10,7 +10,7 @@ import ScoredAssessment, {
   type AssessmentTier,
 } from "@/components/site/ScoredAssessment";
 
-const URL = "/tools/intake-funnel-health-check/";
+const URL = "/tools/intake-funnel-health-check";
 
 export const metadata: Metadata = {
   title: "Intake Funnel Health Check Tool | Optimize Admissions",
@@ -206,7 +206,7 @@ export default function Page() {
             label: "of potential admissions likely lost between first contact and completed intake.",
           }}
           ctaText="Request an Intake Audit"
-          ctaLink="/get-started/request-an-audit/"
+          ctaLink="/get-started/request-an-audit"
         />
       </section>
 
@@ -258,7 +258,7 @@ export default function Page() {
         headline="See where your intake funnel is losing admissions"
         body="Your intake funnel is either converting the leads your marketing generates or wasting them. If the results reveal gaps you want help addressing, request an audit and send the details to a team that has scaled behavioral health operations through multi-market growth."
         ctaText="Request a Free Audit"
-        ctaLink="/get-started/request-an-audit/"
+        ctaLink="/get-started/request-an-audit"
         secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>

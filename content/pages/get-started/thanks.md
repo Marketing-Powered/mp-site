@@ -28,7 +28,7 @@ A confirmation email is on its way. If you do not see it within a few minutes, c
 Why You're in Good Hands
 Marketing Powered is led by a former treatment center CMO who has managed $50M+ in behavioral health and mental health media spend. Our team tracks attribution through to admission and operates with full LegitScript and HIPAA awareness.
 Explore While You Wait
-Browse our [case studies](/results/case-studies/) to see how we have helped treatment centers grow, or explore [our resources](/resources/) for insights on behavioral health marketing.
+Browse our [case studies](/results/case-studies) to see how we have helped treatment centers grow, or explore [our resources](/resources) for insights on behavioral health marketing.
 Ready to See the Full Picture?
 Explore how Marketing Powered combines AI-native infrastructure with operator experience to grow treatment centers and mental health practices.
 [CTA] Explore Our Services

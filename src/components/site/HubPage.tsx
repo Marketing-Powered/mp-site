@@ -27,7 +27,7 @@ export default function HubPage({
   const url = page.frontmatter.url || "/";
   const heroCta = page.heroCta || {
     text: "Request a Free Audit",
-    link: "/get-started/request-an-audit/",
+    link: "/get-started/request-an-audit",
   };
   const overviewImg = pageImages(url)[1];
 

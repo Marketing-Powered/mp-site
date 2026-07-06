@@ -38,10 +38,10 @@ function normalizeCtaText(text: string): string {
 }
 
 function defaultCtaLink(text: string): string {
-  if (/audit/i.test(text)) return "/get-started/request-an-audit/";
-  if (/contact|question/i.test(text)) return "/company/contact/";
-  if (isCallCta(text)) return "/get-started/request-an-audit/";
-  return "/get-started/request-an-audit/";
+  if (/audit/i.test(text)) return "/get-started/request-an-audit";
+  if (/contact|question/i.test(text)) return "/company/contact";
+  if (isCallCta(text)) return "/get-started/request-an-audit";
+  return "/get-started/request-an-audit";
 }
 
 function cleanCtaLink(link: string, text: string): string {
@@ -55,7 +55,7 @@ function cleanCtaLink(link: string, text: string): string {
 
   const pathOnly = cleaned.split("#")[0]?.replace(/\/+$/, "") || "";
   if (pathOnly === "/get-started/book-a-call") {
-    return "/get-started/request-an-audit/";
+    return "/get-started/request-an-audit";
   }
 
   return cleaned;
@@ -203,13 +203,19 @@ export function pageMetadata(file: string): Metadata {
     file.endsWith("qualification.md");
   const title = p.seo.title || p.frontmatter.title || p.h1;
   const description = p.seo.description;
-  const url = p.frontmatter.url || undefined;
+  // canonical must be the served (non-trailing-slash) URL, not a 308 redirect;
+  // frontmatter urls are written with trailing slashes, so normalize here
+  const url = p.frontmatter.url
+    ? p.frontmatter.url.replace(/\/+$/, "") || "/"
+    : undefined;
   return {
     title,
     description,
     ...(url ? { alternates: { canonical: url } } : {}),
     ...(noindex
-      ? { robots: { index: false, follow: false } }
+      ? // noindex pages stay followable so they pass link equity (avoids
+        // "nofollow page" flags and nofollow inlinks across the site)
+        { robots: { index: false, follow: true } }
       : {
           openGraph: {
             type: "website",
@@ -228,120 +234,120 @@ export { NAV } from "./nav";
 /* hub → child source files, used to build card grids */
 export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
   "services/index.md": [
-    { href: "/services/paid-media/", file: "services/paid-media.md" },
-    { href: "/services/meta-ads-management/", file: "services/meta-ads-management.md" },
-    { href: "/services/google-ads-management/", file: "services/google-ads-management.md" },
-    { href: "/services/landing-page-optimization/", file: "services/landing-page-optimization.md" },
-    { href: "/services/analytics-and-attribution/", file: "services/analytics-and-attribution.md" },
-    { href: "/services/call-tracking-and-intake-attribution/", file: "services/call-tracking.md" },
-    { href: "/services/conversion-rate-optimization/", file: "services/conversion-rate-optimization.md" },
-    { href: "/services/microsoft-ads-management/", file: "services/microsoft-ads-management.md" },
-    { href: "/services/youtube-ads/", file: "services/youtube-ads.md" },
-    { href: "/services/linkedin-ads/", file: "services/linkedin-ads.md" },
-    { href: "/services/intake-optimization/", file: "services/intake-optimization.md" },
-    { href: "/services/creative-testing/", file: "services/creative-testing.md" },
-    { href: "/services/llm-advertising/", file: "services/llm-advertising/index.md" },
-    { href: "/services/web-development/", file: "services/web-development/index.md" },
+    { href: "/services/paid-media", file: "services/paid-media.md" },
+    { href: "/services/meta-ads-management", file: "services/meta-ads-management.md" },
+    { href: "/services/google-ads-management", file: "services/google-ads-management.md" },
+    { href: "/services/landing-page-optimization", file: "services/landing-page-optimization.md" },
+    { href: "/services/analytics-and-attribution", file: "services/analytics-and-attribution.md" },
+    { href: "/services/call-tracking-and-intake-attribution", file: "services/call-tracking.md" },
+    { href: "/services/conversion-rate-optimization", file: "services/conversion-rate-optimization.md" },
+    { href: "/services/microsoft-ads-management", file: "services/microsoft-ads-management.md" },
+    { href: "/services/youtube-ads", file: "services/youtube-ads.md" },
+    { href: "/services/linkedin-ads", file: "services/linkedin-ads.md" },
+    { href: "/services/intake-optimization", file: "services/intake-optimization.md" },
+    { href: "/services/creative-testing", file: "services/creative-testing.md" },
+    { href: "/services/llm-advertising", file: "services/llm-advertising/index.md" },
+    { href: "/services/web-development", file: "services/web-development/index.md" },
   ],
   "services/llm-advertising/index.md": [
-    { href: "/services/llm-advertising/chatgpt/", file: "services/llm-advertising/chatgpt.md" },
-    { href: "/services/llm-advertising/ai-discovery-optimization/", file: "services/llm-advertising/ai-discovery-optimization.md" },
+    { href: "/services/llm-advertising/chatgpt", file: "services/llm-advertising/chatgpt.md" },
+    { href: "/services/llm-advertising/ai-discovery-optimization", file: "services/llm-advertising/ai-discovery-optimization.md" },
   ],
   "services/web-development/index.md": [
-    { href: "/services/web-development/website-design-and-build/", file: "services/web-development/website-design.md" },
-    { href: "/services/web-development/cro-development/", file: "services/web-development/cro-development.md" },
-    { href: "/services/web-development/technical-seo-and-performance/", file: "services/web-development/technical-seo.md" },
-    { href: "/services/web-development/landing-page-development/", file: "services/web-development/landing-page-dev.md" },
-    { href: "/services/web-development/integrations-and-tracking/", file: "services/web-development/integrations.md" },
+    { href: "/services/web-development/website-design-and-build", file: "services/web-development/website-design.md" },
+    { href: "/services/web-development/cro-development", file: "services/web-development/cro-development.md" },
+    { href: "/services/web-development/technical-seo-and-performance", file: "services/web-development/technical-seo.md" },
+    { href: "/services/web-development/landing-page-development", file: "services/web-development/landing-page-dev.md" },
+    { href: "/services/web-development/integrations-and-tracking", file: "services/web-development/integrations.md" },
   ],
   "ai-edge/index.md": [
-    { href: "/ai-edge/ai-in-paid-media/", file: "ai-edge/ai-in-paid-media.md" },
-    { href: "/ai-edge/owned-ai-systems/", file: "ai-edge/owned-ai-systems.md" },
-    { href: "/ai-edge/ai-governance/", file: "ai-edge/ai-governance.md" },
-    { href: "/ai-edge/data-sovereignty/", file: "ai-edge/data-sovereignty.md" },
-    { href: "/ai-edge/social-media/", file: "ai-edge/social-media.md" },
+    { href: "/ai-edge/ai-in-paid-media", file: "ai-edge/ai-in-paid-media.md" },
+    { href: "/ai-edge/owned-ai-systems", file: "ai-edge/owned-ai-systems.md" },
+    { href: "/ai-edge/ai-governance", file: "ai-edge/ai-governance.md" },
+    { href: "/ai-edge/data-sovereignty", file: "ai-edge/data-sovereignty.md" },
+    { href: "/ai-edge/social-media", file: "ai-edge/social-media.md" },
   ],
   "who-we-help/index.md": [
-    { href: "/who-we-help/behavioral-health/", file: "who-we-help/behavioral-health.md" },
-    { href: "/who-we-help/mental-health/", file: "who-we-help/mental-health.md" },
+    { href: "/who-we-help/behavioral-health", file: "who-we-help/behavioral-health.md" },
+    { href: "/who-we-help/mental-health", file: "who-we-help/mental-health.md" },
   ],
   "who-we-help/behavioral-health.md": [
-    { href: "/who-we-help/behavioral-health/residential-treatment/", file: "who-we-help/behavioral-health/residential-treatment.md" },
-    { href: "/who-we-help/behavioral-health/substance-use-disorder/", file: "who-we-help/behavioral-health/substance-use-disorder.md" },
-    { href: "/who-we-help/behavioral-health/adolescent-treatment/", file: "who-we-help/behavioral-health/adolescent-treatment.md" },
-    { href: "/who-we-help/behavioral-health/dual-diagnosis/", file: "who-we-help/behavioral-health/dual-diagnosis.md" },
-    { href: "/who-we-help/behavioral-health/detox-centers/", file: "who-we-help/behavioral-health/detox-centers.md" },
-    { href: "/who-we-help/behavioral-health/iop-php/", file: "who-we-help/behavioral-health/iop-php.md" },
+    { href: "/who-we-help/behavioral-health/residential-treatment", file: "who-we-help/behavioral-health/residential-treatment.md" },
+    { href: "/who-we-help/behavioral-health/substance-use-disorder", file: "who-we-help/behavioral-health/substance-use-disorder.md" },
+    { href: "/who-we-help/behavioral-health/adolescent-treatment", file: "who-we-help/behavioral-health/adolescent-treatment.md" },
+    { href: "/who-we-help/behavioral-health/dual-diagnosis", file: "who-we-help/behavioral-health/dual-diagnosis.md" },
+    { href: "/who-we-help/behavioral-health/detox-centers", file: "who-we-help/behavioral-health/detox-centers.md" },
+    { href: "/who-we-help/behavioral-health/iop-php", file: "who-we-help/behavioral-health/iop-php.md" },
   ],
   "who-we-help/mental-health.md": [
-    { href: "/who-we-help/mental-health/outpatient-clinics/", file: "who-we-help/mental-health/outpatient-clinics.md" },
-    { href: "/who-we-help/mental-health/therapy-groups/", file: "who-we-help/mental-health/therapy-groups.md" },
-    { href: "/who-we-help/mental-health/tele-mental-health/", file: "who-we-help/mental-health/tele-mental-health.md" },
-    { href: "/who-we-help/mental-health/psychiatric-practices/", file: "who-we-help/mental-health/psychiatric-practices.md" },
-    { href: "/who-we-help/mental-health/adolescent-mental-health/", file: "who-we-help/mental-health/adolescent-mental-health.md" },
+    { href: "/who-we-help/mental-health/outpatient-clinics", file: "who-we-help/mental-health/outpatient-clinics.md" },
+    { href: "/who-we-help/mental-health/therapy-groups", file: "who-we-help/mental-health/therapy-groups.md" },
+    { href: "/who-we-help/mental-health/tele-mental-health", file: "who-we-help/mental-health/tele-mental-health.md" },
+    { href: "/who-we-help/mental-health/psychiatric-practices", file: "who-we-help/mental-health/psychiatric-practices.md" },
+    { href: "/who-we-help/mental-health/adolescent-mental-health", file: "who-we-help/mental-health/adolescent-mental-health.md" },
   ],
   "get-started/index.md": [
-    { href: "/get-started/request-an-audit/", file: "get-started/request-an-audit.md" },
-    { href: "/get-started/book-a-call/", file: "get-started/book-a-call.md" },
-    { href: "/get-started/qualification/", file: "get-started/qualification.md" },
+    { href: "/get-started/request-an-audit", file: "get-started/request-an-audit.md" },
+    { href: "/get-started/book-a-call", file: "get-started/book-a-call.md" },
+    { href: "/get-started/qualification", file: "get-started/qualification.md" },
   ],
   "resources/index.md": [
-    { href: "/resources/guides/", file: "resources/guides/index.md" },
-    { href: "/resources/meta-ads/", file: "resources/meta-ads.md" },
-    { href: "/resources/google-ads/", file: "resources/google-ads.md" },
-    { href: "/resources/compliance-ad-policy/", file: "resources/compliance-ad-policy.md" },
-    { href: "/resources/llm-advertising/", file: "resources/llm-advertising.md" },
-    { href: "/resources/attribution-measurement/", file: "resources/attribution-measurement.md" },
-    { href: "/resources/mental-health-marketing/", file: "resources/mental-health-marketing.md" },
-    { href: "/resources/behavioral-health-marketing/", file: "resources/behavioral-health-marketing.md" },
-    { href: "/resources/paid-media/", file: "resources/paid-media.md" },
-    { href: "/resources/creative-conversion/", file: "resources/creative-conversion.md" },
-    { href: "/resources/ai-in-marketing/", file: "resources/ai-in-marketing.md" },
-    { href: "/resources/research/", file: "resources/research.md" },
+    { href: "/resources/guides", file: "resources/guides/index.md" },
+    { href: "/resources/meta-ads", file: "resources/meta-ads.md" },
+    { href: "/resources/google-ads", file: "resources/google-ads.md" },
+    { href: "/resources/compliance-ad-policy", file: "resources/compliance-ad-policy.md" },
+    { href: "/resources/llm-advertising", file: "resources/llm-advertising.md" },
+    { href: "/resources/attribution-measurement", file: "resources/attribution-measurement.md" },
+    { href: "/resources/mental-health-marketing", file: "resources/mental-health-marketing.md" },
+    { href: "/resources/behavioral-health-marketing", file: "resources/behavioral-health-marketing.md" },
+    { href: "/resources/paid-media", file: "resources/paid-media.md" },
+    { href: "/resources/creative-conversion", file: "resources/creative-conversion.md" },
+    { href: "/resources/ai-in-marketing", file: "resources/ai-in-marketing.md" },
+    { href: "/resources/research", file: "resources/research.md" },
   ],
   "legal/index.md": [
-    { href: "/legal/terms/", file: "legal/terms.md" },
-    { href: "/legal/privacy-policy/", file: "legal/privacy-policy.md" },
-    { href: "/legal/cookie-policy/", file: "legal/cookie-policy.md" },
-    { href: "/legal/advertising-disclaimer/", file: "legal/advertising-disclaimer.md" },
-    { href: "/legal/hipaa-phi-disclaimer/", file: "legal/hipaa-phi-disclaimer.md" },
+    { href: "/legal/terms", file: "legal/terms.md" },
+    { href: "/legal/privacy-policy", file: "legal/privacy-policy.md" },
+    { href: "/legal/cookie-policy", file: "legal/cookie-policy.md" },
+    { href: "/legal/advertising-disclaimer", file: "legal/advertising-disclaimer.md" },
+    { href: "/legal/hipaa-phi-disclaimer", file: "legal/hipaa-phi-disclaimer.md" },
   ],
   "company/index.md": [
-    { href: "/company/contact/", file: "company/contact.md" },
-    { href: "/company/ai-systems-policy/", file: "company/ai-systems-policy.md" },
-    { href: "/company/data-sovereignty/", file: "company/data-sovereignty.md" },
-    { href: "/company/security/", file: "company/security.md" },
+    { href: "/company/contact", file: "company/contact.md" },
+    { href: "/company/ai-systems-policy", file: "company/ai-systems-policy.md" },
+    { href: "/company/data-sovereignty", file: "company/data-sovereignty.md" },
+    { href: "/company/security", file: "company/security.md" },
   ],
   "research/index.md": [
-    { href: "/research/studies/", file: "research/studies/index.md" },
+    { href: "/research/studies", file: "research/studies/index.md" },
   ],
   "research/studies/index.md": [
-    { href: "/research/studies/annual-paid-media-and-ai-trends/", file: "research/studies/annual-paid-media-and-ai-trends.md" },
-    { href: "/research/studies/attribution-reality-check/", file: "research/studies/attribution-reality-check.md" },
-    { href: "/research/studies/meta-ads-benchmarks/", file: "research/studies/meta-ads-benchmarks.md" },
-    { href: "/research/studies/llm-advertising-early-signals/", file: "research/studies/llm-advertising-early-signals.md" },
+    { href: "/research/studies/annual-paid-media-and-ai-trends", file: "research/studies/annual-paid-media-and-ai-trends.md" },
+    { href: "/research/studies/attribution-reality-check", file: "research/studies/attribution-reality-check.md" },
+    { href: "/research/studies/meta-ads-benchmarks", file: "research/studies/meta-ads-benchmarks.md" },
+    { href: "/research/studies/llm-advertising-early-signals", file: "research/studies/llm-advertising-early-signals.md" },
   ],
   "media/index.md": [
-    { href: "/media/newsroom/", file: "media/newsroom.md" },
-    { href: "/media/email-marketing/", file: "media/email-marketing.md" },
-    { href: "/media/pitch-guidelines/", file: "media/pitch-guidelines.md" },
-    { href: "/media/podcast-appearances/", file: "media/podcast-appearances.md" },
-    { href: "/media/press/", file: "media/press.md" },
-    { href: "/media/media-kit/", file: "media/media-kit.md" },
-    { href: "/media/brand-assets/", file: "media/brand-assets.md" },
-    { href: "/media/guest-contributions/", file: "media/guest-contributions.md" },
-    { href: "/media/syndication/", file: "media/syndication.md" },
-    { href: "/media/editorial-topics/", file: "media/editorial-topics.md" },
+    { href: "/media/newsroom", file: "media/newsroom.md" },
+    { href: "/media/email-marketing", file: "media/email-marketing.md" },
+    { href: "/media/pitch-guidelines", file: "media/pitch-guidelines.md" },
+    { href: "/media/podcast-appearances", file: "media/podcast-appearances.md" },
+    { href: "/media/press", file: "media/press.md" },
+    { href: "/media/media-kit", file: "media/media-kit.md" },
+    { href: "/media/brand-assets", file: "media/brand-assets.md" },
+    { href: "/media/guest-contributions", file: "media/guest-contributions.md" },
+    { href: "/media/syndication", file: "media/syndication.md" },
+    { href: "/media/editorial-topics", file: "media/editorial-topics.md" },
   ],
   "resources/guides/index.md": [
-    { href: "/resources/guides/creative-testing-system-for-meta-ads/", file: "resources/guides/creative-testing-system-for-meta-ads.md" },
-    { href: "/resources/guides/google-ads-compliance-for-mental-and-behavioral-health/", file: "resources/guides/google-ads-compliance-for-mental-and-behavioral-health.md" },
-    { href: "/resources/guides/meta-ads-for-mental-health-practices/", file: "resources/guides/meta-ads-for-mental-health-practices.md" },
-    { href: "/resources/guides/behavioral-health-paid-media-playbook/", file: "resources/guides/behavioral-health-paid-media-playbook.md" },
-    { href: "/resources/guides/ai-discovery-optimization-what-replaces-traditional-seo/", file: "resources/guides/ai-discovery-optimization-what-replaces-traditional-seo.md" },
-    { href: "/resources/guides/mental-health-paid-media-playbook/", file: "resources/guides/mental-health-paid-media-playbook.md" },
-    { href: "/resources/guides/intake-attribution-and-call-quality-framework/", file: "resources/guides/intake-attribution-and-call-quality-framework.md" },
-    { href: "/resources/guides/meta-ads-for-treatment-centers/", file: "resources/guides/meta-ads-for-treatment-centers.md" },
+    { href: "/resources/guides/creative-testing-system-for-meta-ads", file: "resources/guides/creative-testing-system-for-meta-ads.md" },
+    { href: "/resources/guides/google-ads-compliance-for-mental-and-behavioral-health", file: "resources/guides/google-ads-compliance-for-mental-and-behavioral-health.md" },
+    { href: "/resources/guides/meta-ads-for-mental-health-practices", file: "resources/guides/meta-ads-for-mental-health-practices.md" },
+    { href: "/resources/guides/behavioral-health-paid-media-playbook", file: "resources/guides/behavioral-health-paid-media-playbook.md" },
+    { href: "/resources/guides/ai-discovery-optimization-what-replaces-traditional-seo", file: "resources/guides/ai-discovery-optimization-what-replaces-traditional-seo.md" },
+    { href: "/resources/guides/mental-health-paid-media-playbook", file: "resources/guides/mental-health-paid-media-playbook.md" },
+    { href: "/resources/guides/intake-attribution-and-call-quality-framework", file: "resources/guides/intake-attribution-and-call-quality-framework.md" },
+    { href: "/resources/guides/meta-ads-for-treatment-centers", file: "resources/guides/meta-ads-for-treatment-centers.md" },
   ],
 };
 

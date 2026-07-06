@@ -27,7 +27,7 @@ The platform's reach continues to expand rapidly. According to [OpenAI's usage d
 
 
 What separates ChatGPT from legacy advertising platforms is the depth of engagement. Users are not scrolling past banner ads or skipping pre-roll video. They are actively conversing, asking follow-up questions, and spending meaningful time with responses. This creates a higher-quality touchpoint than impression-based advertising typically delivers.
-For [behavioral health marketing](/who-we-help/behavioral-health/), this matters because the path to admission is rarely linear. Families research treatment options across multiple sessions, often returning to trusted information sources. ChatGPT advertising positions your brand within that research process, not alongside it.
+For [behavioral health marketing](/who-we-help/behavioral-health), this matters because the path to admission is rarely linear. Families research treatment options across multiple sessions, often returning to trusted information sources. ChatGPT advertising positions your brand within that research process, not alongside it.
 Strategizing Effective ChatGPT Ads
 Effective ChatGPT ads require a different creative approach than traditional paid media. The conversational format rewards clarity, specificity, and genuine helpfulness over promotional language. Messages that feel like sales pitches underperform compared to content that actually answers the user's underlying question.
 Start with intent mapping. Identify the questions your ideal patients and their families ask during the research phase. What are they worried about? What do they not understand about treatment levels of care? What objections do they have about cost, insurance, or outcomes? Your ChatGPT advertising content should address these directly.
@@ -39,7 +39,7 @@ Structure your messaging around three layers:
 
 Matching Message to Moment
 The most effective campaigns we have built match message specificity to where the user is in their journey. Early-stage researchers need educational content. Users comparing providers need differentiation. Users ready to act need friction-free paths to conversation.
-Marketing Powered brings [AI advertising expertise](/ai-edge/) developed since 2022, including experience with conversational AI platforms, prompt engineering, and attribution modeling for non-traditional channels. This is not theoretical knowledge. Our team has managed [$50M+ in behavioral health and mental health media spend](/results/case-studies/), giving us pattern recognition for what works in sensitive verticals.
+Marketing Powered brings [AI advertising expertise](/ai-edge) developed since 2022, including experience with conversational AI platforms, prompt engineering, and attribution modeling for non-traditional channels. This is not theoretical knowledge. Our team has managed [$50M+ in behavioral health and mental health media spend](/results/case-studies), giving us pattern recognition for what works in sensitive verticals.
 
 
 [CTA] Request an Audit
@@ -53,7 +53,7 @@ HIPAA considerations extend to your advertising content and landing page infrast
 
 
 Platform-specific compliance factors
-ChatGPT's content policies continue to evolve. Staying current requires active monitoring of [OpenAI's usage policies](https://openai.com/policies/usage-policies) and advertising guidelines. Marketing Powered tracks these changes as part of our [digital marketing services](/services/) and adjusts campaign parameters accordingly.
+ChatGPT's content policies continue to evolve. Staying current requires active monitoring of [OpenAI's usage policies](https://openai.com/policies/usage-policies) and advertising guidelines. Marketing Powered tracks these changes as part of our [digital marketing services](/services) and adjusts campaign parameters accordingly.
 
 
 Transparency matters in AI-assisted advertising. Users should understand when they are interacting with sponsored content. Misleading representations or attempts to disguise advertising as organic responses create compliance risk and erode trust. Our campaigns prioritize clear disclosure and authentic value delivery.
@@ -65,7 +65,7 @@ Attribution through to admission: The behavioral health buying cycle is complex.
 Early results and learnings
 ChatGPT advertising is nascent, which creates both opportunity and uncertainty. Early campaigns show higher engagement rates than traditional display advertising, with users spending more time with sponsored content. Lead quality metrics are encouraging, though sample sizes remain small.
 The treatment centers seeing the strongest early results share common characteristics: clear clinical differentiation, strong landing page experiences, and intake teams capable of handling informed, research-stage callers. ChatGPT advertising tends to attract users who have already done significant research, which requires a different intake approach than impulse-driven traffic.
-View our broader [case studies](/results/case-studies/) for detailed performance data from established channels. The operational discipline demonstrated there forms the foundation for our ChatGPT advertising approach.
+View our broader [case studies](/results/case-studies) for detailed performance data from established channels. The operational discipline demonstrated there forms the foundation for our ChatGPT advertising approach.
 Getting Started with ChatGPT Advertising
 Beginning with ChatGPT, advertising requires foundational readiness before media spend. The channel amplifies whatever strengths or weaknesses exist in your current marketing infrastructure.
 Audit your current state: Before adding a new channel, understand what is working and what is not. Where are your current leads coming from? What is your cost per admission by channel? Where do prospects drop off in the intake process? Marketing Powered's audit process examines your full funnel, not just advertising metrics.
@@ -73,7 +73,7 @@ Align on compliance posture: Confirm your LegitScript certification status. Revi
 Define attribution requirements: How will you measure ChatGPT advertising success? Impressions and clicks are insufficient for behavioral health. You need visibility into which engagements generate qualified calls, which calls convert to assessments, and which assessments result in admissions. Our attribution modeling connects these dots.
 Working with Marketing Powered
 We are AI-native since 2022, with proprietary infrastructure built for sensitive vertical advertising. Our founder holds court-certified expert witness credentials in advertising strategy, which reflects the depth of operational and regulatory knowledge we bring to client engagements.
-ChatGPT advertising fits within a broader [marketing strategy for health centers](/resources/guides) that includes [paid media](/services/paid-media/), content development, and conversion optimization. We do not recommend isolated channel experiments. Every campaign should connect to your overall growth objectives and attribution framework.
+ChatGPT advertising fits within a broader [marketing strategy for health centers](/resources/guides) that includes [paid media](/services/paid-media), content development, and conversion optimization. We do not recommend isolated channel experiments. Every campaign should connect to your overall growth objectives and attribution framework.
 
 
 The next step is a conversation. Request an audit to discuss your current marketing performance, compliance posture, and growth objectives. We will assess whether ChatGPT advertising makes sense for your facility and, if so, how to structure a campaign that delivers qualified admissions, not just impressions.

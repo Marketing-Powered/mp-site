@@ -10,7 +10,7 @@ import ScoredAssessment, {
   type AssessmentTier,
 } from "@/components/site/ScoredAssessment";
 
-const URL = "/tools/meta-ads-readiness-score/";
+const URL = "/tools/meta-ads-readiness-score";
 
 export const metadata: Metadata = {
   title: "Meta Ads Readiness Score Tool | Marketing Powered",
@@ -201,7 +201,7 @@ export default function Page() {
           tiers={TIERS}
           scoreLabel="Meta Ads Health Score"
           ctaText="Request an Audit of Your Score"
-          ctaLink="/get-started/request-an-audit/"
+          ctaLink="/get-started/request-an-audit"
         />
       </section>
 
@@ -251,7 +251,7 @@ export default function Page() {
         headline="Ready to see where you stand?"
         body="When you complete your Meta Ads readiness assessment, request an audit to review your results with our team. We'll walk through your score, identify the highest-impact fixes, and help you build a path to compliant, high-performing campaigns backed by $50M+ in managed behavioral health media spend."
         ctaText="Request a Free Audit"
-        ctaLink="/get-started/request-an-audit/"
+        ctaLink="/get-started/request-an-audit"
         secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>

@@ -31,9 +31,9 @@ Operator experience and AI-native infrastructure built for behavioral health and
 Why Choose Marketing Powered?
 When you get started with a marketing agency, the first question is whether they actually understand your business. Most agencies treat behavioral health like any other vertical. They run generic campaigns, miss compliance requirements, and generate leads your intake team cannot close.
 Marketing Powered operates differently. Our founder managed operator-side multi-market growth, managing the marketing function through every stage of growth. That operator experience shapes how we build campaigns, measure results, and protect your business from compliance risk.
-We have managed over [$50M in behavioral health and mental health media spend](/who-we-help/behavioral-health/), with monthly Google Ads budgets ranging from $1.5M to $2M across active accounts. Our [AI-native infrastructure](/ai-edge/) has been in production since 2022, delivering attribution that tracks through to admission, not just form fills.
+We have managed over [$50M in behavioral health and mental health media spend](/who-we-help/behavioral-health), with monthly Google Ads budgets ranging from $1.5M to $2M across active accounts. Our [AI-native infrastructure](/ai-edge) has been in production since 2022, delivering attribution that tracks through to admission, not just form fills.
 Our Consultation Process
-Your [marketing agency consultation](/services/paid-media/) begins with a comprehensive audit of your current campaigns, landing pages, and attribution setup. We identify where spend is leaking, which channels are underperforming, and what compliance gaps exist in your ad accounts.
+Your [marketing agency consultation](/services/paid-media) begins with a comprehensive audit of your current campaigns, landing pages, and attribution setup. We identify where spend is leaking, which channels are underperforming, and what compliance gaps exist in your ad accounts.
 
 
 From there, we build a personalized strategy session focused on your census goals, geographic footprint, and competitive positioning. You leave with a clear picture of what is working, what is not, and what a partnership would look like.
@@ -45,10 +45,10 @@ The results speak through marketing metrics: reduced cost per qualified call, hi
 
 
 Book Your Free Consultation Today
-Ready to get started with a marketing agency that understands behavioral health? [Book a discovery call](/get-started/book-a-call/) and we will walk through your current marketing performance, identify immediate opportunities, and determine whether a partnership makes sense.
+Ready to get started with a marketing agency that understands behavioral health? [Book a discovery call](/get-started/book-a-call) and we will walk through your current marketing performance, identify immediate opportunities, and determine whether a partnership makes sense.
 
 
-You can also [request a behavioral health marketing audit](/get-started/request-an-audit/) if you want a detailed assessment before the conversation. Either way, you will speak with strategists who have managed campaigns at operator-level scale and understand the compliance requirements of your vertical.
+You can also [request a behavioral health marketing audit](/get-started/request-an-audit) if you want a detailed assessment before the conversation. Either way, you will speak with strategists who have managed campaigns at operator-level scale and understand the compliance requirements of your vertical.
 Ready to Talk Strategy?
 Book a discovery call with Marketing Powered. We will discuss your census goals, review your current marketing performance, and determine whether a partnership makes sense for your organization.
 [CTA] Book a Discovery Call

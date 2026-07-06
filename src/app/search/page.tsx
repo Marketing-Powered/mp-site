@@ -8,7 +8,7 @@ import { serif } from "@/components/site/theme";
 import { SITE_URL } from "@/lib/site";
 import SiteSearch from "./SiteSearch";
 
-const URL = "/search/";
+const URL = "/search";
 
 export const metadata: Metadata = {
   title: "Functional Site Search - Marketing Powered",
@@ -130,7 +130,7 @@ export default function Page() {
         headline="Need help finding something specific?"
         body="Some questions are better answered by a person than a search bar. Send us the context and someone who understands behavioral health and mental health marketing can point you in the right direction."
         ctaText="Contact Us"
-        ctaLink="/company/contact/"
+        ctaLink="/company/contact"
         secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>

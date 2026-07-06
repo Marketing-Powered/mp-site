@@ -27,25 +27,25 @@ From operator-level experience to agency execution: the Marketing Powered compan
 
 
 Our Journey and Expertise
-Marketing Powered was founded by former treatment center executives who managed [paid media services](/services/paid-media/) at scale before building an agency. The founder spent years as an internal marketing leader, overseeing $50M+ in managed media spend across behavioral health networks. That operator-level experience shapes every campaign we run today.
+Marketing Powered was founded by former treatment center executives who managed [paid media services](/services/paid-media) at scale before building an agency. The founder spent years as an internal marketing leader, overseeing $50M+ in managed media spend across behavioral health networks. That operator-level experience shapes every campaign we run today.
 
 
-The transition from running internal marketing for treatment centers to founding an external agency was deliberate. We saw how traditional agencies approached [behavioral health marketing](/who-we-help/behavioral-health/): generic playbooks, surface-level compliance knowledge, and little understanding of what actually moves admissions. We built Marketing Powered to solve those gaps.
+The transition from running internal marketing for treatment centers to founding an external agency was deliberate. We saw how traditional agencies approached [behavioral health marketing](/who-we-help/behavioral-health): generic playbooks, surface-level compliance knowledge, and little understanding of what actually moves admissions. We built Marketing Powered to solve those gaps.
 
 
 Our team tracks attribution through to admission, not just to form fills or phone calls. We understand census pressure, intake bottlenecks, and the difference between a lead and a qualified admission. This company information reflects years of operating inside the vertical, not observing it from the outside.
 Our Values and Mission
-Marketing Powered operates on three core principles: ethical marketing, transparent reporting, and measurable outcomes. We support behavioral health providers who need a partner that understands LegitScript requirements, [HIPAA-conscious infrastructure](/ai-edge/), and Google Ads sensitive vertical restrictions.
+Marketing Powered operates on three core principles: ethical marketing, transparent reporting, and measurable outcomes. We support behavioral health providers who need a partner that understands LegitScript requirements, [HIPAA-conscious infrastructure](/ai-edge), and Google Ads sensitive vertical restrictions.
 
 
 Our AI-driven strategies are built on proprietary systems we have developed since 2022. We do not wrap commercial APIs and call it innovation. We run local AI inference on owned hardware, maintaining data sovereignty and HIPAA-conscious practices throughout our stack. Compliance is not a feature we bolt on; it is foundational to how we operate.
 Why We're Different
 Most agencies position themselves as vendors. Marketing Powered functions as a partner with operator-level stakes in your outcomes. The founder is a court-certified marketing expert, a credential earned through litigation work that required demonstrating advertising strategy expertise under examination.
-We deliver faster project turnarounds because we built [AI-powered marketing](/ai-edge/) infrastructure specifically for this work. Multi-variant optimization, predictive analytics, and real-time campaign adjustments happen without the weeks of lag traditional agencies require. Our [case studies](/results/case-studies/) show what this speed and precision produce for treatment centers and mental health practices.
+We deliver faster project turnarounds because we built [AI-powered marketing](/ai-edge) infrastructure specifically for this work. Multi-variant optimization, predictive analytics, and real-time campaign adjustments happen without the weeks of lag traditional agencies require. Our [case studies](/results/case-studies) show what this speed and precision produce for treatment centers and mental health practices.
 
 
 Meet Our Team
-Our team combines marketing execution with deep vertical knowledge. The founder scaled a behavioral health network and built the marketing infrastructure that supported that growth. Team members bring expertise in paid media, [web development](/services/web-development/), analytics, and creative production, all focused on behavioral health and [mental health marketing](/who-we-help/mental-health/).
+Our team combines marketing execution with deep vertical knowledge. The founder scaled a behavioral health network and built the marketing infrastructure that supported that growth. Team members bring expertise in paid media, [web development](/services/web-development), analytics, and creative production, all focused on behavioral health and [mental health marketing](/who-we-help/mental-health).
 
 
 Every team member understands that behind every lead metric is a person seeking treatment. That perspective keeps our work grounded and our strategies ethical.

@@ -30,13 +30,13 @@ Connect with specialists who understand behavioral health marketing, compliance 
 
 Why Contact Marketing Powered
 Behavioral health marketing requires more than standard agency tactics. It demands compliance fluency, vertical-specific media experience, and attribution that tracks through to admission. Marketing Powered brings all three.
-With [$50M+ in managed behavioral health and mental health media spend](/who-we-help/behavioral-health/), we operate at the scale where patterns become visible and optimizations compound. Our founder managed operator-side multi-market growth and holds credentials as a court-certified expert witness in advertising strategy.
+With [$50M+ in managed behavioral health and mental health media spend](/who-we-help/behavioral-health), we operate at the scale where patterns become visible and optimizations compound. Our founder managed operator-side multi-market growth and holds credentials as a court-certified expert witness in advertising strategy.
 
 
 When you contact Marketing Powered, you connect with a team that has navigated LegitScript certification, Google Ads sensitive vertical restrictions, and HIPAA-conscious infrastructure since before most agencies knew these requirements existed.
 How to Contact Us
 Use the contact form on this page to start a conversation. Share as much or as little detail as you prefer about your current marketing challenges, census goals, or compliance concerns.
-Prefer a direct approach? [Book a call](/get-started/book-a-call/) to schedule time with our team. If you want a detailed review of your current campaigns before we talk, [request an audit](/get-started/request-an-audit/).
+Prefer a direct approach? [Book a call](/get-started/book-a-call) to schedule time with our team. If you want a detailed review of your current campaigns before we talk, [request an audit](/get-started/request-an-audit).
 
 
 Every inquiry receives a response from someone who understands behavioral health operations, not a generic sales rep reading from a script.
@@ -44,8 +44,8 @@ What Happens After You Reach Out
 Within one business day, a member of our team will review your submission and respond with the next steps tailored to your situation. We prioritize fit over volume.
 Expect a conversation focused on your specific challenges: lead quality, cost per admission, compliance posture, or scaling from a single location to multiple facilities.
 Our Unique Expertise in Behavioral Health
-Marketing Powered has managed [$1.5M to $2M monthly in Google Ads](/ai-edge/) across behavioral health accounts, with attribution tracked through to admission. We understand the restrictions that come with sensitive vertical status: no retargeting, careful ad copy, and constant policy vigilance.
-Our [AI-native infrastructure](/ai-edge/) has been purpose-built for [HIPAA-compliant marketing](/ai-edge/) since 2022, giving us capabilities most agencies cannot match.
+Marketing Powered has managed [$1.5M to $2M monthly in Google Ads](/ai-edge) across behavioral health accounts, with attribution tracked through to admission. We understand the restrictions that come with sensitive vertical status: no retargeting, careful ad copy, and constant policy vigilance.
+Our [AI-native infrastructure](/ai-edge) has been purpose-built for [HIPAA-compliant marketing](/ai-edge) since 2022, giving us capabilities most agencies cannot match.
 
 
 Start a Conversation

@@ -26,15 +26,15 @@ Evidence-based research to guide your behavioral health marketing decisions.
 [CTA] Explore More Studies
 Overview of Marketing Studies
 Marketing studies separate opinion from evidence. For treatment center operators managing seven-figure ad budgets, the difference between a hunch and a validated insight can mean hundreds of thousands in wasted spend or missed admissions.
-This resource hub collects original research from Marketing Powered's work across the [behavioral health marketing](who-we-help/behavioral-health/) vertical. Each study draws from real campaign data, not theoretical models or borrowed benchmarks from unrelated industries.
+This resource hub collects original research from Marketing Powered's work across the [behavioral health marketing](/who-we-help/behavioral-health) vertical. Each study draws from real campaign data, not theoretical models or borrowed benchmarks from unrelated industries.
 
 
-What you will find here: paid media performance analysis, attribution methodology comparisons, compliance impact assessments, and channel-specific findings from campaigns we have managed directly. With [$50M+ in managed behavioral health and mental health media spend](/results/case-studies/), our research reflects operator-level scale, not agency guesswork.
+What you will find here: paid media performance analysis, attribution methodology comparisons, compliance impact assessments, and channel-specific findings from campaigns we have managed directly. With [$50M+ in managed behavioral health and mental health media spend](/results/case-studies), our research reflects operator-level scale, not agency guesswork.
 Exploring Paid Media Studies
 Paid media in behavioral health operates under constraints that general marketing research ignores. Google Ads sensitive vertical restrictions, Meta Special Ad Categories, and LegitScript certification requirements create a compliance layer that affects every optimization decision.
 
 
-Our [paid media studies](/services/paid-media/) examine performance patterns across accounts where we have managed $1.5M to $2M monthly in Google Ads spend. These are not hypothetical case examples. They reflect actual cost-per-admission trends, quality score dynamics in restricted categories, and conversion rate shifts tied to specific landing page variables.
+Our [paid media studies](/services/paid-media) examine performance patterns across accounts where we have managed $1.5M to $2M monthly in Google Ads spend. These are not hypothetical case examples. They reflect actual cost-per-admission trends, quality score dynamics in restricted categories, and conversion rate shifts tied to specific landing page variables.
 
 
 Recent paid media benchmark studies from industry sources like [WordStream's Google Ads benchmarks](https://www.wordstream.com/blog/ws/2016/02/29/google-adwords-industry-benchmarks) provide general context, but behavioral health requires vertical-specific interpretation. Our research applies those frameworks to the constraints treatment centers actually face.
@@ -56,12 +56,12 @@ Start with one finding. Test it against your own account data. Measure the resul
 If you want to discuss how specific findings apply to your treatment center's situation, our team can walk through the data with you and identify which insights match your market, payer mix, and growth goals.
 
 
-[CTA] [Explore More Studies](/get-started/request-an-audit/)
+[CTA] [Explore More Studies](/get-started/request-an-audit)
 Resources and Further Reading
 For a deeper exploration of marketing research methodology and behavioral health industry context, we recommend reviewing publications from [SAMHSA](https://www.samhsa.gov/) on treatment trends and the [Google Ads policy center](https://support.google.com/adspolicy/answer/176031) for current healthcare advertising restrictions.
 
 
-Additional resources are available through the [Marketing Powered resources hub](/resources/), including our [AI Edge methodology](/ai-edge/) and [case studies](/results/case-studies/) that demonstrate how research translates to results.
+Additional resources are available through the [Marketing Powered resources hub](/resources), including our [AI Edge methodology](/ai-edge) and [case studies](/results/case-studies) that demonstrate how research translates to results.
 Put Research Into Practice
 Marketing studies only matter if they change decisions. Our team can review your current campaigns alongside relevant research findings and identify specific optimizations backed by data from $50M+ in managed behavioral health media spend.
 

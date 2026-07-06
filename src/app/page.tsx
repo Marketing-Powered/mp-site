@@ -443,7 +443,7 @@ export default function Design1() {
             {s.servicesIntro.headline}
           </h2>
           <Link
-            href="/services/"
+            href="/services"
             className="mt-6 inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[#0090F0] transition-colors hover:text-[#7FCBFF]"
             style={{ fontFamily: mono }}
           >
@@ -506,14 +506,14 @@ export default function Design1() {
             </p>
             <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3">
               <Link
-                href="/who-we-help/behavioral-health/"
+                href="/who-we-help/behavioral-health"
                 className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[#0090F0] transition-colors hover:text-[#7FCBFF]"
                 style={{ fontFamily: mono }}
               >
                 Behavioral health <span aria-hidden>→</span>
               </Link>
               <Link
-                href="/who-we-help/mental-health/"
+                href="/who-we-help/mental-health"
                 className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[#0090F0] transition-colors hover:text-[#7FCBFF]"
                 style={{ fontFamily: mono }}
               >
@@ -545,7 +545,7 @@ export default function Design1() {
             {s.whyChoose.body}
           </p>
           <Link
-            href="/results/case-studies/"
+            href="/results/case-studies"
             className="mt-6 inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[#0090F0] transition-colors hover:text-[#7FCBFF]"
             style={{ fontFamily: mono }}
           >

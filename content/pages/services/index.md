@@ -31,10 +31,10 @@ Operator-driven marketing services built for behavioral health and mental health
 Why Choose Our Marketing Services?
 Most agencies sell marketing services without understanding what it takes to fill beds, manage intake capacity, or navigate the compliance minefield of addiction and mental health advertising. Marketing Powered operates differently. The agency was built by operators who have managed $50M+ in behavioral health and mental health media spend, scaled treatment organizations through multi-market growth, and handled $1.5M to $2M monthly in Google Ads across 11+ accounts.
 That operator background changes everything about how we approach your marketing. We understand census fluctuations, intake team bandwidth, LegitScript requirements, and the difference between a lead that converts to admission and one that wastes your clinical team's time. Our founder holds court certification as an expert witness in advertising strategy, a credential earned through deep accountability for marketing outcomes.
-Traditional agencies treat behavioral health like any other vertical. They apply generic playbooks, miss compliance nuances, and optimize for vanity metrics instead of admissions. Marketing Powered was purpose-built for [behavioral health marketing solutions](/who-we-help/behavioral-health/). We measure success the same way you do: qualified calls, admissions, and revenue growth tied to marketing investment.
+Traditional agencies treat behavioral health like any other vertical. They apply generic playbooks, miss compliance nuances, and optimize for vanity metrics instead of admissions. Marketing Powered was purpose-built for [behavioral health marketing solutions](/who-we-help/behavioral-health). We measure success the same way you do: qualified calls, admissions, and revenue growth tied to marketing investment.
 Comprehensive Paid Media Strategies
 Paid media for treatment centers requires more than bid management. It requires understanding which channels perform for your specific service lines, how to structure campaigns around sensitive vertical restrictions, and how to track attribution from first click through admission.
-Marketing Powered delivers [paid media strategies](/services/paid-media/) across Google, Meta, Microsoft, and programmatic display, all configured to meet healthcare compliance requirements. Our [Google Ads expertise](/services/paid-media/google-ads/) includes LegitScript-certified advertising for addiction treatment, compliant remarketing alternatives, and campaign structures that protect your account from policy violations.
+Marketing Powered delivers [paid media strategies](/services/paid-media) across Google, Meta, Microsoft, and programmatic display, all configured to meet healthcare compliance requirements. Our [Google Ads expertise](/services/paid-media/google-ads) includes LegitScript-certified advertising for addiction treatment, compliant remarketing alternatives, and campaign structures that protect your account from policy violations.
 
 
 We track attribution through to admission, not just to form fill. That means you see which campaigns, keywords, and ad variations actually produce revenue, not which ones produce the highest volume of unqualified leads. This attribution discipline has allowed us to scale treatment center marketing from startup budgets to $2M/month in managed spend without sacrificing lead quality.
@@ -45,20 +45,20 @@ Every paid media engagement includes channel-mix analysis, creative-testing fram
 
 
 AI-Enhanced Marketing Solutions
-Marketing Powered has operated as an AI-native agency since 2022, integrating machine learning and generative AI into campaign optimization, creative production, and performance analysis. Our [AI-driven insights](/ai-edge/) go beyond surface-level automation to deliver multi-variant optimization, predictive budget allocation, and real-time creative iteration.
+Marketing Powered has operated as an AI-native agency since 2022, integrating machine learning and generative AI into campaign optimization, creative production, and performance analysis. Our [AI-driven insights](/ai-edge) go beyond surface-level automation to deliver multi-variant optimization, predictive budget allocation, and real-time creative iteration.
 
 
 The AI infrastructure runs on proprietary systems built for data sovereignty and HIPAA-conscious processing. We do not rely on third-party wrappers or commercial APIs that route sensitive data through unknown servers. Our local AI inference capabilities mean your campaign data stays within controlled infrastructure.
 These AI marketing services translate to faster optimization cycles, more creative variants tested per dollar spent, and attribution modeling that identifies patterns human analysts miss. For treatment center operators, that means better lead quality at a lower cost per admission.
 Tailored Solutions for Behavioral Health
 Behavioral health and mental health marketing operate under constraints that most agencies do not understand. Google classifies addiction treatment as a sensitive vertical with mandatory LegitScript certification. Meta restricts health-related targeting. Retargeting is prohibited. One compliance mistake can suspend your ad accounts and cut off your primary patient acquisition channel.
-Marketing Powered builds every campaign with these restrictions as foundational requirements, not afterthoughts. Our team maintains active awareness of [HIPAA adherence](/who-we-help/mental-health/) requirements, LegitScript certification standards, and platform-specific policies for healthcare advertising.
+Marketing Powered builds every campaign with these restrictions as foundational requirements, not afterthoughts. Our team maintains active awareness of [HIPAA adherence](/who-we-help/mental-health) requirements, LegitScript certification standards, and platform-specific policies for healthcare advertising.
 
 
 We customize strategies for your specific treatment modalities, whether residential, IOP/PHP, detox, dual diagnosis, or adolescent programs. Each service line has different patient acquisition economics, different compliance considerations, and different creative approaches. Generic marketing services ignore these differences. We build around them.
 Success Stories and Client Outcomes
 The clearest proof of our marketing services comes from client outcomes. We supported a multi-location behavioral health organization's growth through a multi-location expansion, scaling marketing spend alongside organizational expansion while maintaining lead quality and compliance standards.
-Our [success stories](/results/case-studies/) include treatment centers that have seen measurable improvements in cost per admission, lead-to-admission conversion rates, and overall census stability. We focus on these metrics because they determine whether your marketing investment produces sustainable growth or just activity reports.
+Our [success stories](/results/case-studies) include treatment centers that have seen measurable improvements in cost per admission, lead-to-admission conversion rates, and overall census stability. We focus on these metrics because they determine whether your marketing investment produces sustainable growth or just activity reports.
 
 
 Ready to discuss your marketing strategy?

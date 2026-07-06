@@ -8,59 +8,59 @@ import { mono } from "./theme";
 const PRIMARY_NAV = [
   {
     label: "Services",
-    href: "/services/",
+    href: "/services",
     children: [
-      { label: "Paid Media", href: "/services/paid-media/" },
-      { label: "Google Ads", href: "/services/google-ads-management/" },
-      { label: "Meta Ads", href: "/services/meta-ads-management/" },
-      { label: "Landing Pages", href: "/services/landing-page-optimization/" },
-      { label: "Analytics & Attribution", href: "/services/analytics-and-attribution/" },
-      { label: "Web Development", href: "/services/web-development/" },
-      { label: "View All Services", href: "/services/" },
+      { label: "Paid Media", href: "/services/paid-media" },
+      { label: "Google Ads", href: "/services/google-ads-management" },
+      { label: "Meta Ads", href: "/services/meta-ads-management" },
+      { label: "Landing Pages", href: "/services/landing-page-optimization" },
+      { label: "Analytics & Attribution", href: "/services/analytics-and-attribution" },
+      { label: "Web Development", href: "/services/web-development" },
+      { label: "View All Services", href: "/services" },
     ],
   },
   {
     label: "Who We Help",
-    href: "/who-we-help/",
+    href: "/who-we-help",
     children: [
-      { label: "Behavioral Health", href: "/who-we-help/behavioral-health/" },
-      { label: "Mental Health", href: "/who-we-help/mental-health/" },
-      { label: "Residential Treatment", href: "/who-we-help/behavioral-health/residential-treatment/" },
-      { label: "Substance Use Disorder", href: "/who-we-help/behavioral-health/substance-use-disorder/" },
-      { label: "Outpatient Clinics", href: "/who-we-help/mental-health/outpatient-clinics/" },
-      { label: "View All Specialties", href: "/who-we-help/" },
+      { label: "Behavioral Health", href: "/who-we-help/behavioral-health" },
+      { label: "Mental Health", href: "/who-we-help/mental-health" },
+      { label: "Residential Treatment", href: "/who-we-help/behavioral-health/residential-treatment" },
+      { label: "Substance Use Disorder", href: "/who-we-help/behavioral-health/substance-use-disorder" },
+      { label: "Outpatient Clinics", href: "/who-we-help/mental-health/outpatient-clinics" },
+      { label: "View All Specialties", href: "/who-we-help" },
     ],
   },
   {
     label: "AI Edge",
-    href: "/ai-edge/",
+    href: "/ai-edge",
     children: [
-      { label: "AI Edge Overview", href: "/ai-edge/" },
-      { label: "AI in Paid Media", href: "/ai-edge/ai-in-paid-media/" },
-      { label: "Owned AI Systems", href: "/ai-edge/owned-ai-systems/" },
-      { label: "Data Sovereignty", href: "/ai-edge/data-sovereignty/" },
+      { label: "AI Edge Overview", href: "/ai-edge" },
+      { label: "AI in Paid Media", href: "/ai-edge/ai-in-paid-media" },
+      { label: "Owned AI Systems", href: "/ai-edge/owned-ai-systems" },
+      { label: "Data Sovereignty", href: "/ai-edge/data-sovereignty" },
     ],
   },
   {
     label: "Resources",
-    href: "/resources/",
+    href: "/resources",
     children: [
-      { label: "Resources Hub", href: "/resources/" },
-      { label: "Research", href: "/research/" },
-      { label: "Guides", href: "/resources/guides/" },
-      { label: "Tools", href: "/tools/" },
-      { label: "Media", href: "/media/" },
-      { label: "Case Studies", href: "/results/case-studies/" },
+      { label: "Resources Hub", href: "/resources" },
+      { label: "Research", href: "/research" },
+      { label: "Guides", href: "/resources/guides" },
+      { label: "Tools", href: "/tools" },
+      { label: "Media", href: "/media" },
+      { label: "Case Studies", href: "/results/case-studies" },
     ],
   },
   {
     label: "Company",
-    href: "/company/",
+    href: "/company",
     children: [
-      { label: "Company Overview", href: "/company/" },
-      { label: "About", href: "/company/about/" },
-      { label: "Contact", href: "/company/contact/" },
-      { label: "Security", href: "/company/security/" },
+      { label: "Company Overview", href: "/company" },
+      { label: "About", href: "/company/about" },
+      { label: "Contact", href: "/company/contact" },
+      { label: "Security", href: "/company/security" },
     ],
   },
 ];
@@ -117,7 +117,7 @@ export default function Nav() {
 
         <div className="flex items-center gap-4">
           <Link
-            href="/get-started/request-an-audit/"
+            href="/get-started/request-an-audit"
             prefetch={false}
             className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
           >
@@ -168,7 +168,7 @@ export default function Nav() {
             </div>
           ))}
           <Link
-            href="/get-started/request-an-audit/"
+            href="/get-started/request-an-audit"
             prefetch={false}
             onClick={() => setMobileOpen(false)}
             className="mt-4 inline-flex rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-6 py-3 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"

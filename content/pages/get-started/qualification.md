@@ -29,7 +29,7 @@ Not every treatment center is the right fit. This process helps us both find out
 
 
 Why Qualification Matters
-Marketing Powered specializes in [behavioral health marketing](/who-we-help/behavioral-health/) and [mental health marketing](/who-we-help/mental-health/). That specialization means we are selective about partnership fit. Qualification protects both sides: you avoid wasting time with an agency that does not understand your vertical, and we confirm we can deliver real results for your specific situation.
+Marketing Powered specializes in [behavioral health marketing](/who-we-help/behavioral-health) and [mental health marketing](/who-we-help/mental-health). That specialization means we are selective about partnership fit. Qualification protects both sides: you avoid wasting time with an agency that does not understand your vertical, and we confirm we can deliver real results for your specific situation.
 
 
 This process evaluates budget alignment, compliance readiness, and growth objectives. Treatment centers operating in Google's sensitive vertical face restrictions that generic agencies often mishandle. Our qualification process screens for the factors that predict a successful engagement: sufficient media budget, realistic timelines, and openness to attribution discipline that tracks performance through to admission.
@@ -43,11 +43,11 @@ We work with treatment centers that meet the following baseline criteria:
 How to Start the Process
 Submit your information through the qualification form below. Include your current monthly ad spend (or planned budget), number of locations, and primary growth objective. Our team reviews submissions within two business days.
 If your center meets the baseline criteria, we schedule a 30-minute discovery call to discuss your specific situation, compliance posture, and growth targets.
-[CTA] [Start Your Qualification](/get-started/request-an-audit/)
+[CTA] [Start Your Qualification](/get-started/request-an-audit)
 
 
 Contact for Assistance
-Questions about the qualification process? Reach out directly through our [contact page](/get-started/book-a-call/). Our team responds within one business day during standard hours (Monday through Friday, 9 AM to 5 PM ET).
+Questions about the qualification process? Reach out directly through our [contact page](/get-started/book-a-call). Our team responds within one business day during standard hours (Monday through Friday, 9 AM to 5 PM ET).
 Ready to See If We're the Right Fit?
 Submit your qualification information, and our team will review it within two business days. If there is a fit, we will schedule a discovery call to discuss strategy, compliance, and growth targets.
 [CTA] Start Your Qualification
@@ -61,9 +61,9 @@ A: No formal documents are required to start. We ask for basic information: curr
 
 
 Q: Can I qualify for multiple services at once?
-A: Yes. Our qualification process covers all services, including [paid media](/services/paid-media/), SEO, and conversion rate optimization. A single discovery call determines fit across the full scope of what your treatment center needs.
+A: Yes. Our qualification process covers all services, including [paid media](/services/paid-media), SEO, and conversion rate optimization. A single discovery call determines fit across the full scope of what your treatment center needs.
 Q: Who can I contact if I have questions?
-A: Reach our team directly through the [book a call page](/get-started/book-a-call/). Expect a response within one business day. For urgent matters, indicate that in your message, and we will prioritize accordingly.
+A: Reach our team directly through the [book a call page](/get-started/book-a-call). Expect a response within one business day. For urgent matters, indicate that in your message, and we will prioritize accordingly.
 
 
 SCHEMA RECOMMENDATION

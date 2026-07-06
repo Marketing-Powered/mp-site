@@ -7,7 +7,7 @@ import { Kicker, GoldRule } from "@/components/site/ui";
 import { serif } from "@/components/site/theme";
 import LlmVisibilityCheck from "./LlmVisibilityCheck";
 
-const URL = "/tools/llm-visibility-check/";
+const URL = "/tools/llm-visibility-check";
 
 export const metadata: Metadata = {
   title: "LLM Visibility Check | AI Search Visibility Tool",
@@ -172,7 +172,7 @@ export default function Page() {
         headline="See where your brand stands in AI search"
         body="The shift toward AI-assisted discovery is accelerating. Get a detailed assessment with competitive benchmarking and a prioritized action plan built on AI-native infrastructure operating since 2022."
         ctaText="Request a Full LLM Visibility Audit"
-        ctaLink="/get-started/request-an-audit/"
+        ctaLink="/get-started/request-an-audit"
         secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>

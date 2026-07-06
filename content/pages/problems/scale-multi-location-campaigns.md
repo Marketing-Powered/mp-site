@@ -36,7 +36,7 @@ Scaling campaigns across multiple treatment centers surfaces problems that singl
 * Budget allocation across locations: How much should each facility receive? Performance-based allocation sounds logical until you realize that newer locations need investment to build momentum, while established sites may be hitting diminishing returns. Without clear frameworks, budget decisions become political rather than strategic.
 * Localized content at scale: Each location needs landing pages, ad copy, and creative assets that speak to its specific market. But producing unique content for 10+ locations strains internal teams and creates version control nightmares. The temptation to copy-paste leads to generic messaging that underperforms.
 * Fragmented data and attribution: When a prospect searches from one city, clicks an ad, visits your website, then calls a different location, who gets credit? Multi-location attribution requires infrastructure that most treatment centers lack: call tracking with location routing, CRM integration, and admission-level conversion data.
-* Compliance consistency: A single ad copy mistake can trigger a Google Ads account suspension that affects all locations. Maintaining LegitScript compliance and [behavioral health marketing strategies](/who-we-help/behavioral-health/) across a distributed team requires documented approval workflows and regular audits.
+* Compliance consistency: A single ad copy mistake can trigger a Google Ads account suspension that affects all locations. Maintaining LegitScript compliance and [behavioral health marketing strategies](/who-we-help/behavioral-health) across a distributed team requires documented approval workflows and regular audits.
 * Performance visibility: Leadership needs to compare cost per admission across locations, identify underperformers, and spot trends. But data often lives in silos: Google Ads in one account, Meta in another, call tracking in a third, and admissions data in the EMR. Consolidating this into actionable reporting is a technical and operational challenge.
 Effective Strategies for Multi-Location PPC
 Multi-location PPC requires a different architecture than single-site campaigns. The goal is centralized control with localized execution: one team managing strategy and compliance, with campaigns tailored to each market's competitive dynamics and patient demographics.
@@ -45,10 +45,10 @@ The most common mistake is building separate account structures for each locatio
 According to [Google's own documentation on location targeting](https://support.google.com/google-ads/answer/2453995), radius targeting combined with location-specific ad groups allows granular control without account fragmentation. Layer in location extensions and call extensions that route to the correct facility, and you have a structure that scales through a multi-location expansion without rebuilding.
 Budget allocation should follow a tiered model. Establish a baseline spend for each location to maintain presence, then allocate incremental budget based on performance metrics like cost per qualified call and cost per admission. Review monthly and adjust quarterly.
 Operational discipline for multi-location PPC management
-Managing $1.5M to $2M monthly in [Google Ads for treatment centers](/services/paid-media/) across 11+ accounts requires operational rigor that most agencies lack. Weekly performance reviews by location, bi-weekly creative refreshes, and monthly strategy sessions with facility directors keep campaigns aligned with census goals and local market conditions.
+Managing $1.5M to $2M monthly in [Google Ads for treatment centers](/services/paid-media) across 11+ accounts requires operational rigor that most agencies lack. Weekly performance reviews by location, bi-weekly creative refreshes, and monthly strategy sessions with facility directors keep campaigns aligned with census goals and local market conditions.
 
 
-Attribution tracking must extend beyond the click. Implement call tracking with whisper prompts that identify the lead source, integrate with your CRM to track lead-to-admission conversion, and build reporting that shows true cost per admission by location and channel. This is where [results-driven marketing](/results/case-studies/) separates from vanity metrics.
+Attribution tracking must extend beyond the click. Implement call tracking with whisper prompts that identify the lead source, integrate with your CRM to track lead-to-admission conversion, and build reporting that shows true cost per admission by location and channel. This is where [results-driven marketing](/results/case-studies) separates from vanity metrics.
 Leveraging Multi-Location Google Ads
 Google Ads remains the primary acquisition channel for most treatment centers, and multi-location campaigns require specific configurations to maximize performance while maintaining compliance.
 Geotargeting and local extensions
@@ -59,7 +59,7 @@ Compliance in multi-location Google Ads
 Google classifies addiction treatment advertising as a sensitive vertical with specific requirements. In the United States, [LegitScript certification](https://www.legitscript.com/certification/addiction-treatment/) is mandatory for treatment center advertising. Each location that appears in ads must be covered under your certification.
 
 
-Beyond certification, ad copy must avoid claims about treatment outcomes, success rates, or comparisons to other providers. Review processes should catch violations before ads go live, not after Google suspends your account. [Our approach to multi-location advertising](/ai-edge/) includes pre-flight compliance checks built into the creative workflow.
+Beyond certification, ad copy must avoid claims about treatment outcomes, success rates, or comparisons to other providers. Review processes should catch violations before ads go live, not after Google suspends your account. [Our approach to multi-location advertising](/ai-edge) includes pre-flight compliance checks built into the creative workflow.
 The no-retargeting restriction in behavioral health means your first-touch campaigns must work harder. You cannot follow prospects around the web with reminder ads. This makes search campaign optimization and landing page conversion rate optimization more important than in verticals where retargeting is allowed.
 
 
@@ -67,7 +67,7 @@ Choosing a Partner for Multi-Location Marketing
 Not every agency can execute multi-location campaigns at scale. The partner you choose should demonstrate specific qualifications that match the complexity of your operations.
 The Operational Difference
 The right partner feels like an extension of your marketing team, not a vendor sending monthly reports. They understand that census goals vary by location, that new facilities need different strategies than established ones, and that compliance is not a checkbox but an ongoing discipline.
-If you are ready to discuss how to [grow your treatment center](/who-we-help/behavioral-health/sober-living/) network with multi-location campaigns that scale, [Book a discovery call](/get-started/book-a-call/) to start the conversation.
+If you are ready to discuss how to [grow your treatment center](/who-we-help/behavioral-health/sober-living) network with multi-location campaigns that scale, [Book a discovery call](/get-started/book-a-call) to start the conversation.
 
 
 [CTA] Book Your Free Strategy Call → /get-started/book-a-call/

@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   title: "Case Studies & Results | Marketing Powered",
   description:
     "Aggregate results across $50M+ in managed behavioral and mental health ad spend. Detailed, HIPAA-conscious case studies available on request.",
-  alternates: { canonical: "/results/case-studies/" },
+  alternates: { canonical: "/results/case-studies" },
   openGraph: {
     type: "website",
     title: "Case Studies & Results | Marketing Powered",
     description:
       "Aggregate results across $50M+ in managed behavioral and mental health ad spend. Detailed case studies available on request.",
-    url: "/results/case-studies/",
+    url: "/results/case-studies",
   },
 };
 
@@ -31,7 +31,7 @@ export default function Page() {
   return (
     <PageShell>
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-14 pt-12 lg:px-12 lg:pt-16">
-        <Breadcrumbs url="/results/case-studies/" current="Case Studies" />
+        <Breadcrumbs url="/results/case-studies" current="Case Studies" />
         <div className="mt-8 max-w-3xl">
           <Kicker>Results</Kicker>
           <h1
@@ -48,7 +48,7 @@ export default function Page() {
             you through the numbers.
           </p>
           <div className="mt-9">
-            <PrimaryCta href="/get-started/request-an-audit/">Request the Case Studies</PrimaryCta>
+            <PrimaryCta href="/get-started/request-an-audit">Request the Case Studies</PrimaryCta>
           </div>
         </div>
       </section>

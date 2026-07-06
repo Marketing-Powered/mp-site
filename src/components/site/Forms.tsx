@@ -50,7 +50,7 @@ export function LeadForm({
     } catch {
       // Swallow network errors for now — still route to confirmation.
     }
-    router.push("/get-started/thanks/");
+    router.push("/get-started/thanks");
   }
 
   return (

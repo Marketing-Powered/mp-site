@@ -30,7 +30,7 @@ Introduction to AI in Marketing
 This AI marketing guide exists because the gap between organizations using AI effectively and those still relying on manual processes grows wider every quarter. According to a [2024 McKinsey report on AI adoption](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai), 72% of organizations now deploy AI in at least one business function, with marketing and sales leading adoption rates.
 
 
-For [behavioral health](behavioral-health) and [mental health marketing](/who-we-help/mental-health/) organizations, AI presents specific opportunities: predictive lead scoring that identifies high-intent prospects, content optimization that respects compliance boundaries, and attribution modeling that tracks the full journey from first click to admission.
+For [behavioral health](/who-we-help/behavioral-health) and [mental health marketing](/who-we-help/mental-health) organizations, AI presents specific opportunities: predictive lead scoring that identifies high-intent prospects, content optimization that respects compliance boundaries, and attribution modeling that tracks the full journey from first click to admission.
 
 
 The shift is not theoretical. Marketing Powered has been AI-native since 2022, managing over $50M in behavioral health and mental health media spend with AI systems built on proprietary infrastructure. This guide covers the practical applications, tools, and considerations that matter for healthcare marketers ready to move beyond experimentation.
@@ -44,7 +44,7 @@ AI in marketing extends far beyond chatbots and basic automation. The applicatio
 AI Marketing Automation Tools
 The AI marketing resources available today range from enterprise platforms to specialized point solutions. Understanding the landscape helps you choose tools that fit your organization's scale and compliance requirements.
 CRM and marketing automation platforms: Systems like HubSpot, Salesforce Marketing Cloud, and ActiveCampaign now embed AI for lead scoring, send-time optimization, and predictive analytics. These platforms work well for organizations with established marketing operations.
-Ad platform AI features: Google's Performance Max and Meta's Advantage+ campaigns use machine learning to optimize bidding, targeting, and creative delivery. For [paid media services](/services/paid-media/) in healthcare verticals, these tools require careful configuration to respect sensitive category restrictions.
+Ad platform AI features: Google's Performance Max and Meta's Advantage+ campaigns use machine learning to optimize bidding, targeting, and creative delivery. For [paid media services](/services/paid-media) in healthcare verticals, these tools require careful configuration to respect sensitive category restrictions.
 
 
 Specialized AI tools: Platforms like Jasper, Copy.ai, and Persado focus on content generation. Analytics tools like Pecan and 6sense add predictive capabilities to existing data stacks.
@@ -60,10 +60,10 @@ Integration with existing workflows: AI tools deliver value when they connect to
 [CTA] Schedule a Consultation
 Resources and Next Steps
 Building AI capability in healthcare marketing requires both technical infrastructure and strategic expertise. The organizations seeing results combine internal learning with specialized partners who understand the vertical.
-Start with our [AI-edge services](/ai-edge/) overview to understand how proprietary AI infrastructure differs from agency wrappers on commercial tools. Review our [case studies](/results/case-studies/) to see specific outcomes, including how we managed operator-side multi-market growth with AI-powered media optimization.
+Start with our [AI-edge services](/ai-edge) overview to understand how proprietary AI infrastructure differs from agency wrappers on commercial tools. Review our [case studies](/results/case-studies) to see specific outcomes, including how we managed operator-side multi-market growth with AI-powered media optimization.
 
 
-For hands-on learning, explore our [web development](/services/web-development/) and paid media resources. When you are ready to discuss implementation for your organization, [request an audit](/get-started/request-an-audit/) or schedule a consultation to review your current stack, compliance posture, and growth objectives.
+For hands-on learning, explore our [web development](/services/web-development) and paid media resources. When you are ready to discuss implementation for your organization, [request an audit](/get-started/request-an-audit) or schedule a consultation to review your current stack, compliance posture, and growth objectives.
 Ready to Implement AI in Your Marketing Strategy?
 Schedule a consultation to discuss strategy, compliance requirements, lead quality, and channel mix. We will review your current operations and identify where AI-driven optimization can generate measurable growth for your organization.
 [CTA] Schedule a Consultation

@@ -47,7 +47,7 @@ export default function StickyMobileCta() {
       }}
     >
       <Link
-        href="/get-started/request-an-audit/"
+        href="/get-started/request-an-audit"
         className="flex w-full items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_12px_40px_-10px_rgba(0,144,240,0.7)]"
       >
         Request a Free Audit

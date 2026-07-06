@@ -27,10 +27,10 @@ Transparent governance, accountable practices, and a framework built for regulat
 
 Introduction to AI Systems Policy
 An AI system's policy defines how an organization develops, deploys, and governs artificial intelligence across its operations. For companies working with AI technologies, this document establishes the rules of engagement: what AI can and cannot do, how decisions are made, and who is accountable when something goes wrong.
-At Marketing Powered, our AI systems policy reflects the reality that we operate in regulated healthcare verticals. We have managed [over $50M in behavioral health and mental health media spend](/results/case-studies/), and that experience taught us that governance is not optional. It is the foundation that makes everything else possible.
+At Marketing Powered, our AI systems policy reflects the reality that we operate in regulated healthcare verticals. We have managed [over $50M in behavioral health and mental health media spend](/results/case-studies), and that experience taught us that governance is not optional. It is the foundation that makes everything else possible.
 Sound AI governance starts with clear principles: transparency in how AI influences decisions, accountability for outcomes, and privacy protection that meets the standards of industries where mistakes carry real consequences. These are not aspirations. They are operational requirements we build into every system we deploy.
 Key Elements of Our AI Use Policy
-Our [ai use policy](/ai-edge/) addresses three areas that matter most to compliance-conscious organizations: user guidelines, data privacy commitments, and alignment with recognized standards.
+Our [ai use policy](/ai-edge) addresses three areas that matter most to compliance-conscious organizations: user guidelines, data privacy commitments, and alignment with recognized standards.
 
 
 User guidelines specify who can access AI systems, what tasks those systems can perform, and the human oversight required for sensitive decisions. Every AI application we deploy has defined boundaries and documented approval workflows.
@@ -42,7 +42,7 @@ Ensuring Responsible AI Practices
 Responsible AI policy requires more than documentation. It requires operational discipline.
 Accountability means every AI-assisted decision has a human owner. When our systems generate recommendations, optimize campaigns, or surface insights, a person reviews the output before it affects client outcomes. We have been AI-native since 2022, long enough to know that automation without oversight creates risk.
 Fairness in our context means AI does not introduce bias into targeting, messaging, or budget allocation. We audit model outputs against known demographic and geographic patterns to catch drift before it affects performance.
-Transparency is how we build trust with clients and regulators. We document what AI does in our workflows, explain its role in specific deliverables, and provide clear answers when asked how a decision was made. Our founder has served as a [court-certified expert witness](/about-us/) in advertising strategy, which reinforces why we treat auditability as a core requirement.
+Transparency is how we build trust with clients and regulators. We document what AI does in our workflows, explain its role in specific deliverables, and provide clear answers when asked how a decision was made. Our founder has served as a [court-certified expert witness](/about-us) in advertising strategy, which reinforces why we treat auditability as a core requirement.
 
 
 If your organization needs clarity on how AI governance translates to operational practice, we can help you map out a framework that fits your risk profile.
@@ -55,7 +55,7 @@ Regular updates are built into our governance cycle. AI capabilities change quic
 Future of AI Policies
 AI governance is moving from voluntary best practice to a regulatory requirement. The EU AI Act, state-level legislation in the US, and sector-specific guidance from healthcare regulators all point toward a more structured compliance environment.
 We expect AI policies to become more specific about model documentation, bias testing, and human oversight thresholds. Organizations that build governance infrastructure now will adapt more easily than those who treat it as a future problem.
-Marketing Powered is committed to staying ahead of these requirements. [Explore our services](/services/) to see how we integrate responsible AI practices across paid media, analytics, and campaign optimization for regulated industries.
+Marketing Powered is committed to staying ahead of these requirements. [Explore our services](/services) to see how we integrate responsible AI practices across paid media, analytics, and campaign optimization for regulated industries.
 Ready to Build Your AI Governance Framework?
 Whether you need a formal AI systems policy, an audit of existing practices, or guidance on compliance requirements for regulated industries, we can help you build a framework that protects your organization and supports responsible growth.
 [CTA] Request an AI Policy Audit

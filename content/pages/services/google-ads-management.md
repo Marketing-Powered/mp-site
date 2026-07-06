@@ -28,7 +28,7 @@ Strategic Google Ads management services built on $50M+ in managed behavioral he
 [CTA] Book a Discovery Call
 Why Choose Our Google Ads Management Services?
 Most agencies treat behavioral health like any other vertical. They apply the same playbook they use for e-commerce or SaaS, then wonder why lead quality tanks and compliance flags pile up. Google Ads management for treatment centers requires a different operating framework: one built on understanding admission economics, intake capacity constraints, and the regulatory reality of healthcare advertising.
-Marketing Powered has managed over $50M in [behavioral health marketing](/who-we-help/behavioral-health/) spend across Google Ads. That figure represents real campaigns for real treatment centers, from single-location detox facilities to multi-state behavioral health organizations. Our founder managed operator-side multi-market growth, giving us operator-level insight into how admission volume, bed capacity, and census targets actually connect to ad spend decisions.
+Marketing Powered has managed over $50M in [behavioral health marketing](/who-we-help/behavioral-health) spend across Google Ads. That figure represents real campaigns for real treatment centers, from single-location detox facilities to multi-state behavioral health organizations. Our founder managed operator-side multi-market growth, giving us operator-level insight into how admission volume, bed capacity, and census targets actually connect to ad spend decisions.
 
 
 When you work with a Google Ads agency that specializes in your vertical, you get more than campaign management. You get a partner who understands why your cost per admission matters more than your cost per click, why certain keyword categories carry compliance risk, and why attribution needs to track through to the intake call, not just the form submission. That operational depth shapes every decision we make inside your account.
@@ -46,19 +46,19 @@ Numbers tell the story better than promises. Here is what our Google Ads managem
 Success Stories and Results
 Attribution That Tracks to Admission
 Most agencies report on clicks and conversions. We track attribution through to admission. That means connecting your Google Ads data to your CRM, call tracking, and intake workflow so you can see which campaigns, keywords, and ads actually produce patients who complete intake, not just visitors who fill out a form and disappear.
-This level of attribution discipline requires technical integration work that many agencies skip. We build it into every engagement because, without it, you are optimizing toward vanity metrics instead of business outcomes. View our [case studies](/results/case-studies/) for detailed breakdowns of how this approach performs across different treatment center models.
+This level of attribution discipline requires technical integration work that many agencies skip. We build it into every engagement because, without it, you are optimizing toward vanity metrics instead of business outcomes. View our [case studies](/results/case-studies) for detailed breakdowns of how this approach performs across different treatment center models.
 
 
 [CTA] Book a Discovery Call
 Understanding Compliance in Digital Advertising
 Healthcare advertising operates under constraints that most marketers never encounter. Google classifies addiction treatment as a sensitive vertical with specific policy requirements. Violations can result in ad disapprovals, account suspensions, or permanent bans that eliminate Google as an acquisition channel entirely.
-Marketing Powered brings LegitScript certification awareness and years of experience navigating [HIPAA-compliant advertising](/who-we-help/behavioral-health/) requirements. We understand which claims trigger policy review, which landing page elements create compliance risk, and how to structure campaigns that perform within Google's healthcare restrictions.
+Marketing Powered brings LegitScript certification awareness and years of experience navigating [HIPAA-compliant advertising](/who-we-help/behavioral-health) requirements. We understand which claims trigger policy review, which landing page elements create compliance risk, and how to structure campaigns that perform within Google's healthcare restrictions.
 
 
 The no-retargeting rule in behavioral health advertising means your campaigns cannot follow users across the web after they visit your site. This constraint, mandated by [Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031), eliminates a tactic most advertisers rely on heavily. Our strategies are built around this reality from the start, not retrofitted after a policy violation.
 
 
-Compliance is not a checkbox. It is an operating posture that protects your treatment center's ability to acquire patients through paid channels over the long term. Our [digital advertising compliance](/ai-edge/) framework addresses these requirements at the account structure level, not as an afterthought.
+Compliance is not a checkbox. It is an operating posture that protects your treatment center's ability to acquire patients through paid channels over the long term. Our [digital advertising compliance](/ai-edge) framework addresses these requirements at the account structure level, not as an afterthought.
 Getting Started with Marketing Powered
 The path from initial conversation to live campaigns follows a clear process designed to reduce friction and accelerate results.
 Your engagement begins with a discovery call where we assess your current Google Ads performance, discuss your census targets and admission capacity, and determine whether our approach fits your growth objectives. This is not a sales pitch disguised as strategy. It is a working session where we evaluate mutual fit.

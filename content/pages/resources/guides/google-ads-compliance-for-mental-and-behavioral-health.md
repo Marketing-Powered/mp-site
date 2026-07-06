@@ -53,7 +53,7 @@ The annual certification fee varies based on organization size and complexity, t
 Benefits beyond Google Ads access
 LegitScript certification delivers value beyond simply enabling your Google Ads campaigns. The certification functions as a trust signal to referral sources, families researching treatment options, and other stakeholders evaluating your organization's legitimacy.
 Treatment centers that maintain LegitScript certification demonstrate a commitment to operating within established guidelines. This differentiation matters in a market where families and referral sources have become increasingly aware of problematic operators. The certification badge communicates that an independent third party has verified your organization's practices.
-From a competitive positioning standpoint, certification creates a barrier to entry that filters out operators unwilling or unable to meet compliance standards. Organizations like Marketing Powered, having managed [$50M+ in behavioral health and mental health advertising spend](services/paid-media/), consistently see that certified facilities compete more effectively for high-intent search traffic because uncertified competitors simply cannot access the auction.
+From a competitive positioning standpoint, certification creates a barrier to entry that filters out operators unwilling or unable to meet compliance standards. Organizations like Marketing Powered, having managed [$50M+ in behavioral health and mental health advertising spend](/services/paid-media), consistently see that certified facilities compete more effectively for high-intent search traffic because uncertified competitors simply cannot access the auction.
 Maintaining certification requires annual renewal and ongoing compliance with LegitScript standards. Certified organizations are subject to monitoring and must report material changes to their operations, ownership, or practices. Certification can be revoked if an organization's practices drift out of compliance.
 
 
@@ -121,7 +121,7 @@ Marketing teams should understand which data elements constitute PHI, how advert
 Platform-specific HIPAA considerations
 Different advertising platforms present different compliance considerations. Google Ads, Meta Ads, and other platforms have varying data collection practices, business associate agreement availability, and policy frameworks for healthcare advertisers.
 Organizations should evaluate whether business associate agreements are available or appropriate for their advertising platform relationships. The determination of whether an advertising platform qualifies as a business associate depends on the specific data shared and processing performed. This analysis should involve legal counsel familiar with both HIPAA requirements and digital advertising technology.
-Marketing Powered maintains [HIPAA-conscious infrastructure](services/web-development/) across our technology stack, including data sovereignty practices that keep sensitive information within controlled environments. This approach reflects our understanding that compliance in healthcare marketing requires systematic controls, not just policy awareness.
+Marketing Powered maintains [HIPAA-conscious infrastructure](/services/web-development) across our technology stack, including data sovereignty practices that keep sensitive information within controlled environments. This approach reflects our understanding that compliance in healthcare marketing requires systematic controls, not just policy awareness.
 
 
 Practical Steps for Compliance Monitoring and Management
@@ -148,7 +148,7 @@ Escalation and incident response
 Despite best efforts, compliance issues will occasionally arise. Establish clear escalation paths for handling ad disapprovals, account suspensions, or compliance inquiries.
 When accounts are suspended or ads are disapproved, resist the impulse to immediately resubmit without understanding the issue. Review the specific policy cited, evaluate whether the violation was legitimate or a false positive, and make necessary corrections before appealing or resubmitting.
 Maintain documentation of compliance incidents and resolutions. This history helps identify patterns and demonstrates good-faith compliance efforts if questions arise.
-[Request an audit](/get-started/request-an-audit/) of your current advertising compliance posture to identify gaps before they result in account actions.
+[Request an audit](/get-started/request-an-audit) of your current advertising compliance posture to identify gaps before they result in account actions.
 [CTA] Book a Call to Ensure Compliance
 
 
@@ -156,7 +156,7 @@ Building Compliance Into Your Growth Strategy
 Google Ads compliance for mental and behavioral health advertising is not a constraint on growth. It is the infrastructure that makes sustainable growth possible. Organizations that build compliance into their operations from the start avoid the disruptions and costs associated with reactive compliance fixes.
 The operators who scale successfully in this space treat compliance as a competitive advantage. While less disciplined competitors face account suspensions and advertising interruptions, compliant organizations maintain consistent presence in the highest-intent advertising channel available for treatment services.
 Marketing Powered brings the perspective of having managed $1.5M to $2M monthly in Google Ads across behavioral health and mental health accounts. We have navigated LegitScript certification processes, resolved account suspensions, and built campaigns that perform within policy constraints. Our AI-native approach to campaign management includes compliance monitoring as a core function, not an afterthought.
-If your organization needs guidance on Google Ads compliance, LegitScript certification, or HIPAA-conscious advertising practices, we can help. [Discover our AI-edge solutions](/ai-edge/) or take the next step below.
+If your organization needs guidance on Google Ads compliance, LegitScript certification, or HIPAA-conscious advertising practices, we can help. [Discover our AI-edge solutions](/ai-edge) or take the next step below.
 [CTA] Book a Call to Ensure Compliance
 
 

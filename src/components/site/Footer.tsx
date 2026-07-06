@@ -7,44 +7,44 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
   {
     title: "Services",
     links: [
-      { label: "Paid Media", href: "/services/paid-media/" },
-      { label: "Meta Ads", href: "/services/meta-ads-management/" },
-      { label: "Google Ads", href: "/services/google-ads-management/" },
-      { label: "Landing Page Optimization", href: "/services/landing-page-optimization/" },
-      { label: "Analytics & Attribution", href: "/services/analytics-and-attribution/" },
-      { label: "Web Development", href: "/services/web-development/" },
+      { label: "Paid Media", href: "/services/paid-media" },
+      { label: "Meta Ads", href: "/services/meta-ads-management" },
+      { label: "Google Ads", href: "/services/google-ads-management" },
+      { label: "Landing Page Optimization", href: "/services/landing-page-optimization" },
+      { label: "Analytics & Attribution", href: "/services/analytics-and-attribution" },
+      { label: "Web Development", href: "/services/web-development" },
     ],
   },
   {
     title: "AI Edge",
     links: [
-      { label: "AI in Paid Media", href: "/ai-edge/ai-in-paid-media/" },
-      { label: "Owned AI Systems", href: "/ai-edge/owned-ai-systems/" },
-      { label: "AI Governance", href: "/ai-edge/ai-governance/" },
-      { label: "Data Sovereignty", href: "/ai-edge/data-sovereignty/" },
-      { label: "Social Media", href: "/ai-edge/social-media/" },
+      { label: "AI in Paid Media", href: "/ai-edge/ai-in-paid-media" },
+      { label: "Owned AI Systems", href: "/ai-edge/owned-ai-systems" },
+      { label: "AI Governance", href: "/ai-edge/ai-governance" },
+      { label: "Data Sovereignty", href: "/ai-edge/data-sovereignty" },
+      { label: "Social Media", href: "/ai-edge/social-media" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "Who We Help", href: "/who-we-help/" },
-      { label: "Behavioral Health", href: "/who-we-help/behavioral-health/" },
-      { label: "Mental Health", href: "/who-we-help/mental-health/" },
-      { label: "About", href: "/company/about/" },
-      { label: "Contact", href: "/company/contact/" },
+      { label: "Who We Help", href: "/who-we-help" },
+      { label: "Behavioral Health", href: "/who-we-help/behavioral-health" },
+      { label: "Mental Health", href: "/who-we-help/mental-health" },
+      { label: "About", href: "/company/about" },
+      { label: "Contact", href: "/company/contact" },
     ],
   },
   {
     title: "Legal",
     links: [
-      { label: "Legal Center", href: "/legal/" },
-      { label: "Privacy Policy", href: "/legal/privacy-policy/" },
-      { label: "Terms", href: "/legal/terms/" },
-      { label: "Cookie Policy", href: "/legal/cookie-policy/" },
-      { label: "Advertising Disclaimer", href: "/legal/advertising-disclaimer/" },
-      { label: "HIPAA & PHI Disclaimer", href: "/legal/hipaa-phi-disclaimer/" },
-      { label: "Accessibility", href: "/accessibility/" },
+      { label: "Legal Center", href: "/legal" },
+      { label: "Privacy Policy", href: "/legal/privacy-policy" },
+      { label: "Terms", href: "/legal/terms" },
+      { label: "Cookie Policy", href: "/legal/cookie-policy" },
+      { label: "Advertising Disclaimer", href: "/legal/advertising-disclaimer" },
+      { label: "HIPAA & PHI Disclaimer", href: "/legal/hipaa-phi-disclaimer" },
+      { label: "Accessibility", href: "/accessibility" },
       { label: "Sitemap", href: "/sitemap.xml" },
     ],
   },
@@ -106,7 +106,7 @@ export default function Footer() {
             {s.footer.copyright}
           </p>
           <Link
-            href="/get-started/request-an-audit/"
+            href="/get-started/request-an-audit"
             prefetch={false}
             className="text-[12px] uppercase tracking-[0.18em] text-white/55 transition-colors hover:text-[#7FCBFF]"
           >

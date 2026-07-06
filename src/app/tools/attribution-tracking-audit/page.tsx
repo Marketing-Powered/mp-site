@@ -10,7 +10,7 @@ import ScoredAssessment, {
   type AssessmentTier,
 } from "@/components/site/ScoredAssessment";
 
-const URL = "/tools/attribution-tracking-audit/";
+const URL = "/tools/attribution-tracking-audit";
 
 export const metadata: Metadata = {
   title: "Attribution Audit Tool | Accurate Tracking Insights",
@@ -200,7 +200,7 @@ export default function Page() {
             label: "of conversions likely unattributed or misattributed at this level.",
           }}
           ctaText="Request Your Attribution Audit"
-          ctaLink="/get-started/request-an-audit/"
+          ctaLink="/get-started/request-an-audit"
         />
       </section>
 
@@ -252,7 +252,7 @@ export default function Page() {
         headline="Request your attribution audit"
         body="Get a technical review of your current tracking setup: identify gaps, correct misattributions, and build the data foundation for smarter budget decisions with operators who tracked attribution through to admission while scaling through multi-market growth."
         ctaText="Request Your Attribution Audit"
-        ctaLink="/get-started/request-an-audit/"
+        ctaLink="/get-started/request-an-audit"
         secondaryCta={{ text: "Email Us", link: "mailto:info@marketingpowered.ai" }}
       />
     </PageShell>

@@ -43,7 +43,7 @@ We work with treatment centers that meet the following baseline criteria:
 How to Start the Process
 Submit your information through the qualification form below. Include your current monthly ad spend (or planned budget), number of locations, and primary growth objective. Our team reviews submissions within two business days.
 If your center meets the baseline criteria, we schedule a 30-minute discovery call to discuss your specific situation, compliance posture, and growth targets.
-[CTA] [Start Your Qualification](/get-started/request-an-audit)
+[CTA] Start Your Qualification → /get-started/request-an-audit
 
 
 Contact for Assistance

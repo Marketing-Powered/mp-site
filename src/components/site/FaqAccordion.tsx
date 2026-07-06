@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Reveal from "@/components/Reveal";
 import { serif } from "./theme";
+import { RichText } from "./ui";
 
 export default function FaqAccordion({
   items,
@@ -50,7 +51,7 @@ export default function FaqAccordion({
               >
                 <div className="overflow-hidden">
                   <p className="pb-6 pr-12 text-[0.97rem] leading-relaxed text-white/50">
-                    {f.a}
+                    <RichText text={f.a} />
                   </p>
                 </div>
               </div>

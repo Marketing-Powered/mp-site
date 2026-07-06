@@ -56,7 +56,7 @@ Start with one finding. Test it against your own account data. Measure the resul
 If you want to discuss how specific findings apply to your treatment center's situation, our team can walk through the data with you and identify which insights match your market, payer mix, and growth goals.
 
 
-[CTA] [Explore More Studies](/get-started/request-an-audit)
+[CTA] Explore More Studies → /get-started/request-an-audit
 Resources and Further Reading
 For a deeper exploration of marketing research methodology and behavioral health industry context, we recommend reviewing publications from [SAMHSA](https://www.samhsa.gov/) on treatment trends and the [Google Ads policy center](https://support.google.com/adspolicy/answer/176031) for current healthcare advertising restrictions.
 

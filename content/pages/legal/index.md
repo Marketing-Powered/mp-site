@@ -13,7 +13,7 @@ Word count target: 400-600 words
 
 SEO METADATA
 Title tag (43 chars): Legal Information Hub | Marketing Powered
-Meta description (155 chars): Access Marketing Powered's legal disclosures, privacy policy, and terms of use. Clear compliance documentation for behavioral health marketing partnerships.
+Meta description (155 chars): Access Marketing Powered's legal disclosures, privacy policy, and terms of use. Compliance documentation for behavioral health marketing partnerships.
 H1: Legal Information: Your Comprehensive Compliance Hub
 Hero image alt: Marketing Powered legal information hub with compliance documentation icons and clean professional design
 

@@ -8,7 +8,7 @@ target_word_count: "1500-2200"
 
 SEO METADATA
 Title tag (49 chars): Rehab Marketing for Substance Use | Marketing Powered
-Meta description (89 chars): Reach the right patients with rehab marketing. Court-certified experts. Book a call now.
+Meta description (89 chars): Rehab marketing for substance use disorder treatment: court-certified expertise, LegitScript-ready campaigns, and patients matched to your program.
 H1: Expert Rehab Marketing for Substance Use Disorder
 Hero image alt: Rehab marketing strategy dashboard showing attribution data for substance use disorder treatment centers
 

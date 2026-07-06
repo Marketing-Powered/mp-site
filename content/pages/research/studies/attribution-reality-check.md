@@ -13,7 +13,7 @@ Word count target: 4000-6000 words
 
 SEO METADATA
 Title tag (46 chars): Marketing Attribution Study: Greenfield Insights
-Meta description (104 chars): Explore the reality behind marketing attribution models in our comprehensive study. Download to learn more.
+Meta description (104 chars): Read the Attribution Reality Check study: what marketing attribution models actually measure, where they fail, and how to fix your reporting.
 H1: Unveiling the Reality in Marketing Attribution Studies
 Hero image alt: Data visualization showing marketing attribution model accuracy compared to actual conversion paths across multiple channels
 

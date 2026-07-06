@@ -15,7 +15,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (52 chars): Landing Page Optimization Services | Marketing Powered
-Meta description (95 chars): Achieve peak conversions with expert landing page optimization tailored for behavioral health.
+Meta description (95 chars): Achieve peak conversions with landing page optimization tailored for behavioral health: research-driven design, testing, and compliance built in.
 H1: Strategic Landing Page Optimization
 Hero image alt: Data visualization showing landing page conversion metrics for behavioral health marketing campaigns
 

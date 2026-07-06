@@ -12,7 +12,7 @@ Word count target: 600-1000 words
 
 SEO METADATA
 Title tag (43 chars): AI Systems Policy | Responsible Governance
-Meta description (94 chars): Explore our AI systems policy: transparent, compliant, and responsible. Ensure ethical AI use.
+Meta description (94 chars): Read Marketing Powered's AI systems policy: transparent, compliant, and responsible AI use across every campaign, tool, and client engagement.
 H1: Understanding Our AI Systems Policy
 Hero image alt: Abstract visualization of AI governance framework with interconnected nodes representing policy, compliance, and transparency
 

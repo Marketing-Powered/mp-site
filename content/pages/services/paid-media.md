@@ -15,7 +15,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (44 chars): Top Paid Media Agency for Behavioral Health
-Meta description (65 chars): Managed $50M+ media in BH/MH. Expertise in compliance & scaling.
+Meta description (65 chars): Paid media management for behavioral and mental health: $50M+ managed with compliance discipline, creative testing, and admission attribution.
 H1: Your Go-To Paid Media Agency for Results
 Hero image alt: Marketing Powered paid media agency dashboard showing behavioral health campaign performance metrics and attribution data
 

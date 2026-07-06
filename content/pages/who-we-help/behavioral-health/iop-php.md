@@ -8,7 +8,7 @@ target_word_count: "1200-1800"
 
 SEO METADATA
 Title tag (42 chars): IOP PHP Marketing | Strategies & Insights
-Meta description (93 chars): MP optimizes IOP/PHP marketing strategies with $50M+ in BH ad spend. Increase quality leads.
+Meta description (93 chars): IOP and PHP marketing optimized with $50M+ in behavioral health ad spend: qualified leads, compliant campaigns, and admission-level tracking.
 H1: Effective Marketing Strategies for IOP and PHP
 Hero image alt: Behavioral health marketing strategy session for IOP and PHP programs showing data analytics dashboard
 

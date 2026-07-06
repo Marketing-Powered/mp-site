@@ -13,7 +13,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (44 chars): Increase Qualified Calls | Marketing Powered
-Meta description (95 chars): Grow your facility's qualified calls with AI-driven strategies from Marketing Powered. Book now!
+Meta description (95 chars): Increase qualified admissions calls for your facility with AI-driven campaigns, call tracking, and intake attribution from Marketing Powered.
 H1: Strategies to Increase Qualified Calls in Behavioral Health
 Hero image alt: Behavioral health call center team reviewing qualified lead data on a dashboard display
 

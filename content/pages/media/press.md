@@ -13,7 +13,7 @@ Word count target: 600-1000 words
 
 SEO METADATA
 Title tag (52 chars): Press Mentions and Media Coverage | Marketing Powered
-Meta description (105 chars): Discover how Marketing Powered has been featured across major media platforms. Book a call to learn more.
+Meta description (105 chars): See where Marketing Powered has been featured: press mentions and media coverage of our AI-native approach to behavioral health marketing.
 H1: Explore Our Recent Press Mentions and Media Appearances
 Hero image alt: Marketing Powered press mentions and media coverage featuring behavioral health industry publications
 

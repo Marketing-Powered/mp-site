@@ -15,7 +15,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (52 chars): Outpatient Clinic Marketing Services | Marketing Powered
-Meta description (163 chars): Drive qualified patient acquisition for your outpatient mental health clinic with compliance-first marketing strategies. Book a discovery call with Marketing Powered.
+Meta description (163 chars): Drive qualified patient acquisition for your outpatient mental health clinic with compliance-first marketing. Book a discovery call today.
 H1: Outpatient Clinic Marketing That Fills Your Schedule
 Hero image alt: Marketing Powered team reviewing outpatient mental health clinic campaign performance data on multiple screens
 

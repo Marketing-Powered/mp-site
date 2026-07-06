@@ -15,7 +15,7 @@ Word count target: 1200-1800
 
 SEO METADATA
 Title tag (49 chars): Google Ads Management Services | Marketing Powered
-Meta description (87 chars): Managed $50M in BH/MH Google Ads. Expert services tailored for your needs. Book a call!
+Meta description (87 chars): Google Ads management from the team behind $50M in BH/MH spend: compliant campaigns, smarter bidding, and admission-level attribution.
 H1: Expert Google Ads Management for Behavioral Health
 Hero image alt: Marketing Powered Google Ads management dashboard showing behavioral health campaign performance metrics
 

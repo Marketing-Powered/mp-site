@@ -15,7 +15,7 @@ Word count target: 200-400 words
 
 SEO METADATA
 Title tag (42 chars): Book Marketing Consultation - Get Started
-Meta description (66 chars): Join our $50M+ managed spend expertise. Book your consultation now.
+Meta description (66 chars): Book a marketing consultation with Marketing Powered. Draw on $50M+ in managed behavioral health ad spend and get a clear plan for qualified growth.
 H1: Schedule Your Marketing Consultation
 Hero image alt: Marketing Powered consultation scheduling interface for behavioral health treatment centers
 

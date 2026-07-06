@@ -13,7 +13,7 @@ Word count target: 600-1000 words
 
 SEO METADATA
 Title tag (46 chars): Best Marketing Tools for Healthcare Providers
-Meta description (72 chars): Explore top marketing tools for healthcare. Boost engagement & compliance.
+Meta description (72 chars): Explore free marketing tools for healthcare providers: CPA benchmarks, attribution audits, readiness assessments, and AI visibility checks.
 H1: Explore the Top Marketing Tools in Healthcare
 Hero image alt: Marketing tools dashboard interface showing healthcare campaign analytics and compliance indicators
 

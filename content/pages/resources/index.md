@@ -13,7 +13,7 @@ Word count target: 800-1200 words
 
 SEO METADATA
 Title tag (39 chars): Behavioral Health Marketing Resources
-Meta description (89 chars): Access top resources in behavioral health marketing. Get insights from industry experts.
+Meta description (89 chars): Access behavioral health marketing resources: guides, benchmarks, research, and tools built from $50M+ in managed BH/MH ad spend.
 H1: Explore Our Behavioral Health Marketing Resources
 Hero image alt: Marketing Powered resources library featuring behavioral health marketing guides and playbooks
 

@@ -66,16 +66,10 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
+          // SoftwareApplication schema removed: Google's rich-result rules
+          // require an aggregateRating or review we don't have, so the block
+          // only produced validation errors. FAQPage carries the rich result.
           __html: JSON.stringify([
-            {
-              "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              name: "LLM Visibility Check",
-              applicationCategory: "BusinessApplication",
-              operatingSystem: "Web",
-              url: `https://marketingpowered.ai${URL}`,
-              offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-            },
             {
               "@context": "https://schema.org",
               "@type": "FAQPage",

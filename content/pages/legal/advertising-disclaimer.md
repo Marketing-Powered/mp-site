@@ -15,7 +15,7 @@ Word count target: 600-1000 words
 
 SEO METADATA
 Title tag (42 chars): Understanding Advertising Disclaimer Rules
-Meta description (103 chars): Navigate advertising disclaimers with confidence by understanding key regulations and ensuring compliance.
+Meta description (103 chars): Review Marketing Powered's advertising disclaimer: how we present results, the regulations we follow, and what our performance claims mean in practice.
 H1: Navigating Advertising Disclaimer Rules and Compliance
 Hero image alt: Legal document with advertising disclaimer text and compliance checklist for healthcare marketing
 

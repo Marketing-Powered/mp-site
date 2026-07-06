@@ -8,7 +8,7 @@ target_word_count: "1200-1800"
 
 SEO METADATA
 Title tag (47 chars): YouTube Ads Agency | Expert Management Services
-Meta description (93 chars): Boost your leads with our YouTube Ads agency services. HIPAA-aware and optimized for success.
+Meta description (93 chars): Grow qualified leads with a YouTube Ads agency built for healthcare: HIPAA-aware targeting, engaging creative, and full-funnel measurement.
 H1: Optimize Your YouTube Ads with a Specialized Agency
 Hero image alt: YouTube ads agency dashboard showing behavioral health campaign performance metrics and audience targeting options
 

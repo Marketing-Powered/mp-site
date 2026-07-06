@@ -13,7 +13,7 @@ Word count target: 400-800 words
 
 SEO METADATA
 Title tag (46 chars): Effective Pitch Guidelines for Media Outreach
-Meta description (71 chars): Get practical media pitch guidelines to boost your press outreach success.
+Meta description (71 chars): Read Marketing Powered's media pitch guidelines: what stories we respond to, how to reach us, and what journalists can expect from our team.
 H1: Guidelines to Improve Your Media Pitches
 Hero image alt: Communications professional reviewing structured media pitch guidelines on a clean workspace
 

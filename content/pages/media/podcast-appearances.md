@@ -13,7 +13,7 @@ Word count target: 600-1000 words
 
 SEO METADATA
 Title tag (42 chars): Podcast Appearances - Marketing Powered
-Meta description (103 chars): Discover how podcast appearances with Marketing Powered enhance your brand's authority. Book a call today!
+Meta description (103 chars): Listen to Marketing Powered's podcast appearances on AI advertising, behavioral health marketing, and attribution, or invite us on your show.
 H1: Maximize Your Reach with Podcast Guest Appearances
 Hero image alt: Marketing Powered founder recording a podcast interview focused on behavioral health marketing strategy
 

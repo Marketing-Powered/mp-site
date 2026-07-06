@@ -13,7 +13,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (34 chars): Mental Health Marketing Strategies
-Meta description (101 chars): Discover expert-approved mental health marketing strategies. Boost your practice's reach and compliance.
+Meta description (101 chars): Explore mental health marketing strategies that balance growth and compliance: channels, messaging, and measurement proven with real providers.
 H1: Effective Strategies for Mental Health Marketing
 Hero image alt: Mental health practice marketing strategy dashboard showing lead tracking and compliance metrics
 PAGE COPY

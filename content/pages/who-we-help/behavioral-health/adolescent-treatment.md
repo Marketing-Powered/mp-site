@@ -8,7 +8,7 @@ target_word_count: "1200-1800"
 
 SEO METADATA
 Title tag (38 chars): Adolescent Rehab Marketing Strategies
-Meta description (84 chars): Expert marketing strategies to amplify adolescent rehab services. Book a call today.
+Meta description (84 chars): Adolescent treatment marketing built on operator experience: reach parents ethically, stay compliant, and grow census for teen rehab programs.
 H1: Marketing Strategies for Adolescent Rehab
 Hero image alt: Marketing team analyzing adolescent treatment center campaign performance data on dashboard screens
 

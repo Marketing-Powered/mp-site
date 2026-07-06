@@ -13,7 +13,7 @@ Word count target: 600-1000 words
 
 SEO METADATA
 Title tag (42 chars): Explore Marketing Powered Media Coverage
-Meta description (89 chars): Uncover Marketing Powered's media engagements showcasing our healthcare marketing impact.
+Meta description (89 chars): Explore Marketing Powered's media hub: press mentions, podcast appearances, syndicated content, and resources for journalists covering healthcare.
 H1: Media Coverage by Marketing Powered
 Hero image alt: Marketing Powered media coverage and press features in healthcare marketing
 

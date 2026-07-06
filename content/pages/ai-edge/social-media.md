@@ -15,7 +15,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (35 chars): AI Social Media Marketing Solutions
-Meta description (62 chars): Explore AI social media strategies to transform your marketing.
+Meta description (62 chars): Explore AI social media strategies for behavioral health: smarter content, compliant targeting, and measurable engagement across every platform.
 H1: Leverage AI for Social Media Marketing Effectiveness
 Hero image alt: AI-powered social media marketing dashboard showing engagement analytics and content optimization for behavioral health organizations
 

@@ -15,7 +15,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (46 chars): Website Design Agency for Healthcare Solutions
-Meta description (79 chars): Explore our expert design services tailored for healthcare. Book a call today!
+Meta description (79 chars): Website design and build services for healthcare: fast, accessible, HIPAA-conscious sites engineered to convert visitors into patients.
 H1: Delivering Custom Website Design for Healthcare Agencies
 Hero image alt: Custom healthcare website design displayed on desktop and mobile devices showing patient-centered interface
 

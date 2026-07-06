@@ -15,7 +15,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (50 chars): Marketing Attribution Services - Marketing Powered
-Meta description (85 chars): Discover powerful marketing attribution with our expert services. Book a call today.
+Meta description (85 chars): Get marketing attribution services built for treatment centers: GA4, call tracking, and admission-level reporting. Book a call with our team.
 H1: Advanced Marketing Attribution Services
 Hero image alt: Marketing attribution dashboard showing multi-touch conversion paths for behavioral health marketing campaigns
 

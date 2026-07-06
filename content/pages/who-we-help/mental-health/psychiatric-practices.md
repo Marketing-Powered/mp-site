@@ -6,6 +6,11 @@ secondary_keywords: "psychiatry marketing, psychiatric clinic marketing"
 target_word_count: "1200-1800"
 ---
 
+SEO METADATA
+Meta description: Psychiatric practice marketing built on operator experience: compliant patient acquisition, precise targeting, and attribution for psychiatry clinics.
+
+PAGE COPY
+
 Effective Marketing for Your Psychiatric Practice
 Specialized psychiatric practice marketing built on operator experience, compliance discipline, and AI-native infrastructure. We help psychiatric clinics acquire qualified patients while navigating the regulatory complexity of healthcare advertising.
 [CTA] Book a Discovery Call

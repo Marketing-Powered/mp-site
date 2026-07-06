@@ -13,7 +13,7 @@ Word count target: 800-1200 words
 
 SEO METADATA
 Title tag (40 chars): Comprehensive Marketing Guides Resource
-Meta description (64 chars): Explore essential marketing guides tailored for BH/MH providers.
+Meta description (64 chars): Explore Marketing Powered's marketing guides for behavioral and mental health providers: paid media, compliance, creative testing, and attribution.
 H1: Explore Our Marketing Guides for Enhanced Strategies
 Hero image alt: Marketing guides resource hub featuring healthcare marketing playbooks and paid media strategies for behavioral health providers
 

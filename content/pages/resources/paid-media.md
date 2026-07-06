@@ -13,7 +13,7 @@ Word count target: 800-1200 words
 
 SEO METADATA
 Title tag (58 chars): Paid Media Resources: Guides, Tools & Management Best Practices
-Meta description (172 chars): Explore paid media guides, management best practices, and advertising frameworks. Build stronger campaigns with expert resources for every stage of your paid media strategy.
+Meta description (172 chars): Explore paid media guides, best practices, and advertising frameworks. Build stronger campaigns with expert resources for every stage of your strategy.
 H1: Paid Media Resources
 Hero image alt: Paid media management dashboard showing campaign performance metrics and attribution data across channels
 

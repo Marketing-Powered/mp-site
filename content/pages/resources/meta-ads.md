@@ -13,7 +13,7 @@ Word count target: 800-1200 words
 
 SEO METADATA
 Title tag (40 chars): Comprehensive Meta Ads Guide for 2026
-Meta description (94 chars): Explore 2026's ultimate Meta ads guide to boost your digital strategy in healthcare marketing.
+Meta description (94 chars): Explore the 2026 Meta Ads guide for healthcare marketers: targeting, creative, compliance, and optimization strategies that boost performance.
 H1: Your Complete 2026 Meta Ads Guide
 Hero image alt: Meta ads dashboard showing campaign performance metrics for healthcare marketing campaigns
 

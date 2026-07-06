@@ -15,7 +15,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (47 chars): Pro Strategies to Reduce CPA – Marketing Powered
-Meta description (109 chars): Discover proven methods to reduce CPA and optimize your marketing budget efficiently. Request an audit today!
+Meta description (109 chars): Reduce your cost per acquisition with proven paid media strategies: smarter bidding, creative testing, and attribution built for behavioral health.
 H1: How to Effectively Reduce CPA for Better Budget Management
 Hero image alt: Data visualization showing declining cost per acquisition trend line with marketing budget optimization metrics
 

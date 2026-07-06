@@ -13,7 +13,7 @@ Word count target: 800-1200 words
 
 SEO METADATA
 Title tag (46 chars): Marketing Research for Paid Media | Insight Hub
-Meta description (101 chars): Explore paid media benchmarks for behavioral health. Deep insights, no fluff. Unlock better ROI today.
+Meta description (101 chars): Explore paid media research and benchmarks for behavioral health: CPA data, channel performance, and insights that unlock better ROI.
 H1: In-Depth Marketing Research for Paid Media Strategies
 Hero image alt: Data visualization showing paid media marketing research benchmarks for behavioral health campaigns
 

@@ -13,7 +13,7 @@ Word count target: 600-1000 words
 
 SEO METADATA
 Title tag (36 chars): Accessibility Statement & Compliance
-Meta description (96 chars): Learn why an accessibility statement matters. Stay compliant and enhance usability for all users.
+Meta description (96 chars): Read Marketing Powered's accessibility statement: the standards we follow, how we test our site, and how to reach us with accessibility feedback.
 H1: Understanding Our Accessibility Statement
 Hero image alt: Marketing Powered accessibility statement page header showing commitment to WCAG 2.1 AA compliance standards
 

@@ -13,7 +13,7 @@ Word count target: 800-1200 words
 
 SEO METADATA
 Title tag (51 chars): AI Marketing Guide - How to Implement AI in Marketing
-Meta description (96 chars): Discover how AI transforms marketing strategies. Learn practical applications for immediate impact.
+Meta description (96 chars): Learn how to implement AI in marketing: practical applications, tooling, and workflows that drive measurable impact for healthcare organizations.
 H1: Your Comprehensive Guide to AI in Marketing
 Hero image alt: AI marketing guide visualization showing data analytics dashboards and automation workflows for healthcare marketing teams
 

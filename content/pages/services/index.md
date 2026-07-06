@@ -15,7 +15,7 @@ Word count target: 800-1200 words
 
 SEO METADATA
 Title tag (37 chars): Leading Marketing Services for Growth
-Meta description (95 chars): Boost your growth with expert marketing services. Experience in scaling and ad spend management.
+Meta description (95 chars): Explore Marketing Powered's services: paid media, creative testing, web development, and attribution, all built to scale behavioral health growth.
 H1: Explore Our Comprehensive Marketing Services
 Hero image alt: Marketing Powered services overview showing integrated paid media, AI optimization, and behavioral health marketing solutions
 

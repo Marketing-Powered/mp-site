@@ -15,7 +15,7 @@ export const SITE_TITLE =
   "Marketing Powered — AI Marketing Agency for Behavioral & Mental Health";
 
 export const SITE_DESCRIPTION =
-  "Marketing Powered is an AI-native marketing agency built for behavioral health and mental health providers. $50M+ in managed ad spend, HIPAA-conscious infrastructure, attribution through to admission.";
+  "AI-native marketing agency for behavioral and mental health providers: $50M+ in managed ad spend, HIPAA-conscious infrastructure, attribution to admission.";
 
 /** Absolute URL for a site-relative path. */
 export function absoluteUrl(path = "/") {

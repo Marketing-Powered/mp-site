@@ -13,7 +13,7 @@ Word count target: N/A - auto-generated (supporting copy ~500-700 words)
 
 SEO METADATA
 Title tag (52 chars): Marketing Powered Sitemap for Full Service Access
-Meta description (90 chars): Explore Marketing Powered's sitemap for direct access to all service pages and resources.
+Meta description (90 chars): Browse the Marketing Powered sitemap for direct access to every service, specialty, resource, tool, and company page on the site.
 H1: Explore Our Comprehensive Sitemap
 Hero image alt: Marketing Powered sitemap navigation interface showing organized service categories and resource links for behavioral health marketing
 

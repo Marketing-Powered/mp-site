@@ -13,7 +13,7 @@ Word count target: 400-600 words
 
 SEO METADATA
 Title tag (46 chars): Download Our Media Kit - Brand Assets & More
-Meta description (72 chars): Access our media kit: brand assets, press kits, and journalist resources.
+Meta description (72 chars): Download the Marketing Powered media kit: official logos, brand assets, leadership bios, and press resources for journalists and partners.
 H1: Access Our Comprehensive Media Kit
 Hero image alt: Marketing Powered media kit preview showing brand assets, logo files, and press materials organized for journalists
 

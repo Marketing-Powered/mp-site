@@ -36,11 +36,20 @@ export const metadata: Metadata = {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     url: SITE_URL,
+    images: [
+      {
+        url: "/images/01-hero-banner.jpg",
+        width: 1376,
+        height: 768,
+        alt: SITE_TITLE,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
+    images: ["/images/01-hero-banner.jpg"],
   },
 };
 

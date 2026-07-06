@@ -6,7 +6,7 @@ primary_keyword: "editorial topics"
 
 SEO METADATA
 Title tag: Effective Editorial Topics for Media Coverage
-Meta description: Explore top editorial topics to elevate media coverage. Insightful strategies for engagement.
+Meta description: Explore the editorial topics Marketing Powered covers for media: AI advertising, behavioral health marketing, compliance, and attribution.
 H1: Guide to Selecting Editorial Topics That Engage Audiences
 
 

@@ -15,7 +15,7 @@ Word count target: 1800-2500
 
 SEO METADATA
 Title tag (55 chars): Behavioral Health Marketing Services - Marketing Powered
-Meta description (77 chars): Scale your center with expert behavioral health marketing. Book a call today.
+Meta description (77 chars): Scale your treatment center with expert behavioral health marketing: compliant paid media, attribution to admission, and $50M+ in managed spend.
 H1: Expert Behavioral Health Marketing Services
 Hero image alt: Behavioral health marketing dashboard showing admission metrics and campaign performance for treatment centers
 

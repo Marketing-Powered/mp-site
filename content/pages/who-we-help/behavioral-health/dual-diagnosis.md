@@ -8,7 +8,7 @@ target_word_count: "1200-1800"
 
 SEO METADATA
 Title tag (44 chars): Dual Diagnosis Treatment Marketing Solutions
-Meta description (100 chars): Reach the right audience with expert dual diagnosis marketing strategies. Request a free audit today.
+Meta description (100 chars): Dual diagnosis marketing that reaches the right patients: compliant campaigns and attribution for co-occurring treatment programs. Request an audit.
 H1: Explore Marketing Strategies for Dual Diagnosis Treatment
 Hero image alt: Dual diagnosis treatment center marketing strategy consultation showing data analytics and campaign performance metrics
 

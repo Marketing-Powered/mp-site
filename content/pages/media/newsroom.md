@@ -13,7 +13,7 @@ Word count target: 600-1000 words
 
 SEO METADATA
 Title tag (46 chars): Company News & Updates - Marketing Powered
-Meta description (107 chars): Stay informed with the latest company news and updates from Marketing Powered, leaders in BH/MH marketing.
+Meta description (107 chars): Read the latest Marketing Powered news: product updates, partnerships, and milestones from the AI-native behavioral health marketing agency.
 H1: Latest Updates from Marketing Powered
 Hero image alt: Marketing Powered company news and updates hub featuring the latest agency announcements for behavioral health and mental health marketing professionals
 

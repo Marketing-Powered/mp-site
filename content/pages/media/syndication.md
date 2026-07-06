@@ -6,7 +6,7 @@ primary_keyword: "content syndication"
 
 SEO METADATA
 Title tag: Syndicated Content: Expand Your Reach
-Meta description: Discover how syndicated content boosts reach in behavioral health. Start syndicating today.
+Meta description: Learn how Marketing Powered syndicates expert content across industry outlets, and how syndication expands reach for behavioral health brands.
 H1: How Syndicated Content Can Boost Your Outreach
 
 

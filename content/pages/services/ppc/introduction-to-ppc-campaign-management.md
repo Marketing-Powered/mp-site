@@ -5,7 +5,7 @@ primary_keyword: "ppc campaign management"
 ---
 
 SEO METADATA
-Title tag: Introduction To PPC Campaign Management - Marketing Powered | Growth Marketing Agency Based in FL
+Title tag: Introduction to PPC Campaign Management | Marketing Powered
 Meta description: PPC (pay-per-click) campaign management is the process of planning, executing, and optimizing paid search PPC ads on platforms such as Google Ads and Bing Ads.
 H1: Introduction To PPC Campaign Management
 

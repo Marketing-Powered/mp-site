@@ -6,6 +6,11 @@ secondary_keywords: "tele mental health, virtual therapy marketing"
 target_word_count: "1200-1800"
 ---
 
+SEO METADATA
+Meta description: Telehealth marketing for virtual mental health providers: AI-powered patient acquisition built on $50M+ in managed behavioral health media spend.
+
+PAGE COPY
+
 Effective Telehealth Marketing Strategies for Mental Health
 AI-powered patient acquisition for virtual mental health providers, built on $50M+ in managed behavioral health and mental health media spend.
 [CTA] Request a Telehealth Marketing Audit

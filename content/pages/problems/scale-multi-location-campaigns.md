@@ -13,7 +13,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (44 chars): Solving Multi-Location Marketing Challenges
-Meta description (88 chars): Scale your multi-location marketing with proven strategies. Book a call to optimize now.
+Meta description (88 chars): Scale marketing across multiple treatment locations without losing efficiency: structure, budgets, and reporting proven at $50M+ in ad spend.
 H1: Overcoming Challenges in Multi-Location Marketing
 Hero image alt: Map visualization showing coordinated marketing campaigns across multiple treatment center locations with performance metrics overlay
 

@@ -13,7 +13,7 @@ Word count target: 800-1200 words
 
 SEO METADATA
 Title tag (43 chars): Marketing Attribution Insights - Resources
-Meta description (101 chars): Explore marketing attribution with Marketing Powered. Understand measurement strategies to enhance ROI.
+Meta description (101 chars): Explore attribution and measurement resources from Marketing Powered: models, tracking setups, and reporting strategies that improve ROI.
 H1: Explore Effective Marketing Attribution Strategies
 Hero image alt: Data visualization dashboard showing marketing attribution models and conversion pathways for treatment center campaigns
 

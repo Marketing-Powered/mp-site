@@ -8,7 +8,7 @@ target_word_count: "1200-1800"
 
 SEO METADATA
 Title tag (33 chars): Top LinkedIn Ads Agency Services
-Meta description (81 chars): Worried about low-quality LinkedIn leads? Leverage our $50M+ BH/MH ads expertise.
+Meta description (81 chars): Fix low-quality LinkedIn leads with campaigns informed by $50M+ in BH/MH ad spend: precise targeting, strong creative, and clear attribution.
 H1: Expert LinkedIn Ads Agency for Your Needs
 Hero image alt: LinkedIn ads agency dashboard showing B2B campaign targeting and lead quality metrics for behavioral health marketing
 

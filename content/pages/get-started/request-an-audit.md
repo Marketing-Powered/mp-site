@@ -15,7 +15,7 @@ Word count target: 400-600 words
 
 SEO METADATA
 Title tag (35 chars): Free Marketing Audit | Request Now
-Meta description (77 chars): Claim a free marketing audit with expert insights from $50M+ in managed spend.
+Meta description (77 chars): Request a free marketing audit from Marketing Powered. Get expert insights built on $50M+ in managed behavioral and mental health ad spend.
 H1: Request Your Free Marketing Audit Today
 Hero image alt: Marketing Powered free marketing audit request form for behavioral health treatment centers
 

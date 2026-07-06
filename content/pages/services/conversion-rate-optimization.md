@@ -8,7 +8,7 @@ target_word_count: "1200-1800"
 
 SEO METADATA
 Title tag (51 chars): Conversion Rate Optimization - Boost Your Conversions
-Meta description (71 chars): $50M+ managed in BH/MH. Enhance conversions with expert CRO strategies.
+Meta description (71 chars): Enhance conversions with expert CRO strategies backed by $50M+ in managed BH/MH media: research, testing, and landing page optimization.
 H1: Effective Conversion Rate Optimization Services
 Hero image alt: Conversion rate optimization dashboard showing A/B test results and funnel analytics for behavioral health marketing campaigns
 

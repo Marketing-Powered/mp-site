@@ -15,7 +15,7 @@ Word count target: 800-1200 words
 
 SEO METADATA
 Title tag (46 chars): About Marketing Powered - AI Marketing Agency
-Meta description (86 chars): Led by a court-certified expert, our AI-native agency scales behavioral health success.
+Meta description (86 chars): Meet Marketing Powered, an AI-native agency led by a court-certified advertising expert, scaling behavioral and mental health providers nationwide.
 H1: Discover Marketing Powered: Your AI Marketing Agency
 Hero image alt: Marketing Powered logo and visual identity representing an AI-native behavioral health marketing agency
 

@@ -13,7 +13,7 @@ Word count target: 3500-5000 words
 
 SEO METADATA
 Title tag (47 chars): Google Ads Compliance for Mental Health | Guide
-Meta description (99 chars): Master Google Ads compliance for mental health with LegitScript and HIPAA insights. Stay compliant.
+Meta description (99 chars): Master Google Ads compliance for mental and behavioral health: LegitScript certification, HIPAA-conscious tracking, and policy-safe campaigns.
 H1: Master Google Ads Compliance for Mental and Behavioral Health
 Hero image alt: Visual representation of Google Ads compliance framework for mental and behavioral health treatment providers showing certification and policy elements
 

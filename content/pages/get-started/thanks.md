@@ -15,7 +15,7 @@ Word count target: 100-200 words
 
 SEO METADATA
 Title tag (35 chars): Thank You for Connecting with Us
-Meta description (80 chars): Your next step with Marketing Powered is underway. Check your email for details.
+Meta description (80 chars): Thanks for reaching out to Marketing Powered. Your request is in motion. Check your email for next steps and what to expect from our team.
 H1: Thank You for Reaching Out
 Hero image alt: Marketing Powered logo mark on a clean white background with light blue accents
 PAGE COPY

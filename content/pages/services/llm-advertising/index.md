@@ -8,7 +8,7 @@ target_word_count: "1200-1800"
 
 SEO METADATA
 Title tag (43 chars): LLM Advertising Services | Marketing Powered
-Meta description (89 chars): Discover how LLM advertising can boost patient engagement and ROI in behavioral health.
+Meta description (89 chars): Explore LLM advertising services: reach patients researching care inside ChatGPT and AI assistants, with compliance and measurement built in.
 H1: Unlock the Power of LLM Advertising for Your Practice
 Hero image alt: Marketing Powered LLM advertising dashboard showing AI-driven campaign optimization for behavioral health providers
 

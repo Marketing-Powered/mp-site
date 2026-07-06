@@ -15,7 +15,7 @@ Word count target: 1200-1800 words
 
 SEO METADATA
 Title tag (43 chars): AI Advertising Agency | Marketing Powered
-Meta description (105 chars): Discover AI-driven advertising solutions by Marketing Powered. Unlock higher ROI with innovative AI tools.
+Meta description (105 chars): Explore Marketing Powered's AI Edge: AI-driven advertising systems, governance, and data practices that help healthcare marketers scale with confidence.
 H1: Explore AI Advertising with Our Expert Agency
 Hero image alt: Marketing Powered AI advertising agency dashboard showing campaign performance metrics for behavioral health clients
 

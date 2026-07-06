@@ -12,13 +12,13 @@ const URL = "/tools/cpa-benchmark-calculator";
 export const metadata: Metadata = {
   title: "CPA Calculator Tool - Marketing Powered",
   description:
-    "Access accurate CPA benchmarks with our calculator. Ideal for marketers managing ad spend.",
+    "Benchmark your cost per acquisition against behavioral health industry data and see how your ad spend efficiency compares. Free CPA calculator.",
   alternates: { canonical: URL },
   openGraph: {
     type: "website",
     title: "CPA Calculator Tool - Marketing Powered",
     description:
-      "Access accurate CPA benchmarks with our calculator. Ideal for marketers managing ad spend.",
+      "Benchmark your cost per acquisition against behavioral health industry data and see how your ad spend efficiency compares. Free CPA calculator.",
     url: URL,
   },
 };

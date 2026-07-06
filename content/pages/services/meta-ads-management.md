@@ -15,7 +15,7 @@ Word count target: 1,200-1,800 words
 
 SEO METADATA
 Title tag (54 chars): Meta Ads Agency for Behavioral Health | Marketing Powered
-Meta description (65 chars): Grow your practice with a leading Meta ads agency. $50M+ managed.
+Meta description (65 chars): Grow your practice with a Meta ads agency built for behavioral health: $50M+ managed, compliant creative, and attribution through to admission.
 H1: Drive Growth with Our Meta Ads Agency Expertise
 Hero image alt: Marketing Powered Meta ads management dashboard showing behavioral health campaign performance metrics
 

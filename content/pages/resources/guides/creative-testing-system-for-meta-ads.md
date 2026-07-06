@@ -13,7 +13,7 @@ Word count target: 3000-4500 words
 
 SEO METADATA
 Title tag (37 chars): Creative Testing for Meta Ads Guide
-Meta description (85 chars): Boost your Meta Ads with our creative testing guide. Proven methods and tools inside.
+Meta description (85 chars): Build a creative testing system for Meta Ads: naming, structure, statistical rigor, and iteration cadence proven in behavioral health accounts.
 H1: Optimizing Creative Testing for Meta Ads
 Hero image alt: Data visualization showing creative testing performance metrics across Meta Ads campaigns with A/B test comparisons
 

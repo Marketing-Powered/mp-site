@@ -15,7 +15,7 @@ Word count target: 1200-1800
 
 SEO METADATA
 Title tag (41 chars): Marketing Tracking Implementation Experts
-Meta description (68 chars): Expert GA4, GTM, and server-side setup for BH centers. Book a call!
+Meta description (68 chars): Expert marketing tracking implementation for treatment centers: GA4, GTM, server-side tagging, and CRM integrations that keep data compliant.
 H1: Comprehensive Marketing Tracking Implementation for Growth
 Hero image alt: Marketing tracking dashboard showing GA4 analytics and conversion data for behavioral health marketing campaigns
 

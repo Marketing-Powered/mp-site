@@ -15,7 +15,7 @@ Word count target: 400-600 words
 
 SEO METADATA
 Title tag (54 chars): Get Started with Our Marketing Agency | Marketing Powered
-Meta description (73 chars): Book a consultation and explore marketing strategies. Expert-led insights.
+Meta description (73 chars): Get started with Marketing Powered: request a free audit or book a consultation with the team behind $50M+ in behavioral health media spend.
 H1: Start Your Journey with Our Marketing Agency
 Hero image alt: Marketing Powered consultation session with behavioral health treatment center leadership discussing marketing strategy
 

@@ -8,7 +8,7 @@ target_word_count: "1500-2200"
 
 SEO METADATA
 Title tag (43 chars): AI Discovery Optimization | Marketing Powered
-Meta description (71 chars): Leverage AI for superior search performance. Book a strategy call today.
+Meta description (71 chars): Optimize for AI discovery: structure your site and content so ChatGPT, Perplexity, and AI search surfaces recommend your brand. Book a strategy call.
 H1: AI Discovery Optimization Services for Enhanced Visibility
 Hero image alt: Abstract visualization of AI discovery optimization showing interconnected data nodes and search pathways representing brand visibility in generative AI responses
 

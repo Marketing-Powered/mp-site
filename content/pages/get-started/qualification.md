@@ -15,7 +15,7 @@ Word count target: 200-400 words
 
 SEO METADATA
 Title tag (41 chars): Service Qualification | Marketing Powered
-Meta description (163 chars): Find out if your behavioral health or mental health treatment center qualifies for Marketing Powered's specialized marketing services. Start the qualification process.
+Meta description (163 chars): Find out if your behavioral health or mental health treatment center qualifies for Marketing Powered's specialized services. Start the process today.
 H1: Service Qualification Requirements
 Hero image alt: Marketing Powered service qualification form for behavioral health and mental health treatment centers
 

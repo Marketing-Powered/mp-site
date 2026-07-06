@@ -13,7 +13,7 @@ Word count target: 600-1000 words
 
 SEO METADATA
 Title tag (35 chars): Guest Contributions for Positioning
-Meta description (80 chars): Become an industry voice through guest contributions. Submit your proposal today!
+Meta description (80 chars): See Marketing Powered's guest contributions and byline articles, and learn how to request expert commentary or a contributed piece for your outlet.
 H1: Guest Contributions to Build Your Position
 Hero image alt: Professional preparing a guest contribution article draft with editorial guidelines visible on screen
 

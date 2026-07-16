@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Manrope, Space_Mono } from "next/font/google";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
+import { LeadModalProvider } from "@/components/site/LeadModal";
 import { SITE_URL, SITE_NAME, SITE_TITLE, SITE_DESCRIPTION } from "@/lib/site";
 
 const manrope = Manrope({
@@ -64,7 +65,7 @@ export default function RootLayout({
       className={`h-full antialiased ${manrope.variable} ${fraunces.variable} ${spaceMono.variable}`}
     >
       <body className={`${manrope.className} min-h-full flex flex-col`}>
-        {children}
+        <LeadModalProvider>{children}</LeadModalProvider>
         <Analytics />
       </body>
     </html>

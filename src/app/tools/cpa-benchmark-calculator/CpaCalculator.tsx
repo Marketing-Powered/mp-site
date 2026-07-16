@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
-import { serif, mono, accent, accentLight, green } from "@/components/site/theme";
+import { serif, mono, accentLight, green } from "@/components/site/theme";
+import { ModalCta } from "@/components/site/LeadModal";
 
 /* ------------------------------------------------------------------ */
 /*  CPA Benchmark Calculator                                           */
@@ -218,13 +218,13 @@ export default function CpaCalculator() {
             </p>
 
             <div className="mt-7">
-              <Link
+              <ModalCta
                 href="/get-started/request-an-audit"
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
               >
                 Get a channel-level CPA audit
                 <span aria-hidden>→</span>
-              </Link>
+              </ModalCta>
             </div>
           </div>
         )}

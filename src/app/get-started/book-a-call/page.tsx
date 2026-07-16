@@ -1,6 +1,7 @@
 import MarkdownPage from "@/components/site/MarkdownPage";
 import { BookingBlock, LeadForm } from "@/components/site/Forms";
 import { pageMetadata } from "@/lib/pages";
+import { LEAD_FORMS } from "@/lib/leadForms";
 
 const FILE = "get-started/book-a-call.md";
 export const metadata = pageMetadata(FILE);
@@ -9,20 +10,8 @@ export default function Page() {
   return (
     <MarkdownPage file={FILE} kicker="Get Started" hideCta>
       <BookingBlock />
-      <LeadForm
-        title="Prefer we reach out?"
-        intro="Share a few details and a strategist who has operated at scale in behavioral health will follow up within one business day."
-        submitLabel="Request My Call"
-        source="Book a Call"
-        formId="call-request-form"
-        fields={[
-          { name: "name", label: "Full Name", required: true },
-          { name: "org", label: "Organization", required: true },
-          { name: "email", label: "Work Email", type: "email", required: true },
-          { name: "phone", label: "Phone", type: "tel" },
-          { name: "notes", label: "What would you like to cover?", type: "textarea" },
-        ]}
-      />
+      {/* shared with the popup lead modal — see src/lib/leadForms.ts */}
+      <LeadForm {...LEAD_FORMS.call} title="Prefer we reach out?" formId="call-request-form" />
     </MarkdownPage>
   );
 }

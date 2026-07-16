@@ -90,6 +90,109 @@ async function deliverToGhl(data: Record<string, unknown>, source: string) {
   }
 }
 
+/* Direct GoHighLevel API delivery: upsert the contact, attach the message and
+   extra form fields as a note, and create an opportunity in the configured
+   pipeline. Runs only when GHL_API_TOKEN + GHL_LOCATION_ID are set (Private
+   Integration token with contacts.write + opportunities.write scopes); the
+   opportunity additionally needs GHL_PIPELINE_ID. Best-effort like the webhook
+   path — any failure is logged, never thrown, so the prospect is never blocked
+   and email delivery is unaffected. */
+// Overridable so a mock server can stand in for GHL in local smoke tests.
+const GHL_API = process.env.GHL_API_BASE || "https://services.leadconnectorhq.com";
+
+async function createGhlOpportunity(data: Record<string, unknown>, source: string) {
+  const token = process.env.GHL_API_TOKEN;
+  const locationId = process.env.GHL_LOCATION_ID;
+  if (!token || !locationId) return;
+
+  const lead = mapLeadForGhl(data, source);
+  const headers = {
+    Authorization: `Bearer ${token}`,
+    Version: "2021-07-28",
+    "Content-Type": "application/json",
+    Accept: "application/json",
+  };
+
+  try {
+    // 1. Upsert the contact (dedupes on email/phone within the location).
+    const contactBody: Record<string, unknown> = { locationId, source };
+    if (lead.first_name) contactBody.firstName = lead.first_name;
+    if (lead.last_name) contactBody.lastName = lead.last_name;
+    if (lead.email) contactBody.email = lead.email;
+    if (lead.phone) contactBody.phone = lead.phone;
+    if (lead.company) contactBody.companyName = lead.company;
+    contactBody.tags = ["website-lead"];
+
+    const contactRes = await fetch(`${GHL_API}/contacts/upsert`, {
+      method: "POST",
+      headers,
+      body: JSON.stringify(contactBody),
+    });
+    if (!contactRes.ok) {
+      console.error(
+        `[lead] GHL contact upsert non-OK: ${contactRes.status} ${await contactRes.text()}`,
+      );
+      return;
+    }
+    const contactJson = (await contactRes.json()) as { contact?: { id?: string } };
+    const contactId = contactJson?.contact?.id;
+    if (!contactId) {
+      console.error("[lead] GHL contact upsert returned no contact id");
+      return;
+    }
+
+    // 2. Attach the message + any extra form fields (spend, website, vertical,
+    //    timeline…) as a note so the full submission is visible on the contact.
+    const noteLines = Object.entries(lead)
+      .filter(([k, v]) => !["first_name", "last_name", "full_name"].includes(k) && str(v))
+      .map(([k, v]) => `${k}: ${str(v)}`);
+    if (noteLines.length) {
+      const noteRes = await fetch(`${GHL_API}/contacts/${contactId}/notes`, {
+        method: "POST",
+        headers,
+        body: JSON.stringify({ body: `Website form (${source})\n${noteLines.join("\n")}` }),
+      });
+      if (!noteRes.ok) {
+        console.error(`[lead] GHL note non-OK: ${noteRes.status} ${await noteRes.text()}`);
+      }
+    }
+
+    // 3. Create the opportunity in the configured pipeline/stage.
+    const pipelineId = process.env.GHL_PIPELINE_ID;
+    if (!pipelineId) {
+      console.log(`[lead] GHL contact ${contactId} upserted (no GHL_PIPELINE_ID; skipping opportunity)`);
+      return;
+    }
+    const oppBody: Record<string, unknown> = {
+      locationId,
+      pipelineId,
+      contactId,
+      status: "open",
+      source,
+      name: `${str(lead.full_name) || str(lead.email) || "Website lead"} — ${source}`,
+    };
+    if (process.env.GHL_PIPELINE_STAGE_ID) {
+      oppBody.pipelineStageId = process.env.GHL_PIPELINE_STAGE_ID;
+    }
+
+    const oppRes = await fetch(`${GHL_API}/opportunities/`, {
+      method: "POST",
+      headers,
+      body: JSON.stringify(oppBody),
+    });
+    if (!oppRes.ok) {
+      console.error(`[lead] GHL opportunity non-OK: ${oppRes.status} ${await oppRes.text()}`);
+      return;
+    }
+    const oppJson = (await oppRes.json()) as { opportunity?: { id?: string } };
+    console.log(
+      `[lead] GHL opportunity created: ${oppJson?.opportunity?.id ?? "(id unknown)"} for contact ${contactId}`,
+    );
+  } catch (err) {
+    console.error("[lead] GHL API delivery failed:", err);
+  }
+}
+
 export async function POST(request: Request) {
   let data: Record<string, unknown> = {};
   try {
@@ -106,9 +209,10 @@ export async function POST(request: Request) {
   // Always log so a lead is never lost, even before delivery is configured.
   console.log(`[lead] ${source}:`, JSON.stringify(data));
 
-  // Best-effort push to GoHighLevel. Independent of the email path below — it
-  // never throws, so a GHL failure can't affect Resend delivery.
-  await deliverToGhl(data, source);
+  // Best-effort push to GoHighLevel — inbound webhook (workflow-driven) and
+  // direct API (contact + note + opportunity) run independently in parallel.
+  // Neither throws, so a GHL failure can't affect Resend delivery.
+  await Promise.all([deliverToGhl(data, source), createGhlOpportunity(data, source)]);
 
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.LEADS_EMAIL;

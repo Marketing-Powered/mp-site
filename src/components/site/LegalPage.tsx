@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import { ModalCta } from "./LeadModal";
 import { getPage } from "@/lib/pages";
 import PageShell from "./PageShell";
 import Breadcrumbs from "./Breadcrumbs";
@@ -74,13 +74,13 @@ export default function LegalPage({ file }: { file: string }) {
             Reach our team and we&apos;ll walk you through anything you need clarified.
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
-            <Link
+            <ModalCta
               href="/company/contact"
               className="group inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)]"
             >
               Contact Us
               <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
-            </Link>
+            </ModalCta>
             <a
               href={`mailto:${s.brand.email}`}
               className="text-[13px] text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"

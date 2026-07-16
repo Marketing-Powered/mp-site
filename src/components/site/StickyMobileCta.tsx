@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { siteContent as s } from "@/lib/content";
+import { ModalCta } from "./LeadModal";
 
 /* Fixed bottom bar shown only on mobile (hidden on md+). Appears once
    the visitor scrolls past the hero, hides while scrolling down, and
@@ -46,13 +46,13 @@ export default function StickyMobileCta() {
           "linear-gradient(to top, rgba(5,11,22,0.96) 55%, rgba(5,11,22,0))",
       }}
     >
-      <Link
+      <ModalCta
         href="/get-started/request-an-audit"
         className="flex w-full items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_12px_40px_-10px_rgba(0,144,240,0.7)]"
       >
         Request a Free Audit
         <span>→</span>
-      </Link>
+      </ModalCta>
       <p className="mt-2 text-center text-[12px] text-white/45">
         or{" "}
         <a

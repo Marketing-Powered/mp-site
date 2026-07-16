@@ -5,15 +5,7 @@ import { useRouter } from "next/navigation";
 import Reveal from "@/components/Reveal";
 import { serif, mono } from "./theme";
 import { siteContent as s } from "@/lib/content";
-
-type Field = {
-  name: string;
-  label: string;
-  type?: "text" | "email" | "tel" | "textarea" | "select";
-  options?: string[];
-  required?: boolean;
-  full?: boolean;
-};
+import type { LeadField as Field } from "@/lib/leadForms";
 
 const inputCls =
   "w-full rounded-xl border border-white/12 bg-white/[0.03] px-4 py-3 text-[15px] text-white/90 outline-none transition-colors placeholder:text-white/25 focus:border-[#0090F0]/60 focus:bg-white/[0.05]";

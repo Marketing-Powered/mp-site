@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 import { serif, mono } from "./theme";
 import { resolveLink } from "@/lib/links";
+import { ModalCta } from "./LeadModal";
 
 /* Gradient hairline rule used throughout the design system */
 export function GoldRule({ className = "" }: { className?: string }) {
@@ -53,22 +54,12 @@ export function PrimaryCta({
     </>
   );
 
-  if (isExternal) {
-    return (
-      <a href={target} className={buttonClass}>
-        {inner}
-      </a>
-    );
-  }
-
+  // ModalCta pops the lead form for lead-gen destinations (audit, call,
+  // contact, qualification) and renders a normal link everywhere else.
   return (
-    <Link
-      href={target}
-      prefetch={false}
-      className={buttonClass}
-    >
+    <ModalCta href={target} className={buttonClass}>
       {inner}
-    </Link>
+    </ModalCta>
   );
 }
 
@@ -94,22 +85,10 @@ export function GhostCta({
     </>
   );
 
-  if (isExternal) {
-    return (
-      <a href={target} className={buttonClass}>
-        {inner}
-      </a>
-    );
-  }
-
   return (
-    <Link
-      href={target}
-      prefetch={false}
-      className={buttonClass}
-    >
+    <ModalCta href={target} className={buttonClass}>
       {inner}
-    </Link>
+    </ModalCta>
   );
 }
 

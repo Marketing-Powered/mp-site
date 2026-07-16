@@ -2,6 +2,7 @@ import MarkdownPage from "@/components/site/MarkdownPage";
 import Reveal from "@/components/Reveal";
 import { LeadForm } from "@/components/site/Forms";
 import { pageMetadata } from "@/lib/pages";
+import { LEAD_FORMS } from "@/lib/leadForms";
 import { siteContent as s } from "@/lib/content";
 import { serif, mono } from "@/components/site/theme";
 
@@ -65,19 +66,8 @@ export default function Page() {
   return (
     <MarkdownPage file={FILE} kicker="Contact" hideCta>
       <ContactDetails />
-      <LeadForm
-        title="Start a conversation"
-        intro="Tell us about your center and what you're trying to solve. We'll get back to you within one business day."
-        submitLabel="Send Message"
-        source="Contact"
-        fields={[
-          { name: "name", label: "Full Name", required: true },
-          { name: "org", label: "Organization", required: true },
-          { name: "email", label: "Work Email", type: "email", required: true },
-          { name: "phone", label: "Phone", type: "tel" },
-          { name: "message", label: "How can we help?", type: "textarea", required: true },
-        ]}
-      />
+      {/* shared with the popup lead modal — see src/lib/leadForms.ts */}
+      <LeadForm {...LEAD_FORMS.contact} />
     </MarkdownPage>
   );
 }

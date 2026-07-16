@@ -8,6 +8,7 @@ import Reveal from "@/components/Reveal";
 import { Figure } from "@/components/brand";
 import Nav from "@/components/site/Nav";
 import Footer from "@/components/site/Footer";
+import { ModalCta } from "@/components/site/LeadModal";
 
 /* ================================================================== */
 /*  DESIGN 1 — "Midnight Atelier"                                      */
@@ -227,16 +228,15 @@ export default function Design1() {
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-5">
-              <Link
+              <ModalCta
                 href={s.hero.ctaLink}
-                prefetch={false}
                 className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)]"
               >
                 <span className="relative z-10">{s.hero.cta}</span>
                 <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">
                   →
                 </span>
-              </Link>
+              </ModalCta>
               <span
                 className="text-[12px] uppercase tracking-[0.22em] text-white/40"
                 style={{ fontFamily: mono }}
@@ -653,7 +653,7 @@ export default function Design1() {
             <p className="mx-auto mt-7 max-w-xl leading-relaxed text-white/55">
               {s.cta.body}
             </p>
-            <Link
+            <ModalCta
               href={s.cta.ctaLink}
               className="group mt-10 inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-9 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
             >
@@ -661,7 +661,7 @@ export default function Design1() {
               <span className="transition-transform group-hover:translate-x-1">
                 →
               </span>
-            </Link>
+            </ModalCta>
           </div>
         </Reveal>
       </section>

@@ -1,6 +1,6 @@
-import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import { serif, mono } from "./theme";
+import { ModalCta } from "./LeadModal";
 
 /* Compact, lighter-weight CTA that sits between content sections.
    Slim banner: left-aligned copy, right-aligned button. Uses the
@@ -28,8 +28,6 @@ export default function InlineCta({
   ctaLink: string;
   variant?: Variant;
 }) {
-  const isExternal = ctaLink.startsWith("mailto:") || ctaLink.startsWith("http");
-
   const buttonCls =
     variant === "secondary"
       ? "group relative inline-flex items-center gap-2.5 overflow-hidden rounded-full border border-white/20 px-7 py-3.5 text-[12px] uppercase tracking-[0.18em] text-white/85 transition-colors hover:text-black"
@@ -76,15 +74,10 @@ export default function InlineCta({
             )}
           </div>
           <div className="shrink-0">
-            {isExternal ? (
-              <a href={ctaLink} className={buttonCls}>
-                {inner}
-              </a>
-            ) : (
-              <Link href={ctaLink} className={buttonCls}>
-                {inner}
-              </Link>
-            )}
+            {/* pops the lead form for lead-gen hrefs; plain link otherwise */}
+            <ModalCta href={ctaLink} className={buttonCls}>
+              {inner}
+            </ModalCta>
           </div>
         </div>
       </Reveal>

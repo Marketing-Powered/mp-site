@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
 import { serif, mono, green } from "./theme";
+import { ModalCta } from "./LeadModal";
 
 /* ------------------------------------------------------------------ */
 /*  Reusable scored questionnaire for tool/assessment pages.           */
@@ -212,13 +212,13 @@ export default function ScoredAssessment({
         </p>
 
         <div className="mt-6">
-          <Link
+          <ModalCta
             href={ctaLink}
             className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
           >
             {ctaText}
             <span aria-hidden>→</span>
-          </Link>
+          </ModalCta>
         </div>
       </div>
     </div>

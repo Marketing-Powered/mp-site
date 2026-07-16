@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Logo } from "@/components/brand";
 import { siteContent as s } from "@/lib/content";
 import { mono } from "./theme";
+import { ModalCta } from "./LeadModal";
 
 const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
   {
@@ -105,13 +106,12 @@ export default function Footer() {
           <p className="text-[12px] text-white/30" style={{ fontFamily: mono }}>
             {s.footer.copyright}
           </p>
-          <Link
+          <ModalCta
             href="/get-started/request-an-audit"
-            prefetch={false}
             className="text-[12px] uppercase tracking-[0.18em] text-white/55 transition-colors hover:text-[#7FCBFF]"
           >
             Request a Free Audit →
-          </Link>
+          </ModalCta>
         </div>
       </div>
     </footer>

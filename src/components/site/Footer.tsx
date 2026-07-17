@@ -3,6 +3,7 @@ import { Logo } from "@/components/brand";
 import { siteContent as s } from "@/lib/content";
 import { mono } from "./theme";
 import { ModalCta } from "./LeadModal";
+import MapEmbed from "./MapEmbed";
 
 const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
   {
@@ -72,6 +73,9 @@ export default function Footer() {
               </p>
               <p>{s.brand.phone}</p>
               <p className="max-w-[15rem]">{s.brand.address}</p>
+            </div>
+            <div className="mt-6 max-w-sm overflow-hidden rounded-xl border border-white/10">
+              <MapEmbed className="block h-44 w-full" />
             </div>
           </div>
 

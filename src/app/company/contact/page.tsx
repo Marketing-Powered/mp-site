@@ -1,5 +1,6 @@
 import MarkdownPage from "@/components/site/MarkdownPage";
 import Reveal from "@/components/Reveal";
+import MapEmbed from "@/components/site/MapEmbed";
 import { LeadForm } from "@/components/site/Forms";
 import { pageMetadata } from "@/lib/pages";
 import { LEAD_FORMS } from "@/lib/leadForms";
@@ -49,14 +50,9 @@ function ContactDetails() {
       </div>
       <Reveal
         variant="blur"
-        className="mt-6 flex min-h-[220px] items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-white/[0.02]"
+        className="mt-6 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02]"
       >
-        <span
-          className="text-[11px] uppercase tracking-[0.22em] text-white/35"
-          style={{ fontFamily: mono }}
-        >
-          Image · Map / Palm Beach Gardens, FL
-        </span>
+        <MapEmbed className="block h-[420px] w-full sm:h-[480px]" />
       </Reveal>
     </section>
   );

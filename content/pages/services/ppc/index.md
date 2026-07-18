@@ -17,14 +17,14 @@ AI-Driven PPC Campaign Management: Smarter Performance at Scale
 What is AI-Powered PPC?
 AI-powered PPC revolutionizes traditional paid media by introducing machine learning models that optimize bids, targeting, and creative decisions in real time. Rather than relying on manual adjustments, AI enables smart, scalable decisions across platforms like Google Ads, Meta, and LinkedIn—freeing you from guesswork and inefficiency.
 Why Traditional PPC is No Longer Enough
-Manual approaches can't match the speed, scale, or sophistication of AI-driven systems. The future of PPC is intelligent—and it's already here.
+Manual approaches can't match the speed, scale, or sophistication of AI-driven systems. The future of PPC is intelligent—and it's already here. New to paid search? Start with our [introduction to PPC campaign management](/services/ppc/introduction-to-ppc-campaign-management).
 Our Approach to Intelligent PPC Campaigns
 We combine predictive analytics with proprietary automation tools to create campaigns that evolve continuously for optimal performance.
 * Predictive Bidding & Budget Allocation: We use proprietary machine learning models to forecast keyword value and adjust spend accordingly—before the competition reacts.
 * Performance Feedback Loops: Our models learn from every click and conversion, adjusting messaging, bids, and targeting in real-time.
 * Platform-Agnostic AI Targeting: Whether it's Google, Meta, or LinkedIn, we unify campaign strategy using centralized AI logic that adapts across ecosystems.
 Benefits of AI-Enhanced PPC
-* 🚀 Lower Cost Per Acquisition (CPA)
+* 🚀 [Lower Cost Per Acquisition (CPA)](/problems/reduce-cpa)
 * 📈 Higher Return on Ad Spend (ROAS)
 * 🔄 Always-On Optimization
 * ⏱️ Real-Time Decision Making
@@ -33,7 +33,7 @@ Case Study Highlight
 A SaaS client reduced CPA by 38% and increased qualified leads by 52% within 60 days by implementing our AI bidding model.
 Explore Our PPC Capabilities
 * AI Strategy: Tailored AI roadmaps aligned to your business goals
-* Campaign Management: End-to-end setup, testing, and performance optimization
+* [Campaign Management](/services/ppc/introduction-to-ppc-campaign-management): End-to-end setup, testing, and performance optimization
 * Ad Copy Optimization: LLM-enhanced messaging designed to convert
 * Performance Tracking: Visual dashboards and predictive ROI models
 

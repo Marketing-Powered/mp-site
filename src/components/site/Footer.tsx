@@ -14,7 +14,18 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "Google Ads", href: "/services/google-ads-management" },
       { label: "Landing Page Optimization", href: "/services/landing-page-optimization" },
       { label: "Analytics & Attribution", href: "/services/analytics-and-attribution" },
+      { label: "PPC Campaign Management", href: "/services/ppc/introduction-to-ppc-campaign-management" },
       { label: "Web Development", href: "/services/web-development" },
+    ],
+  },
+  {
+    title: "Problems We Solve",
+    links: [
+      { label: "Reduce CPA", href: "/problems/reduce-cpa" },
+      { label: "Fix Marketing Attribution", href: "/problems/fix-attribution" },
+      { label: "Improve Lead Quality", href: "/problems/fix-lead-quality" },
+      { label: "Increase Qualified Calls", href: "/problems/increase-qualified-calls" },
+      { label: "Multi-Location Marketing", href: "/problems/scale-multi-location-campaigns" },
     ],
   },
   {
@@ -25,6 +36,7 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "AI Governance", href: "/ai-edge/ai-governance" },
       { label: "Data Sovereignty", href: "/ai-edge/data-sovereignty" },
       { label: "Social Media", href: "/ai-edge/social-media" },
+      { label: "Open-Source AI Models", href: "/top-10-open-source-ai-models-of-2025" },
     ],
   },
   {
@@ -47,7 +59,7 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "Advertising Disclaimer", href: "/legal/advertising-disclaimer" },
       { label: "HIPAA & PHI Disclaimer", href: "/legal/hipaa-phi-disclaimer" },
       { label: "Accessibility", href: "/accessibility" },
-      { label: "Sitemap", href: "/sitemap.xml" },
+      { label: "Sitemap", href: "/sitemap" },
     ],
   },
 ];
@@ -56,7 +68,7 @@ export default function Footer() {
   return (
     <footer className="relative z-10 border-t border-white/8 px-6 py-16 lg:px-12">
       <div className="mx-auto max-w-7xl">
-        <div className="grid gap-12 lg:grid-cols-[1.4fr_2fr]">
+        <div className="grid gap-12 lg:grid-cols-[1fr_2.4fr]">
           <div>
             <Logo tone="light" />
             <p className="mt-4 max-w-xs text-[14px] leading-relaxed text-white/45">
@@ -79,7 +91,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
             {COLUMNS.map((col) => (
               <div key={col.title}>
                 <p

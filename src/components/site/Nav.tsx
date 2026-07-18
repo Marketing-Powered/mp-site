@@ -16,6 +16,7 @@ const PRIMARY_NAV = [
       { label: "Meta Ads", href: "/services/meta-ads-management" },
       { label: "Landing Pages", href: "/services/landing-page-optimization" },
       { label: "Analytics & Attribution", href: "/services/analytics-and-attribution" },
+      { label: "PPC Management", href: "/services/ppc" },
       { label: "Web Development", href: "/services/web-development" },
       { label: "View All Services", href: "/services" },
     ],
@@ -30,6 +31,17 @@ const PRIMARY_NAV = [
       { label: "Substance Use Disorder", href: "/who-we-help/behavioral-health/substance-use-disorder" },
       { label: "Outpatient Clinics", href: "/who-we-help/mental-health/outpatient-clinics" },
       { label: "View All Specialties", href: "/who-we-help" },
+    ],
+  },
+  {
+    label: "Problems",
+    href: "/problems/reduce-cpa",
+    children: [
+      { label: "Reduce CPA", href: "/problems/reduce-cpa" },
+      { label: "Fix Marketing Attribution", href: "/problems/fix-attribution" },
+      { label: "Improve Lead Quality", href: "/problems/fix-lead-quality" },
+      { label: "Increase Qualified Calls", href: "/problems/increase-qualified-calls" },
+      { label: "Multi-Location Marketing", href: "/problems/scale-multi-location-campaigns" },
     ],
   },
   {
@@ -96,8 +108,15 @@ export default function Nav() {
                   <span className="text-[8px] text-white/35">▼</span>
                 )}
               </Link>
-              {item.children && openMenu === item.label && (
-                <div className="absolute left-1/2 top-full z-50 w-60 -translate-x-1/2 pt-3">
+              {/* Always rendered (CSS-hidden until hover) so dropdown links
+                  exist in the server HTML — crawlers never hover, and pages
+                  linked only from here were being reported as orphans. */}
+              {item.children && (
+                <div
+                  className={`absolute left-1/2 top-full z-50 w-60 -translate-x-1/2 pt-3 transition-opacity duration-150 ${
+                    openMenu === item.label ? "visible opacity-100" : "invisible opacity-0"
+                  }`}
+                >
                   <div className="overflow-hidden rounded-xl border border-white/10 bg-[#070E1C]/95 p-1.5 shadow-[0_24px_70px_-34px_rgba(0,0,0,0.95)] backdrop-blur-xl">
                     {item.children.map((c) => (
                       <Link

@@ -246,8 +246,12 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/services/linkedin-ads", file: "services/linkedin-ads.md" },
     { href: "/services/intake-optimization", file: "services/intake-optimization.md" },
     { href: "/services/creative-testing", file: "services/creative-testing.md" },
+    { href: "/services/ppc", file: "services/ppc/index.md" },
     { href: "/services/llm-advertising", file: "services/llm-advertising/index.md" },
     { href: "/services/web-development", file: "services/web-development/index.md" },
+  ],
+  "services/ppc/index.md": [
+    { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },
   ],
   "services/llm-advertising/index.md": [
     { href: "/services/llm-advertising/chatgpt", file: "services/llm-advertising/chatgpt.md" },

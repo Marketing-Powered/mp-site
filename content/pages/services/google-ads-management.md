@@ -27,7 +27,7 @@ Expert Google Ads Management for Behavioral Health
 Strategic Google Ads management services built on $50M+ in managed behavioral health and mental health media spend.
 [CTA] Book a Discovery Call
 Why Choose Our Google Ads Management Services?
-Most agencies treat behavioral health like any other vertical. They apply the same playbook they use for e-commerce or SaaS, then wonder why lead quality tanks and compliance flags pile up. Google Ads management for treatment centers requires a different operating framework: one built on understanding admission economics, intake capacity constraints, and the regulatory reality of healthcare advertising.
+Most agencies treat behavioral health like any other vertical. They apply the same playbook they use for e-commerce or SaaS, then wonder why [lead quality](/problems/fix-lead-quality) tanks and compliance flags pile up. Google Ads management for treatment centers requires a different operating framework: one built on understanding admission economics, intake capacity constraints, and the regulatory reality of healthcare advertising.
 Marketing Powered has managed over $50M in [behavioral health marketing](/who-we-help/behavioral-health) spend across Google Ads. That figure represents real campaigns for real treatment centers, from single-location detox facilities to multi-state behavioral health organizations. Our founder managed operator-side multi-market growth, giving us operator-level insight into how admission volume, bed capacity, and census targets actually connect to ad spend decisions.
 
 

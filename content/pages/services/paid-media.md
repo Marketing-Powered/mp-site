@@ -38,7 +38,7 @@ Compliance awareness is built into our process. We maintain LegitScript certific
 Our Proven Approach
 Paid media management for behavioral health requires more than a bidding strategy. It requires understanding the patient journey from first click through admission and tracking every step along the way.
 We build campaigns around admission-level attribution. That means connecting ad spend to actual census impact, not just call volume or form submissions. Our systems track attribution through to admission so you can see which channels, campaigns, and keywords produce patients who complete intake. This level of visibility changes how you allocate budget.
-Our approach starts with your intake capacity and works backward. We map your admissions funnel, identify where leads drop off, and build campaigns that account for real conversion rates at each stage. If your intake team converts 15% of qualified calls, we build media plans and pacing around that number, not around hypothetical benchmarks from other industries.
+Our approach starts with your intake capacity and works backward. We map your admissions funnel, identify where leads drop off, and build campaigns that account for real conversion rates at each stage. If your intake team converts 15% of [qualified calls](/problems/increase-qualified-calls), we build media plans and pacing around that number, not around hypothetical benchmarks from other industries.
 * Full-funnel attribution from ad impression through admission
 * Real-time budget pacing tied to intake capacity and census goals
 * Multi-variant optimization across landing pages to improve conversion rates

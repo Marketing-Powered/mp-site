@@ -67,7 +67,7 @@ Case Studies: Success Stories in Behavioral Health
 The proof is in the outcomes. Here are specific examples of how our behavioral health marketing strategies have performed for treatment centers across the country.
 Anonymized Growth Case Study: Multi-Location Growth
 Our founder led marketing during a multi-location behavioral health organization's expansion through a multi-location expansion, supporting substantial revenue growth. This was not agency work. This was operator-level execution with direct accountability for census targets, cost per admission, and intake team capacity.
-The strategies developed during this growth phase form the foundation of what we deliver to clients today. We know what it takes to scale a multi-location behavioral health organization because we have done it ourselves.
+The strategies developed during this growth phase form the foundation of what we deliver to clients today. We know what it takes to [scale multi-location campaigns](/problems/scale-multi-location-campaigns) for a behavioral health organization because we have done it ourselves.
 Multi-account portfolio management
 Across our current client portfolio, we manage $1.5M to $2M monthly in Google Ads spend for behavioral health and mental health treatment centers. This scale gives us pattern recognition that smaller agencies cannot match. We see which strategies work across different geographic markets, clinical specializations, and insurance mixes.
 [Review our case studies in behavioral health](/results/case-studies) to see detailed breakdowns of campaign performance, including cost per admission trends, lead quality improvements, and intake conversion rates.

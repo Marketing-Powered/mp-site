@@ -1,6 +1,5 @@
 import Script from "next/script";
 import DelayedAdPixels from "@/components/DelayedAdPixels";
-import DelayedDial3dChat from "@/components/DelayedDial3dChat";
 
 /* Analytics / tracking pixels.
 
@@ -69,7 +68,15 @@ gtag('config', '${GOOGLE_ADS_ID}');`}
         linkedInPartnerId={LINKEDIN_PARTNER_ID}
         metaPixelId={META_PIXEL_ID}
       />
-      <DelayedDial3dChat />
+      {/* "Jessica" — DIAL3D AI chat (same brain as the phone agent). Loads
+          right after window load on every device: the interaction-gated
+          delay used for pixels made the launcher appear only mid-scroll on
+          mobile and ~12s+ on desktop. The embed builds its own fixed
+          launcher iframe, so it never blocks first paint. */}
+      <Script
+        src="https://chat.dial3d.ai/marketing-powered/embed.js"
+        strategy="lazyOnload"
+      />
     </>
   );
 }

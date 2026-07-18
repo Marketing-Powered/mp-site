@@ -5,16 +5,16 @@ import useDelayedScriptLoad from "@/components/useDelayedScriptLoad";
 
 const CHAT_DELAY_MS = 12000;
 
-export default function DelayedLeadConnector() {
+/* "Jessica" — the DIAL3D AI chat assistant (same brain as the phone agent).
+   Replaces the old LeadConnector chat widget. */
+export default function DelayedDial3dChat() {
   const shouldLoad = useDelayedScriptLoad(CHAT_DELAY_MS);
 
   if (!shouldLoad) return null;
 
   return (
     <Script
-      src="https://widgets.leadconnectorhq.com/loader.js"
-      data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
-      data-widget-id="69eafedccbb9f443ce9942a0"
+      src="https://chat.dial3d.ai/marketing-powered/embed.js"
       strategy="lazyOnload"
     />
   );

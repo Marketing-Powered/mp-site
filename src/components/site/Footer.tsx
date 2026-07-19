@@ -89,6 +89,20 @@ export default function Footer() {
             <div className="mt-6 max-w-sm overflow-hidden rounded-xl border border-white/10">
               <MapEmbed className="block h-44 w-full" />
             </div>
+            <a
+              href="https://www.designrush.com/agency/digital-marketing/florida"
+              target="_blank"
+              rel="noopener"
+              className="group mt-6 inline-flex items-center gap-2.5 rounded-full border border-white/10 bg-white/[0.03] py-2 pl-3.5 pr-4.5 transition-all duration-300 hover:border-[#0090F0]/50 hover:bg-[#0090F0]/10 hover:shadow-[0_0_24px_-6px_rgba(0,144,240,0.45)]"
+            >
+              <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] transition-transform duration-300 group-hover:scale-125" />
+              <span
+                className="text-[11px] uppercase tracking-[0.2em] text-white/55 transition-colors group-hover:text-[#7FCBFF]"
+                style={{ fontFamily: mono }}
+              >
+                As seen on DesignRush
+              </span>
+            </a>
           </div>
 
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">

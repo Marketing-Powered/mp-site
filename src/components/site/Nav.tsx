@@ -138,6 +138,7 @@ export default function Nav() {
         <div className="flex items-center gap-4">
           <ModalCta
             href="/get-started/request-an-audit"
+            trackLocation="nav"
             className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
           >
             <span className="relative z-10">Request Audit</span>
@@ -189,6 +190,7 @@ export default function Nav() {
           <ModalCta
             href="/get-started/request-an-audit"
             onClick={() => setMobileOpen(false)}
+            trackLocation="nav_mobile"
             className="mt-4 inline-flex rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-6 py-3 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
           >
             Request Audit

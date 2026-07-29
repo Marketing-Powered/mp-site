@@ -1,6 +1,7 @@
 import MarkdownPage from "@/components/site/MarkdownPage";
 import Reveal from "@/components/Reveal";
 import MapEmbed from "@/components/site/MapEmbed";
+import TrackedLink from "@/components/site/TrackedLink";
 import { LeadForm } from "@/components/site/Forms";
 import { pageMetadata } from "@/lib/pages";
 import { LEAD_FORMS } from "@/lib/leadForms";
@@ -33,13 +34,14 @@ function ContactDetails() {
               {d.label}
             </p>
             {d.href ? (
-              <a
+              <TrackedLink
                 href={d.href}
+                location="contact_details"
                 className="text-[0.98rem] leading-relaxed text-white/75 transition-colors hover:text-[#7FCBFF]"
                 style={{ fontFamily: serif }}
               >
                 {d.value}
-              </a>
+              </TrackedLink>
             ) : (
               <p className="text-[0.95rem] leading-relaxed text-white/65" style={{ fontFamily: serif }}>
                 {d.value}

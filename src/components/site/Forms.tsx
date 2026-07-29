@@ -6,6 +6,7 @@ import Reveal from "@/components/Reveal";
 import { serif, mono } from "./theme";
 import { siteContent as s } from "@/lib/content";
 import type { LeadField as Field } from "@/lib/leadForms";
+import TrackedLink from "./TrackedLink";
 
 const inputCls =
   "w-full rounded-xl border border-white/12 bg-white/[0.03] px-4 py-3 text-[15px] text-white/90 outline-none transition-colors placeholder:text-white/25 focus:border-[#0090F0]/60 focus:bg-white/[0.05]";
@@ -145,12 +146,13 @@ export function BookingBlock() {
           <p className="mt-4 max-w-xl leading-relaxed text-white/55">
             Share your details below and our team will follow up with available times.
             You can also email us directly at{" "}
-            <a
+            <TrackedLink
               href={`mailto:${s.brand.email}`}
+              location="booking"
               className="text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4"
             >
               {s.brand.email}
-            </a>
+            </TrackedLink>
             .
           </p>
           <a

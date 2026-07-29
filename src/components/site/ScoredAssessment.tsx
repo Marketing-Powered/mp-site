@@ -214,6 +214,7 @@ export default function ScoredAssessment({
         <div className="mt-6">
           <ModalCta
             href={ctaLink}
+            trackLocation="tool_result"
             className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
           >
             {ctaText}

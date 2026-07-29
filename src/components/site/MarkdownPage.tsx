@@ -10,6 +10,7 @@ import InlineCta from "./InlineCta";
 import StickyMobileCta from "./StickyMobileCta";
 import FaqAccordion from "./FaqAccordion";
 import CtaBand from "./CtaBand";
+import TrackedLink from "./TrackedLink";
 import { serif } from "./theme";
 import { Kicker, PrimaryCta, GoldRule } from "./ui";
 import { siteContent as s } from "@/lib/content";
@@ -113,13 +114,16 @@ export default function MarkdownPage({
               </p>
             )}
             <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
-              <PrimaryCta href={heroCta.link}>{heroCta.text}</PrimaryCta>
-              <a
+              <PrimaryCta href={heroCta.link} trackLocation="hero">
+                {heroCta.text}
+              </PrimaryCta>
+              <TrackedLink
                 href={`mailto:${s.brand.email}`}
+                location="hero"
                 className="text-[13px] uppercase tracking-[0.18em] text-white/50 transition-colors hover:text-[#7FCBFF]"
               >
                 or email us →
-              </a>
+              </TrackedLink>
             </div>
           </div>
           <div className="relative">

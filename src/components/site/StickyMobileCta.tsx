@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { siteContent as s } from "@/lib/content";
 import { ModalCta } from "./LeadModal";
+import TrackedLink from "./TrackedLink";
 
 /* Fixed bottom bar shown only on mobile (hidden on md+). Appears once
    the visitor scrolls past the hero, hides while scrolling down, and
@@ -48,6 +49,7 @@ export default function StickyMobileCta() {
     >
       <ModalCta
         href="/get-started/request-an-audit"
+        trackLocation="sticky_mobile"
         className="flex w-full items-center justify-center gap-2.5 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_12px_40px_-10px_rgba(0,144,240,0.7)]"
       >
         Request a Free Audit
@@ -55,12 +57,13 @@ export default function StickyMobileCta() {
       </ModalCta>
       <p className="mt-2 text-center text-[12px] text-white/45">
         or{" "}
-        <a
+        <TrackedLink
           href={`mailto:${s.brand.email}`}
+          location="sticky_mobile"
           className="text-[#7FCBFF] underline underline-offset-2"
         >
           email us
-        </a>
+        </TrackedLink>
       </p>
     </div>
   );

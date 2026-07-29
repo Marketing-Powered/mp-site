@@ -76,6 +76,7 @@ export default function LegalPage({ file }: { file: string }) {
           <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
             <ModalCta
               href="/company/contact"
+              trackLocation="legal_cta"
               className="group inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)]"
             >
               Contact Us

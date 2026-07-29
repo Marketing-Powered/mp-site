@@ -230,6 +230,7 @@ export default function Design1() {
             <div className="mt-10 flex flex-wrap items-center gap-5">
               <ModalCta
                 href={s.hero.ctaLink}
+                trackLocation="hero"
                 className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)]"
               >
                 <span className="relative z-10">{s.hero.cta}</span>
@@ -655,6 +656,7 @@ export default function Design1() {
             </p>
             <ModalCta
               href={s.cta.ctaLink}
+              trackLocation="cta_band"
               className="group mt-10 inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-9 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
             >
               {s.cta.ctaText}

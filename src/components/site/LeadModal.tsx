@@ -15,6 +15,7 @@ import {
   leadFormKeyForHref,
   type LeadFormKey,
 } from "@/lib/leadForms";
+import { trackCtaClick, ctaLabelFromElement } from "@/lib/metaEvents";
 
 /* Popup lead form. CTA buttons across the site open this modal instead of
    navigating away; the form posts to /api/contact, which delivers the lead
@@ -251,27 +252,48 @@ export function ModalCta({
   children,
   onClick,
   ariaLabel,
+  trackLocation,
 }: {
   href: string;
   className?: string;
   children: React.ReactNode;
   onClick?: () => void;
   ariaLabel?: string;
+  /** Placement reported with the Meta Pixel click event (nav, hero, …). */
+  trackLocation?: string;
 }) {
   const ctx = useContext(LeadModalContext);
   const formKey = leadFormKeyForHref(href);
   const isExternal =
     href.startsWith("mailto:") || href.startsWith("tel:") || /^https?:\/\//.test(href);
 
+  // Every CTA click reports to the Meta Pixel so TOFU campaigns can
+  // optimize on button clicks — see src/lib/metaEvents.ts for the taxonomy.
+  const track = (e: React.MouseEvent<HTMLAnchorElement>) =>
+    trackCtaClick({
+      href,
+      label: ctaLabelFromElement(e.currentTarget),
+      location: trackLocation,
+    });
+
   if (isExternal) {
     return (
-      <a href={href} className={className} onClick={onClick} aria-label={ariaLabel}>
+      <a
+        href={href}
+        className={className}
+        onClick={(e) => {
+          track(e);
+          onClick?.();
+        }}
+        aria-label={ariaLabel}
+      >
         {children}
       </a>
     );
   }
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    track(e);
     onClick?.();
     // Only intercept plain left-clicks; modified clicks keep native behavior.
     if (

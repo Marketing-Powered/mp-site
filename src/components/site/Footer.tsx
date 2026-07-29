@@ -3,6 +3,7 @@ import { Logo } from "@/components/brand";
 import { siteContent as s } from "@/lib/content";
 import { mono } from "./theme";
 import { ModalCta } from "./LeadModal";
+import TrackedLink from "./TrackedLink";
 import MapEmbed from "./MapEmbed";
 
 const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
@@ -76,12 +77,13 @@ export default function Footer() {
             </p>
             <div className="mt-6 space-y-2 text-[13px] text-white/45" style={{ fontFamily: mono }}>
               <p>
-                <a
+                <TrackedLink
                   href={`mailto:${s.brand.email}`}
+                  location="footer"
                   className="text-[#7FCBFF] transition-colors hover:text-white"
                 >
                   {s.brand.email}
-                </a>
+                </TrackedLink>
               </p>
               <p>{s.brand.phone}</p>
               <p className="max-w-[15rem]">{s.brand.address}</p>
@@ -138,6 +140,7 @@ export default function Footer() {
           </p>
           <ModalCta
             href="/get-started/request-an-audit"
+            trackLocation="footer"
             className="text-[12px] uppercase tracking-[0.18em] text-white/55 transition-colors hover:text-[#7FCBFF]"
           >
             Request a Free Audit →

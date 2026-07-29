@@ -35,10 +35,13 @@ export function PrimaryCta({
   href,
   children,
   className = "",
+  trackLocation,
 }: {
   href: string;
   children: React.ReactNode;
   className?: string;
+  /** Placement reported with the Meta Pixel click event (hero, cta_band, …). */
+  trackLocation?: string;
 }) {
   const raw = href || "/get-started/request-an-audit";
   const isExternal = raw.startsWith("mailto:") || raw.startsWith("tel:") || /^https?:\/\//.test(raw);
@@ -57,7 +60,7 @@ export function PrimaryCta({
   // ModalCta pops the lead form for lead-gen destinations (audit, call,
   // contact, qualification) and renders a normal link everywhere else.
   return (
-    <ModalCta href={target} className={buttonClass}>
+    <ModalCta href={target} className={buttonClass} trackLocation={trackLocation}>
       {inner}
     </ModalCta>
   );
@@ -68,10 +71,13 @@ export function GhostCta({
   href,
   children,
   className = "",
+  trackLocation,
 }: {
   href: string;
   children: React.ReactNode;
   className?: string;
+  /** Placement reported with the Meta Pixel click event (hero, cta_band, …). */
+  trackLocation?: string;
 }) {
   const raw = href || "/get-started/request-an-audit";
   const isExternal = raw.startsWith("mailto:") || raw.startsWith("tel:") || /^https?:\/\//.test(raw);
@@ -86,7 +92,7 @@ export function GhostCta({
   );
 
   return (
-    <ModalCta href={target} className={buttonClass}>
+    <ModalCta href={target} className={buttonClass} trackLocation={trackLocation}>
       {inner}
     </ModalCta>
   );

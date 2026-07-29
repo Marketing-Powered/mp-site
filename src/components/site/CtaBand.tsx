@@ -1,6 +1,7 @@
 import Reveal from "@/components/Reveal";
 import { serif } from "./theme";
 import { PrimaryCta, GhostCta } from "./ui";
+import TrackedLink from "./TrackedLink";
 import { siteContent as s } from "@/lib/content";
 
 export default function CtaBand({
@@ -37,18 +38,25 @@ export default function CtaBand({
           </h2>
           <p className="mx-auto mt-7 max-w-xl leading-relaxed text-white/55">{body}</p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <PrimaryCta href={ctaLink}>{ctaText}</PrimaryCta>
-            {secondaryCta && <GhostCta href={secondaryCta.link}>{secondaryCta.text}</GhostCta>}
+            <PrimaryCta href={ctaLink} trackLocation="cta_band">
+              {ctaText}
+            </PrimaryCta>
+            {secondaryCta && (
+              <GhostCta href={secondaryCta.link} trackLocation="cta_band">
+                {secondaryCta.text}
+              </GhostCta>
+            )}
           </div>
           {emailLink && (
             <p className="mt-6 text-[14px] text-white/45">
               or email us at{" "}
-              <a
+              <TrackedLink
                 href={`mailto:${s.brand.email}`}
+                location="cta_band"
                 className="text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"
               >
                 {s.brand.email}
-              </a>
+              </TrackedLink>
             </p>
           )}
         </div>

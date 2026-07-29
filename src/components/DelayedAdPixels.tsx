@@ -39,7 +39,11 @@ t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '${metaPixelId}');
-fbq('track', 'PageView');`}
+fbq('track', 'PageView');
+// TOFU button clicks fired before the pixel loaded (see src/lib/metaEvents.ts)
+var q = window.__mpMetaEvents;
+if (q) for (var i = 0; i < q.length; i++) fbq('trackCustom', q[i][0], q[i][1]);
+window.__mpMetaEvents = [];`}
       </Script>
     </>
   );

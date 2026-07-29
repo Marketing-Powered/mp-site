@@ -57,7 +57,9 @@ export default function HubPage({
             </p>
           )}
           <div className="mt-9">
-            <PrimaryCta href={heroCta.link}>{heroCta.text}</PrimaryCta>
+            <PrimaryCta href={heroCta.link} trackLocation="hero">
+              {heroCta.text}
+            </PrimaryCta>
           </div>
         </div>
       </section>

@@ -75,7 +75,7 @@ export default function InlineCta({
           </div>
           <div className="shrink-0">
             {/* pops the lead form for lead-gen hrefs; plain link otherwise */}
-            <ModalCta href={ctaLink} className={buttonCls}>
+            <ModalCta href={ctaLink} className={buttonCls} trackLocation="inline_cta">
               {inner}
             </ModalCta>
           </div>

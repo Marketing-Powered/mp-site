@@ -62,7 +62,9 @@ export default function Section({
           return (
             <Reveal key={i}>
               <div className="pt-1">
-                <GhostCta href={n.link}>{n.text}</GhostCta>
+                <GhostCta href={n.link} trackLocation="content">
+                  {n.text}
+                </GhostCta>
               </div>
             </Reveal>
           );

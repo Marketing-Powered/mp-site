@@ -73,6 +73,14 @@ export default function RootLayout({
         />
         <LeadModalProvider>{children}</LeadModalProvider>
         <Analytics />
+        {/* LeadConnector external tracking — must stay sync: async scripts get
+            hoisted into <head>, but the vendor requires this just before
+            </body>. Sync at end-of-body blocks no content parsing. */}
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script
+          src="https://link.msgsndr.com/js/external-tracking.js"
+          data-tracking-id="tk_1e20630181dc414b811a4df1f308dd44"
+        />
       </body>
     </html>
   );

@@ -1,4 +1,11 @@
 import { NextResponse } from "next/server";
+import {
+  GHL_API,
+  ghlFailureHint,
+  ghlHeaders,
+  invalidateOpportunityTarget,
+  resolveOpportunityTarget,
+} from "@/lib/ghl";
 
 export const runtime = "nodejs";
 
@@ -74,7 +81,10 @@ function mapLeadForGhl(
    delivery (and vice versa). When GHL_WEBHOOK_URL is unset we skip silently. */
 async function deliverToGhl(data: Record<string, unknown>, source: string) {
   const url = process.env.GHL_WEBHOOK_URL;
-  if (!url) return;
+  if (!url) {
+    console.log("[lead] GHL webhook delivery skipped: GHL_WEBHOOK_URL not set");
+    return;
+  }
 
   try {
     const res = await fetch(url, {
@@ -96,22 +106,19 @@ async function deliverToGhl(data: Record<string, unknown>, source: string) {
    Integration token with contacts.write + opportunities.write scopes); the
    opportunity additionally needs GHL_PIPELINE_ID. Best-effort like the webhook
    path — any failure is logged, never thrown, so the prospect is never blocked
-   and email delivery is unaffected. */
-// Overridable so a mock server can stand in for GHL in local smoke tests.
-const GHL_API = process.env.GHL_API_BASE || "https://services.leadconnectorhq.com";
-
+   and email delivery is unaffected. GET /api/ghl-health (gated by
+   DIAGNOSTICS_KEY) reports this pipeline's live config state when leads stop
+   showing up in GHL. */
 async function createGhlOpportunity(data: Record<string, unknown>, source: string) {
   const token = process.env.GHL_API_TOKEN;
   const locationId = process.env.GHL_LOCATION_ID;
-  if (!token || !locationId) return;
+  if (!token || !locationId) {
+    console.log("[lead] GHL API delivery skipped: GHL_API_TOKEN/GHL_LOCATION_ID not set");
+    return;
+  }
 
   const lead = mapLeadForGhl(data, source);
-  const headers = {
-    Authorization: `Bearer ${token}`,
-    Version: "2021-07-28",
-    "Content-Type": "application/json",
-    Accept: "application/json",
-  };
+  const headers = ghlHeaders(token);
 
   try {
     // 1. Upsert the contact (dedupes on email/phone within the location).
@@ -130,7 +137,7 @@ async function createGhlOpportunity(data: Record<string, unknown>, source: strin
     });
     if (!contactRes.ok) {
       console.error(
-        `[lead] GHL contact upsert non-OK: ${contactRes.status} ${await contactRes.text()}`,
+        `[lead] GHL contact upsert non-OK: ${contactRes.status} ${await contactRes.text()} ${ghlFailureHint(contactRes.status)}`,
       );
       return;
     }
@@ -157,22 +164,39 @@ async function createGhlOpportunity(data: Record<string, unknown>, source: strin
       }
     }
 
-    // 3. Create the opportunity in the configured pipeline/stage.
+    // 3. Create the opportunity in the configured pipeline/stage. The stage
+    //    is resolved against GHL's live pipeline list (stale IDs after a
+    //    GHL-side pipeline rebuild are the main way this step silently dies)
+    //    and always sent when the pipeline has stages — some tenants reject
+    //    stage-less opportunities.
     const pipelineId = process.env.GHL_PIPELINE_ID;
     if (!pipelineId) {
       console.log(`[lead] GHL contact ${contactId} upserted (no GHL_PIPELINE_ID; skipping opportunity)`);
       return;
     }
-    const oppBody: Record<string, unknown> = {
+    const target = await resolveOpportunityTarget(
+      token,
       locationId,
       pipelineId,
+      process.env.GHL_PIPELINE_STAGE_ID,
+    );
+    console.log(`[lead] GHL opportunity target: ${target.note}`);
+    if (target.pipelineMissing) {
+      console.error(
+        `[lead] GHL opportunity NOT created for contact ${contactId}: ${target.note}`,
+      );
+      return;
+    }
+    const oppBody: Record<string, unknown> = {
+      locationId,
+      pipelineId: target.pipelineId,
       contactId,
       status: "open",
       source,
       name: `${str(lead.full_name) || str(lead.email) || "Website lead"} — ${source}`,
     };
-    if (process.env.GHL_PIPELINE_STAGE_ID) {
-      oppBody.pipelineStageId = process.env.GHL_PIPELINE_STAGE_ID;
+    if (target.pipelineStageId) {
+      oppBody.pipelineStageId = target.pipelineStageId;
     }
 
     const oppRes = await fetch(`${GHL_API}/opportunities/`, {
@@ -181,7 +205,10 @@ async function createGhlOpportunity(data: Record<string, unknown>, source: strin
       body: JSON.stringify(oppBody),
     });
     if (!oppRes.ok) {
-      console.error(`[lead] GHL opportunity non-OK: ${oppRes.status} ${await oppRes.text()}`);
+      invalidateOpportunityTarget();
+      console.error(
+        `[lead] GHL opportunity non-OK: ${oppRes.status} ${await oppRes.text()} ${ghlFailureHint(oppRes.status)}`,
+      );
       return;
     }
     const oppJson = (await oppRes.json()) as { opportunity?: { id?: string } };
@@ -218,6 +245,7 @@ export async function POST(request: Request) {
   const to = process.env.LEADS_EMAIL;
 
   if (!apiKey || !to) {
+    console.log("[lead] email delivery skipped: RESEND_API_KEY/LEADS_EMAIL not set");
     return NextResponse.json({ success: true, delivered: false });
   }
 

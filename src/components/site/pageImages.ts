@@ -957,6 +957,312 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ],
   ),
 
+  /* ---- Guides: TSMC publish batch (Asana-sourced per-page graphics) ---- */
+
+  "/resources/guides/microsoft-ads-behavioral-health/": std4(
+    "resources/guides/microsoft-ads-behavioral-health",
+    [
+      "Microsoft Ads for behavioral health: diversify beyond Google, reach high-intent audiences, and lower competition",
+      "Diversify beyond Google: how Microsoft Ads reaches qualified behavioral health audiences with lower CPCs, desktop reach, LinkedIn layering, and admission tracking",
+      "Microsoft Ads vs Google Ads for behavioral health: lower CPCs, less competition, older higher-income users, desktop strength, and easy campaign import",
+      "Diversifying beyond Google is how treatment centers win in a competitive landscape: reach high-intent audiences at a lower cost and focus on admissions",
+    ],
+  ),
+
+  "/resources/guides/brand-citation-share-ai-metric/": std4(
+    "resources/guides/brand-citation-share-ai-metric",
+    [
+      "AI citation rate reveals what matters most: track how often AI systems mention your brand and turn visibility into measurable growth",
+      "AI citation rate overview: how ChatGPT, Claude, Perplexity, and Google AI cite your brand, benchmarked against last month and industry average",
+      "Understanding AI citation rate: what it is, its impact on brand visibility, tracking tools and platforms, key metrics, improvement strategies, and benchmarking",
+      "AI is changing how people find and choose brands: show up in AI responses and you stay top of mind when it matters most",
+    ],
+  ),
+
+  "/resources/guides/90-day-agency-onboarding-playbook/": [
+    pageImg(
+      "resources/guides/90-day-agency-onboarding-playbook",
+      "01-hero-banner.jpg",
+      "90-day guide to marketing agency onboarding: a structured playbook for treatment center operators switching agencies without losing momentum",
+    ),
+    pageImg(
+      "resources/guides/90-day-agency-onboarding-playbook",
+      "02-concept.jpg",
+      "90-day marketing agency onboarding phases: discover and transfer, test and validate, then optimize and scale for better ROI",
+    ),
+    pageImg(
+      "resources/guides/90-day-agency-onboarding-playbook",
+      "03-process.jpg",
+      "The right onboarding process doesn't just protect performance, it sets the foundation for everything that follows",
+    ),
+    STATS,
+  ],
+
+  "/resources/guides/landing-page-optimization-paid-media/": std4(
+    "resources/guides/landing-page-optimization-paid-media",
+    [
+      "Better landing pages, better paid media results: optimize for clarity, speed, and conversion to turn paid traffic into qualified leads",
+      "Six landing page optimization principles: page design and structure, message alignment, lead generation forms, mobile experience, page speed, and trust signals",
+      "Optimize landing pages to improve paid media ROI: conversion rate impact, page load speed, and mobile-first performance data",
+      "Every second of load time costs you real leads: faster pages, lower costs, more conversions",
+    ],
+  ),
+
+  "/resources/guides/meta-ads-creative-behavioral-health/": [
+    pageImg(
+      "resources/guides/meta-ads-creative-behavioral-health",
+      "01-hero-banner.jpg",
+      "Test with purpose, connect with impact: data-driven creative testing built for behavioral health marketing",
+    ),
+    pageImg(
+      "resources/guides/meta-ads-creative-behavioral-health",
+      "02-concept.jpg",
+      "Meta Ads creative testing for behavioral health: a practical framework for testing, iterating, and scaling compliant creative informed by $50M+ in managed spend",
+    ),
+    pageImg(
+      "resources/guides/meta-ads-creative-behavioral-health",
+      "03-process.jpg",
+      "Creative without data is just a guess — the brands that win on Meta don't just create more, they test smarter",
+    ),
+    STATS,
+  ],
+
+  "/resources/guides/intake-call-quality-scoring-framework/": [
+    pageImg(
+      "resources/guides/intake-call-quality-scoring-framework",
+      "01-hero-banner.jpg",
+      "Higher quality calls, better outcomes: a data-driven framework for intake call quality scoring in behavioral health",
+    ),
+    pageImg(
+      "resources/guides/intake-call-quality-scoring-framework",
+      "02-concept.jpg",
+      "Call quality scoring drives better performance in behavioral health: top call quality drivers by impact on admissions and how quality scores predict admission rates",
+    ),
+    pageImg(
+      "resources/guides/intake-call-quality-scoring-framework",
+      "03-process.jpg",
+      "You can't improve what you don't measure: scoring intake calls reveals what drives admissions and where leads slip away",
+    ),
+    STATS,
+  ],
+
+  "/resources/guides/marketing-mix-modeling-modern-attribution/": [
+    pageImg(
+      "resources/guides/marketing-mix-modeling-modern-attribution",
+      "01-hero-banner.jpg",
+      "Master marketing mix modeling for modern attribution: understand what really drives revenue across channels",
+    ),
+    pageImg(
+      "resources/guides/marketing-mix-modeling-modern-attribution",
+      "02-concept.jpg",
+      "How a marketing mix model works: marketing inputs, external factors, and base sales flow through statistical analysis to show incremental contribution and revenue growth",
+    ),
+    pageImg(
+      "resources/guides/marketing-mix-modeling-modern-attribution",
+      "03-process.jpg",
+      "It's not about what gets clicked, it's about what actually drives revenue: marketing mix modeling reveals the true impact of every marketing dollar",
+    ),
+    STATS,
+  ],
+
+  "/resources/guides/llm-seo-vs-traditional-seo-behavioral-health/": std4(
+    "resources/guides/llm-seo-vs-traditional-seo-behavioral-health",
+    [
+      "LLM SEO vs traditional SEO: the next evolution of visibility for behavioral health",
+      "From search rankings to AI recommendations: the evolution of visibility in behavioral health, from traditional SEO to LLM SEO and AI discovery",
+      "Key areas of LLM SEO for behavioral health providers: keyword search, contextual relevance, AI citations, structured data, authority signals, and discovery optimization",
+      "AI is changing how patients find care: why LLM SEO is becoming critical for behavioral health providers, with measurable impact data",
+    ],
+  ),
+
+  "/resources/guides/intake-handoff-marketing-roi/": std4(
+    "resources/guides/intake-handoff-marketing-roi",
+    [
+      "Optimizing the intake process for treatment centers: close the gap between marketing leads and actual admissions through systematic intake optimization",
+      "From lead to admission: a clearer intake handoff improves conversion and ROI across response time, qualification, scheduling, and measurement",
+      "Intake optimization in action: a 10-point improvement in conversion rate significantly improves cost per admission, and speed to contact matters",
+      "Every lead you don't convert isn't just a missed admission, it's lost impact: optimize intake to maximize every marketing dollar",
+    ],
+  ),
+
+  "/resources/guides/private-equity-rollup-threat-treatment-centers/": std4(
+    "resources/guides/private-equity-rollup-threat-treatment-centers",
+    [
+      "Staying independent, competing smarter, winning what's next: how independent treatment centers navigate private equity consolidation",
+      "The rollup threat in a consolidating market and your strategic edge: niche focus, community relationships, exceptional patient care, and data-driven decisions",
+      "Key forces reshaping behavioral health: rising PE investment, rollup and consolidation, marketing advantage, referral network shifts, margin pressure, and strategic positioning",
+      "Consolidation is reshaping the competitive landscape: PE deal volume, the scale advantage in marketing spend, and what independents must do to compete",
+    ],
+  ),
+
+  "/resources/guides/multimodal-ai-search-discovery/": std4(
+    "resources/guides/multimodal-ai-search-discovery",
+    [
+      "Discover the power of multimodal AI search: how image, voice, and visual AI are reshaping search discovery for forward-thinking brands",
+      "Unified discovery across image, voice, and text inputs: how multimodal AI search connects visual matches, related results, and product picks",
+      "The rise of multimodal AI search: visual search volume, voice search adoption, purchase intent, and why the future of search is multimodal",
+      "Multimodal AI search meets users where they are, reducing friction between intent and discovery",
+    ],
+  ),
+
+  "/resources/guides/marketing-attribution-models-b2b/": std4(
+    "resources/guides/marketing-attribution-models-b2b",
+    [
+      "Explore B2B marketing attribution models: understand which touchpoints drive revenue across complex sales cycles",
+      "AI-powered multi-touch attribution engine: organic search, LinkedIn ads, email, webinars, and content connected to closed-won revenue attribution",
+      "Everything you need to measure what matters: customer journey, attribution models, channel impact, content influence, pipeline and revenue, insights and optimization",
+      "Data that proves attribution matters: B2B buyer journey complexity and why multi-touch attribution delivers a more complete picture",
+    ],
+  ),
+
+  "/resources/guides/why-treatment-center-ceos-fire-marketing-agencies/": std4(
+    "resources/guides/why-treatment-center-ceos-fire-marketing-agencies",
+    [
+      "Why treatment center CEOs fire their marketing agency: how to recognize when your marketing partner is no longer driving the outcomes that matter",
+      "Re-evaluating agency fit: lead quality, compliance risk, weak attribution versus category expertise, admission tracking, and strategic fit",
+      "The top reasons agency partnerships fail: lack of results, compliance issues, poor reporting, poor communication, lack of industry expertise, and misaligned strategy",
+      "Why treatment center CEOs switch agencies: common breakdown patterns, switch signals, compliance constraints, and what strong partnerships require",
+    ],
+  ),
+
+  "/resources/guides/evaluating-ai-marketing-capabilities/": std4(
+    "resources/guides/evaluating-ai-marketing-capabilities",
+    [
+      "Choose an AI marketing partner that delivers results: a practical framework for treatment centers to evaluate AI marketing agency capabilities with confidence",
+      "Evaluate AI marketing agency capabilities: predictive analytics, audience intelligence, attribution to admissions, automation infrastructure, and compliance integration",
+      "The right AI marketing agency doesn't just bring technology, it brings systems that drive admissions, protect compliance, and deliver measurable impact",
+      "AI marketing capabilities that drive results: key performance improvements treatment centers see with advanced AI capabilities",
+    ],
+  ),
+
+  "/resources/guides/cro-six-tests-lead-generation/": std4(
+    "resources/guides/cro-six-tests-lead-generation",
+    [
+      "Understanding conversion rate optimization for lead generation: six tested methods to increase qualified leads without inflating acquisition costs",
+      "Optimize every step, generate more leads: a systematic approach to turn more of your traffic into qualified leads without increasing acquisition costs",
+      "A 1% lift in conversion rate can drive a disproportionate lift in revenue: optimize first, scale smarter",
+      "CRO that drives pipeline: more conversions, more revenue, lower cost — the return on every dollar spent on conversion rate optimization",
+    ],
+  ),
+
+  "/resources/guides/google-ads-quality-score-optimization/": std4(
+    "resources/guides/google-ads-quality-score-optimization",
+    [
+      "Optimize your Google Ads Quality Score: proven strategies to improve ad relevance, lower CPC, and maximize ROI for behavioral health organizations",
+      "How Quality Score works: relevance, ad quality, and landing experience feeding smarter optimization, lower CPC, better positions, and more conversions",
+      "Six steps to Quality Score optimization: understand quality score, improve ad relevance, optimize landing experience, refine keywords, lower CPC, and measure",
+      "A higher Quality Score doesn't just lower your costs, it compounds your results over time: relevance earns rewards",
+    ],
+  ),
+
+  "/resources/guides/building-ai-native-marketing-function/": std4(
+    "resources/guides/building-ai-native-marketing-function",
+    [
+      "Build an AI-native marketing function: a practical framework for executives ready to move beyond AI experimentation to operational integration",
+      "AI-native marketing infrastructure: ad platforms, CRM, analytics, and call tracking flowing through application, compute, and data layers to audience targeting, predictive insights, content at scale, and attribution",
+      "Key areas of the AI-native marketing function: infrastructure, team, operations, measurement and attribution, governance and compliance, and the roadmap to maturity",
+      "The business impact of AI-native marketing: efficiency gains, marketing ROI lift, faster time to market, and risk reduction",
+    ],
+  ),
+
+  "/resources/guides/ai-visibility-seo-visibility-complementary/": std4(
+    "resources/guides/ai-visibility-seo-visibility-complementary",
+    [
+      "AI visibility meets SEO: rank in search, get cited in AI, and build a strategy that wins across traditional and generative search",
+      "AI visibility plus SEO, two strategies one goal: complete discovery and stronger presence across search rankings and AI citations",
+      "Key areas across AI visibility and SEO: AI visibility, content optimization, AI search visibility, intent and audience, competitive intelligence, and authority and trust",
+      "Traditional SEO gets you ranked, AI visibility gets you cited: build a strategy that captures both and stays visible everywhere",
+    ],
+  ),
+
+  "/resources/guides/server-side-tracking-modern-setup/": std4(
+    "resources/guides/server-side-tracking-modern-setup",
+    [
+      "Server-side tracking built for what really matters: modern setup, better data, stronger privacy, more admissions",
+      "How server-side tracking works: user interactions flow through a first-party server container to analytics and ad destinations with privacy by design",
+      "Why server-side tracking matters: data loss from browser restrictions, conversion lift, and more complete data for better outcomes",
+      "Server-side tracking moves measurement out of the browser and into your control: better data accuracy, stronger privacy, more admissions",
+    ],
+  ),
+
+  "/resources/guides/generative-engine-optimization-content/": std4(
+    "resources/guides/generative-engine-optimization-content",
+    [
+      "Generative engine optimization: optimize your content to get discovered, cited, and chosen by AI-powered search",
+      "Generative engine optimization key signals: how content earns visibility in AI-powered search, core GEO focus areas, and the implementation path",
+      "Six pillars of GEO: AI search evolution, content optimization for AI, entity mapping and topical authority, structured data and schema, question-answer alignment, and content freshness",
+      "The future of search isn't a list of links, it's an answer: GEO ensures your content is the answer AI systems trust, cite, and deliver",
+    ],
+  ),
+
+  "/resources/guides/future-ai-search-2026-2027/": std4(
+    "resources/guides/future-ai-search-2026-2027",
+    [
+      "Exploring the future of AI search: what forward-thinking strategists need to know about AI-driven search, LLM integration, and generative discovery before 2027",
+      "The future of AI search: from keyword search to AI-powered discovery, acceleration in 2026, and personalized predictive search by 2027",
+      "Five forces shaping AI search: conversational search leads, LLMs deliver smarter results, quality content gets cited, personalization deepens, and early adaptation wins",
+      "AI search by the numbers: key trends and predictions shaping 2026-2027, the rise of conversational search, and content that gets cited by AI",
+    ],
+  ),
+
+  "/resources/guides/hipaa-digital-marketing-risk/": [
+    pageImg(
+      "resources/guides/hipaa-digital-marketing-risk",
+      "01-hero-banner.jpg",
+      "HIPAA compliant marketing: protect patient data, build trust, and grow your practice with smart strategies and stronger compliance",
+    ),
+    pageImg(
+      "resources/guides/hipaa-digital-marketing-risk",
+      "02-concept.jpg",
+      "HIPAA compliant marketing essentials: protect patient data, follow HIPAA rules, and drive effective marketing across every channel and touchpoint",
+    ),
+    pageImg(
+      "resources/guides/hipaa-digital-marketing-risk",
+      "03-process.jpg",
+      "HIPAA compliance isn't just about avoiding risk, it's about earning patient trust: compliant marketing protects patient data at every touchpoint",
+    ),
+    STATS,
+  ],
+
+  "/resources/guides/google-ads-match-types-2026-strategy/": std4(
+    "resources/guides/google-ads-match-types-2026-strategy",
+    [
+      "Google Ads match types, a 2026 strategy guide: build a smarter match type strategy, drive higher-quality leads, and reduce wasted spend",
+      "Match type strategy areas: fundamentals, broad phrase and exact match, search term analysis, negative keywords, performance optimization, and testing",
+      "Match type strategy is your most powerful lever for precision, lead quality, and wasted spend in behavioral health PPC",
+      "Match type strategy drives better leads and lower costs: conversion rate by match type, wasted spend analysis, and the results the right strategy delivers",
+    ],
+  ),
+
+  "/resources/guides/phone-call-attribution-treatment-centers/": [
+    pageImg(
+      "resources/guides/phone-call-attribution-treatment-centers",
+      "01-hero-banner.jpg",
+      "Learn effective call tracking for behavioral health centers: a practical framework for connecting phone inquiries to the campaigns that generated them",
+    ),
+    pageImg(
+      "resources/guides/phone-call-attribution-treatment-centers",
+      "02-concept.jpg",
+      "Connect every call, attribute what matters: campaign-level tracking numbers flow through call tracking to intake attribution from calls to admissions",
+    ),
+    pageImg(
+      "resources/guides/phone-call-attribution-treatment-centers",
+      "03-process.jpg",
+      "Call tracking essentials: basics, intake attribution, smarter budget decisions, operational efficiency, location performance, and compliance and privacy",
+    ),
+    STATS,
+  ],
+
+  "/resources/guides/mental-health-marketing-playbook/": std4(
+    "resources/guides/mental-health-marketing-playbook",
+    [
+      "Strategic, compliant, results-driven: proven digital marketing strategies for mental health practices that drive qualified leads and real patient outcomes",
+      "The right channel mix for mental health marketing: high-intent search, local SEO, educational content, compliance-first strategy, and qualified admissions",
+      "Mental health marketing isn't one-size-fits-all: it requires strategies built for clinical sensitivity, platform policies, and the real journey therapy seekers take",
+      "Mental health marketing key insights that drive results: market opportunity, high-intent search, channel effectiveness, and the power of local",
+    ],
+  ),
+
   /* ---- Media cluster ---- */
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.

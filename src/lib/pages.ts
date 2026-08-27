@@ -384,5 +384,9 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
 export function cardBlurb(file: string): string {
   const lead = getPage(file).lead || "";
   const firstSentence = lead.split(/(?<=[.!?])\s/)[0] || lead;
-  return firstSentence.length > 160 ? lead.slice(0, 157).trimEnd() + "…" : firstSentence;
+  if (firstSentence.length <= 160) return firstSentence;
+  // truncate at a word boundary so the ellipsis never cuts a word in half
+  const cut = lead.slice(0, 157);
+  const lastSpace = cut.lastIndexOf(" ");
+  return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[,;:]$/, "").trimEnd() + "…";
 }

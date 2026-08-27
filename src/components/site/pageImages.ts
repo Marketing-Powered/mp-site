@@ -1191,7 +1191,7 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "Generative engine optimization: optimize your content to get discovered, cited, and chosen by AI-powered search",
       "Generative engine optimization key signals: how content earns visibility in AI-powered search, core GEO focus areas, and the implementation path",
       "Six pillars of GEO: AI search evolution, content optimization for AI, entity mapping and topical authority, structured data and schema, question-answer alignment, and content freshness",
-      "The future of search isn't a list of links, it's an answer: GEO ensures your content is the answer AI systems trust, cite, and deliver",
+      "The future of search isn't a list of links; it's an answer. GEO ensures your content is the answer AI systems trust, cite, and deliver",
     ],
   ),
 

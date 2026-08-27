@@ -236,8 +236,7 @@ export const siteContent = {
       { label: "Compliance-First Campaigns", href: "/resources/compliance-ad-policy" },
       { label: "AI-Driven Optimization", href: "/ai-edge" },
     ],
-    copyright:
-      "Copyright 2025. All rights Reserved. Design by Marketing Powered AI",
+    copyright: `Copyright ${new Date().getFullYear()}. All rights reserved. Design by Marketing Powered AI`,
   },
   images: {
     hero: "/images/01-hero-banner.jpg",

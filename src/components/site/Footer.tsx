@@ -132,7 +132,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col gap-4 border-t border-white/8 pt-8 md:flex-row md:items-center md:justify-between">
+        {/* md:pr-28 keeps the audit link clear of the fixed chat launcher
+            that the LeadConnector script floats over the bottom-right corner */}
+        <div className="mt-14 flex flex-col gap-4 border-t border-white/8 pt-8 md:flex-row md:items-center md:justify-between md:pr-28">
           <p className="text-[12px] text-white/30" style={{ fontFamily: mono }}>
             {s.footer.copyright}
           </p>

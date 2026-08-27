@@ -40,7 +40,7 @@ B2B conversion optimization presents obstacles that consumer-focused marketers r
 * Compliance requirements constrain creative testing. Industries with regulatory oversight, including healthcare, finance, and legal services, face additional constraints on claims, data collection, and remarketing tactics.
 Overcoming B2B CRO Obstacles
 Overcoming these challenges requires a framework that accounts for B2B realities: longer measurement windows, multi-touch attribution, and cross-functional alignment between marketing, sales, and operations. Companies that have managed paid media at scale understand that optimization is as much about operational discipline as it is about creative ideas.
-[CTA] Request a Free CRO Audit → /get-started/request-an-audit/
+[CTA] Request a Free CRO Audit → /get-started/request-an-audit
 Six Essential CRO Tests for Lead Generation
 These six tests form the foundation of an effective lead gen optimization program. Each addresses a specific conversion lever and can be implemented regardless of your current technology stack.
 1. Form Field Reduction Testing
@@ -79,7 +79,7 @@ Consistent tracking and analysis are the difference between teams that improve q
 Effective CRO requires more than tools and tactics. It requires a framework, measurement discipline, and operational consistency. The six tests outlined in this guide provide a starting point, but sustainable improvement comes from treating optimization as an ongoing function rather than a one-time initiative.
 Marketing Powered brings operator-level experience to conversion optimization. Our team has managed over $50M in media spend and tracked attribution through to measurable business outcomes for clients across multiple verticals. We understand the compliance constraints, longer sales cycles, and technical complexity that B2B organizations face.
 If you are ready to identify the highest-impact optimization opportunities in your funnel, request a free CRO audit. We will analyze your current conversion performance and outline specific tests worth running.
-[CTA] Request a Free CRO Audit → /get-started/request-an-audit/
+[CTA] Request a Free CRO Audit → /get-started/request-an-audit
 Ready to improve your conversion rates?
 Request a free CRO audit and get a data-driven analysis of your highest-impact optimization opportunities.
 [CTA] Request a Free CRO Audit

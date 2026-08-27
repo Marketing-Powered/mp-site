@@ -29,7 +29,7 @@ AI-native infrastructure meets operator-level behavioral health expertise to bui
 Understanding AI's role in social media
 AI social media marketing is not a novelty feature or a checkbox on an agency's capabilities deck. It is a fundamental shift in how behavioral health organizations can reach, engage, and convert their audiences without burning through budget on guesswork.
 Traditional social media management relies on manual scheduling, reactive engagement, and content calendars built on intuition. AI changes the equation. Machine learning models analyze audience behavior patterns, predict optimal posting windows, and identify which content formats generate meaningful engagement versus vanity metrics. For behavioral health marketers operating under strict compliance requirements, this precision matters.
-The data tells a clear story. According to a [2024 Sprout Social report](https://sproutsocial.com/insights/data/social-media-marketing-strategy/), 97% of business leaders agree AI and machine learning will enable companies to analyze social data more effectively. For treatment centers and mental health practices, effective analysis means understanding which messages resonate with families in crisis, which platforms deliver qualified inquiries, and which content builds the trust necessary for someone to pick up the phone.
+The data tells a clear story. According to a [2024 Sprout Social report](https://sproutsocial.com/insights/social-media-marketing-strategy/), 97% of business leaders agree AI and machine learning will enable companies to analyze social data more effectively. For treatment centers and mental health practices, effective analysis means understanding which messages resonate with families in crisis, which platforms deliver qualified inquiries, and which content builds the trust necessary for someone to pick up the phone.
 
 
 Marketing Powered has operated as an [AI-native agency](/ai-edge) since 2022, building infrastructure specifically designed for healthcare verticals. Our approach to AI social media content is not about generating more posts. It is about generating the right posts, distributed through the right channels, measured against admission-focused outcomes rather than likes and shares.
@@ -99,7 +99,7 @@ Schema type: FAQPage, Service, BreadcrumbList
 
 DELIVERY NOTES
 External citations
-* 2024 Sprout Social report https://sproutsocial.com/insights/data/social-media-marketing-strategy/ [Industry research/benchmarks] - Authoritative industry source for AI adoption statistics in social media marketing
+* 2024 Sprout Social report https://sproutsocial.com/insights/social-media-marketing-strategy/ [Industry research/benchmarks] - Authoritative industry source for AI adoption statistics in social media marketing
 * Google's healthcare advertising policies https://support.google.com/adspolicy/answer/176031 [Platform policy] - Primary source for healthcare advertising restrictions relevant to the compliance section
 * Meta's health-related advertising policies https://www.facebook.com/policies/ads/ [Platform policy] - Primary source for Meta/Facebook advertising restrictions in the healthcare vertical
 

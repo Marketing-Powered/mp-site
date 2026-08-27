@@ -57,7 +57,7 @@ Implementing Multi-Touch Attribution in B2B
 Moving from single-touch to multi-touch attribution is a significant operational shift. Done well, it transforms how you allocate budget and measure marketing contribution. Done poorly, it creates a false sense of precision that leads to worse decisions than simple last-touch reporting.
 Start with data hygiene. Before implementing any multi-touch model, audit your tracking coverage. Can you reliably capture touchpoints across all channels? Are UTM parameters consistent? Does your CRM accurately reflect the buying journey? Gaps in data collection will create blind spots in attribution, and those blind spots will bias your model toward channels you happen to track well.
 Define your touchpoint taxonomy. Decide what counts as a touchpoint and how granular you need to be. A whitepaper download and a pricing page visit may both be touchpoints, but they signal different intent. Your taxonomy should reflect the distinctions that matter for your business decisions.
-Choose your attribution window. How far back should the model look for touchpoints that influenced a conversion? A 90-day window will produce different results than a 30-day window. Your attribution window should roughly match your typical sales cycle length. According to [HubSpot's attribution research](https://blog.hubspot.com/marketing/marketing-attribution), mismatched attribution windows are one of the most common implementation errors.
+Choose your attribution window. How far back should the model look for touchpoints that influenced a conversion? A 90-day window will produce different results than a 30-day window. Your attribution window should roughly match your typical sales cycle length. According to [HubSpot's attribution research](https://blog.hubspot.com/marketing/attribution-modeling), mismatched attribution windows are one of the most common implementation errors.
 
 
 Implement incrementally. Run your multi-touch model alongside your existing reporting for at least one quarter before making budget decisions based on it. Compare the outputs. Understand where and why they differ. Build organizational confidence in the new data before changing how you allocate spend.
@@ -107,7 +107,7 @@ DELIVERY NOTES
 External citations
 * Forrester Research https://www.forrester.com/ [Industry research] - Supports claim about average B2B buyer content consumption; Forrester is authoritative source for B2B buying behavior research.
 * Google's marketing measurement guidelines https://support.google.com/analytics/answer/10089681 [Platform policy/documentation] - Supports multi-touch attribution benefits; Google Analytics documentation is authoritative source for attribution methodology.
-* HubSpot's attribution research https://blog.hubspot.com/marketing/marketing-attribution [Industry trade/research] - Supports attribution window implementation guidance; HubSpot is recognized authority in B2B marketing methodology.
+* HubSpot's attribution research https://blog.hubspot.com/marketing/attribution-modeling [Industry trade/research] - Supports attribution window implementation guidance; HubSpot is recognized authority in B2B marketing methodology.
 * Marketing Evolution's research https://www.marketingevolution.com/marketing-essentials/marketing-attribution [Industry research] - Supports need for ongoing attribution model maintenance; Marketing Evolution specializes in marketing measurement and attribution.
 
 

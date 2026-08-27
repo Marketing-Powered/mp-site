@@ -59,7 +59,7 @@ We monitor campaign performance through admission-level metrics. Cost per admiss
 Optimization happens continuously. We test ad copy, landing page variants, audience segments, and bidding strategies on a weekly cycle. Our [AI in healthcare marketing](/ai-edge) infrastructure enables faster iteration and more sophisticated testing than traditional agency approaches allow. Multi-variant optimization routes each visitor to the landing page variant most likely to convert based on real-time performance data.
 
 
-We also monitor for compliance drift. Platform policies change, account reviews happen, and ads that ran yesterday can get flagged tomorrow. Our team stays current with [LegitScript advertising certification requirements](https://www.legitscript.com/certification/advertising/) and platform policy updates so your campaigns remain compliant as the regulatory environment shifts.
+We also monitor for compliance drift. Platform policies change, account reviews happen, and ads that ran yesterday can get flagged tomorrow. Our team stays current with [LegitScript advertising certification requirements](https://www.legitscript.com/certification/) and platform policy updates so your campaigns remain compliant as the regulatory environment shifts.
 * Weekly optimization cycles with documented test results
 * Admission-level reporting tied to intake data
 * Compliance monitoring for policy changes and account health
@@ -100,7 +100,7 @@ External citations
 * Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy] - Primary regulatory reference for Google Ads restrictions in healthcare/behavioral health vertical. Supports compliance positioning.
 * Google's healthcare and medicines advertising policies https://support.google.com/adspolicy/answer/176031 [Platform policy] - Second reference to same policy in Google Ads section for readers scanning that section specifically.
 * Meta's restricted content policies https://www.facebook.com/policies/ads/ [Platform policy] - Supports Meta advertising compliance claims and demonstrates awareness of cross-platform restrictions.
-* LegitScript advertising certification requirements https://www.legitscript.com/certification/advertising/ [Regulatory/compliance] - Primary industry certification body for behavioral health advertising. Anchors compliance expertise claims.
+* LegitScript advertising certification requirements https://www.legitscript.com/certification/ [Regulatory/compliance] - Primary industry certification body for behavioral health advertising. Anchors compliance expertise claims.
 
 
 Internal link gaps

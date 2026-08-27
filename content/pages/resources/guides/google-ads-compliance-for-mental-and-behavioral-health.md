@@ -133,7 +133,7 @@ Effective compliance management combines automated monitoring with human review 
 Monitoring practices
 Establish regular review cadences for advertising content and performance data. Weekly reviews of ad disapprovals and policy notifications allow teams to identify and address issues before they escalate. Monthly reviews of landing pages ensure content changes have not introduced compliance gaps.
 * Ad disapproval monitoring: Review disapproved ads immediately to understand the policy issue. Patterns in disapprovals may indicate systematic problems with ad copy approaches or landing page content.
-* Policy update tracking: Subscribe to Google Ads policy update notifications and review changes that affect healthcare advertising. [Google's policy change log](https://support.google.com/adspolicy/answer/9876473) documents updates that may require campaign modifications.
+* Policy update tracking: Subscribe to Google Ads policy update notifications and review changes that affect healthcare advertising. [Google's policy change log](https://support.google.com/adspolicy/answer/6008942) documents updates that may require campaign modifications.
 * LegitScript status: Monitor certification status and renewal timelines. Lapsed certification will result in immediate campaign suspension.
 * Landing page audits: Periodically review all active landing pages to ensure content remains compliant and accurately represents current services.
 
@@ -202,7 +202,7 @@ External citations
 * Google Ads Healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform Policy] - Authoritative source for Google's healthcare advertising policy framework
 * HHS guidance on HIPAA and online tracking https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html [Government/Regulatory] - Official HHS guidance on HIPAA implications for digital tracking technologies
 * Google Ads landing page requirements https://support.google.com/adspolicy/answer/6008942 [Platform Policy] - Authoritative source for landing page compliance requirements
-* Google's policy change log https://support.google.com/adspolicy/answer/9876473 [Platform Policy] - Official resource for tracking Google Ads policy updates affecting healthcare advertisers
+* Google's policy change log https://support.google.com/adspolicy/answer/6008942 [Platform Policy] - Official resource for tracking Google Ads policy updates affecting healthcare advertisers
 
 
 Brief conflicts

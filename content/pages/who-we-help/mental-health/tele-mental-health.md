@@ -1,5 +1,5 @@
 ---
-title: "Effective Telehealth Marketing Strategies for Mental Health"
+title: "Telehealth Marketing for Mental Health Practices"
 url: "/who-we-help/mental-health/tele-mental-health/"
 primary_keyword: "telehealth marketing"
 secondary_keywords: "tele mental health, virtual therapy marketing"

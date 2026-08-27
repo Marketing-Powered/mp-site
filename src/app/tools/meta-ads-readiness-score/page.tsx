@@ -156,15 +156,6 @@ export default function Page() {
           __html: JSON.stringify([
             {
               "@context": "https://schema.org",
-              "@type": "WebApplication",
-              name: "Meta Ads Readiness Score Tool",
-              applicationCategory: "BusinessApplication",
-              operatingSystem: "Web",
-              url: `https://marketingpowered.ai${URL}`,
-              offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-            },
-            {
-              "@context": "https://schema.org",
               "@type": "FAQPage",
               mainEntity: FAQ.map((f) => ({
                 "@type": "Question",

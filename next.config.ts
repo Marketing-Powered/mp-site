@@ -25,6 +25,16 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
+        // HSTS: the site is HTTPS-only, so instruct browsers to never try HTTP.
+        source: "/:path*",
+        headers: [
+          {
+            key: "Strict-Transport-Security",
+            value: "max-age=31536000; includeSubDomains",
+          },
+        ],
+      },
+      {
         source: "/images/:path*",
         headers: longLivedPublicAssetHeaders,
       },

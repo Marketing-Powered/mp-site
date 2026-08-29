@@ -1,6 +1,5 @@
 import Script from "next/script";
 import DelayedAdPixels from "@/components/DelayedAdPixels";
-import DelayedLeadConnector from "@/components/DelayedLeadConnector";
 
 /* Analytics / tracking pixels.
 
@@ -69,7 +68,9 @@ gtag('config', '${GOOGLE_ADS_ID}');`}
         linkedInPartnerId={LINKEDIN_PARTNER_ID}
         metaPixelId={META_PIXEL_ID}
       />
-      <DelayedLeadConnector />
+      {/* The LeadConnector SMS chat widget was removed: without approved A2P
+          10DLC registration its chats dead-end (no outbound SMS). The native
+          ChatLauncher in the root layout replaces it. */}
     </>
   );
 }

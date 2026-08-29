@@ -23,9 +23,25 @@ export type LeadFormConfig = {
   fields: LeadField[];
 };
 
-export type LeadFormKey = "audit" | "call" | "contact" | "qualification";
+export type LeadFormKey = "audit" | "call" | "contact" | "qualification" | "chat";
 
 export const LEAD_FORMS: Record<LeadFormKey, LeadFormConfig> = {
+  /* Opened by the floating ChatLauncher (which replaced the GHL LeadConnector
+     SMS chat widget — dead-ended without approved A2P 10DLC registration).
+     Same intake pipeline as every other form: email + GHL contact/opportunity. */
+  chat: {
+    title: "Message our team",
+    intro:
+      "Tell us what you're working on and a strategist will get back to you within one business day — by email or phone, whichever you prefer.",
+    submitLabel: "Send Message",
+    source: "Website Chat",
+    fields: [
+      { name: "name", label: "Full Name", required: true },
+      { name: "email", label: "Work Email", type: "email", required: true },
+      { name: "phone", label: "Phone (optional)", type: "tel" },
+      { name: "message", label: "How can we help?", type: "textarea", required: true },
+    ],
+  },
   audit: {
     title: "Request your free marketing audit",
     intro:

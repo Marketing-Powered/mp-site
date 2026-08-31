@@ -1,0 +1,134 @@
+# TNAS production overlay (ADR-0002) — run with:
+#   docker compose -f docker-compose.yml -f docker-compose.tnas.yml up -d
+#
+# Host requirements:
+#   MAIOS_DATA_ROOT  — local HDD-pool dataset on the TNAS itself (databases live here;
+#                      NEVER an SMB/NFS mount, never a share exported to other machines)
+#   MAIOS_SHARE_ROOT — the TNAS share tree for assets/recordings/backups (AssetStorageProvider root)
+#   Secrets come from the environment/secret manager — no defaults here on purpose:
+#   the stack must fail to start when required secrets are missing (DEV-003).
+
+name: maios
+
+services:
+  postgres:
+    ports: []                       # not exposed off-box; services reach it on the compose network
+    environment:
+      POSTGRES_DB: maios
+      POSTGRES_USER: maios
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set in secret manager}
+    command: postgres -c config_file=/etc/postgresql/postgresql.conf
+    volumes:
+      - ${MAIOS_DATA_ROOT:?local pool dataset required}/postgres:/var/lib/postgresql/data
+      - ../postgres/postgresql.tnas.conf:/etc/postgresql/postgresql.conf:ro
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits: { memory: 4g }
+    logging: &logging
+      driver: json-file
+      options: { max-size: "20m", max-file: "5" }
+
+  redis:
+    ports: []
+    command: redis-server --appendonly yes --maxmemory 1gb --maxmemory-policy noeviction
+    volumes:
+      - ${MAIOS_DATA_ROOT}/redis:/data
+    restart: unless-stopped
+    logging: *logging
+
+  qdrant:
+    ports: []
+    volumes:
+      - ${MAIOS_DATA_ROOT}/qdrant:/qdrant/storage
+    environment:
+      QDRANT__SERVICE__API_KEY: ${QDRANT_API_KEY:?set in secret manager}
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits: { memory: 2g }
+    logging: *logging
+
+  n8n:
+    ports: []                       # editor reached via Caddy internal vhost only (§12.3)
+    environment:
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:?set in secret manager}
+      DB_TYPE: postgresdb
+      DB_POSTGRESDB_HOST: postgres
+      DB_POSTGRESDB_DATABASE: n8n
+      DB_POSTGRESDB_USER: maios
+      DB_POSTGRESDB_PASSWORD: ${POSTGRES_PASSWORD}
+      N8N_HOST: ${N8N_PUBLIC_HOST:-flows.internal.marketingpowered.ai}
+      WEBHOOK_URL: https://${N8N_WEBHOOK_HOST:-wfhooks.marketingpowered.ai}/
+    volumes:
+      - ${MAIOS_DATA_ROOT}/n8n:/home/node/.n8n
+    restart: unless-stopped
+    logging: *logging
+
+  api:
+    build: { context: ../.., dockerfile: apps/api/Dockerfile }
+    environment:
+      APP_ENV: production
+      DATABASE_URL: postgres://maios_api:${POSTGRES_API_PASSWORD:?}@postgres:5432/maios
+      REDIS_URL: redis://redis:6379
+      QDRANT_URL: http://qdrant:6333
+      RELEASE_VERSION: ${RELEASE_VERSION:-unversioned}
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    restart: unless-stopped
+    logging: *logging
+
+  worker:
+    build: { context: ../.., dockerfile: apps/worker/Dockerfile }
+    environment:
+      APP_ENV: production
+      DATABASE_URL: postgres://maios_worker:${POSTGRES_WORKER_PASSWORD:?}@postgres:5432/maios
+      REDIS_URL: redis://redis:6379
+    volumes:
+      # Asset/backup share — the ONLY services that mount the share are worker (asset
+      # service + backup jobs); browsers and other services go through the API (§11).
+      - ${MAIOS_SHARE_ROOT:?share root required}:/mnt/maios-share
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    restart: unless-stopped
+    logging: *logging
+
+  tracking:
+    build: { context: ../.., dockerfile: apps/tracking/Dockerfile }
+    environment:
+      APP_ENV: production
+      DATABASE_URL: postgres://maios_tracking:${POSTGRES_TRACKING_PASSWORD:?}@postgres:5432/maios
+      REDIS_URL: redis://redis:6379
+    depends_on:
+      postgres: { condition: service_healthy }
+    restart: unless-stopped
+    logging: *logging
+
+  agent-api:
+    build: { context: ../../apps/agent-api }
+    environment:
+      APP_ENV: production
+      QDRANT_URL: http://qdrant:6333
+      QDRANT_API_KEY: ${QDRANT_API_KEY}
+      MODEL_GATEWAY_URL: ${MODEL_GATEWAY_URL:-http://model-gateway:8080}
+    restart: unless-stopped
+    logging: *logging
+
+  caddy:
+    image: caddy:2.8
+    ports: ["80:80", "443:443"]     # the only ports exposed off-box (§3.1)
+    volumes:
+      - ../proxy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ${MAIOS_DATA_ROOT}/caddy:/data
+    restart: unless-stopped
+    logging: *logging
+
+# Overlay replaces the dev named volumes with pool-path binds above; the empty
+# definitions below keep compose from creating unused dev volumes in production.
+volumes:
+  postgres-data:
+  redis-data:
+  qdrant-data:
+  n8n-data:

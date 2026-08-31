@@ -1,13 +1,96 @@
-# Reverse proxy (plan §3.1): terminate TLS, route services, enforce request limits,
-# expose only required public endpoints (app, API, tracking, webhook endpoint).
-# Placeholder — production config lands with DEV-006.
+# MAIOS production reverse proxy on the TNAS (plan §3.1, ADR-0002).
+# Terminate TLS, route services, enforce request limits, expose ONLY required
+# public endpoints. Ports 80/443 are the only ones forwarded to this box.
+#
+# If you front this with a Cloudflare Tunnel instead of a port-forward, keep this
+# file as-is and point the tunnel's ingress rules at caddy:80 per hostname; Caddy
+# then serves plain HTTP internally and Cloudflare holds the public certificates.
 
-# app.example.com {
-#   reverse_proxy web:3000
-# }
-# api.example.com {
-#   reverse_proxy api:4000
-# }
-# t.example.com {          # first-party tracking domain (§6.2)
-#   reverse_proxy tracking:4100
+{
+	email admin@marketingpowered.ai
+	# admin API stays on localhost inside the container (default) — never expose it
+}
+
+(security_headers) {
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		-Server
+	}
+}
+
+# ── Domain API ────────────────────────────────────────────────────────────────
+api.marketingpowered.ai {
+	import security_headers
+	request_body {
+		max_size 10MB
+	}
+	reverse_proxy api:4000
+}
+
+# ── Provider webhooks (Close now, carriers later) — dedicated host (§5.6) ─────
+hooks.marketingpowered.ai {
+	import security_headers
+	request_body {
+		max_size 1MB          # strict body-size limit for webhook payloads
+	}
+	# Only the webhook paths exist here; everything else 404s.
+	handle /v1/webhooks/* {
+		reverse_proxy api:4000
+	}
+	handle {
+		respond 404
+	}
+}
+
+# ── n8n workflow trigger webhooks (separate from the editor, §12.3) ───────────
+wfhooks.marketingpowered.ai {
+	import security_headers
+	request_body {
+		max_size 1MB
+	}
+	handle /webhook/* {
+		reverse_proxy n8n:5678
+	}
+	handle /webhook-test/* {
+		respond 404           # test webhooks never exposed in production
+	}
+	handle {
+		respond 404
+	}
+}
+
+# ── First-party tracking (§6.2) — neutral name, tiny payloads ─────────────────
+mp.marketingpowered.ai {
+	import security_headers
+	request_body {
+		max_size 64KB
+	}
+	reverse_proxy tracking:4100
+}
+
+# ── Internal-only vhosts ──────────────────────────────────────────────────────
+# Resolve these names ONLY on the LAN/VPN DNS (do not publish public records).
+# The remote_ip guard is defense-in-depth if a record ever leaks.
+
+flows.internal.marketingpowered.ai {
+	@lan remote_ip 192.168.0.0/16 10.0.0.0/8 172.16.0.0/12
+	handle @lan {
+		reverse_proxy n8n:5678
+	}
+	handle {
+		respond 403
+	}
+}
+
+# grafana.internal.marketingpowered.ai {
+# 	@lan remote_ip 192.168.0.0/16 10.0.0.0/8 172.16.0.0/12
+# 	handle @lan {
+# 		reverse_proxy grafana:3000
+# 	}
+# 	handle {
+# 		respond 403
+# 	}
 # }

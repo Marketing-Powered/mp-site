@@ -26,7 +26,7 @@ A practical framework for optimizing content visibility in AI-powered search env
 [CTA] Book a Consultation
 What is Generative Engine Optimization?
 Generative engine optimization is the practice of structuring content so AI-powered search systems can accurately interpret, summarize, and cite it. Unlike traditional SEO, which focuses primarily on ranking in a list of blue links, this approach targets the summarized responses that tools like Google's AI Overviews, Bing Copilot, and standalone AI assistants deliver directly to users.
-The distinction matters because user behavior is shifting. According to [Gartner's 2024 predictions](https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026), traditional search engine volume could decline by 25% by 2026 as users migrate to AI chat interfaces and virtual agents. For behavioral health organizations competing for visibility, this shift demands a new content architecture.
+The distinction matters because user behavior is shifting. According to [Gartner's 2024 predictions](https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents), traditional search engine volume could decline by 25% by 2026 as users migrate to AI chat interfaces and virtual agents. For behavioral health organizations competing for visibility, this shift demands a new content architecture.
 Traditional SEO optimizes for crawlers that index pages and rank them by signals like backlinks, keyword density, and page authority. Generative engine optimization goes further. It optimizes for large language models that parse content semantically, extract factual claims, and synthesize answers from multiple sources. The goal is not just to rank but to be cited, quoted, or surfaced as the authoritative source within an AI-generated response.
 For [behavioral health solutions](/who-we-help/behavioral-health/) providers, this creates both opportunity and complexity. AI systems favor content that is structured, factually grounded, and contextually complete. Organizations that adapt their content strategy now position themselves to capture visibility as search interfaces continue to evolve.
 Key Strategies for Generative Engine Optimization
@@ -56,12 +56,12 @@ Implementing generative engine optimization within an existing content operation
 * 3. Select and integrate appropriate tools: Consider AI writing assistants for draft generation, schema generators for structured data, and analytics platforms that track AI surface visibility. Integration with existing CMS and [AI discovery tools](/services/web-development/) workflows ensures sustainable adoption.
 * 4. Restructure priority content: Begin with high-value pages: service descriptions, cornerstone guides, and FAQ hubs. Apply citation-ready formatting, add schema markup, and ensure factual claims are sourced and current.
 * 5. Establish governance and review cycles: AI optimization is not a one-time project. Build quarterly content audits into your [best practices](/resources/guides/) workflow. Monitor AI interface changes and adjust strategy as retrieval patterns evolve.
-The behavioral health context
+The Behavioral Health Context
 For treatment centers and [mental health focus](/who-we-help/mental-health/) organizations, generative engine optimization carries specific considerations. Compliance requirements under [SAMHSA guidelines](https://www.samhsa.gov/) and LegitScript certification standards constrain certain content approaches, while HIPAA awareness shapes how patient-related information can be structured.
 At Marketing Powered, we have operated in behavioral health marketing since the early days of AI-native strategy, beginning in 2022. Our team has managed over $50M in behavioral health and mental health media spend, with monthly Google Ads management ranging from $1.5M to $2M. That operational depth informs how we approach AI discovery optimization for treatment centers.
 Attribution tracking through to admission, not just to lead form submission, gives us visibility into which content surfaces actually drive qualified admissions. This data shapes our recommendations for [case studies](/results/case-studies/) and content optimization priorities.
 The [AI edge in marketing](/ai-edge/) is not about chasing trends. It is about building content infrastructure that positions your organization for visibility as search interfaces evolve, while maintaining the compliance discipline that behavioral health requires.
-Ready to optimize for AI discovery?
+Ready to Optimize for AI Discovery?
 Generative engine optimization requires both technical precision and strategic depth. If your behavioral health organization is evaluating how to position content for AI-powered search interfaces, we can help you build a framework grounded in compliance awareness and operational experience. Let's discuss your current visibility challenges, content infrastructure, and optimization priorities.
 [CTA] Book a Consultation
 
@@ -90,7 +90,7 @@ Schema type: FAQPage, Article, BreadcrumbList
 
 DELIVERY NOTES
 External citations
-* Gartner's 2024 predictions https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026 [Industry research and analyst firm] - Supports claim about search volume decline and user migration to AI interfaces; authoritative source for trend data
+* Gartner's 2024 predictions https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents [Industry research and analyst firm] - Supports claim about search volume decline and user migration to AI interfaces; authoritative source for trend data
 * schema.org https://schema.org/ [Standards body / technical specification] - Primary source for structured data markup standards; directly relevant to implementation guidance
 * Search Generative Experience https://blog.google/products/search/generative-ai-search/ [Platform primary source (Google)] - Google's official announcement of SGE; supports claim about LLM and search engine integration
 * SAMHSA guidelines https://www.samhsa.gov/ [Government / regulatory authority] - Primary federal authority for behavioral health; supports compliance context for healthcare-adjacent content

@@ -32,14 +32,14 @@ For behavioral health marketers operating under Google's healthcare advertising 
 Getting match types right means better lead quality, lower cost per admission inquiry, and fewer wasted impressions. Getting them wrong means burning budget on clicks from people who will never become patients. The stakes are high enough that match type strategy deserves deliberate attention, not default settings.
 The Three Core Match Types Explained
 Each match type serves a distinct purpose in your campaign architecture. Understanding when to deploy each one separates efficient accounts from those wasting spend on irrelevant traffic.
-Broad Match Keywords
+### Broad Match Keywords
 Broad match casts the widest net. A broad match keyword like 'addiction treatment' might trigger ads for 'substance abuse help,' 'rehab facilities near me,' or 'how to stop drinking.' Google uses its AI to interpret what it considers related searches, which means your ad can appear for queries that do not contain your keyword at all.
 The upside is discovery. Broad match combined with Smart Bidding can surface high-intent queries you never anticipated. The downside is waste. Without guardrails, broad match will spend budget on informational searches, competitor research, and queries with zero commercial intent.
 Broad match keywords work best when paired with aggressive negative keyword lists, audience signal layers, and weekly search term audits. Deploying broad match without these safeguards is one of the fastest ways to exhaust a behavioral health PPC budget without driving qualified leads.
-Phrase Match in Google Ads
+### Phrase Match in Google Ads
 Phrase match requires the search to include the meaning of your keyword in the order you specify. For the phrase match keyword "alcohol rehab center," your ad could trigger on 'alcohol rehab center in California' or 'affordable alcohol rehab center' but not 'center for alcohol education.'
 Phrase match delivers a middle ground: broader reach than exact, more control than broad. For treatment center campaigns, phrase match often performs well on high-intent modifier combinations involving location terms, insurance references, or specific treatment modalities. It captures natural language variations without opening the door to entirely unrelated queries.
-Exact Match Targeting
+### Exact Match Targeting
 Exact match shows your ad only when the search matches the precise meaning of your keyword. The keyword [alcohol rehab center] triggers on 'alcohol rehab center' and close variants like 'alcohol rehabilitation center' but excludes searches with additional words that shift intent.
 Exact match delivers the highest relevance and typically the best conversion rates. The tradeoff is volume. For behavioral health accounts spending $100K or more monthly, exact match alone cannot capture enough qualified searches to sustain efficient growth. The strategic question is how to layer match types so exact match handles your highest-value terms while phrase and broad expand reach deliberately.
 Match Type Strategy for 2026
@@ -77,7 +77,7 @@ FAQ
 Q: What are Google Ads match types?
 A: Google Ads match types are settings that control which user searches can trigger your ads. They range from broad match, which shows ads for searches Google considers related to your keyword, to exact match, which shows ads only for searches matching your keyword's precise meaning. Match types directly influence ad visibility, click volume, and budget efficiency by determining how closely targeting aligns with user intent.
 Q: How do broad match keywords work in Google Ads?
-A: Broad match keywords trigger your ads for searches Google considers related to your keyword, even if the search does not contain your exact terms. The benefit is discovery—you can reach queries you did not anticipate. The risk is wasted spend on low-intent searches. Behavioral health accounts using broad match need aggressive negative keyword lists, audience signal overlays, and weekly search term monitoring to keep broad match efficient.
+A: Broad match keywords trigger your ads for searches Google considers related to your keyword, even if the search does not contain your exact terms. The benefit is discovery: you can reach queries you did not anticipate. The risk is wasted spend on low-intent searches. Behavioral health accounts using broad match need aggressive negative keyword lists, audience signal overlays, and weekly search term monitoring to keep broad match efficient.
 Q: What is the difference between phrase match and exact match?
 A: Phrase match requires the search to include your keyword's meaning in order, while allowing additional words before or after it. Exact match requires the search to match your keyword's precise meaning with minimal variation. Phrase match delivers more volume with moderate control. Exact match delivers the highest relevance but the lowest volume. Most effective accounts layer both match types based on keyword intent and value.
 Q: What is a match type strategy?

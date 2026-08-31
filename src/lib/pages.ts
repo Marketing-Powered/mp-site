@@ -143,6 +143,14 @@ function parse(raw: string, file: string): ParsedPage {
       listBuf.push(line.replace(/^[*-]\s+/, ""));
       continue;
     }
+    // explicit "### " marker forces a sub-heading; the lowercase-initial
+    // heuristic below can't catch Title Case sub-headings
+    const explicitSub = line.match(/^###\s+(.+)$/);
+    if (explicitSub) {
+      flushList();
+      nodes.push({ type: "heading", text: explicitSub[1].trim(), sub: true });
+      continue;
+    }
     flushList();
     const isHeading =
       line.length <= 78 &&

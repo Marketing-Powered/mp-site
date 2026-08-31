@@ -1,0 +1,12 @@
+{
+  "name": "@maios/db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo 'db: no build step yet'",
+    "typecheck": "echo 'db: generated types pending (DEV-007)'",
+    "lint": "echo 'lint: add sqlfluff or squawk in CI'",
+    "test": "echo 'test: migrations must apply against clean DB + prod-like snapshot (§3.5)'"
+  }
+}

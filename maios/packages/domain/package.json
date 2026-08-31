@@ -1,0 +1,15 @@
+{
+  "name": "@maios/domain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo 'lint: configure eslint (DEV-001)'",
+    "test": "echo 'test: add unit tests for domain rules (16.1)'"
+  },
+  "devDependencies": { "typescript": "^5.6.0" }
+}

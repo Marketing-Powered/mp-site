@@ -1,0 +1,17 @@
+{
+  "name": "@maios/worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo lint-pending",
+    "test": "echo 'test: outbox locking, retry, idempotency, dead letters (CRM-009)'"
+  },
+  "dependencies": {
+    "@maios/domain": "workspace:*",
+    "@maios/providers": "workspace:*"
+  },
+  "devDependencies": { "typescript": "^5.6.0", "@types/node": "^22" }
+}

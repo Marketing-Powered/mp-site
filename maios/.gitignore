@@ -1,0 +1,17 @@
+node_modules/
+.pnpm-store/
+dist/
+build/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+.turbo/
+.vercel/

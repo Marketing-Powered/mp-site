@@ -1,0 +1,16 @@
+{
+  "name": "@maios/provider-close",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo 'lint: configure eslint (DEV-001)'",
+    "test": "echo 'test: conformance suite vs recorded fixtures (CLOSE-013, §9.7)'"
+  },
+  "dependencies": { "@maios/providers": "workspace:*" },
+  "devDependencies": { "typescript": "^5.6.0" }
+}

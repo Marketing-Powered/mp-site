@@ -1,0 +1,34 @@
+# Versioned agent manifest (plan §10.1–10.2, AGENT-008).
+key: call_summary
+version: 0.1.0
+owner: ai-engineering
+status: draft # draft -> shadow -> pilot -> production (promotion gates in §10.7)
+purpose: >
+  Produce a structured summary of a completed, policy-approved call transcript:
+  participants, goals, objections, commitments, dates, and follow-up candidates.
+  No unsupported facts; every claim cites transcript evidence spans.
+inputs:
+  - transcript (authorized, policy-checked)
+  - call metadata (canonical call record)
+  - CRM context (person, lead, opportunity)
+data_classes: [confidential, restricted]
+model_policy:
+  alias: maios-default
+  external_providers: disabled # default for restricted data classes (§10.6)
+  max_input_tokens: 32000
+  max_output_tokens: 2000
+  wall_clock_seconds: 120
+tools:
+  allowlist:
+    - get_call
+    - get_person
+    - get_opportunity
+    - add_draft_note # internal reversible write — post-evaluation only (§10.5)
+approval_policy:
+  internal_reversible_write: automatic_after_evaluation
+  provider_write: human_approval
+output_schema: schemas/call-summary.output.schema.json # schema-validated before use
+failure_behavior: graceful_no_recommendation # model outage must not corrupt canonical state
+evaluation:
+  golden_cases: agents/evaluations/call-summary/
+  required_suites: [golden, adversarial, cross_tenant, prompt_injection]

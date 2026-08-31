@@ -1,0 +1,55 @@
+# CI minimum gates (plan §3.5, DEV-004). Expand with contract tests, migration
+# dry-runs against a production-like snapshot, image scan + signing (DEV-005).
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  typescript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with: { version: 9 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile || pnpm install
+      - run: pnpm -r typecheck
+      - run: pnpm -r build
+      - run: pnpm -r test
+
+  migrations:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: maios
+          POSTGRES_USER: maios
+          POSTGRES_PASSWORD: ci
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U maios" --health-interval 5s
+          --health-timeout 3s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      # Migrations must apply forward against a clean database (§3.5)
+      - run: |
+          for f in packages/db/migrations/*.sql; do
+            echo "applying $f"
+            PGPASSWORD=ci psql -h localhost -U maios -d maios -v ON_ERROR_STOP=1 -f "$f"
+          done
+
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e "apps/agent-api[dev]"
+      - run: ruff check apps/agent-api
+      - run: python -c "from app.main import app" 
+        working-directory: apps/agent-api

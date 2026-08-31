@@ -1,0 +1,56 @@
+# MAIOS local development stack (plan §3.1 Packaging, DEV-002).
+# One command starts the data plane; apps run via pnpm/uvicorn during development.
+# Staging/production get environment-specific overrides, resource limits, and TLS proxy.
+name: maios
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: maios
+      POSTGRES_USER: maios
+      POSTGRES_PASSWORD: maios-local-only
+    ports: ["5432:5432"]
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ../../packages/db/migrations:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U maios -d maios"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7
+    ports: ["6379:6379"]
+    volumes: [redis-data:/data]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.4
+    ports: ["6333:6333", "6334:6334"]
+    volumes: [qdrant-data:/qdrant/storage]
+
+  n8n:
+    image: n8nio/n8n:1.70.1 # pin versions; test upgrades in staging (§12.3)
+    ports: ["5678:5678"]
+    environment:
+      N8N_ENCRYPTION_KEY: local-dev-only-change-me
+      DB_TYPE: postgresdb
+      DB_POSTGRESDB_HOST: postgres
+      DB_POSTGRESDB_DATABASE: n8n
+      DB_POSTGRESDB_USER: maios
+      DB_POSTGRESDB_PASSWORD: maios-local-only
+    volumes: [n8n-data:/home/node/.n8n]
+    depends_on:
+      postgres: { condition: service_healthy }
+
+volumes:
+  postgres-data:
+  redis-data:
+  qdrant-data:
+  n8n-data:

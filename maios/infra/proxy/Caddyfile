@@ -1,0 +1,13 @@
+# Reverse proxy (plan §3.1): terminate TLS, route services, enforce request limits,
+# expose only required public endpoints (app, API, tracking, webhook endpoint).
+# Placeholder — production config lands with DEV-006.
+
+# app.example.com {
+#   reverse_proxy web:3000
+# }
+# api.example.com {
+#   reverse_proxy api:4000
+# }
+# t.example.com {          # first-party tracking domain (§6.2)
+#   reverse_proxy tracking:4100
+# }

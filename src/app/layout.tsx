@@ -66,12 +66,6 @@ export default function RootLayout({
       className={`h-full antialiased ${manrope.variable} ${fraunces.variable} ${spaceMono.variable}`}
     >
       <body className={`${manrope.className} min-h-full flex flex-col`}>
-        {/* Ahrefs analytics — React hoists async scripts into <head>. */}
-        <script
-          src="https://analytics.ahrefs.com/analytics.js"
-          data-key="h2dt32crqjKsOqLU81hisg"
-          async
-        />
         <LeadModalProvider>
           {children}
           <ChatLauncher />

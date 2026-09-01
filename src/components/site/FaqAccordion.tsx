@@ -20,7 +20,7 @@ export default function FaqAccordion({
           className="mb-12 text-center text-[clamp(1.9rem,3.4vw,2.8rem)]"
           style={{ fontFamily: serif, fontWeight: 400 }}
         >
-          Questions, answered.
+          Questions, Answered.
         </h2>
       </Reveal>
       <div className="divide-y divide-white/10 border-y border-white/10">

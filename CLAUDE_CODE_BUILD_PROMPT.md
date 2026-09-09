@@ -13,7 +13,7 @@ You are extending and upgrading the Marketing Powered website. The Next.js proje
 1. **Build 12 new pages** from content files already in the repo
 2. **Update ALL existing pages** with more CTAs, form-first conversion strategy, and image slots
 
-Read AGENTS.md before writing any code — this project uses a non-standard Next.js version.
+This is a standard Next.js 16 App Router project — no non-standard APIs or conventions.
 
 ---
 
@@ -271,7 +271,7 @@ The behavioral-health and mental-health hub pages should link to their new child
 
 ## Technical Rules
 
-1. **Read AGENTS.md first** — this Next.js version has breaking changes
+1. Use standard, current Next.js App Router conventions
 2. Use Tailwind CSS for all styling
 3. Use Framer Motion via the existing `Reveal` component for animations
 4. Wrap everything in `Reveal` — every section, every card, every CTA

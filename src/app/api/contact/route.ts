@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import {
   GHL_API,
+  fetchWithRetry,
   ghlFailureHint,
   ghlHeaders,
   invalidateOpportunityTarget,
@@ -76,27 +77,41 @@ function mapLeadForGhl(
   return mapped;
 }
 
+/* Outcome of one GHL delivery channel. `configured: false` means the env
+   vars for that channel are intentionally unset (not a failure to report);
+   `configured: true, ok: false` means it's set up but the call failed —
+   the one case worth surfacing to a human. */
+type GhlChannelResult = { configured: boolean; ok: boolean; detail?: string };
+
 /* Best-effort delivery to a GoHighLevel inbound webhook. Independent of the
    Resend email path: this is fully wrapped so a GHL outage never blocks email
-   delivery (and vice versa). When GHL_WEBHOOK_URL is unset we skip silently. */
-async function deliverToGhl(data: Record<string, unknown>, source: string) {
+   delivery (and vice versa). When GHL_WEBHOOK_URL is unset we skip silently.
+   Retries once on transient failures (see fetchWithRetry). */
+async function deliverToGhl(
+  data: Record<string, unknown>,
+  source: string,
+): Promise<GhlChannelResult> {
   const url = process.env.GHL_WEBHOOK_URL;
   if (!url) {
     console.log("[lead] GHL webhook delivery skipped: GHL_WEBHOOK_URL not set");
-    return;
+    return { configured: false, ok: true };
   }
 
   try {
-    const res = await fetch(url, {
+    const res = await fetchWithRetry(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(mapLeadForGhl(data, source)),
     });
     if (!res.ok) {
+      const detail = `webhook ${res.status} ${res.statusText}`;
       console.error(`[lead] GHL delivery non-OK: ${res.status} ${res.statusText}`);
+      return { configured: true, ok: false, detail };
     }
+    return { configured: true, ok: true };
   } catch (err) {
     console.error("[lead] GHL delivery failed:", err);
+    return { configured: true, ok: false, detail: `webhook ${String(err)}` };
   }
 }
 
@@ -109,12 +124,15 @@ async function deliverToGhl(data: Record<string, unknown>, source: string) {
    and email delivery is unaffected. GET /api/ghl-health (gated by
    DIAGNOSTICS_KEY) reports this pipeline's live config state when leads stop
    showing up in GHL. */
-async function createGhlOpportunity(data: Record<string, unknown>, source: string) {
+async function createGhlOpportunity(
+  data: Record<string, unknown>,
+  source: string,
+): Promise<GhlChannelResult> {
   const token = process.env.GHL_API_TOKEN;
   const locationId = process.env.GHL_LOCATION_ID;
   if (!token || !locationId) {
     console.log("[lead] GHL API delivery skipped: GHL_API_TOKEN/GHL_LOCATION_ID not set");
-    return;
+    return { configured: false, ok: true };
   }
 
   const lead = mapLeadForGhl(data, source);
@@ -130,22 +148,21 @@ async function createGhlOpportunity(data: Record<string, unknown>, source: strin
     if (lead.company) contactBody.companyName = lead.company;
     contactBody.tags = ["website-lead"];
 
-    const contactRes = await fetch(`${GHL_API}/contacts/upsert`, {
+    const contactRes = await fetchWithRetry(`${GHL_API}/contacts/upsert`, {
       method: "POST",
       headers,
       body: JSON.stringify(contactBody),
     });
     if (!contactRes.ok) {
-      console.error(
-        `[lead] GHL contact upsert non-OK: ${contactRes.status} ${await contactRes.text()} ${ghlFailureHint(contactRes.status)}`,
-      );
-      return;
+      const detail = `contact upsert ${contactRes.status} ${await contactRes.text()} ${ghlFailureHint(contactRes.status)}`;
+      console.error(`[lead] GHL contact upsert non-OK: ${detail}`);
+      return { configured: true, ok: false, detail };
     }
     const contactJson = (await contactRes.json()) as { contact?: { id?: string } };
     const contactId = contactJson?.contact?.id;
     if (!contactId) {
       console.error("[lead] GHL contact upsert returned no contact id");
-      return;
+      return { configured: true, ok: false, detail: "contact upsert returned no contact id" };
     }
 
     // 2. Attach the message + any extra form fields (spend, website, vertical,
@@ -154,7 +171,7 @@ async function createGhlOpportunity(data: Record<string, unknown>, source: strin
       .filter(([k, v]) => !["first_name", "last_name", "full_name"].includes(k) && str(v))
       .map(([k, v]) => `${k}: ${str(v)}`);
     if (noteLines.length) {
-      const noteRes = await fetch(`${GHL_API}/contacts/${contactId}/notes`, {
+      const noteRes = await fetchWithRetry(`${GHL_API}/contacts/${contactId}/notes`, {
         method: "POST",
         headers,
         body: JSON.stringify({ body: `Website form (${source})\n${noteLines.join("\n")}` }),
@@ -172,7 +189,7 @@ async function createGhlOpportunity(data: Record<string, unknown>, source: strin
     const pipelineId = process.env.GHL_PIPELINE_ID;
     if (!pipelineId) {
       console.log(`[lead] GHL contact ${contactId} upserted (no GHL_PIPELINE_ID; skipping opportunity)`);
-      return;
+      return { configured: true, ok: true };
     }
     const target = await resolveOpportunityTarget(
       token,
@@ -185,7 +202,7 @@ async function createGhlOpportunity(data: Record<string, unknown>, source: strin
       console.error(
         `[lead] GHL opportunity NOT created for contact ${contactId}: ${target.note}`,
       );
-      return;
+      return { configured: true, ok: false, detail: `opportunity: ${target.note}` };
     }
     const oppBody: Record<string, unknown> = {
       locationId,
@@ -199,24 +216,25 @@ async function createGhlOpportunity(data: Record<string, unknown>, source: strin
       oppBody.pipelineStageId = target.pipelineStageId;
     }
 
-    const oppRes = await fetch(`${GHL_API}/opportunities/`, {
+    const oppRes = await fetchWithRetry(`${GHL_API}/opportunities/`, {
       method: "POST",
       headers,
       body: JSON.stringify(oppBody),
     });
     if (!oppRes.ok) {
       invalidateOpportunityTarget();
-      console.error(
-        `[lead] GHL opportunity non-OK: ${oppRes.status} ${await oppRes.text()} ${ghlFailureHint(oppRes.status)}`,
-      );
-      return;
+      const detail = `opportunity ${oppRes.status} ${await oppRes.text()} ${ghlFailureHint(oppRes.status)}`;
+      console.error(`[lead] GHL opportunity non-OK: ${detail}`);
+      return { configured: true, ok: false, detail };
     }
     const oppJson = (await oppRes.json()) as { opportunity?: { id?: string } };
     console.log(
       `[lead] GHL opportunity created: ${oppJson?.opportunity?.id ?? "(id unknown)"} for contact ${contactId}`,
     );
+    return { configured: true, ok: true };
   } catch (err) {
     console.error("[lead] GHL API delivery failed:", err);
+    return { configured: true, ok: false, detail: String(err) };
   }
 }
 
@@ -238,15 +256,26 @@ export async function POST(request: Request) {
 
   // Best-effort push to GoHighLevel — inbound webhook (workflow-driven) and
   // direct API (contact + note + opportunity) run independently in parallel.
-  // Neither throws, so a GHL failure can't affect Resend delivery.
-  await Promise.all([deliverToGhl(data, source), createGhlOpportunity(data, source)]);
+  // Neither throws, so a GHL failure can't affect Resend delivery. Their
+  // outcomes feed the lead email below: a configured-but-failing channel is
+  // the one case that otherwise vanishes into serverless logs no one is
+  // watching, so it's surfaced directly in the notification instead.
+  const [webhookResult, apiResult] = await Promise.all([
+    deliverToGhl(data, source),
+    createGhlOpportunity(data, source),
+  ]);
+  const ghlIssues = [webhookResult, apiResult]
+    .filter((r) => r.configured && !r.ok)
+    .map((r) => r.detail)
+    .filter((d): d is string => Boolean(d));
+  const ghlOk = ghlIssues.length === 0;
 
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.LEADS_EMAIL;
 
   if (!apiKey || !to) {
     console.log("[lead] email delivery skipped: RESEND_API_KEY/LEADS_EMAIL not set");
-    return NextResponse.json({ success: true, delivered: false });
+    return NextResponse.json({ success: true, delivered: false, ghlOk });
   }
 
   try {
@@ -267,18 +296,31 @@ export async function POST(request: Request) {
       )
       .join("");
 
+    // Surfaced only when a configured GHL channel actually failed — never
+    // for the (common, intentional) case where GHL isn't set up at all.
+    const warningHtml = !ghlOk
+      ? `<div style="margin:0 0 16px;padding:12px 16px;border-radius:8px;background:#FEF2F2;border:1px solid #FCA5A5;color:#991B1B;font-size:13px;line-height:1.5">
+          <strong>⚠ This lead did NOT reach GHL</strong> — add it to your CRM/workflow manually. Check <code>/api/ghl-health</code> for the full diagnosis.<br/>
+          ${ghlIssues.map((d) => escapeHtml(d)).join("<br/>")}
+        </div>`
+      : "";
+    const warningText = !ghlOk
+      ? `⚠ This lead did NOT reach GHL — add it to your CRM/workflow manually. Check /api/ghl-health for the full diagnosis.\n${ghlIssues.join("\n")}\n\n`
+      : "";
+
     const html = `<div style="font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:560px;margin:0 auto">
+      ${warningHtml}
       <p style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#0090F0;margin:0 0 4px">Marketing Powered · New Lead</p>
       <h2 style="margin:0 0 16px;color:#0A1322;font-size:20px">${escapeHtml(source)}</h2>
       <table style="border-collapse:collapse;width:100%;font-size:14px;border:1px solid #eef1f5;border-radius:8px;overflow:hidden">${rows}</table>
     </div>`;
 
-    const text = entries.map(([k, v]) => `${k}: ${String(v ?? "")}`).join("\n");
+    const text = `${warningText}${entries.map(([k, v]) => `${k}: ${String(v ?? "")}`).join("\n")}`;
 
     const { error } = await resend.emails.send({
       from,
       to: to.split(",").map((s) => s.trim()).filter(Boolean),
-      subject: `New lead — ${source}${email ? ` (${email})` : ""}`,
+      subject: `${ghlOk ? "" : "⚠ "}New lead — ${source}${email ? ` (${email})` : ""}`,
       replyTo: email || undefined,
       html,
       text,
@@ -286,12 +328,12 @@ export async function POST(request: Request) {
 
     if (error) {
       console.error("[lead] Resend delivery error:", error);
-      return NextResponse.json({ success: true, delivered: false });
+      return NextResponse.json({ success: true, delivered: false, ghlOk });
     }
 
-    return NextResponse.json({ success: true, delivered: true });
+    return NextResponse.json({ success: true, delivered: true, ghlOk });
   } catch (err) {
     console.error("[lead] delivery failed:", err);
-    return NextResponse.json({ success: true, delivered: false });
+    return NextResponse.json({ success: true, delivered: false, ghlOk });
   }
 }

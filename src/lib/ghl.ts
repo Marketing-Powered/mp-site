@@ -12,6 +12,34 @@
 export const GHL_API =
   process.env.GHL_API_BASE || "https://services.leadconnectorhq.com";
 
+/** fetch() with one retry on transient failures (network errors, 429, 5xx).
+    Non-transient failures (401/403/404/422 — bad token/id/payload) return
+    immediately since retrying can't fix a config problem. Used for every
+    GHL call so a single dropped connection doesn't cost a lead. */
+export async function fetchWithRetry(
+  url: string,
+  init: RequestInit,
+  retries = 1,
+  delayMs = 400,
+): Promise<Response> {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      const res = await fetch(url, init);
+      if (!res.ok && (res.status >= 500 || res.status === 429) && attempt < retries) {
+        await new Promise((r) => setTimeout(r, delayMs));
+        continue;
+      }
+      return res;
+    } catch (err) {
+      if (attempt < retries) {
+        await new Promise((r) => setTimeout(r, delayMs));
+        continue;
+      }
+      throw err;
+    }
+  }
+}
+
 export function ghlHeaders(token: string): Record<string, string> {
   return {
     Authorization: `Bearer ${token}`,
@@ -36,7 +64,7 @@ export async function fetchGhlPipelines(
   locationId: string,
 ): Promise<PipelinesResult> {
   try {
-    const res = await fetch(
+    const res = await fetchWithRetry(
       `${GHL_API}/opportunities/pipelines?locationId=${encodeURIComponent(locationId)}`,
       { headers: ghlHeaders(token) },
     );

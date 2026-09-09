@@ -28,12 +28,6 @@ type LeadModalContextValue = {
 
 const LeadModalContext = createContext<LeadModalContextValue | null>(null);
 
-/** Programmatic access to the lead modal for non-CTA openers (e.g. the
-    floating ChatLauncher). Returns null outside LeadModalProvider. */
-export function useLeadModal() {
-  return useContext(LeadModalContext);
-}
-
 const inputCls =
   "w-full rounded-xl border border-white/12 bg-white/[0.03] px-4 py-3 text-[15px] text-white/90 outline-none transition-colors placeholder:text-white/25 focus:border-[#0090F0]/60 focus:bg-white/[0.05]";
 

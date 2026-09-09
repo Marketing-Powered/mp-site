@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Fraunces, Manrope, Space_Mono } from "next/font/google";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
-import ChatLauncher from "@/components/site/ChatLauncher";
 import { LeadModalProvider } from "@/components/site/LeadModal";
 import { SITE_URL, SITE_NAME, SITE_TITLE, SITE_DESCRIPTION } from "@/lib/site";
 
@@ -66,10 +65,7 @@ export default function RootLayout({
       className={`h-full antialiased ${manrope.variable} ${fraunces.variable} ${spaceMono.variable}`}
     >
       <body className={`${manrope.className} min-h-full flex flex-col`}>
-        <LeadModalProvider>
-          {children}
-          <ChatLauncher />
-        </LeadModalProvider>
+        <LeadModalProvider>{children}</LeadModalProvider>
         <Analytics />
         {/* LeadConnector external tracking — must stay sync: async scripts get
             hoisted into <head>, but the vendor requires this just before

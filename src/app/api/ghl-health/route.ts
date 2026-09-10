@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { createHash, timingSafeEqual } from "node:crypto";
-import { fetchGhlPipelines, ghlFailureHint } from "@/lib/ghl";
+import { env, fetchGhlPipelines, ghlFailureHint } from "@/lib/ghl";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -32,7 +32,7 @@ function keyMatches(provided: string | null, expected: string): boolean {
 const present = (v: string | undefined): boolean => Boolean(v && v.trim());
 
 export async function GET(request: NextRequest) {
-  const expected = process.env.DIAGNOSTICS_KEY;
+  const expected = env("DIAGNOSTICS_KEY");
   const provided =
     request.nextUrl.searchParams.get("key") ??
     request.headers.get("x-diagnostics-key");
@@ -40,28 +40,28 @@ export async function GET(request: NextRequest) {
     return new NextResponse(null, { status: 404 });
   }
 
-  const env = {
-    GHL_API_TOKEN: present(process.env.GHL_API_TOKEN),
-    GHL_LOCATION_ID: present(process.env.GHL_LOCATION_ID),
-    GHL_PIPELINE_ID: present(process.env.GHL_PIPELINE_ID),
-    GHL_PIPELINE_STAGE_ID: present(process.env.GHL_PIPELINE_STAGE_ID),
-    GHL_WEBHOOK_URL: present(process.env.GHL_WEBHOOK_URL),
-    RESEND_API_KEY: present(process.env.RESEND_API_KEY),
-    LEADS_EMAIL: present(process.env.LEADS_EMAIL),
-    LEADS_FROM_EMAIL: present(process.env.LEADS_FROM_EMAIL),
+  const configured = {
+    GHL_API_TOKEN: present(env("GHL_API_TOKEN")),
+    GHL_LOCATION_ID: present(env("GHL_LOCATION_ID")),
+    GHL_PIPELINE_ID: present(env("GHL_PIPELINE_ID")),
+    GHL_PIPELINE_STAGE_ID: present(env("GHL_PIPELINE_STAGE_ID")),
+    GHL_WEBHOOK_URL: present(env("GHL_WEBHOOK_URL")),
+    RESEND_API_KEY: present(env("RESEND_API_KEY")),
+    LEADS_EMAIL: present(env("LEADS_EMAIL")),
+    LEADS_FROM_EMAIL: present(env("LEADS_FROM_EMAIL")),
   };
 
   const verdicts: string[] = [];
   let ghl: Record<string, unknown> | null = null;
 
-  if (!env.GHL_API_TOKEN || !env.GHL_LOCATION_ID) {
+  if (!configured.GHL_API_TOKEN || !configured.GHL_LOCATION_ID) {
     verdicts.push(
       "GHL opportunities: NOT created — GHL_API_TOKEN and/or GHL_LOCATION_ID are missing, so the direct-API path is skipped entirely.",
     );
   } else {
     const listed = await fetchGhlPipelines(
-      process.env.GHL_API_TOKEN!,
-      process.env.GHL_LOCATION_ID!,
+      env("GHL_API_TOKEN")!,
+      env("GHL_LOCATION_ID")!,
     );
     if (!listed.ok) {
       ghl = {
@@ -77,8 +77,8 @@ export async function GET(request: NextRequest) {
             : `GHL pipeline check failed (${listed.status ?? "network error"}) — see detail.`,
       );
     } else {
-      const pipelineId = process.env.GHL_PIPELINE_ID?.trim();
-      const stageId = process.env.GHL_PIPELINE_STAGE_ID?.trim();
+      const pipelineId = env("GHL_PIPELINE_ID");
+      const stageId = env("GHL_PIPELINE_STAGE_ID");
       const pipeline = listed.pipelines.find((p) => p.id === pipelineId);
       const stage = pipeline?.stages?.find((s) => s.id === stageId);
       ghl = {
@@ -116,13 +116,13 @@ export async function GET(request: NextRequest) {
   }
 
   verdicts.push(
-    env.GHL_WEBHOOK_URL
+    configured.GHL_WEBHOOK_URL
       ? "GHL webhook: configured — submissions are POSTed to the workflow webhook (check the workflow's enrollment history in GHL if leads are missing)."
       : "GHL webhook: not configured (GHL_WEBHOOK_URL unset) — workflow path skipped.",
-    env.RESEND_API_KEY && env.LEADS_EMAIL
+    configured.RESEND_API_KEY && configured.LEADS_EMAIL
       ? "Email: configured — delivery still depends on a valid Resend key and verified sender domain (check the [lead] server logs if delivered:false)."
       : "Email: NOT sent — RESEND_API_KEY and/or LEADS_EMAIL are missing.",
   );
 
-  return NextResponse.json({ env, ghl, verdicts });
+  return NextResponse.json({ env: configured, ghl, verdicts });
 }

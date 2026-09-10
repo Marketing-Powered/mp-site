@@ -8,9 +8,25 @@
    that failure mode either self-heal (stage resolution) or loudly
    diagnosable (precise errors + /api/ghl-health). */
 
+/** Read an env var, trimmed, treating blank as unset.
+
+    Values pasted into a hosting dashboard routinely carry a trailing space or
+    newline. Untrimmed those fail in ways that look like anything but a config
+    typo: a webhook URL that throws on fetch, a `Bearer <token>\n` rejected as
+    401, a pipeline id GHL never matches. Worse, the diagnostics route used to
+    trim where the delivery path did not — so a health check could report a
+    pipeline "found" while every live lead failed against the same value. Read
+    every env var through here so both paths agree. */
+export function env(name: string): string | undefined {
+  const raw = process.env[name];
+  if (typeof raw !== "string") return undefined;
+  const trimmed = raw.trim();
+  return trimmed === "" ? undefined : trimmed;
+}
+
 // Overridable so a mock server can stand in for GHL in local smoke tests.
 export const GHL_API =
-  process.env.GHL_API_BASE || "https://services.leadconnectorhq.com";
+  env("GHL_API_BASE") || "https://services.leadconnectorhq.com";
 
 /** fetch() with one retry on transient failures (network errors, 429, 5xx).
     Non-transient failures (401/403/404/422 — bad token/id/payload) return

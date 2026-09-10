@@ -1,6 +1,6 @@
 import Reveal from "@/components/Reveal";
 import { serif } from "./theme";
-import { PrimaryCta, GhostCta } from "./ui";
+import { PrimaryCta, GhostCta, CallCta } from "./ui";
 import { siteContent as s } from "@/lib/content";
 
 export default function CtaBand({
@@ -38,6 +38,7 @@ export default function CtaBand({
           <p className="mx-auto mt-7 max-w-xl leading-relaxed text-white/55">{body}</p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <PrimaryCta href={ctaLink}>{ctaText}</PrimaryCta>
+            <CallCta variant="ghost" />
             {secondaryCta && <GhostCta href={secondaryCta.link}>{secondaryCta.text}</GhostCta>}
           </div>
           {emailLink && (

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 import { serif, mono } from "./theme";
 import { resolveLink } from "@/lib/links";
+import { siteContent as s } from "@/lib/content";
 import { ModalCta } from "./LeadModal";
 
 /* Gradient hairline rule used throughout the design system */
@@ -89,6 +90,75 @@ export function GhostCta({
     <ModalCta href={target} className={buttonClass}>
       {inner}
     </ModalCta>
+  );
+}
+
+/* Phone handset glyph, sized to sit on the text baseline of a pill button. */
+export function PhoneIcon({ className = "" }: { className?: string }) {
+  return (
+    <svg
+      width="15"
+      height="15"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      className={className}
+    >
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+    </svg>
+  );
+}
+
+/* Tap-to-call CTA for the Google Business Profile number.
+
+   Dials s.brand.phoneE164 and shows s.brand.phone, so the number a visitor
+   reads and the number they reach can't drift apart. A phone call is the one
+   conversion path that doesn't depend on form delivery, so this is worth
+   carrying everywhere the audit CTA goes.
+
+   `solid` matches PrimaryCta's weight; `ghost` matches GhostCta and is the
+   right choice standing next to a primary button; `bare` is an unboxed
+   icon+number for places where a second pill would flatten the hierarchy
+   (the nav bar, the footer contact block). */
+export function CallCta({
+  variant = "ghost",
+  showNumber = true,
+  className = "",
+}: {
+  variant?: "solid" | "ghost" | "bare";
+  showNumber?: boolean;
+  className?: string;
+}) {
+  const base =
+    variant === "bare"
+      ? "group relative inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] transition-colors"
+      : "group relative inline-flex items-center gap-2.5 overflow-hidden rounded-full text-[12px] uppercase tracking-[0.18em] transition-colors";
+  const skin =
+    variant === "solid"
+      ? "bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 font-semibold text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)]"
+      : variant === "bare"
+        ? "text-white/70 hover:text-[#7FCBFF]"
+        : "border border-white/15 px-6 py-3.5 text-white/80 hover:text-black";
+
+  return (
+    <a
+      href={`tel:${s.brand.phoneE164}`}
+      className={`${base} ${skin} ${className}`}
+      aria-label={`Call Marketing Powered at ${s.brand.phone}`}
+      data-cta="call"
+    >
+      {variant === "ghost" && (
+        <span className="absolute inset-0 -z-0 translate-y-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] transition-transform duration-300 group-hover:translate-y-0" />
+      )}
+      <PhoneIcon className="relative z-10 shrink-0" />
+      <span className="relative z-10 whitespace-nowrap">
+        {showNumber ? s.brand.phone : "Call Us"}
+      </span>
+    </a>
   );
 }
 

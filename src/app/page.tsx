@@ -9,6 +9,8 @@ import { Figure } from "@/components/brand";
 import Nav from "@/components/site/Nav";
 import Footer from "@/components/site/Footer";
 import { ModalCta } from "@/components/site/LeadModal";
+import { CallCta } from "@/components/site/ui";
+import StickyMobileCta from "@/components/site/StickyMobileCta";
 
 /* ================================================================== */
 /*  DESIGN 1 — "Midnight Atelier"                                      */
@@ -97,7 +99,7 @@ function CountUp({
    real site content (content.ts brand info + the homepage FAQ). Rendered as
    JSON-LD; SSR'd into the initial HTML so crawlers see it. */
 function HomeJsonLd() {
-  const phoneE164 = "+1-561-560-6804"; // s.brand.phone "(561) 560-6804"
+  const phoneE164 = s.brand.phoneE164;
   const address = {
     "@type": "PostalAddress",
     streetAddress: "9494 Osprey Isles Blvd",
@@ -237,6 +239,7 @@ export default function Design1() {
                   →
                 </span>
               </ModalCta>
+              <CallCta variant="ghost" />
               <span
                 className="text-[12px] uppercase tracking-[0.22em] text-white/40"
                 style={{ fontFamily: mono }}
@@ -668,6 +671,10 @@ export default function Design1() {
 
       {/* ---------- FOOTER ---------- */}
       <Footer />
+
+      {/* Every other page carries this; the homepage is the highest-traffic
+          one and was the only place without a persistent mobile call/audit. */}
+      <StickyMobileCta />
     </div>
   );
 }

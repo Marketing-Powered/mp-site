@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Logo } from "@/components/brand";
 import { mono } from "./theme";
 import { ModalCta } from "./LeadModal";
+import { CallCta } from "./ui";
 
 const PRIMARY_NAV = [
   {
@@ -136,6 +137,12 @@ export default function Nav() {
         </nav>
 
         <div className="flex items-center gap-4">
+          {/* Unboxed so the audit pill stays the single primary action here.
+              Visibility lives on the wrapper: appending a display utility to
+              CallCta's own class list loses to the `inline-flex` in its base. */}
+          <span className="hidden md:inline-flex">
+            <CallCta variant="bare" />
+          </span>
           <ModalCta
             href="/get-started/request-an-audit"
             className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
@@ -186,13 +193,16 @@ export default function Nav() {
               )}
             </div>
           ))}
-          <ModalCta
-            href="/get-started/request-an-audit"
-            onClick={() => setMobileOpen(false)}
-            className="mt-4 inline-flex rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-6 py-3 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
-          >
-            Request Audit
-          </ModalCta>
+          <div className="mt-4 flex flex-col gap-3">
+            <ModalCta
+              href="/get-started/request-an-audit"
+              onClick={() => setMobileOpen(false)}
+              className="inline-flex justify-center rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-6 py-3 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
+            >
+              Request Audit
+            </ModalCta>
+            <CallCta variant="ghost" className="justify-center" />
+          </div>
         </div>
       )}
     </header>

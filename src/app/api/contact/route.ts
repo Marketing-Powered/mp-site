@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import {
   GHL_API,
+  env,
   fetchWithRetry,
   ghlFailureHint,
   ghlHeaders,
@@ -91,7 +92,7 @@ async function deliverToGhl(
   data: Record<string, unknown>,
   source: string,
 ): Promise<GhlChannelResult> {
-  const url = process.env.GHL_WEBHOOK_URL;
+  const url = env("GHL_WEBHOOK_URL");
   if (!url) {
     console.log("[lead] GHL webhook delivery skipped: GHL_WEBHOOK_URL not set");
     return { configured: false, ok: true };
@@ -128,8 +129,8 @@ async function createGhlOpportunity(
   data: Record<string, unknown>,
   source: string,
 ): Promise<GhlChannelResult> {
-  const token = process.env.GHL_API_TOKEN;
-  const locationId = process.env.GHL_LOCATION_ID;
+  const token = env("GHL_API_TOKEN");
+  const locationId = env("GHL_LOCATION_ID");
   if (!token || !locationId) {
     console.log("[lead] GHL API delivery skipped: GHL_API_TOKEN/GHL_LOCATION_ID not set");
     return { configured: false, ok: true };
@@ -186,7 +187,7 @@ async function createGhlOpportunity(
     //    GHL-side pipeline rebuild are the main way this step silently dies)
     //    and always sent when the pipeline has stages — some tenants reject
     //    stage-less opportunities.
-    const pipelineId = process.env.GHL_PIPELINE_ID;
+    const pipelineId = env("GHL_PIPELINE_ID");
     if (!pipelineId) {
       console.log(`[lead] GHL contact ${contactId} upserted (no GHL_PIPELINE_ID; skipping opportunity)`);
       return { configured: true, ok: true };
@@ -195,7 +196,7 @@ async function createGhlOpportunity(
       token,
       locationId,
       pipelineId,
-      process.env.GHL_PIPELINE_STAGE_ID,
+      env("GHL_PIPELINE_STAGE_ID"),
     );
     console.log(`[lead] GHL opportunity target: ${target.note}`);
     if (target.pipelineMissing) {
@@ -270,8 +271,8 @@ export async function POST(request: Request) {
     .filter((d): d is string => Boolean(d));
   const ghlOk = ghlIssues.length === 0;
 
-  const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.LEADS_EMAIL;
+  const apiKey = env("RESEND_API_KEY");
+  const to = env("LEADS_EMAIL");
 
   if (!apiKey || !to) {
     console.log("[lead] email delivery skipped: RESEND_API_KEY/LEADS_EMAIL not set");
@@ -282,7 +283,7 @@ export async function POST(request: Request) {
     const { Resend } = await import("resend");
     const resend = new Resend(apiKey);
     const from =
-      process.env.LEADS_FROM_EMAIL || "Marketing Powered <onboarding@resend.dev>";
+      env("LEADS_FROM_EMAIL") || "Marketing Powered <onboarding@resend.dev>";
 
     const entries = Object.entries(data).filter(([k]) => k !== "source");
     const rows = entries

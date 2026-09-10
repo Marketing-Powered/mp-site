@@ -11,7 +11,9 @@ const FILE = "company/contact.md";
 export const metadata = pageMetadata(FILE);
 
 const DETAILS = [
-  { label: "Call", value: s.brand.phone, href: `tel:${s.brand.phone.replace(/[^0-9+]/g, "")}` },
+  // E.164 with country code — the derived form dropped the +1 and could fail
+  // for callers outside the US.
+  { label: "Call", value: s.brand.phone, href: `tel:${s.brand.phoneE164}` },
   { label: "Email", value: s.brand.email, href: `mailto:${s.brand.email}` },
   { label: "Visit", value: s.brand.address },
 ];

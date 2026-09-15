@@ -13,9 +13,9 @@ import { useEffect } from "react";
    offset is adopted onto the shadow root instead.
 
    Three deliberate choices in the CSS below:
-   - `margin-bottom` rather than `bottom`/`transform`. It stacks on whatever
-     bottom offset the vendor ships at any breakpoint, and leaves `transform`
-     free for the widget's own open/close animation.
+   - `translate` rather than an offset property, so the lift is composited
+     instead of relaying out the launcher on every frame of the vendor's
+     transition.
    - the lift applies only while the widget is closed. The open panel is sized
      against the viewport and already reaches close to the top edge on a short
      screen, so raising it too would clip the composer off the bottom.
@@ -31,17 +31,29 @@ const LIFT_CSS = `
      StickyMobileCta. The fallback is what a page without that bar gets. */
   --mp-chat-lift: var(--mp-chat-lift-outer, 0px);
 }
-#lc_text-widget:not(.lc_text-widget--active),
+/* Move with \`translate\`, not an offset property. The vendor ships
+   \`transition: all\` on these, so animating margin or bottom re-lays the
+   launcher out every frame and registers as layout shift — measured CLS 0.25
+   on mobile, where the lift changes as the CTA bar comes and goes. Translation
+   is composited and costs nothing. \`translate\` is its own property in CSS, so
+   this also leaves \`transform\` free for the widget's own animation.
+
+   Applied to the launcher and the greeting bubble individually, never to
+   #lc_text-widget: the launcher is a position:fixed child of that wrapper, so
+   transforming the wrapper would make it the launcher's containing block. */
+#lc_text-widget:not(.lc_text-widget--active) .lc_text-widget--prompt,
 #lc_text-widget--btn:not(.active) {
-  margin-bottom: var(--mp-chat-lift) !important;
+  translate: 0 calc(-1 * var(--mp-chat-lift)) !important;
 }
 /* The closed wrapper is a 301x150 box whose visible greeting bubble is only
    the top 72px — the rest is transparent but still swallows clicks meant for
-   the page underneath. Hand pointer events back to the bubble alone. */
+   the page underneath. Hand events back to the two things that want them; the
+   launcher needs restoring explicitly because it is nested inside. */
 #lc_text-widget:not(.lc_text-widget--active) {
   pointer-events: none !important;
 }
-#lc_text-widget:not(.lc_text-widget--active) .lc_text-widget--prompt {
+#lc_text-widget:not(.lc_text-widget--active) .lc_text-widget--prompt,
+#lc_text-widget:not(.lc_text-widget--active) #lc_text-widget--btn {
   pointer-events: auto !important;
 }
 /* globals.css can't reach past the shadow boundary, so the reduced-motion
@@ -97,20 +109,32 @@ export default function ChatWidgetPlacement() {
 
     if (tryApply()) return undefined;
 
-    // Attaching a shadow root is invisible to an outer MutationObserver, so
-    // back the observer with a bounded poll: the widget stamps `hydrated` on
-    // the host only once its shadow content exists.
+    /* Attaching a shadow root is invisible to an outer MutationObserver, so
+       back the observer with a poll. It runs every frame at first — the shadow
+       root shows up within a few hundred ms of the element and the launcher
+       paints right after, so a coarse interval risks the visitor seeing it in
+       the wrong place — then drops to a slow tick that keeps re-asserting the
+       sheet in case the widget ever replaces its adoptedStyleSheets. */
     const observer = new MutationObserver(() => check());
-    const poll = window.setInterval(() => check(), 250);
+    let fast: number | undefined = window.setInterval(() => check(), 50);
+    let slow: number | undefined;
     const giveUp = window.setTimeout(() => stop(), 30000);
 
     const stop = () => {
       observer.disconnect();
-      window.clearInterval(poll);
+      window.clearInterval(fast);
+      window.clearInterval(slow);
       window.clearTimeout(giveUp);
     };
     const check = () => {
-      if (tryApply()) stop();
+      if (!tryApply()) return;
+      // Applied. Stand the expensive watchers down, keep a cheap re-assert.
+      observer.disconnect();
+      if (fast !== undefined) {
+        window.clearInterval(fast);
+        fast = undefined;
+        slow = window.setInterval(() => tryApply(), 1000);
+      }
     };
 
     observer.observe(document.body, {

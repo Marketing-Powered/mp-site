@@ -6,6 +6,7 @@ import { Logo } from "@/components/brand";
 import { mono } from "./theme";
 import { ModalCta } from "./LeadModal";
 import { CallCta } from "./ui";
+import { FloatingCallButton, MobileCallButton } from "./MobileCallButton";
 
 const PRIMARY_NAV = [
   {
@@ -143,6 +144,12 @@ export default function Nav() {
           <span className="hidden md:inline-flex">
             <CallCta variant="bare" />
           </span>
+          {/* Below md the number itself doesn't fit, so the header carries the
+              tap-to-call glyph on its own — visibility on the wrapper, same
+              reason as above. */}
+          <span className="md:hidden">
+            <MobileCallButton />
+          </span>
           <ModalCta
             href="/get-started/request-an-audit"
             className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
@@ -201,10 +208,12 @@ export default function Nav() {
             >
               Request Audit
             </ModalCta>
-            <CallCta variant="ghost" className="justify-center" />
+            <CallCta className="justify-center" />
           </div>
         </div>
       )}
+
+      <FloatingCallButton suppressed={mobileOpen} />
     </header>
   );
 }

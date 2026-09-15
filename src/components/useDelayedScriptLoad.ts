@@ -2,7 +2,13 @@
 
 import { useEffect, useState } from "react";
 
-export default function useDelayedScriptLoad(delayMs: number) {
+/* Gate for third-party scripts: returns false until `delayMs` has passed (or
+   the visitor interacts, whichever comes first), then true.
+
+   `idleTimeoutMs` bounds the requestIdleCallback that follows the delay, so a
+   busy main thread can only push the load that much further out. Keep it small
+   for scripts whose UI the visitor is meant to see early. */
+export default function useDelayedScriptLoad(delayMs: number, idleTimeoutMs = 3000) {
   const [shouldLoad, setShouldLoad] = useState(false);
 
   useEffect(() => {
@@ -19,7 +25,7 @@ export default function useDelayedScriptLoad(delayMs: number) {
 
     const loadWhenIdle = () => {
       if (typeof window.requestIdleCallback === "function") {
-        idleId = window.requestIdleCallback(load, { timeout: 3000 });
+        idleId = window.requestIdleCallback(load, { timeout: idleTimeoutMs });
       } else {
         load();
       }
@@ -38,7 +44,7 @@ export default function useDelayedScriptLoad(delayMs: number) {
       window.removeEventListener("pointerdown", load);
       window.removeEventListener("keydown", load);
     };
-  }, [delayMs, shouldLoad]);
+  }, [delayMs, idleTimeoutMs, shouldLoad]);
 
   return shouldLoad;
 }

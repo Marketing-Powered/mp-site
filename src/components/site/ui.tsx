@@ -120,16 +120,17 @@ export function PhoneIcon({ className = "" }: { className?: string }) {
    conversion path that doesn't depend on form delivery, so this is worth
    carrying everywhere the audit CTA goes.
 
-   `solid` matches PrimaryCta's weight; `ghost` matches GhostCta and is the
-   right choice standing next to a primary button; `bare` is an unboxed
-   icon+number for places where a second pill would flatten the hierarchy
-   (the nav bar, the footer contact block). */
+   `solid` is filled in the same gradient as the form-fill buttons: calling and
+   submitting the audit form are both primary conversion paths, and an outlined
+   pill next to a filled one reads as the lesser option. `bare` is an unboxed
+   icon+number for places where a second pill would flatten the hierarchy (the
+   nav bar, the footer contact block). */
 export function CallCta({
-  variant = "ghost",
+  variant = "solid",
   showNumber = true,
   className = "",
 }: {
-  variant?: "solid" | "ghost" | "bare";
+  variant?: "solid" | "bare";
   showNumber?: boolean;
   className?: string;
 }) {
@@ -138,11 +139,9 @@ export function CallCta({
       ? "group relative inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] transition-colors"
       : "group relative inline-flex items-center gap-2.5 overflow-hidden rounded-full text-[12px] uppercase tracking-[0.18em] transition-colors";
   const skin =
-    variant === "solid"
-      ? "bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 font-semibold text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)]"
-      : variant === "bare"
-        ? "text-white/70 hover:text-[#7FCBFF]"
-        : "border border-white/15 px-6 py-3.5 text-white/80 hover:text-black";
+    variant === "bare"
+      ? "text-white/70 hover:text-[#7FCBFF]"
+      : "bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 font-semibold text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)]";
 
   return (
     <a
@@ -151,9 +150,6 @@ export function CallCta({
       aria-label={`Call Marketing Powered at ${s.brand.phone}`}
       data-cta="call"
     >
-      {variant === "ghost" && (
-        <span className="absolute inset-0 -z-0 translate-y-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] transition-transform duration-300 group-hover:translate-y-0" />
-      )}
       <PhoneIcon className="relative z-10 shrink-0" />
       <span className="relative z-10 whitespace-nowrap">
         {showNumber ? s.brand.phone : "Call Us"}

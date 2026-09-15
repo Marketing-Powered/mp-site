@@ -239,7 +239,7 @@ export default function Design1() {
                   →
                 </span>
               </ModalCta>
-              <CallCta variant="ghost" />
+              <CallCta />
               <span
                 className="text-[12px] uppercase tracking-[0.22em] text-white/40"
                 style={{ fontFamily: mono }}

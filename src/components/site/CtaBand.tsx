@@ -38,7 +38,7 @@ export default function CtaBand({
           <p className="mx-auto mt-7 max-w-xl leading-relaxed text-white/55">{body}</p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <PrimaryCta href={ctaLink}>{ctaText}</PrimaryCta>
-            <CallCta variant="ghost" />
+            <CallCta />
             {secondaryCta && <GhostCta href={secondaryCta.link}>{secondaryCta.text}</GhostCta>}
           </div>
           {emailLink && (

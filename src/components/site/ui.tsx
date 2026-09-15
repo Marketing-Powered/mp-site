@@ -5,6 +5,11 @@ import { resolveLink } from "@/lib/links";
 import { siteContent as s } from "@/lib/content";
 import { ModalCta } from "./LeadModal";
 
+/* Keyboard focus ring. The site otherwise leans on the UA default, which is a
+   blue halo — all but invisible on the brand's blue fills in some browsers. */
+export const FOCUS_RING =
+  "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white";
+
 /* Gradient hairline rule used throughout the design system */
 export function GoldRule({ className = "" }: { className?: string }) {
   return (
@@ -134,26 +139,27 @@ export function CallCta({
   showNumber?: boolean;
   className?: string;
 }) {
-  const base =
-    variant === "bare"
-      ? "group relative inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] transition-colors"
-      : "group relative inline-flex items-center gap-2.5 overflow-hidden rounded-full text-[12px] uppercase tracking-[0.18em] transition-colors";
+  const base = `inline-flex items-center rounded-full text-[12px] uppercase tracking-[0.18em] transition ${FOCUS_RING}`;
   const skin =
     variant === "bare"
-      ? "text-white/70 hover:text-[#7FCBFF]"
-      : "bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 font-semibold text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)]";
+      ? "gap-2 text-white/70 hover:text-[#7FCBFF]"
+      : "gap-2.5 bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 font-semibold text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)] hover:brightness-110 active:translate-y-px active:brightness-95";
+
+  // Voice control activates a control by its visible text, so when the label
+  // reads "Call Us" the accessible name has to start with those same words.
+  const label = showNumber
+    ? `Call Marketing Powered at ${s.brand.phone}`
+    : `Call Us: Marketing Powered at ${s.brand.phone}`;
 
   return (
     <a
       href={`tel:${s.brand.phoneE164}`}
       className={`${base} ${skin} ${className}`}
-      aria-label={`Call Marketing Powered at ${s.brand.phone}`}
+      aria-label={label}
       data-cta="call"
     >
-      <PhoneIcon className="relative z-10 shrink-0" />
-      <span className="relative z-10 whitespace-nowrap">
-        {showNumber ? s.brand.phone : "Call Us"}
-      </span>
+      <PhoneIcon className="shrink-0" />
+      <span className="whitespace-nowrap">{showNumber ? s.brand.phone : "Call Us"}</span>
     </a>
   );
 }

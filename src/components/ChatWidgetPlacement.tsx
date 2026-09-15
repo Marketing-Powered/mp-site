@@ -30,6 +30,15 @@ const LIFT_CSS = `
 #lc_text-widget--btn:not(.active) {
   margin-bottom: var(--mp-chat-lift) !important;
 }
+/* globals.css can't reach past the shadow boundary, so the reduced-motion
+   opt-out has to be restated here: the lift rides the vendor's own
+   all-property transition and would otherwise animate regardless. */
+@media (prefers-reduced-motion: reduce) {
+  #lc_text-widget,
+  #lc_text-widget--btn {
+    transition: none !important;
+  }
+}
 `;
 
 const STYLE_MARKER = "data-mp-chat-placement";

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { siteContent as s } from "@/lib/content";
-import { PhoneIcon } from "./ui";
+import { FOCUS_RING, PhoneIcon } from "./ui";
 
 /* Icon-only tap-to-call button for phones.
 
@@ -20,7 +20,7 @@ export function MobileCallButton({ className = "" }: { className?: string }) {
       href={`tel:${s.brand.phoneE164}`}
       aria-label={`Call Marketing Powered at ${s.brand.phone}`}
       data-cta="call"
-      className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] text-black shadow-[0_8px_26px_-10px_rgba(0,144,240,0.95)] ${className}`}
+      className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] text-black shadow-[0_8px_26px_-10px_rgba(0,144,240,0.95)] transition hover:brightness-110 active:translate-y-px active:brightness-95 ${FOCUS_RING} ${className}`}
     >
       <PhoneIcon className="h-[17px] w-[17px]" />
     </a>
@@ -42,9 +42,14 @@ export function FloatingCallButton({ suppressed = false }: { suppressed?: boolea
   const visible = pastHeader && !suppressed;
 
   return (
+    /* `invisible` rather than opacity alone: a transparent link is still in the
+       tab order, and focus would land on nothing a sighted keyboard user can
+       see. visibility still animates. */
     <div
       className={`fixed right-4 z-50 transition-all duration-300 md:hidden ${
-        visible ? "translate-y-0 opacity-100" : "pointer-events-none -translate-y-3 opacity-0"
+        visible
+          ? "visible translate-y-0 opacity-100"
+          : "invisible pointer-events-none -translate-y-3 opacity-0"
       }`}
       style={{ top: "calc(env(safe-area-inset-top, 0px) + 0.75rem)" }}
     >

@@ -17,9 +17,12 @@ import useDelayedScriptLoad from "@/components/useDelayedScriptLoad";
 
 const CHAT_DELAY_MS = 12000;
 
-// Same widget id this site has always used; changing it re-points the chat at
-// a different GHL inbox.
-const WIDGET_ID = "69eafedccbb9f443ce9942a0";
+// "MP Live Chat v1" (GHL chat type: Live chat). Real-time human chat that lands
+// in Conversations and pushes to both operators' LeadConnector phone apps.
+// Replaced the SMS/Email-type "A2P Compliance Chat Widget Marketing"
+// (69eafedccbb9f443ce9942a0), which only collected a callback form. Changing
+// this id re-points the chat at a different GHL widget.
+const WIDGET_ID = "6aa8b75df095905710ea77b4";
 
 export default function DelayedLeadConnector() {
   const shouldLoad = useDelayedScriptLoad(CHAT_DELAY_MS);

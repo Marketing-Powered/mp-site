@@ -1,16 +1,24 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
+import { Bolt, brand } from "@/components/brand";
 import { siteContent as s } from "@/lib/content";
 import { FOCUS_RING, PhoneIcon } from "./ui";
 
-/* Icon-only tap-to-call button for phones.
+/* Tap-to-call for phones.
 
-   The nav's number only renders from md up, so on a phone there was nothing to
-   call from anywhere near the top of the page. `MobileCallButton` sits in the
-   header beside the menu toggle; `FloatingCallButton` re-pins the same button
-   to the top-right corner once the header has scrolled away, so the number
-   follows the visitor down the page instead of disappearing after the fold. */
+   The nav's number only renders from md up, so below that there was nothing to
+   call from anywhere near the top of the page. `MobileCallButton` is the glyph
+   itself, which sits in the header beside the menu toggle. `StickyCallBar` is
+   a condensed copy of the header that slides in once the real one has scrolled
+   away, so the number follows the visitor down the page.
+
+   The bar is deliberately a full-width opaque strip rather than a floating
+   button. A 44px circle pinned over the content column steals taps from
+   whatever sits beneath it — measured against FAQ toggles, card links and
+   headings on most routes — whereas a solid bar is unambiguous chrome that
+   content scrolls under. */
 
 const SHOW_AFTER_PX = 120;
 
@@ -20,14 +28,14 @@ export function MobileCallButton({ className = "" }: { className?: string }) {
       href={`tel:${s.brand.phoneE164}`}
       aria-label={`Call Marketing Powered at ${s.brand.phone}`}
       data-cta="call"
-      className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0090F0] text-black shadow-[0_8px_26px_-10px_rgba(0,144,240,0.95)] transition hover:brightness-110 active:translate-y-px active:brightness-95 ${FOCUS_RING} ${className}`}
+      className={`inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#0090F0] text-black shadow-[0_8px_26px_-10px_rgba(0,144,240,0.95)] transition hover:brightness-110 active:translate-y-px active:brightness-95 ${FOCUS_RING} ${className}`}
     >
-      <PhoneIcon className="h-[17px] w-[17px]" />
+      <PhoneIcon className="h-[18px] w-[18px]" />
     </a>
   );
 }
 
-export function FloatingCallButton({ suppressed = false }: { suppressed?: boolean }) {
+export function StickyCallBar({ suppressed = false }: { suppressed?: boolean }) {
   const [pastHeader, setPastHeader] = useState(false);
 
   useEffect(() => {
@@ -37,34 +45,34 @@ export function FloatingCallButton({ suppressed = false }: { suppressed?: boolea
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // `suppressed` is the open mobile drawer: the drawer hangs off the header, so
-  // a pinned button would sit on top of its links.
   const visible = pastHeader && !suppressed;
 
   return (
-    /* `invisible` rather than opacity alone: a transparent link is still in the
-       tab order, and focus would land on nothing a sighted keyboard user can
-       see. visibility still animates. */
     <div
-      className={`fixed right-4 z-50 transition-all duration-300 md:hidden ${
-        visible
-          ? "visible translate-y-0 opacity-100"
-          : "invisible pointer-events-none -translate-y-3 opacity-0"
+      className={`fixed inset-x-0 top-0 z-40 border-b border-white/10 backdrop-blur-xl transition-transform duration-300 md:hidden ${
+        visible ? "translate-y-0" : "-translate-y-full"
       }`}
-      style={{ top: "calc(env(safe-area-inset-top, 0px) + 0.75rem)" }}
+      style={{
+        background: "rgba(5,11,22,0.94)",
+        paddingTop: "env(safe-area-inset-top, 0px)",
+      }}
+      /* While it's off-screen nothing inside should be tabbable or announced. */
+      inert={!visible}
     >
-      {/* Soft scrim so running text fades out beneath the button rather than
-          colliding with its edge — at phone widths the content column reaches
-          almost to the button. */}
-      <span
-        aria-hidden
-        className="pointer-events-none absolute -inset-5 -z-10 rounded-full"
-        style={{
-          background:
-            "radial-gradient(circle, rgba(5,11,22,0.94) 42%, rgba(5,11,22,0) 74%)",
-        }}
-      />
-      <MobileCallButton className="h-11 w-11 ring-1 ring-white/30" />
+      <div className="flex items-center justify-between px-5 py-2">
+        <Link
+          href="/"
+          prefetch={false}
+          aria-label="Marketing Powered home"
+          className={`inline-flex items-center gap-2 rounded-full ${FOCUS_RING}`}
+        >
+          <Bolt className="h-5 w-5" />
+          <span className="text-[13px] font-bold leading-none tracking-tight text-white">
+            marketing <span style={{ color: brand.blue }}>powered</span>
+          </span>
+        </Link>
+        <MobileCallButton />
+      </div>
     </div>
   );
 }

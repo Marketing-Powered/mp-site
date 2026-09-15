@@ -137,17 +137,25 @@ export function PhoneIcon({ className = "" }: { className?: string }) {
 export function CallCta({
   variant = "solid",
   showNumber = true,
+  compact = false,
   className = "",
 }: {
   variant?: "solid" | "bare";
   showNumber?: boolean;
+  /** Tighter padding and tracking, for the sticky bar where two pills share a
+      320px row and the neighbouring label would otherwise wrap. */
+  compact?: boolean;
   className?: string;
 }) {
-  const base = `inline-flex items-center rounded-full text-[12px] uppercase tracking-[0.18em] transition ${FOCUS_RING}`;
+  const base = `inline-flex items-center rounded-full text-[12px] uppercase transition ${
+    compact ? "tracking-[0.1em]" : "tracking-[0.18em]"
+  } ${FOCUS_RING}`;
   const skin =
     variant === "bare"
       ? "gap-2 text-white/70 hover:text-[#7FCBFF]"
-      : "gap-2.5 bg-[#0090F0] px-8 py-4 font-semibold text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)] hover:brightness-110 active:translate-y-px active:brightness-95";
+      : `gap-2.5 bg-[#0090F0] ${
+          compact ? "px-4 py-3.5" : "px-8 py-4"
+        } font-semibold text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)] hover:brightness-110 active:translate-y-px active:brightness-95`;
 
   // Voice control activates a control by its visible text, so when the label
   // reads "Call Us" the accessible name has to start with those same words.

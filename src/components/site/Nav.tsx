@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Logo } from "@/components/brand";
 import { mono } from "./theme";
 import { ModalCta } from "./LeadModal";
 import { CallCta } from "./ui";
-import { FloatingCallButton, MobileCallButton } from "./MobileCallButton";
+import { MobileCallButton, StickyCallBar } from "./MobileCallButton";
 
 const PRIMARY_NAV = [
   {
@@ -83,6 +83,19 @@ const PRIMARY_NAV = [
 export default function Nav() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
+
+  // The drawer is in flow and taller than a phone screen, so scrolling with it
+  // open leaves the visitor below it with no way back to the close button —
+  // and with the condensed bar suppressed for the rest of the page.
+  useEffect(() => {
+    if (!mobileOpen) return undefined;
+    const openedAt = window.scrollY;
+    const onScroll = () => {
+      if (Math.abs(window.scrollY - openedAt) > 120) setMobileOpen(false);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [mobileOpen]);
 
   return (
     <header className="relative z-40 border-b border-white/8">
@@ -161,7 +174,7 @@ export default function Nav() {
           {/* mobile toggle */}
           <button
             aria-label="Toggle menu"
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-white/80 lg:hidden"
+            className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white/80 lg:hidden"
             onClick={() => setMobileOpen((v) => !v)}
           >
             {mobileOpen ? "✕" : "☰"}
@@ -213,7 +226,7 @@ export default function Nav() {
         </div>
       )}
 
-      <FloatingCallButton suppressed={mobileOpen} />
+      <StickyCallBar suppressed={mobileOpen} />
     </header>
   );
 }

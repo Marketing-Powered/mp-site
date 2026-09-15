@@ -12,20 +12,24 @@ import { useEffect } from "react";
    launcher). Shadow encapsulation puts both out of reach of globals.css, so the
    offset is adopted onto the shadow root instead.
 
-   Two deliberate choices in the CSS below:
+   Three deliberate choices in the CSS below:
    - `margin-bottom` rather than `bottom`/`transform`. It stacks on whatever
      bottom offset the vendor ships at any breakpoint, and leaves `transform`
      free for the widget's own open/close animation.
    - the lift applies only while the widget is closed. The open panel is sized
      against the viewport and already reaches close to the top edge on a short
-     screen, so raising it too would clip the composer off the bottom. */
+     screen, so raising it too would clip the composer off the bottom.
+   - the amount comes from --mp-chat-lift-outer on the document rather than
+     being fixed here, so it can track the mobile CTA bar. The bubble and the
+     launcher have to travel together — the bubble's tail points at the
+     launcher — and the pair is 170px tall, so a constant mobile lift puts the
+     bubble over the hero's own call button. */
 
 const LIFT_CSS = `
 :host {
-  /* ~15% of the viewport, bounded at both ends: the floor clears the mobile
-     CTA bar on a short screen, the ceiling stops a tall desktop from parking
-     the greeting bubble in the middle of the reading column. */
-  --mp-chat-lift: clamp(88px, 15vh, 132px);
+  /* Set on the document by globals.css, and tracked to the mobile CTA bar by
+     StickyMobileCta. The fallback is what a page without that bar gets. */
+  --mp-chat-lift: var(--mp-chat-lift-outer, 0px);
 }
 #lc_text-widget:not(.lc_text-widget--active),
 #lc_text-widget--btn:not(.active) {

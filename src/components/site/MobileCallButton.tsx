@@ -20,7 +20,7 @@ export function MobileCallButton({ className = "" }: { className?: string }) {
       href={`tel:${s.brand.phoneE164}`}
       aria-label={`Call Marketing Powered at ${s.brand.phone}`}
       data-cta="call"
-      className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] text-black shadow-[0_8px_26px_-10px_rgba(0,144,240,0.95)] transition hover:brightness-110 active:translate-y-px active:brightness-95 ${FOCUS_RING} ${className}`}
+      className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0090F0] text-black shadow-[0_8px_26px_-10px_rgba(0,144,240,0.95)] transition hover:brightness-110 active:translate-y-px active:brightness-95 ${FOCUS_RING} ${className}`}
     >
       <PhoneIcon className="h-[17px] w-[17px]" />
     </a>
@@ -53,6 +53,17 @@ export function FloatingCallButton({ suppressed = false }: { suppressed?: boolea
       }`}
       style={{ top: "calc(env(safe-area-inset-top, 0px) + 0.75rem)" }}
     >
+      {/* Soft scrim so running text fades out beneath the button rather than
+          colliding with its edge — at phone widths the content column reaches
+          almost to the button. */}
+      <span
+        aria-hidden
+        className="pointer-events-none absolute -inset-5 -z-10 rounded-full"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(5,11,22,0.94) 42%, rgba(5,11,22,0) 74%)",
+        }}
+      />
       <MobileCallButton className="h-11 w-11 ring-1 ring-white/30" />
     </div>
   );

@@ -125,11 +125,15 @@ export function PhoneIcon({ className = "" }: { className?: string }) {
    conversion path that doesn't depend on form delivery, so this is worth
    carrying everywhere the audit CTA goes.
 
-   `solid` is filled in the same gradient as the form-fill buttons: calling and
-   submitting the audit form are both primary conversion paths, and an outlined
-   pill next to a filled one reads as the lesser option. `bare` is an unboxed
-   icon+number for places where a second pill would flatten the hierarchy (the
-   nav bar, the footer contact block). */
+   `solid` is filled in flat brand blue — the dark end of the same gradient the
+   form-fill buttons use — at the same size as PrimaryCta. Calling and
+   submitting the audit form are both primary conversion paths, so an outlined
+   pill beside a filled one read as the lesser option; two identical gradient
+   pills, on the other hand, left the row with no primary at all. Flat blue
+   gives the phone equal weight while keeping the pair legible: gradient means
+   form, flat blue means phone. `bare` is an unboxed icon+number for places
+   where a second pill would flatten the hierarchy (the nav bar, the footer
+   contact block). */
 export function CallCta({
   variant = "solid",
   showNumber = true,
@@ -143,7 +147,7 @@ export function CallCta({
   const skin =
     variant === "bare"
       ? "gap-2 text-white/70 hover:text-[#7FCBFF]"
-      : "gap-2.5 bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-7 py-3.5 font-semibold text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)] hover:brightness-110 active:translate-y-px active:brightness-95";
+      : "gap-2.5 bg-[#0090F0] px-8 py-4 font-semibold text-black shadow-[0_10px_40px_-14px_rgba(0,144,240,0.6)] hover:brightness-110 active:translate-y-px active:brightness-95";
 
   // Voice control activates a control by its visible text, so when the label
   // reads "Call Us" the accessible name has to start with those same words.

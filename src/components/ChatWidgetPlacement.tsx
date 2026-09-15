@@ -22,13 +22,23 @@ import { useEffect } from "react";
 
 const LIFT_CSS = `
 :host {
-  /* ~15% of the viewport, bounded so the launcher neither collides with the
-     mobile CTA bar on short screens nor floats mid-page on tall ones. */
-  --mp-chat-lift: clamp(80px, 15vh, 180px);
+  /* ~15% of the viewport, bounded at both ends: the floor clears the mobile
+     CTA bar on a short screen, the ceiling stops a tall desktop from parking
+     the greeting bubble in the middle of the reading column. */
+  --mp-chat-lift: clamp(88px, 15vh, 132px);
 }
 #lc_text-widget:not(.lc_text-widget--active),
 #lc_text-widget--btn:not(.active) {
   margin-bottom: var(--mp-chat-lift) !important;
+}
+/* The closed wrapper is a 301x150 box whose visible greeting bubble is only
+   the top 72px — the rest is transparent but still swallows clicks meant for
+   the page underneath. Hand pointer events back to the bubble alone. */
+#lc_text-widget:not(.lc_text-widget--active) {
+  pointer-events: none !important;
+}
+#lc_text-widget:not(.lc_text-widget--active) .lc_text-widget--prompt {
+  pointer-events: auto !important;
 }
 /* globals.css can't reach past the shadow boundary, so the reduced-motion
    opt-out has to be restated here: the lift rides the vendor's own

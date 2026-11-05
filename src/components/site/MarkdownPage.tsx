@@ -142,7 +142,7 @@ export default function MarkdownPage({
             <div className="relative">
               <ImageSlot
                 label="Hero Banner"
-                ratio="16 / 9"
+                ratio={heroImg?.ratio ?? "16 / 9"}
                 src={heroImg?.src}
                 alt={heroImg?.alt}
                 fit={heroImg?.fit}
@@ -195,14 +195,22 @@ export default function MarkdownPage({
                 const label = slotLabels[slotCount % slotLabels.length];
                 const sectionImg = imgs[1 + slotCount];
                 slotCount++;
+                // Pages deliberately carry fewer images than slots (max two
+                // per guide); an empty slot renders nothing rather than a
+                // dashed placeholder.
+                if (!sectionImg) return null;
+                const ratio = sectionImg.ratio ?? "16 / 9";
+                const narrow = ratio !== "16 / 9";
                 return (
-                  <div className="mx-auto max-w-5xl px-6 py-8 lg:px-12">
+                  <div
+                    className={`mx-auto px-6 py-8 lg:px-12 ${narrow ? "max-w-xl" : "max-w-5xl"}`}
+                  >
                     <ImageSlot
                       label={label}
-                      ratio="16 / 9"
-                      src={sectionImg?.src}
-                      alt={sectionImg?.alt}
-                      fit={sectionImg?.fit}
+                      ratio={ratio}
+                      src={sectionImg.src}
+                      alt={sectionImg.alt}
+                      fit={sectionImg.fit}
                     />
                   </div>
                 );

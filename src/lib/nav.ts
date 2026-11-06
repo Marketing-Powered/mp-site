@@ -36,6 +36,9 @@ export const NAV: {
       { label: "AI Governance", href: "/ai-edge/ai-governance" },
       { label: "Data Sovereignty", href: "/ai-edge/data-sovereignty" },
       { label: "Social Media", href: "/ai-edge/social-media" },
+      { label: "Customizable AI", href: "/ai-edge/customizable-ai" },
+      { label: "Local Processing", href: "/ai-edge/local-processing" },
+      { label: "Open Source", href: "/ai-edge/open-source" },
     ],
   },
   {
@@ -55,6 +58,7 @@ export const NAV: {
       { label: "Tele-Mental Health", href: "/who-we-help/mental-health/tele-mental-health" },
       { label: "Psychiatric Practices", href: "/who-we-help/mental-health/psychiatric-practices" },
       { label: "Adolescent Mental Health", href: "/who-we-help/mental-health/adolescent-mental-health" },
+      { label: "Hospitals & Health Systems", href: "/who-we-help/hospitals-and-health-systems" },
     ],
   },
   {

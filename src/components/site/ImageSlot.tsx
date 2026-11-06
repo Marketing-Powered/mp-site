@@ -36,7 +36,7 @@ export default function ImageSlot({
         >
           <Image
             src={src}
-            alt={alt || label}
+            alt={alt ?? label}
             fill
             quality={72}
             sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 60vw"

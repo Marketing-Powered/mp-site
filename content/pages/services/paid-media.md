@@ -1,114 +1,123 @@
 ---
-title: "Top Paid Media Agency for Behavioral Health"
+title: "Paid Media Management for Healthcare | Marketing Powered"
 url: "/services/paid-media/"
 primary_keyword: "paid media management"
-secondary_keywords: "ppc management, healthcare paid media"
+secondary_keywords: "healthcare paid media, ppc management"
 target_word_count: "1200-1800"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT
-This page targets /services/paid-media/ with primary keyword 'paid media agency' and secondary keywords 'ppc agency,' 'paid media management,' and 'ppc management agency.' Word count target is 1,200-1,800 words. Page type: Service page (core revenue). Buyer target: CEO, COO, or VP of Business Development at a behavioral health treatment center evaluating partners who understand the healthcare vertical and can deliver compliant, high-quality leads.
+This page targets /services/paid-media/ with primary keyword 'paid media management' and secondary keywords 'healthcare paid media' and 'ppc management'. Word count target is 1200-1800 words. Page type: service page (core revenue). Buyer target: CEO, CMO, or VP of Marketing at a hospital, health system, multi-location organization, or behavioral health or mental health provider evaluating a paid media partner. Revised November 6, 2026 against the Homepage Copy and Implementation Package (source audit W04: broaden positioning, attribute historical spend correctly, use conversion value per cost, remove assurance language and audience-following implications).
 Page type: Service Page
-Buyer target: CEO, COO, or VP of Business Development at a behavioral health treatment center
+Buyer target: CEO, CMO, or VP of Marketing at a healthcare or multi-location organization
 Word count target: 1200-1800 words
 
 
 SEO METADATA
-Title tag (44 chars): Top Paid Media Agency for Behavioral Health
-Meta description (65 chars): Paid media management for behavioral and mental health: $50M+ managed with compliance discipline, creative testing, and admission attribution.
-H1: Your Go-To Paid Media Agency for Results
-Hero image alt: Marketing Powered paid media agency dashboard showing behavioral health campaign performance metrics and attribution data
+Title tag (56 chars): Paid Media Management for Healthcare | Marketing Powered
+Meta description (150 chars): Paid media for healthcare and multi-location organizations: qualified demand, conversion value per cost, and campaigns built within platform policies.
+H1: Paid Media Management Built Around Conversion Value
+Hero image alt: Decorative (empty alt)
 
 
 PAGE COPY
 
 
-Your Go-To Paid Media Agency for Results
-Operator-backed paid media management for behavioral health and mental health treatment centers. $50M+ managed with full attribution from ad to admission.
-[CTA] Book a Discovery Call
+Paid Media Management Built Around Conversion Value
+Marketing Powered manages paid media for healthcare and multi-location organizations, with behavioral health and mental health as named specialties. We evaluate campaign economics alongside lead quality and the capacity of the operation behind the campaign.
+[CTA] Request a Free Audit
 
 
-Why Choose Our Paid Media Services
-Finding a paid media agency that understands behavioral health is harder than it should be. Most agencies treat treatment centers like any other lead generation client. They optimize for form fills, celebrate low CPCs, and never ask whether those leads actually converted to admissions. That approach burns budget and frustrates intake teams.
-Marketing Powered operates differently. Our founder built and managed operator-side multi-market growth, managing acquisitions from the inside. That operator experience shapes every campaign we run. We understand the compliance constraints that come with [behavioral health services](/who-we-help/behavioral-health), the intake workflows that determine whether a lead becomes an admission, and the financial realities of census-driven businesses.
-
-
-Our team has managed over $50M in behavioral health and mental health media spend. We hold ourselves accountable to admission-level attribution, not vanity metrics. When you work with a PPC agency that has spent years inside the vertical, you get campaigns built for how treatment centers actually operate.
-Compliance awareness is built into our process. We maintain LegitScript certification awareness and design campaigns that respect [Google Ads healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) restrictions. Behavioral health advertising requires understanding what you cannot do: no retargeting, no prohibited claims, no shortcuts that put your accounts at risk. We have operated under these constraints at scale and know how to generate volume within them.
-Our Proven Approach
-Paid media management for behavioral health requires more than a bidding strategy. It requires understanding the patient journey from first click through admission and tracking every step along the way.
-We build campaigns around admission-level attribution. That means connecting ad spend to actual census impact, not just call volume or form submissions. Our systems track attribution through to admission so you can see which channels, campaigns, and keywords produce patients who complete intake. This level of visibility changes how you allocate budget.
-Our approach starts with your intake capacity and works backward. We map your admissions funnel, identify where leads drop off, and build campaigns that account for real conversion rates at each stage. If your intake team converts 15% of [qualified calls](/problems/increase-qualified-calls), we build media plans and pacing around that number, not around hypothetical benchmarks from other industries.
-* Full-funnel attribution from ad impression through admission
-* Real-time budget pacing tied to intake capacity and census goals
-* Multi-variant optimization across landing pages to improve conversion rates
-* Continuous creative testing within compliance boundaries
-* Weekly reporting with admission-level metrics, not just platform data
-[CTA] Book a Discovery Call
-Comprehensive Paid Media Management
-Our paid media management covers every channel that drives admissions for treatment centers. We build integrated strategies across search, display, and social, with each channel serving a specific role in your acquisition mix.
-Google Ads remains the highest-intent channel for behavioral health. We manage $1.5M to $2M monthly in Google Ads across our client portfolio, with deep experience in the sensitive vertical requirements that govern healthcare advertising. Our campaigns target high-intent searches while maintaining full compliance with [Google's healthcare and medicines advertising policies](https://support.google.com/adspolicy/answer/176031). Meta Advertising requires careful navigation in behavioral health. We build awareness and consideration campaigns that respect platform restrictions while still reaching families and individuals researching treatment options. 
-
-
-Our creative strategies work within the boundaries that [Meta's restricted content policies](https://www.facebook.com/policies/ads/) establish for health-related advertising.
-Programmatic Display extends your reach to relevant audiences through contextual targeting. Since behavioral retargeting is prohibited in the healthcare vertical, we focus on contextual placements and first-party audience strategies that maintain compliance while expanding your visibility.
-We tailor strategies for specific treatment modalities. Campaigns for [inpatient treatment marketing](/who-we-help/behavioral-health/inpatient) look different from [outpatient marketing strategies](/who-we-help/behavioral-health/outpatient). [Dual diagnosis treatment](/who-we-help/behavioral-health/dual-diagnosis) programs require messaging that addresses co-occurring conditions appropriately. We build campaigns that reflect your clinical specialties and service mix.
-Results-Oriented Campaigns
-Campaign performance in behavioral health cannot be measured by standard agency metrics. Cost per click and click-through rate tell you almost nothing about whether your media spend is generating admissions.
-We monitor campaign performance through admission-level metrics. Cost per admission, admission rate by channel, and lifetime value by acquisition source give you the visibility to make informed budget decisions. Our reporting connects platform data to your intake outcomes so you can see which investments actually move census.
-Optimization happens continuously. We test ad copy, landing page variants, audience segments, and bidding strategies on a weekly cycle. Our [AI in healthcare marketing](/ai-edge) infrastructure enables faster iteration and more sophisticated testing than traditional agency approaches allow. Multi-variant optimization routes each visitor to the landing page variant most likely to convert based on real-time performance data.
-
-
-We also monitor for compliance drift. Platform policies change, account reviews happen, and ads that ran yesterday can get flagged tomorrow. Our team stays current with [LegitScript advertising certification requirements](https://www.legitscript.com/certification/) and platform policy updates so your campaigns remain compliant as the regulatory environment shifts.
-* Weekly optimization cycles with documented test results
-* Admission-level reporting tied to intake data
-* Compliance monitoring for policy changes and account health
-* Predictive budget pacing based on historical conversion rates
-Client Success Stories
-Our track record includes scaling treatment organizations from regional operators to multi-state networks. A multi-location behavioral health organization expanded across multiple markets with Marketing Powered's founder leading the acquisition strategy from the inside. That experience, building paid acquisition systems that could support 8x facility growth, informs how we approach every client engagement.
-We have managed paid media for treatment centers across the continuum of care: detox, residential, PHP, IOP, and outpatient. Our [case studies of success](/results/case-studies) document specific outcomes, including cost per admission reductions, lead quality improvements, and census growth achieved through disciplined paid media management.
-The court-certified marketing expert credential our founder holds reflects the depth of expertise we bring to client work. When your paid media strategy needs to withstand scrutiny, you want a team that has operated at scale in your vertical and understands what responsible growth looks like.
-
-
-Ready to Discuss Your Paid Media Strategy?
-Book a discovery call to talk through your current performance, compliance requirements, and growth goals. We will share how our approach to paid media management delivers qualified admissions for behavioral health organizations.
-[CTA] Book a Discovery Call
+What Our Paid Media Work Covers
+Paid media is the acquisition layer of a connected marketing system. We plan, build, and manage campaigns across search, social, video, and programmatic placements, and we connect them to the landing pages, tracking, and reporting that decide whether a click becomes a qualified inquiry.
+Our working metric is conversion value per cost, where higher is better. That means defining what a conversion is worth to the organization (an inquiry, a qualified inquiry, a scheduled visit, an admission) and judging campaigns against that value, not only against cost per click or cost per lead.
+We also plan around operating capacity. A campaign that produces more qualified demand than intake or scheduling can absorb wastes money and frustrates staff. Pacing follows capacity.
+A paid media engagement with Marketing Powered typically includes:
+* An audit of existing accounts: structure, policy exposure, conversion tracking, landing pages, and the economics of current spend.
+* A media plan by channel, service line, and location, with conversion definitions and values agreed before launch.
+* Campaign build and ongoing management, including bids, budgets, creative rotation, and exclusions.
+* Landing page and creative testing with documented results.
+* Reporting that connects spend to acquisition quality, conversion, and downstream outcomes where the data supports it.
+Experience Managing Substantial Budgets
+Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend.
+That responsibility meant living with the consequences of media decisions: intake capacity, benefits mix, market differences, and the gap between a lead and an admission. That is prior executive experience, not agency client work. It shapes how we structure campaigns, what we measure, and what we tell you about the limits of the data.
+Channels and How We Use Them
+### Search
+Search captures demand at the moment someone is looking. We structure campaigns by service line and location, write ads that describe the actual service, and build landing pages that answer the query. Our [Google Ads management](/services/google-ads-management) page covers the detail, and we run Microsoft Advertising where the audience justifies it.
+### Social and video
+Meta campaigns build awareness and consideration where platform policies allow, with creative that explains the service plainly. YouTube supports consideration for services with longer decision cycles. Our [Meta Ads management](/services/meta-ads-management) page describes the approach.
+### Programmatic and contextual placements
+Contextual placements extend reach for appropriate services without relying on audience tracking. We use them where the economics support it, not by default.
+### Landing pages and testing
+Campaign performance depends on the page after the click. We build and test landing pages as part of the engagement. Our [landing page optimization](/services/landing-page-optimization) work uses machine learning to route visitors among variants, with conversion performance guiding the testing.
+Campaigns Built Within Platform Policies
+Healthcare advertising is governed by platform policies that define what can be promoted, how, and to whom. [Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) and [Meta's advertising standards](https://www.facebook.com/policies/ads/) restrict remarketing and certain targeting for sensitive health categories, and we do not use those tactics for them.
+We build campaigns within those policies from the start, review ad copy and landing pages against them before launch, and monitor policy changes so adjustments happen before delivery is affected. Where a platform requires an advertiser certification for a category, that certification is the advertiser's to hold. We help clients understand and meet the requirements.
+We do not promise that any account is immune from review or disapproval. We do commit to building within the rules, documenting decisions, and responding quickly when a platform asks questions.
+Specialties Within a Broader Practice
+### Behavioral health and addiction treatment
+Our founder's operator experience informs [behavioral health marketing](/who-we-help/behavioral-health): admissions, intake, acquisition economics, and the constraints surrounding sensitive services. Campaigns for [residential treatment](/who-we-help/behavioral-health/residential-treatment) differ from outpatient programs, and [dual diagnosis](/who-we-help/behavioral-health/dual-diagnosis) programs need messaging that addresses co-occurring conditions accurately.
+### Hospitals, health systems, and multi-location organizations
+The same disciplines apply across service lines and locations: shared standards, local relevance, budget allocation by performance and capacity, and reporting leadership can compare. Our [multi-location marketing](/problems/scale-multi-location-campaigns) page covers the structure.
+[CTA] Request a Free Audit
+Measurement and Reporting
+We connect campaign data, call tracking, and CRM records to examine what happens after the inquiry, where the available data supports it. [Intake attribution](/services/call-tracking-and-intake-attribution) and our [analytics and attribution](/services/analytics-and-attribution) work define conversions consistently and handle identifiers and deduplication.
+We propose weekly operating checks and a monthly executive review, with the cadence defined in your engagement. Reporting covers spend, acquisition quality, conversion, and the next decisions. We distinguish measured outcomes from estimates and explain gaps rather than presenting incomplete tracking as certainty.
+Optimization follows the same rhythm: budget pacing against capacity, bid and structure adjustments, creative and landing page tests with documented results, and policy monitoring.
+Budget decisions are recorded with their reasoning. When we move spend between channels, service lines, or locations, you can see the data behind the move and the result we expected. If the expected result does not arrive, the next review says so and explains what changes.
+How This Fits the Rest of Your Marketing
+Paid media is one of the [connected services](/#services) we deliver: acquisition, visibility, websites, creative, optimization, measurement, and automation planned as one system. Your paid media strategy should fit your website structure, your intake process, and your reporting, not sit beside them.
+Start With Your Current Accounts
+Request an audit of your paid media. We will review account structure, policy exposure, landing pages, tracking, and the economics of what you are buying, and tell you where conversion value per cost can improve.
+[CTA] Request a Free Audit
 FAQ
-Q: What sets your PPC agency apart?
-A: Our founder built and scaled a behavioral health organization through multi-market growth, managing acquisition from the operator side. That experience, combined with over $50M in managed BH/MH media spend, means we understand the intake workflows, compliance constraints, and census economics that shape effective campaigns. We track attribution through to admission, not just to form fills or calls.
-Q: How do you approach paid media management for behavioral health?
-A: We start with your intake capacity and work backward. Campaigns are built around admission-level attribution, with budget pacing tied to your actual conversion rates at each funnel stage. We design strategies that comply with Google Ads sensitive vertical restrictions and LegitScript requirements, ensuring sustainable performance without account risk.
-Q: Why is compliance important in paid media?
-A: Compliance failures in behavioral health advertising can result in account suspensions, LegitScript certification issues, and regulatory scrutiny. Google classifies behavioral health as a sensitive vertical with specific restrictions, including prohibitions on retargeting. We design campaigns within these boundaries from the start, protecting your accounts and your organization's reputation.
-Q: What marketing strategies work for behavioral health providers?
-A: High-intent search campaigns on Google Ads typically drive the strongest admission volume for treatment centers. Effective strategies combine search with compliant Meta awareness campaigns, contextual display, and continuous landing page optimization. Success requires admission-level attribution so you can allocate budget to channels that actually produce patients, not just leads.
-
-
+Q: What does paid media management include?
+A: Planning, building, and managing campaigns across search, social, video, and programmatic placements, plus the landing pages, tracking, and reporting that connect clicks to qualified inquiries. We judge campaigns by conversion value per cost and plan pacing around the capacity of the operation.
+Q: Which industries does Marketing Powered manage paid media for?
+A: Healthcare and multi-location organizations, including hospitals, health systems, and distributed providers. Behavioral health, addiction treatment, and mental health are named specialties grounded in our founder's operator experience.
+Q: How do you handle healthcare advertising policies?
+A: We build campaigns within Google and Meta healthcare policies from the start, review copy and landing pages against them before launch, and monitor policy changes. Remarketing and certain targeting are restricted for sensitive health categories, and we do not use them there. Platform certifications belong to the advertiser; we help clients meet the requirements.
+Q: How do you report on paid media performance?
+A: We propose weekly operating checks and a monthly executive review, with the cadence set in your engagement. Reporting connects spend to acquisition quality, conversion, and downstream outcomes where the data supports it, and it distinguishes measured outcomes from estimates.
+Q: Is the founder's spend figure an agency figure?
+A: No. The monthly Google Ads figure describes our founder's responsibility during his prior tenure as CMO of a multi-state behavioral health operator. It is prior executive experience, not current agency spend, and we do not present it as an agency result.
 SCHEMA RECOMMENDATION
-Schema type: Service, FAQPage, BreadcrumbList
-* Service.name
-* Service.provider
-* Service.description
-* Service.areaServed
-* Service.serviceType
-* FAQPage.mainEntity (4 questions)
-* BreadcrumbList for /services/paid-media/
+Schema type: Service + BreadcrumbList
+* Service: name "Paid Media Management", provider Marketing Powered (site-wide Organization entity), serviceType "Paid Media Management", areaServed United States, description matching the meta description.
+* BreadcrumbList is rendered by the Breadcrumbs component: Home > Services > Paid Media.
+* No FAQPage markup and no certification, award, or rating properties.
 
 
 DELIVERY NOTES
+Revision basis
+* Homepage Copy and Implementation Package, November 6, 2026: source audit W04 and the 'Leadership and services' scope (correct attribution and audience scope, align terminology, explain delivery responsibilities, remove unsupported assurance wording and numerical claims). Claims register C01 to C05, C06, C14, C16.
+
+
+Claims removed from the previous version
+* The agency-wide spend total and the monthly spend figure framed as current agency management across client accounts. The monthly figure now appears only as founder responsibility during his prior tenure.
+* The facility-growth multiple claim and the "Client Success Stories" section, including references to documented cost-per-admission reductions.
+* The credential wording.
+* Certification-body "awareness" language presented as a credential, and account-safety assurance wording.
+* Audience-following tactics and the implication that they are available for healthcare categories.
+* Links to non-existent inpatient and outpatient sub-vertical pages, replaced with the real residential treatment and dual diagnosis pages.
+* "Book a Discovery Call" CTAs, replaced with the site-wide audit request.
+
+
 External citations
-* Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy] - Primary regulatory reference for Google Ads restrictions in healthcare/behavioral health vertical. Supports compliance positioning.
-* Google's healthcare and medicines advertising policies https://support.google.com/adspolicy/answer/176031 [Platform policy] - Second reference to same policy in Google Ads section for readers scanning that section specifically.
-* Meta's restricted content policies https://www.facebook.com/policies/ads/ [Platform policy] - Supports Meta advertising compliance claims and demonstrates awareness of cross-platform restrictions.
-* LegitScript advertising certification requirements https://www.legitscript.com/certification/ [Regulatory/compliance] - Primary industry certification body for behavioral health advertising. Anchors compliance expertise claims.
+* Kept: Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy]; Meta advertising standards https://www.facebook.com/policies/ads/ [Platform policy].
+* Removed: the duplicate Google policy link and the certification-body page.
 
 
-Internal link gaps
-* Consider adding link to /services/ hub page if one exists
-* The 'request a media audit' link from the brief (/get-started/request-an-audit/) was not used as the brief specified primary CTA as Book a Discovery Call. Could be added as secondary CTA if desired.
+Approvals pending
+* Founder figures C01 to C05 need Mike's final sign-off on wording.
+* The proposed weekly operating check and monthly executive review (C06) need approval.
+* Service scope and named service owners for paid media (C14) need confirmation.
+* Any agency case result requires an approved case record (C16) before it is referenced.
 
 
-Missing proof points
-* Specific cost per admission benchmarks or reduction percentages would strengthen the Results section
-* Client retention rate or average engagement length would add credibility
-* Specific admission volume numbers (e.g., 'X admissions generated monthly across portfolio') would strengthen proof
+Internal links
+* /#services, /services/google-ads-management, /services/meta-ads-management, /services/landing-page-optimization, /services/analytics-and-attribution, /services/call-tracking-and-intake-attribution, /who-we-help/behavioral-health, /who-we-help/behavioral-health/residential-treatment, /who-we-help/behavioral-health/dual-diagnosis, /problems/scale-multi-location-campaigns.
+
+
+Image note
+* The previous hero and results graphics were removed from the page's image set: they carried the spend total, the facility-growth multiple, and a "100 percent compliant" label. The hero is now decorative photography with empty alt text. The funnel concept graphic carries a "full attribution" label and the process graphic carries certification-body "awareness" and "AI-driven" labels; the coordinating session decides whether they stay.

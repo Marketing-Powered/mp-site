@@ -5,10 +5,10 @@
 /* Ten sections in publication order. Body strings carry inline         */
 /* contextual links as [anchor](path); the homepage renders them with   */
 /* next/link. Anchors and destinations follow the package's link map:   */
-/* 15 placements point at existing pages, and the five anchors whose    */
-/* destinations do not exist yet (hospital marketing, local processing, */
-/* open source, customizable AI, health system marketing) stay as plain  */
-/* text until those pages ship.                                         */
+/* all 20 placements across 17 destinations are active. The four        */
+/* supporting pages created for this release (hospitals and health      */
+/* systems, local processing, open source, customizable AI) carry the   */
+/* five anchors that were plain text until they shipped.                */
 /*                                                                      */
 /* Founder figures (locations, states, monthly spend, employer revenue) */
 /* are historical founder responsibility, attributed in the copy. They  */
@@ -111,7 +111,7 @@ export const homeContent = {
     paragraphs: [
       "Marketing Powered is a healthcare marketing agency designed to serve hospitals and health systems across locations, service lines, and internal teams.",
       "A campaign can generate interest while scheduling, intake, or inconsistent location information prevents that interest from becoming patient acquisition. We approach those connections as part of the marketing operation, not someone else's problem.",
-      "Our approach to hospital marketing brings acquisition strategy, website structure, and performance visibility into the same plan. For health system marketing teams, that means a clearer view of demand by service line and location.",
+      "Our approach to [hospital marketing](/who-we-help/hospitals-and-health-systems) brings acquisition strategy, website structure, and performance visibility into the same plan. For health system marketing teams, that means a clearer view of demand by service line and location.",
       "We design [multi-location marketing](/problems/scale-multi-location-campaigns) around shared standards and local market needs. Your leadership team can compare performance without forcing every site into the same campaign.",
       "Data handling and governance belong in the planning discussion because they shape which information can move between systems. We work within your review process, with responsibilities and deployment boundaries defined before implementation.",
     ],
@@ -128,7 +128,7 @@ export const homeContent = {
       {
         h3: "Local processing",
         paragraphs: [
-          "Supported workloads run on infrastructure we control, giving us direct oversight of data handling during processing. Our local processing approach does not mean every integration runs offline or every external service disappears. Clients retain ownership of their data; our ownership of the hardware does not change that.",
+          "Supported workloads run on infrastructure we control, giving us direct oversight of data handling during processing. Our [local processing](/ai-edge/local-processing) approach does not mean every integration runs offline or every external service disappears. Clients retain ownership of their data; our ownership of the hardware does not change that.",
         ],
       },
       {
@@ -161,14 +161,14 @@ export const homeContent = {
       {
         h3: "Open source",
         paragraphs: [
-          "Our open source approach uses adaptable software to select, configure, and integrate technology around the business. We distinguish software under OSI-approved licenses from open-weight models released under other terms.",
+          "Our [open source](/ai-edge/open-source) approach uses adaptable software to select, configure, and integrate technology around the business. We distinguish software under OSI-approved licenses from open-weight models released under other terms.",
           "Licensing and permitted use inform selection, not simply whether something is available to download. This flexibility helps us avoid forcing an operational requirement into a product that was designed for a different purpose.",
         ],
       },
       {
         h3: "Customizable AI",
         paragraphs: [
-          "Our customizable AI work connects model configuration, approved business data, and workflows for specific operational needs. [Workflow integrations](/services/web-development/integrations-and-tracking) can support intake, attribution, reporting, or follow-up without adding another disconnected task for your team.",
+          "Our [customizable AI](/ai-edge/customizable-ai) work connects model configuration, approved business data, and workflows for specific operational needs. [Workflow integrations](/services/web-development/integrations-and-tracking) can support intake, attribution, reporting, or follow-up without adding another disconnected task for your team.",
           "We define the use case, available data, responsibilities, and limits before building. Clients retain their data ownership; access to our services does not automatically transfer our proprietary technology, workflows, or configurations.",
         ],
       },
@@ -201,7 +201,7 @@ export const homeContent = {
       },
       {
         h3: "Hospitals and health systems",
-        body: "Our model is built to support health system marketing across service lines and locations, with organizational review and data handling considered from the start.",
+        body: "Our model is built to support [health system marketing](/who-we-help/hospitals-and-health-systems) across service lines and locations, with organizational review and data handling considered from the start.",
       },
       {
         h3: "Other multi-location organizations",

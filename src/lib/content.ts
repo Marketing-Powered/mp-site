@@ -223,7 +223,10 @@ export const siteContent = {
       "Summary visual of Marketing Powered AI marketing agency takeaways and next steps",
   },
   footer: {
-    tagline: "AI-Native Marketing for Behavioral Health & Mental Health.",
+    // Site-wide footer line. The November 2026 package counts "AI-native" as a
+    // prohibited descriptor and holds the specialty-only framing, so the footer
+    // carries the package's positioning line instead.
+    tagline: "Experience first. Technology with a purpose. Execution tied to measurable growth.",
     services: [
       "Behavioral Health PPC",
       "Mental Health Marketing",

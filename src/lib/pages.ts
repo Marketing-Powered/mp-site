@@ -278,10 +278,14 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/ai-edge/ai-governance", file: "ai-edge/ai-governance.md" },
     { href: "/ai-edge/data-sovereignty", file: "ai-edge/data-sovereignty.md" },
     { href: "/ai-edge/social-media", file: "ai-edge/social-media.md" },
+    { href: "/ai-edge/customizable-ai", file: "ai-edge/customizable-ai.md" },
+    { href: "/ai-edge/local-processing", file: "ai-edge/local-processing.md" },
+    { href: "/ai-edge/open-source", file: "ai-edge/open-source.md" },
   ],
   "who-we-help/index.md": [
     { href: "/who-we-help/behavioral-health", file: "who-we-help/behavioral-health.md" },
     { href: "/who-we-help/mental-health", file: "who-we-help/mental-health.md" },
+    { href: "/who-we-help/hospitals-and-health-systems", file: "who-we-help/hospitals-and-health-systems.md" },
   ],
   "who-we-help/behavioral-health.md": [
     { href: "/who-we-help/behavioral-health/residential-treatment", file: "who-we-help/behavioral-health/residential-treatment.md" },

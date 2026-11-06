@@ -32,6 +32,7 @@ const PRIMARY_NAV = [
       { label: "Residential Treatment", href: "/who-we-help/behavioral-health/residential-treatment" },
       { label: "Substance Use Disorder", href: "/who-we-help/behavioral-health/substance-use-disorder" },
       { label: "Outpatient Clinics", href: "/who-we-help/mental-health/outpatient-clinics" },
+      { label: "Hospitals & Health Systems", href: "/who-we-help/hospitals-and-health-systems" },
       { label: "View All Specialties", href: "/who-we-help" },
     ],
   },
@@ -54,6 +55,9 @@ const PRIMARY_NAV = [
       { label: "AI in Paid Media", href: "/ai-edge/ai-in-paid-media" },
       { label: "Owned AI Systems", href: "/ai-edge/owned-ai-systems" },
       { label: "Data Sovereignty", href: "/ai-edge/data-sovereignty" },
+      { label: "Local Processing", href: "/ai-edge/local-processing" },
+      { label: "Open Source", href: "/ai-edge/open-source" },
+      { label: "Customizable AI", href: "/ai-edge/customizable-ai" },
     ],
   },
   {

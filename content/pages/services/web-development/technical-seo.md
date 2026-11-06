@@ -1,132 +1,125 @@
 ---
-title: "Technical SEO and Performance Services"
+title: "Technical SEO and Site Performance | Marketing Powered"
 url: "/services/web-development/technical-seo-and-performance/"
-primary_keyword: "technical SEO for healthcare"
-secondary_keywords: "healthcare SEO audit, medical website performance"
-target_word_count: "1200-1800"
+primary_keyword: "technical SEO"
+secondary_keywords: "site performance optimization, core web vitals, multi-location SEO"
+target_word_count: "1000-1500"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT
-This page targets /services/web-development/technical-seo-and-performance/ with primary keyword 'technical seo' and secondary keywords 'site performance optimization' and 'core web vitals.' Word count target is 1200-1800 words. Page type: service page within the web development vertical. Buyer target: CEO, COO, or VP of Business Development at a digital agency or large enterprise seeking technical SEO expertise and measurable performance improvements.
-Page type: Service Page
-Buyer target: CEO, COO, or VP of Business Development at a digital agency or large enterprise
-Word count target: 1200-1800 words
+Revised 2026-11-06 for the homepage package (link map slot 05, anchor "technical SEO"; register entry P1, 1,000-1,500 words). The package chose this page for the narrower technical SEO anchor because it covers crawl, index, structure, and performance. It is not presented as covering every organic search service. Local and multi-location implementation context added. Page type: Service page under Web Development. Buyer target: marketing and digital leaders at hospitals, health systems, multi-location organizations, and behavioral or mental health providers, and the developers who work with them.
+Page type: Service page
+Buyer target: Marketing and digital leaders at healthcare and multi-location organizations
+Word count target: 1000-1500 words
 
 
 SEO METADATA
-Title tag (40 chars): Technical SEO and Performance Services
-Meta description (137 chars): Drive site performance with expert technical SEO. We optimize Core Web Vitals, site architecture, and crawlability so your content ranks.
-H1: Technical SEO and Site Performance Optimization
-Hero image alt: Technical SEO dashboard showing Core Web Vitals metrics and site performance optimization data
+Title tag (54 chars): Technical SEO and Site Performance | Marketing Powered
+Meta description (150 chars): Technical SEO for healthcare and multi-location sites: crawlability, indexing, structure, Core Web Vitals, and location pages search engines can find.
+H1: Technical SEO and Site Performance
+Hero image alt: Decorative (empty alt)
 
 
 PAGE COPY
 
 
-Technical SEO and Site Performance Optimization
-Site architecture, Core Web Vitals, and performance optimization built on the discipline behind $50M+ in managed media spend.
-[CTA] Request an SEO Audit
+Technical SEO and Site Performance
+Crawlability, indexing, site structure, and Core Web Vitals, including the location-page structure that multi-site organizations need. This page covers technical work, not every organic search service.
+[CTA] Request a Free Audit
 
 
-Why Technical SEO Determines Whether Your Content Gets Found
-Technical SEO is the infrastructure layer that determines whether search engines can find, crawl, and index your content. Without it, even the strongest content strategy fails to surface in search results. For enterprises and agencies managing complex sites, technical SEO is not optional; it is the foundation on which every other channel depends.
-Search engines prioritize sites that load quickly, render correctly across devices, and communicate their structure through markup and metadata. When that foundation is weak, crawlers waste budget on low-value pages, miss critical content, and fail to understand topical relationships across your domain. The result is diminished visibility precisely where your business needs it most.
-According to Google's Search Central documentation, technical accessibility is a prerequisite for ranking consideration. No amount of content investment compensates for pages that cannot be indexed. This is why technical SEO audits consistently surface the highest-impact opportunities: the fixes are structural, and the gains compound across every page on your domain.
+What Technical SEO Covers Here
+Technical SEO is the layer that determines whether search engines can find, crawl, index, and understand your pages. It does not write the content or earn the links. It makes sure the content you have can be reached and rendered, and that the site's structure tells search engines how pages relate.
+We scope this work narrowly on purpose. Content strategy, local listings management, and link development are separate disciplines. The homepage describes the combination under [visibility that supports long-term demand](/#services); this page is the technical part of that combination.
 Core Components of a Technical SEO Audit
-A comprehensive technical SEO audit examines the systems that govern how search engines interact with your site. These components work together, so a weakness in one area creates friction across the entire crawl and index process.
-* XML sitemaps provide search engines with a roadmap of your most important URLs. A properly configured sitemap prioritizes high-value pages, excludes thin or duplicate content, and updates automatically as your site evolves.
-* Robots.txt directives control which areas of your site crawlers can access. Misconfigured robots.txt files are among the most common technical SEO errors — often blocking critical pages from indexing entirely or wasting crawl budget on low-priority resources.
-* Structured data (schema markup) helps search engines understand the meaning of your content, not just the words on the page. Proper schema implementation enables rich results, improves click-through rates, and strengthens topical signals.
-* Canonical tags prevent duplicate content issues by signaling which version of a page should be indexed when multiple URLs serve similar content — critical for e-commerce sites, filtered navigation, and content syndication.
-* Internal linking architecture distributes authority across your site and establishes topical relationships between pages. A well-structured internal linking strategy ensures your most important pages receive adequate crawl attention and link equity.
-* HTTPS and security configuration signal trustworthiness to both search engines and users. Sites without valid SSL certificates face ranking penalties and browser warnings that erode conversion rates.
-Core Web Vitals: Google's Quantified Measure of User Experience
-Core Web Vitals are Google's standardized metrics for measuring real-world user experience, and they directly influence ranking positions. These metrics assess how quickly your page loads visible content, how soon users can interact with it, and how stable the layout remains during loading.
-Largest Contentful Paint (LCP) measures loading performance. Google recommends an LCP of 2.5 seconds or less. Sites that exceed this threshold signal poor user experience, and rankings reflect that assessment. Common LCP issues include unoptimized images, slow server response times, and render-blocking resources.
-Interaction to Next Paint (INP) replaced First Input Delay in March 2024 as the core responsiveness metric. INP measures the latency of all user interactions throughout a page visit, not just the first click. Google's threshold for a good INP score is 200 milliseconds or less. Heavy JavaScript execution and long tasks are the primary culprits when INP scores suffer.
-Cumulative Layout Shift (CLS) quantifies visual stability. A CLS score of 0.1 or less indicates that page elements stay where users expect them. Layout shifts frustrate users and erode trust, particularly on mobile devices where accidental taps on shifted elements are common.
-Addressing Core Web Vitals requires coordination between development, design, and performance strategy. The fixes are often interdependent: compressing images improves LCP, but lazy loading those images incorrectly can worsen CLS. We approach these optimizations systematically, measuring impact at each stage and prioritizing changes that move the metrics most relevant to your ranking positions.
-Site Performance Optimization Strategies That Scale
-Site performance optimization extends beyond Core Web Vitals scores. A fast, stable site reduces bounce rates, increases time on page, and improves conversion rates across every traffic source. The strategies below address the infrastructure layer that determines how quickly your content reaches users.
-* Server and CDN optimization: Time to First Byte (TTFB) measures how quickly your server responds to requests. Slow TTFB cascades into poor LCP scores. Optimization strategies include upgrading hosting infrastructure, implementing server-side caching, and configuring Content Delivery Networks (CDNs) to serve static assets from edge locations closer to your users.
-* Code minification and compression: Removing unnecessary characters from CSS, JavaScript, and HTML files, combined with Gzip or Brotli compression, reduces file sizes significantly and accelerates download times without changing functionality.
-* Critical CSS extraction: Identifying the styles needed for above-the-fold content and inlining them directly in the HTML allows the initial render to complete before external stylesheets finish loading, dramatically improving perceived performance.
-* Image optimization: Modern formats like WebP and AVIF provide superior compression compared to JPEG and PNG. Responsive images served at appropriate sizes for each device prevent mobile users from downloading desktop-sized assets.
-* JavaScript deferral and async loading: Preventing render-blocking behavior ensures that visible content reaches users before scripts finish executing, improving both LCP and INP scores.
-* Continuous monitoring: Performance is not a one-time project. Code deployments, content additions, and third-party script changes can degrade performance over time. Real-user monitoring (RUM) and synthetic testing catch regressions before they impact rankings or conversions.
-[CTA] Request a Performance Audit
-What to Look for in a Technical SEO Partner
-Technical SEO requires both strategic vision and implementation capability. Many agencies can identify issues in an audit report. Fewer can fix them without breaking other systems in the process, and fewer still can connect technical improvements to business outcomes.
-Marketing Powered has managed over $50M in media spend across behavioral health and mental health verticals, where technical SEO directly influenced Quality Score, landing page experience ratings, and cost per acquisition. Our founder has served as a court-certified expert witness in advertising strategy, which is a distinction that reflects the documentation discipline and analytical rigor we bring to every engagement.
-We have helped clients improve search rankings while maintaining compliance with LegitScript certification requirements and HIPAA-conscious data handling standards. For healthcare-adjacent businesses, this combination of technical depth and compliance awareness is not a differentiator; it is a requirement.
-If your site's technical foundation is holding back your visibility, an audit is the starting point. We will identify the issues, prioritize them by ranking impact, and give you a clear remediation roadmap with timelines and ownership assignments.
-
-
-Ready to Fix What's Holding Your Site Back?
-A technical SEO audit identifies the infrastructure issues limiting your visibility and prioritizes fixes by impact. We will examine your site architecture, Core Web Vitals, structured data, and crawlability, then deliver a clear remediation roadmap.
-[CTA] Request an SEO Audit
+A technical audit examines the systems that govern how search engines interact with the site. [Google's Search Central documentation](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) sets out the fundamentals we check against.
+* Crawl access: robots directives, server responses, redirect chains, and whether important pages are reachable within a few clicks of the home page.
+* XML sitemaps: current, limited to indexable pages, free of redirecting or error URLs, and submitted.
+* Indexing controls: canonical tags, noindex rules, pagination and parameter handling, and duplicate content across environments or hostnames.
+* Site structure: URL patterns, internal linking, breadcrumb trails, and navigation depth for service lines, conditions, locations, and providers.
+* Structured data: markup from the [schema.org](https://schema.org/) vocabulary for the organization, locations, services, and articles, validated after deployment.
+* Security and hosting: HTTPS, certificate renewal, and server response times.
+Core Web Vitals
+Core Web Vitals are Google's field metrics for loading, responsiveness, and visual stability, and they are part of how page experience is assessed. The thresholds below come from [web.dev](https://web.dev/articles/vitals).
+* Largest Contentful Paint measures loading. A good result is 2.5 seconds or less. Large unoptimized images, slow server responses, and render-blocking resources are the common causes of poor results.
+* Interaction to Next Paint measures responsiveness across a visit; it replaced First Input Delay as the responsiveness metric. A good result is 200 milliseconds or less. Heavy scripts and long tasks are the usual causes of poor results; [web.dev's INP guidance](https://web.dev/articles/inp) covers the diagnosis.
+* Cumulative Layout Shift measures visual stability. A good score is 0.1 or less. Images without reserved dimensions, late-loading embeds, and injected banners are the usual causes.
+Fixes interact. Compressing images improves loading, but lazy-loading them without reserved dimensions worsens stability. We change one thing at a time, measure, and keep the changes that move the metric.
+Site Performance Work That Scales
+* Server and delivery: time to first byte, caching, and a content delivery network for static assets.
+* Code weight: minification, compression, and removal of unused scripts and styles.
+* Critical rendering: inline the styles needed for above-the-fold content and defer the rest.
+* Images: modern formats, responsive sizes, and reserved dimensions.
+* Scripts: defer or load asynchronously anything not needed for the first render, and keep third-party tags to the ones with an owner and a purpose.
+* Monitoring: field data from real users and scheduled synthetic tests, so regressions after a deployment are caught early.
+Local and Multi-Location Implementation
+Organizations with many locations have technical SEO problems that single-site organizations do not.
+### Location pages
+Each location needs its own indexable page with a stable URL, consistent core elements (name, address, hours, services offered, contact path), and local content that is more than a swapped city name. Pages that differ only by the city name tend to be treated as duplicates. We design the pattern with the [web development](/services/web-development) team so it is maintainable as locations open and close.
+### Internal linking by location and service line
+A service-line page should link to the locations that offer the service, and each location page should link to the services it offers. That two-way structure helps search engines and people find the right combination, and it is the structure that [multi-location campaigns](/problems/scale-multi-location-campaigns) land on.
+### Structured data for organizations and locations
+Organization markup for the entity and location markup for each site, with the address, hours, and contact details matching the listings the organization maintains elsewhere. We validate the markup after deployment and keep it aligned when details change.
+### Migrations and URL preservation
+When a site is rebuilt or locations are consolidated, the existing URLs that earn visits are mapped to their replacements with single-hop redirects, old sitemaps are retired, and crawl coverage is checked after launch. We do not rename URLs to match new headings.
+### Duplicate and closed locations
+Closed locations need a redirect to the nearest relevant page or a clear closed notice, not a silent error. Locations that share an address or a name need distinct pages or a deliberate consolidation. These decisions are recorded so the next person understands them.
+How We Prioritize and Report
+Every finding gets a severity, an estimated effect on crawl, index, or experience, an owner, and an effort level. Blocking issues such as indexing errors and broken redirects come first. Core Web Vitals fixes follow, measured against field data. Structural changes come last and are tracked over months, because their effect compounds slowly. We report what changed and what the field data shows, and we do not promise ranking positions.
+Campaign landing pages have their own performance requirements; see [landing page optimization](/services/landing-page-optimization). Tracking changes that come out of a technical fix are handled with our [integrations and tracking](/services/web-development/integrations-and-tracking) work.
+Experience Behind the Work
+Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend. Each new location needed a page that search engines could find and a landing page experience that advertising platforms would rate well, which is where this attention to location structure comes from.
+That is prior executive experience, not agency client work.
+Request a Technical Audit
+A technical audit identifies the crawl, index, structure, and performance issues limiting your site's visibility, including location-page problems for multi-site organizations. You receive a prioritized remediation list with owners and effort levels.
+[CTA] Request a Free Audit
 FAQ
-Q: What is technical SEO and why does it matter?
-A: Technical SEO encompasses the infrastructure elements that enable search engines to crawl, index, and rank your content, including site architecture, XML sitemaps, robots.txt configuration, structured data markup, and page speed optimization. Without a sound technical foundation, even high-quality content cannot surface in search results. Technical audits often reveal the highest-impact opportunities because the fixes compound across every page on your domain.
+Q: What is technical SEO?
+A: The work that lets search engines find, crawl, index, and understand a site: crawl access, sitemaps, indexing controls, site structure, structured data, and performance. It does not include content writing, listings management, or link development, which are separate services.
 Q: How do Core Web Vitals affect search rankings?
-A: Core Web Vitals are Google's quantified measures of user experience: Largest Contentful Paint (loading performance), Interaction to Next Paint (responsiveness), and Cumulative Layout Shift (visual stability). These metrics directly influence ranking positions. Sites that meet Google's recommended thresholds signal a strong user experience and receive preferential treatment in search results. Poor scores can suppress rankings even when content quality and backlink profiles are strong.
-Q: What does a technical SEO audit include?
-A: A comprehensive technical SEO audit examines crawlability (robots.txt, XML sitemaps, internal linking), indexability (canonical tags, duplicate content, pagination), site architecture (URL structure, navigation depth), structured data implementation, Core Web Vitals performance, mobile usability, and HTTPS security. The audit surfaces issues, prioritizes them by ranking impact, and provides actionable remediation steps with clear ownership.
-Q: How long does it take to see results from technical SEO improvements?
-A: Timeline varies depending on issue severity and how quickly Google recrawls your site. Critical fixes like resolving indexing blocks or eliminating crawl errors can show results within days to weeks once Googlebot revisits affected pages. Core Web Vitals improvements may reflect in ranking data within one to three months as Google incorporates field data from real users. Structural changes like internal linking restructuring typically show compounding gains over three to six months.
-Q: How is site performance optimization different from technical SEO?
-A: Technical SEO focuses on crawlability, indexability, and structured data — ensuring search engines can access and understand your content. Site performance optimization focuses on speed and stability metrics like Core Web Vitals, TTFB, and page weight. The two disciplines overlap significantly: performance directly influences Core Web Vitals scores, which are a Google ranking factor. A comprehensive technical program addresses both layers together rather than treating them as separate workstreams.
+A: Core Web Vitals are part of how Google assesses page experience, alongside many other signals. Meeting the thresholds removes a disadvantage and improves the experience for visitors; it does not by itself determine a ranking position.
+Q: What is different about multi-location technical SEO?
+A: Each location needs an indexable page with a stable URL and distinct content, service-line and location pages need to link to each other, structured data has to match the listings the organization maintains, and migrations have to preserve the URLs that earn visits. Closed and duplicate locations need deliberate handling.
+Q: How long do results take?
+A: Fixes to indexing blocks and broken redirects show in crawl data within days to weeks. Core Web Vitals improvements appear in field data over one to three months as real-user measurements accumulate. Structural changes compound over three to six months. We report the measurements rather than promising a timeline.
+Q: Is this the same as site performance optimization?
+A: They overlap. Technical SEO covers crawl, index, and structure; performance optimization covers speed and stability, which feed Core Web Vitals. We treat them as one program because the fixes interact.
 
 
 SCHEMA RECOMMENDATION
-Schema type: Service, FAQPage, BreadcrumbList
+Schema type: Service, BreadcrumbList
 * @type: Service
+* name: Technical SEO and Site Performance
+* provider: Marketing Powered (reference the site's Organization entity)
 * serviceType: Technical SEO and Performance Optimization
-* provider: Marketing Powered
 * areaServed: United States
-* description: Technical SEO audit, Core Web Vitals optimization, and site performance services for enterprises and agencies
-* FAQPage with 5 FAQ entries matching page content
-* BreadcrumbList: Home > Services > Web Development > Technical SEO and Performance
+* description: Technical SEO audit, Core Web Vitals, and site performance work for healthcare and multi-location sites, including location-page structure.
+* BreadcrumbList: Home > Services > Web Development > Technical SEO and Performance (rendered by the Breadcrumbs component)
+* No FAQPage markup.
 
 
 DELIVERY NOTES
+Revision summary (2026-11-06)
+* Rewritten for homepage slot 05 as the narrower technical SEO destination. Slug unchanged. Scope statement added: not a claim to cover every organic search service. Local and multi-location implementation section added.
+* Links back to the homepage services section and across to the web development hub, multi-location campaigns, landing page optimization, and integrations and tracking.
+
+
+Claims removed from the previous version
+* The agency-wide spend total in the lead, the partner section, and the previous hero graphic.
+* The founder credential claim.
+* Certification-body language and regulatory assurance language.
+* The statement that sites meeting thresholds receive preferential treatment, and similar ranking-effect statements; replaced with page-experience language and no ranking promises.
+* The month and year in which INP replaced FID (not needed; the sentence now states the replacement without a date).
+
+
 External citations
-* Google's Search Central documentation https://developers.google.com/search/docs/fundamentals/seo-starter-guide [Platform Policy / Official Documentation] - Authoritative source for technical SEO fundamentals and crawling/indexing requirements; directly supports claims about indexability as a ranking prerequisite
-* Google's Core Web Vitals thresholds https://web.dev/articles/vitals [Platform Policy / Official Documentation] - Primary source for LCP, INP, and CLS metric definitions and threshold values cited in the Core Web Vitals section
-* Schema.org structured data vocabulary https://schema.org/ [Standards Body] - Official vocabulary source for structured data markup referenced in the audit components section
-* Google's INP documentation https://web.dev/articles/inp [Platform Policy / Official Documentation] - Authoritative source for Interaction to Next Paint metric specifications, replacement of FID, and optimization guidance
+* Google Search Central SEO starter guide https://developers.google.com/search/docs/fundamentals/seo-starter-guide [Platform documentation] - Fundamentals checked in the audit.
+* web.dev Core Web Vitals https://web.dev/articles/vitals [Platform documentation] - Metric definitions and thresholds.
+* web.dev INP https://web.dev/articles/inp [Platform documentation] - Responsiveness metric guidance.
+* schema.org https://schema.org/ [Standards body] - Structured data vocabulary.
 
 
-Brief conflicts
-* The brief lists 'technical seo services' as an internal link pointing to this page's own URL — self-referential links were omitted to avoid linking a page to itself. Recommend confirming intended target.
-* No explicit word count tracking tool is available; estimated body copy at approximately 1,300-1,500 words including bullets, within the 1200-1800 target range.
-
-
-Internal link gaps
-* A dedicated Core Web Vitals or page speed service page would be a strong internal link target if one exists or is planned.
-* A link to a case studies or results page would strengthen the proof point about ranking improvements — placeholder text references /results/case-studies/ which should be confirmed as a live URL.
-* The behavioral health marketing reference could link to /who-we-help/behavioral-health/ if that page exists.
-* The web development parent service page (/services/web-development/) is referenced and should be confirmed as a live internal link target.
-
-
-Compliance flags
-* No ranking guarantees are made anywhere in the page copy.
-* No PHI or client-identifiable information is referenced.
-* Healthcare vertical context is mentioned appropriately without implying prohibited retargeting or audience segmentation capabilities.
-* The court-certified expert witness claim about the founder should be verified as accurate before publication.
-
-
-Missing proof points
-* Specific technical SEO case study metrics (e.g., percentage improvement in crawl efficiency, Core Web Vitals score improvements, or organic traffic lift) would significantly strengthen conversion potential but were not available in the provided proof points.
-* Client logos or named case studies would add credibility but were not included due to PHI and confidentiality considerations noted in the brief.
-* Timeline data for technical SEO implementations is addressed generically in the FAQ but specific client examples would be more persuasive.
-
-
-Banned phrasing in brief
-* 'leverage' — not used
-* 'harness the power of' — not used
-* 'robust' — not used
-* 'ever-evolving landscape' — not used
-* 'cutting-edge' — not used
-* 'elevate' — not used
-* 'empower' — not used
+Approvals pending
+* Founder figures and wording (claims register C01-C05).
+* Service scope confirmation (C14): whether local listings management is offered separately, so the scope statement on this page stays accurate.
+* Hero image replaced with decorative photography (empty alt) because the previous hero graphic carried the removed spend total.

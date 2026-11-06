@@ -7,8 +7,18 @@ import { CallCta } from "./ui";
 
 /* Fixed bottom bar shown only on mobile (hidden on md+). Appears once
    the visitor scrolls past the hero, hides while scrolling down, and
-   slides back in on scroll-up — the standard mobile-CTA pattern. */
-export default function StickyMobileCta() {
+   slides back in on scroll-up — the standard mobile-CTA pattern.
+
+   `href` / `label` let a page carry its own primary action in the bar (the
+   homepage uses the strategy-call request); every other page keeps the
+   default audit CTA. */
+export default function StickyMobileCta({
+  href = "/get-started/request-an-audit",
+  label = "Free Audit",
+}: {
+  href?: string;
+  label?: string;
+} = {}) {
   const [visible, setVisible] = useState(false);
   const barRef = useRef<HTMLDivElement>(null);
 
@@ -82,10 +92,10 @@ export default function StickyMobileCta() {
       <div className="flex items-stretch gap-2.5">
         <CallCta showNumber={false} compact className="flex-1 justify-center" />
         <ModalCta
-          href="/get-started/request-an-audit"
+          href={href}
           className="flex flex-[1.4] items-center justify-center gap-2 whitespace-nowrap rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-4 py-3.5 text-[12px] font-semibold uppercase tracking-[0.1em] text-black shadow-[0_12px_40px_-10px_rgba(0,144,240,0.7)]"
         >
-          Free Audit
+          {label}
           <span>→</span>
         </ModalCta>
       </div>

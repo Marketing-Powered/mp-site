@@ -4,8 +4,13 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Reveal from "@/components/Reveal";
 import { serif, mono } from "./theme";
+import { handleInput, handleInvalid } from "./formValidation";
 import { siteContent as s } from "@/lib/content";
-import type { LeadField as Field } from "@/lib/leadForms";
+import {
+  DEFAULT_FORM_ERROR,
+  DEFAULT_FORM_HELPER,
+  type LeadField as Field,
+} from "@/lib/leadForms";
 
 const inputCls =
   "w-full rounded-xl border border-white/12 bg-white/[0.03] px-4 py-3 text-[15px] text-white/90 outline-none transition-colors placeholder:text-white/25 focus:border-[#0090F0]/60 focus:bg-white/[0.05]";
@@ -17,6 +22,9 @@ export function LeadForm({
   submitLabel = "Submit Request",
   source = "Website form",
   formId = "lead-form",
+  helper = DEFAULT_FORM_HELPER,
+  pendingLabel = "Sending…",
+  errorMessage = DEFAULT_FORM_ERROR,
 }: {
   title: string;
   intro?: string;
@@ -25,24 +33,42 @@ export function LeadForm({
   /** Identifies which form the lead came from, included in the email. */
   source?: string;
   formId?: string;
+  /** Small print under the submit button. */
+  helper?: string;
+  /** Button label while the request is in flight. */
+  pendingLabel?: string;
+  /** Shown when the server did not accept the request. */
+  errorMessage?: string;
+  /* Accepted so a LeadFormConfig can be spread straight in; the full-page
+     form confirms on /get-started/thanks rather than inline. */
+  successTitle?: string;
+  successBody?: string;
 }) {
   const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
+  const [failed, setFailed] = useState(false);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (submitting) return;
     setSubmitting(true);
+    setFailed(false);
     const payload = Object.fromEntries(new FormData(e.currentTarget).entries());
     try {
-      await fetch("/api/contact", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
+      if (!res.ok) throw new Error(`Lead request rejected: ${res.status}`);
+      // Confirmation page only once the server has accepted the request.
+      router.push("/get-started/thanks");
     } catch {
-      // Swallow network errors for now — still route to confirmation.
+      // Keep the form (and its values) on screen and say the request did not
+      // go through, rather than confirming a submission the server never took.
+      setFailed(true);
+      setSubmitting(false);
     }
-    router.push("/get-started/thanks");
   }
 
   return (
@@ -78,9 +104,23 @@ export function LeadForm({
                 {f.required && <span className="text-[#0090F0]"> *</span>}
               </label>
               {f.type === "textarea" ? (
-                <textarea name={f.name} required={f.required} rows={4} className={inputCls} />
+                <textarea
+                  name={f.name}
+                  required={f.required}
+                  rows={4}
+                  className={inputCls}
+                  onInvalid={handleInvalid}
+                  onInput={handleInput}
+                />
               ) : f.type === "select" ? (
-                <select name={f.name} required={f.required} defaultValue="" className={inputCls}>
+                <select
+                  name={f.name}
+                  required={f.required}
+                  defaultValue=""
+                  className={inputCls}
+                  onInvalid={handleInvalid}
+                  onInput={handleInput}
+                >
                   <option value="" disabled>
                     Select…
                   </option>
@@ -91,7 +131,15 @@ export function LeadForm({
                   ))}
                 </select>
               ) : (
-                <input name={f.name} type={f.type || "text"} required={f.required} className={inputCls} />
+                <input
+                  name={f.name}
+                  type={f.type || "text"}
+                  required={f.required}
+                  autoComplete={f.autocomplete}
+                  className={inputCls}
+                  onInvalid={handleInvalid}
+                  onInput={handleInput}
+                />
               )}
             </div>
           ))}
@@ -101,14 +149,17 @@ export function LeadForm({
               disabled={submitting}
               className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)] disabled:opacity-60"
             >
-              <span className="relative z-10">{submitting ? "Sending…" : submitLabel}</span>
+              <span className="relative z-10">{submitting ? pendingLabel : submitLabel}</span>
               <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">
                 →
               </span>
             </button>
-            <p className="mt-4 text-[12px] text-white/35">
-              HIPAA-aware intake. Your information stays within our controlled environment.
-            </p>
+            {failed && (
+              <p role="alert" className="mt-4 text-[13px] leading-relaxed text-[#FFB4A8]">
+                {errorMessage}
+              </p>
+            )}
+            <p className="mt-4 text-[12px] text-white/35">{helper}</p>
           </div>
         </form>
       </Reveal>

@@ -10,7 +10,10 @@ import {
 } from "react";
 import Link from "next/link";
 import { serif, mono } from "./theme";
+import { handleInput, handleInvalid } from "./formValidation";
 import {
+  DEFAULT_FORM_ERROR,
+  DEFAULT_FORM_HELPER,
   LEAD_FORMS,
   leadFormKeyForHref,
   type LeadFormKey,
@@ -31,9 +34,11 @@ const LeadModalContext = createContext<LeadModalContextValue | null>(null);
 const inputCls =
   "w-full rounded-xl border border-white/12 bg-white/[0.03] px-4 py-3 text-[15px] text-white/90 outline-none transition-colors placeholder:text-white/25 focus:border-[#0090F0]/60 focus:bg-white/[0.05]";
 
+type Status = "idle" | "sending" | "sent" | "error";
+
 export function LeadModalProvider({ children }: { children: React.ReactNode }) {
   const [active, setActive] = useState<{ key: LeadFormKey; href?: string } | null>(null);
-  const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
+  const [status, setStatus] = useState<Status>("idle");
   const dialogRef = useRef<HTMLDivElement | null>(null);
   const restoreFocusRef = useRef<HTMLElement | null>(null);
 
@@ -76,15 +81,20 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
     setStatus("sending");
     const payload = Object.fromEntries(new FormData(e.currentTarget).entries());
     try {
-      await fetch("/api/contact", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
+      if (!res.ok) throw new Error(`Lead request rejected: ${res.status}`);
+      // Confirmed only once the server has accepted the request.
+      setStatus("sent");
     } catch {
-      // Network hiccup: the API also logs server-side; don't block the prospect.
+      // The server did not accept the request (or it never arrived). Keep the
+      // form and its values on screen and say so, instead of reporting a
+      // request as received that may never have been delivered.
+      setStatus("error");
     }
-    setStatus("sent");
   }
 
   const form = active ? LEAD_FORMS[active.key] : null;
@@ -123,7 +133,7 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
             </button>
 
             {status === "sent" ? (
-              <div className="px-8 py-16 text-center md:px-12">
+              <div className="px-8 py-16 text-center md:px-12" role="status">
                 <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] text-xl text-black">
                   ✓
                 </span>
@@ -131,10 +141,11 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
                   className="mt-6 text-[clamp(1.4rem,2.6vw,1.9rem)] leading-tight"
                   style={{ fontFamily: serif }}
                 >
-                  Request received
+                  {form.successTitle ?? "Request received"}
                 </h2>
                 <p className="mx-auto mt-4 max-w-sm leading-relaxed text-white/55">
-                  Thank you — our team will get back to you within one business day.
+                  {form.successBody ??
+                    "Thank you — our team will get back to you within one business day."}
                 </p>
                 <button
                   onClick={close}
@@ -180,9 +191,23 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
                         {f.required && <span className="text-[#0090F0]"> *</span>}
                       </label>
                       {f.type === "textarea" ? (
-                        <textarea name={f.name} required={f.required} rows={3} className={inputCls} />
+                        <textarea
+                          name={f.name}
+                          required={f.required}
+                          rows={3}
+                          className={inputCls}
+                          onInvalid={handleInvalid}
+                          onInput={handleInput}
+                        />
                       ) : f.type === "select" ? (
-                        <select name={f.name} required={f.required} defaultValue="" className={inputCls}>
+                        <select
+                          name={f.name}
+                          required={f.required}
+                          defaultValue=""
+                          className={inputCls}
+                          onInvalid={handleInvalid}
+                          onInput={handleInput}
+                        >
                           <option value="" disabled>
                             Select…
                           </option>
@@ -197,7 +222,10 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
                           name={f.name}
                           type={f.type || "text"}
                           required={f.required}
+                          autoComplete={f.autocomplete}
                           className={inputCls}
+                          onInvalid={handleInvalid}
+                          onInput={handleInput}
                         />
                       )}
                     </div>
@@ -209,14 +237,19 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
                       className="group relative inline-flex w-full items-center justify-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)] disabled:opacity-60 sm:w-auto"
                     >
                       <span className="relative z-10">
-                        {status === "sending" ? "Sending…" : form.submitLabel}
+                        {status === "sending" ? (form.pendingLabel ?? "Sending…") : form.submitLabel}
                       </span>
                       <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">
                         →
                       </span>
                     </button>
+                    {status === "error" && (
+                      <p role="alert" className="mt-4 text-[13px] leading-relaxed text-[#FFB4A8]">
+                        {form.errorMessage ?? DEFAULT_FORM_ERROR}
+                      </p>
+                    )}
                     <p className="mt-4 text-[12px] text-white/35">
-                      HIPAA-aware intake. Your information stays within our controlled environment.
+                      {form.helper ?? DEFAULT_FORM_HELPER}
                       {active.href && (
                         <>
                           {" "}

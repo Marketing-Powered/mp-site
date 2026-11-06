@@ -1,87 +1,58 @@
 ---
-title: "Contact Marketing Powered Agency"
+title: "Request a Strategy Call | Marketing Powered"
 url: "/company/contact/"
 primary_keyword: "contact marketing powered"
-secondary_keywords: "marketing agency contact, behavioral health marketing contact"
+secondary_keywords: "marketing agency contact, request a strategy call"
 target_word_count: "200-400"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT
-Contact page for /company/contact/ targeting the brand keyword 'contact marketing powered' with secondary keywords 'marketing agency contact' and 'behavioral health marketing contact.' Target word count is 200-400 words. Page type is a navigational contact page within the P0 launch core. Buyer target is a CEO or marketing director at a behavioral health provider seeking specialized marketing services with compliance expertise.
+Contact page for /company/contact/, revised with the November 6, 2026 homepage package. The page is the destination for the homepage's primary action, "Request a strategy call". It asks for a conversation rather than implying a booked appointment, keeps the first step to contact details, and carries no agency results, founder credentials, spend totals, certification language, or response-time guarantees that have not been approved for publication. Existing route, tracking, and form delivery are preserved.
 Page type: Contact/navigational
-Buyer target: CEO or marketing director of a behavioral health provider seeking specialized marketing services
+Buyer target: CEO, CMO, or marketing leader at a hospital, health system, behavioral health provider, or other multi-location organization
 Word count target: 200-400 words
 
-
 SEO METADATA
-Title tag (32 chars): Contact Marketing Powered Agency
-Meta description (119 chars): Reach out to Marketing Powered for tailored behavioral health marketing solutions. Connect directly with our experts.
-H1: Get in Touch with Marketing Powered
-Hero image alt: Marketing Powered contact form for behavioral health and mental health marketing inquiries
-
+Title tag (43 chars): Request a Strategy Call | Marketing Powered
+Meta description (139 chars): Request a strategy call with Marketing Powered. Tell us where growth is getting stuck and we will discuss priorities, measurement, and fit.
+H1: Request a strategy call
+Hero image alt: Marketing Powered strategy call request form
 
 PAGE COPY
 
+Request a strategy call
+Tell us who you are and how to reach you. We will contact you to discuss your priorities and arrange a strategy call.
+[CTA] Send your request → #lead-form
 
-Get in Touch with Marketing Powered
-Connect with specialists who understand behavioral health marketing, compliance requirements, and what it takes to grow admissions.
-[CTA] Start a Conversation
+What to bring to the conversation
+Bring the business problem. Where is growth getting stuck, what does your leadership team need to see, and how is marketing performance measured today? Those three answers shape the first conversation.
+We will discuss your priorities, current measurement, and the operational gaps between investment and results. If a deeper review would be useful, we will say where and why.
 
+What happens after you send the form
+A member of the Marketing Powered team reviews your request and contacts you using the information you provide to arrange a strategy call. The first conversation covers fit: your organization, your priorities, and whether our operating model matches what you need.
+Please do not include patient information or other sensitive personal information in your request. Use the form for contact details only; the details of the business problem can wait for the call.
 
-Why Contact Marketing Powered
-Behavioral health marketing requires more than standard agency tactics. It demands compliance fluency, vertical-specific media experience, and attribution that tracks through to admission. Marketing Powered brings all three.
-With [$50M+ in managed behavioral health and mental health media spend](/who-we-help/behavioral-health), we operate at the scale where patterns become visible and optimizations compound. Our founder managed operator-side multi-market growth and holds credentials as a court-certified expert witness in advertising strategy.
-
-
-When you contact Marketing Powered, you connect with a team that has navigated LegitScript certification, Google Ads sensitive vertical restrictions, and HIPAA-conscious infrastructure since before most agencies knew these requirements existed.
-How to Contact Us
-Use the contact form on this page to start a conversation. Share as much or as little detail as you prefer about your current marketing challenges, census goals, or compliance concerns.
-Prefer a direct approach? [Book a call](/get-started/book-a-call) to schedule time with our team. If you want a detailed review of your current campaigns before we talk, [request an audit](/get-started/request-an-audit).
-
-
-Every inquiry receives a response from someone who understands behavioral health operations, not a generic sales rep reading from a script.
-What Happens After You Reach Out
-Within one business day, a member of our team will review your submission and respond with the next steps tailored to your situation. We prioritize fit over volume.
-Expect a conversation focused on your specific challenges: lead quality, cost per admission, compliance posture, or scaling from a single location to multiple facilities.
-Our Unique Expertise in Behavioral Health
-Marketing Powered has managed [$1.5M to $2M monthly in Google Ads](/ai-edge) across behavioral health accounts, with attribution tracked through to admission. We understand the restrictions that come with sensitive vertical status: no retargeting, careful ad copy, and constant policy vigilance.
-Our [AI-native infrastructure](/ai-edge) has been purpose-built for [HIPAA-compliant marketing](/ai-edge) since 2022, giving us capabilities most agencies cannot match.
-
-
-Start a Conversation
-Ready to discuss strategy, compliance, lead quality, and channel mix with a team that has operated at scale in behavioral health? Let's talk about what growth looks like for your organization.
-[CTA] Book a Call
+Other ways to reach us
+Prefer email? Contact info@marketingpowered.ai. The phone number and office address listed on this page reach the same team.
 FAQ
-Q: How do I contact Marketing Powered?
-A: Use the contact form on this page to submit your inquiry, or book a call directly through our scheduling page. You can also request a detailed audit of your current campaigns if you want a comprehensive review before we connect. Every submission is reviewed by team members with behavioral health marketing experience.
-Q: What can I expect after reaching out?
-A: You will receive a response within one business day from someone who understands your vertical. We focus on your specific challenges, whether that is lead quality, compliance concerns, or scaling admissions, and tailor our follow-up accordingly.
-Q: Why choose Marketing Powered for behavioral health marketing?
-A: We have managed over $50M in behavioral health and mental health media spend, with attribution tracked through to admission. Our team understands LegitScript certification, Google Ads sensitive vertical restrictions, and HIPAA requirements. The founder managed operator-side multi-market growth and is a court-certified expert witness in advertising strategy.
-Q: Is there a fee for initial consultations?
-A: No. Initial consultations are free. We prioritize understanding your situation, challenges, and goals before discussing any engagement. This approach ensures we only move forward when there is a clear fit and a path to measurable results.
+Q: What happens after I request a strategy call?
+A: We review your request and contact you using the information you provided to arrange a time. The first conversation focuses on your priorities, how performance is measured today, and whether there is a fit.
+Q: Does a strategy call commit me to an engagement?
+A: No. The call is a focused conversation about fit and where a deeper review would be useful. Any engagement is defined afterward, with scope, responsibilities, and reporting cadence agreed in writing.
 SCHEMA RECOMMENDATION
-Schema type: FAQPage, Organization, BreadcrumbList
-* @type: FAQPage with mainEntity array for all FAQ questions
-* @type: Organization with name, url, contactPoint (telephone, email, contactType)
+Schema type: Organization, BreadcrumbList, FAQPage
+* @type: Organization with name, url, contactPoint (telephone, email, contactType) — reuse the existing site-wide entity, do not create a second one
 * @type: BreadcrumbList with itemListElement for Home > Company > Contact
-
+* @type: FAQPage with mainEntity array for the two questions above
 
 DELIVERY NOTES
-Brief conflicts
-* The brief's semantic variants include 'get in touch,' which appears in the H1 as specified. This is acceptable since the brief explicitly requires this H1 text.
-* The brief lists 'get in touch' under semantic variants, but this phrase could be considered close to the banned generic CTA list. Used only in the brief-specified H1, not in body copy CTAs.
+Conversion flow
+* The form on this page is the shared `contact` lead form (src/lib/leadForms.ts): Name, Organization, Email (required) and Phone (optional), with the privacy helper, pending, success, and error copy from the homepage package. The same configuration powers the popup that the homepage CTAs open, so the page and the popup never drift apart.
+* The hero CTA is an in-page anchor to the form rather than a call/booking CTA so the content layer does not rewrite it to the audit request.
+* The form's `source` value stays "Contact" so GoHighLevel field mapping and opportunity routing are unchanged.
 
+Held claims
+* Removed from this page: the managed-spend totals, the expert-witness credential, the "since 2022" dating, "free" consultations, the one-business-day promise, and the HIPAA / LegitScript assurances. Each needs its evidence record and public-use approval before it returns anywhere on the site.
 
-Internal link gaps
-* The brief includes 'about Marketing Powered' linking to '/' but no natural placement existed in this short contact page. Consider adding if the page is expanded.
-* No case study link was naturally placed; the brief includes '/results/case-studies/' in the link map. A proof-heavy contact page could benefit from a case study reference if word count allows.
-
-
-Missing proof points
-* Specific response time SLA could strengthen the 'What Happens After You Reach Out' section if Marketing Powered has a documented commitment (e.g., 'within 4 business hours').
-* Client count or number of behavioral health facilities served would strengthen credibility if available.
-
-
-Banned phrasing in brief
-* The brief's Avoid list correctly identifies all standard banned terms. No conflicts detected in the written copy.
+Open items
+* Form submission and GoHighLevel delivery have not been tested in staging for this revision; run an authorized test submission and inspect the lead email and CRM record before release.

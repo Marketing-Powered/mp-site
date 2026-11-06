@@ -11,11 +11,13 @@ export const SITE_NAME = "Marketing Powered";
 
 export const SITE_TAGLINE = "AI Marketing Agency for Behavioral Health";
 
-export const SITE_TITLE =
-  "Marketing Powered — AI Marketing Agency for Behavioral & Mental Health";
+/* Homepage search title and description from the November 2026 homepage
+   package: 55 and 148 characters. Editorial limits, not Google display
+   limits — search engines may rewrite or truncate either. */
+export const SITE_TITLE = "Experienced Growth Marketing Agency | Marketing Powered";
 
 export const SITE_DESCRIPTION =
-  "AI-native marketing agency for behavioral and mental health providers: $50M+ in managed ad spend, HIPAA-conscious infrastructure, attribution to admission.";
+  "Marketing leadership for hospitals, health systems, and multi-location organizations, with owned technology and execution tied to measurable growth.";
 
 /** Absolute URL for a site-relative path. */
 export function absoluteUrl(path = "/") {

@@ -11,6 +11,8 @@ export type LeadField = {
   options?: string[];
   required?: boolean;
   full?: boolean;
+  /** HTML autocomplete token (name, organization, email, tel…). */
+  autocomplete?: string;
 };
 
 export type LeadFormConfig = {
@@ -21,9 +23,24 @@ export type LeadFormConfig = {
       workflow / opportunity mapping — keep values stable. */
   source: string;
   fields: LeadField[];
+  /** Small print under the submit button. Defaults to DEFAULT_FORM_HELPER. */
+  helper?: string;
+  /** Button label while the request is in flight. Defaults to "Sending…". */
+  pendingLabel?: string;
+  /** Confirmation shown once the server has accepted the request. */
+  successTitle?: string;
+  successBody?: string;
+  /** Shown when the server did not accept the request. Defaults to DEFAULT_FORM_ERROR. */
+  errorMessage?: string;
 };
 
 export type LeadFormKey = "audit" | "call" | "contact" | "qualification";
+
+export const DEFAULT_FORM_HELPER =
+  "HIPAA-aware intake. Your information stays within our controlled environment.";
+
+export const DEFAULT_FORM_ERROR =
+  "We could not send your request. Please try again or email info@marketingpowered.ai.";
 
 export const LEAD_FORMS: Record<LeadFormKey, LeadFormConfig> = {
   audit: {
@@ -33,10 +50,16 @@ export const LEAD_FORMS: Record<LeadFormKey, LeadFormConfig> = {
     submitLabel: "Request My Audit",
     source: "Request an Audit",
     fields: [
-      { name: "name", label: "Full Name", type: "text", required: true },
-      { name: "email", label: "Email", type: "email", required: true },
-      { name: "company", label: "Company / Practice Name", type: "text", required: true },
-      { name: "website", label: "Website URL", type: "text" },
+      { name: "name", label: "Full Name", type: "text", required: true, autocomplete: "name" },
+      { name: "email", label: "Email", type: "email", required: true, autocomplete: "email" },
+      {
+        name: "company",
+        label: "Company / Practice Name",
+        type: "text",
+        required: true,
+        autocomplete: "organization",
+      },
+      { name: "website", label: "Website URL", type: "text", autocomplete: "url" },
       {
         name: "spend",
         label: "Monthly Ad Spend",
@@ -58,25 +81,36 @@ export const LEAD_FORMS: Record<LeadFormKey, LeadFormConfig> = {
     submitLabel: "Request My Call",
     source: "Book a Call",
     fields: [
-      { name: "name", label: "Full Name", required: true },
-      { name: "org", label: "Organization", required: true },
-      { name: "email", label: "Work Email", type: "email", required: true },
-      { name: "phone", label: "Phone", type: "tel" },
+      { name: "name", label: "Full Name", required: true, autocomplete: "name" },
+      { name: "org", label: "Organization", required: true, autocomplete: "organization" },
+      { name: "email", label: "Work Email", type: "email", required: true, autocomplete: "email" },
+      { name: "phone", label: "Phone", type: "tel", autocomplete: "tel" },
       { name: "notes", label: "What would you like to cover?", type: "textarea" },
     ],
   },
+  /* The strategy-call request. /company/contact is the destination for the
+     homepage's primary action, so this form asks for a conversation — not a
+     booked appointment, not an audit — and keeps the first step to contact
+     details only (no budget, website, patient details, or qualification
+     questions). Copy follows the November 2026 homepage package. */
   contact: {
-    title: "Start a conversation",
+    title: "Request a strategy call",
     intro:
-      "Tell us about your center and what you're trying to solve. We'll get back to you within one business day.",
-    submitLabel: "Send Message",
+      "Tell us who you are and how to reach you. We will contact you to discuss your priorities and arrange a strategy call.",
+    submitLabel: "Request a strategy call",
     source: "Contact",
+    helper: "Please do not include patient information or other sensitive personal information.",
+    pendingLabel: "Sending your request...",
+    successTitle: "Request received",
+    successBody:
+      "Your request has been received. We will contact you using the information provided to arrange a strategy call.",
+    errorMessage:
+      "We could not send your request. Please try again or email info@marketingpowered.ai.",
     fields: [
-      { name: "name", label: "Full Name", required: true },
-      { name: "org", label: "Organization", required: true },
-      { name: "email", label: "Work Email", type: "email", required: true },
-      { name: "phone", label: "Phone", type: "tel" },
-      { name: "message", label: "How can we help?", type: "textarea", required: true },
+      { name: "name", label: "Name", required: true, autocomplete: "name" },
+      { name: "org", label: "Organization", required: true, autocomplete: "organization" },
+      { name: "email", label: "Email", type: "email", required: true, autocomplete: "email" },
+      { name: "phone", label: "Phone", type: "tel", autocomplete: "tel" },
     ],
   },
   qualification: {
@@ -86,9 +120,16 @@ export const LEAD_FORMS: Record<LeadFormKey, LeadFormConfig> = {
     submitLabel: "Check My Fit",
     source: "Qualification",
     fields: [
-      { name: "name", label: "Full Name", required: true },
-      { name: "org", label: "Organization", required: true },
-      { name: "email", label: "Work Email", type: "email", required: true, full: true },
+      { name: "name", label: "Full Name", required: true, autocomplete: "name" },
+      { name: "org", label: "Organization", required: true, autocomplete: "organization" },
+      {
+        name: "email",
+        label: "Work Email",
+        type: "email",
+        required: true,
+        full: true,
+        autocomplete: "email",
+      },
       {
         name: "vertical",
         label: "Primary Vertical",

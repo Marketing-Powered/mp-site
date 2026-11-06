@@ -13,9 +13,12 @@
 /* Founder figures (locations, states, monthly spend, employer revenue) */
 /* are historical founder responsibility, attributed in the copy. They  */
 /* are not agency results and must not be relabeled as such.            */
+/*                                                                      */
+/* Image paths carry no query string: next.config.ts `localPatterns`    */
+/* only admits `/images/**` with an empty search, or the legacy         */
+/* `?v=20260624` under /images/pages/home. New filenames need no        */
+/* cache-busting.                                                       */
 /* ================================================================== */
-
-const IMAGE_VERSION = "20261106";
 
 export const homeContent = {
   seo: {
@@ -46,7 +49,7 @@ export const homeContent = {
       "For CEOs and CMOs, that means a partner who understands the decisions behind the campaigns: where to invest, what to improve, and how to judge performance. Our [marketing leadership](/company/about) starts with operating experience, not a software pitch.",
     ],
     /* Decorative: out-of-focus night lights. Not staff, offices, or client work. */
-    image: `/images/pages/home/home-hero-light-field.jpg?v=${IMAGE_VERSION}`,
+    image: "/images/pages/home/home-hero-light-field.jpg",
     imageAlt: "",
   },
 
@@ -61,7 +64,7 @@ export const homeContent = {
     ],
     /* Decorative: daylight through blinds. Swap for an actual founder portrait
        (alt: "Mike Hulick, founder and CEO of Marketing Powered.") when one is approved. */
-    image: `/images/pages/home/home-experience-window-light.jpg?v=${IMAGE_VERSION}`,
+    image: "/images/pages/home/home-experience-window-light.jpg",
     imageAlt: "",
   },
 
@@ -138,7 +141,7 @@ export const homeContent = {
     /* Decorative: out-of-focus indicator lights. Swap for a photo of actual
        agency-owned equipment (alt: "Computing infrastructure operated by
        Marketing Powered.") when one is approved. */
-    image: `/images/pages/home/home-infrastructure-light-rows.jpg?v=${IMAGE_VERSION}`,
+    image: "/images/pages/home/home-infrastructure-light-rows.jpg",
     imageAlt: "",
   },
 

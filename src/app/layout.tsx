@@ -30,7 +30,7 @@ const spaceMono = Space_Mono({
    domain on the Midnight Atelier canvas. The headline it carries is repeated
    in real page text, so no claim lives only in the image. */
 const SHARE_IMAGE = {
-  url: "/images/pages/home/og-share.jpg?v=20261106",
+  url: "/images/pages/home/og-share.jpg",
   width: 1200,
   height: 630,
   alt: SITE_TITLE,

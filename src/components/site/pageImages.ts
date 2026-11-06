@@ -56,34 +56,34 @@ const std4 = (route: string, alts: [string, string, string, string]): SlotImg[] 
   pageImg(route, "04-results.jpg", alts[3]),
 ];
 
+/* ---- Decorative photography (November 2026 homepage release) ----------
+   Abstract light studies shipped with the homepage package. They do not
+   depict staff, offices, equipment, or client work, so they carry empty
+   alt text (ImageSlot keeps an explicit "" as decorative). Used as hero
+   art on supporting pages whose previous graphics carried held claims
+   (spend totals, percentage results, certification language, a former
+   employer's name, or the expert-witness credential). */
+const decoCover = (file: string): SlotImg => ({
+  src: `/images/pages/home/${file}`,
+  alt: "",
+  fit: "cover",
+});
+const DECO_FIELD = decoCover("home-hero-light-field.jpg");
+const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
+const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
+
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  // Only the abstract hero remains. The founder-quote, growth-framework, and
+  // results-stats graphics carried the expert-witness credential, "AI-native
+  // since 2022", a $50M+ spend total, and the former employer's name (held
+  // claims per the November 2026 package), so they are no longer rendered.
   "/company/about/": [
-    // [0] hero — abstract on-brand growth banner
     pageImg(
       "company/about",
       "01-hero-banner.jpg",
-      "Marketing Powered: an AI-native behavioral health marketing agency",
-    ),
-    // [1] after "Our Founder and Leadership" — founder quote callout
-    pageImg(
-      "company/about",
-      "06-founder-quote.jpg",
-      "Founder Mike Hulick: operator experience shapes every strategy — we know what happens after the lead comes in",
-    ),
-    // [2] mid (AI-native / expertise) — the growth framework
-    pageImg(
-      "company/about",
-      "03-growth-framework.jpg",
-      "Our AI-powered behavioral health growth framework: founder-led strategy, AI-native workflows, specialization, paid media, and attribution to admission",
-    ),
-    // [3] near "Proven Success" — results and proof points
-    pageImg(
-      "company/about",
-      "04-results-stats.jpg",
-      "Proven results: scaling multi-location growth and $50M+ in managed paid media spend with attribution discipline",
+      "Abstract Marketing Powered brand graphic with upward arrows",
     ),
   ],
-
   /* ---- Services cluster ---- */
 
   // Hub (HubPage): only index [1] is rendered as the "Capabilities Overview".
@@ -100,13 +100,17 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ),
   ],
 
-  "/services/paid-media/": std4("services/paid-media", [
-    "Paid media agency for behavioral health: $50M+ managed with full ad-to-admission attribution",
-    "Paid ads to admission funnel: first click and call, intake qualification, operator-backed experience",
-    "Paid media process: audit and funnel mapping, compliant build, full-funnel attribution, optimization, and budget pacing",
-    "Paid media results for behavioral health: $50M+ managed, 8X facility growth, 100% platform-compliant, admission-level metrics over vanity data",
-  ]),
-
+  // Hero and results graphics carried "$50M+ managed", "8X facility growth",
+  // and "100% compliant" (held claims); the process graphic had placeholder
+  // typos. Decorative hero plus the illustrative funnel diagram remain.
+  "/services/paid-media/": [
+    DECO_FIELD,
+    pageImg(
+      "services/paid-media",
+      "02-concept.jpg",
+      "Illustrative paid media path: first click or call, intake qualification, and admission",
+    ),
+  ],
   "/services/google-ads-management/": std4("services/google-ads-management", [
     "Expert Google Ads management for behavioral health, tracked through to admissions",
     "Google Ads path: precision targeting, intelligent bidding, and creative optimization to qualified admissions",
@@ -128,24 +132,19 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     "Behavioral health landing page performance: optimized pages convert 5-8%, lower bounce, Multi-location behavioral health landing page performance",
   ]),
 
-  "/services/analytics-and-attribution/": std4("services/analytics-and-attribution", [
-    "Advanced marketing attribution built for behavioral health: know exactly which channels drive admissions",
-    "Multi-touch attribution mapping a Google Ads click through organic search, phone call, and consultation to a confirmed admission",
-    "Attribution methodology: full-stack audit, cleanse data and infrastructure, deploy multi-touch models, and optimize ROI based on admissions",
-    "Attribution analytics: know which channels drive admissions, +35% ROI improvement, with HIPAA-aware methodology",
-  ]),
-
+  // Concept, process, and results graphics carried invented figures ("$340",
+  // "+35% ROI", "ROI: 50%") and "HIPAA-compliant" assurances. Hero remains.
+  "/services/analytics-and-attribution/": [
+    pageImg(
+      "services/analytics-and-attribution",
+      "01-hero-banner.jpg",
+      "Abstract attribution graphic connecting ad clicks, CRM entry, and admission verification",
+    ),
+  ],
   // Hero swapped to the clean funnel graphic; the original 01 hero had a garbled headline.
-  "/services/call-tracking-and-intake-attribution/": std4(
-    "services/call-tracking-and-intake-attribution",
-    [
-      "Call tracking and intake attribution for treatment centers: reduced cost-per-admission, maximized marketing ROI",
-      "Stop guessing which channels: intake attribution reduces cost-per-admission by 20-40% within the first 90 days",
-      "Call tracking process: capture call source, inform intake team, track intake stages, measure ROI, ensure HIPAA compliance, and optimize budget",
-      "Call tracking results: admissions up 20-40%, cost-per-admission reduced, on HIPAA-compliant infrastructure",
-    ],
-  ),
-
+  // Every graphic in this set carried "20-40%" results, "HIPAA compliant
+  // infrastructure", or a literal "[CTA]" placeholder; decorative hero only.
+  "/services/call-tracking-and-intake-attribution/": [DECO_ROWS],
   /* ---- Services cluster (P1 additions) ---- */
 
   "/services/conversion-rate-optimization/": std4("services/conversion-rate-optimization", [
@@ -249,19 +248,10 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   /* ---- Web Development sub-cluster ---- */
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.
-  "/services/web-development/": [
-    pageImg(
-      "services/web-development/hub",
-      "01-hero-banner.jpg",
-      "Expert healthcare web development: compliant code, operator insight, marketing results",
-    ),
-    pageImg(
-      "services/web-development/hub",
-      "05-capabilities.jpg",
-      "Healthcare web development capabilities: HIPAA compliance, conversion focus, marketing integration, operator experience, AI optimization, and attribution clarity",
-    ),
-  ],
-
+  // Hub (HubPage): only index [1] renders. The capabilities icon set carried
+  // "HIPAA compliance" and "leveraging AI" labels, so a decorative image is
+  // used for the overview slot.
+  "/services/web-development/": [DECO_FIELD, DECO_ROWS],
   "/services/web-development/website-design-and-build/": std4(
     "services/web-development/website-design-and-build",
     [
@@ -298,25 +288,35 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ),
   ],
 
-  "/services/web-development/technical-seo-and-performance/": std4(
-    "services/web-development/technical-seo-and-performance",
-    [
-      "Technical SEO and site performance optimization built on the discipline behind $50M+ in managed media spend",
-      "Technical SEO is your site's foundation: crawlability, site architecture, and Core Web Vitals driving performance gains",
-      "Our technical SEO and performance framework: crawlability and indexing audit, site architecture, Core Web Vitals assessment, performance and remediation roadmap",
-      "Technical SEO key statistics: Core Web Vitals targets, performance optimization strategies, and foundational SEO layers",
-    ],
-  ),
-
-  "/services/web-development/integrations-and-tracking/": std4(
-    "services/web-development/integrations-and-tracking",
-    [
-      "Comprehensive marketing tracking implementation: GA4, GTM, and server-side tracking for growth",
-      "Unifying website, social, search ads, and call tracking into accurate analytics, tag management, and compliant server-side tracking",
-      "Behavioral health tracking implementation process: measurement planning and compliance audit, GA4 and event configuration, GTM and tag management, server-side routing",
-      "Tracking implementation drives behavioral health growth: GA4 implementation quality, optimized GTM setup, and server-side tracking benefits",
-    ],
-  ),
+  // The hero carried a $50M+ spend line and the statistics panel a stray
+  // footer; the two framework diagrams remain.
+  "/services/web-development/technical-seo-and-performance/": [
+    DECO_WINDOW,
+    pageImg(
+      "services/web-development/technical-seo-and-performance",
+      "02-concept.jpg",
+      "Technical SEO foundations: crawlability, site architecture, structured data, and Core Web Vitals",
+    ),
+    pageImg(
+      "services/web-development/technical-seo-and-performance",
+      "03-process.jpg",
+      "Technical SEO and performance framework: crawlability and indexing audit, site architecture, Core Web Vitals assessment, remediation roadmap",
+    ),
+  ],
+  // Concept, process, and results graphics carried "HIPAA compliant" badges,
+  // a LegitScript icon, and percentage recovery claims. Hero remains.
+  "/services/web-development/integrations-and-tracking/": [
+    pageImg(
+      "services/web-development/integrations-and-tracking",
+      "01-hero-banner.jpg",
+      "Abstract graphic of analytics, GA4, and Google Tag Manager data flows",
+    ),
+  ],
+  /* ---- November 2026 supporting pages (decorative photography) ---- */
+  "/ai-edge/customizable-ai/": [DECO_ROWS, DECO_WINDOW],
+  "/ai-edge/local-processing/": [DECO_ROWS],
+  "/ai-edge/open-source/": [DECO_WINDOW],
+  "/who-we-help/hospitals-and-health-systems/": [DECO_FIELD],
 
   /* ---- AI Edge cluster ---- */
 
@@ -334,13 +334,10 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ),
   ],
 
-  "/ai-edge/owned-ai-systems/": std4("ai-edge/owned-ai-systems", [
-    "Owned AI systems: move beyond API wrappers and build AI infrastructure you control",
-    "The owned AI advantage: building control, security, and independence with local inference hardware",
-    "Phased implementation of your owned AI system: define and analyze, infrastructure setup, data integration, deploy and scale",
-    "Owned AI results: 1.4X faster iteration cycles, sub-100ms latency, complete compliance, and scalable growth",
-  ]),
-
+  // The previous set asserted "complete control", "full data sovereignty",
+  // "no third-party API dependencies", and 40% / 1.4X / sub-100ms results,
+  // which the package holds or contradicts. Decorative hero only.
+  "/ai-edge/owned-ai-systems/": [DECO_ROWS],
   "/ai-edge/ai-in-paid-media/": std4("ai-edge/ai-in-paid-media", [
     "Optimize paid media with AI for performance-driven agency growth",
     "AI in paid media: advanced targeting, real-time bidding, multivariate testing, and budget allocation",
@@ -350,33 +347,29 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
 
   // Hero swapped to the clean concept (02) — Asana's 01 hero headline was garbled
   // ("APPPLICATONS"), and 04 had placeholder artifacts; 3 clean images supplied.
-  "/ai-edge/data-sovereignty/": [
-    pageImg(
-      "ai-edge/data-sovereignty",
-      "01-hero-banner.jpg",
-      "Navigating data sovereignty: AI data compliance and healthcare data control",
-    ),
-    pageImg(
-      "ai-edge/data-sovereignty",
-      "02-concept.jpg",
-      "Data sovereignty essentials: data residency, legal jurisdiction, HIPAA compliance, AI data mapping, technical controls, and contractual provisions",
-    ),
-    pageImg(
-      "ai-edge/data-sovereignty",
-      "03-process.jpg",
-      "Implementing data sovereignty in AI systems: build a compliant data inventory, conduct jurisdiction analysis, implement controls, maintain an audit-ready posture",
-    ),
-  ],
-
+  // The rewritten page describes the agency's operating model (storage,
+  // access, providers, retention) rather than jurisdictions, so the old
+  // hero and icon set no longer match; decorative hero only.
+  "/ai-edge/data-sovereignty/": [DECO_FIELD],
   // Process slot uses the clean takeaways graphic (08) — Asana's 03 was a
   // placeholder-text draft ("Semi BOLD" cards).
-  "/ai-edge/ai-governance/": std4("ai-edge/ai-governance", [
-    "Building responsible AI in healthcare: understanding AI governance",
-    "The four pillars of AI governance: policy, technical controls, accountability, and continuous monitoring",
-    "AI governance in practice: establish policies and controls, assign accountability, conduct a compliance inventory, implement continuous monitoring",
-    "Navigating AI governance in healthcare: addressing risk and liabilities, maturing governance for acceleration, key elements of AI compliance",
-  ]),
-
+  "/ai-edge/ai-governance/": [
+    pageImg(
+      "ai-edge/ai-governance",
+      "01-hero-banner.jpg",
+      "Abstract graphic for AI governance in healthcare marketing",
+    ),
+    pageImg(
+      "ai-edge/ai-governance",
+      "02-concept.jpg",
+      "Four elements of AI governance: policy, technical controls, accountability, and continuous monitoring",
+    ),
+    pageImg(
+      "ai-edge/ai-governance",
+      "04-results.jpg",
+      "AI governance overview: addressing risk, maturing governance, and key elements of compliance",
+    ),
+  ],
   "/ai-edge/social-media/": std4("ai-edge/social-media", [
     "Leverage AI for social media marketing effectiveness: AI-native strategies built for compliance and growth",
     "AI-driven social media cycle: data analysis, scalable content generation, real-time optimization, and admission-focused results",
@@ -400,13 +393,10 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ),
   ],
 
-  "/who-we-help/behavioral-health/": std4("who-we-help/behavioral-health", [
-    "Expert behavioral health marketing: operator-built marketing for treatment centers to scale admissions",
-    "Specialized behavioral health marketing driving census growth, from qualified leads through intake and insurance verification to admissions",
-    "Five steps to optimize behavioral health admissions: compliantly audit, architect strategy, build authority, full-funnel attribution, continuous optimization",
-    "Data-powered behavioral health marketing results: scaling multi-location growth, $50M+ managed, revenue growth, zero compliance violations",
-  ]),
-
+  // Hero, concept, and process graphics carried "LegitScript certified /
+  // compliant" badges; the results panel carried $50M+, +140M, and "0
+  // compliance violations". Decorative hero only.
+  "/who-we-help/behavioral-health/": [DECO_WINDOW],
   // Hero swapped to the clean path graphic (02) — Asana's 01 hero showed literal
   // "[CTA]" placeholder button tokens. Three clean images.
   "/who-we-help/behavioral-health/residential-treatment/": [
@@ -1564,16 +1554,10 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     "Resolve your GA4 attribution challenges: common issues with attribution, the steps to fix them, and the benefits of accurate attribution",
   ]),
 
-  "/problems/scale-multi-location-campaigns/": std4(
-    "problems/scale-multi-location-campaigns",
-    [
-      "Overcoming multi-location marketing challenges: proven frameworks for scaling campaigns across multiple treatment center locations without sacrificing lead quality or compliance",
-      "Scaling multi-location marketing: centralised control, localised execution, and data-forward visibility",
-      "The multi-location marketing scaling framework: strategy and goals, centralize infrastructure, build operational workflows, implement scalable advertising, and optimize and report",
-      "Optimizing multi-location marketing performance: key challenges at scale, strategic frameworks and data insights, and the expected outcomes",
-    ],
-  ),
-
+  // The previous set framed the page for treatment centers only, prescribed a
+  // single account architecture, and carried a LegitScript panel and
+  // "3 to 24+ locations" results; decorative hero only.
+  "/problems/scale-multi-location-campaigns/": [DECO_FIELD],
   "/problems/fix-lead-quality/": std4("problems/fix-lead-quality", [
     "Resolve your lead quality challenges now: stop wasting budget on leads that never convert with targeted strategies built for behavioral health operators",
     "From unqualified leads through lead-quality scoring to high-quality admissions",

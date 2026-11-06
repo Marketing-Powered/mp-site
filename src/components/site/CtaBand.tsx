@@ -4,8 +4,8 @@ import { PrimaryCta, GhostCta, CallCta } from "./ui";
 import { siteContent as s } from "@/lib/content";
 
 export default function CtaBand({
-  headline = "Ready to see what AI-native marketing can do for your treatment center?",
-  body = "Request a free audit of your paid media, landing pages, attribution, and compliance posture. You'll get a straight assessment of where the opportunities are.",
+  headline = "Ready to see where your marketing can improve?",
+  body = "Request a free audit of your paid media, landing pages, attribution, and measurement setup. You'll get a straight assessment of where the opportunities are.",
   ctaText = "Request a Free Audit",
   ctaLink = "/get-started/request-an-audit",
   secondaryCta,

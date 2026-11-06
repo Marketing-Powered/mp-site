@@ -26,6 +26,16 @@ const spaceMono = Space_Mono({
   variable: "--font-space-mono",
 });
 
+/* Branded share image (1200×630): wordmark, the homepage headline, and the
+   domain on the Midnight Atelier canvas. The headline it carries is repeated
+   in real page text, so no claim lives only in the image. */
+const SHARE_IMAGE = {
+  url: "/images/pages/home/og-share.jpg?v=20261106",
+  width: 1200,
+  height: 630,
+  alt: SITE_TITLE,
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: SITE_TITLE,
@@ -37,20 +47,13 @@ export const metadata: Metadata = {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     url: SITE_URL,
-    images: [
-      {
-        url: "/images/01-hero-banner.jpg",
-        width: 1376,
-        height: 768,
-        alt: SITE_TITLE,
-      },
-    ],
+    images: [SHARE_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
-    images: ["/images/01-hero-banner.jpg"],
+    images: [SHARE_IMAGE.url],
   },
 };
 

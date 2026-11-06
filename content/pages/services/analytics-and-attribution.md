@@ -1,111 +1,125 @@
 ---
-title: "Marketing Attribution Services - Marketing Powered"
+title: "Marketing Attribution Services | Marketing Powered"
 url: "/services/analytics-and-attribution/"
-primary_keyword: "marketing attribution (Vol 2,100 | KD 33 | CPC $0.50)"
+primary_keyword: "marketing attribution"
 secondary_keywords: "attribution analytics, marketing analytics services"
-target_word_count: "1200-1800"
+target_word_count: "1000-2000"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT
-This page targets /services/analytics-and-attribution/ with 'marketing attribution' as the primary keyword and 'attribution analytics, marketing analytics services, mobile attribution and analytics' as secondary keywords. Word count target is 1200-1800 words. Page type: Service page. Buyer target: CEO, COO, or VP of Business Development at a behavioral health center evaluating analytics partners.
+Revised 2026-11-06 for the homepage package (link map slot 07, anchor "analytics and attribution"; register entry P1, 1,000-2,000 words). This page explains how Marketing Powered connects campaign data, call tracking, and CRM records to business outcomes, and where that data stops short. Page type: Service page. Buyer target: CEOs, CMOs, and marketing or finance leaders at hospitals, health systems, multi-location organizations, and behavioral or mental health providers who need to judge marketing investment by what happens after the inquiry.
 Page type: Service page
-Buyer target: CEO, COO, or VP of Business Development at a behavioral health center
-Word count target: 1200-1800 words
+Buyer target: CEOs, CMOs, and marketing or finance leaders at healthcare and multi-location organizations
+Word count target: 1000-2000 words
 
 
 SEO METADATA
-Title tag (50 chars): Marketing Attribution Services - Marketing Powered
-Meta description (85 chars): Get marketing attribution services built for treatment centers: GA4, call tracking, and admission-level reporting. Book a call with our team.
-H1: Advanced Marketing Attribution Services
-Hero image alt: Marketing attribution dashboard showing multi-touch conversion paths for behavioral health marketing campaigns
+Title tag (50 chars): Marketing Attribution Services | Marketing Powered
+Meta description (153 chars): Analytics and attribution that connect call tracking and CRM records to admissions, patients, or revenue, with measured and modeled data labeled clearly.
+H1: Analytics and Attribution That Measure What Happens After the Inquiry
+Hero image alt: Abstract attribution graphic connecting ad clicks, CRM entry, and admission verification
 
 
 PAGE COPY
 
 
-Advanced Marketing Attribution Services
-Know exactly which channels drive admissions, not just clicks. Attribution is built for behavioral health and mental health providers.
-[CTA] Book a Free Consultation
+Analytics and Attribution That Measure What Happens After the Inquiry
+We connect campaign data, call tracking, and CRM records so you can see which investments produce qualified opportunities, admissions, or appointments, and where the available data stops short.
+[CTA] Request a Free Audit
 
 
-Why Marketing Attribution Matters
-Marketing attribution answers one question: which marketing efforts actually produce revenue? For [behavioral health](/who-we-help/behavioral-health) and [mental health services](/who-we-help/mental-health) providers, the answer is rarely straightforward. A prospective patient might search for treatment options, click on a Google Ad, leave the site, return through an organic search a week later, and finally call your admissions line after seeing a display ad. Without proper attribution, you credit the last touchpoint and misallocate your budget.
-
-
-Most agencies track surface metrics: clicks, impressions, and form fills. They hand you a report showing cost per lead, declare victory, and move on. But leads are not admissions. A treatment center spending $200,000 monthly on paid media needs to know which campaigns produce patients who actually complete intake, not which campaigns produce the most form submissions from people who never answer the phone.
-The cost of attribution errors compounds quickly. Underfunding a channel that quietly drives 30% of your admissions while overspending on a channel with high lead volume but low conversion to intake creates a slow leak in your marketing budget. We have seen treatment centers waste six figures annually on attribution blind spots. If your reports no longer match reality, see how we [fix marketing attribution](/problems/fix-attribution) issues in GA4.
-Multi-touch attribution solves this by assigning weighted credit across every touchpoint in the patient journey. It requires clean data, a consistent tracking infrastructure, and the operational knowledge to interpret results in the context of behavioral health sales cycles. This is where most generalist agencies fail: they lack the vertical experience to know what the data actually means.
-Our Approach to Attribution Analytics
-Marketing Powered built its attribution analytics methodology specifically for healthcare verticals, where the path from first click to admission can span weeks and involve multiple decision-makers. Our approach differs from off-the-shelf solutions in three ways: we track through to admission (not just lead capture), we account for compliance constraints that limit standard tracking methods, and we layer [AI in marketing](/ai-edge) intelligence to identify patterns human analysts miss.
-
-
-We begin every engagement with a full-stack audit of your current tracking infrastructure. This includes Google Analytics configuration, call tracking setup, CRM data flow, and admission verification processes. In most cases, we find gaps: UTM parameters that break at handoff, call tracking numbers that do not connect to specific campaigns, or CRM fields that lose attribution data when leads convert.
-Once tracking is clean, we implement a multi-touch attribution model calibrated to behavioral health conversion windows. The model assigns fractional credit to each touchpoint based on its actual influence on admission decisions, not arbitrary rules. First-touch, last-touch, and linear models each tell a partial story. Our approach uses data from your specific patient journey to weight touchpoints accurately.
-The output is a clear view of marketing ROI at the campaign, channel, and keyword level. You see which Google Ads campaigns produce admitted patients at what cost, which organic content drives qualified calls, and where your budget is generating activity without revenue. This is a marketing measurement that connects spend to business outcomes, not vanity metrics.
-Choosing the Right Analytics Tools
-The analytics tool landscape includes hundreds of options, from enterprise platforms like Adobe Analytics to specialized solutions for mobile attribution and analytics. For behavioral health providers, tool selection depends on three factors: compliance capability, integration with your existing tech stack, and the specific channels you need to measure.
-Google Analytics 4 remains the foundation for most treatment centers. Its event-based model handles complex conversion paths better than its predecessor, and its integration with Google Ads provides granular campaign data. However, GA4 alone cannot track phone calls, which often represent 60% or more of behavioral health conversions. Call tracking platforms like CallRail or Invoca fill this gap, capturing caller source data and, in some configurations, conversation intelligence.
-For centers running significant paid media across multiple platforms, a dedicated attribution platform like Triple Whale, Northbeam, or Rockerbox can consolidate data and provide cross-channel views. These tools excel at TV analytics attribution and connecting offline conversions to digital touchpoints. The tradeoff is cost and complexity: these platforms require ongoing maintenance and expertise to configure correctly.
-We help clients select tools based on their actual needs, not vendor marketing. A single-location outpatient practice does not need an enterprise attribution stack. A multi-state residential provider managing $1M+ monthly in media spend likely does. Our recommendations account for your current scale, growth trajectory, and internal technical capacity. We also ensure every tool in the stack meets healthcare data handling requirements, a consideration most tool vendors do not prioritize.
-Ensuring Compliance in Analytics
-Analytics in behavioral health operates under constraints that do not apply to other verticals. HIPAA governs how patient data can be collected, stored, and transmitted. [Google Ads policies](/services/paid-media) restrict retargeting for addiction treatment, meaning standard remarketing pixels that work in other industries are off-limits. LegitScript certification adds another layer of requirements for treatment advertisers.
-
-
-According to the [HHS Office for Civil Rights](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html), tracking technologies on healthcare websites may constitute a disclosure of PHI if they capture information about individuals' health conditions or treatment-seeking behavior. This guidance, issued in December 2022 and updated in 2024, reshaped how compliant analytics must be configured.
-
-
-Marketing Powered implements analytics with HIPAA-aware practices throughout the stack. We configure tracking to capture the marketing data you need for attribution while avoiding the collection of protected health information. Our [AI-native infrastructure](/ai-edge) processes data locally rather than sending it to third-party servers, where data sovereignty becomes questionable. This approach protects your organization while preserving the attribution insights that drive budget decisions.
-Client Success Stories
-Our attribution work has produced measurable improvements for treatment providers across the behavioral health spectrum. These outcomes reflect the combination of accurate tracking, compliance-first implementation, and the operational experience to act on what the data reveals.
-One multi-location residential treatment provider came to us, managing approximately $1.5M to $2M monthly in Google Ads with no clear view of which campaigns produced admissions. Their previous agency reported cost per lead, but leads varied wildly in quality. Within 90 days, we implemented full-funnel tracking from ad click through to admission verification. The data showed that 40% of their budget was allocated to campaigns that produced high lead volume but near-zero admissions. Reallocating that spend to proven performers increased admitted patients without increasing total ad spend.
-Our founder managed operator-side multi-market growth, building the attribution infrastructure that supported that growth from the inside. That operator-level experience informs every engagement. We have managed over $50M in behavioral health and mental health media spend, with attribution tracked through to admission across every dollar. This is not theoretical knowledge; it is pattern recognition built from years of in-depth execution.
-Marketing Powered's founder also holds court-certified expert witness status in advertising strategy, a credential that reflects the depth of expertise we bring to analytics and measurement challenges. When the methodology matters, we have the credibility to back it up. Explore more examples on our [client success stories](/results/case-studies) page.
-
-
-[CTA] Book a Free Consultation
-
-
-Next Steps
-If your current analytics setup cannot answer the question 'which marketing efforts produce admitted patients at what cost,' you are making budget decisions without the information you need. That gap costs treatment centers real revenue every month.
-Marketing Powered provides digital marketing analytics services built for the compliance requirements and conversion complexity of behavioral health. We start with an audit of your current tracking infrastructure, identify gaps, and implement attribution that connects marketing spend to actual business outcomes.
-The next step is a discovery call where we discuss your current analytics setup, the questions you cannot answer with existing data, and how our approach would address them. No pitch deck, no pressure. Just a conversation about whether our methodology fits your needs.
-Get Attribution That Tracks to Admission
-Stop guessing which marketing efforts produce patients. Our attribution methodology connects every ad dollar to actual admissions, giving you the data to make confident budget decisions. Let's discuss how we would build this for your organization.
-[CTA] Book a Free Consultation
+Why Attribution Has to Reach Past the Lead
+A lead report tells you that someone filled out a form or placed a call. It does not tell you whether that person was a fit, whether anyone followed up, or whether the inquiry became an admission, an appointment, or revenue. Budget decisions made on lead counts alone reward the campaigns that generate the most activity, not the ones that generate the most value.
+Marketing attribution, as we practice it, connects investment to the outcomes your organization counts. For a hospital or health system that may be scheduled appointments by service line. For a behavioral health provider it is usually admissions. For a multi-location organization it is often qualified opportunities that a local team can act on. We define the outcome with you before we measure anything.
+This page describes the measurement service. The homepage summarizes it under [measure what happens after the inquiry](/#performance). If your current reports no longer match reality, start with [fixing marketing attribution](/problems/fix-attribution) and come back here for how we run it on an ongoing basis.
+What We Connect
+Attribution is a data-integration problem before it is a reporting problem. Three sources have to agree on what happened.
+### Call tracking and CRM integration
+Campaign platforms know which ad or keyword produced a click. Call tracking knows which number was dialed and which session that number was assigned to. The CRM knows what happened next. We connect the three so that a call or form submission carries its source into the CRM record, and the CRM status flows back into reporting. Our [call tracking and intake attribution](/services/call-tracking-and-intake-attribution) service covers the call side in detail, and our [workflow integrations](/services/web-development/integrations-and-tracking) service covers the connections.
+### Identifier handling
+We match records with identifiers that are built for the job: platform click IDs, analytics session IDs, dynamically assigned tracking numbers, and CRM record IDs. Analytics events carry those identifiers and nothing else. Names, phone numbers, email addresses, form text, and any health information stay in the systems designed to hold them. We do not place them in analytics parameters.
+### Deduplication
+The same person often calls, submits a form, and starts a chat within a day. Without a deduplication rule, that one inquiry becomes three conversions and the cost per conversion looks better than it is. We agree on the matching window and the matching keys with you, document them, and apply them consistently so that the counts in the executive review are counts of people, not of events.
+Conversion Definitions and Conversion Value Per Cost
+Every engagement starts with a written set of conversion definitions. A typical set has four levels: an inquiry, a qualified opportunity, a scheduled appointment or admission, and revenue where the data supports it. Each level has a source of truth, usually the CRM or the practice or admissions system, and an owner who can confirm a disputed record.
+With definitions in place, we report conversion value per cost, where higher is better. That metric puts the value of the outcomes a campaign produced over what it cost, instead of putting cost over a count of leads. It makes a campaign that produces fewer but better inquiries visible, and it makes a campaign that produces volume without value visible too.
+We also keep the simpler metrics in view: cost per qualified opportunity, qualification rate by source, and time from inquiry to decision. Leadership needs the whole picture, not one number.
+Measured Versus Modeled Data
+Some of what you will see in a report is observed: a click with a known ID, a call that connected, a CRM record with a status change. Some of it is modeled: a platform's estimate of conversions it could not observe, an attribution model's split of credit across several touchpoints, or a projection built from a partial month.
+We label the two kinds of data differently in every report and we do not blend them in the same total. Modeled numbers are useful for direction. Observed numbers are what you make decisions on. When a platform reports more conversions than your CRM can confirm, we show both figures and explain the gap rather than picking the larger one.
+Reporting Cadence and the Decisions It Supports
+We propose weekly operating checks and a monthly executive review, with the cadence defined in your engagement. The weekly check covers spend pacing, qualification rate by source, tracking health, and anything that broke. The monthly review covers conversion value per cost by channel and location, what changed, what we recommend, and the decisions that need an owner.
+Reports are built around decisions: where to move budget, which location or service line needs attention, which handoff is losing inquiries, and which data gap is worth closing. If a number does not change a decision, it does not need a slide.
+Limitations We Document Up Front
+No attribution setup sees everything. We write down the known gaps at the start of an engagement and update the list as they change.
+* Consent and blocked tags: visitors who decline tracking or use blockers are measured only on the server side, if at all, so observed conversion counts are a floor, not a total.
+* Offline steps: a referral conversation, a walk-in, or an insurance call that happens outside any tracked channel will not carry a marketing source unless the intake team records one.
+* Partial CRM data: a status that is not updated, a duplicate record, or a field that was never mapped leaves an inquiry unresolved in the report.
+* Platform estimates: advertising platforms model conversions they cannot observe, and those estimates change as the platform's methods change.
+* Long decision windows: an inquiry that converts months later may fall outside the comparison period and show up as unattributed.
+Each limitation has a mitigation, and each mitigation has a cost. We recommend the ones that are worth it for your decisions and leave the rest documented.
+Data Handling in Analytics
+Healthcare organizations carry obligations about what tracking technologies may collect on their websites. The [HHS guidance on online tracking technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) is the framework your privacy and compliance owners work within, and your counsel decides what applies to your organization. Our job is to design measurement that fits inside those decisions: no identifying or health information in analytics parameters, consent behavior preserved, and every outside platform that receives data named in the configuration. Our [data sovereignty](/ai-edge/data-sovereignty) page explains how we document storage, processing, access, and outside providers for the data we handle.
+That design supports your obligations. It does not replace your review, and we do not present a configuration as a compliance assurance.
+How We Present Evidence
+We do not publish percentages without a case behind them. When we describe a result, it comes with the work owner, the dates, the baseline, the metric definition, the comparison period, the scope, and the limitations. Results from our founder's prior executive role are labeled as prior experience, not agency work. Our [client results](/results/case-studies) page explains that standard and lists approved cases as they become available.
+Experience Behind the Method
+Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend. Reporting at that scale had to connect spend to admissions by location, reconcile with the CRM, and hold up in a finance review, which is where this approach to attribution was formed.
+That is prior executive experience, not agency client work. It informs how we define conversions, how we treat modeled data, and what we expect a report to do for a leadership team.
+Start With an Audit of Your Current Tracking
+If your current analytics cannot answer which marketing efforts produce qualified opportunities, admissions, or appointments at what cost, you are making budget decisions without the information you need. We start with an audit of your tracking, call routing, CRM fields, and conversion definitions, then show you what connecting them would look like.
+[CTA] Request a Free Audit
 FAQ
 Q: What is marketing attribution?
-A: Marketing attribution identifies which marketing efforts drive conversions and revenue by assigning credit to each touchpoint in the customer journey. For behavioral health providers, this means tracking which ads, keywords, and content pieces produce patients who actually complete intake, not just form fills. Accurate attribution enables budget allocation based on real ROI rather than surface-level metrics like clicks or leads.
-Q: How do attribution analytics improve marketing strategies?
-A: Attribution analytics reveal which channels and campaigns produce revenue, allowing you to shift budget from underperforming efforts to proven performers. By showing the full path from first interaction to conversion, attribution analytics expose patterns that single-touchpoint reporting misses. Treatment centers using proper attribution typically identify 20-40% of their budget that can be reallocated for better results.
+A: Marketing attribution connects marketing activity to business outcomes by matching the source of an inquiry to what happened afterward: qualification, an appointment or admission, and revenue where the data supports it. It depends on agreed conversion definitions, consistent identifiers across advertising platforms, call tracking, and the CRM, and clear labeling of observed versus modeled data.
+Q: How is this different from the reports in Google Ads or Meta?
+A: Platform reports count conversions the platform observed or estimated, and they stop at the point of inquiry. We reconcile those counts with your CRM, remove duplicates, and report on the outcomes your organization defines, with conversion value per cost as the headline measure. Where the platform and the CRM disagree, both numbers are shown and the gap is explained.
+Q: What data do you need from us?
+A: Access to the advertising and analytics accounts, the call tracking platform, and the CRM or admissions system, plus an owner who can confirm conversion definitions and resolve disputed records. We work with the systems you already operate. We do not need, and do not want, patient details in analytics data.
+Q: How often will we see reports?
+A: We propose weekly operating checks and a monthly executive review, with the cadence set in your engagement. The weekly check keeps spend and tracking healthy; the monthly review is built around budget and operating decisions.
+Q: Can attribution ever be complete?
+A: No. Consent choices, blocked tags, offline steps, and incomplete CRM records leave gaps. We document the known gaps, mitigate the ones worth the cost, and treat observed conversions as a floor rather than presenting partial tracking as certainty.
 
 
-Q: What tools are used in mobile attribution and analytics?
-A: Mobile attribution platforms like AppsFlyer, Adjust, and Branch specialize in tracking app installs and in-app conversions across advertising networks. For behavioral health providers with mobile apps or significant mobile web traffic, these tools connect mobile touchpoints to broader conversion paths. Selection depends on your specific mobile presence and integration requirements with existing analytics infrastructure.
-Q: Why is compliance important in marketing analytics?
-A: In behavioral health, analytics must comply with HIPAA regulations governing protected health information and platform policies restricting retargeting for addiction treatment. Non-compliant tracking can expose your organization to regulatory penalties and platform account suspensions. Marketing Powered implements analytics with HIPAA-aware practices, ensuring you capture the attribution data you need while maintaining compliance with healthcare data handling requirements.
 SCHEMA RECOMMENDATION
-Schema type: Service, FAQPage, BreadcrumbList
+Schema type: Service, BreadcrumbList
 * @type: Service
-* name: Marketing Attribution Services
-* provider: Marketing Powered
+* name: Analytics and Attribution
+* provider: Marketing Powered (reference the site's Organization entity; do not create a second one)
 * serviceType: Marketing Analytics and Attribution
 * areaServed: United States
-* description: Marketing attribution services for behavioral health and mental health providers, tracking from ad spend through admission.
-* FAQPage with 4 Q&A pairs
-* BreadcrumbList: Home > Services > Analytics & Attribution
+* description: Analytics and attribution services connecting call tracking and CRM records to admissions, patients, or revenue, with measured and modeled data labeled clearly.
+* BreadcrumbList: Home > Services > Analytics & Attribution (rendered by the Breadcrumbs component)
+* No FAQPage markup: the FAQ renders as an accordion only, consistent with the homepage package's schema decisions.
+
+
 DELIVERY NOTES
+Revision summary (2026-11-06)
+* Rewritten for the homepage package. Keeps the slug. Broadens the audience from treatment centers to healthcare and multi-location organizations while naming behavioral and mental health as specialties.
+* Links back to the homepage performance section and across to call tracking, workflow integrations, fix-attribution, data sovereignty, and case studies.
+
+
+Claims removed from the previous version
+* The agency-wide spend total and the phrase describing all of it as tracked to admission.
+* The numerical anecdote about a residential provider's budget reallocation and the stated share of budget it found misallocated.
+* The stated share of budget that attribution "typically" frees up, and the dollar figure of annual waste.
+* The founder credential claim and the operating-since claim.
+* Assurance language about regulatory status; replaced with a description of design practices and a pointer to the client's own review.
+* The named third-party attribution platforms and mobile attribution vendors (not part of the service scope being described).
+
+
 External citations
-* HHS Office for Civil Rights https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html [Government/Regulatory] - Primary source for HIPAA guidance on tracking technologies and PHI disclosure, directly relevant to the compliance section discussing healthcare analytics constraints.
+* HHS Office for Civil Rights, online tracking technologies guidance https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html [Government/Regulatory] - Framework reference only; the copy states that the client's counsel decides applicability.
 
 
-Internal link gaps
-* The brief includes 'More on analytics → /services/web-development/' which seems like a potential URL mismatch. Analytics services linking to web development may confuse readers. Recommend verifying this target URL or creating a dedicated analytics resources page.
+Approvals pending
+* Founder figures and wording (claims register C01-C05): supplied by Mike, final sign-off pending.
+* Weekly operating check and monthly executive review cadence (C06): proposal; Mike and operations to approve and scope in the engagement.
+* Service scope confirmation (C14): named service owner and delivery scope for analytics and attribution.
+* Any future result statement requires an approved case record per the proof standard; none is published here.
 
 
-Missing proof points
-* Specific percentage improvements in cost per admission from attribution work would strengthen the Client Success Stories section.
-* A concrete timeframe for typical attribution implementation would help set reader expectations.
-
-
-Banned phrasing in brief
-* The meta description uses 'powerful,' which, while not on the banned list, trends toward the marketing fluff the voice guidelines discourage. Consider revision to something more specific, like 'Discover marketing attribution that tracks from ad click to admission.'
+Internal link notes
+* /problems/fix-attribution is the problem-page companion; this page is the ongoing-service destination.
+* /services/call-tracking-and-intake-attribution remains a distinct destination (homepage slot 17) and is linked, not merged.

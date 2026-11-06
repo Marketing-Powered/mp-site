@@ -1,105 +1,121 @@
 ---
-title: "Call Tracking for Treatment Centers | Marketing Powered"
+title: "Call Tracking and Intake Attribution | Marketing Powered"
 url: "/services/call-tracking-and-intake-attribution/"
-primary_keyword: "call tracking for treatment centers"
-secondary_keywords: "call tracking software, intake attribution"
-target_word_count: "1200-1800"
+primary_keyword: "intake attribution"
+secondary_keywords: "call tracking, call tracking for healthcare marketing"
+target_word_count: "1000-1500"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT
-This page targets /services/call-tracking-and-intake-attribution/ with primary keyword 'call tracking for treatment centers' and secondary keywords 'call tracking software' and 'intake attribution.' Word count target is 1200-1800 words. Page type: Service page. Buyer target: CEO, COO, or VP of Business Development at a treatment center evaluating agency partners for marketing services.
+Revised 2026-11-06 for the homepage package (link map slot 17, anchor "intake attribution"; register entry P1, 1,000-1,500 words). This page is the distinct destination for intake attribution: which campaigns produce calls, and what happens to those calls after the phone rings. It stays separate from the analytics and attribution service page. Page type: Service page. Buyer target: CEOs, CMOs, admissions and intake leaders, and marketing leaders at behavioral and mental health providers, hospitals, health systems, and other organizations where the phone is a primary conversion path.
 Page type: Service page
-Buyer target: CEO, COO, or VP of Business Development at a treatment center evaluating agency partners for marketing services
-Word count target: 1200-1800 words
+Buyer target: Marketing, admissions, and intake leaders at healthcare and multi-location organizations
+Word count target: 1000-1500 words
 
 
 SEO METADATA
-Title tag (53 chars): Call Tracking for Treatment Centers | Marketing Powered
-Meta description (125 chars): Track and attribute calls effectively with expert-level healthcare solutions. Compliance assured, operator experience included.
-H1: Optimize Call Tracking for Treatment Centers with Proven Solutions
-Hero image alt: Call tracking dashboard showing intake attribution data for a behavioral health treatment center
+Title tag (56 chars): Call Tracking and Intake Attribution | Marketing Powered
+Meta description (152 chars): Call tracking that identifies the source of every tracked call, and intake attribution that follows the call to qualification, scheduling, or admission.
+H1: Call Tracking and Intake Attribution
+Hero image alt: Decorative (empty alt)
 
 
 PAGE COPY
 
 
-Optimize Call Tracking for Treatment Centers with Proven Solutions
-Know exactly which channels drive admissions, not just calls. Attribution built for behavioral health compliance and complexity.
-[CTA] Book a Discovery Call
+Call Tracking and Intake Attribution
+Know which campaigns produce calls, and what happens to those calls after the phone rings: qualification, verification, scheduling, or admission.
+[CTA] Request a Free Audit
 
 
-The Critical Role of Call Tracking in Treatment Centers
-Call tracking for treatment centers is not optional infrastructure. It is the foundation of every marketing decision you make. Without it, you are guessing which channels produce admissions and which burn budget on calls that never convert.
-Most treatment centers receive 60% or more of their qualified leads by phone. Yet many operators still attribute conversions based on last-click digital metrics that ignore the phone entirely. The result: you over-invest in channels that look good on paper and under-invest in the ones actually filling beds.
-The stakes extend beyond budget allocation. In behavioral health marketing, phone calls carry compliance weight. Every call is a potential intake conversation involving sensitive health information. Recording, storing, and analyzing those calls requires systems built for healthcare, not retrofitted consumer software.
-Neglecting proper phone call tracking creates three specific problems. First, you cannot optimize paid media without knowing which keywords and ads generate admission-quality calls versus tire-kickers. Second, your intake team operates blind, unable to prioritize callbacks or identify coaching opportunities. Third, compliance gaps emerge when call data flows through systems that were never designed for HIPAA requirements.
-The treatment centers we work with treat call tracking as a revenue lever, not a reporting afterthought. When you know exactly which call came from which source and whether that call converted to admission, you can make decisions that compound over time.
-Enhanced Call Tracking Software Solutions
-Effective call tracking software for treatment centers requires more than assigning a phone number to a campaign. It requires dynamic number insertion, real-time analytics, and integration with your intake workflow.
-Dynamic number insertion (DNI) assigns unique tracking numbers to each visitor session based on their traffic source. When a prospect calls, you know whether they came from a Google Ads campaign, an organic search result, a referral site, or a direct visit. This granularity is the difference between knowing that 'paid media works' and knowing that a specific ad group targeting 'alcohol detox near me' generates 3x the admission rate of broader terms.
-Real-time analytics surface call data as it happens. Your intake team sees the caller's source information before answering. Your marketing team monitors call volume by channel throughout the day. Leadership reviews weekly dashboards showing cost-per-call and cost-per-admission by source, not cost-per-click metrics that obscure the actual business outcome.
-* Session-level DNI that tracks individual visitor journeys from first touch to phone call
-* Call recording with automated transcription for intake quality review
-* Real-time dashboards integrated with your CRM and intake management system
-* Whisper messages that inform intake staff of the caller's source before connection
-* Missed call alerts with source attribution so high-value callbacks do not slip through
-Intake Attribution: Ensuring Accurate Conversion Data
-Intake attribution closes the loop between marketing spend and actual admissions. Call tracking tells you which channel generated the call. Intake attribution tells you which channel generated the patient.
-This distinction matters because not all calls convert equally. A channel might generate high call volume but low admission rates due to caller intent, insurance mix, or geographic mismatch. Without tracking attribution through to admission, you optimize for the wrong metric.
-Our approach tracks each call through your intake process: initial call, verification of benefits, clinical assessment, and admission decision. We can tell you not just that a Google Ads campaign generated 47 calls last month, but that 12 of those calls converted to admission at an average revenue of $28,000 per patient. That changes how you allocate budget.
-Accurate intake attribution also reveals intake team performance. You can identify which intake coordinators convert at higher rates, which call times produce better outcomes, and where prospects drop off in the admission process. These insights inform training, staffing, and process improvements that compound your marketing ROI.
-We have tracked attribution through to admission across behavioral health and mental health verticals, managing over $50M in media spend. The patterns are consistent: operators who implement proper intake attribution reduce cost-per-admission by 20-40% within the first 90 days simply by reallocating budget toward what actually works.
-Compliance in Healthcare Call Tracking
-Healthcare call tracking operates under compliance requirements that generic call tracking platforms ignore. HIPAA compliance is not a feature you bolt on after implementation. It must be built into the system architecture from day one.
-Call recordings in a treatment center context contain protected health information (PHI). The caller's phone number, combined with their reason for calling, constitutes PHI under HIPAA. Storing that data requires Business Associate Agreements with every vendor in the chain. Accessing that data requires role-based permissions and audit trails. Retaining that data requires defined policies and secure destruction protocols.
-Beyond HIPAA, behavioral health marketing operates under Google Ads sensitive healthcare vertical restrictions. You cannot retarget website visitors or use customer lists for paid media targeting. Your call tracking implementation must respect these boundaries, ensuring that phone data is used for attribution and optimization but never for prohibited targeting tactics.
-LegitScript certification adds another layer for addiction treatment advertising. The platforms you use must support compliant workflows, and the data practices around call tracking must withstand scrutiny from both regulators and certification bodies.
-Our systems are built with these requirements as foundational constraints, not afterthoughts. PHI stays within controlled infrastructure. Access is logged. Retention policies are enforced. You get the attribution intelligence you need without creating compliance exposure that puts your facility at risk.
-How Marketing Powered Stands Out
-Most agencies offering call tracking are implementing software they learned about last quarter. We bring operator experience to the table, not just agency knowledge.
-Our founder scaled a treatment center network through multi-market growth. That means we understand the intake process from the inside: the difference between a qualified lead and a time-waster, the insurance verification bottleneck, and the clinical assessment that determines fit. We built our call tracking and attribution systems to serve those realities, not to generate impressive-looking reports that do not connect to admissions.
-We have managed over $50M in media spend across behavioral health and mental health verticals. That scale teaches you patterns: which call tracking configurations produce clean data, which integration points break under volume, which metrics actually predict admission outcomes. Our founder is a court-certified expert witness in marketing strategy, bringing a level of rigor to attribution methodology that most agencies cannot match.
-Our AI-native infrastructure has operated since 2022, allowing us to process call transcripts, identify intent signals, and surface insights that manual review would miss. This is not a wrapper on someone else's API. It is owned infrastructure built for healthcare marketing complexity.
-The case studies we can share demonstrate the pattern: treatment centers that implement proper call tracking and intake attribution with our guidance see measurable improvements in cost-per-admission and marketing ROI within the first quarter.
-Ready to See Which Channels Actually Drive Admissions?
-Stop optimizing for clicks and calls that never convert. A discovery call with our team covers your current attribution gaps, compliance requirements, and the specific call tracking configuration that fits your intake workflow. We will discuss strategy, lead quality, and channel mix with the operator-level detail your facility deserves.
-[CTA] Book a Discovery Call
+Why the Call Is Only the Start
+For many healthcare organizations the phone is still the main way an inquiry arrives. A campaign report that counts clicks and form submissions misses most of that activity. A call tracking report that counts calls gets closer, but a call is not an outcome. Some callers are a clinical fit and some are not. Some reach a person and some reach voicemail. Some are scheduled or admitted and some are lost in the handoff.
+Intake attribution follows the call past the first ring. It connects the source of the call to what the intake team did with it and how it ended. That is the view the homepage describes under [measuring what happens after the inquiry](/#performance), and it is the view that lets a leadership team judge a campaign by the opportunities it produced rather than the volume it generated.
+How Call Tracking Works in Our Engagements
+### Dynamic number insertion
+Each visitor session is shown a tracking number assigned to its source: a specific campaign, keyword group, or channel. When the visitor calls, the number identifies the source without asking the caller anything. Numbers are pooled and recycled, so the pool size and the recycling window are configuration decisions we make with you based on traffic.
+### Routing
+Tracked numbers forward to the destination you choose: a central intake line, a location, or a team. Routing by location or service line keeps the caller's experience the same as dialing the published number. Where the client wants it, a short whisper message tells the person answering which source the call came from before the line connects.
+### Source data into the CRM
+The tracked source, the time, the duration, and whether the call was answered are written to the inquiry record in your CRM through our [workflow integrations](/services/web-development/integrations-and-tracking) work. From there the intake team's own updates carry the record forward.
+Intake Attribution: What Happens After the Call
+Attribution to intake means the inquiry record has a status at each step the organization defines. A typical sequence for a behavioral health provider is qualification, insurance verification, clinical screening, and admission decision. For a hospital service line it may be scheduling and a completed visit. For a multi-location organization it may be assignment to a local team and a booked consultation.
+We report by source at each step. That shows where a campaign produces callers who qualify and where it produces callers who do not, and it shows where the intake process itself loses people. Our [analytics and attribution](/services/analytics-and-attribution) service rolls these counts into conversion value per cost across every channel; this page covers the call-specific layer.
+Recording, Transcription, and Consent
+Call recording and transcription are useful for intake coaching and for confirming what a caller asked about. They are also decisions with legal and privacy consequences. We enable them only where the client chooses to, with the notice and consent practices the client's counsel requires for the states involved. Where recording is enabled, access is limited to named roles, retention follows the client's policy, and transcripts are used for intake quality review, not for advertising audiences.
+Where the client does not enable recording, we work from call metadata and CRM status alone. The attribution model does not depend on recordings.
+What We Collect and What We Do Not
+* Collected: tracking number, source and campaign identifiers, call start time, duration, answered or missed status, routing destination, and the CRM record ID the call was matched to.
+* Collected only when enabled: recordings and transcripts, held in the call platform under the client's retention policy.
+* Not placed in analytics tools: caller names, phone numbers, reasons for calling, insurance details, or any health information. Those stay in the CRM and intake systems built to hold them.
+We name every platform that handles call data in the engagement's data-flow documentation. Our [data sovereignty](/ai-edge/data-sovereignty) page describes that documentation.
+Reporting Limits We State Up Front
+Call attribution has gaps, and we document them rather than reporting around them.
+* Calls without a matched record: a caller who hangs up before intake creates a record, or whose record was created under another name, stays unmatched and is reported as such.
+* Repeat callers: the same person calling several times from different sources is counted once under the rules we agree with you, which means some sources lose credit on purpose.
+* Offline steps: a verification or screening that is completed outside the CRM will not change a status unless someone records it.
+* Published numbers: calls to a number printed on signage, referral materials, or a directory listing carry no campaign source and are reported as direct or referral.
+* Platform limits: the call tracking vendor's pool size, port times, and reporting latency set a floor on precision.
+Feedback Loops With the Intake Team
+The most useful output of intake attribution is often operational. When a source produces callers who rarely qualify, the campaign targeting needs work. When qualified callers are being lost between verification and scheduling, the intake process needs work. We review both with the intake lead on the weekly operating check we propose for every engagement, and we bring the pattern to the monthly executive review with a recommendation.
+Our [intake optimization](/services/intake-optimization) service takes the operational side further. If the immediate problem is call quality rather than call volume, start with [increasing qualified calls](/problems/increase-qualified-calls). The [intake attribution and call quality framework](/resources/guides/intake-attribution-and-call-quality-framework) guide explains the scoring approach we use.
+Experience Behind the Approach
+Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend. In that role the phone was the primary intake channel, and the connection between call source, intake handling, and admission had to be visible to run the budget responsibly.
+That is prior executive experience, not agency client work. It is why this service treats the intake team as part of the measurement system and why [behavioral health marketing](/who-we-help/behavioral-health) remains a named specialty.
+See Where Your Calls Go
+A review of your current call tracking covers number pools, routing, CRM matching, recording settings, and the status sequence your intake team actually uses. From there we can show you which sources produce qualified callers today and where the handoff is losing them.
+[CTA] Request a Free Audit
 FAQ
-Q: What is call tracking for treatment centers?
-A: Call tracking for treatment centers assigns unique phone numbers to different marketing channels, campaigns, and even individual website sessions. When a prospect calls, you know exactly which source generated that call. For treatment centers, this extends beyond basic source tracking to include call recording, transcription, and integration with intake workflows so you can measure which channels generate admissions, not just phone calls.
-Q: How does intake attribution benefit my facility?
-A: Intake attribution connects your marketing spend to actual patient admissions, not just calls or form fills. This clarity reveals which channels produce patients at the lowest cost-per-admission, allowing you to reallocate budget toward what works. Facilities implementing proper intake attribution typically reduce cost-per-admission by 20-40% within 90 days through smarter budget allocation.
-Q: What makes Marketing Powered's call tracking different?
-A: Our approach is built on operator experience, not just agency knowledge. Our founder scaled a treatment center network through multi-market growth, giving us a firsthand understanding of the intake process. We have managed over $50M in behavioral health media spend and track attribution through to admission, not just to the phone call. Our AI-native infrastructure processes call data with a sophistication that generic platforms cannot match.
-Q: Is your call tracking HIPAA compliant?
-A: Yes. Our call tracking systems are built with HIPAA requirements as foundational constraints. Call recordings containing PHI are stored within controlled infrastructure with proper Business Associate Agreements, role-based access controls, audit trails, and defined retention policies. We do not retrofit compliance onto consumer-grade software.
+Q: What is intake attribution?
+A: Intake attribution connects the source of an inquiry, usually a call, to what happened afterward in the intake process: qualification, verification, scheduling, or admission. It extends call tracking, which stops at the call, into the CRM and intake systems where the outcome is recorded.
+Q: Do you record calls?
+A: Only where the client chooses to enable recording, with the notice and consent practices the client's counsel requires. Recordings and transcripts stay in the call platform under the client's retention policy and are used for intake quality review. The attribution model works without them.
+Q: What call tracking platform do you use?
+A: We configure the platform the client already operates where one exists, and recommend one where it does not. The requirements are dynamic number insertion, routing by location or team, an export or integration path to the CRM, and retention controls.
+Q: How does this fit with analytics and attribution?
+A: This page covers the call layer: source identification, routing, and intake status by source. The analytics and attribution service combines calls, forms, chat, and CRM outcomes into conversion value per cost across channels. The two are run together but reported at different levels.
+Q: What can intake attribution not tell us?
+A: It cannot attribute calls to published numbers that carry no campaign source, it cannot resolve callers who never reached a CRM record, and it depends on the intake team updating statuses. We document those limits in the engagement and report unmatched calls rather than hiding them.
+
+
 SCHEMA RECOMMENDATION
-Schema type: Service, FAQPage, BreadcrumbList
+Schema type: Service, BreadcrumbList
+* @type: Service
+* name: Call Tracking and Intake Attribution
+* provider: Marketing Powered (reference the site's Organization entity)
 * serviceType: Call Tracking and Intake Attribution
-* provider: Marketing Powered
 * areaServed: United States
-* description: Call tracking and intake attribution services for behavioral health and mental health treatment centers
-* FAQPage questions and answers as defined in the FAQ section
-* BreadcrumbList: Home > Services > Call Tracking and Intake Attribution
+* description: Call tracking that identifies the source of each tracked call and intake attribution that follows the call to qualification, scheduling, or admission.
+* BreadcrumbList: Home > Services > Call Tracking and Intake Attribution (rendered by the Breadcrumbs component)
+* No FAQPage markup.
 
 
 DELIVERY NOTES
+Revision summary (2026-11-06)
+* Rewritten as the distinct intake attribution destination for homepage slot 17. Slug unchanged. Audience broadened to healthcare and multi-location organizations with behavioral health named as a specialty.
+* Recording, transcription, consent, data collection, and reporting limits are now qualified explicitly, per the package's editorial disposition for this page.
+
+
+Claims removed from the previous version
+* The percentage reduction in cost per admission "within 90 days" and the statement that facilities "typically" achieve it.
+* The invented call and admission counts and the per-patient revenue figure.
+* The share of leads said to arrive by phone.
+* The agency-wide spend total and the founder credential claim.
+* The operating-since claim about the agency's technology.
+* Regulatory assurance language (the previous FAQ answered a compliance question with "Yes"); replaced with practice descriptions and the client's own counsel as the decision owner.
+* Certification-body language.
+
+
 External citations
-* HIPAA Privacy Rule requirements for protected health information https://www.hhs.gov/hipaa/for-professionals/privacy/index.html [Government regulatory (HHS)] - Supports claims about PHI handling requirements and what constitutes protected health information in call recording contexts
-* Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy (Google)] - Supports claims about sensitive healthcare vertical restrictions and retargeting prohibitions
-* LegitScript certification requirements for addiction treatment advertising https://www.legitscript.com/certification/addiction-treatment/ [Certification body (LegitScript)] - Supports claims about LegitScript certification requirements for behavioral health marketing compliance
+* None retained. The previous Google Ads policy and certification links supported claims that are no longer made.
 
 
-Internal link gaps
-* The brief includes 'dynamic number insertion' linking to /services/web-development/, but this link target seems mismatched with the anchor text. A dedicated landing page for DNI or a link to a more relevant technical page would strengthen this connection.
-* The brief includes 'request an audit' linking to /get-started/request-an-audit/, but this was not used in the copy as the primary CTA is 'Book a Discovery Call' per the CTA plan. Consider whether a secondary CTA for audit requests would be appropriate.
-* The brief includes 'patient acquisition strategies' linking to /who-we-help/mental-health/, which was not naturally incorporated. Consider whether mental health-specific content warrants a dedicated section or callout.
+Approvals pending
+* Founder figures and wording (claims register C01-C05).
+* Proposed weekly operating check and monthly executive review cadence (C06).
+* Service scope confirmation (C14), including which call tracking platforms the agency supports.
+* Recording and consent language should be reviewed by the client's counsel in each engagement; the page states this rather than asserting a rule.
 
 
-Missing proof points
-* Specific cost-per-admission improvement percentages from actual client engagements would strengthen the intake attribution section. The 20-40% figure is presented as a pattern observation rather than a specific case study.
-* Call volume benchmarks for treatment centers would provide useful context for readers evaluating the scale of the problem.
-
-
-Banned phrasing in brief
-* The brief H2 section description uses language containing banned words. Body copy was written to avoid all banned phrasing while covering the same content.
+Internal link notes
+* Hero and section images for this route were replaced with decorative photography because the previous graphics carried the removed percentage claims.

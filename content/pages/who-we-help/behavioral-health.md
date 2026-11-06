@@ -1,124 +1,114 @@
 ---
-title: "Behavioral Health Marketing Services - Marketing Powered"
+title: "Behavioral Health Marketing Services | Marketing Powered"
 url: "/who-we-help/behavioral-health/"
 primary_keyword: "behavioral health marketing"
-secondary_keywords: "addiction treatment marketing, rehab marketing"
-target_word_count: "1200-1800"
+secondary_keywords: "addiction treatment marketing, treatment center marketing"
+target_word_count: "1000-2000"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT
-This page targets /who-we-help/behavioral-health/ with primary keyword 'behavioral health marketing' and secondary keywords 'behavioral health marketing agency' and 'treatment center marketing.' Word count target is 1800-2500 words. Page type: vertical hub page. Buyer target: CEO, COO, or VP of Business Development at a behavioral health treatment center evaluating marketing agencies.
+This page targets /who-we-help/behavioral-health/ with primary keyword 'behavioral health marketing' and secondary keywords 'addiction treatment marketing' and 'treatment center marketing'. Word count target is 1000-2000 words. Page type: vertical hub page (child program pages render as cards). Buyer target: CEO, COO, CMO, or VP of Business Development at a behavioral health or addiction treatment organization evaluating marketing partners. Revised November 6, 2026 against the Homepage Copy and Implementation Package (source audit W15; supporting-page scope 'Behavioral health specialty'). Founder history is distinguished from agency evidence, platform language is aligned with approved practices, and unsupported numerical claims are removed.
 Page type: Vertical Hub Page
-Buyer target: CEO, COO, or VP of Business Development at a behavioral health treatment center
-Word count target: 1800-2500
+Buyer target: CEO, COO, CMO, or VP of Business Development at a behavioral health treatment organization
+Word count target: 1000-2000 words
 
 
 SEO METADATA
-Title tag (55 chars): Behavioral Health Marketing Services - Marketing Powered
-Meta description (77 chars): Scale your treatment center with expert behavioral health marketing: compliant paid media, attribution to admission, and $50M+ in managed spend.
-H1: Expert Behavioral Health Marketing Services
-Hero image alt: Behavioral health marketing dashboard showing admission metrics and campaign performance for treatment centers
+Title tag (56 chars): Behavioral Health Marketing Services | Marketing Powered
+Meta description (146 chars): Behavioral health marketing grounded in operator experience: admissions, intake, acquisition economics, and campaigns built within platform policies.
+H1: Behavioral Health Marketing Grounded in Operator Experience
+Hero image alt: Decorative (empty alt)
 
 
 PAGE COPY
 
 
-Expert Behavioral Health Marketing Services
-Operator-built marketing for treatment centers ready to scale admissions without compliance risk.
-[CTA] Book a Discovery Call
+Behavioral Health Marketing Grounded in Operator Experience
+Marketing Powered brings operator experience to behavioral health marketing and addiction treatment marketing. We focus on admissions, intake, acquisition economics, and the constraints surrounding sensitive services. Explore our program pages below, or read on for how we work.
+[CTA] Request a Free Audit
 
 
-The Importance of Specialized Behavioral Health Marketing
-Behavioral health marketing operates under constraints that disqualify most agencies before they even start. Google Ads classifies addiction treatment as a sensitive vertical, which means no retargeting, restricted ad formats, and mandatory LegitScript certification for any paid search campaign. Meta applies similar restrictions. These are not optional guidelines. They are platform-enforced policies that will get your accounts suspended if violated.
-Generic marketing agencies learn these rules the hard way, usually with your budget. They run campaigns that worked for elective medical practices or wellness brands, then watch the disapprovals pile up. Meanwhile, your intake team waits for calls that never come, and your cost per admission spirals upward.
-The difference between a generalist agency and a specialized behavioral health marketing agency shows up in the first 30 days. Specialized teams understand that compliance is not a constraint to work around. It is the operating environment. They know which ad copy triggers manual review, which landing page elements satisfy LegitScript auditors, and which attribution models actually track a call through to admission.
-Treatment center marketing requires this level of specificity because the stakes are higher than a missed sale. A poorly targeted campaign does not just waste budget. It attracts leads who are not clinically appropriate, overwhelms intake with unqualified calls, and creates downstream operational problems that affect census and revenue. Specialized knowledge is not a premium add-on. It is the baseline for responsible performance.
-Our Operator-Driven Approach
-Marketing Powered was built by operators, not observers. Our founder scaled a multi-location behavioral health organization through a multi-location expansion, managing patient acquisition across detox, residential, PHP, and IOP levels of care. That experience shapes everything we do, from how we structure campaigns to how we measure success.
-When we say we understand treatment center marketing, we mean we have sat in the chair you are sitting in now. We have managed census targets during slow seasons. We have dealt with insurance verification bottlenecks that backed up intake. We have watched lead quality deteriorate when agencies optimized for volume instead of admissions. These are not case studies we read. They are problems we solved with our own P&L on the line.
-What operator experience means for your campaigns
-Operator experience translates into specific advantages you will notice immediately. We do not optimize for clicks or leads. We optimize for admissions because that is what actually matters to your business. Our attribution models track from first touch through intake call through admission, giving you visibility into which channels and campaigns produce patients, not just form fills.
-We also understand the operational context that shapes marketing decisions. If your intake team can handle 40 qualified calls per week but not 80, we build campaigns accordingly. If your clinical model serves a specific population, we target that population precisely rather than casting a wide net that fills your CRM with mismatched inquiries.
-This approach comes from managing over [Learn about our unique operator-driven approach](/ai-edge) $50M+ in behavioral health and mental health media spend. We have seen what works across single-location treatment centers and multi-state operators. The patterns are consistent: specialized execution outperforms generalist volume every time.
-How We Help Treatment Centers Thrive
-Our strategies are built specifically for behavioral health, not adapted from other verticals. Every channel, every campaign structure, every piece of creative is designed around the realities of addiction treatment marketing and mental health patient acquisition.
-Paid media that respects the vertical
-Google Ads remains the highest-intent channel for treatment center marketing, but only when executed correctly. We manage $1.5M to $2M monthly in Google Ads across our behavioral health accounts, maintaining LegitScript compliance while driving qualified admission inquiries. Our campaigns are structured around clinical service lines, geographic targeting, and insurance verification patterns that match your operational capacity.
-[Explore our digital advertising services](/services/paid-media) to see how we approach paid media across search, display, and video. We also execute compliant campaigns on Meta and Microsoft Advertising, where the targeting options support your patient population.
-Content that builds authority and trust
-Families researching treatment options need information before they are ready to call. Our content strategies position your center as the authoritative resource for the conditions and treatment modalities you specialize in. This is not keyword stuffing. It is clinical accuracy combined with accessibility, written to answer the questions patients and families are actually asking.
-Content also supports your paid media performance. Landing pages that satisfy both LegitScript auditors and Google's quality score algorithms convert at higher rates with lower costs per click. We build these assets as part of your campaign infrastructure, not as a separate workstream.
-
-
-Attribution that tracks through to admission
-Most agencies report on leads. We report on admissions. Our attribution models connect first-touch data through intake calls, insurance verification, and admission events. You see which campaigns produce patients, which keywords drive the highest admission rates, and which channels waste budget on inquiries that never convert.
-This level of visibility requires integration with your intake systems and CRM. We handle the technical implementation and maintain the data pipelines so your leadership team gets weekly reports that actually inform decisions.
-Navigating Compliance and Regulatory Challenges
-Compliance in behavioral health marketing is not a checkbox. It is an ongoing operational requirement that affects every campaign, every piece of content, and every landing page you publish. The regulatory environment includes federal guidelines from SAMHSA, platform-specific policies from Google and Meta, and certification requirements from LegitScript that determine whether you can run paid ads at all.
-We maintain active awareness of these requirements and build compliance into campaign architecture from day one. This means ad copy that passes manual review, landing pages that meet LegitScript certification standards, and targeting strategies that respect Google's prohibition on behavioral health retargeting.
-HIPAA-conscious infrastructure
-Patient privacy extends beyond clinical operations into marketing systems. Form submissions, call tracking data, and CRM records all contain information that requires careful handling. Our infrastructure is built with HIPAA awareness throughout, from how we collect lead data to how we store and process it for attribution reporting.
-[Understand our compliance standards](/ai-edge) through our AI Edge documentation, which details our approach to data sovereignty and HIPAA-conscious AI systems. We do not take shortcuts with patient data, even when those shortcuts might simplify reporting.
-LegitScript and platform policy expertise
-LegitScript certification is mandatory for behavioral health advertisers on Google. We understand the certification process, the ongoing monitoring requirements, and the landing page standards that maintain your certification status. When Google's policies change, and they do change, we adjust campaigns proactively rather than reacting to disapprovals.
-This expertise protects your advertising accounts and your reputation. A suspended Google Ads account does not just pause your campaigns. It creates operational gaps that affect census and revenue while you navigate the appeals process.
-[CTA] Book a Discovery Call
-Case Studies: Success Stories in Behavioral Health
-The proof is in the outcomes. Here are specific examples of how our behavioral health marketing strategies have performed for treatment centers across the country.
-Anonymized Growth Case Study: Multi-Location Growth
-Our founder led marketing during a multi-location behavioral health organization's expansion through a multi-location expansion, supporting substantial revenue growth. This was not agency work. This was operator-level execution with direct accountability for census targets, cost per admission, and intake team capacity.
-The strategies developed during this growth phase form the foundation of what we deliver to clients today. We know what it takes to [scale multi-location campaigns](/problems/scale-multi-location-campaigns) for a behavioral health organization because we have done it ourselves.
-Multi-account portfolio management
-Across our current client portfolio, we manage $1.5M to $2M monthly in Google Ads spend for behavioral health and mental health treatment centers. This scale gives us pattern recognition that smaller agencies cannot match. We see which strategies work across different geographic markets, clinical specializations, and insurance mixes.
-[Review our case studies in behavioral health](/results/case-studies) to see detailed breakdowns of campaign performance, including cost per admission trends, lead quality improvements, and intake conversion rates.
-Court-certified expertise
-Our founder has been certified as an expert witness in advertising strategy, providing testimony in legal proceedings related to marketing practices. This credential reflects a level of professional recognition that few agency principals achieve. It also means our strategic recommendations are built on foundations that withstand scrutiny.
-
-
-AI-native technology advantage
-We have operated with AI-native infrastructure since 2022, well before the current wave of AI marketing tools. Our [AI solutions in healthcare marketing](/ai-edge) include proprietary systems for multi-variant optimization, predictive analytics, and attribution modeling that run on owned infrastructure rather than third-party APIs.
-This technology advantage compounds over time. While other agencies are learning to prompt commercial AI tools, we are running purpose-built systems that have been refined through years of behavioral health campaign data.
-Ready to Scale Your Treatment Center?
-Book a discovery call to discuss your census targets, compliance requirements, and growth timeline. We will review your current marketing performance and identify specific opportunities to increase qualified admissions.
-[CTA] Book a Discovery Call
+Why Behavioral Health Marketing Needs Specialized Judgment
+Behavioral health marketing operates under constraints most agencies rarely encounter. Google and Meta classify addiction treatment and related services as sensitive health categories with specific advertising policies. Families searching for help are often in crisis. Intake teams have limited capacity, and admissions depend on clinical fit and benefits, not on call volume.
+Those constraints change what good marketing looks like. Volume without qualification overwhelms intake. Messaging that overpromises creates clinical and reputational risk. Reporting that stops at the lead hides whether the budget produced admissions.
+Our approach starts from the operation: how inquiries are handled, what intake can absorb, which programs have capacity, and what a qualified admission is worth. The campaigns follow from those answers.
+Experience From Inside a Treatment Operator
+Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend.
+That role included the problems operators face today: lead quality, intake conversion, benefits verification bottlenecks, and attribution that has to connect spend to admissions rather than to form fills. Marketing decisions had to account for census, capacity, and market differences.
+That is prior executive experience, not agency client work. It informs how we plan and what we measure. It is not a substitute for an approved agency case, and we do not present it as one.
+Admissions, Intake, and Acquisition Economics
+### Qualified demand over call volume
+We plan campaigns around the inquiries intake can convert, not the largest possible number of calls. Service line, level of care, geography, and benefits mix shape targeting and messaging. When intake capacity changes, pacing changes with it.
+### Conversion value per cost
+Our [paid media](/services/paid-media) work evaluates conversion value per cost, where higher is better, alongside lead quality and available capacity. A low cost per call means little if those calls do not become admissions.
+### Measurement past the inquiry
+[Intake attribution](/services/call-tracking-and-intake-attribution) connects call tracking and CRM records to what happens after the first contact: benefits verification, assessment, and admission, where the available data supports it. Our [analytics and attribution](/services/analytics-and-attribution) work defines conversions consistently so programs and locations can be compared.
+### Multi-location operators
+Organizations with several facilities need shared standards and local relevance at the same time. We design [multi-location marketing](/problems/scale-multi-location-campaigns) so leadership can compare performance across sites without forcing every program into the same campaign.
+Content Sensitivity and Approved Platform Practices
+### Writing for people in crisis
+Content on treatment pages has to be plain, accurate, and useful to a family deciding what to do next. We describe programs, levels of care, admissions steps, and what to expect. We do not make outcome or recovery claims, and we avoid urgency tactics that exploit a hard moment.
+### Campaigns built within platform policies
+[Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) and [Meta's advertising standards](https://www.facebook.com/policies/ads/) define what can be advertised, to whom, and how. We build campaigns within those policies from the start, including the restrictions on remarketing in sensitive health categories, which we do not use. We monitor policy changes and adjust campaigns before disapprovals affect delivery.
+Certification programs that advertising platforms require for some treatment advertisers are the advertiser's to hold. We help clients understand the requirements and structure campaigns to fit them. We do not claim certification on a client's behalf, and we do not promise that any campaign is immune from review.
+### Data handling
+Form submissions, call recordings, and CRM records can contain sensitive information. We define what is collected, where it is stored, who can access it, and which outside services are involved before tracking goes live. Our [data sovereignty](/ai-edge/data-sovereignty) page describes the operating model. Clients retain ownership of their data.
+[CTA] Request a Free Audit
+Evidence and How to Read It
+Evidence on this site is labeled by what it represents. Founder history is labeled as prior executive experience, with the role and period stated. Agency results are published only where an approved case record exists: the client or an approved anonymous descriptor, engagement dates, baseline, metric definition, comparison period, scope, and limitations.
+Approved agency cases will appear on our [case studies](/results/case-studies) page as those records are completed. Until then, evaluate what you read here against that standard, and ask us what sits behind any number.
+Mental Health Providers
+Outpatient clinics, therapy groups, psychiatric practices, and telehealth programs share some of these constraints and differ in others: longer decision cycles, different benefits patterns, and more competition from national platforms. Our [mental health marketing](/who-we-help/mental-health) page covers that work.
+Specialty Depth Within a Broader Operating Model
+Behavioral health is one of the [industries we serve](/#industries). The same operating disciplines apply to hospitals, health systems, and other multi-location organizations. Specialty depth is why operators choose us. The operating model is why the work holds up as an organization grows.
+Start With Your Admissions Funnel
+Request an audit of your current marketing. We will review acquisition, intake handling, and measurement, and tell you where the gaps between investment and admissions are.
+[CTA] Request a Free Audit
 FAQ
-Q: What marketing strategies work for behavioral health providers?
-A: Effective behavioral health marketing combines high-intent paid search on Google Ads with compliant content strategies that build authority. The key is targeting specificity: campaigns structured around clinical service lines, geographic markets, and insurance verification patterns. We track attribution through to admission, not just leads, which allows continuous optimization toward the metrics that actually affect your census and revenue.
-Q: How does compliance affect behavioral health marketing?
-A: Compliance shapes every aspect of behavioral health marketing. Google classifies addiction treatment as a sensitive vertical, requiring LegitScript certification and prohibiting retargeting. HIPAA requirements affect how lead data is collected and stored. Ad copy must avoid outcome claims and treatment efficacy language. These constraints are not obstacles. They are the operating environment that specialized agencies understand, and generalists often violate.
-Q: Why choose a specialized behavioral health marketing agency?
-A: Generalist agencies learn behavioral health compliance the hard way, usually with your budget and your advertising accounts at risk. Specialized agencies like Marketing Powered bring operator-level experience, platform policy expertise, and attribution models built for tracking admissions rather than leads. Our team has managed $50M+ in behavioral health media spend and scaled organizations through multi-market growth.
-Q: What is the cost of marketing for behavioral health centers?
-A: Behavioral health marketing costs vary based on geographic competition, clinical specializations, and growth targets. Google Ads CPCs in competitive markets can range from $15 to $50+ for high-intent treatment keywords. According to WordStream benchmarks, healthcare advertising costs tend to run higher than average due to competition and regulatory requirements. We structure engagements around your specific targets and build campaigns that deliver measurable cost per admission, not just cost per lead.
-
-
+Q: What makes behavioral health marketing different from other healthcare marketing?
+A: Advertising platforms apply specific policies to addiction treatment and related services, families often search during a crisis, and admissions depend on clinical fit, benefits, and intake capacity. Effective marketing plans around those realities: qualified demand over volume, plain and accurate content, campaigns built within platform policies, and measurement that follows an inquiry through intake.
+Q: How does Marketing Powered measure results for treatment centers?
+A: We connect call tracking, form submissions, and CRM records to what happens after the inquiry, where the available data supports it. Reporting covers spend, acquisition quality, conversion, and the next decisions, and it distinguishes measured outcomes from estimates. The working metric is conversion value per cost, not cost per call.
+Q: Does Marketing Powered use remarketing for treatment centers?
+A: No. Google and Meta restrict remarketing in sensitive health categories, and we build campaigns within those policies. Acquisition relies on search intent, appropriate placement choices, and landing pages that convert, not on following people around the web.
+Q: Is the founder's experience an agency case study?
+A: No. Our founder's work as CMO of a multi-state behavioral health operator is prior executive experience. It shapes how we work, but it is not agency client work. Agency cases are published on our case studies page only when an approved record exists.
+Q: Which behavioral health programs does Marketing Powered work with?
+A: Residential treatment, detox, substance use disorder programs, dual diagnosis, adolescent treatment, and IOP and PHP programs, along with mental health providers. Each program page describes the admissions and marketing considerations specific to that level of care.
 SCHEMA RECOMMENDATION
-Schema type: Service, FAQPage, BreadcrumbList
-* @type: Service
-* name: Behavioral Health Marketing Services
-* provider: Marketing Powered
-* serviceType: Healthcare Marketing
-* areaServed: United States
-* description: Expert behavioral health marketing services for treatment centers
-* FAQPage with 4 question/answer pairs
-* BreadcrumbList: Home > Who We Help > Behavioral Health
+Schema type: Service + BreadcrumbList
+* Service: name "Behavioral Health Marketing", provider Marketing Powered (the site-wide Organization entity), serviceType "Healthcare Marketing", areaServed United States, description matching the meta description.
+* BreadcrumbList is rendered by the Breadcrumbs component: Home > Who We Help > Behavioral Health.
+* No FAQPage markup and no certification, award, or rating properties.
 
 
 DELIVERY NOTES
+Revision basis
+* Homepage Copy and Implementation Package, November 6, 2026: source audit W15 and the 'Behavioral health specialty' scope (admissions, intake, acquisition economics, content sensitivity, approved platform practices; no healthcare audience-following promise; publish only approved case results). Claims register C01 to C05 and C16.
+
+
+Claims removed from the previous version
+* The agency-wide spend total, and the monthly spend figure framed as current agency spend across client accounts. The monthly figure now appears only as founder responsibility during his prior tenure.
+* The "Case Studies: Success Stories" section, the multi-location expansion framed as an agency case, and the "multi-account portfolio" wording.
+* The credential wording and the technology-first descriptor with its year.
+* Certification-body language presented as a Marketing Powered credential, "accounts suspended" assurance wording, and HIPAA assurance wording.
+* Audience-following tactics; the copy now states that remarketing is restricted in sensitive categories and not used.
+* "Book a Discovery Call" CTAs, replaced with the site-wide audit request.
+
+
 External citations
-* SAMHSA treatment facility guidelines https://www.samhsa.gov/find-help/national-helpline [Government/Public Health] - Authoritative federal source for behavioral health treatment standards and guidelines, supports compliance discussion
-* Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform Policy] - Primary source for sensitive vertical restrictions and LegitScript requirements referenced throughout the page
-* LegitScript certification standards https://www.legitscript.com/certification/ [Regulatory/Compliance] - Authoritative source for certification requirements mentioned multiple times in compliance sections
-* WordStream benchmarks https://www.wordstream.com/blog/ws/2016/02/29/google-adwords-industry-benchmarks [Industry Research] - Referenced in FAQ answer about marketing costs, provides third-party validation for CPC ranges
+* Kept: Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy]; Meta advertising standards https://www.facebook.com/policies/ads/ [Platform policy].
+* Removed: SAMHSA helpline page, certification-body page, and the third-party CPC benchmark citation (no longer supported by the copy).
 
 
-Internal link gaps
-* Consider adding a link to a dedicated compliance page if one exists outside of /ai-edge/
-* A link to team or about page could strengthen the operator credibility claims
-* Consider linking to a services overview page from the 'How We Help' section
+Approvals pending
+* Founder figures C01 to C05 need Mike's final sign-off on wording.
+* Any agency case for this specialty requires an approved case record (C16) before it is published on the case studies page or referenced here.
 
 
-Missing proof points
-* Specific percentage improvements in cost per admission would strengthen the case studies section
-* Named client testimonials or logos would add credibility if available and approved
-* Specific admission volume numbers would strengthen the anonymized multi-location case study
+Internal links
+* /#industries, /services/paid-media, /services/call-tracking-and-intake-attribution, /services/analytics-and-attribution, /problems/scale-multi-location-campaigns, /ai-edge/data-sovereignty, /who-we-help/mental-health, /results/case-studies. Child program cards (residential, substance use disorder, adolescent, dual diagnosis, detox, IOP/PHP) render automatically from the hub registry.
+
+
+Image note
+* The previous hero, concept, process, and results graphics were removed from the page's image set: they carried the spend total, a revenue figure, a violations-count claim, a certification badge, a "growth case study" label, and treatment-center-only framing. The hero is now decorative photography with empty alt text.

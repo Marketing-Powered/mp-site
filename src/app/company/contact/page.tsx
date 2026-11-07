@@ -62,10 +62,10 @@ function ContactDetails() {
 
 export default function Page() {
   return (
-    <MarkdownPage file={FILE} kicker="Contact" hideCta>
-      <ContactDetails />
+    <MarkdownPage file={FILE} kicker="Contact" hideCta formFirst={{ id: "contact-form" }}>
       {/* shared with the popup lead modal — see src/lib/leadForms.ts */}
-      <LeadForm {...LEAD_FORMS.contact} />
+      <LeadForm {...LEAD_FORMS.contact} formId="contact-form" />
+      <ContactDetails />
     </MarkdownPage>
   );
 }

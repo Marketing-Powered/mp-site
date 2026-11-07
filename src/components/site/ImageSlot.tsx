@@ -15,6 +15,7 @@ export default function ImageSlot({
   src,
   alt,
   fit = "contain",
+  priority = false,
 }: {
   label: string;
   ratio?: string;
@@ -22,6 +23,9 @@ export default function ImageSlot({
   src?: string;
   alt?: string;
   fit?: "contain" | "cover";
+  /** Hero slot only: preloads the image and marks it fetchpriority=high so
+      it is the LCP candidate instead of a lazy request discovered late. */
+  priority?: boolean;
 }) {
   if (src) {
     return (
@@ -38,6 +42,7 @@ export default function ImageSlot({
             src={src}
             alt={alt ?? label}
             fill
+            priority={priority}
             quality={72}
             sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 60vw"
             className={fit === "contain" ? "object-contain" : "object-cover"}

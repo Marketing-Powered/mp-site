@@ -56,20 +56,31 @@ export default function MarkdownPage({
   children,
   cta,
   hideCta = false,
+  formFirst,
 }: {
   file: string;
   kicker?: string;
   children?: React.ReactNode;
   cta?: { headline?: string; body?: string; ctaText?: string; ctaLink?: string };
   hideCta?: boolean;
+  /** Conversion pages: render `children` (the form) directly under the hero
+      instead of after every content section, and point the hero CTA at it.
+      `id` is the form section's id; `ctaText` overrides the hero button copy.
+      On a phone the form otherwise lands 6–7 screens down. */
+  formFirst?: { id: string; ctaText?: string };
 }) {
   const page = getPage(file);
   const url = page.frontmatter.url || "/";
 
-  const heroCta = page.heroCta || {
-    text: "Request a Free Audit",
-    link: "/get-started/request-an-audit",
-  };
+  const heroCta = formFirst
+    ? {
+        text: formFirst.ctaText ?? page.heroCta?.text ?? "Request a Free Audit",
+        link: `#${formFirst.id}`,
+      }
+    : page.heroCta || {
+        text: "Request a Free Audit",
+        link: "/get-started/request-an-audit",
+      };
 
   // hub vertical pages (behavioral-health, mental-health) get child cards
   const hubChildren = (HUB_CHILDREN[file] || []).map((c) => {
@@ -146,6 +157,7 @@ export default function MarkdownPage({
                 src={heroImg?.src}
                 alt={heroImg?.alt}
                 fit={heroImg?.fit}
+                priority
               />
             </div>
           </div>
@@ -155,6 +167,9 @@ export default function MarkdownPage({
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         <GoldRule />
       </div>
+
+      {/* ---------- form-first pages: the form sits right under the hero ---------- */}
+      {formFirst && children}
 
       {/* ---------- hub child cards (vertical hubs only) ---------- */}
       {hubChildren.length > 0 && (
@@ -228,7 +243,7 @@ export default function MarkdownPage({
       })}
 
       {/* ---------- injected custom content (forms, etc.) ---------- */}
-      {children}
+      {!formFirst && children}
 
       {/* ---------- FAQ ---------- */}
       <FaqAccordion items={page.faq} />

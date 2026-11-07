@@ -32,7 +32,7 @@ type LeadModalContextValue = {
 const LeadModalContext = createContext<LeadModalContextValue | null>(null);
 
 const inputCls =
-  "w-full rounded-xl border border-white/12 bg-white/[0.03] px-4 py-3 text-[15px] text-white/90 outline-none transition-colors placeholder:text-white/25 focus:border-[#0090F0]/60 focus:bg-white/[0.05]";
+  "w-full rounded-xl border border-white/12 bg-white/[0.03] px-4 py-3 text-base text-white/90 sm:text-[15px] outline-none transition-colors placeholder:text-white/25 focus:border-[#0090F0]/60 focus:bg-white/[0.05]";
 
 type Status = "idle" | "sending" | "sent" | "error";
 
@@ -184,6 +184,7 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
                       className={f.full || f.type === "textarea" ? "sm:col-span-2" : ""}
                     >
                       <label
+                        htmlFor={`lead-modal-${f.name}`}
                         className="mb-2 block text-[11px] uppercase tracking-[0.18em] text-white/45"
                         style={{ fontFamily: mono }}
                       >
@@ -192,6 +193,7 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
                       </label>
                       {f.type === "textarea" ? (
                         <textarea
+                          id={`lead-modal-${f.name}`}
                           name={f.name}
                           required={f.required}
                           rows={3}
@@ -201,6 +203,7 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
                         />
                       ) : f.type === "select" ? (
                         <select
+                          id={`lead-modal-${f.name}`}
                           name={f.name}
                           required={f.required}
                           defaultValue=""
@@ -219,6 +222,7 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
                         </select>
                       ) : (
                         <input
+                          id={`lead-modal-${f.name}`}
                           name={f.name}
                           type={f.type || "text"}
                           required={f.required}
@@ -293,8 +297,12 @@ export function ModalCta({
 }) {
   const ctx = useContext(LeadModalContext);
   const formKey = leadFormKeyForHref(href);
+  // In-page anchors (#form-id) stay plain links: the form is on the page.
   const isExternal =
-    href.startsWith("mailto:") || href.startsWith("tel:") || /^https?:\/\//.test(href);
+    href.startsWith("mailto:") ||
+    href.startsWith("tel:") ||
+    href.startsWith("#") ||
+    /^https?:\/\//.test(href);
 
   if (isExternal) {
     return (

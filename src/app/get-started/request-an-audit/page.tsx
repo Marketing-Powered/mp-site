@@ -8,9 +8,9 @@ export const metadata = pageMetadata(FILE);
 
 export default function Page() {
   return (
-    <MarkdownPage file={FILE} kicker="Get Started" hideCta>
+    <MarkdownPage file={FILE} kicker="Get Started" hideCta formFirst={{ id: "audit-form" }}>
       {/* shared with the popup lead modal — see src/lib/leadForms.ts */}
-      <LeadForm {...LEAD_FORMS.audit} />
+      <LeadForm {...LEAD_FORMS.audit} formId="audit-form" />
     </MarkdownPage>
   );
 }

@@ -219,6 +219,7 @@ export default function HomePage() {
               ratio="16 / 9"
               rounded="26px"
               priority
+              fetchPriority="high"
               fit="cover"
               className="relative"
             />

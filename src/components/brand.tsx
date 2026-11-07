@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 /* ================================================================== */
-/*  Shared Marketing Powered brand kit.                               */
-/*  Palette sampled from the official brand graphics:                  */
-/*  bright blue · cyan · green · deep navy.                            */
+/* Shared Marketing Powered brand kit.                                */
+/* Palette sampled from the official brand graphics:                  */
+/* bright blue · cyan · green · deep navy.                            */
 /* ================================================================== */
 
 export const brand = {
@@ -35,7 +35,7 @@ export function Logo({
         className="text-[1.05rem] font-bold leading-none tracking-tight"
         style={{ color: word }}
       >
-marketing <span style={{ color: brand.blue }}>powered</span>
+        marketing <span style={{ color: brand.blue }}>powered</span>
       </span>
     </span>
   );
@@ -59,9 +59,9 @@ export function Bolt({ className = "h-6 w-6" }: { className?: string }) {
   );
 }
 
-/* ---- Figure: renders the white-background brand graphics without   */
-/*      cropping. The art sits on a clean white "artboard" so nothing */
-/*      is cut off and it reads as intentional on light OR dark.      */
+/* ---- Figure: renders the white-background brand graphics without  */
+/* cropping. The art sits on a clean white "artboard" so nothing      */
+/* is cut off and it reads as intentional on light OR dark.           */
 export function Figure({
   src,
   alt,
@@ -70,6 +70,7 @@ export function Figure({
   rounded = "1.5rem",
   caption,
   priority = false,
+  fetchPriority,
   quality = 70,
   shadow = true,
   fit = "contain",
@@ -81,6 +82,10 @@ export function Figure({
   rounded?: string;
   caption?: React.ReactNode;
   priority?: boolean;
+  /** Browser fetch priority for the <img>. Set "high" on the one above-the-fold
+      image that is the page's LCP candidate; `priority` alone only adds the
+      preload link. */
+  fetchPriority?: "high" | "low" | "auto";
   quality?: number;
   shadow?: boolean;
   fit?: "contain" | "cover";
@@ -101,6 +106,7 @@ export function Figure({
           alt={alt}
           fill
           preload={priority}
+          fetchPriority={fetchPriority}
           quality={quality}
           sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 48vw"
           className={fit === "contain" ? "object-contain" : "object-cover"}

@@ -28,31 +28,39 @@ export default function ImageSlot({
   priority?: boolean;
 }) {
   if (src) {
+    const frame = (
+      <div
+        className="relative w-full overflow-hidden rounded-2xl"
+        style={{
+          aspectRatio: ratio,
+          background: fit === "contain" ? "#ffffff" : "#0A1322",
+          boxShadow: "0 24px 60px -32px rgba(0,24,72,0.55)",
+        }}
+      >
+        <Image
+          src={src}
+          alt={alt ?? label}
+          fill
+          priority={priority}
+          quality={72}
+          sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 60vw"
+          className={fit === "contain" ? "object-contain" : "object-cover"}
+          style={
+            fit === "contain"
+              ? { padding: "clamp(4px,1vw,14px)", objectPosition: "center" }
+              : { objectPosition: "center" }
+          }
+        />
+      </div>
+    );
+    // The hero is the LCP element. Reveal keeps it at opacity 0 until the
+    // client bundle hydrates and the IntersectionObserver fires, which on a
+    // throttled phone pushed LCP to ~10s even with the image preloaded. So the
+    // priority slot paints immediately; the fade-in stays for the in-body slots.
+    if (priority) return <div className={className}>{frame}</div>;
     return (
       <Reveal variant="blur" className={className}>
-        <div
-          className="relative w-full overflow-hidden rounded-2xl"
-          style={{
-            aspectRatio: ratio,
-            background: fit === "contain" ? "#ffffff" : "#0A1322",
-            boxShadow: "0 24px 60px -32px rgba(0,24,72,0.55)",
-          }}
-        >
-          <Image
-            src={src}
-            alt={alt ?? label}
-            fill
-            priority={priority}
-            quality={72}
-            sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 60vw"
-            className={fit === "contain" ? "object-contain" : "object-cover"}
-            style={
-              fit === "contain"
-                ? { padding: "clamp(4px,1vw,14px)", objectPosition: "center" }
-                : { objectPosition: "center" }
-            }
-          />
-        </div>
+        {frame}
       </Reveal>
     );
   }

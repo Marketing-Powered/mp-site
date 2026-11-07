@@ -48,8 +48,11 @@ export const homeContent = {
       "We combine that experience with technology we own and customize, connecting strategy, execution, and measurement around your business priorities.",
       "For CEOs and CMOs, that means a partner who understands the decisions behind the campaigns: where to invest, what to improve, and how to judge performance. Our [marketing leadership](/company/about) starts with operating experience, not a software pitch.",
     ],
-    /* Decorative: out-of-focus night lights. Not staff, offices, or client work. */
-    image: "/images/pages/home/home-hero-light-field.jpg",
+    /* Hero photograph (the page's largest above-the-fold element; preloaded).
+       Decorative, with empty alt: it is not presented as Marketing Powered
+       staff, offices, or client work, and the dashboard figures in the frame
+       are not claims. Source is 1920×1080; next/image serves resized variants. */
+    image: "/images/pages/home/home-hero-team-dashboard.jpg",
     imageAlt: "",
   },
 

@@ -20,8 +20,8 @@ import {
 } from "@/lib/leadForms";
 
 /* Popup lead form. CTA buttons across the site open this modal instead of
-   navigating away; the form posts to /api/contact, which delivers the lead
-   to GoHighLevel (contact + opportunity) and email. The underlying href is
+   navigating away; the form posts to /api/contact, which adds the lead to
+   the website leads Google Sheet and emails it. The underlying href is
    kept on every trigger so middle-click, new-tab, and no-JS visitors still
    reach the full-page form. */
 
@@ -172,7 +172,7 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
 
                 <form onSubmit={onSubmit} className="mt-7 grid gap-4 sm:grid-cols-2">
                   <input type="hidden" name="source" value={form.source} />
-                  {/* page the visitor converted on — passed through to GHL */}
+                  {/* page the visitor converted on — recorded in the leads sheet */}
                   <input
                     type="hidden"
                     name="page"

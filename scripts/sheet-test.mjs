@@ -2,12 +2,13 @@
 /**
  * Post one clearly-labelled test lead straight to the leads sheet's Apps
  * Script web app and report what came back. Use it after deploying (or
- * re-deploying) scripts/google-sheets-leads.gs to confirm rows land.
+ * re-deploying) scripts/google-sheets-leads.gs to confirm the row lands and
+ * the lead email reaches info@marketingpowered.ai.
  *
  *   node scripts/sheet-test.mjs "https://script.google.com/macros/s/.../exec"
  *
  * Falls back to GOOGLE_SHEETS_WEBHOOK_URL when no argument is given. Delete
- * the test row from the sheet afterwards.
+ * the test row from the sheet (and the test email) afterwards.
  */
 
 const url = (process.argv[2] || process.env.GOOGLE_SHEETS_WEBHOOK_URL || "").trim();
@@ -41,8 +42,13 @@ try {
 } catch {
   // not JSON
 }
-if (reply?.ok) {
-  console.log(`OK — test lead written to row ${reply.row}.`);
+if (reply?.ok && reply?.emailed) {
+  console.log(`OK — test lead written to row ${reply.row} and emailed.`);
+} else if (reply) {
+  console.error(
+    `PARTIAL — row written: ${reply.ok === true}, email sent: ${reply.emailed === true}. ${reply.error ?? ""}`,
+  );
+  process.exit(1);
 } else {
   console.error(
     "FAILED — if the reply is an HTML page, the deployment's access is not set to Anyone or the URL is not the /exec one.",

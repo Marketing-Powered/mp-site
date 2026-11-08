@@ -1,15 +1,17 @@
 /* Server-side delivery of website leads to the "Marketing Powered Website
-   Leads" Google Sheet.
+   Leads" Google Sheet and the info@ inbox.
 
-   The sheet carries a small Apps Script web app (scripts/google-sheets-leads.gs)
-   that appends one row per POST. The route posts a JSON object keyed by the
-   sheet's column headers; the script writes each value under the matching
-   header, stamps the Received time itself, and adds a column for any key the
-   sheet doesn't have yet, so a field added to a form later is never dropped.
+   The sheet carries a small Apps Script web app (scripts/google-sheets-leads.gs).
+   For each POST it appends one row and emails the lead to
+   info@marketingpowered.ai (the address is fixed in the script). The route
+   posts a JSON object keyed by the sheet's column headers; the script writes
+   each value under the matching header, stamps the Received time itself, and
+   adds a column for any key the sheet doesn't have yet, so a field added to a
+   form later is never dropped.
 
    Configured by one env var:
      GOOGLE_SHEETS_WEBHOOK_URL  the web app URL from Deploy → Manage deployments
-   Unset = sheet delivery is skipped (the lead is still logged and emailed). */
+   Unset = skipped (the route then relies on the Resend fallback, if any). */
 
 /** Read an env var, trimmed, treating blank as unset. Values pasted into a
     hosting dashboard routinely carry a trailing space or newline. */
@@ -88,12 +90,18 @@ export function leadToSheetRow(
   return row;
 }
 
-/** Outcome of sheet delivery. `configured: false` means the env var is unset
-    on purpose; `configured: true, ok: false` is a real failure worth
-    surfacing in the lead email. */
-export type SheetResult = { configured: boolean; ok: boolean; detail?: string };
+/** Outcome of the Apps Script call. `ok`: the row was written. `emailed`:
+    the script sent the lead email. `configured: false` means the env var is
+    unset on purpose. */
+export type SheetResult = {
+  configured: boolean;
+  ok: boolean;
+  emailed: boolean;
+  detail?: string;
+};
 
-/** Append the lead to the Google Sheet. Never throws. */
+/** Append the lead to the Google Sheet and have the script email it.
+    Never throws. */
 export async function deliverToSheet(
   data: Record<string, unknown>,
   source: string,
@@ -101,7 +109,7 @@ export async function deliverToSheet(
   const url = env("GOOGLE_SHEETS_WEBHOOK_URL");
   if (!url) {
     console.log("[lead] sheet delivery skipped: GOOGLE_SHEETS_WEBHOOK_URL not set");
-    return { configured: false, ok: true };
+    return { configured: false, ok: false, emailed: false };
   }
 
   try {
@@ -116,25 +124,31 @@ export async function deliverToSheet(
     if (!res.ok) {
       const detail = `sheet ${res.status} ${res.statusText}`;
       console.error(`[lead] sheet delivery non-OK: ${detail}`);
-      return { configured: true, ok: false, detail };
+      return { configured: true, ok: false, emailed: false, detail };
     }
-    let reply: { ok?: boolean; error?: string } | null = null;
+    let reply: { ok?: boolean; emailed?: boolean; error?: string } | null = null;
     try {
       reply = JSON.parse(body);
     } catch {
       // An HTML page here usually means the deployment isn't public
       // ("Who has access" must be "Anyone") or the URL is not the /exec one.
     }
-    if (!reply?.ok) {
-      const detail = reply?.error
-        ? `sheet script error: ${reply.error}`
-        : "sheet did not confirm the row (check the web app URL and that access is set to Anyone)";
+    if (!reply) {
+      const detail =
+        "sheet script gave no reply (check the web app URL and that access is set to Anyone)";
       console.error(`[lead] ${detail}`);
-      return { configured: true, ok: false, detail };
+      return { configured: true, ok: false, emailed: false, detail };
     }
-    return { configured: true, ok: true };
+    const result: SheetResult = {
+      configured: true,
+      ok: reply.ok === true,
+      emailed: reply.emailed === true,
+      detail: reply.error ? `sheet script: ${reply.error}` : undefined,
+    };
+    if (result.detail) console.error(`[lead] ${result.detail}`);
+    return result;
   } catch (err) {
     console.error("[lead] sheet delivery failed:", err);
-    return { configured: true, ok: false, detail: `sheet ${String(err)}` };
+    return { configured: true, ok: false, emailed: false, detail: `sheet ${String(err)}` };
   }
 }

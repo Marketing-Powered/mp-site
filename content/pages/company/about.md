@@ -33,7 +33,7 @@ Marketing Powered combines experienced marketing leadership, technology we own a
 We serve organizations where marketing has to connect to an operation: [hospitals and health systems](/who-we-help/hospitals-and-health-systems), multi-location providers, and other distributed organizations. Behavioral health, addiction treatment, and mental health remain named specialties because our founder's experience comes from that field.
 Our [services](/services) run from acquisition through conversion to measurement: paid media, search and content, websites, creative, optimization, analytics and attribution, and workflow automation. We treat them as one operating system rather than a list of separate offers.
 Our Founder's Experience
-Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend.
+Before founding Marketing Powered, [Mike Hulick](/author/mike-hulick) led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend.
 During that tenure his employer grew from about $30 million to about $140 million in revenue. That is organizational growth during his tenure, not an agency result or a claim that marketing alone caused it.
 That responsibility covered more than campaigns. Attribution, intake, conversion, reporting, and the systems supporting expansion had to work together. Marketing decisions had to account for operating capacity, market differences, and revenue, not just activity inside an advertising account.
 That is prior executive experience, not agency client work. We keep the two separate across this site, including the [experience section](/#experience) of our homepage and the case studies page. You should know what each piece of evidence represents before you weigh it.
@@ -59,7 +59,7 @@ Tell us where growth is getting stuck and what your leadership team needs to see
 [CTA] Request a Free Audit
 FAQ
 Q: Who leads Marketing Powered?
-A: Marketing Powered was founded and is led by Mike Hulick. Before founding the agency he served as CMO of a multi-state behavioral health operator, where he was responsible for marketing during an expansion from 3 to 24 locations across 9 states. The agency is founder-led, and strategic decisions are made by someone with executive operating experience.
+A: Marketing Powered was founded and is led by [Mike Hulick](/author/mike-hulick). Before founding the agency he served as CMO of a multi-state behavioral health operator, where he was responsible for marketing during an expansion from 3 to 24 locations across 9 states. The agency is founder-led, and strategic decisions are made by someone with executive operating experience.
 Q: Does Marketing Powered only work with behavioral health providers?
 A: No. Behavioral health, addiction treatment, and mental health are named specialties grounded in our founder's experience. The same operating model serves hospitals, health systems, and other multi-location organizations that need coordinated campaigns, consistent execution, and comparable reporting.
 Q: Are the founder's numbers agency results?
@@ -101,6 +101,7 @@ Approvals pending
 
 Internal links
 * /#experience, /results/case-studies, /services, /ai-edge/owned-ai-systems, /who-we-help/hospitals-and-health-systems (created in this release).
+* /author/mike-hulick (author profile, added November 8, 2026): the founder name links to it in the founder section and the leadership FAQ.
 
 
 Image note

@@ -47,6 +47,7 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "Behavioral Health", href: "/who-we-help/behavioral-health" },
       { label: "Mental Health", href: "/who-we-help/mental-health" },
       { label: "About", href: "/company/about" },
+      { label: "Our Founder, Mike Hulick", href: "/author/mike-hulick" },
       { label: "Contact", href: "/company/contact" },
     ],
   },

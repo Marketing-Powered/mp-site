@@ -19,11 +19,18 @@ const SECTION_LABELS: [string, string][] = [
   ["results", "Results"],
   ["media", "Media"],
   ["company", "Company"],
+  ["author", "Authors"],
   ["get-started", "Get Started"],
   ["legal", "Legal"],
 ];
 
+/* Section landing pages whose last URL segment is not their title. */
+const ROUTE_LABELS: Record<string, string> = {
+  "/author": "Authors",
+};
+
 function titleize(route: string): string {
+  if (ROUTE_LABELS[route]) return ROUTE_LABELS[route];
   const seg = route.split("/").filter(Boolean).pop() || "Home";
   return seg
     .replace(/-/g, " ")

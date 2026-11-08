@@ -111,8 +111,10 @@ function HomeJsonLd() {
       description: c.organization.description,
       founder: {
         "@type": "Person",
+        "@id": `${SITE_URL}${c.organization.founder.url}#person`,
         name: c.organization.founder.name,
         jobTitle: c.organization.founder.jobTitle,
+        url: `${SITE_URL}${c.organization.founder.url}`,
       },
       email: s.brand.email,
       telephone: s.brand.phoneE164,

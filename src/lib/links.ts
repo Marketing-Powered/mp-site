@@ -148,6 +148,9 @@ const VALID = new Set<string>([
   "/company/data-sovereignty",
   "/company/security",
   "/accessibility",
+  // author profiles: one canonical URL per byline, routed through /author
+  "/author",
+  "/author/mike-hulick",
   // migrated legacy pages (organic-traffic SEO pages preserved at original slugs)
   "/top-10-open-source-ai-models-of-2025",
   "/sitemap",

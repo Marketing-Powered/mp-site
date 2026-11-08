@@ -32,6 +32,7 @@ Content that qualifies as a guest contribution includes bylined articles, expert
 The benefits are straightforward. You gain exposure to established audiences. You earn backlinks that strengthen your domain authority. You build a portfolio of published work that reinforces credibility when prospects research your background. For organizations operating in specialized verticals, guest contributions also demonstrate depth of knowledge that generic marketing cannot replicate.
 Types of Guest Articles
 Bylined articles carry your name and typically include a brief author bio. These are the most common forms of guest contribution and appear in trade publications, industry blogs, and news outlets. The bio section creates a direct branding opportunity, linking readers back to your site or profile.
+An author profile is where that link should land. Our founder's bylined work, including LinkedIn and Medium pieces and a healthcare marketing panel appearance, is collected on [Mike Hulick's author page](/author/mike-hulick), which every byline on this site routes to.
 Expert contributions take a different angle. Rather than full articles, these are quoted insights, commentary sections, or responses to industry questions compiled by journalists or editors. Publications like [Behavioral Health Business](https://bhbusiness.com/) frequently seek expert perspectives for roundup pieces and trend analysis.
 
 

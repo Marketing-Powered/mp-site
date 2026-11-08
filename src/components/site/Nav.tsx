@@ -78,6 +78,7 @@ const PRIMARY_NAV = [
     children: [
       { label: "Company Overview", href: "/company" },
       { label: "About", href: "/company/about" },
+      { label: "Our Founder", href: "/author/mike-hulick" },
       { label: "Contact", href: "/company/contact" },
       { label: "Security", href: "/company/security" },
     ],

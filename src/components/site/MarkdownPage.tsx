@@ -10,6 +10,7 @@ import InlineCta from "./InlineCta";
 import StickyMobileCta from "./StickyMobileCta";
 import FaqAccordion from "./FaqAccordion";
 import CtaBand from "./CtaBand";
+import AuthorCard, { Byline } from "./AuthorCard";
 import { serif } from "./theme";
 import { Kicker, PrimaryCta, GoldRule } from "./ui";
 import { siteContent as s } from "@/lib/content";
@@ -56,12 +57,17 @@ export default function MarkdownPage({
   children,
   cta,
   hideCta = false,
+  author,
 }: {
   file: string;
   kicker?: string;
   children?: React.ReactNode;
   cta?: { headline?: string; body?: string; ctaText?: string; ctaLink?: string };
   hideCta?: boolean;
+  /** Bylined article: renders the author byline under the lead and a short
+      author card before the closing CTA, both linking to the canonical
+      author profile. */
+  author?: { published?: { iso: string; label: string }; updated?: { iso: string; label: string } };
 }) {
   const page = getPage(file);
   const url = page.frontmatter.url || "/";
@@ -123,6 +129,9 @@ export default function MarkdownPage({
               <p className="mt-7 max-w-xl text-[clamp(1rem,1.3vw,1.15rem)] leading-relaxed text-white/55">
                 {page.lead}
               </p>
+            )}
+            {author && (
+              <Byline className="mt-7" published={author.published} updated={author.updated} />
             )}
             <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
               <PrimaryCta href={heroCta.link}>{heroCta.text}</PrimaryCta>
@@ -258,6 +267,9 @@ export default function MarkdownPage({
           </div>
         </section>
       )}
+
+      {/* ---------- author card (bylined articles only) ---------- */}
+      {author && <AuthorCard />}
 
       {/* ---------- CTA ---------- */}
       {!hideCta && (

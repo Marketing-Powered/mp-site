@@ -177,37 +177,26 @@ export default function HomePage() {
         id="hero"
         className="relative z-10 mx-auto max-w-7xl px-6 pb-20 pt-12 lg:px-12 lg:pt-20"
       >
-        <div className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
-          <div>
-            <h1
-              className="text-[clamp(2.5rem,5.2vw,4.6rem)] leading-[1.02]"
-              style={{ fontFamily: serif, fontWeight: 400, letterSpacing: "-0.02em" }}
-            >
-              {c.hero.h1}
-            </h1>
+        {/* One grid, one image element. Below lg the children stack in source
+            order, so the photo lands between the first and second paragraphs
+            and paints in the first mobile viewport. At lg the image moves to
+            the right column, spanning the three text rows and centred on them,
+            as before. */}
+        <div className="grid gap-x-14 lg:grid-cols-[1.05fr_0.95fr]">
+          <h1
+            className="text-[clamp(2.5rem,5.2vw,4.6rem)] leading-[1.02] lg:col-start-1"
+            style={{ fontFamily: serif, fontWeight: 400, letterSpacing: "-0.02em" }}
+          >
+            {c.hero.h1}
+          </h1>
 
-            <div className="mt-8 max-w-xl space-y-5">
-              {c.hero.paragraphs.map((p, i) => (
-                <Prose
-                  key={i}
-                  text={p}
-                  className={
-                    i === 0
-                      ? "text-[clamp(1.05rem,1.4vw,1.2rem)] leading-relaxed text-white/75"
-                      : BODY
-                  }
-                />
-              ))}
-            </div>
-
-            <div className="mt-10 flex flex-wrap items-center gap-4">
-              <StrategyCallButton />
-              <CallCta />
-            </div>
-          </div>
+          <Prose
+            text={c.hero.paragraphs[0]}
+            className="mt-8 max-w-xl text-[clamp(1.05rem,1.4vw,1.2rem)] leading-relaxed text-white/75 lg:col-start-1"
+          />
 
           {/* framed hero image (decorative) */}
-          <div className="relative">
+          <div className="relative my-10 lg:col-start-2 lg:row-span-3 lg:row-start-1 lg:my-0 lg:self-center">
             <div
               aria-hidden
               className="absolute -inset-[2px] rounded-[28px] opacity-90"
@@ -223,6 +212,19 @@ export default function HomePage() {
               fit="cover"
               className="relative"
             />
+          </div>
+
+          <div className="lg:col-start-1 lg:mt-5">
+            <div className="max-w-xl space-y-5">
+              {c.hero.paragraphs.slice(1).map((p, i) => (
+                <Prose key={i} text={p} />
+              ))}
+            </div>
+
+            <div className="mt-10 flex flex-wrap items-center gap-4">
+              <StrategyCallButton />
+              <CallCta />
+            </div>
           </div>
         </div>
       </section>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { siteContent as s } from "@/lib/content";
 import { ModalCta } from "./LeadModal";
 import { CallCta } from "./ui";
@@ -20,35 +20,6 @@ export default function StickyMobileCta({
   label?: string;
 } = {}) {
   const [visible, setVisible] = useState(false);
-  const barRef = useRef<HTMLDivElement>(null);
-
-  /* Publish this bar's state to the document so the chat launcher can sit on
-     top of it. The launcher lives in a third-party shadow root and reads
-     --mp-chat-lift-outer (see globals.css and ChatWidgetPlacement); custom
-     properties inherit across the shadow boundary, so this is the one channel
-     we have into it. Measured rather than hardcoded because the pills wrap to
-     two lines on a 320px screen. */
-  useEffect(() => {
-    const root = document.documentElement;
-    root.dataset.mpCtaBar = visible ? "visible" : "hidden";
-    return () => {
-      delete root.dataset.mpCtaBar;
-    };
-  }, [visible]);
-
-  useEffect(() => {
-    const bar = barRef.current;
-    if (!bar || typeof ResizeObserver === "undefined") return undefined;
-    const root = document.documentElement;
-    const observer = new ResizeObserver(([entry]) => {
-      root.style.setProperty("--mp-cta-bar-h", `${Math.round(entry.contentRect.height)}px`);
-    });
-    observer.observe(bar);
-    return () => {
-      observer.disconnect();
-      root.style.removeProperty("--mp-cta-bar-h");
-    };
-  }, []);
 
   useEffect(() => {
     let lastY = window.scrollY;
@@ -78,7 +49,6 @@ export default function StickyMobileCta({
 
   return (
     <div
-      ref={barRef}
       className={`fixed inset-x-0 bottom-0 z-50 px-4 pb-[calc(env(safe-area-inset-bottom,0px)+0.75rem)] pt-3 transition-transform duration-300 md:hidden ${
         visible ? "translate-y-0" : "translate-y-[140%]"
       }`}

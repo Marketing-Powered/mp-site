@@ -23,34 +23,6 @@ html {
 }
 
 /* ---------------------------------------------------------------- */
-/*  Chat launcher offset                                            */
-/* ---------------------------------------------------------------- */
-
-/* How far the LeadConnector launcher is lifted off the bottom edge. It is set
-   here, on the document, because the widget renders into a shadow root that no
-   stylesheet of ours can reach — custom properties are the only thing that
-   inherits across that boundary. ChatWidgetPlacement adopts the matching rule
-   inside the shadow root.
-
-   From md up the lift is constant (~15% of the viewport, bounded), clearing
-   the footer's audit row. Below md nothing sits at the bottom of the page
-   until the sticky CTA bar slides in, and a constant lift there pushes the
-   widget's greeting bubble up into the hero — so the lift tracks that bar,
-   using the height StickyMobileCta measures for it. */
-:root {
-  --mp-chat-lift-outer: clamp(88px, 15vh, 132px);
-}
-
-@media (max-width: 767px) {
-  :root {
-    --mp-chat-lift-outer: 0px;
-  }
-  :root[data-mp-cta-bar="visible"] {
-    --mp-chat-lift-outer: calc(var(--mp-cta-bar-h, 96px) + 1rem);
-  }
-}
-
-/* ---------------------------------------------------------------- */
 /*  Shared keyframes used across the design concepts                */
 /* ---------------------------------------------------------------- */
 

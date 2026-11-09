@@ -258,33 +258,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ---------- 04 HOSPITALS AND HEALTH SYSTEMS ---------- */}
-      <section id="hospitals" className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-12 lg:py-28">
-        <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
-          <div>
-            <Reveal>
-              <H2>{c.hospitals.h2}</H2>
-              <GoldRule className="mt-8 max-w-xs" />
-            </Reveal>
-            <Reveal variant="blur" delay={120} className="relative mt-10">
-              <Figure
-                src={c.hospitals.image}
-                alt={c.hospitals.imageAlt}
-                ratio="16 / 9"
-                fit="cover"
-              />
-            </Reveal>
-          </div>
-          <div className="space-y-5">
-            {c.hospitals.paragraphs.map((p, i) => (
-              <Reveal key={i} delay={60 + i * 60}>
-                <Prose text={p} />
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ---------- 05 OWNED INFRASTRUCTURE ---------- */}
       <section id="infrastructure" className="relative z-10 border-y border-white/8 py-24 lg:py-28">
         <div className="mx-auto max-w-7xl px-6 lg:px-12">
@@ -328,6 +301,33 @@ export default function HomePage() {
                     />
                   ))}
                 </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- 04 HOSPITALS AND HEALTH SYSTEMS ---------- */}
+      <section id="hospitals" className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-12 lg:py-28">
+        <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
+          <div>
+            <Reveal>
+              <H2>{c.hospitals.h2}</H2>
+              <GoldRule className="mt-8 max-w-xs" />
+            </Reveal>
+            <Reveal variant="blur" delay={120} className="relative mt-10">
+              <Figure
+                src={c.hospitals.image}
+                alt={c.hospitals.imageAlt}
+                ratio="16 / 9"
+                fit="cover"
+              />
+            </Reveal>
+          </div>
+          <div className="space-y-5">
+            {c.hospitals.paragraphs.map((p, i) => (
+              <Reveal key={i} delay={60 + i * 60}>
+                <Prose text={p} />
               </Reveal>
             ))}
           </div>

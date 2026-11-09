@@ -110,7 +110,7 @@ export const homeContent = {
 
   /* 04 — Hospitals and health systems (capability framing only; no logos or engagement imagery) */
   hospitals: {
-    h2: "Built for hospitals and health systems",
+    h2: "Built for highly regulated industries",
     paragraphs: [
       "Marketing Powered is a healthcare marketing agency designed to serve hospitals and health systems across locations, service lines, and internal teams.",
       "A campaign can generate interest while scheduling, intake, or inconsistent location information prevents that interest from becoming patient acquisition. We approach those connections as part of the marketing operation, not someone else's problem.",

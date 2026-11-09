@@ -125,13 +125,69 @@ export const starterBundle = {
 };
 
 /* Public list prices from competitor product pages, for the comparison
-   table. `checked` is shown next to the table so the date is never stale
-   without saying so. */
-export const competitorPrices = {
-  nfcCard: "$29.95",
-  stand: "$29.95–$49.95",
-  checked: "November 2026",
-};
+   section. Every figure links to the page it came from, so re-check these
+   against the URLs when updating. `checked` is shown under the table so
+   the date is never stale without saying so. */
+export const competitorsChecked = "November 2026";
+
+export const competitors = {
+  tapTag: {
+    name: "Tap Tag",
+    site: "https://taptag.shop/",
+    /* Custom review card (upload logo): $29.95 per card, no quantity break. */
+    nfcCard: {
+      unit: 29.95,
+      url: "https://taptag.shop/products/custom-tap-review-card-upload-logo",
+    },
+    stand: {
+      from: 29.95,
+      to: 39.95,
+      url: "https://taptag.shop/products/dynamic-qr-tap-review-standup-sign",
+    },
+    bundle: {
+      price: 99,
+      contents: "2 cards, 1 stand, 1 counter sign",
+      url: "https://taptag.shop/products/tap-review-business-bundle",
+    },
+    handouts: {
+      price: 74.95,
+      per: 500,
+      url: "https://taptag.shop/products/paper-handout-google-review-cards-500-pack",
+    },
+  },
+  shmo: {
+    name: "Shmo",
+    site: "https://shmocard.com/",
+    /* Google Review NFC Tap Card: $29.99 for one, $219.99 for a 10-pack. */
+    nfcCard: {
+      unit: 29.99,
+      tenPack: 219.99,
+      url: "https://shop.shmocard.com/products/google-reviews-nfc-tap-card-cr80",
+    },
+    stand: {
+      from: 29.99,
+      url: "https://shop.shmocard.com/products/google-review-nfc-tap-card-l-sign",
+    },
+    bundle: {
+      price: 997,
+      contents: "60 cards, signs and plaques",
+      url: "https://shop.shmocard.com/products/google-review-store-suite",
+    },
+  },
+} as const;
+
+/* What N custom NFC review cards cost at each seller's list price. Shmo
+   sells 10-packs, so use multiples of 10 for a like-for-like figure. */
+export const nfcCostAt = (quantity: number) => ({
+  powered: nfcTotal(quantity),
+  tapTag: Math.round(competitors.tapTag.nfcCard.unit * quantity * 100) / 100,
+  shmo:
+    Math.round(
+      (Math.floor(quantity / 10) * competitors.shmo.nfcCard.tenPack +
+        (quantity % 10) * competitors.shmo.nfcCard.unit) *
+        100,
+    ) / 100,
+});
 
 export const setupFrom = 49;
 

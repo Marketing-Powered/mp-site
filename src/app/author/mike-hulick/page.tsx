@@ -7,6 +7,7 @@ import Breadcrumbs from "@/components/site/Breadcrumbs";
 import ServiceCard from "@/components/site/ServiceCard";
 import CtaBand from "@/components/site/CtaBand";
 import StickyMobileCta from "@/components/site/StickyMobileCta";
+import YouTubeEmbed from "@/components/site/YouTubeEmbed";
 import { serif, mono } from "@/components/site/theme";
 import { Kicker, GoldRule, PrimaryCta, GhostCta, RichText, SectionHeading } from "@/components/site/ui";
 import { AUTHORS, authorPersonSchema } from "@/lib/authors";
@@ -49,16 +50,20 @@ const SUBHEAD = "Founder & CEO, Marketing Powered | Former Enterprise CMO";
 const TAGLINE =
   "Commercial growth strategy • Marketing operations • Applied AI and owned infrastructure • Regulated markets";
 
-/* Four-metric history strip. Historical organizational experience, not a
-   company-client guarantee (the note renders beneath the strip). */
-const METRICS = [
-  { value: "3 → 24", label: "Locations" },
-  { value: "$30M → ~$140M", label: "Annual revenue" },
-  { value: "$1.5M–$2M", label: "Monthly media" },
-  { value: "40+", label: "Team built" },
-];
-const METRICS_NOTE =
-  "Selected historical operating experience, not results guaranteed to Marketing Powered clients.";
+/* Cardinal Digital Marketing webinar, May 17, 2023. Hulick was a panelist
+   (then CMO, Haven Health Management). The recording is published on
+   Cardinal's YouTube channel and embedded on their webinar page. */
+const WEBINAR = {
+  videoId: "6CCWndD6Xx4",
+  title: "Marketing that Scales: How to Drive Growth and Efficiency in Healthcare",
+  youtubeTitle: "Webinar - How to Drive Growth and Efficiency in Healthcare",
+  description:
+    "Cardinal Digital Marketing healthcare webinar: a panel on building a scalable marketing function for multi-site healthcare groups, with Mike Hulick (then CMO, Haven Health Management), Marc Heffner (DSO Marketing Xcelerator), and Alex Membrillo (Cardinal Digital Marketing).",
+  uploadDate: "2023-05-17",
+  pageUrl: "https://www.cardinaldigitalmarketing.com/healthcare-resources/webinars/marketing-that-scales/",
+  poster: "https://i.ytimg.com/vi/6CCWndD6Xx4/maxresdefault.jpg",
+  publisher: "Cardinal Digital Marketing",
+};
 
 /* Biography. Paragraph copy may carry [anchor](path) internal links,
    resolved through the route registry so none can point at a dead page. */
@@ -136,6 +141,8 @@ const WRITING: {
   outlet: string;
   date: string;
   summary: string;
+  /** Cover image published with the piece (served through next/image). */
+  image?: string;
 }[] = [
   {
     title: "Compute Is Now an Asset Class. I Built Marketing Powered for This in 2022.",
@@ -144,6 +151,7 @@ const WRITING: {
     date: "September 5, 2026",
     summary:
       "Owned computing, first-party intelligence, economic leverage, and the limits of subscription-led AI strategy.",
+    image: "https://media.licdn.com/dms/image/v2/D4E12AQFn2t3IzzYgKQ/article-cover_image-shrink_720_1280/B4EaBuP3bdGgAU-/0/1788556050325?e=2147483647&v=beta&t=2GUoKVQzO9oE-kOIYXbF01m8Y9hpatmbvGmbxsrrLRo",
   },
   {
     title: "Most Just Haven’t Realized It Yet.",
@@ -152,6 +160,7 @@ const WRITING: {
     date: "May 28, 2026",
     summary:
       "Why AI output is not enough and why infrastructure, integration, and governance are becoming competitive advantages.",
+    image: "https://media.licdn.com/dms/image/v2/D4E12AQEQYfPCSBLxHQ/article-cover_image-shrink_720_1280/B4EZ5u1Y4dHoAU-/0/1779975950153?e=2147483647&v=beta&t=nYCwfUtxjvsA0qHfmMzUxvptnkka9ODxEiu_pqwK_4A",
   },
   {
     title: "Healthcare Marketing in 2026: The Organizations That Move Now Will Win",
@@ -160,6 +169,7 @@ const WRITING: {
     date: "April 5, 2026",
     summary:
       "Outcome-based measurement, patient experience, value messaging, and responsible technology adoption.",
+    image: "https://cdn-images-1.medium.com/max/1024/1*G8SVIFSt7Y-SJNDtWV6igQ.png",
   },
   {
     title: "Outdated Digital Marketing Tactics in Behavioral Health: What to Leave Behind in 2024",
@@ -176,6 +186,7 @@ const WRITING: {
     date: "August 10, 2025",
     summary:
       "Marginal acquisition economics, cross-account learning, testing discipline, and revenue-aligned optimization.",
+    image: "https://cdn-images-1.medium.com/max/1024/0*piB-3DxcXW5MA2Eh",
   },
   {
     title: "Top 10 Open Source AI Models of 2025: Comprehensive Review",
@@ -184,6 +195,7 @@ const WRITING: {
     date: "July 23, 2025",
     summary:
       "The practical implications of open-weight models, efficiency, and broader access to AI infrastructure.",
+    image: "https://media.licdn.com/dms/image/v2/D4E12AQFFoyVEDMebsQ/article-cover_image-shrink_720_1280/B4EZg4de4XHgAI-/0/1753293910182?e=2147483647&v=beta&t=04dbrvfJ4JSFxQ29hcxNXpV-heZVV3HzKeCeKlmZA94",
   },
   {
     title: "Marketing that Scales: How to Drive Growth and Efficiency in Healthcare",
@@ -191,6 +203,7 @@ const WRITING: {
     outlet: "Cardinal Digital Marketing",
     date: "Panelist | May 17, 2023",
     summary: "Healthcare marketing panel on growth, efficiency, and scaling acquisition programs.",
+    image: "https://i.ytimg.com/vi/6CCWndD6Xx4/maxresdefault.jpg",
   },
 ];
 
@@ -208,10 +221,10 @@ const RECOGNITION: {
     title: "Marketing that Scales: How to Drive Growth and Efficiency in Healthcare",
     org: "Cardinal Digital Marketing",
     date: "Webinar panelist | May 17, 2023",
-    href: "https://www.cardinaldigitalmarketing.com/healthcare-resources/webinars/marketing-that-scales/",
+    href: "https://www.youtube.com/watch?v=6CCWndD6Xx4",
     summary:
-      "Healthcare marketing panel on driving growth and efficiency across a multi-location organization.",
-    linkText: "Watch the webinar on Cardinal Digital Marketing",
+      "Healthcare marketing panel on driving growth and efficiency across a multi-location organization. The recording is embedded above and published on [Cardinal's webinar page](https://www.cardinaldigitalmarketing.com/healthcare-resources/webinars/marketing-that-scales/).",
+    linkText: "Watch the webinar",
   },
   {
     title: "Intel International Science and Engineering Fair, Grand Awards",
@@ -270,11 +283,30 @@ function ProfileJsonLd({ guides }: { guides: { href: string; title: string }[] }
       author: { "@id": person["@id"] },
     })),
   };
+  const videoLd = {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: WEBINAR.title,
+    description: WEBINAR.description,
+    thumbnailUrl: [WEBINAR.poster],
+    uploadDate: WEBINAR.uploadDate,
+    embedUrl: `https://www.youtube-nocookie.com/embed/${WEBINAR.videoId}`,
+    contentUrl: `https://www.youtube.com/watch?v=${WEBINAR.videoId}`,
+    publisher: { "@type": "Organization", name: WEBINAR.publisher },
+    // Hulick appears as a panelist; Cardinal published the recording.
+    contributor: { "@id": person["@id"] },
+  };
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }}
+      />
+    </>
   );
 }
 
@@ -291,6 +323,49 @@ function ExternalLink({
     <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
       {children}
     </a>
+  );
+}
+
+/* Cover image for an external piece. Pieces without a published cover get a
+   quiet outlet tile instead of a stock placeholder. */
+function CoverThumb({
+  src,
+  title,
+  outlet,
+  sizes,
+  className = "",
+}: {
+  src?: string;
+  title: string;
+  outlet: string;
+  sizes: string;
+  className?: string;
+}) {
+  return (
+    <div
+      className={`relative overflow-hidden rounded-xl bg-[#0A1322] ${className}`}
+      style={{ aspectRatio: "16 / 9" }}
+    >
+      {src ? (
+        <Image
+          src={src}
+          alt={`Cover image for ${title}`}
+          fill
+          quality={75}
+          sizes={sizes}
+          className="object-cover"
+        />
+      ) : (
+        <div className="absolute inset-0 flex items-end bg-[linear-gradient(140deg,rgba(0,144,240,0.25),rgba(8,174,103,0.12))] p-4">
+          <span
+            className="text-[11px] uppercase tracking-[0.22em] text-white/70"
+            style={{ fontFamily: mono }}
+          >
+            {outlet}
+          </span>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -380,34 +455,64 @@ export default function AuthorPage() {
             </figure>
           </div>
         </div>
-
-        {/* ---------- HISTORY STRIP ---------- */}
-        <Reveal className="mt-14">
-          <div className="grid gap-px overflow-hidden rounded-2xl border border-white/8 bg-white/[0.04] sm:grid-cols-2 lg:grid-cols-4">
-            {METRICS.map((m) => (
-              <div key={m.label} className="bg-[#050B16] px-6 py-7">
-                <p
-                  className="text-[clamp(1.5rem,2.4vw,2.1rem)] leading-none text-white"
-                  style={{ fontFamily: serif, fontWeight: 400 }}
-                >
-                  {m.value}
-                </p>
-                <p
-                  className="mt-3 text-[11px] uppercase tracking-[0.22em] text-white/45"
-                  style={{ fontFamily: mono }}
-                >
-                  {m.label}
-                </p>
-              </div>
-            ))}
-          </div>
-          <p className="mt-4 text-[0.9rem] text-white/45">{METRICS_NOTE}</p>
-        </Reveal>
       </section>
 
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         <GoldRule />
       </div>
+
+      {/* ---------- WEBINAR ---------- */}
+      <section id="webinar" className="relative z-10 mx-auto max-w-7xl px-6 py-14 lg:px-12">
+        <SectionLabel>Watch</SectionLabel>
+        <div className="grid gap-10 lg:grid-cols-[1.4fr_0.8fr] lg:items-center">
+          <Reveal variant="blur" className="relative">
+            <div
+              aria-hidden
+              className="absolute -inset-[2px] rounded-[28px] opacity-90"
+              style={{ background: "linear-gradient(140deg,#0090F0,#00A8D8 50%,#08AE67)" }}
+            />
+            <YouTubeEmbed
+              videoId={WEBINAR.videoId}
+              title={WEBINAR.youtubeTitle}
+              poster={WEBINAR.poster}
+              className="relative"
+            />
+          </Reveal>
+          <Reveal delay={100}>
+            <p
+              className="text-[11px] uppercase tracking-[0.22em] text-[#0090F0]"
+              style={{ fontFamily: mono }}
+            >
+              {WEBINAR.publisher} · Webinar panelist · May 17, 2023
+            </p>
+            <h2
+              className="mt-4 text-[clamp(1.5rem,2.4vw,2.1rem)] leading-[1.1]"
+              style={{ fontFamily: serif, fontWeight: 400 }}
+            >
+              {WEBINAR.title}
+            </h2>
+            <p className="mt-4 text-[0.98rem] leading-relaxed text-white/60">
+              A panel on building a scalable marketing function for multi-site healthcare groups.
+              Hulick joined as Chief Marketing Officer of Haven Health Management alongside Marc
+              Heffner of DSO Marketing Xcelerator and Alex Membrillo of Cardinal Digital Marketing.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3">
+              <ExternalLink
+                href={`https://www.youtube.com/watch?v=${WEBINAR.videoId}`}
+                className="text-[12px] uppercase tracking-[0.18em] text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"
+              >
+                Watch on YouTube →
+              </ExternalLink>
+              <ExternalLink
+                href={WEBINAR.pageUrl}
+                className="text-[12px] uppercase tracking-[0.18em] text-white/60 transition-colors hover:text-[#7FCBFF]"
+              >
+                Webinar page on Cardinal →
+              </ExternalLink>
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
       {/* ---------- FEATURED WRITING ---------- */}
       <section className="relative z-10 mx-auto max-w-7xl px-6 py-14 lg:px-12">
@@ -417,10 +522,18 @@ export default function AuthorPage() {
             <Reveal
               key={w.href}
               delay={i * 80}
-              className="flex flex-col rounded-2xl border border-white/10 bg-white/[0.02] p-7"
+              className="flex flex-col rounded-2xl border border-white/10 bg-white/[0.02] p-5"
             >
+              <ExternalLink href={w.href} className="block">
+                <CoverThumb
+                  src={w.image}
+                  title={w.title}
+                  outlet={w.outlet}
+                  sizes="(max-width: 768px) 92vw, 30vw"
+                />
+              </ExternalLink>
               <p
-                className="text-[11px] uppercase tracking-[0.22em] text-[#0090F0]"
+                className="mt-5 text-[11px] uppercase tracking-[0.22em] text-[#0090F0]"
                 style={{ fontFamily: mono }}
               >
                 {w.outlet} · {w.date}
@@ -525,18 +638,24 @@ export default function AuthorPage() {
         <ul className="divide-y divide-white/10 border-y border-white/10">
           {WRITING.map((w) => (
             <li key={w.href}>
-              <Reveal className="grid gap-3 py-7 md:grid-cols-[220px_1fr] md:gap-10">
-                <p
-                  className="text-[11px] uppercase tracking-[0.22em] text-white/45"
-                  style={{ fontFamily: mono }}
-                >
-                  {w.outlet}
-                  <br />
-                  {w.date}
-                </p>
+              <Reveal className="grid gap-4 py-7 md:grid-cols-[260px_1fr] md:gap-10">
+                <ExternalLink href={w.href} className="block">
+                  <CoverThumb
+                    src={w.image}
+                    title={w.title}
+                    outlet={w.outlet}
+                    sizes="(max-width: 768px) 92vw, 260px"
+                  />
+                </ExternalLink>
                 <div>
+                  <p
+                    className="text-[11px] uppercase tracking-[0.22em] text-white/45"
+                    style={{ fontFamily: mono }}
+                  >
+                    {w.outlet} · {w.date}
+                  </p>
                   <h3
-                    className="text-[1.2rem] leading-snug text-white"
+                    className="mt-2 text-[1.2rem] leading-snug text-white"
                     style={{ fontFamily: serif, fontWeight: 500 }}
                   >
                     <ExternalLink href={w.href} className="transition-colors hover:text-[#7FCBFF]">

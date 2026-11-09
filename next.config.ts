@@ -11,6 +11,13 @@ const nextConfig: NextConfig = {
   images: {
     minimumCacheTTL: 2678400,
     qualities: [70, 72, 75],
+    // Article cover images and the webinar poster are served from their
+    // publishers' CDNs through the image optimizer (resized, cached 31 days).
+    remotePatterns: [
+      { protocol: "https", hostname: "media.licdn.com", pathname: "/dms/image/**" },
+      { protocol: "https", hostname: "cdn-images-1.medium.com", pathname: "/max/**" },
+      { protocol: "https", hostname: "i.ytimg.com", pathname: "/vi/**" },
+    ],
     localPatterns: [
       {
         pathname: "/images/**",

@@ -234,20 +234,17 @@ export default function HomePage() {
 
       {/* ---------- 02 EXPERIENCE AND LEADERSHIP ---------- */}
       <section id="experience" className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-12 lg:py-28">
-        <div className="grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-          <div>
-            <Reveal>
-              <H2>{c.experience.h2}</H2>
-            </Reveal>
-            <div className="mt-8 space-y-5">
-              {c.experience.paragraphs.map((p, i) => (
-                <Reveal key={i} delay={80 + i * 60}>
-                  <Prose text={p} />
-                </Reveal>
-              ))}
-            </div>
-          </div>
-          <Reveal variant="blur" delay={120} className="relative">
+        {/* Phones: heading, image, then paragraphs. Desktop: heading and
+            paragraphs in the left column, image centered in the right. */}
+        <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:grid-rows-[auto_auto] lg:gap-x-14">
+          <Reveal className="lg:col-start-1 lg:row-start-1 lg:self-end">
+            <H2>{c.experience.h2}</H2>
+          </Reveal>
+          <Reveal
+            variant="blur"
+            delay={120}
+            className="relative lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:self-center"
+          >
             <Figure
               src={c.experience.image}
               alt={c.experience.imageAlt}
@@ -255,6 +252,13 @@ export default function HomePage() {
               fit="cover"
             />
           </Reveal>
+          <div className="space-y-5 lg:col-start-1 lg:row-start-2">
+            {c.experience.paragraphs.map((p, i) => (
+              <Reveal key={i} delay={80 + i * 60}>
+                <Prose text={p} />
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 

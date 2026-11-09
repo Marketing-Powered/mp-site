@@ -2,6 +2,7 @@
 title: "HIPAA-Compliant Marketing: Key Risks and Strategies"
 url: "/resources/guides/hipaa-digital-marketing-risk/"
 primary_keyword: "hipaa compliant marketing"
+author: "mike-hulick"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT

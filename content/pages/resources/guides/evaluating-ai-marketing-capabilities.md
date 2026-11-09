@@ -2,6 +2,7 @@
 title: "Evaluating AI Marketing Agency Capabilities: A Guide for Treatment Centers"
 url: "/resources/guides/evaluating-ai-marketing-capabilities/"
 primary_keyword: "ai marketing agency"
+author: "mike-hulick"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT

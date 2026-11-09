@@ -2,6 +2,7 @@
 title: "Build an AI-Native Marketing Function | Marketing Powered"
 url: "/resources/guides/building-ai-native-marketing-function/"
 primary_keyword: "ai native marketing"
+author: "mike-hulick"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT

@@ -2,6 +2,7 @@
 title: "Future of AI Search 2026-2027 Insights"
 url: "/resources/guides/future-ai-search-2026-2027/"
 primary_keyword: "future of ai search"
+author: "mike-hulick"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT

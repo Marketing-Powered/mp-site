@@ -2,6 +2,7 @@
 title: "LLM SEO vs Traditional SEO for Behavioral Health - Guide"
 url: "/resources/guides/llm-seo-vs-traditional-seo-behavioral-health/"
 primary_keyword: "llm seo"
+author: "mike-hulick"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT

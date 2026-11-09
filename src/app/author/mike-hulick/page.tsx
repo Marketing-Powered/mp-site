@@ -219,7 +219,7 @@ const RECOGNITION: {
     date: "Environmental Sciences | Los Angeles, May 2011",
     href: "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2011/Press-Releases/Grand-Awards.pdf",
     summary:
-      "Listed as Michael James Hulick, Morristown Hamblen High School East, Tennessee, among the 2011 Grand Award recipients in the Society for Science winner announcement.",
+      "A 2011 Grand Award [Intel ISEF](https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2011/Press-Releases/Grand-Awards.pdf) Recipient, listed as Michael James Hulick, Morristown Hamblen High School East, Tennessee, in the Society for Science winner announcement.",
     linkText: "Read the 2011 Grand Awards announcement",
   },
 ];
@@ -245,7 +245,7 @@ function ProfileJsonLd({ guides }: { guides: { href: string; title: string }[] }
   const person = {
     ...authorPersonSchema(AUTHOR),
     description: DESCRIPTION,
-    award: "Intel International Science and Engineering Fair 2011 Grand Award recipient, Environmental Sciences",
+    award: "2011 Grand Award Intel ISEF Recipient",
     knowsAbout: [
       "Growth marketing strategy",
       "Healthcare and behavioral health marketing",
@@ -486,7 +486,9 @@ export default function AuthorPage() {
                     {r.title}
                   </ExternalLink>
                 </h3>
-                <p className="mt-3 text-[0.95rem] leading-relaxed text-white/60">{r.summary}</p>
+                <p className="mt-3 text-[0.95rem] leading-relaxed text-white/60">
+                  <RichText text={r.summary} />
+                </p>
                 <ExternalLink
                   href={r.href}
                   className="mt-4 inline-block text-[12px] uppercase tracking-[0.18em] text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"

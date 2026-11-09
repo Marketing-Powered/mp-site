@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Check } from "lucide-react";
-import { Kicker, PrimaryCta, GhostCta } from "@/components/site/ui";
+import { Kicker, GhostCta } from "@/components/site/ui";
+import ScrollLink from "./ScrollLink";
 import { highestPlan, lowestPlan, perCard, sampleMailto, usd } from "@/lib/cards/pricing";
 
 const proofPoints = [
@@ -40,7 +41,7 @@ export default function Hero() {
             card once, never on a subscription.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <PrimaryCta href="#plans">See plans from {usd(lowestPlan.price)}/mo</PrimaryCta>
+            <ScrollLink targetId="plans">See plans from {usd(lowestPlan.price)}/mo</ScrollLink>
             <GhostCta href={sampleMailto}>Request 10 free samples</GhostCta>
           </div>
           <ul className="flex flex-col gap-2 pt-2">

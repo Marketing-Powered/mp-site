@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Check } from "lucide-react";
-import { Kicker, GhostCta } from "@/components/site/ui";
+import { GhostCta } from "@/components/site/ui";
 import ScrollLink from "./ScrollLink";
 import { highestPlan, lowestPlan, perCard, usd } from "@/lib/cards/pricing";
 
@@ -18,7 +18,13 @@ export default function Hero() {
     <div className="grid items-center gap-8 pb-6 pt-8 lg:grid-cols-2 lg:gap-14 lg:pt-10">
       <div className="contents lg:flex lg:flex-col lg:gap-6">
         <div className="order-1 flex flex-col gap-6 lg:order-none">
-          <Kicker>Powered Cards</Kicker>
+          {/* Product name, set large so the brand reads before the headline. */}
+          <p className="flex items-center gap-4 text-[clamp(2rem,5vw,3rem)] font-semibold leading-none tracking-[-0.02em]">
+            <span className="inline-block h-[3px] w-10 shrink-0 rounded-full bg-[#0090F0] sm:w-14" aria-hidden="true" />
+            <span className="bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] bg-clip-text text-transparent">
+              Powered Cards
+            </span>
+          </p>
           <h1
             className="font-serif text-[clamp(2.3rem,5vw,4.2rem)] font-normal leading-[1.02] text-balance"
             style={{ letterSpacing: "-0.02em" }}

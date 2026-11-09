@@ -11,43 +11,50 @@ const proofPoints = [
 
 export default function Hero() {
   return (
-    <div className="grid items-center gap-10 pb-6 pt-8 lg:grid-cols-2 lg:gap-14 lg:pt-10">
-      <div className="flex flex-col gap-6">
-        <Kicker>Powered Cards</Kicker>
-        <h1
-          className="font-serif text-[clamp(2.3rem,5vw,4.2rem)] font-normal leading-[1.02] text-balance"
-          style={{ letterSpacing: "-0.02em" }}
-        >
-          Branded cards that turn every handoff into{" "}
-          <span className="relative whitespace-nowrap">
-            more business
-            <span
-              className="absolute inset-x-0 -bottom-1 h-2 bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] opacity-80"
-              aria-hidden="true"
-            />
-          </span>
-          .
-        </h1>
-        <p className="max-w-xl text-[clamp(1rem,1.3vw,1.18rem)] leading-relaxed text-white/55 text-pretty">
-          A monthly supply of your own branded QR cards, shipped before you run out. Customers scan
-          to book, return, contact you or leave honest feedback. Add an NFC tap stand or premium
-          card once, never on a subscription.
-        </p>
-        <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-          <PrimaryCta href="#plans">See plans from {usd(lowestPlan.price)}/mo</PrimaryCta>
-          <GhostCta href={sampleMailto}>Request 10 free samples</GhostCta>
+    /* Phones: headline, then the product image, then the lead copy and
+       actions. Desktop: text column beside the image. The text wrapper is
+       display:contents below lg so its two halves order around the image. */
+    <div className="grid items-center gap-8 pb-6 pt-8 lg:grid-cols-2 lg:gap-14 lg:pt-10">
+      <div className="contents lg:flex lg:flex-col lg:gap-6">
+        <div className="order-1 flex flex-col gap-6 lg:order-none">
+          <Kicker>Powered Cards</Kicker>
+          <h1
+            className="font-serif text-[clamp(2.3rem,5vw,4.2rem)] font-normal leading-[1.02] text-balance"
+            style={{ letterSpacing: "-0.02em" }}
+          >
+            Branded cards that turn every handoff into{" "}
+            <span className="relative whitespace-nowrap">
+              more business
+              <span
+                className="absolute inset-x-0 -bottom-1 h-2 bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] opacity-80"
+                aria-hidden="true"
+              />
+            </span>
+            .
+          </h1>
         </div>
-        <ul className="flex flex-col gap-2 pt-2">
-          {proofPoints.map((point) => (
-            <li key={point} className="flex items-center gap-2 text-sm text-white/80">
-              <Check className="size-4 text-success" aria-hidden="true" />
-              {point}
-            </li>
-          ))}
-        </ul>
+        <div className="order-3 flex flex-col gap-6 lg:order-none">
+          <p className="max-w-xl text-[clamp(1rem,1.3vw,1.18rem)] leading-relaxed text-white/55 text-pretty">
+            A monthly supply of your own branded QR cards, shipped before you run out. Customers scan
+            to book, return, contact you or leave honest feedback. Add an NFC tap stand or premium
+            card once, never on a subscription.
+          </p>
+          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <PrimaryCta href="#plans">See plans from {usd(lowestPlan.price)}/mo</PrimaryCta>
+            <GhostCta href={sampleMailto}>Request 10 free samples</GhostCta>
+          </div>
+          <ul className="flex flex-col gap-2 pt-2">
+            {proofPoints.map((point) => (
+              <li key={point} className="flex items-center gap-2 text-sm text-white/80">
+                <Check className="size-4 text-success" aria-hidden="true" />
+                {point}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
 
-      <div className="relative">
+      <div className="relative order-2 mb-6 lg:order-none lg:mb-0">
         <div
           className="overflow-hidden rounded-2xl border border-white/10 bg-card"
           style={{ boxShadow: "0 24px 60px -32px rgba(0,24,72,0.55)" }}

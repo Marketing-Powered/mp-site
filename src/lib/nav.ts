@@ -25,6 +25,7 @@ export const NAV: {
       { label: "ChatGPT Advertising", href: "/services/llm-advertising/chatgpt" },
       { label: "AI Discovery Optimization", href: "/services/llm-advertising/ai-discovery-optimization" },
       { label: "Web Development", href: "/services/web-development" },
+      { label: "Powered Cards", href: "/cards" },
     ],
   },
   {

@@ -13,6 +13,7 @@ const LABELS: Record<string, string> = {
   "web-development": "Web Development",
   "behavioral-health": "Behavioral Health",
   "mental-health": "Mental Health",
+  cards: "Powered Cards",
 };
 
 function titleize(seg: string) {

@@ -30,6 +30,9 @@ const VALID = new Set<string>([
   "/services/web-development/technical-seo-and-performance",
   "/services/web-development/landing-page-development",
   "/services/web-development/integrations-and-tracking",
+  // Powered Cards product set (branded QR card subscriptions, NFC cards, stands)
+  "/cards",
+  "/cards/order",
   "/ai-edge",
   "/ai-edge/ai-in-paid-media",
   "/ai-edge/owned-ai-systems",
@@ -181,6 +184,8 @@ const NOINDEX = new Set<string>([
   "/get-started/thanks",
   "/get-started/qualification",
   "/search",
+  // transactional checkout page
+  "/cards/order",
 ]);
 
 export function indexableRoutes(): string[] {

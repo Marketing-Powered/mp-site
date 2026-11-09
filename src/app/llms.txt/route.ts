@@ -10,6 +10,7 @@ export const dynamic = "force-static";
 
 const SECTION_LABELS: [string, string][] = [
   ["services", "Services"],
+  ["cards", "Powered Cards"],
   ["ai-edge", "AI Edge"],
   ["who-we-help", "Who We Help"],
   ["resources", "Resources & Guides"],

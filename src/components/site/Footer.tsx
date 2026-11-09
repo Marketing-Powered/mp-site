@@ -17,6 +17,7 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "Analytics & Attribution", href: "/services/analytics-and-attribution" },
       { label: "PPC Campaign Management", href: "/services/ppc/introduction-to-ppc-campaign-management" },
       { label: "Web Development", href: "/services/web-development" },
+      { label: "Powered Cards", href: "/cards" },
     ],
   },
   {

@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+/* Design tokens for the Powered Cards product pages (/cards). They name the
+   Midnight Atelier palette that the rest of the site writes as hex literals,
+   so `bg-brand`, `text-muted-foreground`, `bg-card` and `font-serif` resolve
+   to the same colors and type the interior pages use. Additive only: no
+   existing utility changes meaning. */
+@theme {
+  --font-serif: var(--font-fraunces), Georgia, serif;
+  --color-brand: #7fcbff;
+  --color-brand-deep: #0090f0;
+  --color-card: #0a1322;
+  --color-secondary: #0f1a2d;
+  --color-muted-foreground: #9ba6b8;
+  --color-success: #08ae67;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -151,4 +166,10 @@ html {
     opacity: 1;
     transform: none;
   }
+}
+
+/* One-shot entrance for the Powered Cards hero copy (reduced-motion rule
+   above zeroes the duration). */
+.mp-rise {
+  animation: mp-fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
 }

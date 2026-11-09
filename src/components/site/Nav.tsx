@@ -20,6 +20,7 @@ const PRIMARY_NAV = [
       { label: "Analytics & Attribution", href: "/services/analytics-and-attribution" },
       { label: "PPC Management", href: "/services/ppc" },
       { label: "Web Development", href: "/services/web-development" },
+      { label: "Powered Cards", href: "/cards" },
       { label: "View All Services", href: "/services" },
     ],
   },

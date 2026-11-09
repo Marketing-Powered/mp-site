@@ -2,7 +2,7 @@
    One source of truth consumed by both the full-page forms
    (src/app/get-started/*, /company/contact) and the popup lead modal
    that CTA buttons open — so the popup and the page always ask the
-   same questions and stamp the same `source` for GHL field mapping. */
+   same questions and stamp the same `source` in the leads sheet. */
 
 export type LeadField = {
   name: string;
@@ -19,8 +19,8 @@ export type LeadFormConfig = {
   title: string;
   intro: string;
   submitLabel: string;
-  /** Identifies which form the lead came from; consumed by the GHL
-      workflow / opportunity mapping — keep values stable. */
+  /** Identifies which form the lead came from; written to the leads sheet's
+      Form column and the lead email subject — keep values stable. */
   source: string;
   fields: LeadField[];
   /** Small print under the submit button. Defaults to DEFAULT_FORM_HELPER. */

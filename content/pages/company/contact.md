@@ -49,10 +49,10 @@ DELIVERY NOTES
 Conversion flow
 * The form on this page is the shared `contact` lead form (src/lib/leadForms.ts): Name, Organization, Email (required) and Phone (optional), with the privacy helper, pending, success, and error copy from the homepage package. The same configuration powers the popup that the homepage CTAs open, so the page and the popup never drift apart.
 * The hero CTA is an in-page anchor to the form rather than a call/booking CTA so the content layer does not rewrite it to the audit request.
-* The form's `source` value stays "Contact" so GoHighLevel field mapping and opportunity routing are unchanged.
+* The form's `source` value stays "Contact"; it fills the Form column in the website leads Google Sheet.
 
 Held claims
 * Removed from this page: the managed-spend totals, the expert-witness credential, the "since 2022" dating, "free" consultations, the one-business-day promise, and the HIPAA / LegitScript assurances. Each needs its evidence record and public-use approval before it returns anywhere on the site.
 
 Open items
-* Form submission and GoHighLevel delivery have not been tested in staging for this revision; run an authorized test submission and inspect the lead email and CRM record before release.
+* Form submission and Google Sheet delivery have not been tested in staging for this revision; run an authorized test submission and check the lead email and the new sheet row before release.

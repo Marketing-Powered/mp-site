@@ -65,11 +65,9 @@ export const homeContent = {
       "Today, [our experience](/company/about) shapes how Marketing Powered approaches an engagement. We examine the operation behind the marketing, identify where performance breaks down, and connect execution to the business objective.",
       "Prior executive experience is distinct from agency client work. That distinction matters when evaluating [case studies](/results/case-studies), budgets managed, and the contribution marketing made to an organization's growth. You should know what the evidence actually represents.",
     ],
-    /* Decorative: a marketing leader working a strategy document and a
-       performance dashboard, team at work behind. Not presented as Marketing
-       Powered staff or offices. Swap for an approved founder portrait
-       (alt: "Mike Hulick, founder and CEO of Marketing Powered.") if one is supplied. */
-    image: "/images/pages/home/home-experience-marketing-leader.jpg",
+    /* Decorative: a national map on screen, for the multi-state operating
+       history. Not presented as Marketing Powered staff or offices. */
+    image: "/images/pages/home/home-hospitals-multi-location.jpg",
     imageAlt: "",
   },
 
@@ -120,9 +118,9 @@ export const homeContent = {
       "We design [multi-location marketing](/problems/scale-multi-location-campaigns) around shared standards and local market needs. Your leadership team can compare performance without forcing every site into the same campaign.",
       "Data handling and governance belong in the planning discussion because they shape which information can move between systems. We work within your review process, with responsibilities and deployment boundaries defined before implementation.",
     ],
-    /* Decorative: a national map on screen, for the multi-location,
-       multi-state framing. No client logos or engagement imagery. */
-    image: "/images/pages/home/home-hospitals-multi-location.jpg",
+    /* Decorative: a marketing leader working a strategy document and a
+       performance dashboard. No client logos or engagement imagery. */
+    image: "/images/pages/home/home-experience-marketing-leader.jpg",
     imageAlt: "",
   },
 

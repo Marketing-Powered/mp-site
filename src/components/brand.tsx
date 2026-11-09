@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BRAND_BLUE, ICON_SHAPES, ICON_VIEWBOX, LOGO_SHAPES, LOGO_VIEWBOX, type Shape } from "./brandMarks";
 
 /* ================================================================== */
 /* Shared Marketing Powered brand kit.                                */
@@ -19,42 +20,55 @@ export const brand = {
 export const brandGradient =
   "linear-gradient(110deg, #0090F0 0%, #00A8D8 48%, #00A860 100%)";
 
-/* ---- Lightning-bolt + wordmark lockup -------------------------- */
+/* ---- Official logo lockup (icon + "marketing powered" wordmark) ---- */
+function Shapes({ shapes, tone }: { shapes: Shape[]; tone: "light" | "dark" }) {
+  const base = tone === "light" ? "#FFFFFF" : "#000000";
+  return (
+    <>
+      {shapes.map((s, i) =>
+        s.tag === "path" ? (
+          <path key={i} d={s.d} fill={s.blue ? BRAND_BLUE : base} />
+        ) : (
+          <polygon key={i} points={s.points} fill={s.blue ? BRAND_BLUE : base} />
+        ),
+      )}
+    </>
+  );
+}
+
+/** The real Marketing Powered logo. `tone="light"` is the reverse lockup for
+    dark backgrounds (white + brand blue); `tone="dark"` is the primary
+    black + blue lockup for light backgrounds. Height is set by className. */
 export function Logo({
   tone = "light",
-  className = "",
+  className = "h-9 w-auto",
 }: {
   tone?: "light" | "dark";
   className?: string;
 }) {
-  const word = tone === "light" ? "#FFFFFF" : "#0A1322";
   return (
-    <span className={`inline-flex items-center gap-2.5 ${className}`}>
-      <Bolt className="h-6 w-6" />
-      <span
-        className="text-[1.05rem] font-bold leading-none tracking-tight"
-        style={{ color: word }}
-      >
-        marketing <span style={{ color: brand.blue }}>powered</span>
-      </span>
-    </span>
+    <svg
+      viewBox={LOGO_VIEWBOX}
+      className={className}
+      role="img"
+      aria-label="Marketing Powered"
+    >
+      <Shapes shapes={LOGO_SHAPES} tone={tone} />
+    </svg>
   );
 }
 
-export function Bolt({ className = "h-6 w-6" }: { className?: string }) {
+/** The icon mark on its own (two interlocking bolts). */
+export function Bolt({
+  className = "h-6 w-6",
+  tone = "light",
+}: {
+  className?: string;
+  tone?: "light" | "dark";
+}) {
   return (
-    <svg viewBox="0 0 32 32" className={className} aria-hidden>
-      <defs>
-        <linearGradient id="mp-bolt" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#0090F0" />
-          <stop offset="55%" stopColor="#00A8D8" />
-          <stop offset="100%" stopColor="#00A860" />
-        </linearGradient>
-      </defs>
-      <path
-        d="M18.5 2 6 18h7.2L12 30 26 12h-8.1L18.5 2Z"
-        fill="url(#mp-bolt)"
-      />
+    <svg viewBox={ICON_VIEWBOX} className={className} aria-hidden>
+      <Shapes shapes={ICON_SHAPES} tone={tone} />
     </svg>
   );
 }

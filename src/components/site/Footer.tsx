@@ -71,7 +71,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-12 lg:grid-cols-[1fr_2.4fr]">
           <div>
-            <Logo tone="light" />
+            <Logo tone="light" className="h-10 w-auto" />
             <p className="mt-4 max-w-xs text-[14px] leading-relaxed text-white/45">
               {s.footer.tagline}
             </p>

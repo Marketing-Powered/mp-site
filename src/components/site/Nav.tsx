@@ -105,7 +105,7 @@ export default function Nav() {
     <header className="relative z-40 border-b border-white/8">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-12">
         <Link href="/" prefetch={false} aria-label="Marketing Powered home">
-          <Logo tone="light" />
+          <Logo tone="light" className="h-9 w-auto lg:h-10" />
         </Link>
 
         {/* desktop nav */}

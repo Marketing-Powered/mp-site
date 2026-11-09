@@ -1,14 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Marketing Powered">
-  <defs>
-    <linearGradient id="mp-favicon-bolt" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0090F0"/>
-      <stop offset="55%" stop-color="#00A8D8"/>
-      <stop offset="100%" stop-color="#00A860"/>
-    </linearGradient>
-  </defs>
-  <rect width="32" height="32" rx="7" fill="#0A1322"/>
-  <path
-    d="M18.5 2 6 18h7.2L12 30 26 12h-8.1L18.5 2Z"
-    fill="url(#mp-favicon-bolt)"
-    transform="translate(16 16) scale(0.78) translate(-16 -16)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Marketing Powered">
+  <rect width="400" height="400" rx="80" fill="#000000"/>
+  <g transform="translate(54.4 20.5)">
+    <path d="M289.06,208.55L105.02,125.36c-1.08-.49-2.33-.41-3.33.22l-18.95,11.72c-2.42,1.5-2.19,5.09.41,6.26l151.57,68.52c2.59,1.17,2.83,4.76.41,6.26l-120.09,74.27c-2.98,1.85-6.55-1.29-5.11-4.49l27.17-60.1c.81-1.79.01-3.89-1.77-4.7l-16.85-7.62c-1.79-.81-3.89-.01-4.7,1.77l-61.72,136.53c-1.45,3.2,2.12,6.33,5.11,4.49l232.32-143.67c2.42-1.5,2.19-5.09-.41-6.26Z" fill="#FFFFFF"/>
+    <path d="M208.41,221.74c2.42-1.5,2.19-5.1-.41-6.27L56.45,146.96c-2.6-1.17-2.83-4.77-.41-6.27l120.07-74.26c2.99-1.85,6.56,1.29,5.11,4.49l-27.16,60.08c-.81,1.79-.01,3.9,1.78,4.71l16.84,7.61c1.79.81,3.9.01,4.71-1.78L239.1,5.04c1.45-3.2-2.13-6.34-5.11-4.49L1.69,144.21c-2.42,1.5-2.19,5.1.41,6.27l185.76,83.97,20.55-12.71Z" fill="#2CACE8"/>
+  </g>
 </svg>

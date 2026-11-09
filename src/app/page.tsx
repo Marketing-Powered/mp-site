@@ -258,33 +258,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ---------- 03 CORE MARKETING SERVICES ---------- */}
-      <section id="services" className="relative z-10 border-y border-white/8 py-24 lg:py-28">
-        <div className="mx-auto max-w-7xl px-6 lg:px-12">
-          <Reveal className="max-w-2xl">
-            <H2>{c.services.h2}</H2>
-            <Prose text={c.services.intro} className={`mt-6 ${BODY}`} />
-          </Reveal>
-
-          <div className="mt-14 border-t border-white/10">
-            {c.services.items.map((item, i) => (
-              <Reveal key={item.h3} delay={i * 50}>
-                <div className="grid grid-cols-[auto_1fr] items-baseline gap-6 border-b border-white/10 py-8 md:grid-cols-[72px_0.9fr_1.4fr] md:gap-10">
-                  <span className="text-sm text-white/40" style={{ fontFamily: mono }} aria-hidden>
-                    0{i + 1}
-                  </span>
-                  <H3 className="col-span-1">{item.h3}</H3>
-                  <Prose
-                    text={item.body}
-                    className={`col-span-2 text-[0.98rem] leading-relaxed text-white/60 md:col-span-1`}
-                  />
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ---------- 04 HOSPITALS AND HEALTH SYSTEMS ---------- */}
       <section id="hospitals" className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-12 lg:py-28">
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
@@ -354,6 +327,33 @@ export default function HomePage() {
                       className="text-[0.98rem] leading-relaxed text-white/60"
                     />
                   ))}
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- 03 CORE MARKETING SERVICES ---------- */}
+      <section id="services" className="relative z-10 border-b border-white/8 py-24 lg:py-28">
+        <div className="mx-auto max-w-7xl px-6 lg:px-12">
+          <Reveal className="max-w-2xl">
+            <H2>{c.services.h2}</H2>
+            <Prose text={c.services.intro} className={`mt-6 ${BODY}`} />
+          </Reveal>
+
+          <div className="mt-14 border-t border-white/10">
+            {c.services.items.map((item, i) => (
+              <Reveal key={item.h3} delay={i * 50}>
+                <div className="grid grid-cols-[auto_1fr] items-baseline gap-6 border-b border-white/10 py-8 md:grid-cols-[72px_0.9fr_1.4fr] md:gap-10">
+                  <span className="text-sm text-white/40" style={{ fontFamily: mono }} aria-hidden>
+                    0{i + 1}
+                  </span>
+                  <H3 className="col-span-1">{item.h3}</H3>
+                  <Prose
+                    text={item.body}
+                    className={`col-span-2 text-[0.98rem] leading-relaxed text-white/60 md:col-span-1`}
+                  />
                 </div>
               </Reveal>
             ))}

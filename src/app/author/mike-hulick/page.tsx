@@ -194,6 +194,36 @@ const WRITING: {
   },
 ];
 
+/* Outbound links to third-party records of appearances and recognition.
+   Each item links to the organization's own page or document. */
+const RECOGNITION: {
+  title: string;
+  org: string;
+  date: string;
+  href: string;
+  summary: string;
+  linkText: string;
+}[] = [
+  {
+    title: "Marketing that Scales: How to Drive Growth and Efficiency in Healthcare",
+    org: "Cardinal Digital Marketing",
+    date: "Webinar panelist | May 17, 2023",
+    href: "https://www.cardinaldigitalmarketing.com/healthcare-resources/webinars/marketing-that-scales/",
+    summary:
+      "Healthcare marketing panel on driving growth and efficiency across a multi-location organization.",
+    linkText: "Watch the webinar on Cardinal Digital Marketing",
+  },
+  {
+    title: "Intel International Science and Engineering Fair, Grand Awards",
+    org: "Society for Science",
+    date: "Environmental Sciences | Los Angeles, May 2011",
+    href: "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2011/Press-Releases/Grand-Awards.pdf",
+    summary:
+      "Listed as Michael James Hulick, Morristown Hamblen High School East, Tennessee, among the 2011 Grand Award recipients in the Society for Science winner announcement.",
+    linkText: "Read the 2011 Grand Awards announcement",
+  },
+];
+
 const EXPECT: string[] = [
   "Articles published under Hulick’s byline emphasize first-hand operating experience, a clear separation between observation and inference, and evidence that readers can evaluate. He writes primarily for CEOs, chief marketing officers, healthcare executives, founders, investors, and operators responsible for measurable growth. Topics include revenue strategy, multi-site expansion, paid acquisition, search, attribution, first-party data, AI infrastructure, compliance-aware marketing, and the leadership systems that make execution possible.",
   "Views and analysis expressed in his bylined articles are his professional opinions unless otherwise attributed. Historical operating results refer to work in prior executive roles and should not be read as a guarantee of future client performance. Marketing Powered, LLC is the publisher of this website. Content on marketing and technology is not medical, legal, or financial advice.",
@@ -215,6 +245,7 @@ function ProfileJsonLd({ guides }: { guides: { href: string; title: string }[] }
   const person = {
     ...authorPersonSchema(AUTHOR),
     description: DESCRIPTION,
+    award: "Intel International Science and Engineering Fair 2011 Grand Award recipient, Environmental Sciences",
     knowsAbout: [
       "Growth marketing strategy",
       "Healthcare and behavioral health marketing",
@@ -431,6 +462,42 @@ export default function AuthorPage() {
           </div>
         </section>
       ))}
+
+      {/* ---------- APPEARANCES AND RECOGNITION ---------- */}
+      <section className="relative z-10 mx-auto max-w-3xl px-6 py-12 lg:px-12">
+        <Reveal>
+          <SectionHeading className="mb-7">Appearances and recognition</SectionHeading>
+        </Reveal>
+        <ul className="space-y-6">
+          {RECOGNITION.map((r) => (
+            <li key={r.href}>
+              <Reveal className="rounded-2xl border border-white/10 bg-white/[0.02] p-7">
+                <p
+                  className="text-[11px] uppercase tracking-[0.22em] text-[#0090F0]"
+                  style={{ fontFamily: mono }}
+                >
+                  {r.org} · {r.date}
+                </p>
+                <h3
+                  className="mt-3 text-[1.2rem] leading-snug text-white"
+                  style={{ fontFamily: serif, fontWeight: 500 }}
+                >
+                  <ExternalLink href={r.href} className="transition-colors hover:text-[#7FCBFF]">
+                    {r.title}
+                  </ExternalLink>
+                </h3>
+                <p className="mt-3 text-[0.95rem] leading-relaxed text-white/60">{r.summary}</p>
+                <ExternalLink
+                  href={r.href}
+                  className="mt-4 inline-block text-[12px] uppercase tracking-[0.18em] text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 transition-colors hover:decoration-[#7FCBFF]"
+                >
+                  {r.linkText} →
+                </ExternalLink>
+              </Reveal>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       {/* ---------- ARTICLES ON THIS SITE ---------- */}
       {guides.length > 0 && (

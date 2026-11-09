@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 import type { Metadata } from "next";
+import { getAuthor } from "./authors";
 
 /* ================================================================== */
 /*  Content layer — parses the Marketing Powered page briefs in        */
@@ -216,9 +217,11 @@ export function pageMetadata(file: string): Metadata {
   const url = p.frontmatter.url
     ? p.frontmatter.url.replace(/\/+$/, "") || "/"
     : undefined;
+  const author = getAuthor(p.frontmatter.author);
   return {
     title,
     description,
+    ...(author ? { authors: [{ name: author.name, url: author.href }] } : {}),
     ...(url ? { alternates: { canonical: url } } : {}),
     ...(noindex
       ? // noindex pages stay followable so they pass link equity (avoids

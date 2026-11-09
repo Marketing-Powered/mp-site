@@ -13,6 +13,9 @@ import CtaBand from "./CtaBand";
 import { serif } from "./theme";
 import { Kicker, PrimaryCta, GoldRule } from "./ui";
 import { siteContent as s } from "@/lib/content";
+import { getAuthor, authorSchemaId } from "@/lib/authors";
+import { SITE_URL } from "@/lib/site";
+import Link from "next/link";
 
 const KICKERS: Record<string, string> = {
   services: "Capabilities",
@@ -71,6 +74,7 @@ export default function MarkdownPage({
 }) {
   const page = getPage(file);
   const url = page.frontmatter.url || "/";
+  const author = getAuthor(page.frontmatter.author);
 
   const heroCta = formFirst
     ? {
@@ -116,8 +120,38 @@ export default function MarkdownPage({
   // inline-CTA insertion: after every ~3rd section, never after the last one
   let ctaCount = 0;
 
+  /* Article schema for bylined pages, with the author as a stable Person
+     entity so search engines tie the piece to the founder named on the
+     homepage Organization record. */
+  const articleJsonLd = author
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: page.h1,
+        ...(page.seo.description ? { description: page.seo.description } : {}),
+        url: `${SITE_URL}${url.replace(/\/+$/, "")}`,
+        mainEntityOfPage: `${SITE_URL}${url.replace(/\/+$/, "")}`,
+        ...(heroImg?.src ? { image: `${SITE_URL}${heroImg.src}` } : {}),
+        author: {
+          "@type": "Person",
+          "@id": authorSchemaId(author),
+          name: author.name,
+          jobTitle: author.jobTitle,
+          url: `${SITE_URL}${author.href}`,
+          worksFor: { "@id": `${SITE_URL}/#organization` },
+        },
+        publisher: { "@id": `${SITE_URL}/#organization` },
+      }
+    : null;
+
   return (
     <PageShell>
+      {articleJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+        />
+      )}
       {/* ---------- HERO ---------- */}
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-16 pt-12 lg:px-12 lg:pt-16">
         <Breadcrumbs url={url} current={page.h1} />
@@ -133,6 +167,19 @@ export default function MarkdownPage({
             {page.lead && (
               <p className="mt-7 max-w-xl text-[clamp(1rem,1.3vw,1.15rem)] leading-relaxed text-white/55">
                 {page.lead}
+              </p>
+            )}
+            {author && (
+              <p className="mt-6 text-[0.95rem] text-white/55">
+                <span className="text-white/40">By </span>
+                <Link
+                  href={author.href}
+                  rel="author"
+                  className="text-[#7FCBFF] underline decoration-[#0090F0]/50 underline-offset-4 transition-colors hover:text-white hover:decoration-[#7FCBFF]"
+                >
+                  {author.name}
+                </Link>
+                <span className="text-white/40">, {author.jobTitle}</span>
               </p>
             )}
             <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">

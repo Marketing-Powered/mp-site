@@ -4,6 +4,7 @@ import Link from "next/link";
 import { homeContent as c } from "@/lib/home";
 import { siteContent as s } from "@/lib/content";
 import { SITE_URL } from "@/lib/site";
+import { AUTHORS, authorSchemaId } from "@/lib/authors";
 import Reveal from "@/components/Reveal";
 import { Figure } from "@/components/brand";
 import Nav from "@/components/site/Nav";
@@ -112,8 +113,11 @@ function HomeJsonLd() {
       description: c.organization.description,
       founder: {
         "@type": "Person",
+        // Same identity the bylined guides cite as their author.
+        "@id": authorSchemaId(AUTHORS["mike-hulick"]),
         name: c.organization.founder.name,
         jobTitle: c.organization.founder.jobTitle,
+        url: `${SITE_URL}${AUTHORS["mike-hulick"].href}`,
       },
       email: s.brand.email,
       telephone: s.brand.phoneE164,

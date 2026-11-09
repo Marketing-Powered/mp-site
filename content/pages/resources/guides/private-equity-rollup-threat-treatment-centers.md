@@ -2,6 +2,7 @@
 title: "Private Equity in Behavioral Health: The Rollup Threat"
 url: "/resources/guides/private-equity-rollup-threat-treatment-centers/"
 primary_keyword: "private equity behavioral health"
+author: "mike-hulick"
 ---
 
 PAGE BRIEF ACKNOWLEDGMENT

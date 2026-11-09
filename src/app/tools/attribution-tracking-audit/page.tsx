@@ -3,6 +3,8 @@ import PageShell from "@/components/site/PageShell";
 import Breadcrumbs from "@/components/site/Breadcrumbs";
 import FaqAccordion from "@/components/site/FaqAccordion";
 import CtaBand from "@/components/site/CtaBand";
+import RelatedCards from "@/components/site/RelatedCards";
+import { relatedTools } from "@/lib/tools";
 import { Kicker, GoldRule } from "@/components/site/ui";
 import { serif, green } from "@/components/site/theme";
 import ScoredAssessment, {
@@ -238,6 +240,8 @@ export default function Page() {
       </Prose>
 
       <FaqAccordion items={FAQ} />
+
+      <RelatedCards kicker="More Free Tools" items={relatedTools(URL)} />
 
       <CtaBand
         headline="Request your attribution audit"

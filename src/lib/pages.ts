@@ -3,6 +3,7 @@ import path from "node:path";
 import { cache } from "react";
 import type { Metadata } from "next";
 import { getAuthor } from "./authors";
+import { cyclicNeighbors } from "./related";
 
 /* ================================================================== */
 /*  Content layer — parses the Marketing Powered page briefs in        */
@@ -394,6 +395,42 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/guides/mental-health-marketing-playbook", file: "resources/guides/mental-health-marketing-playbook.md" },
   ],
 };
+
+/* Hubs whose child pages cross-link their siblings, with the label shown
+   above the related cards. Without this, a child page's only incoming
+   internal link is its hub's card grid. Child entries that are themselves
+   hubs (e.g. /services/ppc) are skipped: they render their own card grid. */
+const RELATED_SIBLINGS: Record<string, string> = {
+  "resources/guides/index.md": "More Guides",
+  "resources/index.md": "More Resource Topics",
+  "research/studies/index.md": "More Studies",
+  "media/index.md": "More From Media",
+  "services/index.md": "More Services",
+  "services/llm-advertising/index.md": "More LLM Advertising",
+  "services/web-development/index.md": "More Web Development",
+  "who-we-help/behavioral-health.md": "More Behavioral Health Programs",
+  "who-we-help/mental-health.md": "More Mental Health Practices",
+  "company/index.md": "More From the Company",
+};
+
+/** Sibling cards for a child page: its next three siblings under the same
+    hub (cyclic), so each child gets three sibling links plus its hub's. */
+export function relatedSiblings(
+  file: string,
+): { kicker: string; items: { href: string; title: string; description: string }[] } | null {
+  for (const [hub, kicker] of Object.entries(RELATED_SIBLINGS)) {
+    const siblings = (HUB_CHILDREN[hub] || []).filter((c) => !HUB_CHILDREN[c.file]);
+    const idx = siblings.findIndex((c) => c.file === file);
+    if (idx < 0) continue;
+    const items = cyclicNeighbors(siblings, idx).map((c) => ({
+      href: c.href,
+      title: getPage(c.file).h1,
+      description: cardBlurb(c.file),
+    }));
+    return { kicker, items };
+  }
+  return null;
+}
 
 /** short blurb for hub cards: first sentence of a child page's lead */
 export function cardBlurb(file: string): string {

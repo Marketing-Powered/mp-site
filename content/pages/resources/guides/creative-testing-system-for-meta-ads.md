@@ -70,7 +70,7 @@ Benchmark data provides context for interpreting your test results. According to
 For advertisers in regulated healthcare verticals, creative testing carries additional constraints. 
 
 
-[Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) and [Meta's advertising policies for health](https://transparency.meta.com/policies/ad-standards/advertising-policies-for-health) restrict certain claims and targeting approaches. Behavioral health advertisers cannot use retargeting, which limits the standard 'awareness to conversion' funnel structure. Creatives must work harder in top-of-funnel placements because you cannot follow users across the web. This constraint makes rigorous creative testing even more valuable: every impression must count because you cannot recapture lost attention through retargeting.
+[Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) and [Meta's health and wellness advertising policy](https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness) restrict certain claims and targeting approaches. Behavioral health advertisers cannot use retargeting, which limits the standard 'awareness to conversion' funnel structure. Creatives must work harder in top-of-funnel placements because you cannot follow users across the web. This constraint makes rigorous creative testing even more valuable: every impression must count because you cannot recapture lost attention through retargeting.
 
 
 Your internal benchmarks matter more than industry averages. A 1.2% CTR might be excellent for one account and mediocre for another. Track your own historical performance, establish baselines for each campaign objective, and measure creative tests against those baselines rather than generic industry data.
@@ -138,7 +138,7 @@ External citations
 * Meta's creative best practices documentation https://www.facebook.com/business/help/1735078516466063 [Platform policy] - Authoritative source for mobile-first and aspect ratio recommendations
 * WordStream's 2024 Facebook Ads benchmarks https://www.wordstream.com/blog/ws/2017/02/28/facebook-advertising-benchmarks [Industry benchmarks] - Provides CTR and CPC benchmark context for interpreting test results
 * Google's healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy/regulatory] - Supports compliance context for healthcare advertisers
-* Meta's advertising policies for health https://transparency.meta.com/policies/ad-standards/advertising-policies-for-health [Platform policy/regulatory] - Direct source for Meta health advertising restrictions
+* Meta's advertising policies for health https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness [Platform policy/regulatory] - Direct source for Meta health advertising restrictions
 * Evan Miller's A/B test calculator https://www.evanmiller.org/ab-testing/chi-squared.html [Statistical tools] - Practical resource for readers to validate statistical significance of their tests
 
 

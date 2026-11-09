@@ -65,6 +65,47 @@ const nextConfig: NextConfig = {
         destination: "/company/about",
         permanent: true,
       },
+      // Legacy WordPress URLs that still receive Google Analytics traffic
+      // (flagged by Semrush as orphaned pages returning 404). Each points at
+      // the closest equivalent page on the current site.
+      {
+        source: "/services/ppc-campaign-management",
+        destination: "/services/ppc",
+        permanent: true,
+      },
+      {
+        // Slug uses non-breaking hyphens (U+2011) in the original WordPress URL.
+        source:
+          "/services/lead-generation/why-mental%E2%80%91health-pay%E2%80%91per%E2%80%91click-is-different-and-why-you-need-an-expert",
+        destination: "/resources/guides/mental-health-paid-media-playbook",
+        permanent: true,
+      },
+      {
+        source: "/services/lead-generation/:slug*",
+        destination: "/resources/paid-media",
+        permanent: true,
+      },
+      {
+        source: "/specialties/mental-health-ppc-for-intakes-and-admissions",
+        destination: "/who-we-help/mental-health",
+        permanent: true,
+      },
+      {
+        source: "/specialties/:slug*",
+        destination: "/who-we-help",
+        permanent: true,
+      },
+      {
+        source:
+          "/the-agentic-revolution-the-definitive-top-10-ai-martech-tools-defining-2025",
+        destination: "/resources/ai-in-marketing",
+        permanent: true,
+      },
+      {
+        source: "/search-is-everywhere-why-your-brand-needs-seo-across-every-channel",
+        destination: "/resources/guides/ai-visibility-seo-visibility-complementary",
+        permanent: true,
+      },
     ];
   },
 };

@@ -44,16 +44,10 @@ gtag('config', '${GA4_ID}');
 gtag('config', '${GOOGLE_ADS_ID}');`}
       </Script>
 
-      <noscript>
-        <img
-          height="1"
-          width="1"
-          style={{ display: "none" }}
-          alt=""
-          src={`https://px.ads.linkedin.com/collect/?pid=${LINKEDIN_PARTNER_ID}&fmt=gif`}
-        />
-      </noscript>
-
+      {/* No LinkedIn <noscript> image fallback: px.ads.linkedin.com is
+          disallowed by LinkedIn's robots.txt, so every page was flagged by
+          site audits for a blocked external resource. The JS Insight Tag in
+          DelayedAdPixels still fires for real visitors. */}
       <noscript>
         <img
           height="1"

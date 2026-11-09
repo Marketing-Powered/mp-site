@@ -1,6 +1,7 @@
 import Reveal from "@/components/Reveal";
-import { getPage, HUB_CHILDREN, cardBlurb } from "@/lib/pages";
+import { getPage, HUB_CHILDREN, cardBlurb, relatedSiblings } from "@/lib/pages";
 import PageShell from "./PageShell";
+import RelatedCards from "./RelatedCards";
 import Breadcrumbs from "./Breadcrumbs";
 import Section from "./Section";
 import ServiceCard from "./ServiceCard";
@@ -92,17 +93,9 @@ export default function MarkdownPage({
     return { href: c.href, title: child.h1, description: cardBlurb(c.file) };
   });
 
-  // guide pages cross-link 3 sibling guides (cyclic neighbors), so every
-  // guide is reachable from several internal pages, not just the hub
-  const guides = HUB_CHILDREN["resources/guides/index.md"] || [];
-  const guideIdx = guides.findIndex((g) => g.file === file);
-  const relatedGuides =
-    guideIdx >= 0
-      ? [1, 2, 3].map((o) => {
-          const g = guides[(guideIdx + o) % guides.length];
-          return { href: g.href, title: getPage(g.file).h1, description: cardBlurb(g.file) };
-        })
-      : [];
+  // child pages cross-link 3 siblings under the same hub (cyclic neighbors),
+  // so every child is reachable from several internal pages, not just the hub
+  const related = relatedSiblings(file);
 
   // image-slot insertion points among the sections
   const n = page.sections.length;
@@ -288,31 +281,8 @@ export default function MarkdownPage({
       {/* ---------- FAQ ---------- */}
       <FaqAccordion items={page.faq} />
 
-      {/* ---------- related guides (guide pages only) ---------- */}
-      {relatedGuides.length > 0 && (
-        <section className="relative z-10 mx-auto max-w-7xl px-6 py-12 lg:px-12">
-          <Reveal className="mb-8 flex items-center gap-4">
-            <span
-              className="text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
-              style={{ fontFamily: "var(--font-space-mono), ui-monospace, monospace" }}
-            >
-              More Guides
-            </span>
-            <GoldRule className="flex-1" />
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {relatedGuides.map((g, i) => (
-              <ServiceCard
-                key={g.href}
-                index={i}
-                title={g.title}
-                description={g.description}
-                href={g.href}
-              />
-            ))}
-          </div>
-        </section>
-      )}
+      {/* ---------- sibling pages under the same hub ---------- */}
+      {related && <RelatedCards kicker={related.kicker} items={related.items} />}
 
       {/* ---------- CTA ---------- */}
       {!hideCta && (

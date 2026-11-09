@@ -1,5 +1,4 @@
 import { Check, Minus } from "lucide-react";
-import Reveal from "@/components/Reveal";
 import { CardsSection, SectionIntro } from "./ui";
 import {
   NFC_FLOOR_PRICE,
@@ -75,18 +74,45 @@ export default function PriceComparison() {
   return (
     <CardsSection id="compare" tone="band" labelledBy="compare-title">
       <div className="flex flex-col gap-10">
-        <Reveal>
-          <SectionIntro
-            id="compare-title"
-            kicker="Compared"
-            title="They sell you a gadget once. We keep reviews coming every month."
-            body="Our NFC review cards cost a fraction of theirs, and our stand is priced right in line. And nobody else sends you branded PVC review cards to hand out every month."
-          />
-        </Reveal>
+        <SectionIntro
+          id="compare-title"
+          kicker="Compared"
+          title="They sell you a gadget once. We keep reviews coming every month."
+          body="Our NFC review cards cost a fraction of theirs, and our stand is priced right in line. And nobody else sends you branded PVC review cards to hand out every month."
+        />
 
-        <Reveal variant="blur">
-          <div className="overflow-x-auto rounded-2xl border border-white/10 bg-card">
-            <table className="w-full min-w-[680px] text-left text-sm">
+        {/* Phones: one card per feature so the Powered Cards column is never
+            off screen. Tablets and up: the side-by-side table. */}
+        <ul className="flex flex-col gap-3 md:hidden">
+          {rows.map((row) => (
+            <li key={row.label} className="rounded-2xl border border-white/10 bg-card p-4">
+              <h3 className="font-medium text-white/90">{row.label}</h3>
+              <dl className="mt-3 grid gap-2 text-sm">
+                <div className="flex flex-col gap-1 rounded-lg bg-brand/10 px-3 py-2">
+                  <dt className="font-semibold text-brand">Powered Cards</dt>
+                  <dd className="flex items-center leading-relaxed">
+                    <Cell value={row.powered} strong />
+                  </dd>
+                </div>
+                <div className="flex items-start justify-between gap-4 px-3 py-1">
+                  <dt className="shrink-0 text-white/60">Tap Tag</dt>
+                  <dd className="flex items-center justify-end text-right">
+                    <Cell value={row.tapTag} />
+                  </dd>
+                </div>
+                <div className="flex items-start justify-between gap-4 px-3 py-1">
+                  <dt className="shrink-0 text-white/60">Shmo</dt>
+                  <dd className="flex items-center justify-end text-right">
+                    <Cell value={row.shmo} />
+                  </dd>
+                </div>
+              </dl>
+            </li>
+          ))}
+        </ul>
+
+        <div className="hidden overflow-x-auto rounded-2xl border border-white/10 bg-card md:block">
+          <table className="w-full min-w-[680px] text-left text-sm">
               <caption className="sr-only">Tap Tag and Shmo compared with Powered Cards</caption>
               <thead>
                 <tr className="border-b border-white/10">
@@ -123,8 +149,7 @@ export default function PriceComparison() {
                 ))}
               </tbody>
             </table>
-          </div>
-        </Reveal>
+        </div>
         <p className="text-xs leading-relaxed text-muted-foreground">
           Competitor details from public product pages at taptag.shop and shmocard.com, checked{" "}
           {competitorPrices.checked}. Prices vary by option and promotion.

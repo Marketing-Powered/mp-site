@@ -137,7 +137,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-white/8 pt-8 md:flex-row md:items-center md:justify-between">
-          <p className="text-[12px] text-white/30" style={{ fontFamily: mono }}>
+          <p className="text-[12px] text-white/50" style={{ fontFamily: mono }}>
             {s.footer.copyright}
           </p>
           <ModalCta

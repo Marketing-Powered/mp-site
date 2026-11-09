@@ -1,5 +1,4 @@
 import { MailCheck, RefreshCw, Sparkles, UserCheck } from "lucide-react";
-import Reveal from "@/components/Reveal";
 import { CardsSection, SectionIntro } from "./ui";
 
 const features = [
@@ -29,23 +28,21 @@ export default function PoweredSystem() {
   return (
     <CardsSection id="system" labelledBy="system-title">
       <div className="flex flex-col gap-10">
-        <Reveal>
-          <SectionIntro
-            id="system-title"
-            kicker="Run by Marketing Powered"
-            title="More than a card. A review program that runs itself."
-            body="The same AI systems that run our agency work design your cards and follow up with your customers, so you get an agency-grade program at a gadget price."
-          />
-        </Reveal>
+        <SectionIntro
+          id="system-title"
+          kicker="Run by Marketing Powered"
+          title="More than a card. A review program that runs itself."
+          body="The same AI systems that run our agency work design your cards and follow up with your customers, so you get an agency-grade program at a gadget price."
+        />
         <ul className="grid gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-2">
-          {features.map(({ icon: Icon, title, body }, i) => (
-            <Reveal key={title} as="li" delay={i * 60} className="bg-card">
+          {features.map(({ icon: Icon, title, body }) => (
+            <li key={title} className="bg-card">
               <div className="flex h-full flex-col gap-3 p-6 md:p-8">
                 <Icon className="size-6 text-brand" aria-hidden="true" />
                 <h3 className="font-serif text-lg font-medium">{title}</h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">{body}</p>
               </div>
-            </Reveal>
+            </li>
           ))}
         </ul>
       </div>

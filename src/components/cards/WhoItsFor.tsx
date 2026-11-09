@@ -1,5 +1,4 @@
 import { Briefcase, Car, Dumbbell, Home, Scissors, UtensilsCrossed } from "lucide-react";
-import Reveal from "@/components/Reveal";
 import { CardsSection, SectionIntro } from "./ui";
 
 const segments = [
@@ -45,24 +44,22 @@ export default function WhoItsFor() {
   return (
     <CardsSection id="who" labelledBy="who-title">
       <div className="flex flex-col gap-10">
-        <Reveal>
-          <SectionIntro
-            id="who-title"
-            kicker="Who it is for"
-            title="Built for businesses that hand something to every customer."
-            body="If someone on your team already hands out a receipt, a menu or a business card, a Powered Card can replace it with something people keep and scan."
-          />
-        </Reveal>
+        <SectionIntro
+          id="who-title"
+          kicker="Who it is for"
+          title="Built for businesses that hand something to every customer."
+          body="If someone on your team already hands out a receipt, a menu or a business card, a Powered Card can replace it with something people keep and scan."
+        />
         <ul className="grid gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
-          {segments.map(({ icon: Icon, name, use, plan }, i) => (
-            <Reveal key={name} as="li" delay={i * 50} className="bg-card">
+          {segments.map(({ icon: Icon, name, use, plan }) => (
+            <li key={name} className="bg-card">
               <div className="flex h-full flex-col gap-3 p-6">
                 <Icon className="size-6 text-brand" aria-hidden="true" />
                 <h3 className="font-serif font-medium">{name}</h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">{use}</p>
                 <p className="mt-auto pt-2 text-sm font-medium text-white/80">Typical plan: {plan}</p>
               </div>
-            </Reveal>
+            </li>
           ))}
         </ul>
       </div>

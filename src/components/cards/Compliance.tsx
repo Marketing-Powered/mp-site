@@ -1,5 +1,4 @@
 import { ShieldCheck } from "lucide-react";
-import Reveal from "@/components/Reveal";
 import { CardsSection } from "./ui";
 
 const rules = [
@@ -13,7 +12,7 @@ export default function Compliance() {
   return (
     <CardsSection id="review-safe" labelledBy="review-safe-title">
       <div className="grid gap-8 lg:grid-cols-2 lg:gap-14">
-        <Reveal className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4">
           <ShieldCheck className="size-8 text-success" aria-hidden="true" />
           <h2
             id="review-safe-title"
@@ -25,8 +24,8 @@ export default function Compliance() {
             Fake or incentivized reviews can get a Google profile penalized and violate FTC rules.
             Powered Cards invite honest feedback and nothing more.
           </p>
-        </Reveal>
-        <Reveal variant="blur">
+        </div>
+        <div>
           <ul className="flex flex-col divide-y divide-white/10 rounded-2xl border border-white/10 bg-white/[0.02]">
             {rules.map((rule) => (
               <li key={rule} className="flex gap-3 p-5 text-sm leading-relaxed text-white/75">
@@ -35,7 +34,7 @@ export default function Compliance() {
               </li>
             ))}
           </ul>
-        </Reveal>
+        </div>
       </div>
     </CardsSection>
   );

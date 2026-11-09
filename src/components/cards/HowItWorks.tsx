@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Reveal from "@/components/Reveal";
 import { CardsSection } from "./ui";
 
 const steps = [
@@ -26,7 +25,7 @@ export default function HowItWorks() {
     <CardsSection id="how" tone="band" labelledBy="how-title">
       <div className="flex flex-col gap-12">
         <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
-          <Reveal>
+          <div>
             <p className="mb-5 flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.3em] text-[#0090F0]">
               <span className="inline-block h-px w-8 bg-[#0090F0]" />
               How it works
@@ -38,8 +37,8 @@ export default function HowItWorks() {
             >
               From first sample to steady supply.
             </h2>
-          </Reveal>
-          <Reveal variant="blur">
+          </div>
+          <div>
             <div
               className="overflow-hidden rounded-2xl border border-white/10"
               style={{ boxShadow: "0 24px 60px -32px rgba(0,24,72,0.55)" }}
@@ -54,11 +53,11 @@ export default function HowItWorks() {
                 className="h-56 w-full object-cover md:h-72"
               />
             </div>
-          </Reveal>
+          </div>
         </div>
         <ol className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, i) => (
-            <Reveal key={step.title} as="li" delay={i * 80}>
+            <li key={step.title}>
               <div className="flex flex-col gap-3 border-t border-[#0090F0] pt-5">
                 <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-brand tabular-nums">
                   Step {i + 1}
@@ -66,7 +65,7 @@ export default function HowItWorks() {
                 <h3 className="font-serif text-lg font-medium">{step.title}</h3>
                 <p className="text-sm leading-relaxed text-white/60">{step.body}</p>
               </div>
-            </Reveal>
+            </li>
           ))}
         </ol>
       </div>

@@ -167,9 +167,3 @@ html {
     transform: none;
   }
 }
-
-/* One-shot entrance for the Powered Cards hero copy (reduced-motion rule
-   above zeroes the duration). */
-.mp-rise {
-  animation: mp-fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
-}

@@ -95,7 +95,7 @@ export default function ProductLineup() {
                   sizes="128px"
                 />
                 <div className="flex flex-1 flex-col gap-1">
-                  <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-white/45">
+                  <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-white/60">
                     One-time
                   </p>
                   <h3 className="font-serif text-lg font-medium">{product.name}</h3>

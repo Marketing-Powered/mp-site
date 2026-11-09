@@ -9,7 +9,11 @@ import { DEFAULT_ORDER_ITEM, findOrderItem } from "@/lib/cards/orderItems";
 
 /* Powered Cards order page: pick an item, then pay through embedded Stripe
    Checkout. Transactional, so it stays out of the index like the other
-   utility pages (robots in lib/links NOINDEX + the metadata below). */
+   utility pages (robots in lib/links NOINDEX + the metadata below).
+
+   Rendered on the server per request so the preselected item (?item= from
+   the product tiles) is already chosen in the HTML: a visitor on a slow
+   phone sees the right selection at first paint instead of a skeleton. */
 
 const URL = "/cards/order";
 const TITLE = "Order Powered Cards | Marketing Powered";

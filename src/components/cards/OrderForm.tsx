@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { ArrowLeft, Check, Lock, Minus, Plus } from "lucide-react";
 import { FOCUS_RING } from "@/components/site/ui";
 import { cn } from "@/lib/cn";
-import Checkout, { CheckoutFallback, checkoutConfigured } from "./Checkout";
+import { CheckoutFallback, checkoutConfigured } from "./checkoutStatus";
 import { PILL_OUTLINE, PILL_PRIMARY } from "./ui";
 import {
   ORDER_ITEMS,
@@ -33,6 +34,21 @@ const packageTabs: { id: PackageType; label: string; legend: string; hint: strin
   },
 ];
 
+/* Stripe and its React wrapper load only when the visitor reaches the
+   payment step; until then the page carries none of that code. */
+const Checkout = dynamic(() => import("./Checkout"), {
+  ssr: false,
+  loading: () => (
+    <div
+      role="status"
+      aria-live="polite"
+      className="flex min-h-64 items-center justify-center rounded-2xl border border-white/10 bg-card text-sm text-muted-foreground"
+    >
+      Loading secure checkout…
+    </div>
+  ),
+});
+
 const stepButton = `flex size-9 items-center justify-center rounded-md border border-white/15 transition-colors hover:bg-white/10 disabled:opacity-40 ${FOCUS_RING}`;
 
 export default function OrderForm({ initialItemId }: { initialItemId: string }) {
@@ -45,6 +61,21 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
   );
   const [quantityDraft, setQuantityDraft] = useState(String(quantity));
   const [step, setStep] = useState<"select" | "pay" | "done">("select");
+
+  /* On phones the summary sits below the whole catalog, so a bottom bar
+     carries the total and the primary action while the summary is off
+     screen. Hidden again once the visitor reaches the real summary. */
+  const summaryRef = useRef<HTMLElement>(null);
+  const [summaryInView, setSummaryInView] = useState(true);
+  useEffect(() => {
+    const el = summaryRef.current;
+    if (!el || step !== "select") return;
+    const io = new IntersectionObserver(([entry]) => setSummaryInView(entry.isIntersecting), {
+      rootMargin: "0px 0px -72px 0px",
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [step]);
 
   const item = findOrderItem(itemId) ?? ORDER_ITEMS[0];
   const showQuantity = hasQuantity(item);
@@ -117,7 +148,7 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
 
   return (
     <form
-      className="grid gap-6 lg:grid-cols-5"
+      className="grid gap-6 pb-20 lg:grid-cols-5 lg:pb-0"
       onSubmit={(event) => {
         event.preventDefault();
         updateQuantity(Number(quantityDraft));
@@ -217,7 +248,7 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
         ))}
       </div>
 
-      <aside className="lg:col-span-2">
+      <aside ref={summaryRef} className="lg:col-span-2">
         <div
           className="flex flex-col gap-5 rounded-[24px] border border-white/10 p-6 lg:sticky lg:top-24"
           style={{
@@ -307,6 +338,34 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
           )}
         </div>
       </aside>
+
+      <div
+        className={cn(
+          "fixed inset-x-0 bottom-0 z-40 border-t border-white/10 px-4 pb-[calc(env(safe-area-inset-bottom,0px)+0.75rem)] pt-3 transition-transform duration-300 lg:hidden",
+          summaryInView ? "translate-y-[140%]" : "translate-y-0",
+        )}
+        style={{ background: "rgba(5,11,22,0.96)", backdropFilter: "blur(12px)" }}
+        inert={summaryInView}
+      >
+        <div className="mx-auto flex max-w-xl items-center justify-between gap-4">
+          <div className="min-w-0">
+            <p className="truncate text-xs text-white/60">{item.name}</p>
+            <p className="font-semibold tabular-nums">
+              {usd(total)}
+              {isMonthly ? <span className="text-xs font-normal text-white/60">/month</span> : null}
+            </p>
+          </div>
+          {checkoutConfigured ? (
+            <button type="submit" className={`${PILL_PRIMARY} shrink-0 px-5 py-3`}>
+              Checkout
+            </button>
+          ) : (
+            <a href={orderMailto} className={`${PILL_PRIMARY} shrink-0 px-5 py-3`}>
+              Email order
+            </a>
+          )}
+        </div>
+      </div>
     </form>
   );
 }

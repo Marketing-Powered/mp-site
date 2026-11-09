@@ -2,42 +2,21 @@
 
 import { useCallback, useState } from "react";
 import { EmbeddedCheckout, EmbeddedCheckoutProvider } from "@stripe/react-stripe-js";
-import { loadStripe } from "@stripe/stripe-js";
+import { loadStripe, type Stripe } from "@stripe/stripe-js";
 import { startCheckoutSession } from "@/app/cards/order/actions";
-import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_TEL } from "@/lib/cards/pricing";
+import { CheckoutFallback } from "./checkoutStatus";
 
-/* Embedded Stripe Checkout. The publishable key is inlined at build time;
-   with none set the form never reaches this component (see OrderForm), but
-   the guard stays so a direct render degrades to the contact fallback. */
+/* Embedded Stripe Checkout. This module is loaded on demand by OrderForm
+   when the visitor reaches the payment step, so Stripe.js (and its cookies)
+   never load while someone is only browsing the catalog. */
 
-const publishableKey = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY;
-const stripePromise = publishableKey ? loadStripe(publishableKey) : null;
+let stripePromise: Promise<Stripe | null> | null = null;
 
-export const checkoutConfigured = Boolean(publishableKey);
-
-export function CheckoutFallback({ message }: { message?: string }) {
-  return (
-    <div
-      role="status"
-      className="flex flex-col gap-3 rounded-2xl border border-white/10 bg-card p-6 text-sm leading-relaxed text-white/70"
-    >
-      <p>{message ?? "Online checkout is not available right now."}</p>
-      <p>
-        Email{" "}
-        <a
-          href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Powered Cards order")}`}
-          className="text-[#7FCBFF] underline decoration-[#0090F0]/40 underline-offset-4 hover:decoration-[#7FCBFF]"
-        >
-          {CONTACT_EMAIL}
-        </a>{" "}
-        or call{" "}
-        <a href={`tel:${CONTACT_TEL}`} className="text-[#7FCBFF] hover:underline">
-          {CONTACT_PHONE}
-        </a>{" "}
-        and we will take the order by hand.
-      </p>
-    </div>
-  );
+function getStripePromise() {
+  const key = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY;
+  if (!key) return null;
+  stripePromise ??= loadStripe(key);
+  return stripePromise;
 }
 
 export default function Checkout({
@@ -50,6 +29,7 @@ export default function Checkout({
   onComplete: () => void;
 }) {
   const [error, setError] = useState<string | null>(null);
+  const [stripe] = useState(getStripePromise);
 
   const fetchClientSecret = useCallback(async () => {
     const result = await startCheckoutSession(itemId, quantity);
@@ -60,12 +40,12 @@ export default function Checkout({
     return result.clientSecret;
   }, [itemId, quantity]);
 
-  if (!stripePromise) return <CheckoutFallback />;
+  if (!stripe) return <CheckoutFallback />;
   if (error) return <CheckoutFallback message={error} />;
 
   return (
     <div id="checkout" className="overflow-hidden rounded-2xl bg-white p-2">
-      <EmbeddedCheckoutProvider stripe={stripePromise} options={{ fetchClientSecret, onComplete }}>
+      <EmbeddedCheckoutProvider stripe={stripe} options={{ fetchClientSecret, onComplete }}>
         <EmbeddedCheckout />
       </EmbeddedCheckoutProvider>
     </div>

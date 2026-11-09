@@ -12,7 +12,7 @@ const proofPoints = [
 export default function Hero() {
   return (
     <div className="grid items-center gap-10 pb-6 pt-8 lg:grid-cols-2 lg:gap-14 lg:pt-10">
-      <div className="mp-rise flex flex-col gap-6">
+      <div className="flex flex-col gap-6">
         <Kicker>Powered Cards</Kicker>
         <h1
           className="font-serif text-[clamp(2.3rem,5vw,4.2rem)] font-normal leading-[1.02] text-balance"
@@ -58,6 +58,7 @@ export default function Hero() {
             width={1376}
             height={768}
             priority
+            fetchPriority="high"
             quality={72}
             className="h-auto w-full"
             sizes="(min-width: 1024px) 600px, 100vw"

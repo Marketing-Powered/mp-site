@@ -9,9 +9,13 @@
  * The two steps are independent: if one fails the other still runs, and the
  * reply tells the site which ones worked.
  *
+ * The script opens the sheet by ID, so it runs the same whether it lives in
+ * a standalone Apps Script project or attached to the sheet.
+ *
  * Setup (once):
- *   1. Open the sheet → Extensions → Apps Script. Replace the editor's contents
- *      with this file and save.
+ *   1. Open the "Marketing Powered Website Leads" Apps Script project in
+ *      Google Drive (or: open the sheet → Extensions → Apps Script and paste
+ *      this file in).
  *   2. Deploy → New deployment → type "Web app".
  *        Execute as:      Me
  *        Who has access:  Anyone
@@ -25,6 +29,8 @@
  * URL; a brand-new deployment would get a new URL.
  */
 
+// The "Marketing Powered Website Leads" spreadsheet.
+var SHEET_ID = '19K6szs80mc5PHNgGcWSR5ptZuYKwq7E6HPnwYruGw5c';
 var TAB = 'Leads';
 var RECEIVED = 'Received';
 // Where lead emails go. Fixed here, never taken from the request, so the
@@ -118,7 +124,7 @@ function emailLead(lead, sheetError) {
       );
     })
     .join('');
-  var sheetUrl = SpreadsheetApp.getActiveSpreadsheet().getUrl();
+  var sheetUrl = book().getUrl();
 
   var htmlBody =
     '<div style="font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:560px">' +
@@ -145,9 +151,13 @@ function emailLead(lead, sheetError) {
   MailApp.sendEmail(message);
 }
 
+function book() {
+  return SpreadsheetApp.openById(SHEET_ID);
+}
+
 function leadsSheet() {
-  var book = SpreadsheetApp.getActiveSpreadsheet();
-  return book.getSheetByName(TAB) || book.getSheets()[0];
+  var b = book();
+  return b.getSheetByName(TAB) || b.getSheets()[0];
 }
 
 // Store what the visitor typed as plain text. The leading apostrophe stops the

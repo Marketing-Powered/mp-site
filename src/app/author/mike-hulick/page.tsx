@@ -219,7 +219,7 @@ const RECOGNITION: {
     date: "Environmental Sciences | Los Angeles, May 2011",
     href: "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2011/Press-Releases/Grand-Awards.pdf",
     summary:
-      "A 2011 Grand Award [Intel ISEF](https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2011/Press-Releases/Grand-Awards.pdf) Recipient, listed as Michael James Hulick, Morristown Hamblen High School East, Tennessee, in the Society for Science winner announcement.",
+      "A 2011 Grand Award [Intel ISEF](https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2011/Press-Releases/Grand-Awards.pdf) Recipient in the Society for Science winner announcement.",
     linkText: "Read the 2011 Grand Awards announcement",
   },
 ];

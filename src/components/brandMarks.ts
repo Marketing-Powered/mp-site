@@ -4,7 +4,9 @@
 /* marketing-powered-icon.svg, 291.15x359.04). Shapes flagged `blue`   */
 /* carry the brand blue; the rest take the tone colour (black on light */
 /* backgrounds, white on dark), matching the brand guide's lockups.    */
-/* Generated from the source files; edit those, not this.              */
+/* Generated from the source files; edit those, not this. The source's */
+/* lone <rect> (the stem of the "i" in "marketing") is kept as a      */
+/* polygon so the renderer only handles paths and polygons.           */
 /* ================================================================== */
 
 export type Shape =
@@ -104,6 +106,11 @@ export const LOGO_SHAPES: Shape[] = [
     "tag": "path",
     "d": "M1674.12,377.44v-127.39h-40.18v81.26h-2.68c-5.16-8.93-11.81-15.78-19.94-20.54-8.14-4.76-17.46-7.14-27.98-7.14-12.5,0-23.42,3.23-32.74,9.67-9.33,6.45-16.47,15.58-21.43,27.38-4.96,11.81-7.44,25.85-7.44,42.12s2.48,29.76,7.44,41.67c4.96,11.91,12.1,21.03,21.43,27.38,9.32,6.35,20.24,9.52,32.74,9.52,10.51,0,19.84-2.38,27.98-7.14,8.13-4.76,14.78-11.61,19.94-20.54h2.68l3.27,24.7h38.4c-1-18.05-1.49-45.04-1.49-80.96ZM1624.12,415.69c-6.55,8.24-15.38,12.35-26.49,12.35s-19.6-4.12-26.04-12.35c-6.45-8.23-9.67-19.2-9.67-32.89s3.22-25,9.67-33.34c6.45-8.33,15.13-12.5,26.04-12.5s19.94,4.17,26.49,12.5c6.55,8.33,9.82,19.45,9.82,33.34s-3.27,24.66-9.82,32.89Z",
     "blue": true
+  },
+  {
+    "tag": "polygon",
+    "points": "1449.38 87.26 1489.56 87.26 1489.56 239.05 1449.38 239.05",
+    "blue": false
   }
 ];
 

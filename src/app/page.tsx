@@ -19,8 +19,9 @@ import { INK, serif, sans, mono } from "@/components/site/theme";
 /* Ten sections in publication order (see src/lib/home.ts). One H1 in  */
 /* the hero; every other section heading is an H2; capability and      */
 /* service subsections are H3. Headline and proof text stay in HTML,   */
-/* contextual links are real anchors, and images are decorative with   */
-/* empty alt text until approved photography replaces them.            */
+/* contextual links are real anchors, and photographs are decorative    */
+/* (empty alt text): they illustrate the section they sit in without    */
+/* being presented as staff, offices, client work, or results.          */
 /* ================================================================== */
 
 const PRIMARY_BTN = `group relative inline-flex min-h-[44px] items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)] ${FOCUS_RING}`;
@@ -289,10 +290,20 @@ export default function HomePage() {
       {/* ---------- 04 HOSPITALS AND HEALTH SYSTEMS ---------- */}
       <section id="hospitals" className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:px-12 lg:py-28">
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
-          <Reveal>
-            <H2>{c.hospitals.h2}</H2>
-            <GoldRule className="mt-8 max-w-xs" />
-          </Reveal>
+          <div>
+            <Reveal>
+              <H2>{c.hospitals.h2}</H2>
+              <GoldRule className="mt-8 max-w-xs" />
+            </Reveal>
+            <Reveal variant="blur" delay={120} className="relative mt-10">
+              <Figure
+                src={c.hospitals.image}
+                alt={c.hospitals.imageAlt}
+                ratio="16 / 9"
+                fit="cover"
+              />
+            </Reveal>
+          </div>
           <div className="space-y-5">
             {c.hospitals.paragraphs.map((p, i) => (
               <Reveal key={i} delay={60 + i * 60}>
@@ -385,10 +396,22 @@ export default function HomePage() {
       {/* ---------- 07 PERFORMANCE, ATTRIBUTION, AND RESULTS ---------- */}
       <section id="performance" className="relative z-10 border-y border-white/8 py-24 lg:py-28">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[0.8fr_1.2fr] lg:px-12">
-          <Reveal>
-            <H2>{c.performance.h2}</H2>
-            <GoldRule className="mt-8 max-w-xs" />
-          </Reveal>
+          <div>
+            <Reveal>
+              <H2>{c.performance.h2}</H2>
+              <GoldRule className="mt-8 max-w-xs" />
+            </Reveal>
+            {/* Decorative photograph; the funnel on screen is illustrative,
+                not a reported result. */}
+            <Reveal variant="blur" delay={120} className="relative mt-10">
+              <Figure
+                src={c.performance.image}
+                alt={c.performance.imageAlt}
+                ratio="16 / 9"
+                fit="cover"
+              />
+            </Reveal>
+          </div>
           {/* Founder revenue context stays as attributed text — not an agency
               result card and not a chart. */}
           <div className="space-y-5">
@@ -453,23 +476,41 @@ export default function HomePage() {
               "radial-gradient(130% 150% at 50% 0%, rgba(0,144,240,0.22), transparent 55%), radial-gradient(100% 120% at 100% 100%, rgba(0,168,96,0.16), transparent 55%), #071226",
           }}
         >
-          <div className="relative px-8 py-20 text-center md:px-16 md:py-28">
-            <H2 className="mx-auto max-w-3xl text-[clamp(2rem,4vw,3.4rem)]">{c.close.h2}</H2>
-            <div className="mx-auto mt-7 max-w-2xl space-y-4">
-              {c.close.paragraphs.map((p, i) => (
-                <Prose key={i} text={p} className="leading-relaxed text-white/65" />
-              ))}
+          <div className="relative grid gap-12 px-8 py-16 text-center md:px-16 md:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:text-left">
+            <div>
+              <H2 className="mx-auto max-w-3xl text-[clamp(2rem,4vw,3.4rem)] lg:mx-0">{c.close.h2}</H2>
+              <div className="mx-auto mt-7 max-w-2xl space-y-4 lg:mx-0">
+                {c.close.paragraphs.map((p, i) => (
+                  <Prose key={i} text={p} className="leading-relaxed text-white/65" />
+                ))}
+              </div>
+              <div className="mt-10 flex justify-center lg:justify-start">
+                <StrategyCallButton />
+              </div>
+              <p className="mt-6 text-[0.95rem] text-white/60">
+                {c.cta.emailPrompt}{" "}
+                <a href={`mailto:${s.brand.email}`} className={LINK_CLS}>
+                  {s.brand.email}
+                </a>
+                .
+              </p>
             </div>
-            <div className="mt-10 flex justify-center">
-              <StrategyCallButton />
+            {/* Decorative photograph of a strategy conversation. */}
+            <div className="relative">
+              <div
+                aria-hidden
+                className="absolute -inset-[2px] rounded-[28px] opacity-80"
+                style={{ background: "linear-gradient(140deg,#0090F0,#00A8D8 50%,#00A860)" }}
+              />
+              <Figure
+                src={c.close.image}
+                alt={c.close.imageAlt}
+                ratio="16 / 9"
+                rounded="26px"
+                fit="cover"
+                className="relative"
+              />
             </div>
-            <p className="mt-6 text-[0.95rem] text-white/60">
-              {c.cta.emailPrompt}{" "}
-              <a href={`mailto:${s.brand.email}`} className={LINK_CLS}>
-                {s.brand.email}
-              </a>
-              .
-            </p>
           </div>
         </Reveal>
       </section>

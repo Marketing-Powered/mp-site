@@ -65,9 +65,11 @@ export const homeContent = {
       "Today, [our experience](/company/about) shapes how Marketing Powered approaches an engagement. We examine the operation behind the marketing, identify where performance breaks down, and connect execution to the business objective.",
       "Prior executive experience is distinct from agency client work. That distinction matters when evaluating [case studies](/results/case-studies), budgets managed, and the contribution marketing made to an organization's growth. You should know what the evidence actually represents.",
     ],
-    /* Decorative: daylight through blinds. Swap for an actual founder portrait
-       (alt: "Mike Hulick, founder and CEO of Marketing Powered.") when one is approved. */
-    image: "/images/pages/home/home-experience-window-light.jpg",
+    /* Decorative: a marketing leader working a strategy document and a
+       performance dashboard, team at work behind. Not presented as Marketing
+       Powered staff or offices. Swap for an approved founder portrait
+       (alt: "Mike Hulick, founder and CEO of Marketing Powered.") if one is supplied. */
+    image: "/images/pages/home/home-experience-marketing-leader.jpg",
     imageAlt: "",
   },
 
@@ -118,6 +120,10 @@ export const homeContent = {
       "We design [multi-location marketing](/problems/scale-multi-location-campaigns) around shared standards and local market needs. Your leadership team can compare performance without forcing every site into the same campaign.",
       "Data handling and governance belong in the planning discussion because they shape which information can move between systems. We work within your review process, with responsibilities and deployment boundaries defined before implementation.",
     ],
+    /* Decorative: a national map on screen, for the multi-location,
+       multi-state framing. No client logos or engagement imagery. */
+    image: "/images/pages/home/home-hospitals-multi-location.jpg",
+    imageAlt: "",
   },
 
   /* 05 — Owned infrastructure */
@@ -141,10 +147,11 @@ export const homeContent = {
         ],
       },
     ],
-    /* Decorative: out-of-focus indicator lights. Swap for a photo of actual
-       agency-owned equipment (alt: "Computing infrastructure operated by
-       Marketing Powered.") when one is approved. */
-    image: "/images/pages/home/home-infrastructure-light-rows.jpg",
+    /* Decorative: a technician cabling a server rack. Not presented as
+       agency-owned equipment; swap for a photo of the actual hardware
+       (alt: "Computing infrastructure operated by Marketing Powered.")
+       when one is approved. */
+    image: "/images/pages/home/home-infrastructure-server-rack.jpg",
     imageAlt: "",
   },
 
@@ -188,6 +195,11 @@ export const homeContent = {
       "The operating perspective comes from experience: during our founder's prior CMO tenure, his employer grew from about $30 million to about $140 million in revenue. That is organizational growth during his tenure, not an agency result or a claim that marketing alone caused it.",
       "Evaluate [client results](/results/case-studies) against the starting point, measurement period, work performed, and business context. A useful result should help you make a decision, not simply give you a larger number.",
     ],
+    /* Decorative: a team reviewing a demand-to-conversion funnel and a
+       whiteboard tracing acquisition through CRM integration to revenue.
+       The figures on screen are illustrative, not results. */
+    image: "/images/pages/home/home-performance-demand-conversion.jpg",
+    imageAlt: "",
   },
 
   /* 08 — Industries and specialties */
@@ -243,6 +255,9 @@ export const homeContent = {
       "Tell us where growth is getting stuck and what your leadership team needs to see. We will discuss your priorities, current measurement, and the operational gaps between investment and results.",
       "The next step is a focused conversation about fit and where a deeper review would be useful. Bring the business problem. We will start there.",
     ],
+    /* Decorative: a strategy conversation across a conference table. */
+    image: "/images/pages/home/home-close-strategy-meeting.jpg",
+    imageAlt: "",
   },
 } as const;
 

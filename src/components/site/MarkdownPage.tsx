@@ -13,7 +13,7 @@ import CtaBand from "./CtaBand";
 import { serif } from "./theme";
 import { Kicker, PrimaryCta, GoldRule } from "./ui";
 import { siteContent as s } from "@/lib/content";
-import { getAuthor, authorSchemaId } from "@/lib/authors";
+import { getAuthor, authorPersonSchema } from "@/lib/authors";
 import { SITE_URL } from "@/lib/site";
 import Link from "next/link";
 
@@ -132,14 +132,7 @@ export default function MarkdownPage({
         url: `${SITE_URL}${url.replace(/\/+$/, "")}`,
         mainEntityOfPage: `${SITE_URL}${url.replace(/\/+$/, "")}`,
         ...(heroImg?.src ? { image: `${SITE_URL}${heroImg.src}` } : {}),
-        author: {
-          "@type": "Person",
-          "@id": authorSchemaId(author),
-          name: author.name,
-          jobTitle: author.jobTitle,
-          url: `${SITE_URL}${author.href}`,
-          worksFor: { "@id": `${SITE_URL}/#organization` },
-        },
+        author: authorPersonSchema(author),
         publisher: { "@id": `${SITE_URL}/#organization` },
       }
     : null;

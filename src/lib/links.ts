@@ -147,6 +147,7 @@ const VALID = new Set<string>([
   "/company/ai-systems-policy",
   "/company/data-sovereignty",
   "/company/security",
+  "/author/mike-hulick",
   "/accessibility",
   // migrated legacy pages (organic-traffic SEO pages preserved at original slugs)
   "/top-10-open-source-ai-models-of-2025",

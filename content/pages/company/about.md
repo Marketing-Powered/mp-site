@@ -37,6 +37,7 @@ Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-s
 During that tenure his employer grew from about $30 million to about $140 million in revenue. That is organizational growth during his tenure, not an agency result or a claim that marketing alone caused it.
 That responsibility covered more than campaigns. Attribution, intake, conversion, reporting, and the systems supporting expansion had to work together. Marketing decisions had to account for operating capacity, market differences, and revenue, not just activity inside an advertising account.
 That is prior executive experience, not agency client work. We keep the two separate across this site, including the [experience section](/#experience) of our homepage and the case studies page. You should know what each piece of evidence represents before you weigh it.
+Read the full [Mike Hulick author profile](/author/mike-hulick) for his career history, published writing, and the perspective behind his bylined articles.
 How We Work
 ### Leadership that understands the operation
 Engagements start with the business problem: where growth is stuck, what leadership needs to see, and where investment is not turning into results. We examine the operation behind the marketing before we recommend a channel.

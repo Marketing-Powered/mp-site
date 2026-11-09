@@ -1,30 +1,44 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import dynamic from "next/dynamic";
 import Link from "next/link";
-import { ArrowLeft, Check, Lock, Minus, Plus } from "lucide-react";
+import { ArrowLeft, Check, Minus, Plus, X } from "lucide-react";
 import { FOCUS_RING } from "@/components/site/ui";
+import { handleInput, handleInvalid } from "@/components/site/formValidation";
 import { cn } from "@/lib/cn";
-import { CheckoutFallback, checkoutConfigured } from "./checkoutStatus";
 import { PILL_OUTLINE, PILL_PRIMARY } from "./ui";
 import {
   ORDER_ITEMS,
+  SAMPLES_ITEM_ID,
+  addonLines,
+  addonsTotal,
   clampQuantity,
   findOrderItem,
   hasQuantity,
+  type OrderAddons,
   type OrderGroup,
 } from "@/lib/cards/orderItems";
-import { CONTACT_EMAIL, usd } from "@/lib/cards/pricing";
+import { CONTACT_EMAIL, CONTACT_PHONE, CONTACT_TEL, usd } from "@/lib/cards/pricing";
+
+/* Powered Cards order request. Two steps: pick what you need, then tell us
+   about the business and where the cards go. No payment is taken: the
+   request posts to /api/contact, which files it on the Orders tab of the
+   leads sheet and emails it, and a person follows up within one business
+   day to confirm design, destination and pricing before anything prints.
+   Every order action on /cards lands here (product tiles, the plan
+   calculator with its add-ons, and the free-sample requests). */
+
+const SOURCE = "Powered Cards Order";
 
 type PackageType = Exclude<OrderGroup, "one_time">;
+type Step = "select" | "details" | "done";
 
 const packageTabs: { id: PackageType; label: string; legend: string; hint: string }[] = [
   {
     id: "pvc",
     label: "PVC QR cards",
     legend: "Monthly branded PVC QR cards",
-    hint: "Branded QR cards customers take home, delivered every month. Cancel anytime.",
+    hint: "Branded QR cards customers take home, delivered every month. Pause or cancel anytime.",
   },
   {
     id: "nfc",
@@ -34,24 +48,102 @@ const packageTabs: { id: PackageType; label: string; legend: string; hint: strin
   },
 ];
 
-/* Stripe and its React wrapper load only when the visitor reaches the
-   payment step; until then the page carries none of that code. */
-const Checkout = dynamic(() => import("./Checkout"), {
-  ssr: false,
-  loading: () => (
-    <div
-      role="status"
-      aria-live="polite"
-      className="flex min-h-64 items-center justify-center rounded-2xl border border-white/10 bg-card text-sm text-muted-foreground"
-    >
-      Loading secure checkout…
-    </div>
-  ),
-});
+const BUSINESS_TYPES = [
+  "Salon or personal services",
+  "Auto services or detailing",
+  "Home services",
+  "Fitness or local retail",
+  "Hospitality or events",
+  "Healthcare or professional practice",
+  "Agency or multi-location group",
+  "Other",
+];
 
+const LOCATIONS = ["1", "2-5", "6-15", "16+"];
+
+const DESTINATIONS = [
+  "Google review page",
+  "Booking or appointment page",
+  "Website or landing page",
+  "Social profile",
+  "Not sure yet, help me choose",
+];
+
+const LOGO_OPTIONS = [
+  "Yes, vector files (AI, SVG, EPS or PDF)",
+  "Yes, PNG or JPG only",
+  "No, I need help with the design",
+];
+
+const inputCls =
+  "w-full rounded-xl border border-white/12 bg-white/[0.03] px-4 py-3 text-base text-white/90 outline-none transition-colors placeholder:text-white/25 focus:border-[#0090F0]/60 focus:bg-white/[0.05] sm:text-[15px]";
+const labelCls = "mb-2 block font-mono text-[11px] uppercase tracking-[0.18em] text-white/55";
 const stepButton = `flex size-9 items-center justify-center rounded-md border border-white/15 transition-colors hover:bg-white/10 disabled:opacity-40 ${FOCUS_RING}`;
 
-export default function OrderForm({ initialItemId }: { initialItemId: string }) {
+function Field({
+  id,
+  label,
+  required,
+  full,
+  children,
+}: {
+  id: string;
+  label: string;
+  required?: boolean;
+  full?: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className={full ? "sm:col-span-2" : ""}>
+      <label htmlFor={id} className={labelCls}>
+        {label}
+        {required && <span className="text-[#0090F0]"> *</span>}
+      </label>
+      {children}
+    </div>
+  );
+}
+
+function Select({
+  id,
+  name,
+  options,
+  required,
+}: {
+  id: string;
+  name: string;
+  options: string[];
+  required?: boolean;
+}) {
+  return (
+    <select
+      id={id}
+      name={name}
+      required={required}
+      defaultValue=""
+      className={inputCls}
+      onInvalid={handleInvalid}
+      onInput={handleInput}
+    >
+      <option value="" disabled>
+        Select…
+      </option>
+      {options.map((o) => (
+        <option key={o} value={o} className="bg-[#070E1C]">
+          {o}
+        </option>
+      ))}
+    </select>
+  );
+}
+
+export default function OrderForm({
+  initialItemId,
+  initialAddons,
+}: {
+  initialItemId: string;
+  initialAddons: OrderAddons;
+}) {
   const [itemId, setItemId] = useState(initialItemId);
   const [packageType, setPackageType] = useState<PackageType>(() =>
     findOrderItem(initialItemId)?.group === "nfc" ? "nfc" : "pvc",
@@ -60,11 +152,36 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
     () => (findOrderItem(initialItemId) ?? ORDER_ITEMS[0]).minQuantity,
   );
   const [quantityDraft, setQuantityDraft] = useState(String(quantity));
-  const [step, setStep] = useState<"select" | "pay" | "done">("select");
+  const [addons, setAddons] = useState<OrderAddons>(initialAddons);
+  const [step, setStep] = useState<Step>("select");
+  const [sending, setSending] = useState(false);
+  const [failed, setFailed] = useState(false);
+  const topRef = useRef<HTMLElement>(null);
 
-  /* On phones the summary sits below the whole catalog, so a bottom bar
-     carries the total and the primary action while the summary is off
-     screen. Hidden again once the visitor reaches the real summary. */
+  const item = findOrderItem(itemId) ?? ORDER_ITEMS[0];
+  const isSamples = item.id === SAMPLES_ITEM_ID;
+  const showQuantity = hasQuantity(item);
+  const effectiveQuantity = showQuantity ? quantity : 1;
+  const isMonthly = item.billing === "monthly";
+  const itemTotal = (item.priceInCents * effectiveQuantity) / 100;
+  const extras = addonsTotal(addons);
+  const extraLines = addonLines(addons);
+
+  const updateQuantity = (value: number) => {
+    const next = clampQuantity(item, value);
+    setQuantity(next);
+    setQuantityDraft(String(next));
+  };
+
+  const goTo = (next: Step) => {
+    setStep(next);
+    window.requestAnimationFrame(() =>
+      topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
+    );
+  };
+
+  /* Phones: the summary sits below the whole catalog, so a bottom bar carries
+     the total and the Continue action while the summary is off screen. */
   const summaryRef = useRef<HTMLElement>(null);
   const [summaryInView, setSummaryInView] = useState(true);
   useEffect(() => {
@@ -77,38 +194,114 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
     return () => io.disconnect();
   }, [step]);
 
-  const item = findOrderItem(itemId) ?? ORDER_ITEMS[0];
-  const showQuantity = hasQuantity(item);
-  const effectiveQuantity = showQuantity ? quantity : 1;
+  /* Human-readable totals, written into the sheet as sent. */
+  const totalLabel = isSamples
+    ? extras > 0
+      ? `Free samples + ${usd(extras)} one-time`
+      : "Free"
+    : isMonthly
+      ? `${usd(itemTotal)}/month${extras > 0 ? ` + ${usd(extras)} one-time` : ""}`
+      : usd(itemTotal + extras);
 
-  const updateQuantity = (value: number) => {
-    const next = clampQuantity(item, value);
-    setQuantity(next);
-    setQuantityDraft(String(next));
-  };
-  const total = (item.priceInCents * effectiveQuantity) / 100;
-  const isMonthly = item.billing === "monthly";
+  async function submitDetails(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    if (sending) return;
+    setSending(true);
+    setFailed(false);
+    const form = Object.fromEntries(new FormData(e.currentTarget).entries());
+    const payload = {
+      ...form,
+      source: SOURCE,
+      page: window.location.pathname,
+      item: showQuantity ? `${effectiveQuantity} x ${item.name}` : item.name,
+      quantity: String(effectiveQuantity),
+      addons: extraLines.join("; "),
+      billing: isSamples ? "Free samples" : isMonthly ? "Monthly subscription" : "One-time",
+      total: totalLabel,
+    };
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) throw new Error(`Order request rejected: ${res.status}`);
+      goTo("done");
+    } catch {
+      setFailed(true);
+      setSending(false);
+    }
+  }
 
-  /* With no Stripe key the order goes by email instead, prefilled with the
-     same selection so nothing is lost. */
-  const orderMailto = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
-    `Powered Cards order: ${item.name}`,
-  )}&body=${encodeURIComponent(
-    `Item: ${item.name}\nQuantity: ${effectiveQuantity}\nTotal: ${usd(total)}${
-      isMonthly ? "/month" : ""
-    }\n\nBusiness name:\nWhere customers should land:\n`,
-  )}`;
+  const summaryBlock = (
+    <>
+      <div className="flex flex-col gap-1">
+        <p className="font-medium">
+          {showQuantity && effectiveQuantity > 1 ? `${effectiveQuantity} × ` : ""}
+          {item.name}
+        </p>
+        <p className="text-sm leading-relaxed text-white/60">{item.description}</p>
+      </div>
+      {extraLines.length > 0 && (
+        <ul className="flex flex-col gap-2 border-t border-white/10 pt-4 text-sm">
+          {extraLines.map((line, i) => (
+            <li key={line} className="flex items-start justify-between gap-3">
+              <span className="text-white/80">{line}</span>
+              {step === "select" && (
+                <button
+                  type="button"
+                  aria-label={`Remove ${i === 0 && addons.stands > 0 ? "review stands" : "NFC review cards"}`}
+                  onClick={() =>
+                    setAddons((a) =>
+                      i === 0 && a.stands > 0 ? { ...a, stands: 0 } : { ...a, nfcCards: 0 },
+                    )
+                  }
+                  className={`flex size-6 shrink-0 items-center justify-center rounded-md border border-white/15 text-white/60 hover:bg-white/10 hover:text-white ${FOCUS_RING}`}
+                >
+                  <X className="size-3.5" aria-hidden="true" />
+                </button>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
+      <div className="flex items-baseline justify-between gap-4 border-t border-white/10 pt-4">
+        <span className="text-sm">Estimated total</span>
+        <span className="text-right text-xl font-semibold leading-tight">{totalLabel}</span>
+      </div>
+      <p className="text-xs leading-relaxed text-white/55">
+        No payment today. We confirm the design, destination and final pricing with you first;
+        design setup, if any, is quoted before you pay.
+      </p>
+    </>
+  );
 
   if (step === "done") {
     return (
-      <div className="flex flex-col items-start gap-4 rounded-[24px] border border-white/10 bg-card p-8">
+      <div
+        ref={topRef as React.RefObject<HTMLDivElement | null>}
+        className="flex scroll-mt-28 flex-col items-start gap-4 rounded-[24px] border border-white/10 bg-card p-8"
+        role="status"
+      >
         <span className="flex size-10 items-center justify-center rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] text-black">
           <Check className="size-5" aria-hidden="true" />
         </span>
-        <h2 className="font-serif text-2xl font-medium">Thank you, your order is in.</h2>
+        <h2 className="font-serif text-2xl font-medium">Order request received.</h2>
         <p className="max-w-prose leading-relaxed text-muted-foreground">
-          A receipt is on its way to your email. Our design team will reach out within one
-          business day to collect your logo, colors and the link your cards should point to.
+          Thank you. We will reach out within one business day to confirm your design, where the
+          cards should point and the final pricing. Nothing is printed, and nothing is charged,
+          until you approve a proof.
+        </p>
+        <p className="max-w-prose text-sm leading-relaxed text-white/55">
+          Need it sooner? Call{" "}
+          <a href={`tel:${CONTACT_TEL}`} className="text-[#7FCBFF] underline underline-offset-4">
+            {CONTACT_PHONE}
+          </a>{" "}
+          or email{" "}
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-[#7FCBFF] underline underline-offset-4">
+            {CONTACT_EMAIL}
+          </a>
+          .
         </p>
         <Link href="/cards" prefetch={false} className={PILL_OUTLINE}>
           Back to Powered Cards
@@ -117,50 +310,185 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
     );
   }
 
-  if (step === "pay") {
+  if (step === "details") {
     return (
-      <div className="flex flex-col gap-4">
-        <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/10 bg-card p-4">
-          <div className="flex flex-col">
-            <p className="text-sm text-muted-foreground">
-              {effectiveQuantity > 1 ? `${effectiveQuantity} × ` : ""}
-              {item.name}
-            </p>
-            <p className="font-semibold">
-              {usd(total)}
-              {isMonthly ? "/month" : ""}
+      <div
+        ref={topRef as React.RefObject<HTMLDivElement | null>}
+        className="grid scroll-mt-28 gap-6 lg:grid-cols-5"
+      >
+        <form onSubmit={submitDetails} className="lg:col-span-3">
+          <div className="flex flex-col gap-6 rounded-[24px] border border-white/10 bg-white/[0.02] p-5 md:p-8">
+            <div className="flex flex-col gap-2">
+              <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-[#0090F0]">
+                Step 2 of 2
+              </p>
+              <h2 className="font-serif text-2xl font-medium">Tell us about your business</h2>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                This is what we need to draft your proof. A person reviews every request.
+              </p>
+            </div>
+
+            <div className="grid gap-5 sm:grid-cols-2">
+              <Field id="order-business" label="Business name" required full>
+                <input
+                  id="order-business"
+                  name="business"
+                  required
+                  autoComplete="organization"
+                  className={inputCls}
+                  onInvalid={handleInvalid}
+                  onInput={handleInput}
+                />
+              </Field>
+              <Field id="order-name" label="Your name" required>
+                <input
+                  id="order-name"
+                  name="name"
+                  required
+                  autoComplete="name"
+                  className={inputCls}
+                  onInvalid={handleInvalid}
+                  onInput={handleInput}
+                />
+              </Field>
+              <Field id="order-phone" label="Phone" required>
+                <input
+                  id="order-phone"
+                  name="phone"
+                  type="tel"
+                  required
+                  autoComplete="tel"
+                  className={inputCls}
+                  onInvalid={handleInvalid}
+                  onInput={handleInput}
+                />
+              </Field>
+              <Field id="order-email" label="Email" required full>
+                <input
+                  id="order-email"
+                  name="email"
+                  type="email"
+                  required
+                  autoComplete="email"
+                  className={inputCls}
+                  onInvalid={handleInvalid}
+                  onInput={handleInput}
+                />
+              </Field>
+              <Field id="order-type" label="Type of business" required>
+                <Select id="order-type" name="businessType" options={BUSINESS_TYPES} required />
+              </Field>
+              <Field id="order-locations" label="Number of locations">
+                <Select id="order-locations" name="locations" options={LOCATIONS} />
+              </Field>
+              <Field id="order-website" label="Website or Google Business Profile link" full>
+                <input
+                  id="order-website"
+                  name="website"
+                  type="url"
+                  inputMode="url"
+                  placeholder="https://"
+                  autoComplete="url"
+                  className={inputCls}
+                />
+              </Field>
+              <Field id="order-destination" label="Where should the cards send people?" required>
+                <Select id="order-destination" name="destination" options={DESTINATIONS} required />
+              </Field>
+              <Field id="order-destination-link" label="Destination link, if you have it">
+                <input
+                  id="order-destination-link"
+                  name="destinationLink"
+                  type="url"
+                  inputMode="url"
+                  placeholder="https://"
+                  className={inputCls}
+                />
+              </Field>
+              <Field id="order-logo" label="Do you have logo files?" required full>
+                <Select id="order-logo" name="logo" options={LOGO_OPTIONS} required />
+              </Field>
+              <Field id="order-shipping" label="Shipping address" required full>
+                <textarea
+                  id="order-shipping"
+                  name="shipping"
+                  required
+                  rows={3}
+                  autoComplete="street-address"
+                  placeholder="Street, city, state, ZIP"
+                  className={inputCls}
+                  onInvalid={handleInvalid}
+                  onInput={handleInput}
+                />
+              </Field>
+              <Field id="order-notes" label="Anything else we should know?" full>
+                <textarea
+                  id="order-notes"
+                  name="notes"
+                  rows={3}
+                  placeholder="Colors to match, a tagline for the card, timing, questions"
+                  className={inputCls}
+                />
+              </Field>
+            </div>
+
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <button type="button" onClick={() => goTo("select")} className={PILL_OUTLINE}>
+                <ArrowLeft className="size-4" aria-hidden="true" />
+                Change selection
+              </button>
+              <button type="submit" disabled={sending} className={PILL_PRIMARY}>
+                {sending ? "Sending…" : "Send order request"}
+              </button>
+            </div>
+            {failed && (
+              <p role="alert" className="text-[13px] leading-relaxed text-[#FFB4A8]">
+                We could not send your request. Please try again, call {CONTACT_PHONE} or email{" "}
+                {CONTACT_EMAIL}.
+              </p>
+            )}
+            <p className="text-xs text-white/40">
+              We use these details only to prepare your order and proof. No payment is collected on
+              this page.
             </p>
           </div>
-          <button type="button" onClick={() => setStep("select")} className={PILL_OUTLINE}>
-            <ArrowLeft className="size-4" aria-hidden="true" />
-            Change order
-          </button>
-        </div>
-        <Checkout
-          key={`${item.id}-${effectiveQuantity}`}
-          itemId={item.id}
-          quantity={effectiveQuantity}
-          onComplete={() => setStep("done")}
-        />
+        </form>
+
+        <aside className="lg:col-span-2">
+          <div
+            className="flex flex-col gap-5 rounded-[24px] border border-white/10 p-6 lg:sticky lg:top-24"
+            style={{
+              background:
+                "radial-gradient(120% 100% at 0% 0%, rgba(0,144,240,0.12), transparent 55%), #0A1322",
+            }}
+          >
+            <h2 className="font-serif text-xl font-medium">Your request</h2>
+            {summaryBlock}
+          </div>
+        </aside>
       </div>
     );
   }
 
   return (
     <form
-      className="grid gap-6 pb-20 lg:grid-cols-5 lg:pb-0"
+      ref={topRef as React.RefObject<HTMLFormElement | null>}
+      className="grid scroll-mt-28 gap-6 pb-20 lg:grid-cols-5 lg:pb-0"
       onSubmit={(event) => {
         event.preventDefault();
         updateQuantity(Number(quantityDraft));
-        setStep("pay");
+        goTo("details");
       }}
     >
       <div className="flex flex-col gap-8 lg:col-span-3">
+        <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-[#0090F0]">
+          Step 1 of 2: pick what you need
+        </p>
         {(["one_time", packageType] as const).map((groupId) => (
           <fieldset key={groupId} className="flex flex-col gap-3">
             {groupId === "one_time" ? (
               <legend className="mb-3 font-mono text-[11px] uppercase tracking-[0.22em] text-white/60">
-                One-time
+                Samples and one-time
               </legend>
             ) : (
               <>
@@ -199,6 +527,7 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
             )}
             {ORDER_ITEMS.filter((option) => option.group === groupId).map((option) => {
               const selected = option.id === item.id;
+              const free = option.priceInCents === 0;
               return (
                 <label
                   key={option.id}
@@ -223,16 +552,20 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
                     <span className="flex flex-wrap items-baseline justify-between gap-x-4">
                       <span className="font-serif font-medium">{option.name}</span>
                       <span className="font-semibold">
-                        {usd((option.priceInCents * option.minQuantity) / 100)}
+                        {free ? (
+                          <span className="text-success">Free</span>
+                        ) : (
+                          usd((option.priceInCents * option.minQuantity) / 100)
+                        )}
                         {option.billing === "monthly" ? (
                           <span className="text-sm font-normal text-muted-foreground">/month</span>
                         ) : null}
-                        {option.minQuantity > 1 ? (
+                        {!free && option.minQuantity > 1 ? (
                           <span className="text-sm font-normal text-muted-foreground">
                             {" "}
                             for {option.minQuantity}
                           </span>
-                        ) : hasQuantity(option) ? (
+                        ) : !free && hasQuantity(option) ? (
                           <span className="text-sm font-normal text-muted-foreground"> each</span>
                         ) : null}
                       </span>
@@ -256,11 +589,7 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
               "radial-gradient(120% 100% at 0% 0%, rgba(0,144,240,0.12), transparent 55%), #0A1322",
           }}
         >
-          <h2 className="font-serif text-xl font-medium">Order summary</h2>
-          <div className="flex flex-col gap-1">
-            <p className="font-medium">{item.name}</p>
-            <p className="text-sm leading-relaxed text-white/60">{item.description}</p>
-          </div>
+          <h2 className="font-serif text-xl font-medium">Your request</h2>
 
           {showQuantity ? (
             <div className="flex flex-col gap-2">
@@ -301,41 +630,14 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
                   </button>
                 </div>
               </div>
-              {item.minQuantity > 1 ? (
-                <p className="text-xs text-white/60">
-                  {usd(item.priceInCents / 100)} each. Minimum order {item.minQuantity}, in steps of{" "}
-                  {item.quantityStep}.
-                </p>
-              ) : null}
             </div>
           ) : null}
 
-          <div className="flex items-baseline justify-between gap-4 border-t border-white/10 pt-4">
-            <span className="text-sm">{isMonthly ? "Billed monthly" : "Total"}</span>
-            <span className="text-2xl font-semibold">
-              {usd(total)}
-              {isMonthly ? <span className="text-sm font-normal text-white/60">/month</span> : null}
-            </span>
-          </div>
+          {summaryBlock}
 
-          {checkoutConfigured ? (
-            <>
-              <button type="submit" className={`${PILL_PRIMARY} w-full`}>
-                Continue to secure checkout
-              </button>
-              <p className="flex items-center gap-2 text-xs text-white/60">
-                <Lock className="size-3.5 shrink-0" aria-hidden="true" />
-                Payments processed by Stripe.{isMonthly ? " Cancel your plan anytime." : ""}
-              </p>
-            </>
-          ) : (
-            <>
-              <a href={orderMailto} className={`${PILL_PRIMARY} w-full`}>
-                Email this order
-              </a>
-              <CheckoutFallback message="Online card payment is being set up. Send the order by email and we will confirm the design, destination and payment with you." />
-            </>
-          )}
+          <button type="submit" className={`${PILL_PRIMARY} w-full`}>
+            Continue
+          </button>
         </div>
       </aside>
 
@@ -350,20 +652,11 @@ export default function OrderForm({ initialItemId }: { initialItemId: string }) 
         <div className="mx-auto flex max-w-xl items-center justify-between gap-4">
           <div className="min-w-0">
             <p className="truncate text-xs text-white/60">{item.name}</p>
-            <p className="font-semibold tabular-nums">
-              {usd(total)}
-              {isMonthly ? <span className="text-xs font-normal text-white/60">/month</span> : null}
-            </p>
+            <p className="truncate font-semibold tabular-nums">{totalLabel}</p>
           </div>
-          {checkoutConfigured ? (
-            <button type="submit" className={`${PILL_PRIMARY} shrink-0 px-5 py-3`}>
-              Checkout
-            </button>
-          ) : (
-            <a href={orderMailto} className={`${PILL_PRIMARY} shrink-0 px-5 py-3`}>
-              Email order
-            </a>
-          )}
+          <button type="submit" className={`${PILL_PRIMARY} shrink-0 px-5 py-3`}>
+            Continue
+          </button>
         </div>
       </div>
     </form>

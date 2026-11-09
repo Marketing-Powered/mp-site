@@ -13,7 +13,6 @@ import PoweredSystem from "@/components/cards/PoweredSystem";
 import HowItWorks from "@/components/cards/HowItWorks";
 import Compliance from "@/components/cards/Compliance";
 import { CARDS_FAQ } from "@/components/cards/faq";
-import { sampleMailto } from "@/lib/cards/pricing";
 import { absoluteUrl } from "@/lib/site";
 
 /* ================================================================== */
@@ -105,8 +104,8 @@ export default function Page() {
         headline="See your brand on a Powered Card first."
         body="Tell us how you hand things to customers today. We will send 10 branded samples to qualified businesses."
         ctaText="Request 10 free samples"
-        ctaLink={sampleMailto}
-        secondaryCta={{ text: "Order online", link: "/cards/order" }}
+        ctaLink="/cards/order?item=samples"
+        secondaryCta={{ text: "Start an order", link: "/cards/order" }}
       />
     </PageShell>
   );

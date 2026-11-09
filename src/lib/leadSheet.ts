@@ -69,9 +69,44 @@ const COLUMNS: [column: string, fields: string[]][] = [
   ["Locations", ["locations"]],
   ["Timeline", ["timeline"]],
   ["Message", ["message", "notes", "challenge"]],
+  // Powered Cards order requests (/cards/order). The Apps Script files rows
+  // whose Form is "Powered Cards Order" on the sheet's Orders tab, whose
+  // headers these are. Name, Email, Phone, Website, Locations and Message
+  // above are shared with that tab.
+  ["Item", ["item"]],
+  ["Quantity", ["quantity"]],
+  ["Add-ons", ["addons"]],
+  ["Billing", ["billing"]],
+  ["Estimated Total", ["total"]],
+  ["Business", ["business"]],
+  ["Business Type", ["businessType"]],
+  ["Card Destination", ["destination"]],
+  ["Destination Link", ["destinationLink"]],
+  ["Logo Files", ["logo"]],
+  ["Shipping Address", ["shipping"]],
 ];
 
 const MAPPED = new Set(COLUMNS.flatMap(([, fields]) => fields));
+
+/* Form value the Powered Cards order request posts (components/cards/OrderForm). */
+export const ORDER_SOURCE = "Powered Cards Order";
+
+/* Headers on the Leads tab, always written (blank or not) so every lead row
+   has the same shape. */
+const LEAD_COLUMNS = new Set([
+  "Form",
+  "Page",
+  "Name",
+  "Email",
+  "Phone",
+  "Organization",
+  "Website",
+  "Monthly Ad Spend",
+  "Vertical",
+  "Locations",
+  "Timeline",
+  "Message",
+]);
 
 /** Shape a raw submission as one sheet row, keyed by column header. Fields no
     column covers pass through under their own name. */
@@ -80,10 +115,17 @@ export function leadToSheetRow(
   source: string,
 ): Record<string, string> {
   const row: Record<string, string> = {};
+  const isOrder = source === ORDER_SOURCE;
   for (const [column, fields] of COLUMNS) {
-    row[column] = fields.map((f) => str(data[f])).find(Boolean) ?? "";
+    const value = fields.map((f) => str(data[f])).find(Boolean) ?? "";
+    // A lead row always carries the Leads tab's own headers, blank or not, so
+    // every lead has the same shape. An order row sends only filled values,
+    // so the script never adds lead-only columns to the Orders tab.
+    if (value || (!isOrder && LEAD_COLUMNS.has(column))) row[column] = value;
   }
   row.Form = source;
+  // New orders start in the Status dropdown's first state.
+  if (isOrder) row.Status = "New";
   for (const [k, v] of Object.entries(data)) {
     if (!MAPPED.has(k) && str(v)) row[k] = str(v);
   }

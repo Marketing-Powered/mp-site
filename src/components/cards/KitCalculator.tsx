@@ -3,10 +3,9 @@ import LazyMount from "./LazyMount";
 import CalculatorPanel, { DEFAULT_CALCULATOR_STATE } from "./CalculatorPanel";
 
 /* Plan picker + optional one-time hardware, with a live first-payment
-   summary. The "Start the plan" action opens a prefilled email so the order
-   lands with a person who confirms the design and destination first; the
-   fixed-price items check out directly on /cards/order. Server component:
-   the default selection is static HTML until the widget loads near view. */
+   summary. "Start the plan" hands the selection to the order request form
+   on /cards/order. Server component: the default selection is static HTML
+   until the widget loads near view. */
 
 export default function KitCalculator() {
   return (

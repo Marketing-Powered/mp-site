@@ -1,9 +1,9 @@
+import Link from "next/link";
 import { Check, Minus, Plus } from "lucide-react";
 import { FOCUS_RING } from "@/components/site/ui";
 import { cn } from "@/lib/cn";
 import { PILL_PRIMARY } from "./ui";
 import {
-  CONTACT_EMAIL,
   NFC_FLOOR_PRICE,
   NFC_FLOOR_QTY,
   NFC_MAX_CARDS,
@@ -20,7 +20,8 @@ import {
 /* Presentational plan calculator. The server renders it once with the
    default selection; KitCalculatorWidget renders the same markup with live
    state once LazyMount loads it. Handlers are optional so the static render
-   is inert rather than broken. */
+   is inert rather than broken. "Start the plan" carries the plan and any
+   add-ons into the order request form on /cards/order. */
 
 export const MAX_STANDS = 25;
 export const NFC_STEP = 10;
@@ -144,18 +145,9 @@ export default function CalculatorPanel({
       ? `${usd(nfcEach)} each, our lowest price`
       : `${usd(nfcEach)} each, ${usd(NFC_FLOOR_PRICE)} at ${NFC_FLOOR_QTY}+ (min. ${NFC_MIN_CARDS})`;
 
-  const hardwareLines = [
-    stands > 0 && `${stands} x Powered Review Stand (${usd(standsTotal)} one-time)`,
-    nfcCards > 0 &&
-      `${nfcCards} x NFC review card at ${usd(nfcEach)} (${usd(nfcCardsTotal)} one-time)`,
-  ].filter(Boolean);
-
-  const subject = encodeURIComponent(`Powered Cards order: ${plan.name} plan`);
-  const body = encodeURIComponent(
-    `Plan: ${plan.name} (${plan.cards} cards/month, ${usd(plan.price)}/month)\nHardware: ${
-      hardwareLines.length ? hardwareLines.join(", ") : "None"
-    }\n\nBusiness name:\nWhere customers should land:\n`,
-  );
+  const orderHref = `/cards/order?item=plan-${plan.id}${stands > 0 ? `&stands=${stands}` : ""}${
+    nfcCards > 0 ? `&nfc=${nfcCards}` : ""
+  }`;
 
   return (
     <div className="grid gap-6 lg:grid-cols-5">
@@ -301,12 +293,9 @@ export default function CalculatorPanel({
           Plus a one-time design setup from {usd(setupFrom)}, quoted before you pay. Extra designs,
           variable codes, special finishes and rush orders are quoted separately.
         </p>
-        <a
-          href={`mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`}
-          className={`${PILL_PRIMARY} mt-auto w-full`}
-        >
+        <Link href={orderHref} prefetch={false} className={`${PILL_PRIMARY} mt-auto w-full`}>
           Start the {plan.name} plan
-        </a>
+        </Link>
       </aside>
     </div>
   );

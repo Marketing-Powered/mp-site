@@ -4,7 +4,8 @@
  * The site's /api/contact route POSTs each form submission here as JSON keyed
  * by the sheet's column headers (see src/lib/leadSheet.ts). For every
  * submission this script:
- *   1. writes one row on the "Leads" tab, and
+ *   1. writes one row on the "Leads" tab (Powered Cards order requests go to
+ *      the "Orders" tab instead, see TABS_BY_FORM), and
  *   2. emails the lead to LEADS_TO, with Reply-To set to the prospect.
  * The two steps are independent: if one fails the other still runs, and the
  * reply tells the site which ones worked.
@@ -32,6 +33,11 @@
 // The "Marketing Powered Website Leads" spreadsheet.
 var SHEET_ID = '19K6szs80mc5PHNgGcWSR5ptZuYKwq7E6HPnwYruGw5c';
 var TAB = 'Leads';
+// Submissions whose Form value is listed here are filed on their own tab
+// instead of Leads. Powered Cards order requests (/cards/order) go to the
+// Orders tab, which has a Status dropdown for working the order.
+var TABS_BY_FORM = { 'Powered Cards Order': 'Orders' };
+var ORDER_FORMS = { 'Powered Cards Order': true };
 var RECEIVED = 'Received';
 // Where lead emails go. Fixed here, never taken from the request, so the
 // web app can't be used to send mail anywhere else.
@@ -71,7 +77,7 @@ function appendLead(lead) {
   // Two submissions at the same moment must not write to the same row.
   lock.waitLock(20000);
   try {
-    var sheet = leadsSheet();
+    var sheet = sheetFor(lead);
     var lastCol = sheet.getLastColumn();
     var headers = lastCol
       ? sheet.getRange(1, 1, 1, lastCol).getValues()[0].map(String)
@@ -103,6 +109,12 @@ function appendLead(lead) {
 function emailLead(lead, sheetError) {
   var form = String(lead.Form || 'Website form');
   var email = String(lead.Email || '').trim();
+  var order = isOrder(lead);
+  var kind = order ? 'New Order Request' : 'New Lead';
+  var nextStep = order
+    ? '<p style="margin:0 0 16px;padding:12px 16px;border-radius:8px;background:#EEF6FF;border:1px solid #BFDBFE;color:#0A1322;font-size:13px;line-height:1.5">' +
+      'No payment was taken on the site. Reply to confirm the design, destination and pricing, then collect payment before anything prints.</p>'
+    : '';
   var fields = Object.keys(lead).filter(function (k) {
     return k !== 'Form' && String(lead[k] == null ? '' : lead[k]).trim() !== '';
   });
@@ -129,19 +141,24 @@ function emailLead(lead, sheetError) {
   var htmlBody =
     '<div style="font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:560px">' +
     warningHtml +
-    '<p style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#0090F0;margin:0 0 4px">Marketing Powered · New Lead</p>' +
+    '<p style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#0090F0;margin:0 0 4px">Marketing Powered · ' + kind + '</p>' +
     '<h2 style="margin:0 0 16px;color:#0A1322;font-size:20px">' + escapeHtml(form) + '</h2>' +
+    nextStep +
     '<table style="border-collapse:collapse;width:100%;font-size:14px;border:1px solid #eef1f5">' + rowsHtml + '</table>' +
     '<p style="font-size:13px;margin:16px 0 0"><a href="' + sheetUrl + '">Open the leads sheet</a></p>' +
     '</div>';
   var body =
     (sheetError ? 'This lead did NOT reach the leads sheet. Add it by hand.\n' + sheetError + '\n\n' : '') +
+    (order ? 'No payment was taken on the site. Confirm design, destination and pricing, then collect payment before anything prints.\n\n' : '') +
     fields.map(function (k) { return k + ': ' + lead[k]; }).join('\n') +
     '\n\nLeads sheet: ' + sheetUrl;
 
   var message = {
     to: LEADS_TO,
-    subject: (sheetError ? '⚠ ' : '') + 'New lead — ' + form + (email ? ' (' + email + ')' : ''),
+    subject:
+      (sheetError ? '⚠ ' : '') +
+      (order ? 'New order request — ' + String(lead.Item || form) : 'New lead — ' + form) +
+      (email ? ' (' + email + ')' : ''),
     htmlBody: htmlBody,
     body: body,
     name: 'Marketing Powered Website',
@@ -158,6 +175,26 @@ function book() {
 function leadsSheet() {
   var b = book();
   return b.getSheetByName(TAB) || b.getSheets()[0];
+}
+
+// The tab a submission belongs on: its Form's own tab when one is listed and
+// exists, otherwise Leads. A missing tab is created with a header row so an
+// order is never lost to a renamed sheet.
+function sheetFor(lead) {
+  var name = TABS_BY_FORM[String(lead.Form || '')];
+  if (!name) return leadsSheet();
+  var b = book();
+  var sheet = b.getSheetByName(name);
+  if (!sheet) {
+    sheet = b.insertSheet(name);
+    sheet.getRange(1, 1).setValue(RECEIVED);
+    sheet.setFrozenRows(1);
+  }
+  return sheet;
+}
+
+function isOrder(lead) {
+  return ORDER_FORMS[String(lead.Form || '')] === true;
 }
 
 // Store what the visitor typed as plain text. The leading apostrophe stops the

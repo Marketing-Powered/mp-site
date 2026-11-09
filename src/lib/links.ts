@@ -184,7 +184,7 @@ const NOINDEX = new Set<string>([
   "/get-started/thanks",
   "/get-started/qualification",
   "/search",
-  // transactional checkout page
+  // order request form
   "/cards/order",
 ]);
 

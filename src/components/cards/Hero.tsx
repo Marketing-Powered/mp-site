@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Check } from "lucide-react";
 import { Kicker, GhostCta } from "@/components/site/ui";
 import ScrollLink from "./ScrollLink";
-import { highestPlan, lowestPlan, perCard, sampleMailto, usd } from "@/lib/cards/pricing";
+import { highestPlan, lowestPlan, perCard, usd } from "@/lib/cards/pricing";
 
 const proofPoints = [
   `As low as ${usd(perCard(highestPlan))} a card`,
@@ -42,7 +42,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <ScrollLink targetId="plans">See plans from {usd(lowestPlan.price)}/mo</ScrollLink>
-            <GhostCta href={sampleMailto}>Request 10 free samples</GhostCta>
+            <GhostCta href="/cards/order?item=samples">Request 10 free samples</GhostCta>
           </div>
           <ul className="flex flex-col gap-2 pt-2">
             {proofPoints.map((point) => (

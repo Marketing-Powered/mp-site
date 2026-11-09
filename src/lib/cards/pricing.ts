@@ -1,7 +1,7 @@
 /* ================================================================== */
 /*  Powered Cards pricing and product catalog.                         */
 /*  One source of truth for the /cards product page, the kit           */
-/*  calculator, the comparison table, and the /cards/order checkout.   */
+/*  calculator, the comparison table, and the /cards/order request form. */
 /*  Prices are in USD. Change them here and every surface follows.     */
 /* ================================================================== */
 
@@ -153,6 +153,3 @@ export const highestPlan = plans[plans.length - 1];
 export const CONTACT_EMAIL = siteContent.brand.email;
 export const CONTACT_PHONE = siteContent.brand.phone;
 export const CONTACT_TEL = siteContent.brand.phoneE164;
-export const sampleMailto = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
-  "Powered Cards: 10 free sample cards",
-)}`;

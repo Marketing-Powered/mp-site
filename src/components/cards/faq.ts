@@ -15,7 +15,7 @@ export const CARDS_FAQ: { q: string; a: string }[] = [
   },
   {
     q: "Can I change my quantity, pause or cancel?",
-    a: "Yes. You can move between plans, pause or cancel under the terms shown before checkout. Before your second renewal we check usage, and if a smaller plan fits better we will recommend it.",
+    a: "Yes. You can move between plans, pause or cancel under the terms we confirm with you before your first shipment. Before your second renewal we check usage, and if a smaller plan fits better we will recommend it.",
   },
   {
     q: "How much is setup, and what costs extra?",

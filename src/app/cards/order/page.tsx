@@ -5,20 +5,21 @@ import PageShell from "@/components/site/PageShell";
 import Breadcrumbs from "@/components/site/Breadcrumbs";
 import { Kicker } from "@/components/site/ui";
 import OrderForm from "@/components/cards/OrderForm";
-import { DEFAULT_ORDER_ITEM, findOrderItem } from "@/lib/cards/orderItems";
+import { DEFAULT_ORDER_ITEM, clampAddons, findOrderItem } from "@/lib/cards/orderItems";
 
-/* Powered Cards order page: pick an item, then pay through embedded Stripe
-   Checkout. Transactional, so it stays out of the index like the other
-   utility pages (robots in lib/links NOINDEX + the metadata below).
+/* Powered Cards order request page: pick what you need, then tell us about
+   the business. No payment is taken; the request lands on the Orders tab of
+   the leads sheet and a person follows up. Transactional, so it stays out
+   of the index like the other utility pages (lib/links NOINDEX + metadata).
 
-   Rendered on the server per request so the preselected item (?item= from
-   the product tiles) is already chosen in the HTML: a visitor on a slow
-   phone sees the right selection at first paint instead of a skeleton. */
+   Rendered on the server per request so the selection carried over from the
+   product page (?item=, plus ?stands= and ?nfc= from the plan calculator) is
+   already chosen in the HTML. */
 
 const URL = "/cards/order";
 const TITLE = "Order Powered Cards | Marketing Powered";
 const DESCRIPTION =
-  "Order custom NFC review cards, tap-or-scan stands, the $250 starter bundle or a monthly branded PVC QR card plan.";
+  "Request custom NFC review cards, tap-or-scan stands, the $250 starter bundle, a monthly branded PVC QR card plan or 10 free sample cards. No payment until you approve a proof.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -30,10 +31,11 @@ export const metadata: Metadata = {
 export default async function Page({
   searchParams,
 }: {
-  searchParams: Promise<{ item?: string }>;
+  searchParams: Promise<{ item?: string; stands?: string; nfc?: string }>;
 }) {
-  const { item } = await searchParams;
+  const { item, stands, nfc } = await searchParams;
   const initialItemId = findOrderItem(item)?.id ?? DEFAULT_ORDER_ITEM;
+  const initialAddons = clampAddons(Number(stands ?? 0), Number(nfc ?? 0));
 
   return (
     <PageShell>
@@ -53,15 +55,16 @@ export default async function Page({
             className="font-serif text-[clamp(2.1rem,4.4vw,3.6rem)] font-normal leading-[1.02] text-balance"
             style={{ letterSpacing: "-0.02em" }}
           >
-            Place your order
+            Start your order
           </h1>
           <p className="max-w-prose leading-relaxed text-white/55 text-pretty">
-            Pick what you need, then check out securely. After payment our team contacts you to
-            finalize your design and review link before anything is printed.
+            Pick what you need and tell us where to send it. There is no payment on this page: we
+            reach out within one business day to confirm your design, where the cards should point
+            and the final pricing. Nothing prints until you approve a proof.
           </p>
         </div>
         <div className="mt-10">
-          <OrderForm initialItemId={initialItemId} />
+          <OrderForm initialItemId={initialItemId} initialAddons={initialAddons} />
         </div>
       </section>
     </PageShell>

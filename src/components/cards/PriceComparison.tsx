@@ -19,7 +19,7 @@ type Row = { label: string; tapTag: Value; shmo: Value; powered: Value };
 
 const rows: Row[] = [
   {
-    label: "Custom NFC review card",
+    label: "Google review tap card (custom NFC)",
     tapTag: `From ${competitorPrices.nfcCard} each`,
     shmo: `From ${competitorPrices.nfcCard} each`,
     powered: `${usd(NFC_START_PRICE)} a card (min. ${NFC_MIN_CARDS}), down to ${usd(
@@ -27,7 +27,7 @@ const rows: Row[] = [
     )} at ${NFC_FLOOR_QTY}+`,
   },
   {
-    label: "Tap-or-scan review stand",
+    label: "Google review stand (tap or scan)",
     tapTag: competitorPrices.stand,
     shmo: "Price not listed",
     powered: usd(STAND_PRICE),
@@ -78,7 +78,7 @@ export default function PriceComparison() {
           id="compare-title"
           kicker="Compared"
           title="They sell you a gadget once. We keep reviews coming every month."
-          body="Our NFC review cards cost a fraction of theirs, and our stand is priced right in line. And nobody else sends you branded PVC review cards to hand out every month."
+          body="Our Google review tap cards cost a fraction of theirs, and our stand is priced right in line. And nobody else sends you branded PVC review cards to hand out every month."
         />
 
         {/* Phones: one card per feature so the Powered Cards column is never

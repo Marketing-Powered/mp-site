@@ -79,7 +79,7 @@ export const ORDER_ITEMS: OrderItem[] = [
   })),
   ...nfcPacks.map((pack) => ({
     id: pack.id,
-    name: `${pack.name} pack: ${count(pack.cards)} custom NFC review cards`,
+    name: `${pack.name} pack: ${count(pack.cards)} Google review tap cards`,
     description: `${count(pack.cards)} tap-or-scan NFC cards in your branding, ${usd(
       pack.price / pack.cards,
     )} a card. ${pack.bestFor}.`,
@@ -134,7 +134,7 @@ export const addonsTotal = (a: OrderAddons) =>
 
 export const addonLines = (a: OrderAddons): string[] =>
   [
-    a.stands > 0 && `${a.stands} x Powered Review Stand (${usd(a.stands * STAND_PRICE)})`,
+    a.stands > 0 && `${a.stands} x Google Review Stand (${usd(a.stands * STAND_PRICE)})`,
     a.nfcCards > 0 &&
-      `${a.nfcCards} x NFC review card at ${usd(nfcUnitPrice(a.nfcCards))} (${usd(nfcTotal(a.nfcCards))})`,
+      `${a.nfcCards} x Google review tap card at ${usd(nfcUnitPrice(a.nfcCards))} (${usd(nfcTotal(a.nfcCards))})`,
   ].filter((line): line is string => Boolean(line));

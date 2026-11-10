@@ -42,8 +42,8 @@ const packageTabs: { id: PackageType; label: string; legend: string; hint: strin
   },
   {
     id: "nfc",
-    label: "NFC review cards",
-    legend: "Custom NFC review card packs",
+    label: "Google review tap cards",
+    legend: "Google review tap card packs (custom NFC)",
     hint: "Tap-or-scan NFC cards in your branding. One-time purchase, lower price per card on bigger packs.",
   },
 ];
@@ -250,7 +250,7 @@ export default function OrderForm({
               {step === "select" && (
                 <button
                   type="button"
-                  aria-label={`Remove ${i === 0 && addons.stands > 0 ? "review stands" : "NFC review cards"}`}
+                  aria-label={`Remove ${i === 0 && addons.stands > 0 ? "Google review stands" : "Google review tap cards"}`}
                   onClick={() =>
                     setAddons((a) =>
                       i === 0 && a.stands > 0 ? { ...a, stands: 0 } : { ...a, nfcCards: 0 },

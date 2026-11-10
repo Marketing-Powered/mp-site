@@ -24,9 +24,9 @@ import { absoluteUrl } from "@/lib/site";
 /* ================================================================== */
 
 const URL = "/cards";
-const TITLE = "Powered Cards | NFC Review Cards, Stands & Monthly Branded QR Cards";
+const TITLE = "Google Review Cards & NFC Review Stands from $7 | Powered Cards";
 const DESCRIPTION =
-  "Custom NFC review cards from 10 at $10 each (down to $7 at 50+), tap-or-scan stands $40, and monthly branded PVC QR cards from $1.50 a card (min. 100). 10 free samples for qualified businesses.";
+  "Custom NFC Google review cards customers tap or scan, from $10 a card down to $7 at 50+. Google review stands $40, plus monthly branded QR cards from $1.10 a card. 10 free samples for qualified businesses.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
         url: "/images/pages/cards/powered-cards-hero-white.jpg",
         width: 1376,
         height: 768,
-        alt: "Powered Cards: white PVC review cards, a Powered Review Stand and an NFC card tapped by a phone",
+        alt: "Powered Cards: white Google review cards, a Google review stand and an NFC review card tapped by a phone",
       },
     ],
   },

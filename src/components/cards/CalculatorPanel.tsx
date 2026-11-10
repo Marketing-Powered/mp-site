@@ -205,7 +205,7 @@ export default function CalculatorPanel({
           <div className="grid gap-2 sm:grid-cols-2">
             <QuantityStepper
               id="cards-stands"
-              label="Powered Review Stand"
+              label="Google Review Stand"
               itemName="one review stand"
               value={stands}
               max={MAX_STANDS}
@@ -216,8 +216,8 @@ export default function CalculatorPanel({
             />
             <QuantityStepper
               id="cards-nfc"
-              label="NFC review cards"
-              itemName={`${NFC_STEP} NFC review cards`}
+              label="Google review tap cards"
+              itemName={`${NFC_STEP} Google review tap cards`}
               value={nfcCards}
               max={NFC_MAX_CARDS}
               hint={nfcHint}
@@ -277,7 +277,7 @@ export default function CalculatorPanel({
           </div>
           <div className="flex justify-between gap-4">
             <dt className="text-white/60">
-              NFC review cards{" "}
+              Google review tap cards{" "}
               <span className="tabular-nums">
                 {nfcCards > 0 ? `(x${nfcCards} at ${usd(nfcEach)})` : "(x0)"}
               </span>

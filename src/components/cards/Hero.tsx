@@ -29,7 +29,7 @@ export default function Hero() {
             className="font-serif text-[clamp(2.3rem,5vw,4.2rem)] font-normal leading-[1.02] text-balance"
             style={{ letterSpacing: "-0.02em" }}
           >
-            Branded cards that turn every handoff into{" "}
+            Google review cards that turn every handoff into{" "}
             <span className="relative whitespace-nowrap">
               more business
               <span
@@ -42,9 +42,9 @@ export default function Hero() {
         </div>
         <div className="order-3 flex flex-col gap-6 lg:order-none">
           <p className="max-w-xl text-[clamp(1rem,1.3vw,1.18rem)] leading-relaxed text-white/55 text-pretty">
-            A monthly supply of your own branded QR cards, shipped before you run out. Customers scan
-            to book, return, contact you or leave honest feedback. Add an NFC tap stand or premium
-            card once, never on a subscription.
+            Custom Google review tap cards and stands in your branding: customers tap or scan and
+            land on your review page. Pair them with a monthly supply of branded QR cards, shipped
+            before you run out, so every customer leaves with a way to review, book or come back.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <ScrollLink targetId="plans">See plans from {usd(lowestPlan.price)}/mo</ScrollLink>
@@ -68,7 +68,7 @@ export default function Hero() {
         >
           <Image
             src="/images/pages/cards/powered-cards-hero-white.jpg"
-            alt="Powered Cards by Marketing Powered: a fanned stack of white PVC review cards with the Google G logo and five gold stars, a matching Powered Review Stand, and a white NFC card tapped by a phone"
+            alt="Powered Cards by Marketing Powered: a fanned stack of white PVC review cards with the Google G logo and five gold stars, a matching Google review stand, and a white NFC card tapped by a phone"
             width={1376}
             height={768}
             priority

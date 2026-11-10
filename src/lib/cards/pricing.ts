@@ -38,7 +38,7 @@ export type OneTimeProduct = {
   imageAlt: string;
 };
 
-/* Custom NFC review cards: volume pricing from $10 a card down to $7. */
+/* Google review tap cards (custom NFC): volume pricing from $10 a card down to $7. */
 export const NFC_MIN_CARDS = 10;
 export const NFC_MAX_CARDS = 2000;
 export const NFC_START_PRICE = 10;
@@ -65,25 +65,25 @@ export const nfcTotal = (quantity: number) =>
 export const oneTimeProducts: OneTimeProduct[] = [
   {
     id: "card",
-    name: "Custom NFC review card",
+    name: "Google Review Tap Card",
     price: NFC_START_PRICE,
     minQuantity: NFC_MIN_CARDS,
     maxQuantity: NFC_MAX_CARDS,
     quantityStep: 10,
-    description: "Tap-or-scan PVC review cards in your branding for owners, staff and the front desk.",
+    description: "Custom NFC Google review cards in your branding. Customers tap or scan to leave a review. For owners, staff and the front desk.",
     image: "/images/pages/cards/business-card.jpg",
-    imageAlt: "Custom tap-and-scan NFC review card held in hand",
+    imageAlt: "Custom NFC Google review tap card held in hand",
   },
   {
     id: "stand",
-    name: "Powered Review Stand",
+    name: "Google Review Stand",
     price: STAND_PRICE,
     minQuantity: 1,
     maxQuantity: 25,
     quantityStep: 1,
-    description: "A permanent countertop spot where customers tap or scan to leave a review.",
+    description: "An NFC Google review stand for the counter: a permanent spot where customers tap or scan to leave a review.",
     image: "/images/pages/cards/counter-stand.jpg",
-    imageAlt: "Branded tap-or-scan review stand with a QR code on a checkout counter",
+    imageAlt: "Branded tap-or-scan Google review stand with a QR code on a checkout counter",
   },
 ];
 
@@ -116,8 +116,8 @@ export const starterBundle = {
   name: "Starter bundle",
   price: 250,
   includes: [
-    "10 custom NFC review cards",
-    "Powered Review Stand",
+    "10 Google review tap cards",
+    "Google Review Stand",
     "50 branded PVC QR cards",
     "Ongoing brand and positioning monitoring",
   ],

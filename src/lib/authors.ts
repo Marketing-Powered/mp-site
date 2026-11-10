@@ -30,7 +30,7 @@ export const AUTHORS: Record<string, Author> = {
     key: "mike-hulick",
     name: "Mike Hulick",
     fullName: "Michael “Mike” Hulick",
-    jobTitle: "Founder and CEO, Marketing Powered",
+    jobTitle: "Founder, Marketing Powered",
     href: "/author/mike-hulick",
     image: "/images/authors/mike-hulick.jpg",
     imageAlt: "Mike Hulick, founder of Marketing Powered",

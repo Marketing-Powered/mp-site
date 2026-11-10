@@ -31,7 +31,7 @@ export const homeContent = {
   organization: {
     description:
       "Marketing Powered combines experienced marketing leadership, technology it owns and customizes, and execution tied to measurable growth for healthcare and multi-location organizations.",
-    founder: { name: "Mike Hulick", jobTitle: "Founder and CEO" },
+    founder: { name: "Mike Hulick", jobTitle: "Founder" },
   },
 
   cta: {

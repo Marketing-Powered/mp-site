@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 
 const LINKEDIN = AUTHOR.sameAs[0];
 
-const SUBHEAD = "Founder & CEO, Marketing Powered | Former Enterprise CMO";
+const SUBHEAD = "Founder, Marketing Powered | Former Enterprise CMO";
 const TAGLINE =
   "Commercial growth strategy • Marketing operations • Applied AI and owned infrastructure • Regulated markets";
 
@@ -72,7 +72,7 @@ const BIO: { heading: string; paragraphs: string[] }[] = [
     heading: "Executive perspective",
     paragraphs: [
       "Michael “Mike” Hulick is a marketing executive, founder, author, and applied AI strategist whose career has centered on one question: how do you turn marketing investment into lasting business growth? He has spent more than a decade building the teams, measurement systems, acquisition programs, and operating processes that connect demand to revenue. His experience spans enterprise healthcare, multi-location expansion, professional services, and complex markets where compliance, trust, and commercial performance must work together.",
-      "Hulick is the founder and CEO of [Marketing Powered](/company/about), a marketing and technology company built around experienced operators, [owned AI infrastructure](/ai-edge/owned-ai-systems), first-party intelligence, and measurable outcomes. Before launching the company in 2025, he served as Chief Marketing Officer at Haven Health Management, helping support its expansion from three locations to 24 across nine states, with more than 1,000 inpatient beds. During that period, annual revenue grew from approximately $30 million to $140 million. His responsibility was to connect marketing performance with admissions capacity, commercial strategy, and organizational execution, not simply to produce more leads.",
+      "Hulick is the founder of [Marketing Powered](/company/about), a marketing and technology company built around experienced operators, [owned AI infrastructure](/ai-edge/owned-ai-systems), first-party intelligence, and measurable outcomes. Before launching the company in 2025, he served as Chief Marketing Officer at Haven Health Management, helping support its expansion from three locations to 24 across nine states, with more than 1,000 inpatient beds. During that period, annual revenue grew from approximately $30 million to $140 million. His responsibility was to connect marketing performance with admissions capacity, commercial strategy, and organizational execution, not simply to produce more leads.",
     ],
   },
   {

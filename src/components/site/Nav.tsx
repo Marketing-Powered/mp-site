@@ -85,18 +85,41 @@ const PRIMARY_NAV = [
   },
 ];
 
+// Scroll depth past which the condensed mobile bar replaces the header.
+const SHOW_BAR_AFTER_PX = 120;
+
 export default function Nav() {
-  const [mobileOpen, setMobileOpen] = useState(false);
+  // Where the mobile menu was opened from: the in-flow header at the top of
+  // the page, or the condensed bar that follows the visitor down the page.
+  const [openedIn, setOpenedIn] = useState<"header" | "bar" | null>(null);
+  const mobileOpen = openedIn !== null;
+  const closeMobile = () => setOpenedIn(null);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const [pastHeader, setPastHeader] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setPastHeader(window.scrollY > SHOW_BAR_AFTER_PX);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const toggleMobile = (from: "header" | "bar") =>
+    setOpenedIn((cur) => (cur ? null : from));
+
+  // The bar shows once the header has scrolled away, and stays put while a
+  // menu opened from it is open. A menu opened from the header hides it.
+  const barVisible = openedIn === "bar" || (pastHeader && openedIn === null);
 
   // The drawer is in flow and taller than a phone screen, so scrolling with it
   // open leaves the visitor below it with no way back to the close button —
-  // and with the condensed bar suppressed for the rest of the page.
+  // and with the condensed bar suppressed for the rest of the page. (A menu
+  // opened from the bar scrolls inside its own panel, so this rarely fires.)
   useEffect(() => {
     if (!mobileOpen) return undefined;
     const openedAt = window.scrollY;
     const onScroll = () => {
-      if (Math.abs(window.scrollY - openedAt) > 120) setMobileOpen(false);
+      if (Math.abs(window.scrollY - openedAt) > 120) setOpenedIn(null);
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -180,58 +203,87 @@ export default function Nav() {
           <button
             aria-label="Toggle menu"
             className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white/80 lg:hidden"
-            onClick={() => setMobileOpen((v) => !v)}
+            aria-expanded={openedIn === "header"}
+            onClick={() => toggleMobile("header")}
           >
-            {mobileOpen ? "✕" : "☰"}
+            {openedIn === "header" ? "✕" : "☰"}
           </button>
         </div>
       </div>
 
-      {/* mobile drawer */}
-      {mobileOpen && (
+      {/* mobile drawer (opened from the header, at the top of the page) */}
+      {openedIn === "header" && (
         <div className="border-t border-white/8 px-6 py-4 lg:hidden">
-          {PRIMARY_NAV.map((item) => (
-            <div key={item.label} className="border-b border-white/5 py-3">
-              <Link
-                href={item.href}
-                prefetch={false}
-                onClick={() => setMobileOpen(false)}
-                className="block text-[15px] text-white/85"
-                style={{ fontFamily: mono }}
-              >
-                {item.label}
-              </Link>
-              {item.children && (
-                <div className="mt-2 flex flex-col gap-1 pl-4">
-                  {item.children.map((c) => (
-                    <Link
-                      key={c.href}
-                      href={c.href}
-                      prefetch={false}
-                      onClick={() => setMobileOpen(false)}
-                      className="py-1 text-[13px] text-white/50 transition-colors hover:text-[#7FCBFF]"
-                    >
-                      {c.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
-          <div className="mt-4 flex flex-col gap-3">
-            <ModalCta
-              href="/get-started/request-an-audit"
-              onClick={() => setMobileOpen(false)}
-              className="inline-flex justify-center rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-6 py-3 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
-            >
-              Request Audit
-            </ModalCta>
-            <CallCta className="justify-center" />
-          </div>
+          <MobileMenuLinks onNavigate={closeMobile} />
         </div>
       )}
 
-      <StickyCallBar suppressed={mobileOpen} />
+      <StickyCallBar
+        visible={barVisible}
+        menuButton={
+          <button
+            aria-label="Toggle menu"
+            aria-expanded={openedIn === "bar"}
+            className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white/80 lg:hidden"
+            onClick={() => toggleMobile("bar")}
+          >
+            {openedIn === "bar" ? "✕" : "☰"}
+          </button>
+        }
+      >
+        {/* Opened mid-page, the drawer drops down from the bar as its own
+            scrollable panel, since the header's drawer is off-screen. */}
+        {openedIn === "bar" && (
+          <div className="max-h-[calc(100dvh-4rem)] overflow-y-auto overscroll-contain border-t border-white/8 px-6 py-4">
+            <MobileMenuLinks onNavigate={closeMobile} />
+          </div>
+        )}
+      </StickyCallBar>
     </header>
+  );
+}
+
+function MobileMenuLinks({ onNavigate }: { onNavigate: () => void }) {
+  return (
+    <>
+      {PRIMARY_NAV.map((item) => (
+        <div key={item.label} className="border-b border-white/5 py-3">
+          <Link
+            href={item.href}
+            prefetch={false}
+            onClick={onNavigate}
+            className="block text-[15px] text-white/85"
+            style={{ fontFamily: mono }}
+          >
+            {item.label}
+          </Link>
+          {item.children && (
+            <div className="mt-2 flex flex-col gap-1 pl-4">
+              {item.children.map((c) => (
+                <Link
+                  key={c.href}
+                  href={c.href}
+                  prefetch={false}
+                  onClick={onNavigate}
+                  className="py-1 text-[13px] text-white/50 transition-colors hover:text-[#7FCBFF]"
+                >
+                  {c.label}
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
+      ))}
+      <div className="mt-4 flex flex-col gap-3">
+        <ModalCta
+          href="/get-started/request-an-audit"
+          onClick={onNavigate}
+          className="inline-flex justify-center rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-6 py-3 text-[12px] font-semibold uppercase tracking-[0.18em] text-black"
+        >
+          Request Audit
+        </ModalCta>
+        <CallCta className="justify-center" />
+      </div>
+    </>
   );
 }

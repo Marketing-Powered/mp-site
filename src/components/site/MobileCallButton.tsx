@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Bolt, brand } from "@/components/brand";
 import { siteContent as s } from "@/lib/content";
@@ -20,8 +19,6 @@ import { FOCUS_RING, PhoneIcon } from "./ui";
    headings on most routes — whereas a solid bar is unambiguous chrome that
    content scrolls under. */
 
-const SHOW_AFTER_PX = 120;
-
 export function MobileCallButton({ className = "" }: { className?: string }) {
   return (
     <a
@@ -35,18 +32,19 @@ export function MobileCallButton({ className = "" }: { className?: string }) {
   );
 }
 
-export function StickyCallBar({ suppressed = false }: { suppressed?: boolean }) {
-  const [pastHeader, setPastHeader] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setPastHeader(window.scrollY > SHOW_AFTER_PX);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  const visible = pastHeader && !suppressed;
-
+/* Scroll position is tracked by the owning Nav, which also needs it to decide
+   where the menu drawer opens; this component only renders the bar. */
+export function StickyCallBar({
+  visible,
+  menuButton,
+  children,
+}: {
+  visible: boolean;
+  /** The menu toggle, so the hamburger stays reachable once scrolled. */
+  menuButton?: React.ReactNode;
+  /** Content rendered below the bar (the menu drawer when opened from here). */
+  children?: React.ReactNode;
+}) {
   return (
     <div
       className={`fixed inset-x-0 top-0 z-40 border-b border-white/10 backdrop-blur-xl transition-transform duration-300 md:hidden ${
@@ -71,8 +69,12 @@ export function StickyCallBar({ suppressed = false }: { suppressed?: boolean }) 
             marketing <span style={{ color: brand.blue }}>powered</span>
           </span>
         </Link>
-        <MobileCallButton />
+        <div className="flex items-center gap-3">
+          <MobileCallButton />
+          {menuButton}
+        </div>
       </div>
+      {children}
     </div>
   );
 }

@@ -70,7 +70,7 @@ Benchmark data provides context for interpreting your test results. According to
 For advertisers in regulated healthcare verticals, creative testing carries additional constraints. 
 
 
-[Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) and [Meta's health and wellness advertising policy](https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness) restrict certain claims and targeting approaches. Behavioral health advertisers cannot use retargeting, which limits the standard 'awareness to conversion' funnel structure. Creatives must work harder in top-of-funnel placements because you cannot follow users across the web. This constraint makes rigorous creative testing even more valuable: every impression must count because you cannot recapture lost attention through retargeting.
+[Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) and Meta's health and wellness advertising policy restrict certain claims and targeting approaches. Behavioral health advertisers cannot use retargeting, which limits the standard 'awareness to conversion' funnel structure. Creatives must work harder in top-of-funnel placements because you cannot follow users across the web. This constraint makes rigorous creative testing even more valuable: every impression must count because you cannot recapture lost attention through retargeting.
 
 
 Your internal benchmarks matter more than industry averages. A 1.2% CTR might be excellent for one account and mediocre for another. Track your own historical performance, establish baselines for each campaign objective, and measure creative tests against those baselines rather than generic industry data.

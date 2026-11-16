@@ -8,7 +8,7 @@
  *   node scripts/studio-ship.mjs done <id> <commit> # report the page built (records the live URL on the card)
  *   node scripts/studio-ship.mjs failed <id> "why"  # report the page not built (the card shows the reason)
  *
- * Needs STUDIO_BUILD_TOKEN (the studio's builder token) and optionally STUDIO_API
+ * Needs the studio's builder token in .studio-ship/token (or STUDIO_BUILD_TOKEN) and optionally STUDIO_API
  * (default https://maios.marketingpowered.ai/api/studio). See .claude/skills/studio-ship/SKILL.md for the full procedure.
  */
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
@@ -18,11 +18,13 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const API = (process.env.STUDIO_API || 'https://maios.marketingpowered.ai/api/studio').replace(/\/+$/, '');
-const TOKEN = process.env.STUDIO_BUILD_TOKEN || '';
+// The token comes from the environment or from .studio-ship/token (git-ignored), so it never has to appear in a command.
+const tokenFile = join(ROOT, '.studio-ship', 'token');
+const TOKEN = (process.env.STUDIO_BUILD_TOKEN || (existsSync(tokenFile) ? readFileSync(tokenFile, 'utf8') : '')).trim();
 const WORK = join(ROOT, '.studio-ship');
 
 async function api(path, method = 'GET', body) {
-  if (!TOKEN) throw new Error('Set STUDIO_BUILD_TOKEN.');
+  if (!TOKEN) throw new Error('No builder token: put it in .studio-ship/token (or set STUDIO_BUILD_TOKEN).');
   const r = await fetch(`${API}${path}`, { method, headers: { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json', 'X-MAIOS-Actor': 'MP site builder' }, body: body ? JSON.stringify(body) : undefined });
   if (!r.ok) throw new Error(`${method} ${path}: HTTP ${r.status} ${(await r.text()).slice(0, 300)}`);
   return (r.headers.get('content-type') || '').includes('json') ? r.json() : Buffer.from(await r.arrayBuffer());

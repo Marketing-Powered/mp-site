@@ -9,7 +9,7 @@ Content Studio (maios.marketingpowered.ai/content-studio) holds the finished pag
 waits in the ship queue; the batch is **ready** once 5 minutes pass with no new card arriving. Build every ready page,
 merge to `main`, push, and report each page back. The studio shows the result on each card.
 
-`STUDIO_BUILD_TOKEN` must be set (the scheduled prompt gives it). It only opens the ship queue and image downloads.
+The builder token goes in `.studio-ship/token` (git-ignored; write it with the file tool, not on a command line). The script reads it from there. It only opens the ship queue and image downloads.
 
 ## 1. Check the queue
 

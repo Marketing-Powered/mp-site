@@ -86,6 +86,96 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/areas-we-serve/jupiter/": [
+    // [0] hero
+    studioImg(
+      "areas-we-serve/jupiter",
+      "marketing-agency-jupiter-fl.webp",
+      "A business owner and marketing lead discuss priorities at a table.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "areas-we-serve/jupiter",
+      "marketing-agency-jupiter-fl-four-marketing-problems-paired-starting.webp",
+      "Four marketing problems paired with starting scopes, from local information review to attribution and intake measurement.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "areas-we-serve/jupiter",
+      "marketing-agency-jupiter-fl-marketing-lead-reviews-website-layout.webp",
+      "A marketing lead reviews a website layout and notes about service access.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "areas-we-serve/jupiter",
+      "marketing-agency-jupiter-fl-business-owner-prepares-call-notebook.webp",
+      "A business owner prepares for a call with a notebook nearby.",
+      "3 / 2",
+    ),
+  ],
+  "/areas-we-serve/west-palm-beach/": [
+    // [0] hero
+    studioImg(
+      "areas-we-serve/west-palm-beach",
+      "marketing-agency-west-palm-beach.webp",
+      "Two colleagues in a bright office review a printed service page together at a table, with one laptop open beside them.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "areas-we-serve/west-palm-beach",
+      "marketing-agency-west-palm-beach-four-professionals-healthcare-law-home.webp",
+      "Four professionals from healthcare, law, home services and marketing discuss a whiteboard during a planning meeting in a bright conference room.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "areas-we-serve/west-palm-beach",
+      "marketing-agency-west-palm-beach-senior-marketing-leader-sketches-simple.webp",
+      "A senior marketing leader sketches a simple funnel on a whiteboard while a colleague listens in a small meeting room.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "areas-we-serve/west-palm-beach",
+      "marketing-agency-west-palm-beach-diagram-three-columns-mapping-local.webp",
+      "Diagram with three columns mapping local marketing problems (not being found, visitors who do not inquire, unknown inquiry source) to local search, Google Ads or website work, and measurement.",
+      "2 / 3",
+    ),
+  ],
+  "/resources/healthcare-marketing-roi/": [
+    // [0] hero
+    studioImg(
+      "resources/healthcare-marketing-roi",
+      "healthcare-marketing-roi.webp",
+      "A marketing lead and an admissions coordinator review a laptop together at a table in a bright office, with a printed form beside them.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/healthcare-marketing-roi",
+      "healthcare-marketing-roi-marketing-analyst-admissions-specialist.webp",
+      "A marketing analyst and an admissions specialist talk across a shared office, one at a laptop and one at an intake workstation with forms and a headset.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/healthcare-marketing-roi",
+      "healthcare-marketing-roi-five-step-flow-50-000-spend-400.webp",
+      "A five-step flow from $50,000 spend to 400 inquiries, 85 qualified inquiries, 12 unique admissions and $108,000 margin, giving an illustrative ROI of 116%.",
+      "2 / 3",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/healthcare-marketing-roi",
+      "healthcare-marketing-roi-clinical-lead-admissions-director.webp",
+      "A clinical lead, an admissions director and a marketing director review a printed definition together at a meeting table.",
+      "3 / 2",
+    ),
+  ],
   "/areas-we-serve/palm-beach-gardens/": [
     // [0] hero
     studioImg(
@@ -1704,31 +1794,34 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // The previous set framed the page for treatment centers only, prescribed a
   // single account architecture, and carried a LegitScript panel and
   // "3 to 24+ locations" results; decorative hero only.
-  "/problems/scale-multi-location-campaigns/": [DECO_FIELD],
-  "/problems/fix-lead-quality/": std4("problems/fix-lead-quality", [
-    "Resolve your lead quality challenges now: stop wasting budget on leads that never convert with targeted strategies built for behavioral health operators",
-    "From unqualified leads through lead-quality scoring to high-quality admissions",
-    "Fix lead quality, a five-step strategic process: define qualified leads, segment campaigns and content, implement lead scoring, train intake teams, and optimize and attribute admissions",
-    "Fix lead quality issues: recognize poor lead quality, improve-lead-quality strategies, and the technology enablers behind them",
-  ]),
-
-  // 01 hero carried a literal "[CTA]" token in its button; the clean concept
-  // image (02, which has a real headline) is promoted to hero. Three images.
-  "/problems/increase-qualified-calls/": [
-    pageImg(
-      "problems/increase-qualified-calls",
-      "01-hero-banner.jpg",
-      "Increase qualified calls by streamlining the path to admission: optimize every stage, from click to census",
+  "/problems/scale-multi-location-campaigns/": [
+    // [0] hero
+    studioImg(
+      "problems/scale-multi-location-campaigns",
+      "multi-location-healthcare-marketing.webp",
+      "Healthcare marketing and operations leaders review location reports together.",
+      "3 / 2",
     ),
-    pageImg(
-      "problems/increase-qualified-calls",
-      "02-concept.jpg",
-      "The process to increase qualified calls: data-driven precision targeting, smarter pre-qualification, multi-variant AI optimization, and tracked attribution to admission",
+    // [1] section image
+    studioImg(
+      "problems/scale-multi-location-campaigns",
+      "multi-location-healthcare-marketing-marketing-intake-colleagues-compare.webp",
+      "Marketing and intake colleagues compare reports at a desk.",
+      "3 / 2",
     ),
-    pageImg(
-      "problems/increase-qualified-calls",
-      "03-process.jpg",
-      "Increase qualified calls with behavioral health strategies: the drivers of unqualified calls, the AI-driven advantage, and qualified call generation results",
+    // [2] section image
+    studioImg(
+      "problems/scale-multi-location-campaigns",
+      "multi-location-healthcare-marketing-four-acquisition-measures-define.webp",
+      "Four acquisition measures to define by numerator, denominator, owner and data source.",
+      "2 / 3",
+    ),
+    // [3] section image
+    studioImg(
+      "problems/scale-multi-location-campaigns",
+      "multi-location-healthcare-marketing-marketing-local-operations-colleagues.webp",
+      "Marketing and local operations colleagues discuss a location’s capacity.",
+      "3 / 2",
     ),
   ],
 

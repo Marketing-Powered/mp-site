@@ -247,6 +247,8 @@ export { NAV } from "./nav";
 export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
   "areas-we-serve.md": [
     { href: "/areas-we-serve/palm-beach-gardens", file: "areas-we-serve/palm-beach-gardens.md" },
+    { href: "/areas-we-serve/west-palm-beach", file: "areas-we-serve/west-palm-beach.md" },
+    { href: "/areas-we-serve/jupiter", file: "areas-we-serve/jupiter.md" },
   ],
   "services/index.md": [
     { href: "/services/paid-media", file: "services/paid-media.md" },
@@ -328,6 +330,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/creative-conversion", file: "resources/creative-conversion.md" },
     { href: "/resources/ai-in-marketing", file: "resources/ai-in-marketing.md" },
     { href: "/resources/research", file: "resources/research.md" },
+    { href: "/resources/healthcare-marketing-roi", file: "resources/healthcare-marketing-roi.md" },
   ],
   "legal/index.md": [
     { href: "/legal/terms", file: "legal/terms.md" },

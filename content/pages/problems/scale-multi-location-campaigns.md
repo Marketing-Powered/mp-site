@@ -1,118 +1,163 @@
 ---
-title: "Multi-Location Marketing That Scales | Marketing Powered"
+title: "Multi-Location Healthcare Marketing | Operator Playbook"
 url: "/problems/scale-multi-location-campaigns/"
-primary_keyword: "multi-location marketing"
-secondary_keywords: "multi-location ppc, health system marketing"
-target_word_count: "1000-2000"
+primary_keyword: "multi-location healthcare marketing"
+secondary_keywords: "multi-location digital advertising, multi-location advertising"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /problems/scale-multi-location-campaigns/ with primary keyword 'multi-location marketing' and secondary keywords 'multi-location ppc' and 'health system marketing'. Word count target is 1000-2000 words. Page type: problem and capability page. Buyer target: CEO, CMO, or VP of Marketing at a hospital, health system, multi-location provider, or other distributed organization that needs coordinated campaigns, consistent execution, and comparable reporting. Revised November 6, 2026 against the Homepage Copy and Implementation Package (source audit W08; supporting-page scope 'Multi-location marketing'). The audience is broadened beyond treatment centers, the universal account-structure prescription is removed, and founder experience is attributed.
-Page type: Problem page
-Buyer target: CEO, CMO, or VP of Marketing at a health system or multi-location organization
-Word count target: 1000-2000 words
-
-
 SEO METADATA
-Title tag (56 chars): Multi-Location Marketing That Scales | Marketing Powered
-Meta description (153 chars): Multi-location marketing for health systems and multi-site providers: local search, location pages, budget allocation, comparable reporting, and rollout.
-H1: Multi-location marketing with shared standards and local relevance
-Hero image alt: Decorative (empty alt)
+Title tag: Multi-Location Healthcare Marketing | Operator Playbook
+Meta description: Compare location-level spend, qualified demand and admissions with shared definitions, budget controls and accountable healthcare reporting.
+H1: Multi-Location Healthcare Marketing: An Operator Playbook
+Hero image alt: Healthcare marketing and operations leaders review location reports together.
 
 
 PAGE COPY
 
+Multi-Location Healthcare Marketing: An Operator Playbook
+Leadership asks which locations deserve more budget. Marketing brings lead counts, intake brings qualified calls, and finance brings admissions. Without shared definitions, those reports cannot support the same decision.
+[CTA] Request an acquisition audit → /get-started/request-an-audit
+Where the operating model breaks
+Multi-location healthcare marketing needs one definition set, one reporting layer and one accountable budget owner. Compare locations and service lines using consistent acquisition stages, agreed costs and visible capacity. Then use documented triggers to decide whether to increase spend, repair measurement or address an intake constraint.
+Campaign optimization alone cannot resolve inconsistent definitions or unclear authority. This playbook covers the operating model behind those decisions for behavioral health, mental health and hospital organizations.
+Start by checking for these problems:
+* Different meanings of “lead.” One location counts every call; another counts only inquiries within its service scope.
+* Disconnected vendors. Campaign names, call routing and reporting formats differ across accounts.
+* Missing capacity context. Reports compare acquisition without showing intake availability or scheduling constraints.
+* Unowned location information. Nobody maintains a reliable inventory of hours, phone numbers, services and landing pages.
+* Negotiated budget allocation. Historical allocations continue without an explicit decision rule.
+* Unclear review authority. Marketing, operations and compliance contribute, but nobody owns approval.
+Treat these as diagnostic checks, not conclusions about an individual location. Audit hours, routing and measurement before diagnosing a demand problem.
+The commercial issue is comparability. A network-wide total can conceal the location or service line that needs intervention. A location ranking can also mislead when its underlying definitions differ.
+Define the denominators before comparing locations
+Use a written measurement dictionary. Define qualification by documented service scope and intake criteria, not call duration alone.
+Suggested acquisition-stage definitions.
+* Qualified-call rate; Numerator: Tracked calls meeting qualification criteria; Denominator: Eligible tracked calls, with exclusions documented; Owner and source: Intake; approved call-tracking records
+* Inquiry qualification rate; Numerator: Qualified, deduplicated inquiries; Denominator: All eligible, deduplicated inquiries; Owner and source: Intake; CRM or intake system
+* Booking rate; Numerator: Qualified inquiries reaching a scheduled assessment or visit; Denominator: Qualified inquiries in the same cohort; Owner and source: Operations; scheduling system
+* Assessment-to-start rate; Numerator: Completed assessments progressing to admission or new-patient start; Denominator: Completed assessments in the same cohort; Owner and source: Admissions or operations; internal stage counts
+* Cost per admission; Numerator: Agreed acquisition costs; Denominator: Attributed admissions for the stated cohort and window; Owner and source: Marketing and finance; reconciled internal reporting
+Define four reporting boundaries alongside this table:
+* Deduplication: Establish how repeat calls, forms and transfers count toward one acquisition episode. Apply the same rule across channels.
+* Reporting period: State when costs and events occurred, including the reporting cutoff.
+* Cohort: Group inquiries by their entry period, then follow their subsequent stages. Keep this separate from calendar-period activity totals.
+* Attribution window: Document how long an outcome remains eligible for source attribution and how competing sources receive credit.
+A person calling one facility and starting care at another should not become two network acquisitions. Record the acquisition source and destination location separately under approved internal handling rules.
+### Keep measurement inside appropriate boundaries
+Keep patient-level information out of ad platforms. For this scorecard, use aggregate outcome counts in access-controlled internal reporting, with privacy review of access, retention and small-group reporting.
+Google prohibits sensitive-category conversions, including health or medical information, in enhanced conversions and store sales uploads. [Google customer data policies](https://support.google.com/adspolicy/answer/7475709?hl=en)
+Cookie-banner acceptance is not a HIPAA authorization. HHS explicitly distinguishes accepting website tracking technologies from valid authorization. [HHS tracking guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html)
+Do not treat first-party collection, consent or aggregation as blanket permission to export healthcare conversion events. Review each proposed data flow against applicable requirements and the specific platform product’s rules.
+Central governance, local execution
+Centralize what must remain comparable. Assign local ownership to facts and operating conditions that locations control.
+Suggested decision-rights matrix.
+* Definitions, naming and tracking standards; Accountable central role: Analytics lead; Local responsibility: Apply standards and flag exceptions
+* Cross-location budget allocation; Accountable central role: Named executive budget owner; Local responsibility: Supply capacity and market context
+* Campaign and landing-page standards; Accountable central role: Marketing lead; Local responsibility: Propose accurate local variations
+* Claims and policy review; Accountable central role: Designated compliance or legal owner; Local responsibility: Confirm location-specific facts
+* Intake responsiveness and availability; Accountable central role: Operations leadership; Local responsibility: Maintain staffing and scheduling information
+* Listings and review-response process; Accountable central role: Central marketing standard owner; Local responsibility: Maintain details and escalate sensitive replies
+Give the budget owner written authority, an escalation path and a decision log. Regional campaign controls should specify which changes local teams can make without approval.
+For local versus national spend, keep shared brand activity distinct from location-level acquisition. Finance and marketing should agree how shared costs are allocated, and show that allocation separately.
+For facility and service-line considerations, see the approach for [hospitals and health systems](/who-we-help/hospitals-and-health-systems).
+Align paid media and local search with decisions
+Multi-location digital advertising should make the decisions leadership needs possible without creating unnecessary account fragmentation.
+### Paid media structure
+Choose campaign boundaries that support location and service-line decisions without fragmenting low-volume programs. Document how spend is assigned when campaigns serve multiple facilities.
+Use consistent campaign names, approved conversion definitions and location identifiers. Review geographic settings against the intended catchment and available acquisition evidence. Keep verified local details, including services, hours and contact routes, aligned between ads and landing pages.
+Build policy review into launch approval. Google’s healthcare advertising eligibility varies by service and geography. [Google healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en)
+For U.S. recovery-oriented drug and alcohol addiction services, Google requires LegitScript certification and Google certification. This is a service-specific requirement, not a blanket requirement for every hospital or mental health advertiser. [Google U.S. healthcare advertising requirements](https://support.google.com/adspolicy/answer/176031?hl=en)
+### Location-level SEO
+At the network level, assign an owner for each location’s website information, listings and review-response process. Maintain a shared inventory of addresses, phone numbers, hours, services and page URLs.
+Keep local SEO execution distinct from cross-site governance. The executive reporting question is whether every location has accurate information, a usable acquisition path and accountable upkeep.
+Include crawlability, indexing controls and location-page structure in launch checks. These are addressed within [technical SEO and performance](/services/web-development/technical-seo-and-performance).
+Build a service-line P&L view
+Do not assume one address represents one acquisition economy. Compare location and service-line combinations before rolling results into regional totals.
+Build a finance-supported view containing:
+* Direct media spend and agreed acquisition costs.
+* Qualified inquiries, completed assessments and admissions or new-patient starts.
+* Available capacity and scheduling constraints.
+* Finance-supplied contribution assumptions.
+* Shared-cost allocations, with their method visible.
+Cost per admission = agreed acquisition costs ÷ attributed admissions for the stated cohort and attribution window.
+Specify whether “acquisition costs” means media only or includes management, technology and allocated overhead. Use the same cost basis in comparisons.
+Connected stages support location-level acquisition reporting. Calculate location-level ROI only when finance supplies the return measure and agreed cost allocation. Label forecasts and estimated contribution values as estimates, with an owner and effective date.
+If attributed admissions are zero, show the count and mark cost per admission as not calculable. Do not display zero cost.
+Attribution describes how credit is assigned. Do not present attributed outcomes as proof that advertising caused every outcome.
+Set budget reallocation triggers
+Multi-site budget governance needs rules for acting, investigating and holding steady. Set thresholds using your own volume, reporting lag, capacity and financial priorities rather than adopting an unsupported benchmark.
+Suggested budget-action rules.
+* Spend outside the approved pacing band; Evidence to inspect: Actual spend against the agreed schedule; Action and owner: Paid media lead reviews pacing
+* Intake or scheduling constraint; Evidence to inspect: Response backlog and available appointments; Action and owner: Budget owner and operations consider holding or shifting growth spend
+* Sustained acquisition-cost gap; Evidence to inspect: Comparable cohorts, cost basis and outcome volume; Action and owner: Budget owner commissions diagnosis before reallocation
+* Suspected tracking failure; Evidence to inspect: Event loss, routing changes or reconciliation mismatch; Action and owner: Analytics owner validates measurement before performance-based cuts
+* Insufficient evidence; Evidence to inspect: Low outcome count or immature cohort; Action and owner: Budget owner extends observation
+* Additional staffed capacity; Evidence to inspect: Confirmed availability and acceptable acquisition economics; Action and owner: Budget owner considers a controlled increase
+Record each decision’s reason, owner and review point. Specify what evidence would reverse it.
+Do not automatically send all available budget to the lowest-cost location. Consider strategic access priorities, capacity and service-line economics alongside acquisition efficiency.
+Diagnose an underperforming location in sequence
+Use this sequence to rule out measurement and operating constraints before changing media:
+* Check tracking. If form events disappear after a website change, test submission and event capture before calling it a demand decline.
+* Check classification. If qualified-call rates diverge, confirm teams apply the same criteria and exclusions.
+* Check intake and capacity. If inquiries remain steady but bookings fall, inspect routing, response and availability.
+* Check local information. Confirm hours, services, phone numbers and landing-page accuracy.
+* Check media relevance. Review geographic reach, search terms, messaging and page-to-query alignment.
+* Reassess market opportunity. Review demand assumptions only after earlier checks are complete.
+These are diagnostic examples, not measured results. Assign an owner and record the finding at each step.
+Use a decision-ready healthcare location reporting dashboard
+The field list below is a schematic, not patient data or measured performance. Use one row per location and service line, with regional summaries above it.
+Suggested dashboard fields.
+* Identity; Include: Location, region, service line, accountable owner
+* Investment; Include: Planned spend, actual spend, shared-cost allocation
+* Demand; Include: Tracked calls, qualified calls, deduplicated qualified inquiries
+* Progression; Include: Bookings, completed assessments, admissions or new-patient starts
+* Efficiency; Include: Clearly labeled stage rates and costs per outcome
+* Operations; Include: Response time, available capacity, scheduling constraint
+* Reliability; Include: Cohort, attribution window, data cutoff, tracking status
+* Decision; Include: Trigger status, action, owner, next review
+Display outcome counts beside ratios. Calculate regional ratios from summed numerators and denominators rather than averaging location percentages.
+Keep unknown-source outcomes visible. A cleaner-looking attribution report is not worth hiding an unresolved measurement gap. Where cohorts are immature, label results provisional.
+Use text labels such as “capacity available,” “capacity constrained” and “investigation required,” rather than relying on color alone.
+Executive history: 3 to 24 locations
+Our founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations. This is prior executive experience, not Marketing Powered agency client performance. [Founder background](/services/paid-media)
+That history does not establish which operating changes caused growth. The framework here is guidance for structuring decisions, not a reconstruction of confidential former-employer operations.
+Location launch checklist
+Use the same readiness standard for a new facility, service line or acquired location.
+### Before activation
+* Add the location, service lines, owners and capacity to the shared inventory.
+* Confirm qualification criteria with intake.
+* Test call routing, forms and approved measurement.
+* Verify website and listing details.
+* Review landing-page claims and local information.
+* Check crawl access, indexing controls, canonical settings and mobile usability.
+* Confirm campaign geography, naming and budget authority.
+* Record applicable policy, certification and privacy approvals.
+* Add the location to reporting, including cohort and attribution rules.
+### During initial operation
+* Reconcile inquiry counts across approved internal systems.
+* Check classification consistency and duplicate handling.
+* Confirm intake availability and response ownership.
+* Review geographic reach and inquiry relevance.
+* Resolve listing and landing-page discrepancies.
+* Apply reallocation rules only when the agreed evidence requirements are met.
+Keep exceptions visible. A location awaiting measurement approval should not appear fully comparable with established sites.
+When to bring in outside help
+Prioritize fixes in dependency order: marketing and intake define stages; analytics validates reporting; operations confirms capacity; finance approves cost allocation; the executive owner authorizes budget moves.
+Consider outside support when vendors cannot reconcile data, account structures prevent location-level decisions, or launch volume exceeds review capacity.
+Keep the work focused on the constraint: paid media structure, qualified demand, attribution, conversion paths or cross-location governance. Adding another dashboard without resolving ownership leaves the decision problem intact.
+Request an acquisition audit
+Discuss location-level spend, qualified demand, measurement gaps and budget ownership. A location inventory review is a useful starting point.
+[Request an acquisition audit](/company/contact). The first step is a fit conversation about your organization, priorities and current measurement.
+Do not submit patient information.
 
-Multi-location marketing with shared standards and local relevance
-Coordinated campaigns across hospitals, health systems, and multi-location providers need shared standards, local relevance, and reporting leadership can compare. This page describes how we approach that problem.
-[CTA] Request a Free Audit
-
-
-Where Multi-Location Marketing Breaks Down
-A single-site campaign can be managed by hand. A network of sites cannot. Location information drifts, budgets are allocated by habit, each site reports a different number, and new locations launch without the standards the established ones took years to build.
-* Inconsistent location information: hours, addresses, phone numbers, and service lists differ between the website, business profiles, directories, and ads.
-* Budget by habit: established sites keep their historical share while new sites starve, or every site gets the same amount regardless of market.
-* Reporting that cannot be compared: each site defines a conversion differently, so leadership cannot tell which locations are performing.
-* Rollouts without a standard: every new site becomes a one-off project, and the same mistakes are repeated.
-* Unclear review roles: marketing, operations, compliance, and local leadership all have a say, but nobody owns the decision.
-Account Structure Is Decided per Organization
-There is no single account architecture that fits every organization. The right structure depends on how many brands you operate, how many markets you serve, how service lines are organized, and what reporting leadership needs.
-A health system with one brand and many service lines usually needs campaigns organized by service line with location layered beneath. A provider with several regional brands may need separate accounts with shared standards. A franchise-style network may need something else again. We decide the structure with you after reviewing the operation, and we document why.
-What stays constant is the standard: consistent naming, shared conversion definitions, shared exclusion lists where they make sense, and a documented approval process for new campaigns and creative.
-Local Search and Location Pages
-### Business profile hygiene
-Local search depends on accurate, consistent location data. We audit business profiles, directory listings, and on-site location information, fix the inconsistencies, and set an ownership process so they stay fixed. Categories, service lists, hours, and phone numbers are maintained per location.
-### Location-page structure
-Each location needs a page that answers what people search for: the services offered there, who it serves, how to reach it, and how to take the next step. Our [website development](/services/web-development) work builds location pages on a consistent template with structured data for each location, and we preserve useful existing URLs rather than renaming them.
-### Technical foundation
-Crawlable location pages, correct canonical tags, and fast load times matter more as a site grows. Our [technical SEO](/services/web-development/technical-seo-and-performance) work covers site structure and performance for multi-location sites.
-Budget Allocation Across Sites
-We allocate a baseline to each location so every site maintains presence, then weight incremental budget by performance: conversion value per cost, where higher is better, and available capacity at the site. New locations get a defined ramp budget and a review date rather than an open-ended trial.
-Allocation is reviewed on the cadence set in your engagement. We propose weekly operating checks for pacing and anomalies and a monthly executive review for reallocation decisions. Changes are recorded so leadership can see why a site's budget moved.
-Our [paid media](/services/paid-media) work applies the same discipline inside each campaign: qualified demand, campaign economics, and operating capacity evaluated together.
-Comparable Reporting
-Reporting across sites is only useful when every site measures the same thing. We define each conversion once (inquiry, qualified inquiry, scheduled, admitted or seen, where the data supports it), apply the same cost basis, and report every location against the same definitions.
-Call tracking routes and identifies calls by location. CRM integration connects inquiries to downstream outcomes. Our [analytics and attribution](/services/analytics-and-attribution) work covers identifier handling, deduplication, and the limits of the data, and reporting distinguishes measured outcomes from estimates.
-The result is a view leadership can act on: which locations convert, which have demand they cannot absorb, and which need a different approach rather than more budget.
-Rollout Sequence
-We sequence rollouts rather than launching everything at once.
-* Pilot: one or two sites that represent the network, run on the documented standard, with reporting validated against the CRM.
-* Standardize: templates, naming, conversion definitions, approval workflows, and a launch checklist captured from the pilot.
-* Expand: remaining sites launched in waves, each against the checklist, with a review before the next wave.
-* Maintain: ownership assigned for location data, creative refresh, and budget review so the standard holds after launch.
-Governance and Review Roles
-Multi-location organizations usually have several reviewers: marketing, operations, compliance or legal, and local leadership. We define who approves what before implementation: campaign launches, creative, location information changes, budget moves, and data integrations. Deployment boundaries and data handling are agreed in planning, and we work within your review process.
-For [hospitals and health systems](/who-we-help/hospitals-and-health-systems), that usually includes service-line leaders and an integration discovery step with your IT or digital team. We treat procurement and governance requirements as part of the plan, not as obstacles to work around.
-Experience With Expansion
-Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend.
-That expansion required repeatable launch processes, location-level reporting leadership could compare, and budget decisions that accounted for each market. It is prior executive experience, not agency client work, and it informs how we approach multi-location work today. Our homepage describes how this fits our work with [health systems](/#hospitals).
-Start With Your Location Inventory
-Request an audit and we will review your location data, site structure, account structure, budget allocation, and reporting, then show you where consistency is breaking down.
-[CTA] Request a Free Audit
 FAQ
-Q: What is multi-location marketing?
-A: Multi-location marketing coordinates campaigns across geographically distinct sites while keeping shared standards, local relevance, and reporting that leadership can compare. It covers location data and local search, location-page structure, account structure, budget allocation across sites, comparable conversion definitions, rollout sequencing, and clear review roles.
-Q: Should every location have its own ad account?
-A: Not necessarily. Account structure depends on how many brands you operate, how many markets you serve, how service lines are organized, and what reporting leadership needs. Some organizations run one account with location-level campaigns; others need separate accounts with shared standards. We decide with you after reviewing the operation and document the reasoning.
-Q: How should budget be allocated across locations?
-A: Give each location a baseline so it maintains presence, then weight incremental budget by performance and capacity. Use conversion value per cost as the working metric, give new locations a defined ramp and review date, and review allocation on a set cadence with changes recorded.
-Q: How do you make reporting comparable across sites?
-A: Define each conversion once, apply the same cost basis to every site, route and identify calls by location, and connect inquiries to CRM outcomes where the data supports it. Report every location against the same definitions and distinguish measured outcomes from estimates.
-Q: Does this apply to hospitals and health systems?
-A: Yes. Health systems add service-line priorities, several reviewers, and integration discovery with IT or digital teams. The same disciplines apply: shared standards, local relevance, comparable reporting, and a rollout sequence that respects governance requirements.
-SCHEMA RECOMMENDATION
-Schema type: BreadcrumbList (+ optional Service)
-* BreadcrumbList is rendered by the Breadcrumbs component: Home > Problems > Multi-Location Marketing.
-* Optional Service: name "Multi-Location Marketing", provider Marketing Powered (site-wide Organization entity), areaServed United States.
-* No FAQPage markup.
-
-
-DELIVERY NOTES
-Revision basis
-* Homepage Copy and Implementation Package, November 6, 2026: source audit W08 (broaden beyond treatment centers; avoid universal account-structure prescriptions; address local search, rollout sequencing, and comparable reporting) and the 'Multi-location marketing' scope. Claims register C01 to C05, C06, C15.
-
-
-Claims removed from the previous version
-* The agency-wide spend total in the meta description and FAQ, and the monthly spend figure framed as current management across many accounts. The monthly figure now appears only as founder responsibility during his prior tenure.
-* The overclaiming "frameworks" lead and the treatment-center-only framing throughout.
-* The single-account prescription presented as correct for every organization.
-* The heading built on a banned verb, the pre-flight compliance checks claim routed through the AI Edge hub, and certification-body language.
-* Links to a non-existent sober-living page and to the book-a-call route; "Book Your Free Strategy Call" CTAs replaced with the site-wide audit request.
-
-
-External citations
-* Removed: Google location targeting and location extension documentation, and the certification-body page, because the revised copy no longer relies on them.
-
-
-Approvals pending
-* Founder figures C01 to C05 need Mike's final sign-off on wording.
-* The proposed weekly operating check and monthly executive review (C06) need approval.
-* Health system positioning is capability framing only (C15); no hospital client, engagement, or result is implied.
-
-
-Internal links
-* /#hospitals, /who-we-help/hospitals-and-health-systems (created in this release), /services/web-development, /services/web-development/technical-seo-and-performance, /services/analytics-and-attribution, /services/paid-media.
-
-
-Image note
-* The previous hero, concept, process, and results graphics were removed from the page's image set: they carried treatment-center framing, an overclaiming subtitle, a single-account prescription, a certification-body logo, a "3 to 24+ locations" label, and a free strategy call button. The hero is now decorative photography with empty alt text.
+Q: How do CMOs compare spend and patient acquisition across locations?
+A: Use shared stage definitions, consistent cost allocation and comparable cohorts. Show outcome volume, attribution limits and capacity beside each ratio. Compare service lines before rolling results into regional totals.
+Q: How should multi-location healthcare marketing be measured against qualified calls or admissions?
+A: Report both, separately. Use qualified calls as an earlier acquisition signal and admissions or new-patient starts as downstream outcomes when internal data supports attribution. Keep calendar-period activity separate from cohort progression.
+Q: Should every location have separate campaigns?
+A: No. Choose boundaries that support budget control and reporting without unnecessarily splitting low-volume programs. Document how shared campaigns assign spend to locations.
+Q: How should local versus national spend be handled?
+A: Separate shared brand investment from location acquisition. Agree on allocation rules with finance, preserve local capacity input and assign cross-location budget authority centrally.
+Q: Does this operating model replace local SEO?
+A: No. It defines standards, ownership and reporting across sites. Local SEO execution addresses individual locations’ search presence within that framework.

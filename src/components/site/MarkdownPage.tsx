@@ -190,6 +190,7 @@ export default function MarkdownPage({
                 src={heroImg?.src}
                 alt={heroImg?.alt}
                 fit={heroImg?.fit}
+                sizes="(max-width: 1023px) calc(100vw - 48px), 600px"
                 priority
               />
             </div>
@@ -248,17 +249,23 @@ export default function MarkdownPage({
                 // dashed placeholder.
                 if (!sectionImg) return null;
                 const ratio = sectionImg.ratio ?? "16 / 9";
-                const narrow = ratio !== "16 / 9";
+                // Landscape images (16:9, 3:2) use the full content width;
+                // square artwork (quote cards) a narrow column; tall portrait
+                // graphics a narrower one so they fit on a laptop screen.
+                const [rw, rh] = ratio.split("/").map(Number);
+                const shape = rw / rh;
+                const width = shape < 0.8 ? "max-w-md" : shape < 1.4 ? "max-w-xl" : "max-w-5xl";
+                // Frame width = column max width minus its padding (px-6, lg:px-12).
+                const shown = shape < 0.8 ? 352 : shape < 1.4 ? 480 : 928;
                 return (
-                  <div
-                    className={`mx-auto px-6 py-8 lg:px-12 ${narrow ? "max-w-xl" : "max-w-5xl"}`}
-                  >
+                  <div className={`mx-auto px-6 py-8 lg:px-12 ${width}`}>
                     <ImageSlot
                       label={label}
                       ratio={ratio}
                       src={sectionImg.src}
                       alt={sectionImg.alt}
                       fit={sectionImg.fit}
+                      sizes={`(max-width: ${shown + 96}px) calc(100vw - 48px), ${shown}px`}
                     />
                   </div>
                 );

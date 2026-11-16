@@ -42,6 +42,19 @@ const pageImg = (route: string, file: string, alt: string): SlotImg => ({
   fit: "contain",
 });
 
+/* Photos and graphics shipped from MAIOS Content Studio (scripts/studio-ship.mjs).
+   They are full-bleed artwork with their own background, unlike the brand
+   graphics above, which sit on a white artboard. So they fill the frame edge
+   to edge (`cover`) and the frame takes the file's own aspect ratio: no white
+   bands, no padding and no cropping. Portrait and square images get a narrower
+   column (see MarkdownPage). */
+const studioImg = (route: string, file: string, alt: string, ratio: string): SlotImg => ({
+  src: `/images/pages/${route}/${file}`,
+  alt,
+  fit: "cover",
+  ratio,
+});
+
 /* Square / portrait artwork (quote cards) gets its own frame ratio so it is not
    letterboxed inside a 16:9 slot. */
 const shaped = (ratio: string, img: SlotImg): SlotImg => ({ ...img, ratio });
@@ -75,106 +88,122 @@ const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   "/areas-we-serve/palm-beach-gardens/": [
     // [0] hero
-    pageImg(
+    studioImg(
       "areas-we-serve/palm-beach-gardens",
-      "01-hero.jpg",
+      "marketing-agency-palm-beach-gardens.webp",
       "A business owner and a marketing lead reviewing a printed inquiry log next to a laptop showing a call log.",
+      "3 / 2",
     ),
     // [1] section image
-    pageImg(
+    studioImg(
       "areas-we-serve/palm-beach-gardens",
-      "02-section.jpg",
+      "marketing-agency-palm-beach-gardens-practice-manager-clinical-staff-member.webp",
       "A practice manager and a clinical staff member discussing scheduling in a bright clinic hallway.",
+      "3 / 2",
     ),
     // [2] section image
-    pageImg(
+    studioImg(
       "areas-we-serve/palm-beach-gardens",
-      "03-section.jpg",
+      "marketing-agency-palm-beach-gardens-front-desk-coordinator-answering-inquiry.webp",
       "A front-desk coordinator answering an inquiry call while a colleague takes notes at a reception desk.",
+      "3 / 2",
     ),
     // [3] section image
-    pageImg(
+    studioImg(
       "areas-we-serve/palm-beach-gardens",
-      "04-section.jpg",
+      "marketing-agency-palm-beach-gardens-five-questions-judging-marketing.webp",
       "Five questions for judging marketing performance: where the inquiry came from, whether it was a real prospect, what happened next, whether it holds up by service line and location, and whether the record can be shown.",
+      "2 / 3",
     ),
   ],
   "/services/mental-health-seo/": [
     // [0] hero
-    pageImg(
+    studioImg(
       "services/mental-health-seo",
-      "01-hero.jpg",
+      "mental-health-seo.webp",
       "Two staff members review a call log and scheduling screen together at a bright clinic reception counter, with empty waiting room chairs in the background.",
+      "3 / 2",
     ),
     // [1] section image
-    pageImg(
+    studioImg(
       "services/mental-health-seo",
-      "02-section.jpg",
+      "mental-health-seo-practice-owner-operations-lead-review.webp",
       "A practice owner and operations lead review a list of clinic locations together on a wall monitor in a meeting room.",
+      "3 / 2",
     ),
     // [2] section image
-    pageImg(
+    studioImg(
       "services/mental-health-seo",
-      "03-section.jpg",
+      "mental-health-seo-clinician-marketing-coordinator-review.webp",
       "A clinician and a marketing coordinator review a draft clinician biography together on a laptop in a quiet office.",
+      "3 / 2",
     ),
     // [3] section image
-    pageImg(
+    studioImg(
       "services/mental-health-seo",
-      "04-section.jpg",
+      "mental-health-seo-three-column-diagram-showing-visibility.webp",
       "Three-column diagram showing visibility, conversion and measurement checks for a mental health SEO diagnosis, with two checks under each heading.",
+      "2 / 3",
     ),
   ],
   "/who-we-help/behavioral-health/substance-use-disorder/": [
     // [0] hero
-    pageImg(
+    studioImg(
       "who-we-help/behavioral-health/substance-use-disorder",
-      "01-hero.jpg",
+      "rehab-marketing-agency.webp",
       "Admissions coordinator taking a phone call at a desk in a bright office, with a colleague working in the background.",
+      "3 / 2",
     ),
     // [1] section image
-    pageImg(
+    studioImg(
       "who-we-help/behavioral-health/substance-use-disorder",
-      "02-section.jpg",
+      "rehab-marketing-agency-two-treatment-center-leaders-reviewing.webp",
       "Two treatment center leaders reviewing a whiteboard that lists programs and open capacity in a conference room.",
+      "3 / 2",
     ),
     // [2] section image
-    pageImg(
+    studioImg(
       "who-we-help/behavioral-health/substance-use-disorder",
-      "03-section.jpg",
+      "rehab-marketing-agency-admissions-director-marketing-lead.webp",
       "Admissions director and marketing lead reviewing a printed monthly report together in a meeting room.",
+      "3 / 2",
     ),
     // [3] section image
-    pageImg(
+    studioImg(
       "who-we-help/behavioral-health/substance-use-disorder",
-      "04-section.jpg",
+      "rehab-marketing-agency-marketing-lead-admissions-director.webp",
       "A marketing lead and an admissions director review the same laptop together at a desk.",
+      "3 / 2",
     ),
   ],
   "/areas-we-serve/": [
     // [0] hero
-    pageImg(
+    studioImg(
       "areas-we-serve",
-      "01-hero.jpg",
+      "south-florida-marketing-services.webp",
       "A marketing lead and a practice owner review a printed page and a laptop together at a bright office table.",
+      "3 / 2",
     ),
     // [1] section image
-    pageImg(
+    studioImg(
       "areas-we-serve",
-      "02-section.jpg",
+      "south-florida-marketing-services-map-palm-beach-county-showing-marketing.webp",
       "Map of Palm Beach County showing Marketing Powered's base in Palm Beach Gardens and the areas served, West Palm Beach and Jupiter.",
+      "3 / 2",
     ),
     // [2] section image
-    pageImg(
+    studioImg(
       "areas-we-serve",
-      "03-section.jpg",
+      "south-florida-marketing-services-marketing-coordinator-colleague-compare.webp",
       "A marketing coordinator and a colleague compare service pages on a tablet at a desk.",
+      "3 / 2",
     ),
     // [3] section image
-    pageImg(
+    studioImg(
       "areas-we-serve",
-      "04-section.jpg",
+      "south-florida-marketing-services-four-step-flow-reviewing-existing-search.webp",
       "Four-step flow from reviewing existing search, website and ad accounts, through sharing access, a senior team review, and agreed scoping.",
+      "3 / 2",
     ),
   ],
   // Only the abstract hero remains. The founder-quote, growth-framework, and
@@ -298,32 +327,35 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
 
   /* ---- PPC sub-cluster (migrated legacy pages) ---- */
 
-  // Migrated from the live WordPress site. Real page photography preserved as
-  // the hero (cover fit on the dark artboard); section slots use brand graphics.
+  // Refreshed from MAIOS Content Studio (Nov 16, 2026).
   "/services/ppc/": [
     // [0] hero
-    pageImg(
+    studioImg(
       "services/ppc",
-      "01-hero.jpg",
+      "ai-ppc-agency.webp",
       "Two colleagues review printed campaign reports at a conference table, one pointing at a figure while the other reads handwritten notes beside a laptop.",
+      "3 / 2",
     ),
     // [1] section image
-    pageImg(
+    studioImg(
       "services/ppc",
-      "02-section.jpg",
+      "ai-ppc-agency-admissions-coordinator-wearing-headset.webp",
       "An admissions coordinator wearing a headset takes notes on a pad during a phone call at a desk in a bright office.",
+      "3 / 2",
     ),
     // [2] section image
-    pageImg(
+    studioImg(
       "services/ppc",
-      "03-section.jpg",
+      "ai-ppc-agency-chief-executive-marketing-operator.webp",
       "A chief executive and a marketing operator review a four-point checklist together at a table.",
+      "3 / 2",
     ),
     // [3] section image
-    pageImg(
+    studioImg(
       "services/ppc",
-      "04-section.jpg",
+      "ai-ppc-agency-two-paid-media-team-members-review.webp",
       "Two paid media team members review a printed list of search terms, one marking a line with a pen while the other checks a second monitor.",
+      "3 / 2",
     ),
   ],
 
@@ -1842,6 +1874,12 @@ const POOLS: Record<string, SlotImg[]> = {
   problems: [STATS, PROCESS, QUOTE, TAKEAWAYS],
   "get-started": [HERO, ICONS, QUOTE, TAKEAWAYS],
 };
+
+/** A page's own (non-decorative) images, for the image sitemap. Shared pool art is left out. */
+export function ownPageImages(url: string): SlotImg[] {
+  const withSlash = url.endsWith("/") ? url : `${url}/`;
+  return (ROUTE_OVERRIDES[withSlash] ?? []).filter((i) => i.alt);
+}
 
 export function pageImages(url: string): SlotImg[] {
   // Per-page hand-picked sets win over the shared segment pool. Normalize the

@@ -16,11 +16,11 @@ PAGE COPY
 
 A marketing agency Palm Beach Gardens businesses can evaluate
 Choose marketing by the business decisions it helps you make. Which services attract qualified inquiries? Where does the website lose people? What happens after someone calls?
+[CTA] Request a local visibility review → /get-started/request-an-audit
+Who this work fits
 Marketing Powered connects acquisition, websites and measurement around those questions. Our service scope includes paid media, search, website development, analytics and attribution. [Marketing Powered services overview](/company/about)
-[CTA] CONVERSION: Local Visibility Review → /get-started/request-an-audit
 [Request a strategy call](/company/contact?campaign=palm-beach-gardens-strategy) or [call (561) 560-6804](tel:+15615606804). [Contact information](/company/contact)
 [Areas We Serve](/areas-we-serve) / Palm Beach Gardens.
-Who this work fits
 This page is for Palm Beach County owners and marketing leads choosing where to invest next, not simply looking for a longer list of marketing services.
 Consider the work when:
 * Your healthcare organization needs service-line clarity. Separate inquiries for different services and locations rather than treating every contact as equally relevant.

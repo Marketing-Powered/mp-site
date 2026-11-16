@@ -16,10 +16,10 @@ PAGE COPY
 
 AI PPC Management with Owned Optimization Systems
 Before you hire an ai ppc agency, ask which acquisition decision it will improve. More campaign activity is not the objective. Better decisions about search intent, qualified demand and available treatment capacity are.
-Marketing Powered brings operator experience to that evaluation. Our founder previously managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. That is the founder’s operating history, not an agency performance claim.
-The priority: connect paid media decisions to inquiries your organization can serve.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 When specialized PPC management makes sense
+Marketing Powered brings operator experience to that evaluation. Our founder previously managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. That is the founder’s operating history, not an agency performance claim.
+The priority: connect paid media decisions to inquiries your organization can serve.
 Consider agency support when:
 * Search inquiries do not match your services, geography or admissions criteria.
 * Multiple facilities compete for budget without comparable qualification standards.

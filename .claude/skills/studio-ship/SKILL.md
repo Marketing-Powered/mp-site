@@ -36,8 +36,14 @@ node scripts/studio-ship.mjs import <id>             # one page at a time
 ```
 
 `import` writes `content/pages/<path>.md` (the site's brief format), creates `src/app/<path>/page.tsx` for a new page,
-converts the chosen images to JPG under `public/images/pages/<path>/`, and registers the page in `src/lib/links.ts`
+saves the chosen images under `public/images/pages/<path>/`, and registers the page in `src/lib/links.ts`
 (VALID, which also feeds the sitemap), `src/lib/pages.ts` (HUB_CHILDREN) and `src/components/site/pageImages.ts`.
+
+Images are saved as WebP (longest side 1600px) with descriptive file names (`<primary-keyword>-<what-it-shows>.webp`)
+and embedded metadata (description/alt, title, creator, copyright; generated images are marked as AI-generated with the
+IPTC digital source type). They are registered with `studioImg(..., ratio)`: shown edge to edge at their own aspect
+ratio, never on a white artboard. Pages with their own images list them in the image sitemap automatically.
+`node scripts/studio-ship.mjs reimage <id>` rebuilds a built page's images the same way.
 It prints a report. If import fails, run `node scripts/studio-ship.mjs failed <id> "<reason>"` and continue with the
 others.
 
@@ -62,17 +68,40 @@ others.
     $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts; court-certified expert witness
     in advertising strategy; AI-native since 2022; LegitScript-aware and HIPAA-aware; attribution tracked to admission;
     owned, local AI infrastructure for HIPAA-aware inference.
-- **Images:** alt text describes the image; hero first, then at most three section images.
+- **Images:** alt text describes what the image shows in one sentence (under about 150 characters); hero first, then
+  at most three section images. A hub page (`HubPage`) shows only one image (the overview, the second registered).
 
-## 5. Verify
+## 5. Verify, then review it like a designer
 
 ```bash
 npm run lint
 npm run build
+npm run start &                                                   # http://localhost:3000
+node scripts/page-ui-check.mjs <path> <path> ...                  # every new or changed page
 ```
 
-Both must pass. Then start the site (`npm run start`) and screenshot each new or changed page at 1280px and 390px wide.
-Look for paragraphs rendered as headings, missing images or broken layout, and fix them.
+Lint and build must pass, and `page-ui-check` must exit 0. It loads each page at 1280px and 390px in a real browser,
+saves full-page screenshots to `.studio-ship/shots/`, and fails on: a page that is not 200, horizontal scrolling, not
+exactly one H1, broken images, images without alt, **letterboxed images** (empty bands inside the frame) and images
+cropped by more than 12%. Fix every error. Fix warnings on pages you built (a "soft" image means the `sizes` hint is
+narrower than the frame).
+
+Then open the desktop and phone screenshot of every page and review it as a UI/UX designer would. Fix anything that
+fails before merging:
+
+- **Images:** photos run edge to edge in their frame; no white bands, borders or padding around a photo; faces and the
+  subject are not cut off; no two images in a row without copy between them; a portrait graphic sits in a narrow
+  column, not a full-width slot; text inside a graphic is readable on the phone screenshot (if not, drop that image).
+- **Hero:** the H1, one short lead paragraph, a button with a plain action label ("Request an acquisition audit", never
+  a note such as "CONVERSION: …"), and the hero image (hub pages have none). No raw Markdown (`[text](/link)`, `**`,
+  `#`) anywhere on the page.
+- **Reading:** headings read as headings (no paragraph rendered as a heading or the reverse); sections open with a
+  sentence, not a list; lists are 2 to 8 items; no wall of text longer than about 6 paragraphs without a heading,
+  list or image; line length stays in the content column.
+- **Phone:** nothing overflows or is clipped; buttons are full, tappable targets; tables and long words wrap.
+- **Consistency:** compare with a well-built page of the same type (for example `/who-we-help/behavioral-health` for
+  a who-we-help page, `/services/google-ads-management` for a service page): same hero pattern, spacing and image
+  treatment.
 
 ## 6. Merge, push, report
 

@@ -16,10 +16,10 @@ PAGE COPY
 
 Rehab Marketing Agency for Addiction Treatment Admissions
 More inquiries are not the same as a stronger admissions pipeline. If your marketing report ends at the call or form, it cannot explain whether spending supports the programs and locations with available capacity.
-Marketing Powered is an operator-led rehab marketing agency focused on that connection: qualified demand, clear intake pathways and attribution tracked to admission where authorized data supports it.
-For CEOs, COOs, CMOs and admissions leaders, the starting point is a shared question: Which acquisition decisions can your data actually support?
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Executive experience behind the approach
+Marketing Powered is an operator-led rehab marketing agency focused on that connection: qualified demand, clear intake pathways and attribution tracked to admission where authorized data supports it.
+For CEOs, COOs, CMOs and admissions leaders, the starting point is a shared question: Which acquisition decisions can your data actually support?
 Our founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations. The founder also managed $1.5 to $2 million per month in Google Ads across 11+ behavioral and mental health accounts.
 Those are the founder’s historical operating responsibilities, not Marketing Powered client results.
 That background informs the commercial standard here: evaluate marketing alongside program capacity, intake performance and admissions economics, rather than treating campaign activity as the outcome.

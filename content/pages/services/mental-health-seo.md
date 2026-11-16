@@ -16,9 +16,9 @@ PAGE COPY
 
 Mental Health SEO Services for Clinics
 More search traffic is not the same as a fuller appointment calendar. A useful mental health seo program connects discovery, accurate service information and intake, then measures how qualified inquiries become scheduled first appointments.
-Marketing Powered’s approach starts with that acquisition path, not a publishing quota. This page focuses on group practices, outpatient clinics and psychiatry networks. Solo and small-practice clinicians can start with [SEO for therapists](/services/therapist-seo).
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 When to bring in an SEO partner
+Marketing Powered’s approach starts with that acquisition path, not a publishing quota. This page focuses on group practices, outpatient clinics and psychiatry networks. Solo and small-practice clinicians can start with [SEO for therapists](/services/therapist-seo).
 Consider outside help when the search program no longer matches the operation:
 * You are adding capacity. A new location, clinician or specialty needs a clear place in the acquisition plan.
 * Inquiry quality is uneven. Review whether pages accurately explain services, payment options and locations before pursuing more visits.

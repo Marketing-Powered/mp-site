@@ -15,8 +15,8 @@ Hero image alt: A marketing lead and a practice owner review a printed page and 
 PAGE COPY
 
 South Florida marketing services: Areas we serve
-Local visibility should connect the right buyer with the right service, then make the next step clear. Marketing Powered’s base is in Palm Beach Gardens. This page helps owners and marketing leads in Palm Beach Gardens, West Palm Beach and Jupiter identify where to focus, what to discuss and how to start. [Contact Marketing Powered](/company/contact).
-[CTA] CONVERSION: Local Visibility Review → /get-started/request-an-audit
+Local visibility should connect the right buyer with the right service, then make the next step clear. Marketing Powered’s base is in Palm Beach Gardens. This page helps owners and marketing leads in Palm Beach Gardens, West Palm Beach and Jupiter identify where to focus, what to discuss and how to start.
+[CTA] Request a local visibility review → /get-started/request-an-audit
 Where we work
 Palm Beach Gardens is our base, not one entry in a list of implied offices. West Palm Beach and Jupiter are areas served, not additional office locations.
 For buyers comparing Palm Beach County marketing services, the useful starting point is your operating footprint: where you deliver services, which locations need demand and how far customers reasonably travel.

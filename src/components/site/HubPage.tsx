@@ -96,10 +96,11 @@ export default function HubPage({
             <div className="mx-auto max-w-5xl px-6 py-8 lg:px-12">
               <ImageSlot
                 label="Capabilities Overview"
-                ratio="16 / 9"
+                ratio={overviewImg?.ratio ?? "16 / 9"}
                 src={overviewImg?.src}
                 alt={overviewImg?.alt}
                 fit={overviewImg?.fit}
+                sizes="(max-width: 1024px) calc(100vw - 48px), 928px"
               />
             </div>
           )}

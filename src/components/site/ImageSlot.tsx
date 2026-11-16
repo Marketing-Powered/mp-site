@@ -16,6 +16,7 @@ export default function ImageSlot({
   alt,
   fit = "contain",
   priority = false,
+  sizes = "(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 60vw",
 }: {
   label: string;
   ratio?: string;
@@ -26,6 +27,8 @@ export default function ImageSlot({
   /** Hero slot only: preloads the image and marks it fetchpriority=high so
       it is the LCP candidate instead of a lazy request discovered late. */
   priority?: boolean;
+  /** Width the frame is actually shown at, so the browser downloads a copy that is sharp, not one sized for 60vw. */
+  sizes?: string;
 }) {
   if (src) {
     const frame = (
@@ -43,7 +46,7 @@ export default function ImageSlot({
           fill
           priority={priority}
           quality={72}
-          sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 60vw"
+          sizes={sizes}
           className={fit === "contain" ? "object-contain" : "object-cover"}
           style={
             fit === "contain"

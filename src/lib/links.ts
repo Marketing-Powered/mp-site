@@ -156,6 +156,9 @@ const VALID = new Set<string>([
   "/top-10-open-source-ai-models-of-2025",
   "/sitemap",
   "/search",
+  "/areas-we-serve",
+  "/services/mental-health-seo",
+  "/areas-we-serve/palm-beach-gardens",
 ]);
 
 const REMAP: Record<string, string> = {

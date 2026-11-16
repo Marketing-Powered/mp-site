@@ -73,6 +73,110 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/areas-we-serve/palm-beach-gardens/": [
+    // [0] hero
+    pageImg(
+      "areas-we-serve/palm-beach-gardens",
+      "01-hero.jpg",
+      "A business owner and a marketing lead reviewing a printed inquiry log next to a laptop showing a call log.",
+    ),
+    // [1] section image
+    pageImg(
+      "areas-we-serve/palm-beach-gardens",
+      "02-section.jpg",
+      "A practice manager and a clinical staff member discussing scheduling in a bright clinic hallway.",
+    ),
+    // [2] section image
+    pageImg(
+      "areas-we-serve/palm-beach-gardens",
+      "03-section.jpg",
+      "A front-desk coordinator answering an inquiry call while a colleague takes notes at a reception desk.",
+    ),
+    // [3] section image
+    pageImg(
+      "areas-we-serve/palm-beach-gardens",
+      "04-section.jpg",
+      "Five questions for judging marketing performance: where the inquiry came from, whether it was a real prospect, what happened next, whether it holds up by service line and location, and whether the record can be shown.",
+    ),
+  ],
+  "/services/mental-health-seo/": [
+    // [0] hero
+    pageImg(
+      "services/mental-health-seo",
+      "01-hero.jpg",
+      "Two staff members review a call log and scheduling screen together at a bright clinic reception counter, with empty waiting room chairs in the background.",
+    ),
+    // [1] section image
+    pageImg(
+      "services/mental-health-seo",
+      "02-section.jpg",
+      "A practice owner and operations lead review a list of clinic locations together on a wall monitor in a meeting room.",
+    ),
+    // [2] section image
+    pageImg(
+      "services/mental-health-seo",
+      "03-section.jpg",
+      "A clinician and a marketing coordinator review a draft clinician biography together on a laptop in a quiet office.",
+    ),
+    // [3] section image
+    pageImg(
+      "services/mental-health-seo",
+      "04-section.jpg",
+      "Three-column diagram showing visibility, conversion and measurement checks for a mental health SEO diagnosis, with two checks under each heading.",
+    ),
+  ],
+  "/who-we-help/behavioral-health/substance-use-disorder/": [
+    // [0] hero
+    pageImg(
+      "who-we-help/behavioral-health/substance-use-disorder",
+      "01-hero.jpg",
+      "Admissions coordinator taking a phone call at a desk in a bright office, with a colleague working in the background.",
+    ),
+    // [1] section image
+    pageImg(
+      "who-we-help/behavioral-health/substance-use-disorder",
+      "02-section.jpg",
+      "Two treatment center leaders reviewing a whiteboard that lists programs and open capacity in a conference room.",
+    ),
+    // [2] section image
+    pageImg(
+      "who-we-help/behavioral-health/substance-use-disorder",
+      "03-section.jpg",
+      "Admissions director and marketing lead reviewing a printed monthly report together in a meeting room.",
+    ),
+    // [3] section image
+    pageImg(
+      "who-we-help/behavioral-health/substance-use-disorder",
+      "04-section.jpg",
+      "A marketing lead and an admissions director review the same laptop together at a desk.",
+    ),
+  ],
+  "/areas-we-serve/": [
+    // [0] hero
+    pageImg(
+      "areas-we-serve",
+      "01-hero.jpg",
+      "A marketing lead and a practice owner review a printed page and a laptop together at a bright office table.",
+    ),
+    // [1] section image
+    pageImg(
+      "areas-we-serve",
+      "02-section.jpg",
+      "Map of Palm Beach County showing Marketing Powered's base in Palm Beach Gardens and the areas served, West Palm Beach and Jupiter.",
+    ),
+    // [2] section image
+    pageImg(
+      "areas-we-serve",
+      "03-section.jpg",
+      "A marketing coordinator and a colleague compare service pages on a tablet at a desk.",
+    ),
+    // [3] section image
+    pageImg(
+      "areas-we-serve",
+      "04-section.jpg",
+      "Four-step flow from reviewing existing search, website and ad accounts, through sharing access, a senior team review, and agreed scoping.",
+    ),
+  ],
   // Only the abstract hero remains. The founder-quote, growth-framework, and
   // results-stats graphics carried the expert-witness credential, "AI-native
   // since 2022", a $50M+ spend total, and the former employer's name (held
@@ -197,9 +301,30 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // Migrated from the live WordPress site. Real page photography preserved as
   // the hero (cover fit on the dark artboard); section slots use brand graphics.
   "/services/ppc/": [
-    { src: "/images/pages/services/ppc/01-hero.jpg", alt: "AI-driven PPC campaign management: smarter performance at scale", fit: "cover" },
-    { src: "/images/pages/services/ppc/02-body.jpg", alt: "Google Ads Keyword Planner on a mobile device — choosing the right keywords", fit: "cover" },
-    { src: "/images/pages/services/ppc/03-body.jpg", alt: "PPC performance dashboard: clicks, impressions, average CTR and position over time", fit: "cover" },
+    // [0] hero
+    pageImg(
+      "services/ppc",
+      "01-hero.jpg",
+      "Two colleagues review printed campaign reports at a conference table, one pointing at a figure while the other reads handwritten notes beside a laptop.",
+    ),
+    // [1] section image
+    pageImg(
+      "services/ppc",
+      "02-section.jpg",
+      "An admissions coordinator wearing a headset takes notes on a pad during a phone call at a desk in a bright office.",
+    ),
+    // [2] section image
+    pageImg(
+      "services/ppc",
+      "03-section.jpg",
+      "A chief executive and a marketing operator review a four-point checklist together at a table.",
+    ),
+    // [3] section image
+    pageImg(
+      "services/ppc",
+      "04-section.jpg",
+      "Two paid media team members review a printed list of search terms, one marking a line with a pen while the other checks a second monitor.",
+    ),
   ],
 
   // Hero is the page's original photographic banner (cover); the two in-article
@@ -416,16 +541,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "Data-driven residential treatment center marketing: 100% regulatory fluency, zero platform shutdowns, proven admission and cost-per-admission performance",
     ),
   ],
-
-  "/who-we-help/behavioral-health/substance-use-disorder/": std4(
-    "who-we-help/behavioral-health/substance-use-disorder",
-    [
-      "Expert rehab marketing for substance use disorder: scaling census with operator-built attribution and AI-native precision",
-      "The rehab marketing engine: operator expertise and scaling, data-forward decision making, and optimized patient acquisition",
-      "Our specialized rehab marketing process: compliant audit, strategic build, full-funnel attribution, and continuous optimization to admission",
-      "Specialized rehab marketing data and results: lower cost per admission, full admission attribution, and measurable census growth",
-    ],
-  ),
 
   "/who-we-help/behavioral-health/adolescent-treatment/": std4(
     "who-we-help/behavioral-health/adolescent-treatment",

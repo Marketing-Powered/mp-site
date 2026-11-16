@@ -245,6 +245,9 @@ export { NAV } from "./nav";
 
 /* hub → child source files, used to build card grids */
 export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
+  "areas-we-serve.md": [
+    { href: "/areas-we-serve/palm-beach-gardens", file: "areas-we-serve/palm-beach-gardens.md" },
+  ],
   "services/index.md": [
     { href: "/services/paid-media", file: "services/paid-media.md" },
     { href: "/services/meta-ads-management", file: "services/meta-ads-management.md" },
@@ -261,6 +264,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/services/ppc", file: "services/ppc/index.md" },
     { href: "/services/llm-advertising", file: "services/llm-advertising/index.md" },
     { href: "/services/web-development", file: "services/web-development/index.md" },
+    { href: "/services/mental-health-seo", file: "services/mental-health-seo.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },

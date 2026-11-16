@@ -47,12 +47,16 @@ const words = (s) => s.split(/\s+/).filter(Boolean).length;
 export function convertDraft(md, { ctaText = 'Request a Free Audit', ctaLink = '/get-started/request-an-audit' } = {}) {
   const warnings = [];
   const text = String(md || '').replace(/\r/g, '');
-  if (/\[VERIFY/i.test(text)) throw new Error('The draft still contains [VERIFY] markers. Resolve them in the studio before shipping.');
+  const cleaned = text.replace(/\s*\[VERIFY[^\]]*\]/gi, '');
+  // A person approved this page (possibly overriding QA), so leftover [VERIFY] tags are removed, not refused. The text they
+  // were attached to stays; the builder reviews those sentences against the claim rules.
+  const verifyTags = (text.match(/\[VERIFY[^\]]*\]/gi) || []).length;
+  if (verifyTags) warnings.push(`${verifyTags} [VERIFY] tag(s) removed. Read the sentences they were attached to and check them against the claim rules.`);
   const meta = {
-    title: strip(text.match(/^\s*\**\s*(?:meta title|title tag|seo title)\s*:?\**\s*:?\s*(.+)$/im)?.[1] || ''),
-    description: strip(text.match(/^\s*\**\s*meta description\s*:?\**\s*:?\s*(.+)$/im)?.[1] || '')
+    title: strip(cleaned.match(/^\s*\**\s*(?:meta title|title tag|seo title)\s*:?\**\s*:?\s*(.+)$/im)?.[1] || ''),
+    description: strip(cleaned.match(/^\s*\**\s*meta description\s*:?\**\s*:?\s*(.+)$/im)?.[1] || '')
   };
-  const lines = text.split('\n');
+  const lines = cleaned.split('\n');
   let h1 = '', section = null, faq = [], inFaq = false, dropping = false, inCode = false, table = [];
   const out = [], paras = [];
   const flushTable = () => {

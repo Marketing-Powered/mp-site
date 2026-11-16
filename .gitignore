@@ -7,3 +7,6 @@ out/
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
+
+# MAIOS Content Studio ship downloads (scripts/studio-ship.mjs)
+.studio-ship/

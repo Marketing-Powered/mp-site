@@ -47,10 +47,13 @@ const words = (s) => s.split(/\s+/).filter(Boolean).length;
 export function convertDraft(md, { ctaText = 'Request a Free Audit', ctaLink = '/get-started/request-an-audit' } = {}) {
   const warnings = [];
   const text = String(md || '').replace(/\r/g, '');
-  const cleaned = text.replace(/\s*\[VERIFY[^\]]*\]/gi, '');
+  const placeholderRe = /\s*\[(?:PHONE|INTERNAL LINK|EVIDENCE SLOT|EVIDENCE|TBD|TODO|INSERT|PLACEHOLDER|CONFIRM)\b[^\]]*\]/gi;
+  const placeholders = (text.match(placeholderRe) || []).length;
+  const cleaned = text.replace(/\s*\[VERIFY[^\]]*\]/gi, '').replace(placeholderRe, '');
   // A person approved this page (possibly overriding QA), so leftover [VERIFY] tags are removed, not refused. The text they
   // were attached to stays; the builder reviews those sentences against the claim rules.
   const verifyTags = (text.match(/\[VERIFY[^\]]*\]/gi) || []).length;
+  if (placeholders) warnings.push(`${placeholders} bracketed placeholder(s) such as [PHONE: …] removed. Check the sentences still read correctly.`);
   if (verifyTags) warnings.push(`${verifyTags} [VERIFY] tag(s) removed. Read the sentences they were attached to and check them against the claim rules.`);
   const meta = {
     title: strip(cleaned.match(/^\s*\**\s*(?:meta title|title tag|seo title)\s*:?\**\s*:?\s*(.+)$/im)?.[1] || ''),

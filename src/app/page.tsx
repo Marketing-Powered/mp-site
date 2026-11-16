@@ -265,8 +265,17 @@ export default function HomePage() {
       {/* ---------- 05 OWNED INFRASTRUCTURE ---------- */}
       <section id="infrastructure" className="relative z-10 border-y border-white/8 py-24 lg:py-28">
         <div className="mx-auto max-w-7xl px-6 lg:px-12">
-          <div className="grid gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-            <Reveal variant="blur" className="relative order-2 lg:order-1">
+          {/* Phones: heading, image, then paragraphs. Desktop: image on the
+              left, heading and paragraphs stacked in the right column. */}
+          <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:grid-rows-[auto_auto] lg:gap-x-14 lg:gap-y-8">
+            <Reveal className="lg:col-start-2 lg:row-start-1 lg:self-end">
+              <H2>{c.infrastructure.h2}</H2>
+            </Reveal>
+            <Reveal
+              variant="blur"
+              delay={120}
+              className="relative lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:self-center"
+            >
               <Figure
                 src={c.infrastructure.image}
                 alt={c.infrastructure.imageAlt}
@@ -274,17 +283,12 @@ export default function HomePage() {
                 fit="cover"
               />
             </Reveal>
-            <div className="order-1 lg:order-2">
-              <Reveal>
-                <H2>{c.infrastructure.h2}</H2>
-              </Reveal>
-              <div className="mt-8 space-y-5">
-                {c.infrastructure.paragraphs.map((p, i) => (
-                  <Reveal key={i} delay={80 + i * 60}>
-                    <Prose text={p} />
-                  </Reveal>
-                ))}
-              </div>
+            <div className="space-y-5 lg:col-start-2 lg:row-start-2">
+              {c.infrastructure.paragraphs.map((p, i) => (
+                <Reveal key={i} delay={80 + i * 60}>
+                  <Prose text={p} />
+                </Reveal>
+              ))}
             </div>
           </div>
 

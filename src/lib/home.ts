@@ -118,9 +118,9 @@ export const homeContent = {
       "We design [multi-location marketing](/problems/scale-multi-location-campaigns) around shared standards and local market needs. Your leadership team can compare performance without forcing every site into the same campaign.",
       "Data handling and governance belong in the planning discussion because they shape which information can move between systems. We work within your review process, with responsibilities and deployment boundaries defined before implementation.",
     ],
-    /* Decorative: a marketing leader working a strategy document and a
-       performance dashboard. No client logos or engagement imagery. */
-    image: "/images/pages/home/home-experience-marketing-leader.jpg",
+    /* Decorative: a leadership team reviewing a performance dashboard in a
+       conference room. No client logos or engagement imagery. */
+    image: "/images/pages/home/home-experience-conference-room.jpg",
     imageAlt: "",
   },
 

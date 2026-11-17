@@ -86,6 +86,156 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/services/multi-location-healthcare-seo/": [
+    // [0] hero
+    studioImg(
+      "services/multi-location-healthcare-seo",
+      "multi-location-healthcare-seo.webp",
+      "Healthcare leaders reviewing a site map together in a meeting room.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "services/multi-location-healthcare-seo",
+      "multi-location-healthcare-seo-photo-who-needs-multi-location.webp",
+      "Photo · Who needs multi-location healthcare SEO, and when to bring in an agenc",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/multi-location-healthcare-seo",
+      "multi-location-healthcare-seo-two-colleagues-reviewing-location.webp",
+      "Two colleagues reviewing a location information change request.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/multi-location-healthcare-seo",
+      "multi-location-healthcare-seo-two-colleagues-reviewing-abstract.webp",
+      "Two colleagues reviewing an abstract website structure on a laptop and paper.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/rehab-advertising-guide/": [
+    // [0] hero
+    studioImg(
+      "resources/rehab-advertising-guide",
+      "rehab-advertising.webp",
+      "Marketing and admissions leaders review a planning sheet together.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/rehab-advertising-guide",
+      "rehab-advertising-admissions-marketing-leads-discuss.webp",
+      "Admissions and marketing leads discuss a document at a desk.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/rehab-advertising-guide",
+      "rehab-advertising-marketing-lead-compliance-reviewer.webp",
+      "A marketing lead and compliance reviewer examine a laptop together.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/rehab-advertising-guide",
+      "rehab-advertising-three-team-members-discuss-launch-plan.webp",
+      "Three team members discuss a launch plan around a meeting table.",
+      "3 / 2",
+    ),
+  ],
+  "/services/healthcare-lead-generation/": [
+    // [0] hero
+    studioImg(
+      "services/healthcare-lead-generation",
+      "healthcare-lead-generation.webp",
+      "Healthcare marketing leader and admissions director reviewing performance data together in a conference room.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "services/healthcare-lead-generation",
+      "healthcare-lead-generation-healthcare-operations-leader-examining.webp",
+      "Healthcare operations leader examining reports and metrics to evaluate lead generation performance.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "services/healthcare-lead-generation",
+      "healthcare-lead-generation-illustrative-flow-showing-inquiry-moving.webp",
+      "Illustrative flow showing an inquiry moving through intake, qualification and disposition to a scheduled appointment or admission, with branches for inquiries that do not qualify.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "services/healthcare-lead-generation",
+      "healthcare-lead-generation-diagram-showing-which-data-client-owns.webp",
+      "Diagram showing which data the client owns and how it moves between client systems and Marketing Powered's tools.",
+      "1600 / 1067",
+    ),
+  ],
+  "/resources/legitscript-certification-guide/": [
+    // [0] hero
+    studioImg(
+      "resources/legitscript-certification-guide",
+      "legitscript-certification.webp",
+      "Healthcare leadership team in a strategy meeting reviewing compliance and marketing documents.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/legitscript-certification-guide",
+      "legitscript-certification-flow-diagram-showing-legitscript.webp",
+      "Flow diagram showing LegitScript certification as one of six steps between deciding to advertise and measuring qualified admissions.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/legitscript-certification-guide",
+      "legitscript-certification-compliance-marketing-professionals.webp",
+      "Compliance and marketing professionals preparing and organizing documentation for certification review.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/legitscript-certification-guide",
+      "legitscript-certification-wireframe-dashboard-certification.webp",
+      "Wireframe of a dashboard with a certification milestone timeline and a funnel from calls to admissions. Values are placeholders.",
+      "1600 / 1067",
+    ),
+  ],
+  "/services/rehab-lead-generation/": [
+    // [0] hero
+    studioImg(
+      "services/rehab-lead-generation",
+      "rehab-lead-generation.webp",
+      "Marketing and admissions leaders review a laptop together.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "services/rehab-lead-generation",
+      "rehab-lead-generation-admissions-lead-marketing-colleague.webp",
+      "An admissions lead and marketing colleague review a laptop together.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/rehab-lead-generation",
+      "rehab-lead-generation-six-stages-measurement-inquiry-through.webp",
+      "Six stages of measurement from inquiry through admission, with reporting dependent on available, authorized data.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/rehab-lead-generation",
+      "rehab-lead-generation-three-column-comparison-marketing.webp",
+      "Three-column comparison of marketing, admissions and shared responsibilities in the acquisition process.",
+      "2 / 3",
+    ),
+  ],
   "/resources/rehab-ppc-vs-seo/": [
     // [0] hero
     studioImg(
@@ -1146,20 +1296,33 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // Hero swapped to the clean concept (02) — Asana's 01 hero was unbalanced with
   // garbled labels. Three clean images.
   "/who-we-help/mental-health/": [
-    pageImg(
+    // [0] hero
+    studioImg(
       "who-we-help/mental-health",
-      "01-hero-banner.jpg",
-      "Intelligent mental health marketing: data-forward growth from mental health needs to admissions-focused attribution",
+      "mental-health-marketing-agency.webp",
+      "Practice leader and admissions coordinator review scheduling capacity together.",
+      "3 / 2",
     ),
-    pageImg(
+    // [1] section image
+    studioImg(
       "who-we-help/mental-health",
-      "02-concept.jpg",
-      "The Marketing Powered mental health acceleration process: compliance foundation, omnichannel deployment, conversion optimization, attribution, growth scale",
+      "mental-health-marketing-agency-clinic-operations-manager-clinician.webp",
+      "A clinic operations manager and clinician discuss a weekly capacity plan.",
+      "3 / 2",
     ),
-    pageImg(
+    // [2] section image
+    studioImg(
       "who-we-help/mental-health",
-      "03-process.jpg",
-      "Measuring impact for mental health admissions: prioritizing qualified leads over volume, key metrics that matter, compliance and category expertise",
+      "mental-health-marketing-agency-marketing-specialist-intake-coordinator.webp",
+      "A marketing specialist and intake coordinator discuss an inquiry handoff.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "who-we-help/mental-health",
+      "mental-health-marketing-agency-practice-leaders-compare-planning-sheets.webp",
+      "Practice leaders compare planning sheets during a multi-location discussion.",
+      "3 / 2",
     ),
   ],
 

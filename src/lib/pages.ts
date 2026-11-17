@@ -270,6 +270,9 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/services/healthcare-ppc", file: "services/healthcare-ppc.md" },
     { href: "/services/drug-rehab-seo", file: "services/drug-rehab-seo.md" },
     { href: "/services/rehab-ppc", file: "services/rehab-ppc.md" },
+    { href: "/services/rehab-lead-generation", file: "services/rehab-lead-generation.md" },
+    { href: "/services/healthcare-lead-generation", file: "services/healthcare-lead-generation.md" },
+    { href: "/services/multi-location-healthcare-seo", file: "services/multi-location-healthcare-seo.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },
@@ -342,6 +345,8 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/addiction-treatment-content-marketing", file: "resources/addiction-treatment-content-marketing.md" },
     { href: "/resources/treatment-center-marketing-audit-checklist", file: "resources/treatment-center-marketing-audit-checklist.md" },
     { href: "/resources/rehab-ppc-vs-seo", file: "resources/rehab-ppc-vs-seo.md" },
+    { href: "/resources/legitscript-certification-guide", file: "resources/legitscript-certification-guide.md" },
+    { href: "/resources/rehab-advertising-guide", file: "resources/rehab-advertising-guide.md" },
   ],
   "legal/index.md": [
     { href: "/legal/terms", file: "legal/terms.md" },

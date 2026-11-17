@@ -183,6 +183,11 @@ const VALID = new Set<string>([
   "/resources/hipaa-compliant-analytics",
   "/resources/healthcare-marketing-compliance-checklist",
   "/resources/multi-location-healthcare-reporting",
+  "/resources/behavioral-health-marketing-strategies",
+  "/services/healthcare-local-seo",
+  "/services/patient-acquisition-marketing",
+  "/resources/in-house-vs-agency-behavioral-health",
+  "/services/local-seo",
 ]);
 
 const REMAP: Record<string, string> = {

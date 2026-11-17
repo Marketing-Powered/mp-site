@@ -86,6 +86,179 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/services/local-seo/": [
+    // [0] hero
+    studioImg(
+      "services/local-seo",
+      "local-seo-services.webp",
+      "A service business owner and colleague review a laptop and phone at a desk.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "services/local-seo",
+      "local-seo-services-marketing-lead-business-owner-review.webp",
+      "A marketing lead and business owner review tasks together at a desk.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/local-seo",
+      "local-seo-services-office-manager-checks-schedule-working.webp",
+      "An office manager checks a schedule while working at a laptop.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/local-seo",
+      "local-seo-services-two-operations-colleagues-compare.webp",
+      "Two operations colleagues compare folders and notes at a meeting table.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/in-house-vs-agency-behavioral-health/": [
+    // [0] hero
+    studioImg(
+      "resources/in-house-vs-agency-behavioral-health",
+      "in-house-vs-agency-behavioral-health-marketing.webp",
+      "Healthcare executives in a meeting discussing marketing staffing options around a conference table.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/in-house-vs-agency-behavioral-health",
+      "in-house-vs-agency-behavioral-health-marketing-matrix-comparing-six-marketing-functions.webp",
+      "Matrix comparing six marketing functions across in-house, shared, and agency ownership.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/in-house-vs-agency-behavioral-health",
+      "in-house-vs-agency-behavioral-health-marketing-flow-ad-spend-admission-showing-where.webp",
+      "Flow from ad spend to admission showing where tracking data can be lost.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/in-house-vs-agency-behavioral-health",
+      "in-house-vs-agency-behavioral-health-marketing-healthcare-operations-leader-reviewing.webp",
+      "Healthcare operations leader reviewing cost model spreadsheets and reports at a desk.",
+      "1600 / 1067",
+    ),
+  ],
+  "/services/patient-acquisition-marketing/": [
+    // [0] hero
+    studioImg(
+      "services/patient-acquisition-marketing",
+      "patient-acquisition-marketing.webp",
+      "Marketing and admissions leaders review a planning sheet together.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "services/patient-acquisition-marketing",
+      "patient-acquisition-marketing-photo-who-needs-patient-acquisition.webp",
+      "Photo · Who needs patient acquisition marketing, and when to bring in an agenc",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/patient-acquisition-marketing",
+      "patient-acquisition-marketing-diagram-connecting-demand-intake.webp",
+      "Diagram connecting demand, intake and capacity as three parts of an acquisition diagnosis.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/patient-acquisition-marketing",
+      "patient-acquisition-marketing-diagram-how-patient-acquisition.webp",
+      "Diagram · How patient acquisition marketing should be measured against admission",
+      "3 / 2",
+    ),
+  ],
+  "/services/healthcare-local-seo/": [
+    // [0] hero
+    studioImg(
+      "services/healthcare-local-seo",
+      "healthcare-local-seo.webp",
+      "Healthcare marketing leader reviewing multi-site location maps and reports in a professional office.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "services/healthcare-local-seo",
+      "healthcare-local-seo-healthcare-operations-marketing-leaders.webp",
+      "Healthcare operations and marketing leaders discussing multi-site performance reports in an office.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "services/healthcare-local-seo",
+      "healthcare-local-seo-infographic-how-should-healthcare-local.webp",
+      "Infographic · How should healthcare local SEO be measured against qualified calls an",
+      "1600 / 1067",
+    ),
+  ],
+  "/resources/behavioral-health-marketing-strategies/": [
+    // [0] hero
+    studioImg(
+      "resources/behavioral-health-marketing-strategies",
+      "marketing-strategies-for-behavioral-health.webp",
+      "Behavioral health admissions and marketing leaders reviewing census and call reports in a strategy meeting.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/behavioral-health-marketing-strategies",
+      "marketing-strategies-for-behavioral-health-acquisition-chain-diagram-showing-seven.webp",
+      "Acquisition chain diagram showing seven stages from demand to admission with accountable owners for behavioral health marketing.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/behavioral-health-marketing-strategies",
+      "marketing-strategies-for-behavioral-health-matrix-table-assigning-accountable.webp",
+      "Matrix table assigning accountable owners, measures and failure signals to each stage of behavioral health patient acquisition.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/behavioral-health-marketing-strategies",
+      "marketing-strategies-for-behavioral-health-healthcare-operations-leader-analyzing.webp",
+      "Healthcare operations leader analyzing illustrative acquisition funnel data on office monitors.",
+      "1600 / 1067",
+    ),
+  ],
+  "/resources/mental-health-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/mental-health-marketing",
+      "mental-health-marketing-strategies.webp",
+      "Mental health practice owner reviewing acquisition reports at her desk.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/mental-health-marketing",
+      "mental-health-marketing-strategies-outpatient-mental-health-clinic-leaders.webp",
+      "Outpatient mental health clinic leaders discussing operations in a professional setting.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/mental-health-marketing",
+      "mental-health-marketing-strategies-infographic-showing-qualified-inquiry.webp",
+      "Infographic showing the qualified inquiry ladder with measured ratios from inquiries to attended first appointments.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/mental-health-marketing",
+      "mental-health-marketing-strategies-healthcare-leader-reviewing-acquisition.webp",
+      "Healthcare leader reviewing an acquisition audit map and checklist.",
+      "1600 / 1067",
+    ),
+  ],
   "/resources/multi-location-healthcare-reporting/": [
     // [0] hero
     studioImg(
@@ -1143,85 +1316,34 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // Hero swapped to the clean funnel graphic; the original 01 hero had a garbled headline.
   // Every graphic in this set carried "20-40%" results, "HIPAA compliant
   // infrastructure", or a literal "[CTA]" placeholder; decorative hero only.
-  "/services/call-tracking-and-intake-attribution/": [DECO_ROWS],
-  /* ---- Services cluster (P1 additions) ---- */
-
-  "/services/conversion-rate-optimization/": std4("services/conversion-rate-optimization", [
-    "Effective conversion rate optimization services built on $50M+ in behavioral health media spend",
-    "Data-driven CRO funnel: from website visitors through A/B testing to qualified admission inquiries and census impact",
-    "Our CRO process: audit and analysis, hypothesis development, A/B and multi-variant testing, attribution connectivity, validate and scale",
-    "CRO services summary: data-driven and specialized, rigorous testing methodology, optimizing the intake journey, full-funnel attribution",
-  ]),
-
-  "/services/microsoft-ads-management/": std4("services/microsoft-ads-management", [
-    "Microsoft Ads management dashboard for behavioral health: qualified admissions, lower cost per admission, AI-optimized bidding",
-    "Maximize growth with Microsoft Ads management: behavioral health search intent, AI optimization, and policy compliance",
-    "The MP approach to Microsoft advertising: deep audit, audience architecture, optimized bidding and attribution, creative testing, compliance review",
-    "Microsoft Ads performance insights: $50M+ managed, attribution to admission, audience reach, and compliance-first results",
-  ]),
-
-  "/services/youtube-ads/": std4("services/youtube-ads", [
-    "YouTube ads agency: expert management of optimized behavioral health campaigns with clear attribution to admissions",
-    "Optimized YouTube ads for behavioral health: audience strategy, creative optimization, compliance monitoring, and attribution",
-    "Our YouTube ads management process: discovery and compliance review, audience and intent strategy, creative production, campaign execution, attribution",
-    "YouTube ads powering behavioral health admissions: 2.5B+ monthly users, precision targeting, attribution beyond the click, operator advantage",
-  ]),
-
-  "/services/linkedin-ads/": std4("services/linkedin-ads", [
-    "Expert LinkedIn ads agency services: B2B targeting precision and $50M+ in vertical expertise",
-    "Specialized LinkedIn ads agency: targeting qualified B2B decision-makers over generic, inflated-spend approaches",
-    "Optimizing LinkedIn ads management: audience architecture, targeting strategy, bid optimization, creative testing, compliance and attribution",
-    "Your behavioral health LinkedIn ads partner: unprecedented B2B precision, results-driven expertise, compliance-first framework, data-powered optimization",
-  ]),
-
-  // Hero + capabilities icons + process + quote: Asana's 02 carried hex-swatch
-  // artifacts and 04 a "Just Sans Variable" placeholder, so the clean icon set
-  // (05) fills the concept slot and the quote (06) the results slot.
-  "/services/intake-optimization/": std4("services/intake-optimization", [
-    "Optimize your behavioral health intake: turn more calls into admissions with data-driven solutions",
-    "Intake optimization capabilities: speed to lead, insurance verification, lower cost per admission, higher conversion, integrated systems, better patient experience",
-    "Our intake optimization framework: discovery call, intake audit, implementation roadmap, measurement and iteration",
-    "The treatment centers that consistently convert more leads integrate technology, staff, and continuous measurement into a repeatable system",
-  ]),
-
-  "/services/creative-testing/": std4("services/creative-testing", [
-    "Creative testing dashboard for behavioral health: A/B variants, cost per lead, and admissions performance",
-    "Creative testing flow: variant experimentation through insights to ad performance boost, with compliance confidence",
-    "Structured creative testing framework: strategy and compliance review, sequential experiments, data analysis, iterate and scale",
-    "Boosting behavioral health ad performance through creative testing: -25% cost per lead, +18% intake completion, 3X faster validation, 99% ad approval",
-  ]),
-
-  /* ---- PPC sub-cluster (migrated legacy pages) ---- */
-
-  // Refreshed from MAIOS Content Studio (Nov 16, 2026).
-  "/services/ppc/": [
+  "/services/call-tracking-and-intake-attribution/": [
     // [0] hero
     studioImg(
-      "services/ppc",
-      "ai-ppc-agency.webp",
-      "Two colleagues review printed campaign reports at a conference table, one pointing at a figure while the other reads handwritten notes beside a laptop.",
-      "3 / 2",
+      "services/call-tracking-and-intake-attribution",
+      "healthcare-call-tracking.webp",
+      "CMO and admissions leader reviewing campaign and intake data side by side at a shared desk",
+      "16 / 9",
     ),
     // [1] section image
     studioImg(
-      "services/ppc",
-      "ai-ppc-agency-admissions-coordinator-wearing-headset.webp",
-      "An admissions coordinator wearing a headset takes notes on a pad during a phone call at a desk in a bright office.",
-      "3 / 2",
+      "services/call-tracking-and-intake-attribution",
+      "healthcare-call-tracking-healthcare-leadership-team-discussing.webp",
+      "Healthcare leadership team discussing call tracking and admissions data in a conference room",
+      "1600 / 1067",
     ),
     // [2] section image
     studioImg(
-      "services/ppc",
-      "ai-ppc-agency-chief-executive-marketing-operator.webp",
-      "A chief executive and a marketing operator review a four-point checklist together at a table.",
-      "3 / 2",
+      "services/call-tracking-and-intake-attribution",
+      "healthcare-call-tracking-infographic-showing-how-score-healthcare.webp",
+      "Infographic showing how to score healthcare call tracking from source through disposition, stage and outcome to admission",
+      "1600 / 1067",
     ),
     // [3] section image
     studioImg(
-      "services/ppc",
-      "ai-ppc-agency-two-paid-media-team-members-review.webp",
-      "Two paid media team members review a printed list of search terms, one marking a line with a pen while the other checks a second monitor.",
-      "3 / 2",
+      "services/call-tracking-and-intake-attribution",
+      "healthcare-call-tracking-senior-operator-analyst-reviewing.webp",
+      "Senior operator and analyst reviewing anonymized attribution data during an acquisition audit",
+      "1600 / 1067",
     ),
   ],
 
@@ -1760,12 +1882,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     "Effective marketing attribution summary: understand your attribution, choose the right models, and partner with behavioral health media expertise",
   ]),
 
-  "/resources/mental-health-marketing/": std4("resources/mental-health-marketing", [
-    "Effective strategies for mental health marketing: data-forward insights for your practice",
-    "Mental health marketing pillars: brand positioning, audience targeting, and compliance infrastructure boosting practice reach and growth",
-    "The mental health marketing framework built for momentum: strategic foundation, compliance-first setup, search visibility, paid media, measurement, and practice momentum",
-    "Effective mental health marketing key data insights: patient journey begins with search, local SEO foundation, paid search best practices, and measuring success",
-  ]),
 
   // 03 process infographic was a placeholder draft ("Rehulini tive Variable",
   // broken step numbering), so the stats graphic (04) fills the second slot.
@@ -2132,17 +2248,33 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
 
   "/resources/guides/why-treatment-center-ceos-fire-marketing-agencies/": [
     // [0] hero
-    pageImg(
+    studioImg(
       "resources/guides/why-treatment-center-ceos-fire-marketing-agencies",
-      "03-process.jpg",
-      "The top reasons agency partnerships fail: lack of results, compliance issues, poor reporting, poor communication, lack of industry expertise, and misaligned strategy",
+      "best-rehab-marketing-agency.webp",
+      "Treatment center leadership team reviewing marketing reports and admissions data in a conference room.",
+      "16 / 9",
     ),
-    // [1] single in-article slot
-    shaped("1 / 1", pageImg(
+    // [1] section image
+    studioImg(
       "resources/guides/why-treatment-center-ceos-fire-marketing-agencies",
-      "05-quote.jpg",
-      "You don't fire an agency for one bad month, you fire them for 12 months of excuses and no admissions: the right marketing partner drives outcomes, not just activity",
-    )),
+      "best-rehab-marketing-agency-healthcare-ceo-admissions-director.webp",
+      "Healthcare CEO and admissions director comparing mismatched marketing and admissions reports at a whiteboard.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/guides/why-treatment-center-ceos-fire-marketing-agencies",
+      "best-rehab-marketing-agency-agency-evaluation-scorecard-table-eight.webp",
+      "Agency evaluation scorecard table with eight categories, scoring, weight, and notes columns for treatment center leaders.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/guides/why-treatment-center-ceos-fire-marketing-agencies",
+      "best-rehab-marketing-agency-three-column-timeline-graphic-showing.webp",
+      "Three-column timeline graphic showing agency verification checkpoints from days 1 to 90 with extension to 180.",
+      "1600 / 1067",
+    ),
   ],
 
   "/resources/guides/evaluating-ai-marketing-capabilities/": [

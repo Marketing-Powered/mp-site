@@ -1,121 +1,66 @@
 ---
-title: "Call Tracking and Intake Attribution | Marketing Powered"
+title: "Healthcare Call Tracking and Intake Attribution"
 url: "/services/call-tracking-and-intake-attribution/"
-primary_keyword: "intake attribution"
-secondary_keywords: "call tracking, call tracking for healthcare marketing"
-target_word_count: "1000-1500"
+primary_keyword: "healthcare call tracking"
+secondary_keywords: "call tracking healthcare, healthcare marketing attribution"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-Revised 2026-11-06 for the homepage package (link map slot 17, anchor "intake attribution"; register entry P1, 1,000-1,500 words). This page is the distinct destination for intake attribution: which campaigns produce calls, and what happens to those calls after the phone rings. It stays separate from the analytics and attribution service page. Page type: Service page. Buyer target: CEOs, CMOs, admissions and intake leaders, and marketing leaders at behavioral and mental health providers, hospitals, health systems, and other organizations where the phone is a primary conversion path.
-Page type: Service page
-Buyer target: Marketing, admissions, and intake leaders at healthcare and multi-location organizations
-Word count target: 1000-1500 words
-
-
 SEO METADATA
-Title tag (56 chars): Call Tracking and Intake Attribution | Marketing Powered
-Meta description (152 chars): Call tracking that identifies the source of every tracked call, and intake attribution that follows the call to qualification, scheduling, or admission.
-H1: Call Tracking and Intake Attribution
-Hero image alt: Decorative (empty alt)
+Title tag: Healthcare Call Tracking and Intake Attribution
+Meta description: Connect healthcare calls, CRM stages and intake outcomes to assess marketing quality beyond lead counts. Explore practical attribution methods.
+H1: Healthcare Call Tracking and Intake Attribution
+Hero image alt: CMO and admissions leader reviewing campaign and intake data side by side at a shared desk
 
 
 PAGE COPY
 
-
-Call Tracking and Intake Attribution
-Know which campaigns produce calls, and what happens to those calls after the phone rings: qualification, verification, scheduling, or admission.
-[CTA] Request a Free Audit
-
-
-Why the Call Is Only the Start
-For many healthcare organizations the phone is still the main way an inquiry arrives. A campaign report that counts clicks and form submissions misses most of that activity. A call tracking report that counts calls gets closer, but a call is not an outcome. Some callers are a clinical fit and some are not. Some reach a person and some reach voicemail. Some are scheduled or admitted and some are lost in the handoff.
-Intake attribution follows the call past the first ring. It connects the source of the call to what the intake team did with it and how it ended. That is the view the homepage describes under [measuring what happens after the inquiry](/#performance), and it is the view that lets a leadership team judge a campaign by the opportunities it produced rather than the volume it generated.
-How Call Tracking Works in Our Engagements
-### Dynamic number insertion
-Each visitor session is shown a tracking number assigned to its source: a specific campaign, keyword group, or channel. When the visitor calls, the number identifies the source without asking the caller anything. Numbers are pooled and recycled, so the pool size and the recycling window are configuration decisions we make with you based on traffic.
-### Routing
-Tracked numbers forward to the destination you choose: a central intake line, a location, or a team. Routing by location or service line keeps the caller's experience the same as dialing the published number. Where the client wants it, a short whisper message tells the person answering which source the call came from before the line connects.
-### Source data into the CRM
-The tracked source, the time, the duration, and whether the call was answered are written to the inquiry record in your CRM through our [workflow integrations](/services/web-development/integrations-and-tracking) work. From there the intake team's own updates carry the record forward.
-Intake Attribution: What Happens After the Call
-Attribution to intake means the inquiry record has a status at each step the organization defines. A typical sequence for a behavioral health provider is qualification, insurance verification, clinical screening, and admission decision. For a hospital service line it may be scheduling and a completed visit. For a multi-location organization it may be assignment to a local team and a booked consultation.
-We report by source at each step. That shows where a campaign produces callers who qualify and where it produces callers who do not, and it shows where the intake process itself loses people. Our [analytics and attribution](/services/analytics-and-attribution) service rolls these counts into conversion value per cost across every channel; this page covers the call-specific layer.
-Recording, Transcription, and Consent
-Call recording and transcription are useful for intake coaching and for confirming what a caller asked about. They are also decisions with legal and privacy consequences. We enable them only where the client chooses to, with the notice and consent practices the client's counsel requires for the states involved. Where recording is enabled, access is limited to named roles, retention follows the client's policy, and transcripts are used for intake quality review, not for advertising audiences.
-Where the client does not enable recording, we work from call metadata and CRM status alone. The attribution model does not depend on recordings.
-What We Collect and What We Do Not
-* Collected: tracking number, source and campaign identifiers, call start time, duration, answered or missed status, routing destination, and the CRM record ID the call was matched to.
-* Collected only when enabled: recordings and transcripts, held in the call platform under the client's retention policy.
-* Not placed in analytics tools: caller names, phone numbers, reasons for calling, insurance details, or any health information. Those stay in the CRM and intake systems built to hold them.
-We name every platform that handles call data in the engagement's data-flow documentation. Our [data sovereignty](/ai-edge/data-sovereignty) page describes that documentation.
-Reporting Limits We State Up Front
-Call attribution has gaps, and we document them rather than reporting around them.
-* Calls without a matched record: a caller who hangs up before intake creates a record, or whose record was created under another name, stays unmatched and is reported as such.
-* Repeat callers: the same person calling several times from different sources is counted once under the rules we agree with you, which means some sources lose credit on purpose.
-* Offline steps: a verification or screening that is completed outside the CRM will not change a status unless someone records it.
-* Published numbers: calls to a number printed on signage, referral materials, or a directory listing carry no campaign source and are reported as direct or referral.
-* Platform limits: the call tracking vendor's pool size, port times, and reporting latency set a floor on precision.
-Feedback Loops With the Intake Team
-The most useful output of intake attribution is often operational. When a source produces callers who rarely qualify, the campaign targeting needs work. When qualified callers are being lost between verification and scheduling, the intake process needs work. We review both with the intake lead on the weekly operating check we propose for every engagement, and we bring the pattern to the monthly executive review with a recommendation.
-Our [intake optimization](/services/intake-optimization) service takes the operational side further. If the immediate problem is call quality rather than call volume, start with [increasing qualified calls](/problems/increase-qualified-calls). The [intake attribution and call quality framework](/resources/guides/intake-attribution-and-call-quality-framework) guide explains the scoring approach we use.
-Experience Behind the Approach
-Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend. In that role the phone was the primary intake channel, and the connection between call source, intake handling, and admission had to be visible to run the budget responsibly.
-That is prior executive experience, not agency client work. It is why this service treats the intake team as part of the measurement system and why [behavioral health marketing](/who-we-help/behavioral-health) remains a named specialty.
-See Where Your Calls Go
-A review of your current call tracking covers number pools, routing, CRM matching, recording settings, and the status sequence your intake team actually uses. From there we can show you which sources produce qualified callers today and where the handoff is losing them.
-[CTA] Request a Free Audit
-FAQ
-Q: What is intake attribution?
-A: Intake attribution connects the source of an inquiry, usually a call, to what happened afterward in the intake process: qualification, verification, scheduling, or admission. It extends call tracking, which stops at the call, into the CRM and intake systems where the outcome is recorded.
-Q: Do you record calls?
-A: Only where the client chooses to enable recording, with the notice and consent practices the client's counsel requires. Recordings and transcripts stay in the call platform under the client's retention policy and are used for intake quality review. The attribution model works without them.
-Q: What call tracking platform do you use?
-A: We configure the platform the client already operates where one exists, and recommend one where it does not. The requirements are dynamic number insertion, routing by location or team, an export or integration path to the CRM, and retention controls.
-Q: How does this fit with analytics and attribution?
-A: This page covers the call layer: source identification, routing, and intake status by source. The analytics and attribution service combines calls, forms, chat, and CRM outcomes into conversion value per cost across channels. The two are run together but reported at different levels.
-Q: What can intake attribution not tell us?
-A: It cannot attribute calls to published numbers that carry no campaign source, it cannot resolve callers who never reached a CRM record, and it depends on the intake team updating statuses. We document those limits in the engagement and report unmatched calls rather than hiding them.
-
-
-SCHEMA RECOMMENDATION
-Schema type: Service, BreadcrumbList
-* @type: Service
-* name: Call Tracking and Intake Attribution
-* provider: Marketing Powered (reference the site's Organization entity)
-* serviceType: Call Tracking and Intake Attribution
-* areaServed: United States
-* description: Call tracking that identifies the source of each tracked call and intake attribution that follows the call to qualification, scheduling, or admission.
-* BreadcrumbList: Home > Services > Call Tracking and Intake Attribution (rendered by the Breadcrumbs component)
-* No FAQPage markup.
-
-
-DELIVERY NOTES
-Revision summary (2026-11-06)
-* Rewritten as the distinct intake attribution destination for homepage slot 17. Slug unchanged. Audience broadened to healthcare and multi-location organizations with behavioral health named as a specialty.
-* Recording, transcription, consent, data collection, and reporting limits are now qualified explicitly, per the package's editorial disposition for this page.
-
-
-Claims removed from the previous version
-* The percentage reduction in cost per admission "within 90 days" and the statement that facilities "typically" achieve it.
-* The invented call and admission counts and the per-patient revenue figure.
-* The share of leads said to arrive by phone.
-* The agency-wide spend total and the founder credential claim.
-* The operating-since claim about the agency's technology.
-* Regulatory assurance language (the previous FAQ answered a compliance question with "Yes"); replaced with practice descriptions and the client's own counsel as the decision owner.
-* Certification-body language.
-
-
-External citations
-* None retained. The previous Google Ads policy and certification links supported claims that are no longer made.
-
-
-Approvals pending
-* Founder figures and wording (claims register C01-C05).
-* Proposed weekly operating check and monthly executive review cadence (C06).
-* Service scope confirmation (C14), including which call tracking platforms the agency supports.
-* Recording and consent language should be reviewed by the client's counsel in each engagement; the page states this rather than asserting a rule.
-
-
-Internal link notes
-* Hero and section images for this route were replaced with decorative photography because the previous graphics carried the removed percentage claims.
+Healthcare Call Tracking and Intake Attribution
+Healthcare call tracking is only useful when a campaign source can be tied to a call disposition, a CRM stage, and an admission or kept appointment. A ring, a form fill, or a cost per inquiry does not tell a CEO whether paid media is filling capacity. Marketing Powered builds those connections, and the governance around them, when the organization controls the records.
+[CTA] Request an acquisition audit → /get-started/request-an-audit
+Who needs healthcare call tracking
+This work serves treatment center CEOs, COOs, CMOs, and admissions leaders who already buy calls but cannot defend the budget in an admissions meeting. The typical room holds a media lead and an admissions coordinator at the same desk: one screen on a campaign report, the other on the phone system or CRM. The media lead can name the campaign and the tracking number; the coordinator can name who was a clinical fit, who was out of network, and who never reached assessment. Those two screens rarely share a key.
+An external partner is worth engaging when that gap is structural, not a one-week reporting miss. Multi-location operators feel it first: a number pool not split by facility will credit a call for location three to location one, and capacity and payer mix are not interchangeable across sites. The founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations, and who managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. That operating pattern is why the service starts with the handoff, not with a software demo. Hospitals, specialty practices, and other regulated organizations face the same break when scheduling, not a web form, is the real conversion.
+Where platform reports and intake disagree
+Ad platforms count calls by their own rules: asset type, duration thresholds, manual-dial behavior, and reporting date all vary by configuration. A four-minute wrong number and a four-minute qualified call look alike if duration is the only rule. Forwarding numbers can also change over time, and platform help pages generally advise that they are not for use outside call reporting and website conversion tracking; they should not become the published business line.
+The operator test is simple. Pull last month’s “conversions” and sit with intake. If the team cannot explain the difference between connected calls, qualified inquiries, scheduled assessments, and admissions without a new spreadsheet, the measurement system is not finished. Platform call reporting varies by asset type and setup; verify how your specific configuration counts connected versus answered calls before relying on it for attribution decisions.
+The campaign-to-admission data map
+Call tracking healthcare teams can defend uses one map, vendor-neutral, from acquisition to outcome. The wider design of that ledger is covered in [analytics and attribution](/services/analytics-and-attribution). Healthcare marketing attribution here means the same record can be read by media, intake, and finance without emailing a list of names.
+A working map has four joins:
+* Campaign click or call asset, with campaign, ad group, keyword or asset, location, and a click or call identifier.
+* The call itself: tracking number, start time, duration, answered or missed, and a hashed caller number if policy allows storage.
+* Intake handoff: disposition, payer or payment path, clinical fit, and the CRM stage written on that same call ID.
+* Outcome: assessment or appointment kept, admitted-patient status, and revenue only where finance permits a restricted field.
+Ad platforms impose strict windows for importing offline conversions, which can exclude long-cycle healthcare admissions if not managed. Verify current import limits in your account settings before assuming late admissions will feed bidding models. The organization’s own inquiry-to-admission tracking still has to hold the late admission even when the ad platform cannot bid on it.
+Sample anonymized data dictionary. Values are illustrations of fields, not a live account:
+* campaign_id. Sample value: search_loc3_nonbrand. Who writes it: Media. Handling: Operational.
+* click_or_call_id. Sample value: redacted token. Who writes it: Ad platform or call system. Handling: Minimize, and do not paste into email.
+* tracking_number. Sample value: pool number for loc3. Who writes it: Telephony. Handling: Not the published main line.
+* call_start_utc. Sample value: timestamp. Who writes it: Telephony. Handling: Context can make this sensitive.
+* caller_number_hash. Sample value: one-way hash. Who writes it: Telephony. Handling: Identifier, not a clinical note.
+* disposition. Sample value: qualified, existing, wrong number, payer barrier, not a fit. Who writes it: Intake. Handling: May be PHI once tied to a person.
+* crm_stage. Sample value: assessment scheduled, admitted, declined. Who writes it: CRM owner. Handling: Restricted.
+* location_id. Sample value: facility code. Who writes it: Operations. Handling: Operational.
+* admitted_status. Sample value: yes, no, unknown. Who writes it: Admissions. Handling: Restricted.
+* revenue_flag. Sample value: recorded or withheld. Who writes it: Finance. Handling: Only if a data-use decision allows it.
+Illustrative drop-off waterfall. Stages only; no rates are claimed because rates without a defined denominator are not evidence: ad or call-asset interaction, then connected call, then answered by intake, then qualified inquiry, then assessment or appointment scheduled, then assessment kept, then admitted or first visit kept, then revenue recorded where permitted. Each step needs an owner and a reason code for the exit. The useful review is which step lost the person, not a single blended conversion rate.
+Call-to-CRM mapping should be a unique call ID written into the CRM activity by the agent, or a match on call start time plus a hashed number inside a controlled system. A shared spreadsheet of caller names is not a map; it is a disclosure risk.
+How healthcare call tracking should be scored
+Score healthcare call tracking against events admissions will accept, not against talk time. A qualified call is a written definition agreed before the media review. For a treatment program, that includes clinical fit for the level of care offered, a payment path the facility can actually accept, capacity at that location, and consent to continue the conversation. A hospital service line may swap “admitted” for “scheduled appointment kept.” Either way, the definition is a business rule, not a vibe after a long call.
+Admissions conversion attribution then follows the handoff. Intake owns disposition. Scheduling owns whether the assessment was set and kept. Admissions owns admitted status. Media owns source. Finance owns whether revenue may leave the billing system and in what form. If those owners are not named, the weekly meeting will relitigate the same calls.
+Duration can still be a triage flag inside the phone system. It should not be the primary conversion sent back for bidding unless counsel and the privacy officer have rejected a cleaner outcome signal. Sending a diagnosis, a recording, or a raw caller list to an ad platform is a different decision from sending an approved, minimized flag such as “qualified inquiry” or “admitted.”
+Consent, platform rules, and governance
+Recording rules are not uniform across jurisdictions. Some allow one-party consent; others require all parties to know and agree. The safe operating posture is a clear notice at the start of the call, a written purpose for any recording or transcription, a retention limit tied to that purpose, and review by counsel before a vendor stores audio. Do not treat a platform default as a legal conclusion.
+HIPAA regulations define when call records and vendor relationships trigger Business Associate obligations. If an organization is a covered entity or business associate and a recording identifies a person relating to health care, consult your privacy officer to determine whether a written business associate agreement applies before that flow starts. Marketing Powered is HIPAA-aware; that is an operating posture, not a certification of a product or workflow.
+Major ad platforms impose strict certification requirements for addiction treatment services in the United States, including LegitScript program enrollment and platform-specific approval steps. Ensure your agency and client meet these prerequisites before launching campaigns. In sensitive interest categories covering mental health and addiction counseling, advertiser-curated audiences are generally restricted; build acquisition measurement on qualified demand and admissions conversion attribution rather than remarketing loops that policy may not support. A longer working note on the operating choices is in the [healthcare call tracking guide](/resources/healthcare-call-tracking-guide).
+What an acquisition audit examines
+An acquisition audit is a working session, not a tool install. Picture a senior operator and an analyst in a conference room with one attribution summary: source, disposition, stage, and outcome, with names removed. The review checks whether the current stack can support that page.
+The audit looks at number architecture by location and campaign, what the ad platforms already count, how intake codes calls, whether a call ID lands in the CRM, who may see recordings, which vendors would require a business associate agreement, and which outcome, if any, is appropriate to import for bidding. It also checks the import window against the real time from inquiry to admission, so late admissions are not treated as marketing failure inside the ad account when they are simply late.
+Deliverables are scoped to what the records support: a written data map, a disposition dictionary aligned to how intake actually talks, a drop-off waterfall with owners, and a decision on what stays inside the organization’s systems. The founder is a court-certified expert witness in advertising strategy, and attribution in this practice is tracked to admission, not just to the lead, where the data and the authorization exist. Marketing Powered has been AI-native since 2022 and operates owned, local AI infrastructure for HIPAA-aware inference. That infrastructure can support summarization or classification inside a controlled environment when a privacy officer wants it. It does not move ownership of call records to the agency, and it is not a claim that every workload stays on agency hardware.
+Common questions
+### How does call tracking connect ad campaigns to real admissions?
+A trackable number or click ID ties the call to a campaign, location, and time. Intake writes a disposition and CRM stage on that same call record. Admissions later marks whether an assessment was kept and whether the person was admitted. Where privacy review allows, a minimized conversion can be imported so bidding sees an approved outcome rather than every ring. The connection is a shared key and a governed handoff; it is not a longer average call.
+### How should healthcare call tracking be measured against qualified calls or admissions?
+Use the waterfall: connected calls, qualified inquiries, scheduled assessments or appointments, kept appointments, and admissions. Publish the definition of a qualified call before the review, including clinical fit, payment path, and capacity. Compare those counts with what the ad platform calls a conversion, and expect them to differ because platform call conversions are often duration rules reported on the click date. Judge media on the steps it can influence, and judge intake on the handoff it owns.
+### Does storing call recordings create HIPAA duties by itself?
+Not every marketing vendor is a business associate, and not every call is PHI. Duties attach when a covered entity or business associate creates or shares information that identifies a person and relates to health care, and when a vendor handles that information on the organization’s behalf. In that case, applicable safeguards apply to the recording, the transcript, and the systems that hold them. Confirm the classification with your privacy officer before a call platform, transcription tool, or ad platform receives audio or caller identity. This page is not legal advice and does not assert certification.
+[CTA] Request an acquisition audit → /get-started/request-an-audit

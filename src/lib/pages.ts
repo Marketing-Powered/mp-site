@@ -274,6 +274,9 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/services/healthcare-lead-generation", file: "services/healthcare-lead-generation.md" },
     { href: "/services/multi-location-healthcare-seo", file: "services/multi-location-healthcare-seo.md" },
     { href: "/services/healthcare-digital-marketing-services", file: "services/healthcare-digital-marketing-services.md" },
+    { href: "/services/healthcare-local-seo", file: "services/healthcare-local-seo.md" },
+    { href: "/services/patient-acquisition-marketing", file: "services/patient-acquisition-marketing.md" },
+    { href: "/services/local-seo", file: "services/local-seo.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },
@@ -352,6 +355,8 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/hipaa-compliant-analytics", file: "resources/hipaa-compliant-analytics.md" },
     { href: "/resources/healthcare-marketing-compliance-checklist", file: "resources/healthcare-marketing-compliance-checklist.md" },
     { href: "/resources/multi-location-healthcare-reporting", file: "resources/multi-location-healthcare-reporting.md" },
+    { href: "/resources/behavioral-health-marketing-strategies", file: "resources/behavioral-health-marketing-strategies.md" },
+    { href: "/resources/in-house-vs-agency-behavioral-health", file: "resources/in-house-vs-agency-behavioral-health.md" },
   ],
   "legal/index.md": [
     { href: "/legal/terms", file: "legal/terms.md" },

@@ -227,7 +227,7 @@ const RECOGNITION: {
     linkText: "Watch the webinar",
   },
   {
-    title: "Intel International Science and Engineering Fair, Grand Awards",
+    title: "Intel ISEF, Grand Awards",
     org: "Society for Science",
     date: "Environmental Sciences | Los Angeles, May 2011",
     href: "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2011/Press-Releases/Grand-Awards.pdf",

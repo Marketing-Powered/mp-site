@@ -394,8 +394,10 @@ export default function AuthorPage() {
       {/* ---------- LEAD ---------- */}
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-16 pt-12 lg:px-12 lg:pt-16">
         <Breadcrumbs url={`${PATH}/`} current="Michael Hulick" />
-        <div className="mt-8 grid items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
-          <div>
+        {/* Phones: name block, headshot, then intro and CTAs. Desktop: text
+            left, headshot right spanning both text rows. */}
+        <div className="mt-8 grid gap-x-12 gap-y-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-y-0">
+          <div className="lg:col-start-1 lg:row-start-1 lg:self-end">
             <Kicker>Author and publisher</Kicker>
             <h1
               className="text-[clamp(2.4rem,5vw,4.2rem)] leading-[1.02]"
@@ -412,7 +414,10 @@ export default function AuthorPage() {
             >
               {TAGLINE}
             </p>
-            <p className="mt-7 max-w-xl text-[clamp(1rem,1.3vw,1.15rem)] leading-relaxed text-white/55">
+          </div>
+
+          <div className="lg:col-start-1 lg:row-start-2 lg:self-start">
+            <p className="max-w-xl lg:mt-7 text-[clamp(1rem,1.3vw,1.15rem)] leading-relaxed text-white/55">
               Operator-led perspective on turning marketing investment into lasting business growth,
               drawn from a decade inside enterprise healthcare and multi-location expansion.
             </p>
@@ -431,7 +436,7 @@ export default function AuthorPage() {
           </div>
 
           {/* Approved professional headshot. */}
-          <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
+          <div className="relative row-start-2 mx-auto w-full max-w-sm lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:max-w-none lg:self-center">
             <div
               aria-hidden
               className="absolute -inset-[2px] rounded-[28px] opacity-90"

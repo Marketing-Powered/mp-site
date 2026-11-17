@@ -1,123 +1,85 @@
 ---
-title: "Google Ads Management Services | Marketing Powered"
+title: "Google Ads for Treatment Centers | Marketing Powered"
 url: "/services/google-ads-management/"
-primary_keyword: "google ads management"
-secondary_keywords: "google ads agency, healthcare google ads"
-target_word_count: "1200-1800"
+primary_keyword: "google ads for treatment centers"
+secondary_keywords: "behavioral health google ads, treatment center PPC"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /services/google-ads-management/ with a primary keyword of 'google ads management' and secondary keywords 'google ads agency' and 'google ads management services.' Word count target is 1200-1800 words. Page type is a service page within the P0 launch core. The buyer target is a CEO or Marketing Director at a behavioral health or mental health treatment center seeking a reliable partner for managing their Google Ads campaigns.
-Page type: Service page
-Buyer target: CEO or Marketing Director at a behavioral health or mental health treatment center
-Word count target: 1200-1800
-
-
 SEO METADATA
-Title tag (49 chars): Google Ads Management Services | Marketing Powered
-Meta description (87 chars): Google Ads management from the team behind $50M in BH/MH spend: compliant campaigns, smarter bidding, and admission-level attribution.
-H1: Expert Google Ads Management for Behavioral Health
-Hero image alt: Marketing Powered Google Ads management dashboard showing behavioral health campaign performance metrics
+Title tag: Google Ads for Treatment Centers | Marketing Powered
+Meta description: Google ads for treatment centers focused on qualified inquiries, admissions attribution, policy-aware campaigns and accountable spending.
+H1: Google Ads for Treatment Centers
+Hero image alt: Marketing and admissions leaders review a laptop together in an office.
 
 
 PAGE COPY
 
+Google Ads for Treatment Centers
+Your account reports leads. Admissions reports calls that do not fit the program’s services, geography or payment arrangements. Before increasing spend, establish what those inquiries become.
+[CTA] Request an acquisition audit → /get-started/request-an-audit
+When outside management makes sense
+Marketing Powered’s approach to google ads for treatment centers connects paid-search decisions with admissions-relevant measurement. The work focuses on search relevance, conversion paths, campaign quality assurance and attribution to admission where authorized data supports it.
+Our founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations. That operator background informs the questions behind the campaigns: which services need demand, which locations have capacity and what evidence should guide the next investment.
+Consider an agency when your internal team cannot confidently explain:
+* Which searches produce inquiries appropriate for your programs.
+* Where callers encounter routing or scheduling friction.
+* Why campaigns face restrictions or disapprovals.
+* How spending connects to qualified inquiries, assessments and admissions.
+* Who owns decisions across marketing, admissions and privacy.
+In-house management can be the right choice when those responsibilities have clear owners and sufficient coverage. Outside support should add decision-making capacity, not another reporting layer.
+For multi-location and hospital-affiliated programs, assess performance by service line and location. Avoid treating every inquiry as equally useful or every facility as equally ready for additional demand.
+Diagnose the path before changing the bid
+Treatment center PPC should be evaluated as a connected acquisition process, not an isolated ad account.
+### Search intent and program fit
+Start with keyword-to-call relevance. Compare the intent behind a search with the service advertised and the next step offered. Review exclusions, geography and messaging against what admissions can actually support.
+Do not automatically dismiss someone researching for a family member. Define useful intent by program fit and the inquiry’s next step, rather than a simplistic distinction between research and immediate action.
+### Landing pages and call handling
+Review whether the landing page clearly explains the service, location and inquiry process. Then examine routing, coverage and follow-up responsibilities.
+Google call reporting can show whether a call connected, along with timing and duration. A connected call does not, by itself, establish treatment suitability or an admission. [Google call reporting](https://support.google.com/google-ads/answer/2454052?hl=en)
+### Conversion definitions
+Ask what the account currently counts as success. Keep raw inquiries, qualified inquiries and admissions distinct. When those labels blur together, leadership loses the ability to distinguish campaign relevance from intake-process problems.
+Evaluate a partner by what you can inspect
+Use these questions in a vendor discussion:
+* Who defines “qualified”? Admissions should establish written criteria appropriate to the program’s services and payment arrangements.
+* Who owns policy review? Identify responsibility for reviewing targeting, creative, destinations and measurement changes.
+* What stays internal? Separate admissions reporting from signals permitted in advertising platforms.
+* Who controls access? Establish account ownership, permissions, data access and offboarding expectations.
+* What supports a budget decision? Ask for visibility into spending, search relevance, qualification and unresolved attribution gaps.
+* What remains uncertain? Expect a clear distinction between measured outcomes, estimates and missing data.
+A credible behavioral health Google Ads strategy should make those answers understandable to both marketing and admissions leadership.
+Measure qualified inquiries, assessments and admissions separately
+Use a defined progression:
+Campaign or search source → inquiry → qualification → scheduled assessment → admission
+Not every inquiry will complete every stage. Preserve the distinction rather than combining several outcomes into one conversion label.
+* Cost per qualified inquiry: attributed advertising spend divided by inquiries meeting the written qualification definition.
+* Cost per scheduled assessment: attributed spend divided by scheduled assessments.
+* Cost per admission: attributed spend divided by admissions.
+Use consistent attribution rules and reporting periods. Document duplicate handling, attribution windows and unresolved outcomes. Treat incomplete attribution as incomplete, not as evidence that an inquiry had no value.
+Internal admissions attribution is separate from Google Ads conversion uploads. Google prohibits conversions involving sensitive health or medical information in enhanced conversions and store-sales uploads. [Google customer data policies](https://support.google.com/adspolicy/answer/7475709?hl=en)
+This approach does not propose uploading qualification or admission records to Google. Evaluate offline conversion quality in internal reporting without assuming that an internally useful event belongs in an advertising platform.
+Policy eligibility comes before campaign expansion
+### Addiction-treatment certification
+In the United States, eligible advertisers promoting recovery-oriented drug and alcohol addiction services must obtain LegitScript certification and Google certification. Services ineligible for certification cannot advertise those services on Google. [Google healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en)
+Addiction-specific work belongs within the more specialized Rehab PPC discussion. Establish eligibility before making campaign or budget commitments.
+### Sensitive-health audience restrictions
+Google classifies mental-health and addiction counseling within its sensitive-health category. [Google health advertising policy](https://support.google.com/adspolicy/answer/16701855)
+Advertisers promoting sensitive-interest services cannot use advertiser-curated audiences, including Customer Match and website-visitor data segments. This is not a prohibition on every audience tool. [Google personalized advertising restrictions](https://support.google.com/adspolicy/answer/143465?hl=en)
+Build the strategy around relevant demand capture, not a plan to retarget treatment-page visitors. Use Google’s current documentation when assessing eligibility; a general certification overview is not a substitute for the applicable policy.
+How the work is framed
+Marketing Powered’s Google Ads management focuses on paid-search relevance, policy-reviewed creative, campaign quality assurance, conversion paths and attribution to admissions where authorized data supports it.
+An acquisition audit discussion focuses on campaign relevance, conversion definitions, policy dependencies and gaps between inquiry reporting and admissions reporting. Scope depends on the account and available systems.
+Onboarding should establish service priorities, operating capacity, account access and measurement boundaries. Define the outputs needed to support decisions before treating any report or integration as essential.
+We own local AI infrastructure for HIPAA-aware inference. Infrastructure ownership does not mean every workload runs locally. Evaluate data handling separately from campaign performance.
+Request an acquisition audit
+Start with the decision your current reporting cannot support: where to invest, what to correct or whether campaign and admissions data tell the same story.
+Request an acquisition audit to discuss campaign relevance, measurement gaps and the policy dependencies shaping your next move.
 
-Expert Google Ads Management for Behavioral Health
-Strategic Google Ads management services built on $50M+ in managed behavioral health and mental health media spend.
-[CTA] Book a Discovery Call
-Why Choose Our Google Ads Management Services?
-Most agencies treat behavioral health like any other vertical. They apply the same playbook they use for e-commerce or SaaS, then wonder why [lead quality](/problems/fix-lead-quality) tanks and compliance flags pile up. Google Ads management for treatment centers requires a different operating framework: one built on understanding admission economics, intake capacity constraints, and the regulatory reality of healthcare advertising.
-Marketing Powered has managed over $50M in [behavioral health marketing](/who-we-help/behavioral-health) spend across Google Ads. That figure represents real campaigns for real treatment centers, from single-location detox facilities to multi-state behavioral health organizations. Our founder managed operator-side multi-market growth, giving us operator-level insight into how admission volume, bed capacity, and census targets actually connect to ad spend decisions.
-
-
-When you work with a Google Ads agency that specializes in your vertical, you get more than campaign management. You get a partner who understands why your cost per admission matters more than your cost per click, why certain keyword categories carry compliance risk, and why attribution needs to track through to the intake call, not just the form submission. That operational depth shapes every decision we make inside your account.
-Our Approach to Google Ads Management
-We manage $1.5M to $2M monthly in Google Ads across 11+ behavioral health and mental health accounts. That volume creates pattern recognition you cannot replicate with smaller portfolios. We see what works across different treatment modalities, geographic markets, and payer mixes, then apply those insights to your campaigns.
-Our Google Ads management services follow a structured methodology built on three pillars: precision targeting, intelligent bidding, and continuous creative optimization.
-* Precision targeting: We build audience structures around treatment-seeking behavior, not broad demographic assumptions. This includes search intent mapping, geographic radius optimization around your facility, and negative keyword architecture that filters out informational queries before they waste budget.
-* Intelligent bidding: Our AI-native approach to bid management uses predictive models trained on behavioral health conversion data. We optimize toward admission probability, not just click volume or form fills. This means your budget concentrates on the searches most likely to produce qualified intake calls.
-* Creative optimization: Ad copy in healthcare requires balancing persuasion with compliance. We test headlines and descriptions that speak to the urgency families feel while respecting Google's sensitive vertical policies. Multi-variant optimization identifies which messages perform for your specific service lines and locations.
-Success Stories and Results
-Numbers tell the story better than promises. Here is what our Google Ads management approach has delivered for behavioral health clients:
-* A residential treatment center reduced cost per qualified lead by 34% within 90 days while increasing total admission-ready calls by 47%.
-* A multi-location detox network scaled from a small regional footprint into a larger multi-market network with Google Ads as the primary patient acquisition channel, maintaining stable unit economics throughout expansion.
-* An IOP/PHP provider achieved 2.3x return on ad spend by restructuring campaigns around treatment modality and insurance verification status.
-Success Stories and Results
-Attribution That Tracks to Admission
-Most agencies report on clicks and conversions. We track attribution through to admission. That means connecting your Google Ads data to your CRM, call tracking, and intake workflow so you can see which campaigns, keywords, and ads actually produce patients who complete intake, not just visitors who fill out a form and disappear.
-This level of attribution discipline requires technical integration work that many agencies skip. We build it into every engagement because, without it, you are optimizing toward vanity metrics instead of business outcomes. View our [case studies](/results/case-studies) for detailed breakdowns of how this approach performs across different treatment center models.
-
-
-[CTA] Book a Discovery Call
-Understanding Compliance in Digital Advertising
-Healthcare advertising operates under constraints that most marketers never encounter. Google classifies addiction treatment as a sensitive vertical with specific policy requirements. Violations can result in ad disapprovals, account suspensions, or permanent bans that eliminate Google as an acquisition channel entirely.
-Marketing Powered brings LegitScript certification awareness and years of experience navigating [HIPAA-compliant advertising](/who-we-help/behavioral-health) requirements. We understand which claims trigger policy review, which landing page elements create compliance risk, and how to structure campaigns that perform within Google's healthcare restrictions.
-
-
-The no-retargeting rule in behavioral health advertising means your campaigns cannot follow users across the web after they visit your site. This constraint, mandated by [Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031), eliminates a tactic most advertisers rely on heavily. Our strategies are built around this reality from the start, not retrofitted after a policy violation.
-
-
-Compliance is not a checkbox. It is an operating posture that protects your treatment center's ability to acquire patients through paid channels over the long term. Our [digital advertising compliance](/ai-edge) framework addresses these requirements at the account structure level, not as an afterthought.
-Getting Started with Marketing Powered
-The path from initial conversation to live campaigns follows a clear process designed to reduce friction and accelerate results.
-Your engagement begins with a discovery call where we assess your current Google Ads performance, discuss your census targets and admission capacity, and determine whether our approach fits your growth objectives. This is not a sales pitch disguised as strategy. It is a working session where we evaluate mutual fit.
-If we move forward, we will conduct a full account audit covering campaign structure, keyword architecture, bidding strategy, conversion tracking, and compliance posture. You receive a detailed findings report with specific recommendations, regardless of whether you choose to work with us.
-For clients who engage our Google Ads management services, onboarding typically takes 2 to 3 weeks. That includes account restructuring, tracking implementation, creative development, and launch. From there, you receive weekly performance reports with admission-level attribution and monthly strategy reviews.
-Our founder's background includes serving as a court-certified expert witness in advertising strategy. That level of accountability shapes how we document decisions, report results, and communicate with your team. You will always know exactly what is happening in your account and why.
-
-
-Ready to Discuss Your Google Ads Strategy?
-Schedule a discovery call to review your current performance, discuss compliance considerations, and explore whether Marketing Powered is the right partner for your treatment center's growth objectives.
-[CTA] Book a Discovery Call
 FAQ
-Q: What benefits do Google Ads management services provide?
-A: Professional Google Ads management delivers higher return on ad spend through strategic keyword targeting, intelligent bid optimization, and continuous creative testing. For behavioral health specifically, expert management ensures compliance with Google's sensitive vertical policies while maximizing qualified admission inquiries. You also gain access to cross-account insights from managing millions in similar spend, which accelerates optimization timelines.
-Q: How does Marketing Powered ensure ad compliance?
-A: We maintain awareness of LegitScript certification requirements and structure all campaigns within Google's healthcare advertising policies. Our team monitors policy updates, audits ad copy and landing pages for compliance risk, and builds account architectures that avoid the retargeting restrictions and claim limitations that apply to addiction treatment advertising. This proactive approach prevents the account suspensions that derail patient acquisition.
-Q: What should I look for in a Google Ads agency?
-A: Prioritize vertical specialization over generalist capabilities. Ask for specific behavioral health experience, managed spend volume in your category, and examples of attribution that tracks beyond form fills to actual admissions. Confirm the agency understands LegitScript, HIPAA considerations, and Google's sensitive vertical policies. Proven results with treatment centers similar to yours matter more than impressive client logos from unrelated industries.
-Q: Can Google Ads help behavioral health centers?
-A: Google Ads is one of the most effective patient acquisition channels for behavioral health when managed correctly. Treatment-seeking searches carry high intent, and proper campaign structure can connect your facility with families actively researching options. The challenge is navigating compliance requirements while maintaining cost efficiency. With $50M+ in managed behavioral health spend, we have demonstrated that Google Ads delivers measurable admission growth for treatment centers across service lines.
-
-
-SCHEMA RECOMMENDATION
-Schema type: Service, FAQPage, BreadcrumbList
-* name: Google Ads Management Services
-* provider: Marketing Powered
-* serviceType: Google Ads Management
-* areaServed: United States
-* description: Expert Google Ads management for behavioral health and mental health treatment centers
-* FAQPage questions and answers as defined in FAQ section
-* BreadcrumbList: Home > Services > Google Ads Management
-
-
-DELIVERY NOTES
-External citations
-* Google's healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy (Google Ads Policy Center)] - Primary source for sensitive vertical advertising restrictions and retargeting prohibition in addiction treatment advertising. Supports compliance section claims.
-
-
-Brief conflicts
-* The meta description uses an exclamation point, which may read as overly promotional, though it is within the brief's exact specification, so used verbatim.
-
-
-Internal link gaps
-* Consider adding a link to a dedicated compliance or LegitScript page if one exists or is planned.
-* The /services/paid-media/ link ('learn more about our services') was provided in the link map but did not fit naturally into the content flow. Recommend adding if a services overview section is added.
-* The /ai-edge/ page is linked twice (once as 'digital advertising compliance' and could support 'ai-powered marketing solutions'), but the second anchor was not used to avoid redundancy.
-
-
-Compliance flags
-* All copy avoids outcome guarantees and patient-specific claims per guardrails.
-* No retargeting claims or implications included.
-* All metrics reference marketing performance (leads, calls, cost per lead) rather than patient outcomes.
-
-
-Missing proof points
-* Specific CPC reduction percentages from real campaigns would strengthen the Success Stories section.
-* Named case study references (with client permission) would add credibility.
-* Specific timeframes for anonymized multi-location growth proof points would add detail.
-
-
-Banned phrasing in brief
-* The brief's Avoid section aligns with system prompt banned words. No conflicts detected.
+Q: What approval is required before a rehab advertises on Google?
+A: For eligible U.S. recovery-oriented drug and alcohol addiction advertisers, both LegitScript certification and Google certification are required. [Google healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en)
+Q: How should campaigns be measured against qualified calls or admissions?
+A: Measure each stage separately using written definitions and consistent attribution rules. Keep authorized internal admissions reporting distinct from Google Ads measurement.
+Q: Is an agency necessary for one location?
+A: Not automatically. Evaluate whether your team has the capacity to own campaign decisions, policy review, conversion measurement and admissions coordination.
+Q: What should we share when requesting an audit?
+A: Describe your service lines, locations, reporting concerns and current acquisition priorities. Do not include patient records, recordings or identifying treatment details in an initial business inquiry.

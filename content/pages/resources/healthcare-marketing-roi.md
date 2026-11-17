@@ -38,7 +38,7 @@ Use this sequence as the reporting structure:
 Source, timing and ownership should follow the record through every stage.
 This guide establishes the executive framework. For the deeper measurement mechanics, see [how to measure patient acquisition ROI](/resources/measure-patient-acquisition-roi).
 Calculate the return without hiding assumptions
-Google defines ROI as the ratio of net profit to costs and notes that the calculation method depends on campaign goals. The contribution-based calculation below is this playbook’s operating definition, not Google’s healthcare-specific formula. ([support.google.com](https://support.google.com/google-ads/answer/1722066?hl=en))
+Google defines ROI as the ratio of net profit to costs and notes that the calculation method depends on campaign goals. The contribution-based calculation below is this playbook’s operating definition, not Google’s healthcare-specific formula.
 Marketing contribution ROI = (attributable contribution before marketing cost − defined marketing cost) ÷ defined marketing cost
 In plain language: subtract acquisition spending from the contribution assigned to those admissions, then divide the remainder by that spending. Multiply by 100 to express the result as a percentage.
 Here, attributable means assigned under the documented credit rule. This calculation does not establish how many admissions would have occurred without the marketing.
@@ -106,7 +106,7 @@ This is a design template, not a patient dataset or permission to send these fie
 * admission_reference: Reconcile the outcome internally. Owner: admissions.
 * credit_source, model_version: Apply and identify the attribution rule. Owner: data lead.
 * value_basis, value_status: Distinguish estimates from reconciled financial values. Owner: finance.
-Internal keys do not, by themselves, establish anonymity. HHS describes Expert Determination and Safe Harbor as methods for satisfying HIPAA’s de-identification standard; replacing names with codes is not a complete substitute for those requirements. ([hhs.gov](https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html))
+Internal keys do not, by themselves, establish anonymity. HHS describes Expert Determination and Safe Harbor as methods for satisfying HIPAA’s de-identification standard; replacing names with codes is not a complete substitute for those requirements.
 ### Sample intake dispositions
 Use a short taxonomy with distinct dimensions:
 * Qualification: Pending review; qualified; not qualified.
@@ -153,7 +153,7 @@ For hospitals and outpatient organizations, substitute the appropriate completed
 For multi-location organizations, retain both demand-origin location and serving location. Agree on transfer treatment before comparing facility performance.
 Establish privacy boundaries before connecting systems
 Separate internal attribution from advertising-platform measurement.
-HHS states that HIPAA obligations apply when regulated entities collect or disclose PHI through tracking technologies. Its bulletin also identifies a court-vacated portion concerning IP addresses combined with visits to certain unauthenticated public webpages. Do not simplify the guidance into a claim that every healthcare page view is PHI. ([hhs.gov](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html))
+HHS states that HIPAA obligations apply when regulated entities collect or disclose PHI through tracking technologies. Its bulletin also identifies a court-vacated portion concerning IP addresses combined with visits to certain unauthenticated public webpages. Do not simplify the guidance into a claim that every healthcare page view is PHI.
 Before implementation, document each proposed data flow: purpose, fields, recipient, access, retention, contractual requirements and permitted use.
 ### Data ownership and access flow
 Read this as a proposed operating design, not an implemented system:
@@ -163,8 +163,8 @@ Read this as a proposed operating design, not an implemented system:
 * Disclosure-reviewed reporting: Produce the executive view using approved aggregation and suppression rules. Assign a reporting owner.
 No automatic advertising-platform export is implied.
 Keep diagnoses, clinical narratives, recordings and free-text intake notes outside the proposed marketing reporting dataset. Treat reduced datasets as restricted until permitted handling is established.
-Google prohibits advertiser-curated audiences, including Customer Match and “your data” segments, for advertisers promoting sensitive-interest categories. Internal measurement does not make an outcome eligible for audience activation. ([support.google.com](https://support.google.com/adspolicy/answer/143465?hl=en))
-Google separately restricts promotion of recovery-oriented drug and alcohol addiction services and requires advertiser approval in supported locations. Evaluate those advertising requirements separately from the ROI architecture. ([support.google.com](https://support.google.com/adspolicy/answer/15598649?hl=en))
+Google prohibits advertiser-curated audiences, including Customer Match and “your data” segments, for advertisers promoting sensitive-interest categories. Internal measurement does not make an outcome eligible for audience activation.
+Google separately restricts promotion of recovery-oriented drug and alcohol addiction services and requires advertiser approval in supported locations. Evaluate those advertising requirements separately from the ROI architecture.
 Implement with named owners
 Start with a bounded service or location whose spending and outcomes can be reconciled. Expand after the definitions and controls hold together.
 ### 1. Set the decision scope

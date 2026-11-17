@@ -86,6 +86,216 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/location-page-seo-healthcare/": [
+    // [0] hero
+    studioImg(
+      "resources/location-page-seo-healthcare",
+      "healthcare-location-page-seo.webp",
+      "Healthcare marketing and operations colleagues reviewing a location-page layout.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/location-page-seo-healthcare",
+      "healthcare-location-page-seo-illustrative-page-map-showing-hub.webp",
+      "Illustrative page map showing a hub, an optional regional layer, a facility page and a conditional service page.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/location-page-seo-healthcare",
+      "healthcare-location-page-seo-operations-web-colleagues-comparing.webp",
+      "Operations and web colleagues comparing a checklist with a location-page wireframe.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/location-page-seo-healthcare",
+      "healthcare-location-page-seo-operations-admissions-web-colleagues.webp",
+      "Operations, admissions and web colleagues discussing a location-page work plan.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/mental-health-advertising-guide/": [
+    // [0] hero
+    studioImg(
+      "resources/mental-health-advertising-guide",
+      "mental-health-advertising.webp",
+      "An intake coordinator takes a phone call at a clinic reception desk beside a printed intake checklist, while a practice owner stands nearby reviewing a tablet.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/mental-health-advertising-guide",
+      "mental-health-advertising-hands-marking-printed-one-page-summary.webp",
+      "Hands marking a printed one-page summary with a pen on a conference table, with a laptop closed beside it.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/mental-health-advertising-guide",
+      "mental-health-advertising-practice-owner-marketing-lead-clinician.webp",
+      "A practice owner, a marketing lead and a clinician review a laptop together in a meeting room while discussing channel options.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/mental-health-advertising-guide",
+      "mental-health-advertising-intake-lead-studies-wall-schedule-board.webp",
+      "An intake lead studies a wall schedule board with open time slots marked in color, considering how much capacity is available.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/behavioral-health/detox-centers/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/behavioral-health/detox-centers",
+      "detox-program-marketing.webp",
+      "An admissions coordinator wearing a headset answers an inquiry at a desk in a bright office, with a staffing sheet beside the laptop.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/behavioral-health/detox-centers",
+      "detox-program-marketing-three-leaders-treatment-organization.webp",
+      "Three leaders of a treatment organization review a printed call log together at a conference table in a glass-walled meeting room.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/behavioral-health/detox-centers",
+      "detox-program-marketing-intake-specialist-takes-call-busy.webp",
+      "An intake specialist takes a call at a busy workstation while a second phone waits face down nearby.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "who-we-help/behavioral-health/detox-centers",
+      "detox-program-marketing-five-row-checklist-showing-criteria.webp",
+      "Five-row checklist showing the criteria a detox program can use to prioritize qualified inquiries: urgency signals, payment fit, location and access, capacity, and response time.",
+      "2 / 3",
+    ),
+  ],
+  "/services/rehab-ppc/": [
+    // [0] hero
+    studioImg(
+      "services/rehab-ppc",
+      "drug-rehab-ppc.webp",
+      "Treatment center leaders reviewing a weekly report together in a bright conference room.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "services/rehab-ppc",
+      "drug-rehab-ppc-marketing-director-reviews-printed-call.webp",
+      "A marketing director reviews a printed call log at her desk to check what calls are turning into admissions.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/rehab-ppc",
+      "drug-rehab-ppc-scorecard-six-criteria-evaluating-rehab.webp",
+      "Scorecard of six criteria for evaluating a rehab PPC agency, from optimization event to account and data ownership.",
+      "2 / 3",
+    ),
+    // [3] section image
+    studioImg(
+      "services/rehab-ppc",
+      "drug-rehab-ppc-paid-search-specialist-sketches-campaign.webp",
+      "A paid search specialist sketches a campaign structure on a whiteboard, grouping ads by service line.",
+      "3 / 2",
+    ),
+  ],
+  "/services/google-ads-management/": [
+    // [0] hero
+    studioImg(
+      "services/google-ads-management",
+      "google-ads-for-treatment-centers.webp",
+      "Marketing and admissions leaders review a laptop together in an office.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "services/google-ads-management",
+      "google-ads-for-treatment-centers-treatment-center-executive-discusses.webp",
+      "A treatment center executive discusses a decision with a colleague.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/google-ads-management",
+      "google-ads-for-treatment-centers-admissions-staff-member-listens-headset.webp",
+      "An admissions staff member listens on a headset at a workstation.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/google-ads-management",
+      "google-ads-for-treatment-centers-healthcare-leaders-prospective-marketing.webp",
+      "Healthcare leaders and a prospective marketing partner talk around a meeting table.",
+      "3 / 2",
+    ),
+  ],
+  "/services/drug-rehab-seo/": [
+    // [0] hero
+    studioImg(
+      "services/drug-rehab-seo",
+      "drug-rehab-seo.webp",
+      "Marketing and admissions leaders review a laptop together in a meeting room.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "services/drug-rehab-seo",
+      "drug-rehab-seo-two-colleagues-discuss-website-redesign.webp",
+      "Two colleagues discuss a website redesign at a conference table.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/drug-rehab-seo",
+      "drug-rehab-seo-illustrative-page-map-connecting.webp",
+      "Illustrative page map connecting treatment services to levels of care and location pages.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/drug-rehab-seo",
+      "drug-rehab-seo-admissions-team-lead-colleague-discuss.webp",
+      "An admissions team lead and colleague discuss inquiry criteria at a table.",
+      "3 / 2",
+    ),
+  ],
+  "/services/healthcare-ppc/": [
+    // [0] hero
+    studioImg(
+      "services/healthcare-ppc",
+      "healthcare-ppc.webp",
+      "Healthcare marketing and admissions leads review a laptop together.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "services/healthcare-ppc",
+      "healthcare-ppc-healthcare-executive-marketing-lead.webp",
+      "A healthcare executive and marketing lead discuss a document at a meeting table.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/healthcare-ppc",
+      "healthcare-ppc-marketing-analyst-admissions-manager.webp",
+      "A marketing analyst and admissions manager review a worksheet beside a laptop.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/healthcare-ppc",
+      "healthcare-ppc-illustrative-comparison-both-locations.webp",
+      "Illustrative comparison: both locations spend $10,000 and receive 100 calls. Location A has 50 qualified inquiries and 10 admitted or scheduled outcomes; Location B has 25 and 5.",
+      "2 / 3",
+    ),
+  ],
   "/areas-we-serve/jupiter/": [
     // [0] hero
     studioImg(
@@ -327,19 +537,35 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // and "100% compliant" (held claims); the process graphic had placeholder
   // typos. Decorative hero plus the illustrative funnel diagram remain.
   "/services/paid-media/": [
-    DECO_FIELD,
-    pageImg(
+    // [0] hero
+    studioImg(
       "services/paid-media",
-      "02-concept.jpg",
-      "Illustrative paid media path: first click or call, intake qualification, and admission",
+      "healthcare-paid-media.webp",
+      "Healthcare marketing and admissions leaders review acquisition information together.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "services/paid-media",
+      "healthcare-paid-media-admissions-manager-marketing-colleague.webp",
+      "An admissions manager and marketing colleague discuss acquisition planning.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/paid-media",
+      "healthcare-paid-media-intake-capacity-geography-policy.webp",
+      "Intake capacity, geography, policy exposure and measurement readiness inform selection among Google search, Meta, Microsoft search, and local search and maps.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/paid-media",
+      "healthcare-paid-media-two-colleagues-review-landing-page.webp",
+      "Two colleagues review landing-page material before a campaign launch.",
+      "3 / 2",
     ),
   ],
-  "/services/google-ads-management/": std4("services/google-ads-management", [
-    "Expert Google Ads management for behavioral health, tracked through to admissions",
-    "Google Ads path: precision targeting, intelligent bidding, and creative optimization to qualified admissions",
-    "Google Ads management framework: precision targeting, intelligent bidding, creative optimization, and attribution to admission",
-    "Google Ads results: 34% lower cost per lead, more qualified calls, 2.3X return on ad spend, scaled multi-location growth",
-  ]),
 
   "/services/meta-ads-management/": std4("services/meta-ads-management", [
     "Meta Ads agency expertise to boost admissions across Facebook and Instagram",
@@ -688,15 +914,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // 02/03/04 from Asana were garbled (font-name placeholders, "[CTA]" tokens,
   // scrambled stat labels), so the clean icon set (05), quote (06), and
   // takeaways (08) fill the concept/process/results slots.
-  "/who-we-help/behavioral-health/detox-centers/": std4(
-    "who-we-help/behavioral-health/detox-centers",
-    [
-      "Detox center marketing: from patient searches and intake teams to a stable, growing census",
-      "Detox center marketing capabilities: compliant paid search, SEO pipeline, admission attribution, conversion optimization, compliance, and scaling operations",
-      "The difference between an agency that has managed $50,000 in behavioral health spend and one that has managed $50M+ is the depth of problem-solving when a single policy violation can shut down your primary channel overnight",
-      "Takeaways for detox center marketing: a specialized approach, core strategies that work, disciplined scaling, and the right partner attributes",
-    ],
-  ),
 
   // 04 stats graphic was garbled ("performance performance", scrambled labels),
   // so the clean capabilities icon set (05) fills the results slot.

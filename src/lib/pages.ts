@@ -267,6 +267,9 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/services/llm-advertising", file: "services/llm-advertising/index.md" },
     { href: "/services/web-development", file: "services/web-development/index.md" },
     { href: "/services/mental-health-seo", file: "services/mental-health-seo.md" },
+    { href: "/services/healthcare-ppc", file: "services/healthcare-ppc.md" },
+    { href: "/services/drug-rehab-seo", file: "services/drug-rehab-seo.md" },
+    { href: "/services/rehab-ppc", file: "services/rehab-ppc.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },
@@ -331,6 +334,8 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/ai-in-marketing", file: "resources/ai-in-marketing.md" },
     { href: "/resources/research", file: "resources/research.md" },
     { href: "/resources/healthcare-marketing-roi", file: "resources/healthcare-marketing-roi.md" },
+    { href: "/resources/mental-health-advertising-guide", file: "resources/mental-health-advertising-guide.md" },
+    { href: "/resources/location-page-seo-healthcare", file: "resources/location-page-seo-healthcare.md" },
   ],
   "legal/index.md": [
     { href: "/legal/terms", file: "legal/terms.md" },

@@ -1,141 +1,98 @@
 ---
-title: "Owned AI Systems and Infrastructure | Marketing Powered"
+title: "Owned AI Marketing Systems for Regulated Healthcare"
 url: "/ai-edge/owned-ai-systems/"
-primary_keyword: "owned ai systems"
-secondary_keywords: "owned infrastructure, marketing technology control"
-target_word_count: "1500-2500"
+primary_keyword: "ai for healthcare marketing"
+secondary_keywords: "AI campaign management, local AI inference"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /ai-edge/owned-ai-systems/ with the primary keyword 'owned ai systems' and secondary keywords 'owned infrastructure' and 'marketing technology control.' Revised November 6, 2026 for the homepage package: the page is reframed from a general case for owned AI toward the agency's owned infrastructure, with supported workloads, the external services that remain part of delivery, and the separation between agency assets, client data, and agency intellectual property. Hardware specifications and capacity claims are not published. Word count target is 1500-2500 words. Page type: AI Edge capability page. Buyer target: CEO, CMO, CIO, or operations lead at a hospital, health system, behavioral health or mental health provider, or multi-location organization evaluating a marketing partner's technology.
-Page type: AI Edge - Capability
-Buyer target: CEO, CMO, CIO, or operations lead at healthcare and multi-location organizations
-Word count target: 1500-2500 words
-
-
 SEO METADATA
-Title tag (55 chars): Owned AI Systems and Infrastructure | Marketing Powered
-Meta description (153 chars): Why Marketing Powered owns its computing infrastructure, which workloads run on it, what still uses outside services, and how client data stays separate.
-H1: Infrastructure we own, operated for your marketing
-Hero image alt: Decorative image of indicator lights on computing equipment, with no specifications, metrics, or client references
+Title tag: Owned AI Marketing Systems for Regulated Healthcare
+Meta description: AI for healthcare marketing is a control problem first. See how data ownership, human approval gates and local inference fit regulated marketing.
+H1: Owned AI Marketing Systems for Regulated Organizations
+Hero image alt: Healthcare marketing and operations leaders reviewing diagrams together in a professional office setting.
 
 
 PAGE COPY
 
+Owned AI Marketing Systems for Regulated Organizations
+A healthcare marketing leader is now pitched AI by almost every vendor and still has to answer to a privacy officer about all of them. Marketing wants speed. Compliance and IT want boundaries. In many organizations nobody owns the approval map between those two positions, so the decision defaults to whoever signs the vendor contract. This guide defines the problem, draws ownership boundaries, maps human review points, separates live capability from planned capability, and ends with a procurement checklist you can forward internally.
+[CTA] Request an acquisition audit → /get-started/request-an-audit
+What "AI for healthcare marketing" means as a business problem
+Most vendor pages describe AI by what it can do. A buyer in a regulated setting needs a different description: what the system is allowed to see, what it is allowed to decide, and what it is measured against. Those are three separate questions, and the risk sits in the first two.
+Data. Marketing AI touches very different kinds of data. A model drafting ad variants from an approved service description touches no inquirer information. A model scoring inbound calls or optimizing toward admissions touches data that may be sensitive depending on who holds it and how it is linked. Treating these as one category leads to either paralysis or carelessness.
+Decisions. A system that suggests a bid change is different from one that applies it. A system that drafts ad copy is different from one that publishes it. The practical question is where a person sits between suggestion and action, and whether that person has the context to say no.
+Measurement. Healthcare organizations care about qualified calls, scheduled assessments, admissions and, for hospitals, service-line volume by facility. Platform dashboards mostly report clicks and form fills. An AI system optimizing toward the wrong signal gets better at the wrong thing, faster.
+Multi-location and multi-service-line organizations raise the difficulty. A health system may have separate intake paths per facility, different reviewers per service line, and different phone and scheduling systems. Behavioral health operators face tighter platform restrictions and more sensitive inquiry content. A hospital faces coordination across many stakeholders. In both cases the question is the same: who controls the data, the decisions and the measurement.
+AI for healthcare marketing is an operating-control problem before it is a model problem. Model quality matters, but models change quickly and are largely available to everyone. What differs between organizations is the discipline around inputs, approvals and outcomes.
+Who owns what: data, assets and infrastructure
+Ownership language gets blurred in vendor conversations. Separate it into three layers.
+### Client-owned data and assets
+The client owns its ad accounts, analytics properties, call recordings and transcripts, CRM and intake records, website, creative assets, and any lists or audiences derived from its own inquirers. An agency using AI on any of these does not change that. Contracts and account structures should reflect it: accounts opened in the client's name, administrator access retained by the client, and exportable records at any time.
+### Agency-owned infrastructure
+Marketing Powered owns and operates computing hardware for local AI inference and uses configurable open-source and local-model approaches alongside other tools. Owning the compute can improve controllability, allow customization to a client's workflow, and reduce marginal inference cost compared with renting capacity per request. It can also keep process knowledge, such as prompts, evaluation sets and workflow logic, inside systems the agency controls instead of scattered across third-party tools.
+### What hardware ownership does not change
+Owning hardware does not transfer ownership of client data to the agency. It does not mean every campaign runs on local models. It does not mean all data stays offline, because ad platforms, analytics tools and CRMs are cloud services and any workflow that connects to them sends data to them. It does not make a workflow compliant with any regulation. Compliance depends on the data involved, the agreements in place, the access controls, and the legal and privacy review of the specific use.
+The trade-offs are real. Owned compute brings capital expense, energy, reliability responsibilities, staffing and, for some tasks, lower model quality than the best hosted models. A reasonable architecture uses local inference where privacy boundaries or cost justify it and uses other tools where they perform better on non-sensitive work. Any vendor claiming owned infrastructure is categorically better should be asked to show where it is worse.
+For the data-handling side of this, see our page on [data sovereignty](/ai-edge/data-sovereignty).
+Reference architecture and where humans review
+Local AI inference means running a trained model on hardware the operator controls, instead of sending each request to a third party's hosted service. The prompt and the output are processed on infrastructure the operator manages. That widens options for keeping certain inputs inside a defined boundary. It does not by itself define the boundary.
+A workable reference architecture for regulated marketing has five stages:
+* Inputs. Approved source material enters the system: service descriptions, brand and claims guidance, platform policy references, aggregated campaign performance, and, where authorized, call and intake outcome data.
+* Data minimization. Before anything reaches a model, a defined step removes or withholds what the task does not need. A copy-drafting task has no reason to see inquirer details. A call-quality review task may need a transcript but not a name. The default is to withhold.
+* Inference. The task runs on the model best suited to it. Workloads that touch more sensitive material run on infrastructure the agency controls under agreed handling terms. Workloads on non-sensitive material may use other tools.
+* Outputs. The system produces drafts, recommendations, flags and reports. It does not publish, spend or change accounts on its own for regulated work.
+* Review. A named person approves the output before it affects a live account, page or report. Logs record what was proposed, what was approved and by whom.
+The governance model behind these stages is described on our [AI governance](/ai-edge/ai-governance) page.
+### Where should humans approve AI campaign decisions?
+Humans should approve every point where AI output becomes something the public sees, spends money, or touches new data. For regulated organizations, six gates cover most of the risk:
+* Audience and exclusion definitions. A person approves who is targeted and who is excluded, especially where platform rules restrict health-related targeting.
+* Ad copy and claims. A person reviews regulated language, outcome implications and stigmatizing phrasing. AI drafts can imply efficacy or diagnosis without anyone intending it.
+* Landing page changes. Edits to pages that collect inquiries are reviewed for content, tracking and consent behavior.
+* Budget and bid-strategy changes beyond set thresholds. Small, bounded adjustments can be delegated. Larger changes need approval.
+* Any new data source connected to a model. Connecting a CRM, call platform or intake system is a privacy decision, not an integration task. It needs review by the client's privacy or compliance owner.
+* Reporting that links marketing to outcomes. A person confirms what data was linked, under what authorization, before results are presented as fact.
+This list is a policy proposal. Its value comes from being specific enough to audit. If a gate has no named approver, it is not a gate.
+AI campaign management: what to delegate and what to hold
+AI campaign management is the use of automated and AI-assisted tools to plan, build, monitor and adjust paid media. Google and Meta already include automation in their own bidding and creative tools, so the question for a regulated buyer is not whether automation exists in the account. It is whether anyone outside the platform is checking what the automation optimizes toward.
+Tasks that generally suit delegation, with review: drafting ad variants from approved messaging, summarizing search term reports, flagging anomalies in spend or conversion tracking, clustering keywords, and preparing reporting drafts.
+Tasks that should stay with a person: defining what counts as a qualified inquiry, deciding which audiences to exclude, interpreting restricted-category platform rules, approving claims, and deciding what outcome data to connect. These are judgment calls with legal and reputational consequences.
+Our [paid media](/services/paid-media) service pairs these workflows with Google and Meta account management. Treat platform policies as changeable. Before acting on any health or sensitive-category rule, check the current official Google and Meta policy pages.
+What is operating now and what is planned
+Buyers should ask every vendor, including us, to label each capability as operating, pilot or planned, and to name who is accountable for that label. A roadmap item described in present tense is a sales claim, not a capability.
+* Ad copy and creative drafting from approved messaging. Human review point: Gate 2. Data touched: Approved brand and service content.
+* Search term and campaign performance summarization. Human review point: Gate 4. Data touched: Platform performance data.
+* Anomaly flags on spend and conversion tracking. Human review point: Gate 4. Data touched: Platform and analytics data.
+* Call review and qualification support. Human review point: Gates 5 and 6. Data touched: Call data, handled under agreed terms.
+* Marketing-to-outcome reporting. Human review point: Gate 6. Data touched: Authorized outcome data only.
+* Local inference for sensitive-input workloads. Human review point: Gate 5. Data touched: Defined per workflow.
+Two honest notes follow from this table. First, not every workflow runs on local models, and the page should never imply it. Second, a "pilot" label is useful to a buyer. It tells them what to ask for and what not to rely on yet.
+Security and data minimization
+Security for marketing AI starts with a smaller question than "is it secure?" It is: what is the least data this task needs, and where does that data go?
+Minimize before you protect. Data that never enters a system cannot leak from it. Marketing tasks rarely need identifiable inquirer details. Where an outcome study needs linked data, use the narrowest fields and the shortest retention that serves the purpose.
+Separate the tracking layer from the AI layer. Tracking technologies on healthcare websites and landing pages have drawn regulatory attention in the US. A covered entity's pages, pixels and forms should be reviewed under its own privacy policies and legal advice. An AI system added on top does not remove that obligation and can add to it if it ingests the same data.
+Control access and keep logs. Know who can reach prompts, outputs and connected systems. Keep a record of what the system was given and what a person approved.
+Check the agreements. Whether a vendor will sign a business associate agreement, and under what conditions, is a contractual and legal question that depends on the engagement. Do not accept the phrase "HIPAA-compliant AI" as an answer. A tool or workflow does not confer compliance. Compliance depends on use, agreements, safeguards and review.
+Measuring AI for healthcare marketing against qualified calls and admissions
+The second question buyers ask is how to judge whether any of this works. Measure AI for healthcare marketing against the same outcomes you would use for any acquisition program, not against AI activity. Output volume, such as how many ads were generated, says nothing about value.
+A measurement ladder helps, from easiest to hardest to obtain:
+* Platform conversions. Form fills and calls as reported by Google and Meta. Fast and available, but easy to inflate and blind to quality.
+* Tracked calls with duration and source. Call tracking connects campaign, keyword and landing page to a phone inquiry. Duration and basic qualification add context.
+* Qualified inquiry. A definition agreed with the intake team: right service, right location, right payer situation or eligibility where applicable. This is the most useful number for decisions and the one most often undefined.
+* Scheduled assessment or consult. Linked from the intake or scheduling system.
+* Admission or completed visit, by facility or service line. The closest outcome to business value. It requires authorized data linkage, and the terms of that linkage belong in a written agreement and privacy review.
+The ladder matters for AI because any optimizing system will chase the highest rung it can see. If the system only sees rung 1, it will find cheaper form fills. If it can see rung 3 with a clear definition, it can be directed at inquiries your team actually wants. Moving an AI-assisted program up the ladder is more valuable than adding features to it.
+Set a baseline before changing anything, keep the measurement definitions stable during the test, and compare against qualified outcomes, not raw volume. We have not included performance figures on this page because no approved, scoped case is available for publication. Where we have verified cases, they will appear under [case studies](/results/case-studies) with scope, period, baseline and method.
 
-Infrastructure we own, operated for your marketing
-Marketing Powered invests in and operates its own computing hardware and systems. That gives us direct control over supported deployments, customization, and capacity instead of relying entirely on rented access.
-[CTA] Request a Free Audit
-
-
-What owned infrastructure means
-Owned infrastructure is computing hardware and software that Marketing Powered purchased, configured, and operates. Supported workloads run on it under our direct oversight. Rented access, by contrast, means paying for a vendor's model, platform, or application and accepting its terms, pricing, update schedule, and data handling.
-Most agencies operate entirely on rented access. That is a legitimate choice, and we use outside services ourselves where they are the right tool. The difference is that we also maintain an environment of our own, so a workflow can run where its requirements are best served.
-Owned infrastructure is not a data center service, and it is not a claim that every task runs in-house. It is a practical statement: for the workloads listed on this page, we control how the work runs, what software it uses, and what data it touches.
-This page expands the [owned infrastructure](/#infrastructure) section of our homepage. It describes why we own hardware, what runs on it, what does not, and how we keep agency assets, client data, and agency intellectual property separate.
-Why we own hardware instead of renting everything
-Control over deployment. When a workflow runs on infrastructure we operate, we decide which software version is in use, when it changes, and what it can reach. A vendor's roadmap does not decide that for us.
-Customization. Software and model configurations can be adapted to a business requirement rather than the other way around. If an intake summary needs a particular structure, or a report needs a client's own definitions, the environment can be shaped to fit. Our [customizable AI](/ai-edge/customizable-ai) page shows what a scoped workflow looks like.
-Capacity. Scheduled work, such as weekly reporting or overnight data preparation, runs on capacity we reserve rather than on a shared service's availability. We do not publish capacity figures, and we size the environment to the workloads we support.
-Oversight of data handling. Processing that happens on our infrastructure can be observed, logged, and bounded. Our [local processing](/ai-edge/local-processing) page explains what that oversight covers and where the exceptions are.
-Cost predictability. Owned systems carry a known cost that does not scale with every query. That lets us test and iterate on a workflow without a usage bill shaping the decision.
-Workloads that run on infrastructure we operate
-The following workload types are supported today. A person reviews the output of each one before it reaches a client or the public.
-* Content and creative drafting: first drafts of page copy, ad variations, email sequences, and creative briefs for human editing and approval.
-* Reporting and analysis: summaries and analysis of exported campaign, call tracking, and CRM data, using the client's own metric definitions.
-* Data preparation: cleaning, matching, and deduplicating records so attribution and reporting rest on consistent data.
-* Internal automation: routing, classification, summarization, and quality checks that reduce manual handoffs inside the agency.
-* Configuration testing: trying a model, prompt, or integration against sample data before it is approved for use.
-* Model evaluation: comparing open-source and open-weight models for a defined task before selecting one. Our [open source](/ai-edge/open-source) page covers how we select and license software.
-Workloads outside this list are decided case by case, using the criteria below. We add a workload type to the supported list only after it has been tested and has a named owner.
-What still runs on outside services
-Owning hardware does not remove outside services from marketing delivery. The following remain vendor-operated, and in most engagements the accounts belong to the client.
-* Advertising platforms, where campaigns are built, served, and measured.
-* Website analytics and tag management.
-* Call tracking and call recording services.
-* CRM and intake systems, which remain the system of record for inquiries.
-* Email and form delivery services.
-* Website hosting and content delivery.
-* Cloud services, where a specific workload needs capacity or a capability we do not operate ourselves.
-Each engagement lists which of these are in use, what data reaches them, and who owns the account. Our [data sovereignty](/ai-edge/data-sovereignty) page describes that record and what a client can inspect.
-Our local processing approach does not mean every integration runs offline or every external service disappears. It means the boundary between our environment and each outside service is defined and written down.
-How we decide where a workload runs
-The decision is made before implementation and recorded with the engagement. Five questions drive it.
-* Data sensitivity and approved uses: what data the workload touches and whether the client has approved that use.
-* Integration requirements: whether the workload must live inside a vendor platform to do its job, such as campaign bidding or CRM automation.
-* Availability needs: whether the work is scheduled, interactive, or always on, and what happens if it pauses.
-* Software and model fit: whether an open-source or open-weight option meets the task, or a vendor service is the better tool.
-* Review requirements: where a person must approve the output before it is used, and how that approval is recorded.
-Changes to a workload's location, data, or software go through the approval points described on our [AI governance](/ai-edge/ai-governance) page. A change that widens what data leaves a client-owned system needs the client's approval first.
-Three things we keep separate
-### Agency assets
-The hardware, software licenses, and configured environments we own. We maintain them, pay for them, and decide how they are used. They are not provided to clients as a hosting service.
-### Client data
-Inquiries, campaign history, call records, CRM exports, and reporting outputs belong to the client. We hold them for the engagement and the approved uses, delete them from agency systems on request or at the end of the engagement, and return them in standard formats.
-### Agency intellectual property
-Workflows, prompts, configurations, integration patterns, and internal tooling are ours. Clients retain ownership of their data. Access to our services does not automatically transfer our technology, workflows, or configurations.
-Keeping these three apart protects both sides. A client can leave with its data intact, and the agency keeps the systems it built to do the work.
-What owned infrastructure does not promise
-It does not promise that all processing is local. Supported workloads run on our infrastructure; advertising, analytics, CRM, and similar services remain where they are.
-It does not promise compliance. HIPAA and related obligations belong to the client's program. Our practices support responsible execution without promising that technology alone resolves every security or compliance obligation.
-It does not come with published specifications or capacity numbers. We describe what the environment is for and what runs on it, not what it is built from.
-It does not mean automation without people. Every supported workload has a human review point and a named owner.
-How this connects to the rest of our technology
-Owned infrastructure is the foundation for three concepts described elsewhere on this site. [Local processing](/ai-edge/local-processing) covers the workloads and data handling in detail. [Data sovereignty](/ai-edge/data-sovereignty) covers storage, access, providers, and ownership. [AI governance](/ai-edge/ai-governance) covers approvals, testing, monitoring, and accountability.
-In day-to-day delivery, the infrastructure supports [analytics and attribution](/services/analytics-and-attribution), reporting, and the [workflow integrations](/services/web-development/integrations-and-tracking) that connect intake, follow-up, and measurement. The value is practical: more control over the systems supporting your marketing operation, not hardware for its own sake.
-Start with what you need to control
-The useful question is not whether a partner owns hardware. It is which parts of your marketing operation need more control than a standard subscription allows, and whether the partner can show you where each workload runs. An audit of your current marketing systems and data flows is a direct way to find out.
-[CTA] Request a Free Audit
 FAQ
-Q: What does Marketing Powered mean by owned AI systems?
-A: Computing hardware, software, and configured environments the agency purchased and operates, used for supported marketing workloads such as content drafting, reporting, data preparation, internal automation, and configuration testing. It is distinct from rented access to a vendor's platform.
-Q: Does everything run on your own infrastructure?
-A: No. Advertising platforms, analytics, call tracking, CRM, email and form delivery, hosting, and some cloud services remain vendor-operated. Each engagement lists which outside services are in use and what data reaches them.
-Q: Why does owning infrastructure matter for a marketing client?
-A: It gives us control over how a workflow runs, lets us adapt software to the client's requirements, reserves capacity for scheduled work, and keeps processing observable. It is a means to a more controlled marketing operation, not a feature on its own.
-Q: Who owns the data processed on your systems?
-A: The client. Clients retain ownership of their data, and our ownership of the hardware does not change that. Our workflows, configurations, and tooling remain agency intellectual property.
-Q: Do you publish specifications for the infrastructure?
-A: No. We describe what the environment supports and how decisions are made. Specifications and capacity figures are not published, and the page makes no performance claims.
-
-
-SCHEMA RECOMMENDATION
-Schema type: Article, BreadcrumbList
-* @type: Article with headline (the H1), author and publisher (Organization: Marketing Powered), datePublished, dateModified
-* @type: BreadcrumbList for Home > AI Edge > Owned AI Systems (rendered by the site's breadcrumb component)
-* No FAQPage markup: the FAQ renders as an accordion only
-* No product, offer, or performance properties
-
-
-DELIVERY NOTES
-Revision basis
-* Homepage Copy and Implementation Package, November 6, 2026: source-content audit W09, supporting-page scope (owned infrastructure brief), claims register C08, C09, C12, C13, and the proof standard. Related Asana reference A05 (research-source repair).
-
-
-Claims removed from the previous version
-* Hardware, storage, and network specifications presented as evidence.
-* The analyst-research citation and its iteration-speed figure.
-* The agency-wide spend total, the account count, and the monthly spend figure presented as current agency activity.
-* The founding-year and agency-age statements.
-* The founder credential reference.
-* Absolute statements about data location and compliance posture, replaced by supported workloads and listed exceptions.
-* Claims about financial services and retail deployments, and the "exclusive" behavioral health positioning.
-* The results graphic alt text that carried multiples and latency figures (image set to be revised by the coordinating session).
-
-
-Citations
-* Removed: the analyst research (unsupported figure) and the NIST AI RMF reference (no longer cited in this copy; it remains on the AI governance page).
-
-
-Approvals pending
-* C08 (ownership and operation of hardware), C09 (supported workloads), C12 (data versus IP boundary), and C13 (adaptable software and model configuration) need Mike's final approval of wording.
-* The supported-workload list, decision criteria, and separation practices are as described by the agency, pending technical-owner confirmation.
-* Contract alignment for the data-ownership and IP statements (C12) should be confirmed with counsel.
-
-
-Internal links
-* Back to the homepage infrastructure section; across to local processing, data sovereignty, AI governance, customizable AI, open source, analytics and attribution, and integrations and tracking.
-
-
-Imagery
-* The previous hero carried an absolute control claim and the old H1; the results graphic carried multiples and latency figures. Both should be replaced or dropped. The concept and process graphics reference local inference hardware and a phased rollout; retain only if the coordinating session judges them consistent with the copy.
+Q: Does owning AI hardware make marketing data more secure?
+A: It can widen your options for keeping certain workloads inside a boundary the operator controls. It does not guarantee isolation, and it does not make a workflow compliant. Security depends on data minimization, access controls, agreements and review. Ask for the architecture by workflow instead of accepting a blanket claim.
+Q: Do all of Marketing Powered's campaigns run on local models?
+A: No. Local inference suits some workloads, and other tools suit others. The capability table above is where we state, workflow by workflow, what is operating, in pilot or planned.
+Q: Who owns the data used in an AI marketing system?
+A: The client keeps ownership of its accounts, records and assets. The agency's ownership of its own computing hardware is a separate matter and does not transfer client data.
+Q: Is AI for healthcare marketing only relevant to behavioral health?
+A: No. Behavioral health is a specialization grounded in founder experience, but the same control questions apply to hospitals, health systems, mental health providers and other regulated organizations. Multi-location systems often add coordination, measurement and stakeholder complexity.
+Q: How should AI for healthcare marketing be measured?
+A: Against qualified calls, scheduled assessments and, where authorized data supports it, admissions or visits by facility or service line. Activity metrics such as content volume do not indicate business value.
+Q: What should a privacy or compliance team review first?
+A: Which data enters the system, which agreements apply, who has access, and where humans approve decisions. Review the tracking layer on your own site and landing pages separately from the AI layer. [Request an acquisition audit](/get-started/request-an-audit)

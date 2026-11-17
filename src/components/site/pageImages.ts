@@ -86,6 +86,202 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/multi-location-healthcare-reporting/": [
+    // [0] hero
+    studioImg(
+      "resources/multi-location-healthcare-reporting",
+      "multi-location-healthcare-marketing-reporting.webp",
+      "Healthcare marketing and operations leaders review a report together.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/multi-location-healthcare-reporting",
+      "multi-location-healthcare-marketing-reporting-healthcare-colleagues-discuss-reporting.webp",
+      "Healthcare colleagues discuss a reporting plan at a desk.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/guides/meta-ads-for-treatment-centers/": [
+    // [0] hero
+    studioImg(
+      "resources/guides/meta-ads-for-treatment-centers",
+      "meta-ads-for-treatment-centers.webp",
+      "Treatment center leadership team in an admissions huddle reviewing marketing reports and call logs.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/guides/meta-ads-for-treatment-centers",
+      "meta-ads-for-treatment-centers-treatment-center-executives-comparing.webp",
+      "Treatment center executives comparing Meta Ads reports with internal qualified inquiry and admissions data.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/guides/meta-ads-for-treatment-centers",
+      "meta-ads-for-treatment-centers-flow-diagram-inquiry-handoff-chain-meta.webp",
+      "Flow diagram of the inquiry handoff chain from Meta ad to verified admission showing data sources and privacy review points at each stage.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/guides/meta-ads-for-treatment-centers",
+      "meta-ads-for-treatment-centers-wireframe-paid-media-dashboard-template.webp",
+      "Wireframe of a paid media dashboard template showing blank fields for spend, qualified inquiries, cost per qualified inquiry, admissions and related metrics.",
+      "1600 / 1067",
+    ),
+  ],
+  "/resources/guides/intake-attribution-and-call-quality-framework/": [
+    // [0] hero
+    studioImg(
+      "resources/guides/intake-attribution-and-call-quality-framework",
+      "intake-attribution-framework.webp",
+      "Healthcare leadership team reviewing attribution reports in a strategy meeting",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/guides/intake-attribution-and-call-quality-framework",
+      "intake-attribution-framework-operations-team-discussing-call-reports.webp",
+      "Operations team discussing call reports and admissions data in a healthcare meeting",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/guides/intake-attribution-and-call-quality-framework",
+      "intake-attribution-framework-flow-diagram-inquiry-admission-stages.webp",
+      "Flow diagram of inquiry-to-admission stages showing data owners and fields where marketing source data can be lost",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/guides/intake-attribution-and-call-quality-framework",
+      "intake-attribution-framework-diagram-showing-data-ownership-flow.webp",
+      "Diagram showing data ownership flow and consent boundaries across marketing, intake, and finance systems for hospitals",
+      "1600 / 1067",
+    ),
+  ],
+  "/resources/healthcare-marketing-compliance-checklist/": [
+    // [0] hero
+    studioImg(
+      "resources/healthcare-marketing-compliance-checklist",
+      "healthcare-marketing-compliance.webp",
+      "Healthcare CMO reviewing compliance documents in a professional office setting.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/healthcare-marketing-compliance-checklist",
+      "healthcare-marketing-compliance-healthcare-marketing-operations-team.webp",
+      "Healthcare marketing and operations team discussing a compliance checklist together in a meeting room.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/healthcare-marketing-compliance-checklist",
+      "healthcare-marketing-compliance-raci-owner-matrix-table-showing-approval.webp",
+      "RACI owner matrix table showing approval responsibilities for healthcare marketing compliance gates across roles.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/healthcare-marketing-compliance-checklist",
+      "healthcare-marketing-compliance-three-column-compliance-verification.webp",
+      "Three-column compliance verification ledger diagram listing key healthcare marketing items, status, and verification questions.",
+      "1600 / 1067",
+    ),
+  ],
+  "/resources/hipaa-compliant-analytics/": [
+    // [0] hero
+    studioImg(
+      "resources/hipaa-compliant-analytics",
+      "hipaa-compliant-analytics.webp",
+      "Healthcare marketing and privacy leaders reviewing HIPAA-aware analytics data flow in an office setting.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/hipaa-compliant-analytics",
+      "hipaa-compliant-analytics-data-flow-decision-diagram-showing.webp",
+      "Data-flow decision diagram showing compliance gates between website pages, tags, and data recipients for HIPAA-aware analytics.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/hipaa-compliant-analytics",
+      "hipaa-compliant-analytics-healthcare-team-discussing-page.webp",
+      "Healthcare team discussing page classification and data handling decisions in a meeting room.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/hipaa-compliant-analytics",
+      "hipaa-compliant-analytics-measurement-ladder-showing-what-each.webp",
+      "Measurement ladder showing what each analytics level can and cannot prove from page events to verified admissions.",
+      "1600 / 1067",
+    ),
+  ],
+  "/resources/hospital-marketing-guide/": [
+    // [0] hero
+    studioImg(
+      "resources/hospital-marketing-guide",
+      "hospital-marketing.webp",
+      "Hospital CMO and service-line leader reviewing capacity and demand planning documents in a conference room.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/hospital-marketing-guide",
+      "hospital-marketing-hospital-cmos-vps-marketing-service-line.webp",
+      "Hospital CMOs, VPs of marketing, and service-line leaders collaborating in a strategy meeting.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/hospital-marketing-guide",
+      "hospital-marketing-measurement-ladder-impression-admitted.webp",
+      "Measurement ladder from impression to admitted patient showing visibility and data owner at each step.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/hospital-marketing-guide",
+      "hospital-marketing-four-step-hospital-marketing-planning.webp",
+      "Four-step hospital marketing planning flow showing sequence, outputs and owning roles.",
+      "1600 / 1067",
+    ),
+  ],
+  "/services/healthcare-digital-marketing-services/": [
+    // [0] hero
+    studioImg(
+      "services/healthcare-digital-marketing-services",
+      "healthcare-digital-marketing-services.webp",
+      "Healthcare marketing leader and admissions coordinator reviewing performance data in a hospital office.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "services/healthcare-digital-marketing-services",
+      "healthcare-digital-marketing-services-six-service-tiles-showing-paid-media-seo.webp",
+      "Six service tiles showing paid media, SEO, web conversion, call tracking, analytics and attribution, and AI operations, each with the core business question it answers.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "services/healthcare-digital-marketing-services",
+      "healthcare-digital-marketing-services-photo-how-measure-healthcare-digital.webp",
+      "Photo · How to measure healthcare digital marketing against qualified calls or",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "services/healthcare-digital-marketing-services",
+      "healthcare-digital-marketing-services-healthcare-operations-marketing-leaders.webp",
+      "Healthcare operations and marketing leaders discussing an acquisition audit summary in a professional office.",
+      "1600 / 1067",
+    ),
+  ],
   "/services/multi-location-healthcare-seo/": [
     // [0] hero
     studioImg(
@@ -1164,37 +1360,34 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // The previous set asserted "complete control", "full data sovereignty",
   // "no third-party API dependencies", and 40% / 1.4X / sub-100ms results,
   // which the package holds or contradicts. Decorative hero only.
-  "/ai-edge/owned-ai-systems/": [DECO_ROWS],
-  "/ai-edge/ai-in-paid-media/": std4("ai-edge/ai-in-paid-media", [
-    "Optimize paid media with AI for performance-driven agency growth",
-    "AI in paid media: advanced targeting, real-time bidding, multivariate testing, and budget allocation",
-    "Framework for AI integration: identify bottlenecks, platform-native bidding, connect CRM and offline conversions, vertical compliance, predictive AI",
-    "Key takeaways on AI in paid media: strategic shift, boosted efficiency, and scalable growth",
-  ]),
-
-  // Hero swapped to the clean concept (02) — Asana's 01 hero headline was garbled
-  // ("APPPLICATONS"), and 04 had placeholder artifacts; 3 clean images supplied.
-  // The rewritten page describes the agency's operating model (storage,
-  // access, providers, retention) rather than jurisdictions, so the old
-  // hero and icon set no longer match; decorative hero only.
-  "/ai-edge/data-sovereignty/": [DECO_FIELD],
-  // Process slot uses the clean takeaways graphic (08) — Asana's 03 was a
-  // placeholder-text draft ("Semi BOLD" cards).
-  "/ai-edge/ai-governance/": [
-    pageImg(
-      "ai-edge/ai-governance",
-      "01-hero-banner.jpg",
-      "Abstract graphic for AI governance in healthcare marketing",
+  "/ai-edge/owned-ai-systems/": [
+    // [0] hero
+    studioImg(
+      "ai-edge/owned-ai-systems",
+      "ai-for-healthcare-marketing.webp",
+      "Healthcare marketing and operations leaders reviewing diagrams together in a professional office setting.",
+      "16 / 9",
     ),
-    pageImg(
-      "ai-edge/ai-governance",
-      "02-concept.jpg",
-      "Four elements of AI governance: policy, technical controls, accountability, and continuous monitoring",
+    // [1] section image
+    studioImg(
+      "ai-edge/owned-ai-systems",
+      "ai-for-healthcare-marketing-healthcare-marketing-leader-analyzing.webp",
+      "Healthcare marketing leader analyzing data, decision and measurement reports in an office.",
+      "1600 / 1067",
     ),
-    pageImg(
-      "ai-edge/ai-governance",
-      "04-results.jpg",
-      "AI governance overview: addressing risk, maturing governance, and key elements of compliance",
+    // [2] section image
+    studioImg(
+      "ai-edge/owned-ai-systems",
+      "ai-for-healthcare-marketing-diagram-owned-ai-marketing-system.webp",
+      "Diagram of an owned AI marketing system showing data minimization before model inference and human review before campaign changes.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "ai-edge/owned-ai-systems",
+      "ai-for-healthcare-marketing-healthcare-leaders-collaboratively.webp",
+      "Healthcare leaders collaboratively reviewing an acquisition audit map in a meeting room.",
+      "1600 / 1067",
     ),
   ],
   "/ai-edge/social-media/": std4("ai-edge/social-media", [
@@ -1752,25 +1945,7 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ],
   ),
 
-  "/resources/guides/meta-ads-for-treatment-centers/": std4(
-    "resources/guides/meta-ads-for-treatment-centers",
-    [
-      "Meta Ads for treatment centers guide: compliant Facebook and Instagram advertising that drives qualified admission inquiries",
-      "Strategic Meta advertising for treatment centers: compliant targeting and education-first creative from platforms through to increased leads and revenue",
-      "Optimizing Meta Ads for treatment centers, a strategic framework: compliance and setup, audience and targeting, creative development, campaign execution, and measurement",
-      "Data-forward insights for Meta Ads at treatment centers: navigating compliance, structuring for admissions, and optimizing for cost per admission",
-    ],
-  ),
 
-  "/resources/guides/intake-attribution-and-call-quality-framework/": std4(
-    "resources/guides/intake-attribution-and-call-quality-framework",
-    [
-      "Optimize your intake process: an intake attribution and call quality framework that connects marketing spend to admission outcomes",
-      "From inquiry source through intake attribution and the call quality framework to admissions outcomes: identify the channels that drive admissions, not just leads",
-      "Connecting intake to admissions, a proven framework: track inquiry source, score intake calls, verify clinical fit and insurance, streamline the admissions funnel, and optimize marketing spend",
-      "Intake attribution and call quality framework, data that drives admissions: intake attribution advantages plus call quality metrics and benchmarks for call answer rate, abandonment, and the call-to-admission funnel",
-    ],
-  ),
 
   /* ---- Guides: TSMC publish batch (Asana-sourced per-page graphics) ----
      Trimmed 2026-11-05 to two images per guide: the cleanest diagram / icon

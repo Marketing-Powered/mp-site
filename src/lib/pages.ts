@@ -273,6 +273,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/services/rehab-lead-generation", file: "services/rehab-lead-generation.md" },
     { href: "/services/healthcare-lead-generation", file: "services/healthcare-lead-generation.md" },
     { href: "/services/multi-location-healthcare-seo", file: "services/multi-location-healthcare-seo.md" },
+    { href: "/services/healthcare-digital-marketing-services", file: "services/healthcare-digital-marketing-services.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },
@@ -347,6 +348,10 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/rehab-ppc-vs-seo", file: "resources/rehab-ppc-vs-seo.md" },
     { href: "/resources/legitscript-certification-guide", file: "resources/legitscript-certification-guide.md" },
     { href: "/resources/rehab-advertising-guide", file: "resources/rehab-advertising-guide.md" },
+    { href: "/resources/hospital-marketing-guide", file: "resources/hospital-marketing-guide.md" },
+    { href: "/resources/hipaa-compliant-analytics", file: "resources/hipaa-compliant-analytics.md" },
+    { href: "/resources/healthcare-marketing-compliance-checklist", file: "resources/healthcare-marketing-compliance-checklist.md" },
+    { href: "/resources/multi-location-healthcare-reporting", file: "resources/multi-location-healthcare-reporting.md" },
   ],
   "legal/index.md": [
     { href: "/legal/terms", file: "legal/terms.md" },

@@ -1,134 +1,204 @@
 ---
-title: "HIPAA-Compliant Marketing: Key Risks and Strategies"
+title: "HIPAA Compliant Marketing: A Data-Flow Risk Framework"
 url: "/resources/guides/hipaa-digital-marketing-risk/"
 primary_keyword: "hipaa compliant marketing"
+secondary_keywords: "hipaa marketing rules, healthcare marketing compliance"
 author: "mike-hulick"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This guide targets the /resources/guides/hipaa-digital-marketing-risk/ URL with 'hipaa compliant marketing' as the primary keyword and 'hipaa healthcare marketing, marketing hipaa compliance, hipaa marketing rules, phi in marketing' as secondary keywords. Word count target is 1200-1800 words. Page type: Cornerstone guide/resource page. Buyer target: CEO, COO, or VP of Business Development at a healthcare organization concerned about compliance violations and seeking safe marketing practices.
-Page type: Cornerstone Guide
-Buyer target: CEO, COO, or VP of Business Development at a healthcare organization seeking HIPAA-compliant marketing guidance
-Word count target: 1200-1800 words
-
-
 SEO METADATA
-Title tag (51 chars): HIPAA-Compliant Marketing: Key Risks and Strategies
-Meta description (105 chars): Explore HIPAA marketing risks and compliant strategies with insights from a $50M+ healthcare media expert.
-H1: Understanding HIPAA-Compliant Marketing
-Hero image alt: Healthcare marketing compliance dashboard showing HIPAA-compliant data handling and campaign management interface
+Title tag: HIPAA Compliant Marketing: A Data-Flow Risk Framework
+Meta description: HIPAA compliant marketing is a data-flow review, not a vendor label. Learn who is covered, when a BAA applies, and how to measure admissions.
+H1: HIPAA and Digital Marketing: A Data-Flow Risk Framework
+Hero image alt: Healthcare marketing and privacy colleagues review a workflow together.
 
 
 PAGE COPY
 
-
-Understanding HIPAA-Compliant Marketing
-How healthcare organizations protect patient data while building effective marketing programs
-[CTA] Request a HIPAA Compliance Audit
-The Importance of HIPAA Compliance in Marketing
-HIPAA-compliant marketing is not optional for healthcare organizations. It is a legal requirement that shapes every patient interaction, from the first ad impression to the final follow-up email. The Health Insurance Portability and Accountability Act establishes strict boundaries around how Protected Health Information (PHI) can be used, disclosed, and safeguarded. Marketing teams that ignore these boundaries expose their organizations to federal enforcement actions, civil penalties, and irreparable damage to patient trust.
-The regulatory environment has intensified since 2022. The HHS Office for Civil Rights has issued specific guidance on tracking technologies, making clear that common marketing tools like pixels, cookies, and analytics platforms can create HIPAA violations when they transmit PHI to third parties without proper authorization. Even IP addresses combined with health condition information can constitute PHI under the right circumstances.
-For healthcare executives, the stakes extend beyond fines. A single compliance failure can trigger mandatory breach notifications, media coverage, and long-term reputation damage that undermines patient acquisition for years. Organizations operating in behavioral health marketing face additional scrutiny because of the sensitive nature of addiction and mental health treatment.
-Marketing Powered approaches this reality with operator-level experience: $50M+ managed in behavioral health and mental health media spend, with HIPAA awareness built into every campaign structure. The difference between agencies that understand HIPAA-compliant healthcare marketing and those that do not becomes apparent the first time a compliance question arises.
-Key HIPAA Marketing Rules to Follow
-HIPAA marketing rules center on one principle: patient authorization. Under the Privacy Rule, covered entities cannot use or disclose PHI for marketing purposes without prior written authorization from the patient. This applies regardless of channel, whether you are running Google Ads, sending email campaigns, or retargeting website visitors.
-The authorization requirement has specific exceptions that marketers must understand:
-* Face-to-face communications with patients do not require separate marketing authorization.
-* Promotional gifts of nominal value can be distributed without authorization.
-* Refill reminders and communications about currently prescribed medications are permitted.
-* Treatment alternatives or health-related products offered by the covered entity may be communicated under certain conditions.
-Data Handling Across Channels
-The rules become more complex when applied to digital channels. Email marketing requires explicit consent and secure transmission. Social media advertising cannot leverage PHI for targeting, even if the patient voluntarily shared health information on a platform. Website analytics must be configured to prevent PHI from being captured and transmitted to third-party servers.
-Google Ads restricts advertisers in healthcare verticals from using personalized advertising. Behavioral health and addiction treatment fall under sensitive categories that prohibit remarketing entirely. Organizations running paid media in these verticals need partners who understand how to build compliant campaign architectures from the ground up.
-Marketing HIPAA compliance also extends to Business Associate Agreements (BAAs). Any vendor that handles PHI on behalf of a covered entity must sign a BAA and maintain appropriate safeguards. This includes marketing agencies, CRM platforms, email service providers, and analytics tools.
-Risks of Non-Compliance in Healthcare Marketing
-The consequences of HIPAA violations in marketing are not theoretical. The HHS Office for Civil Rights has pursued enforcement actions against healthcare organizations for improper use of tracking technologies, unauthorized disclosures through marketing campaigns, and failure to secure patient data in digital communications.
-Civil monetary penalties under HIPAA range from $100 to $50,000 per violation, with annual caps reaching $1.5 million per violation category. Penalties have increased significantly in recent years as OCR has expanded its focus to digital health technologies and marketing practices.
-Real-World Compliance Failures in Healthcare Marketing
-Several healthcare organizations have faced enforcement actions specifically related to marketing activities. A health system disclosed PHI through its patient portal's appointment reminder feature, which was accessible to unauthorized third-party tracking scripts. A behavioral health provider used Meta Pixel without proper configuration, transmitting patient IP addresses and appointment information to an advertising platform's infrastructure. A hospital marketing team uploaded patient lists to advertising platforms for custom audience targeting without obtaining proper authorization.
-These failures share common patterns: inadequate technical safeguards, insufficient vendor oversight, and marketing teams operating without compliance guidance. The risk of PHI in marketing is highest when organizations treat digital advertising like any other industry without accounting for healthcare's unique regulatory requirements.
-Beyond federal penalties, HIPAA violations trigger state attorney general investigations, class action lawsuits, and mandatory breach notifications that alert patients and media to the failure. For organizations building healthcare web properties, compliance must be architected into the foundation, not added as an afterthought.
-How to Implement HIPAA-Compliant Marketing Strategies
-Building HIPAA marketing rules into your marketing operations requires systematic changes across technology, process, and vendor relationships. The goal is not to eliminate digital marketing but to execute it within compliant boundaries.
-Technical Safeguards for HIPAA Marketing
-Start with your website infrastructure. Audit all tracking scripts, pixels, and analytics tools to identify which ones collect data that could constitute PHI. Remove or reconfigure tools that transmit identifiable health information to third parties. Implement consent management platforms that give patients control over data collection.
-Server-side tracking offers a compliant alternative to client-side pixels for organizations that need campaign attribution. By processing data on your own servers before transmitting to advertising platforms, you can strip PHI and maintain compliance while preserving marketing insights. This requires technical expertise that most in-house teams lack.
-Process Controls for Marketing HIPAA Compliance
-Establish clear workflows for marketing authorization. Any campaign that uses patient information for targeting or personalization requires documented consent that meets HIPAA's authorization requirements. Train marketing staff on what constitutes PHI and how to handle patient data appropriately.
-Build compliance review into your campaign launch process. Before any new marketing initiative goes live, verify that data flows have been mapped, vendor agreements are in place, and authorization requirements have been met.
-Attribution Without PHI in Healthcare Campaigns
-Effective healthcare marketing requires understanding which channels drive admissions or appointments. Marketing Powered has developed attribution methodologies that track performance through to admission without compromising patient privacy. With $1.5M to $2M monthly in managed Google Ads and attribution tracked through to admission, we have proven that compliance and performance measurement can coexist.
-Our case studies demonstrate how this works in practice across behavioral health and mental health organizations, delivering measurable results without exposing patient data to unauthorized third parties.
-Evaluating HIPAA-Compliant Marketing Agencies
-Not every marketing agency understands healthcare data marketing at the level your organization requires. When evaluating potential partners, focus on demonstrated compliance experience rather than general healthcare industry exposure.
-Questions to ask during agency evaluation:
-* Have you signed Business Associate Agreements with healthcare clients? If so, how many are currently active?
-* What technical safeguards do you maintain for handling PHI in marketing operations?
-* How do you structure paid media campaigns to comply with sensitive vertical restrictions?
-* Can you demonstrate attribution tracking that does not rely on PHI transmission to third-party platforms?
-* What compliance training do your team members receive, and how frequently is it updated?
-What Sets Qualified HIPAA Marketing Partners Apart
-Agencies with genuine HIPAA awareness operate differently. They maintain their own compliant infrastructure rather than relying on standard marketing tools. They understand LegitScript certification requirements for addiction treatment advertising. They can explain exactly how data flows through their systems and what safeguards protect patient information at each step.
-Marketing Powered brings operator-level credibility to these conversations: court-certified marketing expert, AI-native infrastructure since 2022, and the experience of scaling a behavioral health organization from 3 to 24 locations. Our approach reflects a commitment to building systems that meet healthcare's unique requirements.
-The difference between a generic agency and a specialized partner becomes clear when compliance questions arise. You need a team that has already solved these problems, not one that will learn on your account.
-Request a HIPAA Compliance Audit
-Your marketing program should drive growth without creating compliance exposure. Marketing Powered brings $50M+ in managed healthcare media spend and the technical infrastructure to execute campaigns that protect patient data while delivering measurable results. Let's discuss your current strategy, compliance posture, lead quality, and channel mix.
-[CTA] Request a HIPAA Compliance Audit
-
+HIPAA and Digital Marketing: A Data-Flow Risk Framework
+For a covered organization, hipaa compliant marketing means uses and disclosures of protected health information satisfy applicable HIPAA requirements, not a label a channel, pixel, or agency can hold. Documenting each flow is a starting point for review with your privacy officer and counsel. It does not establish that a use or disclosure is permitted.
+[CTA] Request an acquisition audit → /get-started/request-an-audit
+What HIPAA compliant marketing means
+Picture a marketing director and a privacy officer at the same table, with two browser windows open. One window is a public page listing visiting hours. The other is an insurance verification form that asks for a payer, a phone number, and a level of care. The same tag container is loaded on both. The useful question is not whether the tag is a compliant product. It is whether this page, this payload, this recipient, and this purpose are permitted.
+HIPAA-compliant marketing must satisfy applicable HIPAA requirements for the organization's uses and disclosures of protected health information (PHI). This framework helps document decisions. It does not establish compliance. A covered entity may not use or disclose PHI except as the Privacy Rule permits or requires, or as the individual authorizes in writing. ([HHS: Summary of the HIPAA Privacy Rule](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html))
+### Who is covered, and what PHI is
+The HIPAA Rules apply to covered entities and business associates. A covered entity is a health plan, a health care clearinghouse, or a health care provider that transmits health information electronically in connection with a standard transaction, such as a claim, eligibility inquiry, or referral authorization. Providing care, by itself, does not decide coverage. HHS points organizations to a CMS decision tool for that test. If an entity is neither a covered entity nor a business associate, the HIPAA Rules do not apply to it, though other laws may. ([HHS: Covered Entities and Business Associates](https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html))
+PHI is individually identifiable health information held or transmitted by a covered entity or its business associate, in any form. It relates to a person's past, present, or future physical or mental health or condition, the provision of health care, or payment for that care, and it identifies the person or could reasonably be used to do so. A name in a phone book is not PHI. The same name listed with a clinic, a condition, or a payment fact can be. Identifying a visitor's relationship with a provider is not, by itself, a complete PHI test. ([HHS: Summary of the HIPAA Privacy Rule](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html))
+Marketing data rarely arrives labeled. An IP address, a cookie, a click ID, a URL, or a form event is just data until you know whether it relates to health, care, or payment and whether it identifies a person in the hands of a regulated entity. That is the review.
+### Why a vendor label fails
+A sentence that begins "we are HIPAA compliant" skips the only part a reviewer can use: what is sent, to whom, under what agreement, for what permitted purpose, and on which page. The same platform can be acceptable for one configured use and unacceptable for another. HHS does not recognize private Security Rule certifications as relieving an organization of its legal obligations. A certification does not prevent HHS from later finding a violation. ([HHS: Security Rule certification FAQ](https://www.hhs.gov/hipaa/for-professionals/faq/are-we-required-to-certify-our-organizations-compliance-with-the-standards/index.html)) Marketing Powered does not describe itself as HIPAA certified. It is HIPAA-aware and LegitScript-aware, and it is built for Google's sensitive healthcare vertical, where retargeting is not permitted. Treat a certification claim, including one about this firm, as a prompt to ask for the data-handling description behind it. The Federal Trade Commission Act also reaches health-data practices, including at HIPAA-covered organizations, and HHS and the FTC warn against misleading claims such as "HIPAA Compliant," "HIPAA Secure," or "HIPAA Certified." ([HHS and FTC: Collecting, Using, or Sharing Consumer Health Information?](https://www.hhs.gov/hipaa/for-professionals/special-topics/hipaa-ftc-act/index.html))
+### Where the Privacy Rule speaks to marketing
+Uses and disclosures of PHI for marketing generally require a valid authorization. HHS states that authorization is required for all marketing communications except a face-to-face encounter between the covered entity and the individual, or a promotional gift of nominal value. If the communication involves direct or indirect payment to the covered entity from a third party, the authorization must say so. ([HHS: When is patient authorization required for marketing?](https://www.hhs.gov/hipaa/for-professionals/faq/when-is-patient-authorization-required-for-marketing/index.html)) The rule also excludes certain communications from the marketing definition. Counsel should read the current text before anyone treats a campaign, a refill-style message, or a paid placement as outside the rule. A website consent banner is not that authorization. HHS describes an authorization as a signed, plain-language permission that states who may disclose, what information, who receives it, when it expires, and the purpose. ([HHS and FTC: Collecting, Using, or Sharing Consumer Health Information?](https://www.hhs.gov/hipaa/for-professionals/special-topics/hipaa-ftc-act/index.html))
+That authorization rule is one half of the problem. The other half is quieter. A tag can disclose information to a third party without anyone deciding to "do marketing" with a patient list. HHS states that disclosures of PHI to tracking technology vendors for marketing purposes, without individuals' HIPAA-compliant authorizations, are impermissible disclosures. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html)) Most of the exposure in digital programs sits in that second half. This page is operational guidance for that review. It is not legal advice.
+Which rule governs which decision
+Teams looking for hipaa marketing rules usually find restatements. A more useful move is to name the source that governs the decision in front of you, assign a person to re-read it, and keep the date of that reading in the file. Healthcare marketing compliance is wider than one statute. A flow can clear a HIPAA question and still fail a platform rule, a certification requirement for a treatment category, or another law.
+* Is this organization or vendor covered?; Primary source to read: HHS covered-entity and business-associate guidance, and 45 CFR 160.103 as HHS cites it; What to record: Covered-entity status, or why the vendor is or is not a business associate
+* Is this use or disclosure for marketing, and is authorization required?; Primary source to read: HHS marketing authorization guidance, then the current Privacy Rule text; What to record: Whether the communication is marketing, which exception is claimed, and whether payment from a third party is disclosed
+* Does this tracking technology disclose PHI?; Primary source to read: HHS bulletin on online tracking technologies, including the June 20, 2024 order noted on that page; What to record: Page type, what was actually transmitted, and counsel's reading of current status
+* Does this vendor need a business associate agreement?; Primary source to read: HHS business associate guidance and the tracking bulletin; What to record: Relationship, functions, and whether PHI is created, received, maintained, or transmitted on the organization's behalf
+* Do substance use disorder records add duties?; Primary source to read: HHS Part 2 overview, where the organization is a Part 2 program or a recipient of Part 2 records; What to record: Applicability decision by counsel, not by the media team
+* What may this ad platform receive and target?; Primary source to read: The current policy page for that platform; What to record: Policy URL, the date read, and the feature in use
+* Do other laws apply?; Primary source to read: Counsel's identification of FTC authority, state law, and organizational policy; What to record: A named reviewer and a date, not a guess in the media plan
+HHS identifies a June 20, 2024 court order vacating the tracking bulletin insofar as it treats the specified combination of an IP address and a visit to an unauthenticated public webpage addressing specific health conditions or healthcare providers as triggering HIPAA obligations. The bulletin states that HHS is evaluating its next steps. The order, as HHS describes it, vacated a portion of the guidance, not every sentence on the page. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html)) Do not brief leadership with a 2022 or early-2024 summary of that bulletin and call it current.
+Platform rules move on a different calendar. Google treats health as a sensitive interest category in personalized advertising. The category includes physical or mental health conditions and counseling services for mental health issues such as depression, anxiety, and addiction. Advertisers promoting in that category cannot use advertiser-curated audiences. Those audiences include Customer Match, an advertiser's own data segments, audience expansion, and lookalike segments. Predefined Google audiences are treated differently because Google says sensitive user signals are excluded from them. Google also tells advertisers not to share personally identifiable information through data-segment tags or product feeds, and not to use that information together with anonymous or pseudonymous information in those segments. ([Google Ads: Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855?hl=en)) ([Google Ads: Restricted targeting in personalized advertising](https://support.google.com/adspolicy/answer/143465?hl=en))
+Meta's advertising standards say ads must not assert or imply a person's physical or mental health, including medical conditions, and must not imply that the advertiser knows a user's medical information. Meta's own examples allow "Depression counseling" and do not allow "Depression getting you down?" ([Meta: Privacy Violations and Personal Attributes](https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes)) Those are creative and targeting rules. They do not answer the HIPAA question, and they do not stay still. Read the live page before a launch, and store the URL with the date.
+Some platforms also require an independent certification before certain addiction-treatment ads can run. Confirm the current requirement on the platform's own policy page. A certification for ad eligibility is not a HIPAA determination.
+Other federal and state laws may apply even when HIPAA does not, or in addition to it. The FTC Act prohibits deceptive or unfair practices in health-data collection, use, and sharing, including practices that mislead people about what happens to their information. The FTC Health Breach Notification Rule can apply to certain businesses that are not covered by HIPAA, including some vendors of personal health records and related service providers. ([HHS and FTC: Collecting, Using, or Sharing Consumer Health Information?](https://www.hhs.gov/hipaa/for-professionals/special-topics/hipaa-ftc-act/index.html)) This guide does not name the state statutes that reach a given hospital or treatment provider. Counsel should.
+Behavioral health, hospitals, and Part 2
+The same review fits a three-site treatment provider and a health system. What changes is volume, the number of owners, and whether 42 CFR Part 2 sits on top of HIPAA.
+### Behavioral and mental health
+A condition-specific page warrants assessment, but browsing it does not establish that the visitor has that condition. Evaluate the information actually disclosed and its context. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html)) A public article about a diagnosis is not the same artifact as a form on which a person selects a program, submits a phone number, and asks for a call.
+Higher-sensitivity touchpoints are the ones where a person discloses something. Insurance verification, "talk to admissions" chat, call recording on an admissions line, a provider or level-of-care search that writes the selection into the URL, and an intake questionnaire all deserve a line in the inventory. Stigma is a reason to be careful with language and with retention. It is not a substitute for the PHI test.
+Part 2 applies to federally assisted programs that provide substance use disorder diagnosis, treatment, or referral for treatment. Some requirements also extend to people and organizations that receive Part 2 records, including other providers, qualified service organizations, HIPAA covered entities, and business associates. In general, a Part 2 program may not share information that would identify someone as having or having had a substance use disorder unless Part 2 permits it. The 2024 final rule has been effective since April 16, 2024, and compliance was required by February 16, 2026. That date has passed. OCR enforces Part 2 and, beginning February 16, 2026, accepts complaints. ([HHS: Understanding Part 2](https://www.hhs.gov/hipaa/part-2/index.html)) Whether a given organization is a Part 2 program, or a recipient of Part 2 records, is a counsel question. Do not let a media plan assume the answer from the service line name.
+### Hospitals and health systems
+At a hospital, the same tag problem is split across owners. One team runs the public site. Another runs the portal. A third runs paid media. Scheduling, physician finders, and location pages often sit with a vendor the privacy office has not mapped. A global header or a tag-manager container that fires on every template copies one unreviewed decision across service lines and locations. The framework does not change. The inventory gets longer, and the owner column matters more, because no single marketer can see the portal, the call center, and the media account at once.
+Review each flow with four questions
+Compliance risk lives in data flows, not in tool names. Answer four questions for each flow, then record a fifth item the questions do not replace: the permitted use or disclosure basis. A business associate agreement and a useful purpose do not, by themselves, authorize a disclosure. ([HHS: Summary of the HIPAA Privacy Rule](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html))
+Sit with the analytics lead and open the browser's network panel on a staging page, not a slide. Read what the request actually sends.
+### Page
+Classify the page by what the visitor is doing, not by the campaign that bought the click.
+* Public and general: visiting hours, job postings, a directions page. HHS uses this kind of page as an example where a visit plus an IP address is not a disclosure of PHI, because the tracking technology did not have access to information about health, care, or payment. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html))
+* Condition or service specific: a page about a diagnosis, a program, or a level of care. Assess it. Do not treat the visit as proof that the visitor has the condition.
+* Provider-relationship: appointment request, insurance verification, admissions chat, provider search, intake. The bulletin's appointment example is the reference point: a person books through the site, and the site transmits appointment information and an IP address to a tracking vendor. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html))
+* User-authenticated: a portal, a telehealth login, anything behind a sign-in. The bulletin states that tracking technologies on user-authenticated pages generally have access to PHI. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html))
+Work by template. A tag in a shared header is a flow on every template that inherits it.
+### Payload
+List every element that leaves. Teams regularly miss the ones that do not look like a form field:
+* The URL and query string, including a program, location, or symptom parameter written by the previous page
+* Page title and referrer
+* IP address, device identifiers, cookies, and ad click IDs
+* Form values, hidden fields, and dropdown selections
+* Event names that describe the action, such as an insurance-check event
+* Caller number, recording, transcript, duration, and disposition
+* Chat text and session-replay recordings
+* Email addresses and phone numbers, including hashed copies
+Hashing changes the format. It does not, by itself, decide whether a recipient can match a person. Google's personalized advertising rules separately restrict sharing personally identifiable information through data-segment tags and using it with pseudonymous information in those segments. ([Google Ads: Restricted targeting in personalized advertising](https://support.google.com/adspolicy/answer/143465?hl=en)) Confirm with counsel how a specific upload is treated. Do not accept "it is hashed" as the end of the review.
+### Recipient
+Name every recipient: ad platform, analytics vendor, call-tracking vendor, CRM, chat vendor, email platform, texting tool, session-replay tool, agency, and any subcontractor. Record the agreement in place. That may be a business associate agreement, a service contract with no business associate terms, platform terms that do not offer one, or nothing. Also record whether the recipient's own terms allow the data you intend to send. A HIPAA analysis and a platform prohibition are separate gates. Failing either one stops the flow.
+### Purpose, then the permitted basis
+Write the purpose in one sentence a finance partner could repeat. "Bid toward qualified admissions, using a source code that contains no health information" is a purpose. "Collect it in case we need it" is not. If removing an element does not change a decision, stop sending it.
+Then write the permitted use or disclosure basis as its own field. Examples of what that field must contain, not a menu you can pick from without counsel: the Privacy Rule permits this disclosure for this function; the individual has signed a valid authorization that covers this recipient and this purpose; or the data are not PHI. A business associate agreement is not that field. HHS requires the agreement to describe permitted and required uses, and it restricts the agreement from authorizing a use or disclosure that would violate the Privacy Rule if the covered entity made it, with narrow exceptions for the associate's own management and for data aggregation related to the covered entity's health care operations. ([HHS: Business Associates](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html))
+### Tiers
+* Green; What the file shows: Page and payload are mapped. Either no PHI is disclosed, or a permitted basis is written down. The agreement matches the relationship. The purpose is specific.; Typical next step: Privacy officer may consider approval. Log it and set a re-check date. Green is not a legal determination.
+* Amber; What the file shows: Page type is unclear, the payload is incomplete, the permitted basis is missing, the agreement does not fit, or the purpose is vague.; Typical next step: Hold. Reduce what is sent, or escalate. Do not launch on a plan to "clean it up later."
+* Red; What the file shows: Identifiers or health context are going to a recipient without a permitted basis and an appropriate agreement, including on a user-authenticated page where the flow has not been reviewed.; Typical next step: Remove the unapproved integration. Reinstate it only after reviewing the complete transmitted data, the permitted basis, the vendor relationship, and applicable platform restrictions. Counsel decides any exception.
+Owners, controls, and a worked scenario
+The method fails when a step has no name next to it. Adjust the titles to your chart. Do not leave the column blank.
+* 1. Inventory; What happens: Scan every site, landing domain, and subdomain for tags, pixels, forms, chat, call tracking, scheduling embeds, and portal links. Include email, texting, review requests, and CRM automations.; Suggested owner: Marketing operations, with IT or security; Reviewer: Privacy officer
+* 2. Classify pages; What happens: Assign each template a page type.; Suggested owner: Marketing; Reviewer: Privacy officer
+* 3. Map payloads; What happens: Confirm what is sent with a network review and with vendor documentation. If they disagree, the network review wins until someone explains the gap.; Suggested owner: IT or security, with the analytics lead; Reviewer: Privacy officer
+* 4. Recipients and agreements; What happens: List recipients, subprocessors, and the agreement on file.; Suggested owner: Privacy officer or procurement; Reviewer: Counsel
+* 5. Purpose and permitted basis; What happens: One sentence for purpose. A separate statement for the permitted basis. Cut flows with no decision attached.; Suggested owner: Marketing, for purpose. Counsel, for the basis.; Reviewer: Privacy officer
+* 6. Tier; What happens: Assign green, amber, or red.; Suggested owner: Privacy officer; Reviewer: Counsel for amber and red exceptions
+* 7. Change the configuration; What happens: Remove, suppress, or rebuild only what the review approved.; Suggested owner: IT or security, with the agency or vendor; Reviewer: Privacy officer
+* 8. Log and repeat; What happens: Record the decision, the policy URLs, and the date. Re-run after a release, a new vendor, a new campaign type, or a change in guidance, and on a schedule the privacy officer sets.; Suggested owner: Marketing operations; Reviewer: Compliance
+Marketing owns the purpose and should be able to say what changes if a flow stops. The privacy officer owns the tier and the record. Counsel owns interpretation: whether a payload is PHI in context, whether an agreement is required, how the tracking bulletin applies after the June 20, 2024 order, and Part 2. IT owns the technical fact. An agency owns an accurate description of its own handling and the configuration work it was asked to do. It does not own the compliance determination. Marketing Powered's role, where engaged, is to run that review with those owners, implement the controls they approve, and measure from records the organization controls. If the engagement uses infrastructure the firm operates, data handling is defined in writing for that engagement. Owning hardware does not change who owns the organization's data, and it does not mean client data stays offline.
+### Controls that usually follow the review
+Most remediation is a short list, applied to a named flow rather than to "tracking" as a category.
+* Remove unapproved tags from provider-relationship and user-authenticated templates, including tags inherited from a global container.
+* Strip or normalize URLs so a program, provider, or form selection is not carried to a third party in the query string.
+* Keep form values, including hidden fields, out of ad and analytics requests unless a reviewed flow says otherwise.
+* Review chat, scheduling widgets, and session replay on their own. They often capture typed content a page tag never sees.
+* Server-side tagging can add a control point. Google describes it as a layer between the user and the vendor that lets you decide the composition of data the vendor receives, including the option to remove an IP address before forwarding. ([Google: Server-side tagging fundamentals](https://developers.google.com/tag-platform/learn/sst-fundamentals/2-what-is-sst)) That control is useful. It is not a compliance outcome. A server container can forward the same sensitive payload the browser was sending.
+* Use a consent tool only for the job counsel assigns it. Do not describe a banner as a HIPAA authorization.
+For the analytics design questions this raises, see [how to design analytics when tracking is constrained](/resources/hipaa-compliant-analytics).
+### An illustrative scenario
+The following is hypothetical. It is not a client, and it states no results.
+A regional behavioral health provider with three locations runs search and social campaigns. The site has an educational blog, program pages, an insurance verification form, an admissions chat widget, and call tracking on the main number. The marketing director wants the verification event sent to the ad platforms so bidding can favor people who completed the form.
+Page. The form is a provider-relationship page. Visitors submit insurance details and often indicate a level of care. The page type alone puts the flow in a high-sensitivity class. It does not, by itself, settle the PHI question.
+Payload. A network review shows the platform tag sending the page URL, a query string that records the program selected on the previous page, the click ID, and the event name. The chat widget loads a third-party script that receives message content. Call tracking stores recordings and transcripts with the caller number.
+Recipient. The ad platforms receive the URL, the click ID, and the event. The file shows no business associate agreement with either platform. The chat vendor has a service agreement and no business associate terms. The call-tracking vendor offers an agreement that has not been signed. In a real review, someone would also read the current platform terms and record the date. This scenario does not pretend that step was done.
+Purpose. Marketing wants to optimize toward verified inquiries. That purpose can be stated. The permitted basis cannot, because nobody has written one, and the payload still carries the program selection.
+Tier. Red, as configured. The next step is not a smaller event waved through as safe. Remove the unapproved integration. Reinstate it only after reviewing the complete transmitted data, the permitted use or disclosure basis, the vendor relationship, and applicable platform restrictions. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html)) Subject to the privacy officer and counsel, the working plan is:
+* Take the platform tag off the verification and confirmation templates until that review is done.
+* Stop writing the program selection into any URL a third party receives.
+* Keep qualified-inquiry and admission status in the CRM, and report it to marketing in access-controlled form by campaign and location, at the least detailed level needed.
+* Remove or reconfigure the chat vendor. Putting the widget only on a public page does not finish the review.
+* Decide whether call recording is needed. If the vendor creates, receives, maintains, or transmits PHI on the organization's behalf, the business associate question has to be answered, and the permitted basis still has to be written. Limit retention to what that decision supports.
+The ad platforms will see less. The organization's own systems will hold the outcome record. That trade is the point of the next section.
+When a tracking vendor needs a BAA
+Teams ask this as one question. It is two, and the order matters.
+First, is the data PHI in this context? Use the definition above, not a hunch about the page topic. HHS states that individually identifiable health information collected on a regulated entity's website or app generally is PHI even if the person has no existing relationship with the entity, and even if the information does not include a treatment date or a billing code. The same bulletin, as revised on its face after the court order, also states that connecting an IP address or other identifying information with a visit to a webpage about a condition or a provider is not a sufficient combination to constitute individually identifiable health information if the visit is not related to the person's past, present, or future health, care, or payment. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html)) A user-authenticated page is a different case in the bulletin: tracking technologies there generally have access to PHI. An appointment request that transmits appointment details and an IP address to a vendor is the bulletin's own example of a business associate flow. Counsel applies those distinctions to your pages. The June 20, 2024 order, as HHS describes it, removed one theory of automatic coverage for a specified public-page combination. It is not a reason to skip the review on forms, portals, or calls.
+Second, does the vendor create, receive, maintain, or transmit PHI on the covered entity's behalf, or provide services to the covered entity that involve disclosure of PHI? If so, a business associate relationship generally exists, and the covered entity must have a written business associate agreement before disclosing PHI. Subcontractors that create, receive, maintain, or transmit PHI on behalf of a business associate are business associates as well. There are relationship-specific exceptions, including certain treatment disclosures to another provider, and a narrow conduit exception for transmission-only services that do not access PHI on a routine basis. A vendor that regularly accesses the information to perform a service is not a conduit. ([HHS: Business Associates](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html))
+Where the vendor is a business associate, execute the required agreement and separately establish that the intended use or disclosure is permitted. ([HHS: Summary of the HIPAA Privacy Rule](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html)) The tracking bulletin says the same thing in sequence: disclosures to the vendor must be permitted by the Privacy Rule, and a business associate agreement is required so PHI is protected. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html))
+That leaves three operational paths. They are not equally available.
+* Do not send the vendor PHI. Redesign the payload and the page placement so the recipient does not receive identifying health information. This is the usual path for ad platforms that do not sign a business associate agreement, and it is also the path their own health-advertising rules often require.
+* Where the vendor is a business associate, execute the required agreement and separately establish that the intended use or disclosure is permitted. Then use only the product features the agreement and the permitted basis cover. A signed agreement does not bless every toggle in the product.
+* Do not use the vendor on that flow. If you cannot keep PHI out, and you cannot put a fitting agreement and a permitted basis under the use, the tool does not belong on that page.
+Read the agreement for scope. Note which features, which subprocessors, and which retention terms are covered. Then read the platform terms again. A willingness to sign does not override a platform rule that forbids the data.
+Call tracking needs its own row. A call to an admissions line can produce a number, a recording, a transcript, and a disposition. Whether that set is PHI depends on the content and the context, not on the product category. Decide whether recording is needed, what is stored, for how long, who can open it, and whether the vendor's role creates a business associate relationship. Put the permitted basis in the same row.
+Measure admissions without extra disclosure
+A restrictive data design can remove a signal the ad platform wanted. The business loses less if measurement is rebuilt where the organization controls the record. The principle is narrow: measure outcomes in systems you control, and send platforms only what the review, the permitted basis, and the platform's current rules allow.
+Marketing Powered's measurement design is built to attribute acquisition to admission, not only to the lead, where authorized records support that link. That is a design choice. It is not a claim about any organization's results.
+### Three layers, and a boundary
+Layer 1 is approved platform signals. Spend, impressions, clicks, and any on-site event the review has actually cleared. These describe delivery. They do not describe admissions.
+Layer 2 is first-party lead records. Calls, forms, and chats land in a system the organization controls, under agreements that fit the data. Each record carries source, campaign, and location in parameters that contain no health information. "Qualified" is applied by a person or by a documented rule, not by the platform's conversion column.
+Layer 3 is outcome reconciliation. Authorized staff match qualified inquiries to verification of benefits, a scheduled service, or an admission in the system of record. What marketing sees is access-controlled reporting at the least detailed level needed, by source, campaign, and location. Assess small groups and combinations of fields for identification risk before the report goes out. Where HIPAA de-identification is required, use Expert Determination or Safe Harbor. Do not assume that an aggregate table is de-identified. HHS describes those two methods, and notes that even properly de-identified data retains some risk of identification. The Privacy Rule does not restrict use or disclosure of information that actually meets the de-identification standard. Aggregation is not that standard. ([HHS: De-identification guidance](https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html))
+Put the boundary in the report itself. One side is organization-controlled records. The other side is what a platform is allowed to receive. When the two counts disagree, say why. Platform counting, consent loss, and CRM definitions differ. Do not declare one screen the true number without a written reconciliation method. The CRM is the record tied to an admission. It can still be incomplete.
+### Define qualified before you count
+Write a qualified-call definition and an admission definition, and have admissions leadership sign them. A usable definition names the criteria, who applies them, and when. Criteria an organization might include, and that this guide does not prescribe, are that the caller is seeking a service the organization provides, is in the service area, and has a payment path the organization can evaluate. Do not let the definition move to match a number that looks better in a meeting.
+The worksheet math below has no benchmarks. Your denominators are yours.
+* Qualified call rate equals qualified calls from a source divided by total calls from that source.
+* Cost per qualified call equals media spend for the source divided by qualified calls from that source.
+* Admission rate from qualified calls equals admissions from those calls divided by qualified calls.
+* Cost per admission equals media spend for the source divided by admissions attributed to that source.
+Report each by campaign and location. State the lag between lead date and admission date. The gap varies, so a cohort view, leads by month with outcomes tracked forward, is more honest than a same-month ratio. Say when attribution is partial. Cross-device paths, shared phone numbers, and long consideration cycles leave gaps. Small samples move around. Do not narrate a single-location month as a stable rate.
+If you want this review run with your marketing, privacy, and IT owners, see [HIPAA-conscious marketing support](/services/hipaa-conscious-marketing-agency).
+### Mistakes that keep the risk in place
+Treating a business associate agreement as blanket permission. It describes a relationship and its limits. It does not cover every feature, and it does not override platform terms or the Privacy Rule.
+Reviewing tools instead of flows. An approved tool on the wrong template is still an unreviewed disclosure.
+Forgetting the container. One tag in a global header fires on the page you meant to protect.
+Ignoring the URL. Path and query strings often carry the fact the team thought it had kept out of the form post.
+Assuming server-side tagging or hashing finishes the job. One moves the control point. The other changes the format.
+Reviewing once. Sites, vendor terms, platform policies, and guidance change. A review that is not on the release checklist decays.
+Letting the agency decide. Agencies implement and advise. The covered entity, with counsel, makes the determination.
+Skipping ordinary tools. Email platforms, texting, review requests, and CRM automations send data to third parties. Put them through the same questions. Outbound email and text programs also need their own review of consent, content, and agreements. Counsel identifies the rules that apply. This guide does not.
+Turning everything off and leaving it off. That can be a sound interim step. It is an expensive permanent one if the organization never returns to separate the flows it can support from the flows it cannot.
+### What the records cannot prove
+A completed worksheet shows a reasoned process. It does not establish that a use or disclosure was permitted. Regulators and courts decide that.
+A network scan is a snapshot. Tags change. Third-party scripts load other scripts.
+Vendor statements are claims. Test them. Documentation helps. It does not close the question.
+A platform dashboard and a CRM will disagree for ordinary reasons. Reconcile them. Do not pick the larger number because it is easier to defend in a budget meeting.
+Some questions are not data questions. Whether a payload is PHI in context, how the tracking bulletin applies after the partial vacatur, and what Part 2 requires are legal determinations. Escalate them.
+### Worksheet you can use this week
+Copy this into the working file. There is no separate download.
+Pre-launch checks:
+* Tag, pixel, script, form, chat, call-tracking, embed, and integration inventory is complete and dated, including email, text, and CRM tools.
+* Every template is classified: public and general, condition or service specific, provider-relationship, or user-authenticated.
+* Payloads were checked in the browser, not only in a vendor deck.
+* URLs and query strings were checked for health or form data.
+* Every recipient has a documented agreement, or the flow was redesigned so PHI is not sent.
+* Platform terms were read for the data being sent, with the URL and date logged.
+* Each flow has a one-sentence purpose, a permitted use or disclosure basis, and a named owner.
+* Tiers are assigned. Red items are removed or with counsel.
+* Call recording, transcript, and retention settings are decided.
+* Qualified-call and admission definitions are signed by admissions leadership.
+* Campaign parameters carry source and location, not health information.
+* Reports to marketing are access-controlled, at the least detailed level needed, with small groups assessed. If de-identification is required, the method is Expert Determination or Safe Harbor, and it is documented.
+* Part 2 applicability is a counsel decision, where relevant.
+* The next review date is on the calendar and tied to releases and vendor onboarding.
+* Hypothetical only: verification event; Template and page type: Insurance form, provider-relationship; Payload: URL with program parameter, click ID, event name; Recipient and agreement: Ad platform, no agreement; Purpose: Optimize toward verified inquiries; Permitted basis: Not established; Tier: Red; Owner: Privacy officer; Next review: Before any relaunch
+* Template and page type: ; Payload: ; Recipient and agreement: ; Purpose: ; Permitted basis: ; Tier: ; Owner: ; Next review: 
+Add rows until the inventory is dull. Dull is the goal. A reviewer should be able to see who the user is, what leaves, who receives it, what agreement exists, what decision the data supports, and why the disclosure is permitted, if it is.
 
 FAQ
-Q: What marketing strategies work for HIPAA compliance?
-A: Effective HIPAA-compliant marketing prioritizes consent-based communication, secure data handling, and channel strategies that do not require PHI for targeting. Focus on contextual advertising, first-party data with proper authorization, and server-side tracking that strips identifiable information before transmitting to advertising platforms. Email marketing should use encrypted transmission and documented opt-in consent that meets HIPAA authorization requirements.
-Q: How does HIPAA affect digital marketing campaigns?
-A: HIPAA restricts how patient data can be used for targeting, personalization, and measurement. Campaigns cannot use PHI for audience building without explicit authorization. Common tools like Meta Pixel and Google Analytics require careful configuration or removal to prevent unauthorized PHI transmission. Remarketing is prohibited for behavioral health and restricted for other healthcare categories under Google and Meta advertising policies.
-Q: What are the common risks associated with PHI in marketing?
-A: The primary risks include unauthorized disclosure of PHI through tracking technologies, improper use of patient data for advertising targeting, failure to secure BAAs with marketing vendors, and inadequate consent documentation. These failures can result in civil penalties up to $1.5 million per violation category, mandatory breach notifications, state enforcement actions, and lasting damage to patient trust.
-Q: How can agencies ensure HIPAA marketing compliance?
-A: Qualified agencies maintain HIPAA-compliant infrastructure, execute Business Associate Agreements with healthcare clients, implement technical safeguards for data handling, and train staff on PHI recognition and handling requirements. They conduct regular compliance audits, document data flows, and build campaign architectures that achieve marketing objectives without transmitting protected information to unauthorized parties.
-
-
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, Article, BreadcrumbList
-* @type: Article
-* headline
-* author with @type Person and name field
-* datePublished
-* dateModified
-* publisher with @type Organization
-* description
-* mainEntityOfPage
-* @type FAQPage with mainEntity array containing all FAQ question and answer pairs
-* @type BreadcrumbList with itemListElement for Resources > Guides > HIPAA Digital Marketing Risk
-
-
-DELIVERY NOTES
-External citations
-* HHS guidance on tracking technologies https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html [Government/Regulatory] - Primary source for HHS guidance on tracking technologies and HIPAA compliance, directly relevant to digital marketing risks discussed throughout the guide.
-* HHS HIPAA enforcement highlights https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/data/enforcement-highlights/index.html [Government/Regulatory] - Authoritative source for penalty ranges and enforcement trends, supports claims about increased OCR focus on digital health and marketing practices.
-* Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform Policy] - Primary source for Google restrictions on healthcare advertising and sensitive category targeting, directly relevant to paid media compliance section.
-
-
-Brief conflicts
-* Original meta description used 'vital' which may conflict with banned filler adjectives. Revised to remove the term while maintaining character count within acceptable range.
-
-
-Internal link gaps
-* No dedicated HIPAA resources page linked; consider creating /resources/hipaa-compliance/ as a supporting content hub.
-* Missing link to /who-we-help/mental-health/ despite page discussing both behavioral health and mental health treatment marketing.
-* Services pages for paid media, web development, and AI edge are referenced conceptually but internal link URLs were not confirmed in the brief.
-
-
-Compliance flags
-* Content discusses HIPAA penalties and enforcement but does not constitute legal advice. Recommend adding a brief disclaimer that organizations should consult legal counsel for specific compliance guidance.
-* Real-world compliance failure examples are generalized rather than naming specific organizations to avoid potential defamation concerns.
-* LegitScript certification reference should be verified as current requirement for addiction treatment advertisers on Google before publication.
-
-
-Missing proof points
-* Specific percentage improvements in lead quality or cost efficiency from HIPAA-compliant campaign structures would strengthen the implementation section.
-* Number of active BAAs or current healthcare clients would reinforce the agency evaluation section credibility.
-* Specific case study metrics from behavioral health or mental health campaigns would support attribution claims.
-
-
-Banned phrasing in brief
-* Original draft meta description contained 'vital' which is a banned filler adjective. Removed in final version.
+Q: What is HIPAA compliant marketing?
+A: HIPAA-compliant marketing must satisfy applicable HIPAA requirements for the organization's uses and disclosures of PHI. This framework helps document decisions. It does not establish compliance. A tool, a channel, or an agency does not hold the status. ([HHS: Summary of the HIPAA Privacy Rule](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html))
+Q: Do HIPAA marketing rules apply to every healthcare marketer?
+A: The HIPAA Rules apply to covered entities and to business associates. Provider coverage depends on conducting standard electronic transactions, not simply on providing care. If you handle PHI for a covered entity in a business associate role, relevant duties apply directly as well as through the agreement. Other laws and platform policies may apply whether or not HIPAA does. ([HHS: Covered Entities and Business Associates](https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html))
+Q: Can we run Google or Meta campaigns for a behavioral health provider?
+A: Many organizations run paid media. The constraints are what you send, how audiences are built, and what each platform currently allows. Google classifies health, including counseling for mental health and addiction, as a sensitive interest category and does not allow advertiser-curated audiences for that category, including Customer Match and an advertiser's data segments. ([Google Ads: Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855?hl=en)) Meta prohibits ads that assert or imply a person's physical or mental health, including medical conditions. ([Meta: Privacy Violations and Personal Attributes](https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes)) Read the live policy before launch. Platform permission is not a HIPAA permission.
+Q: When does a tracking vendor receive PHI and need a business associate agreement?
+A: When the data it receives is PHI, and it creates, receives, maintains, or transmits that PHI on a covered entity's or business associate's behalf, or provides services involving disclosure of PHI. The agreement is then required, and the use still needs a permitted basis. Exceptions exist, including certain treatment disclosures and a narrow conduit exception. A visit to a public condition page tied only to an IP address is the combination HHS says a court vacated from the bulletin's theory of automatic coverage. A portal, an appointment request, or a form that sends identifying health information is a different review. ([HHS: Use of Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html)) ([HHS: Business Associates](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html))
+Q: Does a business associate agreement make a tracking pixel acceptable?
+A: No. The agreement governs a relationship. Whether a given payload may be disclosed still depends on the Privacy Rule, the page, the data, and the vendor's terms. Counsel should review the use. A signed agreement that does not cover the feature in question does not cover the feature.
+Q: How should performance be measured if tracking is limited?
+A: Capture qualified calls, forms, and admissions in first-party systems. Tag them with campaign parameters that contain no health information. Report at the least detailed level needed, and use Expert Determination or Safe Harbor when HIPAA de-identification is required rather than assuming a rolled-up table is enough. Treat platform dashboards as delivery indicators. Reconcile them to the admission record. Do not treat either screen as self-justifying.
+Q: What is healthcare marketing compliance beyond HIPAA?
+A: It includes the FTC Act, the FTC Health Breach Notification Rule for certain non-HIPAA businesses, platform advertising policies, certification requirements some platforms impose on treatment advertisers, state law as counsel identifies it, and the organization's own policies. ([HHS and FTC: Collecting, Using, or Sharing Consumer Health Information?](https://www.hhs.gov/hipaa/for-professionals/special-topics/hipaa-ftc-act/index.html)) A review that only asks "is this HIPAA" will miss gates that still stop the campaign.
+Q: Does 42 CFR Part 2 apply to us?
+A: It applies to federally assisted programs that provide substance use disorder diagnosis, treatment, or referral for treatment, and some requirements extend to recipients of Part 2 records. Compliance with the 2024 final rule was required by February 16, 2026. Ask counsel whether your services, funding, or record holdings put you in scope. Do not infer it from a marketing category. ([HHS: Understanding Part 2](https://www.hhs.gov/hipaa/part-2/index.html))
+Q: Is server-side tagging enough?
+A: No. Server-side tagging is a technical architecture that can give you more control over what is forwarded. Control helps only if the forwarded payload, the recipient, the agreement, and the permitted basis survive the same review as a browser tag. ([Google: Server-side tagging fundamentals](https://developers.google.com/tag-platform/learn/sst-fundamentals/2-what-is-sst))
+Q: How often should the review be repeated?
+A: After every significant site change, new vendor, new campaign type, or change in guidance, and on a schedule your privacy officer sets. A file with no next date is a file that has started to expire. If the tag inventory is incomplete, or finance and compliance cannot use the same admission numbers, an acquisition audit is a practical next step. It maps flows with your owners and shows what can be measured from records you control. Compliance decisions stay with your privacy officer and counsel. [Request an acquisition audit](/get-started/request-an-audit)

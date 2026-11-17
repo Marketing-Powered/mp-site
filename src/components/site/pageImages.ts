@@ -86,6 +86,216 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/rehab-ppc-vs-seo/": [
+    // [0] hero
+    studioImg(
+      "resources/rehab-ppc-vs-seo",
+      "rehab-ppc-vs-seo.webp",
+      "Marketing and admissions leaders review a budget worksheet together.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/rehab-ppc-vs-seo",
+      "rehab-ppc-vs-seo-two-healthcare-leaders-discuss-planning.webp",
+      "Two healthcare leaders discuss a planning sheet at a meeting table.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/rehab-ppc-vs-seo",
+      "rehab-ppc-vs-seo-marketing-operator-admissions-colleague.webp",
+      "A marketing operator and admissions colleague compare information on a laptop.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/rehab-ppc-vs-seo",
+      "rehab-ppc-vs-seo-five-budget-constraints-first.webp",
+      "Five budget constraints and their first considerations: speed, margin, intake capacity, location visibility and attribution confidence.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/treatment-center-marketing-audit-checklist/": [
+    // [0] hero
+    studioImg(
+      "resources/treatment-center-marketing-audit-checklist",
+      "treatment-center-marketing-audit-checklist.webp",
+      "Marketing and admissions leaders review materials together at a meeting table.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/treatment-center-marketing-audit-checklist",
+      "treatment-center-marketing-audit-checklist-marketing-admissions-leads-compare.webp",
+      "Marketing and admissions leads compare reporting materials at a desk.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/treatment-center-marketing-audit-checklist",
+      "treatment-center-marketing-audit-checklist-scoring-guide-0-means-not-place.webp",
+      "Scoring guide: 0 means not in place or unverifiable; 1 means partial or not regularly reviewed; 2 means documented, reviewed and evidenced.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/treatment-center-marketing-audit-checklist",
+      "treatment-center-marketing-audit-checklist-analytics-admissions-leads-review.webp",
+      "Analytics and admissions leads review a document together.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/addiction-treatment-content-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/addiction-treatment-content-marketing",
+      "addiction-treatment-content-marketing.webp",
+      "A marketing leader and clinical reviewer discuss a document at a conference table.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/addiction-treatment-content-marketing",
+      "addiction-treatment-content-marketing-admissions-clinical-marketing-colleagues.webp",
+      "Admissions, clinical and marketing colleagues discuss a content program.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/addiction-treatment-content-marketing",
+      "addiction-treatment-content-marketing-marketing-manager-admissions-lead.webp",
+      "A marketing manager and admissions lead compare notes at a desk.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/addiction-treatment-content-marketing",
+      "addiction-treatment-content-marketing-content-lead-clinical-reviewer-examine.webp",
+      "A content lead and clinical reviewer examine a page while a colleague listens.",
+      "3 / 2",
+    ),
+  ],
+  "/services/meta-ads-management/": [
+    // [0] hero
+    studioImg(
+      "services/meta-ads-management",
+      "mental-health-facebook-ads.webp",
+      "Healthcare marketing leader reviewing Meta ads performance data in a professional office setting.",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "services/meta-ads-management",
+      "mental-health-facebook-ads-mental-health-practice-owner-admissions.webp",
+      "Mental health practice owner and admissions leader discussing campaign readiness in a clinic conference room.",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "services/meta-ads-management",
+      "mental-health-facebook-ads-diagram-five-stages-ad-click-kept.webp",
+      "Diagram of five stages from ad click to kept appointment, showing which stages are visible in Meta reporting and which require intake and CRM data.",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "services/meta-ads-management",
+      "mental-health-facebook-ads-healthcare-consultant-clinic-leader.webp",
+      "Healthcare consultant and clinic leader reviewing an acquisition audit document in a meeting room.",
+      "1600 / 1067",
+    ),
+  ],
+  "/resources/mental-health-google-ads/": [
+    // [0] hero
+    studioImg(
+      "resources/mental-health-google-ads",
+      "mental-health-google-ads.webp",
+      "Practice leader and intake lead review a planning sheet together in an office.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/mental-health-google-ads",
+      "mental-health-google-ads-practice-manager-clinician-discuss.webp",
+      "Practice manager and clinician discuss capacity beside a blank planning board.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/mental-health-google-ads",
+      "mental-health-google-ads-diagram-showing-service-line-campaign.webp",
+      "Diagram showing a service-line campaign branching into location ad groups, each connected to a matched ad, landing page, and call script.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/mental-health-google-ads",
+      "mental-health-google-ads-intake-lead-practice-manager-review.webp",
+      "Intake lead and practice manager review a sheet together at a desk.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/mental-health-practice-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/mental-health-practice-marketing",
+      "mental-health-practice-marketing.webp",
+      "Practice owner and intake lead review a capacity sheet together.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/mental-health-practice-marketing",
+      "mental-health-practice-marketing-practice-manager-marketing-lead-compare.webp",
+      "A practice manager and marketing lead compare notes at a desk.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/mental-health-practice-marketing",
+      "mental-health-practice-marketing-clinical-director-practice-manager.webp",
+      "A clinical director and practice manager discuss scheduling beside a planning board.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/mental-health-practice-marketing",
+      "mental-health-practice-marketing-six-step-system-mapping-capacity-through.webp",
+      "Six-step system from mapping capacity through a weekly operating cadence.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/healthcare-ppc-advertising-guide/": [
+    // [0] hero
+    studioImg(
+      "resources/healthcare-ppc-advertising-guide",
+      "healthcare-ppc-advertising.webp",
+      "A marketing lead and an admissions leader review a worksheet together in an office.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/healthcare-ppc-advertising-guide",
+      "healthcare-ppc-advertising-scheduling-lead-marketing-manager.webp",
+      "A scheduling lead and marketing manager discuss service-line planning in an office.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/healthcare-ppc-advertising-guide",
+      "healthcare-ppc-advertising-two-healthcare-colleagues-review-laptop.webp",
+      "Two healthcare colleagues review a laptop together before a planning decision.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/healthcare-ppc-advertising-guide",
+      "healthcare-ppc-advertising-admissions-leader-discusses-worksheet.webp",
+      "An admissions leader discusses a worksheet with a marketing colleague.",
+      "3 / 2",
+    ),
+  ],
   "/resources/location-page-seo-healthcare/": [
     // [0] hero
     studioImg(
@@ -567,12 +777,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ),
   ],
 
-  "/services/meta-ads-management/": std4("services/meta-ads-management", [
-    "Meta Ads agency expertise to boost admissions across Facebook and Instagram",
-    "The shift from chasing low cost-per-lead to AI-driven precision optimizing for admissions",
-    "Step-by-step Meta Ads process: discovery, strategic planning, creative development, campaign execution, AI optimization, and transparent reporting",
-    "Meta Ads results: $50M+ behavioral health media managed with operator-level insights, AI optimization, and compliant strategy",
-  ]),
 
   "/services/landing-page-optimization/": std4("services/landing-page-optimization", [
     "Strategic landing page optimization to convert more qualified admission calls",
@@ -1725,17 +1929,33 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
 
   "/resources/guides/hipaa-digital-marketing-risk/": [
     // [0] hero
-    pageImg(
+    studioImg(
       "resources/guides/hipaa-digital-marketing-risk",
-      "02-concept.jpg",
-      "HIPAA compliant marketing essentials: protect patient data, follow HIPAA rules, and drive effective marketing across every channel and touchpoint",
+      "hipaa-compliant-marketing.webp",
+      "Healthcare marketing and privacy colleagues review a workflow together.",
+      "3 / 2",
     ),
-    // [1] single in-article slot
-    shaped("1 / 1", pageImg(
+    // [1] section image
+    studioImg(
       "resources/guides/hipaa-digital-marketing-risk",
-      "03-process.jpg",
-      "HIPAA compliance isn't just about avoiding risk, it's about earning patient trust: compliant marketing protects patient data at every touchpoint",
-    )),
+      "hipaa-compliant-marketing-marketing-colleagues-review-notes.webp",
+      "Marketing colleagues review notes together at a desk.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/guides/hipaa-digital-marketing-risk",
+      "hipaa-compliant-marketing-marketing-lead-privacy-officer-discuss.webp",
+      "A marketing lead and privacy officer discuss a document across a table.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/guides/hipaa-digital-marketing-risk",
+      "hipaa-compliant-marketing-privacy-professional-organizes-review.webp",
+      "A privacy professional organizes review materials at a desk.",
+      "3 / 2",
+    ),
   ],
 
   "/resources/guides/google-ads-match-types-2026-strategy/": [

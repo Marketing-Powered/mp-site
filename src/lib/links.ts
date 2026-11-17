@@ -167,6 +167,12 @@ const VALID = new Set<string>([
   "/services/rehab-ppc",
   "/resources/mental-health-advertising-guide",
   "/resources/location-page-seo-healthcare",
+  "/resources/healthcare-ppc-advertising-guide",
+  "/resources/mental-health-practice-marketing",
+  "/resources/mental-health-google-ads",
+  "/resources/addiction-treatment-content-marketing",
+  "/resources/treatment-center-marketing-audit-checklist",
+  "/resources/rehab-ppc-vs-seo",
 ]);
 
 const REMAP: Record<string, string> = {

@@ -52,7 +52,11 @@ export function LeadForm({
     if (submitting) return;
     setSubmitting(true);
     setFailed(false);
-    const payload = Object.fromEntries(new FormData(e.currentTarget).entries());
+    const payload = {
+      ...Object.fromEntries(new FormData(e.currentTarget).entries()),
+      // page the visitor converted on — recorded in the leads sheet
+      page: window.location.pathname,
+    };
     try {
       const res = await fetch("/api/contact", {
         method: "POST",

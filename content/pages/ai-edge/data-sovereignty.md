@@ -1,136 +1,100 @@
 ---
-title: "Data Sovereignty in Marketing Operations | Marketing Powered"
+title: "Healthcare Marketing Data Governance Guide"
 url: "/ai-edge/data-sovereignty/"
-primary_keyword: "data sovereignty"
-secondary_keywords: "data ownership, marketing data governance, first-party data"
-target_word_count: "1500-2500"
+primary_keyword: "healthcare marketing data governance"
+secondary_keywords: "data sovereignty, HIPAA data handling"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /ai-edge/data-sovereignty/ with the primary keyword 'data sovereignty' and secondary keywords 'data ownership' and 'marketing data governance.' Revised November 6, 2026 for the homepage package: the general legal discussion is replaced with a description of the actual operating model (storage, processing, access, outside providers, retention, client visibility, and data ownership). Word count target is 1500-2500 words. Page type: AI Edge capability page. Buyer target: CEO, CMO, CIO, or compliance lead at a hospital, health system, behavioral health or mental health provider, or multi-location organization evaluating how a marketing partner handles their data.
-Page type: AI Edge - Capability
-Buyer target: CEO, CMO, CIO, or compliance lead at healthcare and multi-location organizations
-Word count target: 1500-2500 words
-
-
 SEO METADATA
-Title tag (60 chars): Data Sovereignty in Marketing Operations | Marketing Powered
-Meta description (151 chars): Where Marketing Powered stores and processes client marketing data, who can access it, which outside providers take part, and what clients can inspect.
-H1: Data sovereignty: where your marketing data lives and who can use it
-Hero image alt: Abstract illustration of data moving between systems under defined controls, with no metrics or client references
+Title tag: Healthcare Marketing Data Governance Guide
+Meta description: A practical framework for healthcare marketing data governance covering ownership, processing location, human review, and inquiry measurement.
+H1: Healthcare Marketing Data Governance in Practice
+Hero image alt: Healthcare marketing and operations leaders compare workflow sketches at a table.
 
 
 PAGE COPY
 
+Healthcare Marketing Data Governance in Practice
+Healthcare marketing data governance is the documented set of decisions about who owns each marketing data asset, where it may travel, what may be collected, and who reviews exceptions. Those decisions determine whether a health system can measure cost per qualified inquiry without collecting more than it can defend. This guide provides an operating framework for marketing, operations, privacy, security, and procurement leaders at behavioral health, mental health, and hospital organizations.
+[CTA] Request an acquisition audit → /get-started/request-an-audit
+How governance shapes acquisition measurement
+Picture a conference room after a monthly media review. A marketing director, an IT lead, and an agency manager each draw the path a phone call takes from ad click to intake record. The marketing drawing shows the ad platform, a tracking number, a recording, a CRM status, and a conversion sent back to the platform. The IT drawing stops at the website tag and a firewall rule. The agency drawing adds a form tool and a draft call summary. The three drawings do not match. The unmarked gaps are the governance problem: no shared owner, no shared destination list, and no named person who reviews an exception.
+Check whether your systems share a current data-flow map before you add another tool. Test for two risks. One is blunt blocking: conversion signals, call metadata, or form events are turned off across the board, and budget choices fall back on proxies that do not show which spend produced a qualified inquiry or an admission. The other is unreviewed collection: tools accumulate until nobody can say what leaves the organization or who can see it. Governance settles these rules before either risk hardens. It names what may be measured, by whom, in which system, and which human must approve a change.
+The commercial test is specific. After the rules are applied, can the team still see cost per qualified inquiry, and where authorized data supports it, cost per admission, by channel and location? Measurement work at Marketing Powered focuses on attribution to admission, not only to the lead, and only inside data the organization has approved for that use. This approach treats platform limits and intake definitions as design inputs rather than obstacles.
+If a restriction limits measurement, document the gap and assess permissible alternatives. Do not weaken a required privacy control to preserve attribution. A missing conversion event is a measurement gap to redesign around or accept, not a reason to reopen a flow that privacy has closed. For a broader look at how owned infrastructure fits into this model, see [owned AI systems](/ai-edge/owned-ai-systems).
+Separate four control questions
+Separate these four questions in vendor review. Treating them as one question is how ownership, infrastructure, and approval get blurred.
+Who owns the data, and on what terms. Document ownership, access, permitted use, export, and deletion rights for each data asset. Distinguish client-provided data from platform-controlled audiences and agency technology. Campaign records, call metadata, form submissions, and CRM fields are not the same asset as an audience a platform builds, and they are not the same asset as software an agency owns. The agreement and the client's review process set the vendor's role.
+Who owns the infrastructure. Marketing Powered owns and operates local AI infrastructure for HIPAA-aware inference. Owning that infrastructure is a deployment choice. It does not change who owns client data. It does not, by itself, make a workflow private, and it does not substitute for the agreements, risk analysis, and safeguards that apply when a service creates, receives, maintains, or transmits electronic protected health information. Under HIPAA regulations, entities acting in specific roles regarding such information may be considered business associates requiring a Business Associate Agreement. Organizations should consult current HHS guidance on cloud computing and their legal counsel for details applicable to their specific architecture.
+Where processing runs, and how access is restricted. Describe these separately from infrastructure ownership. A task might run on an ad platform, a software vendor's cloud, through a rented model API, or on infrastructure the agency owns. On-premise inference names only the processing location. Neither statement tells you which client workflow has been approved, or who can reach the system. Many marketing workflows involve third-party platforms by nature. The governance question is which data goes to each platform, not how to avoid them. Do not assume every campaign runs on locally hosted models, or that client data stays offline by default.
+What has been approved for this workflow. A capability that exists is not a capability approved for a particular use. Record approval per workflow: data class, system, reviewer, date, and the date it should be reviewed again. If a vendor cannot answer all four questions separately, request documented answers rather than general privacy assurances.
+Map assets before choosing tools
+The first working artifact is a data asset map. It does not need special software. A spreadsheet that marketing, privacy, and IT all accept as current is enough. Build it before you debate a new call platform, form tool, or AI assistant.
+* Ad click and conversion events. Typical source: Website, landing pages. Typical destinations: Ad platforms, analytics. Questions to settle: Which events fire on which pages? Which are excluded?
+* Call data. Typical source: Call-tracking numbers. Typical destinations: Call platform, CRM, ad platforms. Questions to settle: Is audio recorded? Who can open recordings? What metadata returns to ad platforms?
+* Form submissions. Typical source: Landing pages, site forms. Typical destinations: CRM, email, intake. Questions to settle: Which fields are required for the approved qualification task?
+* CRM and intake records. Typical source: Intake team. Typical destinations: CRM, reporting. Questions to settle: What status or outcome data returns to marketing, at what detail level?
+* Review and reputation data. Typical source: Review platforms. Typical destinations: Reporting tools. Questions to settle: Who may respond, and what may be said?
+* AI inputs and outputs. Typical source: Prompts, drafts, summaries. Typical destinations: Approved tools only. Questions to settle: What may enter a prompt? Where does processing run? Who reviews the output?
+Whether any item is protected health information depends on the organization, the information, and the circumstances. Regulatory interpretations of tracking technologies in healthcare contexts are complex and evolving. Consult your privacy officer and legal counsel for determinations specific to your organization's data flows. Marketing's job is to bring them a complete map so the determination is made on facts, not on a vendor's summary.
+In a multi-location system, facility teams may need different local tools or markets. Keep the data classes and the review process shared. Otherwise the map splits by facility, and a tag that was excluded at the flagship site reappears on a location page nobody rechecked. Review the map whenever tools, vendors, tracking events, or AI workflows change, alongside a documented recurring schedule. A schedule with no change trigger will lag a stack that changes during the quarter.
+Reference architecture and human review
+Use the scene of a proposed change, not a product diagram. An intake leader wants call recordings summarized before they reach the admissions queue. Marketing wants the qualified-call flag sent back to the ad platform. Privacy wants to know whether audio, caller number, or only a yes-or-no qualification flag would move. IT wants to know which system holds the audio and which credentials the agency would receive. That meeting is the review layer.
+Think in four layers, and label every workflow with its processing location and its reviewer.
+Collection. Websites, landing pages, call numbers, and forms. Define the minimum fields needed for the approved qualification and measurement task. Do not add fields because a form template offers them. A condition page, a scheduling flow, and a logged-in portal are different collection settings. Decide per page which tags belong there.
+Routing. Tag management, server-side or client-side event handling, and CRM integrations. Use the routing layer to enforce destination and field-level rules: which events are sent, to whom, and with which fields stripped. This is the practical home of [integrations and tracking](/services/web-development/integrations-and-tracking) work. A routing rule might allow a qualified-call flag to reach an ad platform and block audio, caller name, and free-text notes from that same hop.
+Processing. Where analysis and AI work happen. Some workloads go to platforms. Some can run on infrastructure the organization or the agency owns. The reference model labels each workflow with who owns the infrastructure, where inference runs, and how access is restricted. Marketing Powered has been AI-native since 2022. That is a way of working, not a claim that every marketing task uses a local model.
+Review. Human checkpoints with named owners. Examples include approval of a new tracking event, approval of any new vendor or AI tool that touches client data, review of AI-generated external copy before it is published, and a scheduled re-read of the data asset map. Agents and automation can draft, flag, and summarize. A person approves anything regulated, public-facing, or high-stakes. For review roles, escalation, and limits on what an agent may do, see [AI governance](/ai-edge/ai-governance).
+Trade-offs belong in the same conversation. Running suitable workloads on owned infrastructure can offer more control over deployment and more configurable privacy boundaries. It also carries capital cost, power, reliability, staffing, and task-specific model suitability requirements. It does not change data ownership. Whether a workload belongs there is a per-workflow decision, and the answer is sometimes no.
+Ask vendors to document workflow status
+Procurement teams are right to distrust a single infrastructure sentence. Ask every vendor, including Marketing Powered, to label each workflow that touches your data. Use a status system you can compare across proposals.
+* In production: used on live client work under an agreed scope.
+* Internal use only: used on the vendor's own operations, not on client work.
+* Pilot: being tested, not relied on for client deliverables.
+* Planned: intended, not yet built or approved.
+Request documented answers rather than general privacy assurances. A useful entry names the workflow, the processing location, the status, the data classes in scope, and the person who approved it. A slide that says "private AI" without those fields has not answered.
+What Marketing Powered will state on this page is limited to what is approved for publication. The firm owns and operates local AI infrastructure for HIPAA-aware inference. Not every workflow runs on that infrastructure. Paid media, analytics, and call tracking involve third-party platforms by nature. Client data does not stay offline by default. The firm works within the client's review process, with responsibilities and deployment boundaries defined before implementation. The role does not require access to patient records. No completed privacy or security review is described here as a certification, and no workflow list is presented as a live inventory of named deployments. If a proposal needs that inventory, ask for it in writing against the four status labels above, scoped to the engagement.
+Security and data minimization
+Start with explicit controls for collection, access, transfers, and change management. Hold vendors and internal teams to the same list.
+* Collect the minimum. Define the minimum fields needed for the approved qualification and measurement task. Justify anything beyond that in the data asset map.
+* Separate access. Give agency staff role-based access to named accounts. Do not share logins. Remove access when an engagement ends, and document what happens to exports, recordings, and copies.
+* Control what leaves the page. Review tags on pages where a visitor may reveal health-related information, including condition pages, scheduling flows, and portals. A tag that is acceptable on a locations page may be the wrong tag on a logged-in scheduling page.
+* Control what enters an AI tool. Write the rule for prompts. Do not place identifiable patient or client information in a tool that has not been approved for that data class. Many drafting tasks need no identifiable information at all.
+* Log changes. Keep a change log for tracking and integration changes. Tie each change to the map and to the reviewer.
+HIPAA data handling in marketing depends on facts specific to the organization and the workflow: whether the organization is a covered entity or a business associate, what information is involved, and what agreements are in place. Marketing Powered does not describe any workflow or AI system as HIPAA certified. HHS has stated that private security certifications are not a substitute for HIPAA compliance obligations.
+Legal interpretations of tracking technologies on healthcare websites have evolved. Consult current [HHS guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html) and legal counsel for the latest status. Google restricts the promotion of recovery-oriented drug and alcohol addiction services, as noted in their [ad policy documentation](https://support.google.com/adspolicy/answer/176031?hl=en). This is not a ban on healthcare advertising, but it requires specific handling of advertiser-curated audiences. Marketing Powered's paid media practice is built with awareness of these constraints and LegitScript requirements where applicable. Note that while LegitScript certification may be required to participate in certain advertising programs, it does not guarantee advertising approval. Always confirm current platform policies before launching campaigns.
+Executive procurement checklist
+Use this list in a vendor meeting. Put marketing, privacy, IT, intake, and the vendor in the same room, with the data asset map on the table. Compare a vendor who can name processing location and status for each workflow with a vendor who offers only a badge. The first can be reviewed. The second has not yet answered.
+Who should own marketing data governance inside a health system? Recommended practice: one named executive owner, usually in marketing or growth operations, accountable for the data asset map and for bringing changes to review. That person does not approve their own exceptions. Privacy or compliance determines regulated status and approves flows that involve it. IT or security approves systems, access, and technical controls. Intake or admissions leadership defines a qualified inquiry and agrees what outcome data may return to marketing. Procurement holds the vendor agreement. The agency operates inside the agreed boundaries, flags proposed changes, and does not self-approve.
+How should governance be measured against qualified calls or admissions? Do not invent a score. Use measures the team already controls:
+* Coverage. What share of tracking tags, call numbers, forms, and integrations appears on the current map? An unmapped tool is a gap.
+* Review cycle time. How long does a proposed tracking change or new tool take from request to decision? A slow path pushes work around the process.
+* Measurement continuity. After the rules are applied, can you still produce cost per qualified inquiry, and where authorized data supports it, cost per admission, by channel and location?
+* Definition stability. Is "qualified inquiry" defined once, in writing, and used the same way by marketing and intake?
+* Exception log. How many exceptions were requested, approved, and later reversed?
+Track those measures over time against paid media and intake outcomes. Build attribution to admission only where authorized data supports it, and only at the detail your privacy team approves.
+Questions to ask before you sign:
+* Who owns each data class, in writing, including access, permitted use, export, and deletion?
+* Which systems, accounts, and credentials does the vendor access, with which roles, and what ends when the engagement ends?
+* For each workflow that touches our data, where does processing run, who owns that infrastructure, and how is access restricted?
+* Which workflows are in production, internal only, pilot, or planned?
+* Does owning infrastructure change data ownership? The answer should be no.
+* What may enter a prompt, who enforces that rule, and which outputs get human review before use?
+* Are our data or outputs used to train models, and under what terms?
+* Which duties sit with the vendor, and which sit with us? Will the vendor sign the agreements privacy requires?
 
-Data sovereignty: where your marketing data lives and who can use it
-We make storage, processing, access, and outside services explicit. You can see those choices rather than relying on a general assurance about privacy.
-[CTA] Request a Free Audit
-
-
-What data sovereignty means in a marketing engagement
-Data sovereignty is usually described as a legal idea: data is subject to the laws of the place where it is collected, stored, or processed. That definition matters, but it does not tell you how a marketing partner actually handles your information.
-In our engagements, data sovereignty means four things are written down and visible. Where information resides. How it moves between systems. Who can use it. Which outside providers participate in the workflow.
-The scope is marketing data: website inquiries, campaign and advertising data, call records, CRM records about inquiries, and site analytics. We do not operate clinical systems, and we do not ask for clinical records. Where a client's data includes protected health information, the client's HIPAA program and legal counsel define what may be shared and how.
-This page describes the operating model behind the data sovereignty summary in the [technology and data control](/#data-control) section of our homepage. It describes practices, supported workloads, and exceptions. It is not a certification, and it does not replace the review your organization already requires.
-Where client data is stored and processed
-Supported workloads run on computing infrastructure we own and operate. That includes reporting and analysis on exported campaign and CRM data, data preparation for attribution, content drafting for human review, and internal automation. Our [owned infrastructure](/ai-edge/owned-ai-systems) page explains why we operate hardware ourselves, and our [local processing](/ai-edge/local-processing) page lists the workloads it supports and the exceptions.
-Outside providers remain part of delivery. Campaigns run on advertising platforms. Website analytics, call tracking, CRM and intake systems, email and form delivery, and website hosting are operated by their vendors. Where a workload needs a cloud service, we say so before implementation.
-Every engagement carries a provider list. It names each outside service in use, what data reaches it, and who owns the account. Most of those accounts belong to the client. We work inside them as an authorized user or manager, and the client keeps ownership and the ability to remove our access.
-Local processing does not mean every integration runs offline or every external service disappears. It means we know which hop runs where, and we can show you.
-Who can access your data
-Access is role-based and tied to a named engagement owner on our side. People get the access their role requires and nothing broader. Access to agency infrastructure, to client-owned platform accounts, and to exported data are tracked separately.
-When a role changes or a person leaves the engagement, access is removed. We keep an access list for each engagement, and the client can request it at any time.
-Client systems stay under client control. Where we hold credentials to a client platform, they are issued by the client, scoped to the work, and revocable by the client without our involvement.
-Exported data used for reporting is kept to the fields the reporting needs. We prefer de-identified or aggregated exports for analysis, and we do not request patient information for marketing work.
-How information moves between systems
-A data-flow record is part of each engagement. It shows each system, the data that passes between systems, the direction of each transfer, and whether the system is client-owned, vendor-operated, or agency-operated.
-### Illustrative example: a website inquiry
-The following example is illustrative. It does not describe a specific client, and the systems in an actual engagement depend on what the client already operates.
-* A visitor submits an inquiry form on the client's website. The website is hosted by the client's hosting provider or by a hosting service we manage on the client's behalf. Vendor-operated.
-* The form delivery service passes the submission to the client's CRM or intake system. Vendor-operated, client-owned account.
-* Intake staff work the inquiry inside the CRM. The CRM remains the system of record. Client-owned.
-* A scheduled export of inquiry status and source fields, without free-text notes, reaches our reporting environment for attribution and analysis. Agency-operated infrastructure.
-* Approved conversion events, limited to the fields the client has authorized, return to the advertising platform so campaigns can be measured. Vendor-operated.
-Each hop is named, and each one has an owner. If a client wants a hop removed, for example no conversion data returned to an advertising platform, the record changes and the workflow changes with it.
-Retention and deletion
-Retention follows the engagement and the approved data uses. Data held on agency infrastructure is kept for as long as the reporting or workflow it supports is active, and for any period the engagement agreement defines.
-At the end of an engagement, or on request during it, we delete client data from agency systems and confirm what was deleted in writing. Backups follow the same schedule, with the deletion completing when the backup cycle rolls over.
-Data held by outside providers follows that provider's terms and the settings in the client's own account. We document what remains with each provider so the client can act on it, but we cannot delete data from an account we do not own.
-Working copies, such as exported spreadsheets used during an analysis, are covered by the same rule. They are deleted when the task closes.
-What you can inspect
-You should not have to take data handling on trust. The following records are available to a client during an engagement.
-* The data-flow record described above, updated when a system or transfer changes.
-* The provider list, with what each outside service receives and who owns the account.
-* The access list for agency staff, including role and the systems each role can reach.
-* The change log for data flows, providers, and access, with the approval for each change.
-* The approved data uses: what the data may be used for and what it may not.
-Changes to providers, flows, or access are reviewed before implementation. A change that widens what data leaves a client-owned system needs the client's approval first. Our [AI governance](/ai-edge/ai-governance) page describes the approval points.
-Regulatory frameworks and where our responsibility ends
-HIPAA, state privacy laws, and advertising platform policies shape what information can move between systems. Those obligations belong to your organization, and your compliance program governs them. We work within your review process, with responsibilities and deployment boundaries defined before implementation.
-Where your counsel determines that a business associate agreement is required for the work, we sign one and operate within it. Where a workflow would require protected health information to reach a system your program has not approved, the workflow does not get built that way.
-Advertising platforms restrict remarketing and certain audience tactics for sensitive categories. We build campaigns within those policies, and the data-flow record shows what reaches each platform.
-Controls like these support responsible execution. They do not mean technology alone resolves every security or compliance obligation, and we do not describe them that way.
-Client data ownership
-Clients retain ownership of their data. Our ownership of the hardware that processes it does not change that.
-Access to our services does not automatically transfer our technology, workflows, or configurations. The two sit on different sides of a line: your records, inquiries, campaign history, and reporting outputs are yours; the systems and methods we use to process them are ours.
-On request we return client data in standard formats, such as CSV exports and copies of reporting outputs, so a change of partner does not strand the history.
-How this fits the rest of our operating model
-Data sovereignty is one of three concepts in the [technology and data control](/#data-control) section of our homepage, alongside open source and customizable AI. Each answers a different question. This page answers where information resides and who can use it.
-[Owned infrastructure](/ai-edge/owned-ai-systems) explains why we operate our own hardware. [Local processing](/ai-edge/local-processing) lists the workloads that run on it and the exceptions. [AI governance](/ai-edge/ai-governance) covers approvals, testing, and accountability. [Customizable AI](/ai-edge/customizable-ai) shows how a scoped workflow is built from approved data. For a buyer-level overview of residency, ownership, and control, see [data sovereignty in healthcare](/company/data-sovereignty).
-On the measurement side, [analytics and attribution](/services/analytics-and-attribution) and [integrations and tracking](/services/web-development/integrations-and-tracking) describe how marketing data is collected and connected, which is where most data-handling decisions originate.
-Start with your data-flow record
-If you are evaluating a marketing partner, ask for the records above before the first campaign. If you work with us, we build them during onboarding and keep them current. An audit of your current tracking and data flows is a useful place to begin, because it shows what is already moving between systems today.
-[CTA] Request a Free Audit
 FAQ
-Q: What is data sovereignty in a marketing engagement?
-A: It means the storage, processing, access, and outside services involved in handling your marketing data are defined and visible. You can see where information resides, how it moves, who can use it, and which providers participate, rather than relying on a general privacy statement.
-Q: Does Marketing Powered process everything on its own infrastructure?
-A: No. Supported workloads such as reporting, data preparation, drafting for review, and internal automation run on infrastructure we own. Advertising platforms, analytics, call tracking, CRM, email and form delivery, and hosting remain vendor-operated, and each engagement lists which ones are in use.
-Q: Who owns the data in the engagement?
-A: You do. Clients retain ownership of their data, and our ownership of the hardware does not change that. Access to our services does not transfer our technology, workflows, or configurations, which remain ours.
-Q: What happens to our data when the engagement ends?
-A: We delete client data from agency systems, confirm the deletion in writing, and return data in standard formats on request. Data held in your own vendor accounts stays with you, and we document what remains with each provider.
-Q: Is this a HIPAA compliance service?
-A: No. HIPAA and related obligations belong to your organization and your compliance program. We work within your review process, sign a business associate agreement where your counsel determines one is required, and keep protected health information out of marketing workflows that your program has not approved.
-
-
-SCHEMA RECOMMENDATION
-Schema type: Article, BreadcrumbList
-* @type: Article with headline (the H1), author and publisher (Organization: Marketing Powered), datePublished, dateModified
-* @type: BreadcrumbList for Home > AI Edge > Data Sovereignty (rendered by the site's breadcrumb component)
-* No FAQPage markup: the FAQ renders as an accordion only
-* No Organization certifications, awards, or ratings
-
-
-DELIVERY NOTES
-Revision basis
-* Homepage Copy and Implementation Package, November 6, 2026: source-content audit W11, supporting-page scope (data sovereignty brief), claims register C08, C09, C11, C12, and the proof standard.
-
-
-Claims removed from the previous version
-* The agency-wide spend total and the statement that it was managed while maintaining compliance.
-* The absolute statements that information cannot leave agency systems and that no data routes through outside providers.
-* The hardware and network specifications used as evidence of control.
-* The HIPAA penalty figures and the general jurisdictional discussion that did not describe the agency's own operating model.
-* The founder narrative that mixed prior employer growth with agency practice; founder history now appears with attribution on the About page.
-* The "data compliance audit" CTA, replaced by the site's standard audit request.
-
-
-Citations
-* Removed: HHS Privacy Rule and OCR enforcement citations (the copy no longer makes penalty claims). Add back only if a future revision cites specific requirements.
-
-
-Approvals pending
-* C08, C09, C11, C12 in the package's claims register: Mike's final approval of the ownership, supported-workload, client-visibility, and data-ownership statements.
-* Every control, record, and retention practice described here is as described by the agency, pending technical-owner confirmation that it matches current operations.
-* The business associate agreement statement should be confirmed with counsel before publication.
-* The illustrative data-flow example is labeled illustrative; replace it with a real approved workflow only with the client's permission.
-
-
-Internal links
-* Back to the homepage data-control section; across to owned infrastructure, local processing, AI governance, customizable AI, analytics and attribution, and integrations and tracking.
-
-
-Imagery
-* The previous section graphics describe a legal-framework process (jurisdiction analysis, audit posture) that no longer matches the copy; the coordinating session decides which to retain. No image on this page may carry a metric or client reference.
+Q: What is healthcare marketing data governance?
+A: It is the documented set of rules for who owns marketing data, which systems may receive it, what may be collected, and who reviews exceptions. It covers ad platforms, call tracking, forms, CRM, analytics, and AI tools. Data sovereignty, as used on this page, is the related operating work of documenting storage and processing locations, access, outside providers, and jurisdictional requirements.
+Q: Who should own marketing data governance inside a health system?
+A: One named executive in marketing or growth operations should own the map and bring changes to review. That person should not approve their own exceptions. Privacy or compliance owns regulated determinations. IT or security owns technical controls. Intake owns the qualified-inquiry definition. Procurement owns the agreement. The vendor does not self-approve.
+Q: How should healthcare marketing data governance be measured against qualified calls or admissions?
+A: Measure coverage of the data asset map, review cycle time, whether cost per qualified inquiry and, where authorized, cost per admission can still be produced, whether the qualified-inquiry definition is stable, and how exceptions are logged. If a privacy restriction limits measurement, document the gap. Do not weaken the control to keep a report intact.
+Q: Does owning AI hardware make an agency's work private or compliant?
+A: No. Hardware ownership is a deployment choice. Data ownership follows the agreement. HIPAA data handling depends on the information, the parties, the agreements, and the safeguards. HHS has stated that private security certifications are not a substitute for HIPAA compliance obligations.
+Q: Can marketing still measure cost per qualified inquiry under strict privacy rules?
+A: Often yes, if the events, fields, and aggregation level are decided in advance with privacy and intake. Measurement may need to move to a different event or a coarser report. Some measurement may need to stop. Counsel should confirm what is permissible for your organization.
+Q: Should AI tools be allowed to see patient information?
+A: Not unless that specific tool and workflow have been approved by your privacy and security reviewers. Separate who owns the infrastructure, where inference runs, and how access is restricted before you answer. Many marketing tasks can be done with no identifiable information.
+Q: How often should the data asset map be reviewed?
+A: Whenever tools, vendors, tracking events, or AI workflows change, and on a documented recurring schedule. Record the date of the review and the name of the reviewer. [Request an acquisition audit](/get-started/request-an-audit)

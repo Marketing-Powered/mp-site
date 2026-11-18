@@ -86,6 +86,36 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/ai-edge/data-sovereignty/": [
+    // [0] hero
+    studioImg(
+      "ai-edge/data-sovereignty",
+      "healthcare-marketing-data-governance.webp",
+      "Healthcare marketing and operations leaders compare workflow sketches at a table.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "ai-edge/data-sovereignty",
+      "healthcare-marketing-data-governance-marketing-leader-intake-colleague.webp",
+      "A marketing leader and intake colleague discuss measurement at a laptop.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "ai-edge/data-sovereignty",
+      "healthcare-marketing-data-governance-four-vendor-review-questions-cover-data.webp",
+      "Four vendor-review questions cover data ownership, hardware ownership, processing location and approval status.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "ai-edge/data-sovereignty",
+      "healthcare-marketing-data-governance-security-reviewer-marketing-colleague.webp",
+      "A security reviewer and marketing colleague discuss a laptop during a meeting.",
+      "3 / 2",
+    ),
+  ],
   "/services/local-seo/": [
     // [0] hero
     studioImg(

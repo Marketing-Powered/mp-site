@@ -86,6 +86,36 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/local-seo-for-rehab-centers/": [
+    // [0] hero
+    studioImg(
+      "resources/local-seo-for-rehab-centers",
+      "local-seo-for-rehab-centers.webp",
+      "Admissions leader reviewing facility reports at a desk in natural light",
+      "16 / 9",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/local-seo-for-rehab-centers",
+      "local-seo-for-rehab-centers-parent-searching-smartphone-inside.webp",
+      "Parent searching on smartphone inside a parked car showing local map results",
+      "1600 / 1067",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/local-seo-for-rehab-centers",
+      "local-seo-for-rehab-centers-side-side-comparison-compliant-versus.webp",
+      "Side-by-side comparison of compliant versus non-compliant rehab center location pages",
+      "1600 / 1067",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/local-seo-for-rehab-centers",
+      "local-seo-for-rehab-centers-ladder-diagram-showing-steps-local.webp",
+      "Ladder diagram showing steps from local search visibility to verified admissions with privacy notes",
+      "1600 / 1067",
+    ),
+  ],
   "/ai-edge/data-sovereignty/": [
     // [0] hero
     studioImg(

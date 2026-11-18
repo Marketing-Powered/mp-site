@@ -358,6 +358,8 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
     { href: "/resources/behavioral-health-marketing-strategies", file: "resources/behavioral-health-marketing-strategies.md" },
     { href: "/resources/in-house-vs-agency-behavioral-health", file: "resources/in-house-vs-agency-behavioral-health.md" },
     { href: "/resources/local-seo-for-rehab-centers", file: "resources/local-seo-for-rehab-centers.md" },
+    { href: "/resources/treatment-center-marketing-guide", file: "resources/treatment-center-marketing-guide.md" },
+    { href: "/resources/healthcare-marketing-analytics", file: "resources/healthcare-marketing-analytics.md" },
   ],
   "legal/index.md": [
     { href: "/legal/terms", file: "legal/terms.md" },

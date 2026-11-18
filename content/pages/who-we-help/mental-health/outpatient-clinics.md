@@ -1,120 +1,90 @@
 ---
-title: "Outpatient Clinic Marketing Services | Marketing Powered"
+title: "Outpatient Mental Health Clinic Marketing | Patient Acquisition"
 url: "/who-we-help/mental-health/outpatient-clinics/"
 primary_keyword: "outpatient clinic marketing"
-secondary_keywords: "outpatient mental health marketing, mental health clinic marketing"
-target_word_count: "1200-1800"
+secondary_keywords: "outpatient mental health marketing, mental health practice marketing"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /who-we-help/mental-health/outpatient-clinics/ with primary keyword 'outpatient clinic marketing' and secondary keywords 'outpatient mental health marketing' and 'mental health clinic marketing.' Word count target is 1200-1800 words. Page type: vertical sub-page under mental health hub. Buyer target: CEOs, COOs, or VPs of Business Development at outpatient mental health clinics seeking a compliance-aware marketing partner for high-quality patient acquisition.
-Page type: Vertical Sub-Page (Mental Health)
-Buyer target: CEOs, COOs, or VPs of Business Development at outpatient mental health clinics
-Word count target: 1200-1800 words
-
-
 SEO METADATA
-Title tag (52 chars): Outpatient Clinic Marketing Services | Marketing Powered
-Meta description (163 chars): Drive qualified patient acquisition for your outpatient mental health clinic with compliance-first marketing. Book a discovery call today.
-H1: Outpatient Clinic Marketing That Fills Your Schedule
-Hero image alt: Marketing Powered team reviewing outpatient mental health clinic campaign performance data on multiple screens
+Title tag: Outpatient Mental Health Clinic Marketing | Patient Acquisition
+Meta description: Outpatient clinic marketing strategies to grow qualified appointment inquiries while connecting paid media, SEO and intake outcomes.
+H1: Outpatient Mental Health Clinic Marketing | Patient Acquisition
+Hero image alt: Outpatient clinic staff review scheduling on a tablet in a sunlit reception office.
 
 
 PAGE COPY
 
-
-Outpatient Clinic Marketing That Fills Your Schedule
-Compliance-first patient acquisition strategies built by operators who understand mental health practice economics.
-[CTA] Book a Discovery Call
-
-
-Understanding Outpatient Clinic Marketing
-Outpatient clinic marketing operates under constraints that most agencies never encounter. You cannot retarget website visitors through Google Ads. Your landing pages must satisfy LegitScript certification requirements. Your messaging must thread the needle between reaching patients who need help and avoiding language that triggers policy violations or compliance flags.
-This is not the same as marketing a med spa or an urgent care clinic. Outpatient mental health practices face a distinct patient acquisition challenge: longer consideration cycles, higher sensitivity around privacy, and a competitive environment where generic healthcare marketing approaches waste budget and attract the wrong inquiries.
-The difference between effective mental health marketing and wasted spend often comes down to operator-level understanding. When your marketing partner has scaled mental health practices from startup to multi-location operations, they recognize which channels produce patients who actually show up for appointments, which ad copy survives platform review, and which attribution methods connect marketing dollars to clinical intake.
-At Marketing Powered, we have managed over $50M in behavioral health and mental health media spend. That budget depth means we have seen what breaks at scale and what compounds. Outpatient clinic marketing requires that kind of pattern recognition, not guesswork from an agency learning your vertical on your budget.
-Proven Strategies for Outpatient Mental Health Marketing
-Effective outpatient mental health marketing combines paid acquisition, organic visibility, and community positioning. Each channel plays a different role in the patient journey, and the right mix depends on your market density, service lines, and intake capacity.
-Paid search remains the primary acquisition channel for most outpatient practices. Google Ads lets you reach patients actively searching for therapy, psychiatric evaluation, or specific treatment modalities. However, mental health falls under Google's sensitive vertical restrictions, which prohibit remarketing and require careful keyword selection. We manage $1.5M to $2M monthly in Google Ads across our client portfolio, with mental health clinic marketing representing a significant share of that spend.
-Beyond paid search, local SEO and Google Business Profile optimization drive a consistent stream of organic inquiries. Patients searching for 'therapist near me' or 'psychiatrist accepting new patients' often convert at higher rates than paid traffic because they are further along in their decision process. Building a local authority takes time, but the compounding effect creates a sustainable patient flow that does not depend entirely on ad budget.
-Community outreach and referral network development round out a complete acquisition strategy. Partnerships with primary care physicians, school counselors, and employee assistance programs generate high-quality referrals that convert reliably. These channels require relationship investment, but they produce patients who arrive with context and intent.
-* Paid search campaigns structured for Google's sensitive vertical requirements, with compliant ad copy and landing pages that convert
-* Local SEO and Google Business Profile optimization to capture high-intent organic searches in your service area
-* Referral network development with primary care providers, schools, and EAP programs to build predictable patient pipelines
-* Patient engagement systems that reduce no-show rates and improve lifetime value through consistent communication
-Compliance Is the Foundation of Mental Health Marketing
-Mental health marketing operates under regulatory scrutiny that most industries never face. HIPAA governs how you handle patient information in your marketing systems. LegitScript certification validates that your advertising meets ethical standards. Google Ads healthcare policies restrict what you can say, who you can target, and how you can follow up with website visitors.
-These are not optional considerations. A single compliance misstep can result in an account suspension, certification loss, or regulatory action. We have seen clinics lose months of marketing momentum because their previous agency did not understand the difference between behavioral health retargeting restrictions and general healthcare advertising rules.
-Marketing Powered builds compliance awareness into every campaign from the start. Our AI-native systems are designed with HIPAA-conscious data handling. We track attribution through to admission without exposing protected health information. This infrastructure means you get the measurement precision you need to make budget decisions without the compliance risk that comes from cobbling together off-the-shelf tools.
-When your marketing partner has operated in this space for years, compliance becomes a competitive advantage rather than a constraint. You move faster because you are not rebuilding campaigns after policy rejections.
-Results That Connect Marketing Spend to Clinical Outcomes
-Results in outpatient mental health marketing are measured in qualified intake calls, scheduled appointments, and patients who actually show up for their first session. Vanity metrics like impressions or clicks do not pay your clinicians.
-Our founder managed operator-side multi-market growth, building the patient acquisition infrastructure that supported that growth trajectory. That experience informs how we approach patient acquisition for every outpatient clinic we work with: start with unit economics, build attribution that connects marketing spend to clinical outcomes, and optimize for the metrics that actually matter to your P&L.
-Across our mental health client portfolio, we have consistently reduced cost per qualified lead while improving lead quality. The combination matters. Cheaper leads that do not convert waste intake staff time. Expensive leads that convert still compress margins. The goal is qualified volume at sustainable acquisition costs, with attribution that lets you see exactly which channels and campaigns produce results.
-What separates successful outpatient clinic marketing from failed campaigns usually comes down to patience and precision. Mental health patient acquisition cycles are longer than those of urgent care or primary care. Patients research, compare, and deliberate before making contact. Campaigns need a runway to build data, and optimization requires granular conversion tracking that most agencies do not bother to implement.
-Why Outpatient Clinics Choose Marketing Powered
-Marketing Powered is not a general healthcare agency adding mental health to a service list. We built this practice from operator experience, not agency pivots.
-Our founder is a court-certified expert witness in advertising strategy. That credential reflects the depth of expertise we bring to every engagement. When compliance questions arise, when platform policies shift, when attribution models need to withstand scrutiny, you want a partner who has defended marketing decisions under examination.
-We have been AI-native since 2022, building proprietary systems on our own infrastructure rather than wrapping commercial APIs. Our technology stack runs multivariant optimization, predictive analytics, and real-time campaign adjustments at a speed that traditional agencies cannot match. For outpatient clinics operating in competitive markets, that execution advantage translates directly to patient acquisition efficiency.
-Your clinic deserves a marketing partner who understands the difference between mental health practice growth and generic healthcare marketing. Someone who has managed budgets at scale in your exact vertical. Someone who builds compliance into the foundation rather than treating it as an afterthought.
-[CTA] See How We Work
-
-
-Ready to Grow Your Outpatient Clinic?
-Schedule a discovery call to discuss your patient acquisition goals, compliance requirements, and channel strategy. We will show you how our operator experience and AI-native approach can produce measurable results for your practice.
-[CTA] Book a Discovery Call
-FAQ
-Q: What marketing strategies work best for outpatient mental health clinics?
-A: The most effective strategies combine paid search structured for Google's sensitive vertical restrictions, local SEO and Google Business Profile optimization, and referral network development with primary care providers and EAPs. The right mix depends on your market, service lines, and intake capacity. We have managed $1.5M to $2M monthly in Google Ads, with mental health representing a significant portion of that spend.
-Q: How important is compliance in mental health marketing?
-A: Compliance is foundational, not optional. HIPAA governs patient data handling in your marketing systems. LegitScript certification validates ethical advertising standards. Google Ads healthcare policies restrict targeting and messaging for sensitive verticals. A compliance misstep can suspend your ad accounts or trigger regulatory action. We build HIPAA-conscious data handling and LegitScript awareness into every campaign from day one.
-Q: What results can I expect from outpatient clinic marketing?
-A: We measure success in qualified intake calls, scheduled appointments, and patients who show up. Our founder managed operator-side multi-market growth, building patient acquisition infrastructure that supported that growth. Across our portfolio, we have consistently reduced cost per qualified lead while improving lead quality, with attribution that connects marketing spend to clinical outcomes.
-Q: How does Marketing Powered differ from other healthcare marketing agencies?
-A: Three factors set us apart: operator experience (our founder built and scaled a multi-location mental health practice), AI-native technology (proprietary systems on owned infrastructure since 2022), and budget depth ($50M+ managed in behavioral and mental health media). We are not a general agency adding mental health to a service list. This is our specialty.
-
-
-Q: Why is digital marketing essential for outpatient mental health clinics?
-A: Patients increasingly research mental health services online before making contact. Digital marketing lets you reach them at the moment of intent, whether through paid search, local SEO, or content that builds trust during longer consideration cycles. Outpatient clinics that invest in digital patient acquisition consistently outgrow those relying solely on referrals or word of mouth.
-
-
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, Service, BreadcrumbList
-* FAQPage with all 5 Q&A pairs from the FAQ section
-* Service schema with serviceType (Outpatient Clinic Marketing), provider (Marketing Powered), areaServed (United States)
-* BreadcrumbList: Home > Who We Help > Mental Health > Outpatient Clinics
-
-
-DELIVERY NOTES
-External citations
-* LegitScript certification https://www.legitscript.com/certification/ [Regulatory/Compliance] - Primary authoritative source for the certification standard referenced in the compliance section. LegitScript is the recognized third-party validator for healthcare advertising ethics.
-
-
-Brief conflicts
-* The brief FAQ guidance for Question 2 uses the word 'crucial' (e.g., 'Discuss why compliance is crucial'), which appears on the banned phrasing list. The answer was rewritten using 'foundational' instead.
-* The internal link map includes a self-referential anchor ('Marketer for outpatient clinics' pointing to /who-we-help/mental-health/outpatient-clinics/). This self-link was omitted to avoid pointing a page to itself.
-
-
-Internal link gaps
-* No internal link target was provided for attribution or measurement-related content; a link to a dedicated analytics or reporting page would strengthen the attribution proof points in the results section.
-* A dedicated compliance or HIPAA page link would reinforce the compliance section; none was included in the brief's link map.
-* The /who-we-help/mental-health/anxiety-depression/ link was not used as no natural contextual fit existed on this outpatient clinic-focused page without forcing relevance.
-
-
-Compliance flags
-* All outcome claims are framed as marketing performance metrics (qualified leads, cost per lead, intake calls) and not patient health outcomes.
-* No retargeting claims are made; Google Ads sensitive vertical restrictions are explicitly acknowledged in context.
-* No specific success rates are claimed without supporting context from the proof points library.
-* a multi-location behavioral health organization reference is used only in the context of operational scale, not patient outcome claims.
-
-
-Missing proof points
-* Specific percentage improvements in cost per qualified lead for mental health clients would strengthen the results section.
-* Named case study examples beyond a multi-location behavioral health organization would add credibility if available and permitted by clients.
-* Specific no-show rate improvement data from patient engagement systems would support the corresponding bullet point in the strategies section.
-
-
-Banned phrasing in brief
-* 'crucial' appears in the brief's FAQ guidance for Question 2 and was not used in the final copy
-* 'in today's' was listed in the brief's avoid section and does not appear in any copy
-* 'game-changing' and similar superlatives were avoided throughout
+Outpatient Mental Health Clinic Marketing | Patient Acquisition
+I’ll verify current Google healthcare advertising rules and related policy points before writing the page.Meta title: Outpatient Clinic Marketing | Patient Acquisition
+[CTA] Request an acquisition audit → /get-started/request-an-audit
+When outpatient clinics need dedicated support
+Outpatient clinic marketing has to win on the first visit, because retargeting is not permitted in Google's sensitive healthcare vertical and there is no paid second chance to explain clinical fit. Inquiries that miss the level of care, the payer, or the open slot still consume intake time while the schedule stays uneven. The commercial job is to connect paid media and local search to appointments the clinic can actually keep.
+The trigger is usually visible on a whiteboard, not in a dashboard. A small clinical team stands in a morning huddle. Thursday individual-therapy slots are open. The evening psychiatry block is already full. A stack of new inquiries asks for a level of care, an hour, or a payer the clinic cannot take this week. Adding budget to that pattern does not fill the board. It lengthens the queue.
+Outpatient clinic marketing becomes a distinct operating problem when three conditions show up together. The clinic has a fixed number of clinicians and rooms. Demand is local, and it differs by service: therapy, psychiatry, intensive outpatient, or a substance use track. Follow-up advertising cannot repair a weak first visit, because ads that promote mental health counseling sit in a sensitive category where advertiser-built audiences are off the table.
+Hire dedicated support when the practice owner is making media decisions from inquiry counts while the schedule tells a different story. A single-site group with stable referrals and open capacity may not need that support yet. A group adding a site, a new level of care, or a payer contract usually does. The work is not a general campaign refresh. It is a match between what searchers request, what the front door says, and what the huddle can schedule.
+Diagnosing gaps before adding more spend
+Start with the schedule, then read the media backward from it. An operator-level diagnosis asks which appointments were kept, which inquiries never matched an open slot, and which queries paid for demand the clinic had already decided not to accept. Mental health practice marketing fails quietly when those three records live in different systems and nobody reconciles them weekly.
+Four gaps show up often enough to check before any budget increase.
+* Offer mismatch. Ads and pages describe a broad counseling practice. Callers want medication management, couples work, or a higher level of care the site does not provide.
+* Hour mismatch. Spend runs all day. Clinical capacity exists on two afternoons. Intake then spends calls offering times people already refused.
+* Payer mismatch. The page lists every plan the group has ever accepted. The current panel is narrower. Qualified interest dies after the benefits question.
+* Location mismatch. One site is full. Another has open groups. Both share a phone number and a landing page, so the full site keeps absorbing the calls.
+Intake conversion economics is the right lens for that review. Count the staff minutes from first ring to a held appointment, and compare that effort with the slots the huddle said were open. A cheaper inquiry that cannot be scheduled is not a win. A more expensive inquiry that fills a priority slot can be. Do not treat raw lead volume as the diagnosis. It is only the top of a funnel the clinic has to staff.
+Capacity, scheduling, and qualified appointments
+Outpatient mental health marketing should be planned from capacity outward. Before a keyword, a page, or a bid change, name the appointments the clinic wants more of this month, the appointments it cannot add, and the inquiries intake should decline quickly and kindly. That list is a media brief. It changes when a clinician leaves, a group fills, or a new payer opens.
+A qualified appointment inquiry has a working definition the marketing and intake leads share. Clinical fit, level of care, geography, preferred hours, and payer eligibility are the usual tests. The definition should be written down, because "qualified" otherwise drifts toward whoever was willing to leave a name. Declined inquiries still matter. They show which queries, ads, or pages are buying the wrong demand.
+The delivery model then has a simple sequence.
+* Publish only the services and hours the schedule can support.
+* Route each service to its own page and call path, so a therapy search does not land on an intensive-outpatient form.
+* Give intake a short script for fit, payer, and next available slot, and a clean way to mark the reason a call did not schedule.
+* Pause or narrow the queries that repeatedly produce declines, even if those queries are popular.
+* Review the result against the huddle board, not against a weekly lead total.
+Clinics that also offer substance use treatment should keep that path separate from general therapy in both the page and the intake script. The platform rules differ, and so does the clinical conversation. Broader [behavioral health patient acquisition](/who-we-help/behavioral-health) questions belong on that topic, not on this page. This page stays with outpatient scheduling, local demand, and the appointment the clinic can hold.
+Location-level acquisition and privacy
+Picture three outpatient sites on a simple map. Arrows should not all point to one phone number. Site A has open adult-therapy hours and a narrow payer panel. Site B runs full intensive-outpatient groups and should not buy more of those queries until a seat opens. Site C is new, with a thin review profile and no dedicated page, so nearby searches still resolve to the older sites. Patient flow is a routing decision: which query, which page, which location, which scheduler.
+Location-level acquisition means separate landing paths, separate call tracking, and budgets that can move when one site fills. A shared brand campaign can still exist. It should not be the only campaign. Local search needs a page that names the site, the services that site actually offers, and the hours a caller can book. Reviews and location pages should describe the practice, not a patient's story.
+Privacy constraints sit next to that map. The HIPAA Privacy Rule requires an individual's authorization before a covered entity uses or discloses protected health information for marketing, with narrow exceptions such as a face-to-face communication or a promotional gift of nominal value. If a third party pays the covered entity for the marketing, the authorization must say so. [HHS marketing authorization FAQ](https://www.hhs.gov/hipaa/for-professionals/faq/when-is-patient-authorization-required-for-marketing/index.html) [HHS guidance](https://www.hhs.gov/hipaa/for-professionals/faq/when-is-patient-authorization-required-for-marketing/index.html)
+That rule is why patient lists, diagnosis codes, and clinical notes do not belong in ad audiences or in ordinary marketing files. Call recordings used for quality review should stay in the system built for that purpose. Marketing reporting can use appointment status, location, service line, and source. It does not need a diagnosis to judge whether the media matched capacity. Marketing Powered is HIPAA-aware. That is a working standard for how data is handled, not a certification claim, and it does not transfer compliance from a workflow to a clinic.
+Measure to the scheduled appointment
+Outpatient clinic marketing should be scored on the path from qualified inquiry to a scheduled appointment, and further to a kept visit or admission when the clinic's own records support that step. A form fill that never reaches intake is not the same event as a call that books. A booked slot that is cancelled before the visit is not the same event as a kept appointment. Qualified admissions, where the clinic admits to a program rather than a single session, need their own status so a therapy booking and a program admission are not blended into one conversion.
+A practical measurement set has five fields, recorded the same way at every site.
+* Source and campaign, tied to the call or form, not typed from memory at the end of the day.
+* Service requested and location requested.
+* Fit result: scheduled, declined, or unable to reach.
+* Reason, in a short controlled list: hours, payer, level of care, geography, or no capacity.
+* Downstream status: kept, cancelled, rescheduled, or admitted, where the clinic authorizes that data to be joined.
+Cost belongs next to those fields, not instead of them. The question is what the clinic spent to produce a scheduled appointment it had capacity to keep. If most of the spend produced declines for a full group, the fix is query and page control, not a lower bid on every term. [Analytics and attribution](/services/analytics-and-attribution) is the place to design that join between call tracking, the site, and the intake record. The join only works when intake uses the same definitions marketing uses.
+Attribution tracked to admission, not just lead, is the standard this work is built around. It requires the clinic to share outcome status under its own privacy rules. Where that status is missing, say so in the report. Do not fill the gap with a modeled admission count and present it as measured.
+Governance and platform requirements
+Platform rules decide which tactics are even available. Google treats health as a sensitive interest category. Personal health content includes physical or mental health conditions and the products or services that treat them. Google's examples include counseling services for mental health issues such as depression, anxiety, and addiction. [Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855?hl=en) [Google Ads policy](https://support.google.com/adspolicy/answer/16701855?hl=en)
+For ads in that category, advertiser-curated audiences are not allowed. That list includes Customer Match, your data segments (the current name for remarketing lists), audience expansion, and lookalike segments. Predefined Google audiences, such as in-market and affinity segments, and location targeting, can still be used, because Google states that sensitive user signals are excluded from those predefined audiences. Custom segments that use sensitive creative or point to sensitive landing pages are limited: Google says they will only serve with Display campaigns to non-sensitive audiences or contextually, and other campaign types using those custom segments will not be eligible to serve. Policies change. Confirm the current page before a launch, and do not treat a summary as a substitute for the policy.
+The commercial implication is first-touch conversion. Search intent, the page, the offer, and the phone path have to carry the decision. A retargeting list of people who read an anxiety page is not a fallback plan.
+Addiction-services rules are separate from general counseling rules. Google restricts promotion of recovery-oriented drug and alcohol addiction services. Examples include clinical addiction treatment providers, recovery support, lead generators, and crisis hotlines. Approved advertisers may promote those services only in listed locations, including the United States. Services for impulse control, behavioral addiction, or nicotine addiction are outside that policy. [Addiction services](https://support.google.com/adspolicy/answer/15598649?hl=en) [Google Ads policy](https://support.google.com/adspolicy/answer/15598649?hl=en)
+In the United States, advertising those drug and alcohol addiction services requires certification as an addiction services provider through LegitScript's Certification program, plus Google certification. Not every addiction service is eligible. Services that are not eligible are not allowed to advertise that category on Google. [Healthcare and medicines, United States](https://support.google.com/adspolicy/answer/176031) [Google Ads policy](https://support.google.com/adspolicy/answer/176031)
+A therapy practice that does not advertise drug and alcohol addiction services should not assume it needs that certification. An outpatient clinic that does advertise those services should not launch until both certifications are in place. LegitScript certification is monitored, and it is not the same thing as ad approval.
+Psychiatry and telehealth add another gate when the ads promote prescription drug services. For U.S. campaigns, Google allows telemedicine providers that facilitate prescribing if they are accredited by LegitScript's Healthcare Merchant Certification Program, and those advertisers must also be certified with Google. An October 2025 policy update states that certification is not required merely to use prescription drug terms in ads and landing pages, but certification is required to keyword-target those terms, and it remains required for business types such as telemedicine providers. [Healthcare and medicines policy update, October 2025](https://support.google.com/adspolicy/answer/16606361?hl=en) [Google Ads policy](https://support.google.com/adspolicy/answer/16606361?hl=en)
+Creative should stay specific without implying a diagnosis of the reader, and without outcome claims the clinic cannot stand behind. Marketing Powered is LegitScript-aware and built for this vertical. Awareness is a review habit. It is not a certification the firm holds on a clinic's behalf, and it does not replace the clinic's own licenses.
+What an acquisition audit examines
+An acquisition audit is a working session, not a packaged set of deliverables with a fixed timeline. The useful picture is an operator at a desk with two monitors: one shows call outcomes by source, the other shows the scheduling calendar. No patient names need to be on either screen. The question in the room is whether the calls being counted are the appointments the calendar can hold.
+The review focuses on six areas.
+* Current Google and other paid accounts, including audiences that may conflict with sensitive-category rules.
+* Query and page fit against the services and hours each site can schedule.
+* Call tracking, form paths, and whether intake records a fit reason.
+* Location structure: one number and one page, or a path per site.
+* Certification status if addiction services or prescribing telehealth are being advertised.
+* The report the owner actually uses to decide next month's spend.
+Onboarding begins when the clinic can share account access, a recent schedule or capacity note, and a privacy boundary for what marketing is allowed to see. Outcome status can be limited to scheduled, kept, cancelled, or admitted. Clinical notes are not required.
+The founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations, and managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. He is a court-certified expert witness in advertising strategy. That history is the founder's, from roles before this firm. It is not an agency client result, and it is not a forecast for a clinic that requests an audit.
+Marketing Powered is operator-led and has been AI-native since 2022, with owned, local AI infrastructure for HIPAA-aware inference. Owned infrastructure is a control over where certain inference runs. It does not mean every campaign uses a local model, it does not move ownership of clinic data, and it does not make a workflow compliant by itself. Where a clinic's rules require it, operational review can stay off a general consumer tool. People still make the budget and compliance decisions. Related operating notes sit in [resources](/resources).
+Common questions from clinic leaders
+### What should a provider expect from outpatient clinic marketing?
+Expect a plan tied to open appointments, not a promise of inquiry volume. The work should name which services and sites are in market, which queries are excluded because capacity or fit is wrong, and how a first visit converts without a retargeting safety net. You should also expect a written fit definition that intake and media share, plus a report that shows scheduled appointments by source and location. You should not expect patient lists used as ad audiences, diagnosis-based targeting, or a claim that a workflow makes the clinic compliant.
+### How should outpatient clinic marketing be measured against qualified calls or admissions?
+Measure a sequence. A qualified call or form meets the shared tests for service, location, hours, and payer. A scheduled appointment is the next status. A kept visit, or an admission to a program, is the status that matters for clinical operations, and it should be used only when the clinic authorizes that data. Judge spend against scheduled and kept outcomes the calendar could support. If the qualified-call count rises while the schedule does not, the constraint is fit, capacity, or intake, and the media plan should change with that finding.
+### Does every outpatient clinic need LegitScript certification?
+No. Google's addiction-services rule applies to recovery-oriented drug and alcohol addiction services, and in the United States those advertisers need LegitScript certification and Google certification. A practice advertising only general mental health counseling is still in the sensitive health category for personalization, which blocks advertiser-curated audiences, but that is not the same requirement. Telemedicine that facilitates prescribing is a separate certification path. Check the service you intend to advertise against the current policy before you assume either rule does not apply.
+### Can the clinic retarget people who visited a therapy page?
+Not with advertiser-curated audiences if the ads promote sensitive health services. Google does not allow your data segments, Customer Match, audience expansion, or lookalike segments for that category. The practical substitute is a clearer page, a faster path to a qualified call, and search or local coverage aimed at people who are already looking. Do not rebuild the same audience under another name.
+### When should a group split campaigns by location?
+Split when sites differ in capacity, services, payers, or call handling. A full intensive-outpatient site and an underfilled therapy site should not share one conversion goal and one landing page. Split earlier if a new site is invisible in local search because the older sites own the brand queries. Keep one measurement definition across sites so the group can compare scheduled appointments without mixing the records.
+[CTA] Request an acquisition audit → /get-started/request-an-audit

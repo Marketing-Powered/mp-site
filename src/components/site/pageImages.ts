@@ -86,6 +86,96 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/problems/increase-qualified-calls/": [
+    // [0] hero
+    studioImg(
+      "problems/increase-qualified-calls",
+      "increase-qualified-calls.webp",
+      "A healthcare admissions director examines intake call data on a laptop in a brightly lit administrative office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "problems/increase-qualified-calls",
+      "increase-qualified-calls-intake-coordinator-wearing-headset.webp",
+      "An intake coordinator wearing a headset reviews call notes at an administrative workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "problems/increase-qualified-calls",
+      "increase-qualified-calls-comparison-diagram-outlining-marketing.webp",
+      "A comparison diagram outlining marketing upstream tracking tasks versus operations downstream intake disposition responsibilities.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "problems/increase-qualified-calls",
+      "increase-qualified-calls-healthcare-executives-collaborate-around.webp",
+      "Healthcare executives collaborate around a conference table during a strategic planning meeting.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/healthcare-marketing-analytics/": [
+    // [0] hero
+    studioImg(
+      "resources/healthcare-marketing-analytics",
+      "healthcare-marketing-analytics.webp",
+      "Healthcare executives in an administrative office reviewing patient acquisition and analytics data on a tablet.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/healthcare-marketing-analytics",
+      "healthcare-marketing-analytics-admissions-coordinator-workstation.webp",
+      "An admissions coordinator at a workstation reviewing qualified call and intake disposition criteria.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/healthcare-marketing-analytics",
+      "healthcare-marketing-analytics-diagram-comparing-last-non-direct-time.webp",
+      "Diagram comparing last non-direct, time-decay, and position-based attribution models for healthcare marketing.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/healthcare-marketing-analytics",
+      "healthcare-marketing-analytics-healthcare-leadership-team-collaborating.webp",
+      "Healthcare leadership team collaborating around a conference table on an admissions analytics implementation checklist.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/treatment-center-marketing-guide/": [
+    // [0] hero
+    studioImg(
+      "resources/treatment-center-marketing-guide",
+      "treatment-center-marketing.webp",
+      "Healthcare executives review acquisition data and operational metrics in a modern administrative office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/treatment-center-marketing-guide",
+      "treatment-center-marketing-admissions-coordinator-conducts-phone.webp",
+      "An admissions coordinator conducts a phone screening while reviewing intake criteria on a computer screen.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/treatment-center-marketing-guide",
+      "treatment-center-marketing-diagram-role-ownership-ceo-coo-cmo.webp",
+      "Diagram of role ownership across CEO, COO, CMO, and admissions director responsibilities.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/treatment-center-marketing-guide",
+      "treatment-center-marketing-healthcare-executive-reviews-operational.webp",
+      "A healthcare executive reviews operational documents beside a window in a quiet conference room.",
+      "79 / 53",
+    ),
+  ],
   "/resources/local-seo-for-rehab-centers/": [
     // [0] hero
     studioImg(
@@ -1704,20 +1794,33 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // Hero swapped to the clean path graphic (02) — Asana's 01 hero showed a literal
   // "[CTA]" placeholder button token. Three clean images.
   "/who-we-help/mental-health/outpatient-clinics/": [
-    pageImg(
+    // [0] hero
+    studioImg(
       "who-we-help/mental-health/outpatient-clinics",
-      "01-hero-banner.jpg",
-      "Outpatient clinic marketing that fills your schedule: paid search, local SEO, and referral networks driving compliant patient acquisition",
+      "outpatient-clinic-marketing.webp",
+      "Outpatient clinic staff review scheduling on a tablet in a sunlit reception office.",
+      "43 / 24",
     ),
-    pageImg(
+    // [1] section image
+    studioImg(
       "who-we-help/mental-health/outpatient-clinics",
-      "02-concept.jpg",
-      "Outpatient clinic patient acquisition framework: discovery and alignment, compliance integration, multi-channel acquisition, operator-led optimization, measurable outcomes",
+      "outpatient-clinic-marketing-mental-health-clinic-staff-meet.webp",
+      "Mental health clinic staff meet in a conference room for a morning scheduling huddle.",
+      "79 / 53",
     ),
-    pageImg(
+    // [2] section image
+    studioImg(
       "who-we-help/mental-health/outpatient-clinics",
-      "03-process.jpg",
-      "Outpatient clinic data-driven growth: proven strategy mix, reduced cost per acquisition, improved lead quality, clinical attribution, compliance-first foundation",
+      "outpatient-clinic-marketing-diagram-showing-five-stages-outpatient.webp",
+      "Diagram showing five stages of outpatient clinic appointment and admission attribution.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "who-we-help/mental-health/outpatient-clinics",
+      "outpatient-clinic-marketing-healthcare-marketing-operator-clinic.webp",
+      "Healthcare marketing operator and clinic manager review call metrics and a scheduling calendar.",
+      "79 / 53",
     ),
   ],
 

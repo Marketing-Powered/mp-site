@@ -106,6 +106,53 @@ const nextConfig: NextConfig = {
         destination: "/resources/guides/ai-visibility-seo-visibility-complementary",
         permanent: true,
       },
+      // Legacy WordPress URLs reported as "Not found (404)" in Google Search
+      // Console (Coverage export, 2026-11-18). Each points at the closest
+      // equivalent page on the current site.
+      {
+        source: "/privacy-policy",
+        destination: "/legal/privacy-policy",
+        permanent: true,
+      },
+      {
+        source: "/top-10-digital-marketing-tools-for-small-businesses",
+        destination: "/resources",
+        permanent: true,
+      },
+      {
+        source: "/services/reputation-management",
+        destination: "/services",
+        permanent: true,
+      },
+      {
+        source: "/services/ppc/pay-per-click-vs-seo",
+        destination: "/resources/rehab-ppc-vs-seo",
+        permanent: true,
+      },
+      {
+        source:
+          "/services/ppc/best-practices-and-top-tips-on-creating-effective-ppc-ad-copies",
+        destination: "/resources/google-ads",
+        permanent: true,
+      },
+      {
+        source:
+          "/services/search-engine-optimization/large-language-model-optimization-llmo-ai-optimization-aio",
+        destination:
+          "/resources/guides/ai-discovery-optimization-what-replaces-traditional-seo",
+        permanent: true,
+      },
+      {
+        source: "/services/search-engine-optimization/youtube-video-seo-services",
+        destination: "/services/youtube-ads",
+        permanent: true,
+      },
+      // The old SEO service hub and any remaining children.
+      {
+        source: "/services/search-engine-optimization/:slug*",
+        destination: "/services/local-seo",
+        permanent: true,
+      },
     ];
   },
 };

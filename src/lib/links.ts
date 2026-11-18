@@ -191,6 +191,19 @@ const VALID = new Set<string>([
   "/resources/local-seo-for-rehab-centers",
   "/resources/treatment-center-marketing-guide",
   "/resources/healthcare-marketing-analytics",
+  "/services/addiction-treatment-website-design",
+  "/services/healthcare-conversion-rate-optimization",
+  "/services/mental-health-website-design",
+  "/resources/hipaa-compliant-web-forms",
+  "/resources/hipaa-compliant-marketing-automation",
+  "/resources/google-ads-for-therapists",
+  "/resources/local-seo-for-therapists",
+  "/services/therapist-website-design",
+  "/services/therapist-seo",
+  "/services/hospital-ppc",
+  "/resources/multi-location-marketing-best-practices",
+  "/resources/choose-healthcare-ppc-agency",
+  "/resources/rehab-marketing-budget",
 ]);
 
 const REMAP: Record<string, string> = {

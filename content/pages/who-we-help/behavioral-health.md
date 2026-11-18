@@ -1,114 +1,92 @@
 ---
-title: "Behavioral Health Marketing Services | Marketing Powered"
+title: "Behavioral Health Marketing Agency | Admissions Growth"
 url: "/who-we-help/behavioral-health/"
-primary_keyword: "behavioral health marketing"
-secondary_keywords: "addiction treatment marketing, treatment center marketing"
-target_word_count: "1000-2000"
+primary_keyword: "behavioral health marketing agency"
+secondary_keywords: "behavioral health digital marketing, behavioral health marketing services, behavioral health marketing agency"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /who-we-help/behavioral-health/ with primary keyword 'behavioral health marketing' and secondary keywords 'addiction treatment marketing' and 'treatment center marketing'. Word count target is 1000-2000 words. Page type: vertical hub page (child program pages render as cards). Buyer target: CEO, COO, CMO, or VP of Business Development at a behavioral health or addiction treatment organization evaluating marketing partners. Revised November 6, 2026 against the Homepage Copy and Implementation Package (source audit W15; supporting-page scope 'Behavioral health specialty'). Founder history is distinguished from agency evidence, platform language is aligned with approved practices, and unsupported numerical claims are removed.
-Page type: Vertical Hub Page
-Buyer target: CEO, COO, CMO, or VP of Business Development at a behavioral health treatment organization
-Word count target: 1000-2000 words
-
-
 SEO METADATA
-Title tag (56 chars): Behavioral Health Marketing Services | Marketing Powered
-Meta description (146 chars): Behavioral health marketing grounded in operator experience: admissions, intake, acquisition economics, and campaigns built within platform policies.
-H1: Behavioral Health Marketing Grounded in Operator Experience
-Hero image alt: Decorative (empty alt)
+Title tag: Behavioral Health Marketing Agency | Admissions Growth
+Meta description: Behavioral health marketing agency focused on qualified inquiries, intake performance, and admissions economics by program and location.
+H1: Behavioral Health Marketing Agency | Admissions Growth
+Hero image alt: Healthcare executives and admissions leaders discussing facility capacity and inquiry trends in a modern office.
 
 
 PAGE COPY
 
+Behavioral Health Marketing Agency | Admissions Growth
+I will check current Google Ads, LegitScript, and privacy sources before writing the page, then draft the landing in one pass.Meta title: Behavioral Health Marketing Agency | Admissions Growth
+[CTA] Request an acquisition audit → /get-started/request-an-audit
+Who should hire, and when
+Treatment center CEOs, COOs, CMOs, and admissions leaders hire a behavioral health marketing agency when inquiry volume no longer explains which programs can grow. Marketing Powered connects paid demand, intake performance, and admissions economics at the program and location level. The useful question is which pathway can take another appropriate admission or kept appointment, not whether last month produced more form fills.
+The buying meeting is usually small and specific. A CEO wants to know whether acquisition spend supports viable growth. A COO wants demand matched to staffed capacity at each site. A CMO wants channels, pages, and reporting to describe the same system. An admissions leader wants inquiries that match an agreed definition, with a handoff the team can act on the same day.
+That meeting breaks down in a few recognizable situations. Inquiry volume is up, and admission outcomes are unclear. Marketing and admissions use different definitions of a good call. A blended report hides a full outpatient schedule next to a residential campus with open, staffed beds. A new location needs a plan tied to actual capacity, not to last year's brand campaign. Leadership cannot tell a demand problem from an intake problem or a measurement problem. These are evaluation scenarios, not a diagnosis of every organization.
+The founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations, and managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. That history belongs to the founder’s prior operating role. It is not an agency client result, and it is not a claim that marketing alone produced the network’s expansion. It is the reason this page starts with site-level decisions rather than with a channel menu.
+The same operating questions show up in hospitals and other regulated organizations described on [who we help](/who-we-help). This page is the destination for treatment organizations evaluating an agency relationship.
+Judge the agency on operating decisions
+A behavioral health marketing agency should be hired for the decisions it can support, not for a promise of cheaper inquiries. The unit of accountability is the program-location acquisition pathway. A lead, detached from program, location, and what happened after the call, cannot tell a CEO where to put the next dollar.
+Six decisions sit on that pathway.
+* Identify which program and which location the inquiry concerns.
+* Apply an agreed, nonclinical definition of qualification.
+* Track contact, and the assessment or scheduling milestone the pathway actually uses.
+* Keep scheduled appointments, attended appointments, and admissions as separate events.
+* Read acquisition cost next to capacity, conversion, and how complete the data is.
+* Decide whether the change belongs in targeting, messaging, landing pages, intake, or the budget.
+Marketing Powered is built to track attribution to admission, not just to the lead, where the organization authorizes the data and the definitions hold. That is an approach with dependencies. It is not a claim of complete visibility into every journey. If call outcomes, program tags, or admission status are missing, the report should show the gap. Filling the gap with an assumed conversion rate would make the meeting look cleaner and the decision worse.
+The founder is a court-certified expert witness in advertising strategy. On this page, that credential matters for one job: claim review under platform rules, not as a substitute for the organization’s clinical approval.
+What the work focuses on
+Behavioral health marketing services here are organized around the handoff, not around a fixed package. Scope follows the constraint the audit finds. There is no standard bundle, price, or delivery calendar on this page.
+Paid media work focuses on Google and Meta within current certification and sensitive-category rules, with account structure that can be read by program and location. Search and paid social are not interchangeable. A residential detox query and an outpatient therapy query can share a brand and still require different pages, phone paths, and budget controls.
+Landing page and conversion work focuses on claim accuracy, level-of-care clarity, and a next step admissions can fulfill. A page that mixes every service the organization has ever offered will generate calls the intake team has to unwind.
+Call tracking, CRM fields, and intake feedback are the measurement layer. The practical build is covered in [call tracking and intake attribution](/services/call-tracking-and-intake-attribution). The point of that work is a shared view of contact outcome, not a dashboard that stops at the click.
+Local and multi-location work focuses on the differences a blended account hides: service area, licensure, hours, capacity, and which location should receive the inquiry. Reporting focuses on the pathway decisions above, with missing data left visible.
+Broader channel context sits in the [behavioral health marketing](/resources/behavioral-health-marketing) resource. This page stays on agency selection, measurement, and the first assessment.
+Residential and outpatient are different paths
+Picture two sites on the same Tuesday. At the residential campus, an admissions coordinator is checking whether a bed is staffed for the level of care the caller needs. The commercial event is an admission the location can actually take. At the outpatient clinic, a scheduler is looking at intensive outpatient groups that are already full on the evenings people can attend. The commercial event is a scheduled assessment or a kept appointment, not a bed.
+Those settings are not one funnel with different ad copy. [SAMHSA’s description of treatment settings](https://www.samhsa.gov/find-support/learn-about-treatment/types-of-treatment) separates them in plain language. Outpatient care means an appointment and leaving the same day. That includes a standard visit and a more intensive form, intensive outpatient or partial hospitalization, which coordinates care more intensively than a standard visit and usually lasts at least a few hours. Inpatient care means staying overnight, usually when 24-hour care is needed, and is often connected to a hospital or clinic. Residential care means living at the program, commonly for a few weeks to a few months, and sometimes longer.
+Behavioral health patient acquisition has to follow that distinction. A residential pathway that is judged on kept outpatient appointments will look like a failure of marketing when the real event is an admission. An outpatient pathway judged only on admissions will hide whether the clinic is filling the groups it can staff. Telehealth, opioid treatment programs, and co-occurring mental health services add further splits. Each one needs its own destination, qualification rule, and capacity note.
+Mental health and substance use disorder marketing can share a brand system. They should not share a single success definition. A new partial hospitalization program with open clinical hours is a different investment case from a residential site that cannot add a night shift. The media plan should be able to say which of those facts it is responding to.
+From qualified inquiry to admission
+Qualified admissions are a reporting outcome, not a label applied in the ad platform. The early indicator is a qualified call or form inquiry: the person is asking about a service the location offers, the inquiry is tagged to that program and site, and the contact matches the definition admissions and marketing wrote down together. That definition should stay nonclinical. Marketing does not decide clinical appropriateness. It records whether the inquiry fit the agreed screen, and what happened next.
+After that screen, the milestones diverge. Some pathways need a scheduled assessment. Some need an attended appointment. Residential and inpatient pathways need an admission status the organization is willing to report back. Acquisition cost is then read beside those events, beside open capacity, and beside the share of inquiries with no outcome recorded.
+Denominator choice changes the story. Cost per inquiry falls when unqualified calls rise. Cost per qualified call rises when the definition gets stricter, which can be the correct trade if admissions yield improves. Cost per admission is unreadable when half the calls have a blank disposition. None of these figures should be averaged across a residential campus and an outpatient clinic and then treated as one number.
+Platform conversions are a weak stand-in for this chain. They can show that a click or a call started. They cannot, by themselves, show that the right location was requested, that someone qualified the inquiry, or that an admission occurred. Joined-up reporting requires authorized access, stable field definitions, and enough recorded outcomes to compare programs. Where that access is absent, the honest report is a coverage report.
+* Did the right program and site get the inquiry?. Count it as: Program and location tag. Do not treat it as: A brand-level lead.
+* Did it meet the shared screen?. Count it as: Qualified inquiry. Do not treat it as: A clinical determination.
+* Did someone reach the person?. Count it as: Contact outcome. Do not treat it as: Proof of demand quality.
+* Did the pathway move?. Count it as: Scheduled, attended, or admitted, kept separate. Do not treat it as: One blended “conversion”.
+* Can leadership invest more?. Count it as: Cost next to capacity and missing-data rate. Do not treat it as: A lower cost per lead alone.
+That table is a measurement frame, not a sample of results. No rates belong in it until the organization’s own data is connected.
+Policy limits shape what can run
+Google restricts promotion of recovery-oriented drug and alcohol addiction services. Advertisers may promote those services in certain locations only if they are certified by Google. Promotion of services unrelated to drug and alcohol addiction, including impulse control disorders, behavioral addiction, and nicotine addiction, sits outside that specific restriction. [Google Ads policy](https://support.google.com/adspolicy/answer/176031?hl=en)
+In the United States, the limitation is concrete. To advertise recovery-oriented drug and alcohol addiction services, the advertiser must be certified as an addiction services provider by the LegitScript certification program. Not every drug and alcohol addiction service is eligible. Services that are not eligible are not allowed to advertise those services on Google. Advertisers must also be certified with Google. For many healthcare policies, a properly certified domain targeting allowed locations is labeled Eligible (limited) and can run in those locations. [Google Ads policy](https://support.google.com/adspolicy/answer/176031?hl=en)
+Separate rules cover prescription-drug terms and opioid references. Google does not allow ads promoting or selling prescription opioid painkillers. That exclusion does not cover medication-assisted treatment drugs for opioid use disorder when they meet the other prescription-drug requirements on the policy. Certified addiction treatment providers in the United States are one of the limited cases permitted to refer to opioids. Creative for medication-assisted treatment should be checked against the current policy before it is submitted, not adapted from a general mental health ad. [Google Ads policy](https://support.google.com/adspolicy/answer/176031?hl=en)
+Meta’s rule for this category is also specific. Advertisers who want to run drug and alcohol addiction treatment ads targeting people in the United States must be certified with LegitScript and must apply to Meta for written permission. [transparency.meta.com](https://transparency.meta.com/policies/ad-standards/restricted-goods-services/drug-alcohol-addiction-treatment/) Certification status is the organization’s to maintain. Platform approval remains a separate review.
+Personalized advertising adds a targeting limit that is easy to miss after certification is in place. Google treats counseling for mental health issues such as depression, anxiety, and addiction as a sensitive interest category. Advertiser-curated audiences cannot be used for that category, including Customer Match, an advertiser’s own data segments, audience expansion, and lookalike segments. Predefined Google audiences can be used, because Google excludes sensitive user signals from them. [Google Ads policy](https://support.google.com/adspolicy/answer/16701855?hl=en) Marketing Powered is LegitScript-aware and HIPAA-aware, and is built for that sensitive healthcare vertical, where this kind of retargeting is not permitted. Prospecting, geography, and query intent have to do the work that remarketing lists do in less restricted categories.
+Privacy rules sit beside platform rules. The HIPAA Privacy Rule requires an individual’s authorization before a covered entity uses or discloses protected health information for marketing communications, except for a face-to-face communication or a promotional gift of nominal value. If a third party provides remuneration, the authorization must state that. [HHS guidance](https://www.hhs.gov/hipaa/for-professionals/faq/when-is-patient-authorization-required-for-marketing/index.html) An agency workflow does not replace that authorization, and HIPAA-aware operations are not a certification claim.
+The approval path we use is a split of responsibility. Marketing drafts targeting, pages, and claims. A designated clinical or compliance reviewer approves what the organization is licensed and willing to say in public. Admissions owns the qualification definition used in reporting. That is the proposed working model for an engagement. It is not a statement that every treatment organization already runs the same review.
+Where analysis of sensitive operational material is appropriate, Marketing Powered can use owned, local AI infrastructure for HIPAA-aware inference. The firm has been AI-native since 2022. Local inference is a control option for some workloads. It does not mean every campaign runs on local models, that all data stays on agency hardware, or that hardware ownership changes who owns the organization’s data.
+What the acquisition audit examines
+The acquisition audit is a bounded review of the pathway, organized across the first 30 days of authorized access. It is an assessment of where decisions are currently blocked. It is not a packaged set of deliverables, and it does not assume that ads, pages, or intake should all change.
+In practice, the review is a working session with three seats filled. A media lead opens the account structure and shows whether spend can be read by program and location. An admissions or intake lead walks through how a call is tagged, how a missed contact is recorded, and which fields actually get used on a busy shift. A compliance reviewer reads live ads and landing pages against licensure, certification status, and the claims the organization will stand behind. The artifacts on the table are account views, a field list, a claim log, and a capacity note. They are not patient records, and they should not need to be.
+The audit looks at seven questions.
+* Which programs and locations are being advertised, and which are only implied?
+* Is LegitScript certification, Google certification, and any required Meta permission in place for the drug and alcohol services being promoted?
+* Do landing pages name the level of care, the location, and a next step intake can fulfill?
+* Can a qualified inquiry be distinguished from an unqualified one with a definition both teams accept?
+* What share of inquiries has a contact outcome, a scheduling milestone, and an admission or attended-appointment status?
+* Where is capacity the constraint, and where is demand or speed-to-contact the constraint?
+* Which disputes are about the channel, and which are about missing fields?
+Access requirements follow those questions: ad accounts, the site, call tracking, and the CRM or intake fields that record program, location, contact outcome, and admission or appointment status. Without that access, the audit can still describe public claims and account structure. It cannot describe admissions yield. The output is a prioritized set of decisions: what to change in targeting or pages, what to fix in intake feedback, and what not to scale until certification, capacity, or data coverage is in place.
 
-Behavioral Health Marketing Grounded in Operator Experience
-Marketing Powered brings operator experience to behavioral health marketing and addiction treatment marketing. We focus on admissions, intake, acquisition economics, and the constraints surrounding sensitive services. Explore our program pages below, or read on for how we work.
-[CTA] Request a Free Audit
-
-
-Why Behavioral Health Marketing Needs Specialized Judgment
-Behavioral health marketing operates under constraints most agencies rarely encounter. Google and Meta classify addiction treatment and related services as sensitive health categories with specific advertising policies. Families searching for help are often in crisis. Intake teams have limited capacity, and admissions depend on clinical fit and benefits, not on call volume.
-Those constraints change what good marketing looks like. Volume without qualification overwhelms intake. Messaging that overpromises creates clinical and reputational risk. Reporting that stops at the lead hides whether the budget produced admissions.
-Our approach starts from the operation: how inquiries are handled, what intake can absorb, which programs have capacity, and what a qualified admission is worth. The campaigns follow from those answers.
-Experience From Inside a Treatment Operator
-Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend.
-That role included the problems operators face today: lead quality, intake conversion, benefits verification bottlenecks, and attribution that has to connect spend to admissions rather than to form fills. Marketing decisions had to account for census, capacity, and market differences.
-That is prior executive experience, not agency client work. It informs how we plan and what we measure. It is not a substitute for an approved agency case, and we do not present it as one.
-Admissions, Intake, and Acquisition Economics
-### Qualified demand over call volume
-We plan campaigns around the inquiries intake can convert, not the largest possible number of calls. Service line, level of care, geography, and benefits mix shape targeting and messaging. When intake capacity changes, pacing changes with it.
-### Conversion value per cost
-Our [paid media](/services/paid-media) work evaluates conversion value per cost, where higher is better, alongside lead quality and available capacity. A low cost per call means little if those calls do not become admissions.
-### Measurement past the inquiry
-[Intake attribution](/services/call-tracking-and-intake-attribution) connects call tracking and CRM records to what happens after the first contact: benefits verification, assessment, and admission, where the available data supports it. Our [analytics and attribution](/services/analytics-and-attribution) work defines conversions consistently so programs and locations can be compared.
-### Multi-location operators
-Organizations with several facilities need shared standards and local relevance at the same time. We design [multi-location marketing](/problems/scale-multi-location-campaigns) so leadership can compare performance across sites without forcing every program into the same campaign.
-Content Sensitivity and Approved Platform Practices
-### Writing for people in crisis
-Content on treatment pages has to be plain, accurate, and useful to a family deciding what to do next. We describe programs, levels of care, admissions steps, and what to expect. We do not make outcome or recovery claims, and we avoid urgency tactics that exploit a hard moment.
-### Campaigns built within platform policies
-[Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) and [Meta's advertising standards](https://www.facebook.com/policies/ads/) define what can be advertised, to whom, and how. We build campaigns within those policies from the start, including the restrictions on remarketing in sensitive health categories, which we do not use. We monitor policy changes and adjust campaigns before disapprovals affect delivery.
-Certification programs that advertising platforms require for some treatment advertisers are the advertiser's to hold. We help clients understand the requirements and structure campaigns to fit them. We do not claim certification on a client's behalf, and we do not promise that any campaign is immune from review.
-### Data handling
-Form submissions, call recordings, and CRM records can contain sensitive information. We define what is collected, where it is stored, who can access it, and which outside services are involved before tracking goes live. Our [data sovereignty](/ai-edge/data-sovereignty) page describes the operating model. Clients retain ownership of their data.
-[CTA] Request a Free Audit
-Evidence and How to Read It
-Evidence on this site is labeled by what it represents. Founder history is labeled as prior executive experience, with the role and period stated. Agency results are published only where an approved case record exists: the client or an approved anonymous descriptor, engagement dates, baseline, metric definition, comparison period, scope, and limitations.
-Approved agency cases will appear on our [case studies](/results/case-studies) page as those records are completed. Until then, evaluate what you read here against that standard, and ask us what sits behind any number.
-Mental Health Providers
-Outpatient clinics, therapy groups, psychiatric practices, and telehealth programs share some of these constraints and differ in others: longer decision cycles, different benefits patterns, and more competition from national platforms. Our [mental health marketing](/who-we-help/mental-health) page covers that work.
-Specialty Depth Within a Broader Operating Model
-Behavioral health is one of the [industries we serve](/#industries). The same operating disciplines apply to hospitals, health systems, and other multi-location organizations. Specialty depth is why operators choose us. The operating model is why the work holds up as an organization grows.
-Start With Your Admissions Funnel
-Request an audit of your current marketing. We will review acquisition, intake handling, and measurement, and tell you where the gaps between investment and admissions are.
-[CTA] Request a Free Audit
 FAQ
-Q: What makes behavioral health marketing different from other healthcare marketing?
-A: Advertising platforms apply specific policies to addiction treatment and related services, families often search during a crisis, and admissions depend on clinical fit, benefits, and intake capacity. Effective marketing plans around those realities: qualified demand over volume, plain and accurate content, campaigns built within platform policies, and measurement that follows an inquiry through intake.
-Q: How does Marketing Powered measure results for treatment centers?
-A: We connect call tracking, form submissions, and CRM records to what happens after the inquiry, where the available data supports it. Reporting covers spend, acquisition quality, conversion, and the next decisions, and it distinguishes measured outcomes from estimates. The working metric is conversion value per cost, not cost per call.
-Q: Does Marketing Powered use remarketing for treatment centers?
-A: No. Google and Meta restrict remarketing in sensitive health categories, and we build campaigns within those policies. Acquisition relies on search intent, appropriate placement choices, and landing pages that convert, not on following people around the web.
-Q: Is the founder's experience an agency case study?
-A: No. Our founder's work as CMO of a multi-state behavioral health operator is prior executive experience. It shapes how we work, but it is not agency client work. Agency cases are published on our case studies page only when an approved record exists.
-Q: Which behavioral health programs does Marketing Powered work with?
-A: Residential treatment, detox, substance use disorder programs, dual diagnosis, adolescent treatment, and IOP and PHP programs, along with mental health providers. Each program page describes the admissions and marketing considerations specific to that level of care.
-SCHEMA RECOMMENDATION
-Schema type: Service + BreadcrumbList
-* Service: name "Behavioral Health Marketing", provider Marketing Powered (the site-wide Organization entity), serviceType "Healthcare Marketing", areaServed United States, description matching the meta description.
-* BreadcrumbList is rendered by the Breadcrumbs component: Home > Who We Help > Behavioral Health.
-* No FAQPage markup and no certification, award, or rating properties.
-
-
-DELIVERY NOTES
-Revision basis
-* Homepage Copy and Implementation Package, November 6, 2026: source audit W15 and the 'Behavioral health specialty' scope (admissions, intake, acquisition economics, content sensitivity, approved platform practices; no healthcare audience-following promise; publish only approved case results). Claims register C01 to C05 and C16.
-
-
-Claims removed from the previous version
-* The agency-wide spend total, and the monthly spend figure framed as current agency spend across client accounts. The monthly figure now appears only as founder responsibility during his prior tenure.
-* The "Case Studies: Success Stories" section, the multi-location expansion framed as an agency case, and the "multi-account portfolio" wording.
-* The credential wording and the technology-first descriptor with its year.
-* Certification-body language presented as a Marketing Powered credential, "accounts suspended" assurance wording, and HIPAA assurance wording.
-* Audience-following tactics; the copy now states that remarketing is restricted in sensitive categories and not used.
-* "Book a Discovery Call" CTAs, replaced with the site-wide audit request.
-
-
-External citations
-* Kept: Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy]; Meta advertising standards https://www.facebook.com/policies/ads/ [Platform policy].
-* Removed: SAMHSA helpline page, certification-body page, and the third-party CPC benchmark citation (no longer supported by the copy).
-
-
-Approvals pending
-* Founder figures C01 to C05 need Mike's final sign-off on wording.
-* Any agency case for this specialty requires an approved case record (C16) before it is published on the case studies page or referenced here.
-
-
-Internal links
-* /#industries, /services/paid-media, /services/call-tracking-and-intake-attribution, /services/analytics-and-attribution, /problems/scale-multi-location-campaigns, /ai-edge/data-sovereignty, /who-we-help/mental-health, /results/case-studies. Child program cards (residential, substance use disorder, adolescent, dual diagnosis, detox, IOP/PHP) render automatically from the hub registry.
-
-
-Image note
-* The previous hero, concept, process, and results graphics were removed from the page's image set: they carried the spend total, a revenue figure, a violations-count claim, a certification badge, a "growth case study" label, and treatment-center-only framing. The hero is now decorative photography with empty alt text.
+Q: What should a behavioral health agency measure beyond leads?
+A: Measure the pathway. Start with whether the inquiry names the program and location, then apply the shared nonclinical qualification screen. Record the contact outcome. Record the milestone that pathway uses: a scheduled assessment, an attended appointment, or an admission. Put acquisition cost next to capacity and next to the share of records with no outcome. A lead total, or a cost per lead, does not answer whether the site can grow.
+Q: How should a behavioral health marketing agency be measured against qualified calls or admissions?
+A: Use both, and do not collapse them. Qualified calls are an early operating indicator when admissions and marketing share the definition and the contact result is logged. Admissions, or attended appointments on outpatient pathways, are the events leadership uses to judge investment. Judge the agency on whether those events are visible by program and location, whether missing outcomes stay visible, and whether the next change is aimed at the actual constraint. Do not judge it on a single ratio that hides blank dispositions.
+Q: When is hiring an agency the wrong next step?
+A: When the binding constraint is licensure, staffing, or a full census, more media will not create usable capacity. When drug and alcohol services are being promoted without the certifications Google or Meta currently require, the next step is certification, not a new campaign. When marketing and admissions cannot agree on a qualified inquiry, the first job is the definition. An agency is the right conversation when those foundations exist, or when the organization wants them built into the measurement system before spend is scaled.
+Q: What access does the audit require?
+A: Read access to ad accounts, analytics, the website, call tracking, and the intake fields that store program, location, contact outcome, and admission or appointment status. It also needs a compliance contact for claim review and a current view of capacity by site. Ad-platform conversion columns alone are not enough to reconstruct admissions.
+Q: How do clinical and compliance reviewers stay in the path?
+A: They approve public claims before launch and when offers, locations, or levels of care change. Marketing does not substitute a clinical judgment for that review. Admissions owns the qualification screen used in reporting so the weekly meeting is not a debate about definitions. The split is how the engagement is run. It does not assume the organization already has a formal committee. If the decision in front of the leadership team is which program and location can take the next appropriate admission, start with that review. [Request an acquisition audit](/get-started/request-an-audit)

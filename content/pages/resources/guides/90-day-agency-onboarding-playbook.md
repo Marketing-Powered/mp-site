@@ -1,129 +1,102 @@
 ---
-title: "Streamline Marketing Agency Onboarding in 90 Days"
+title: "90-Day Agency Onboarding for Treatment Centers"
 url: "/resources/guides/90-day-agency-onboarding-playbook/"
-primary_keyword: "marketing agency onboarding"
+primary_keyword: "90 day agency onboarding"
+secondary_keywords: "treatment center agency onboarding, marketing agency transition checklist"
+author: "mike-hulick"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /resources/guides/90-day-agency-onboarding-playbook/ with primary keyword 'marketing agency onboarding' and secondary keywords including agency transition plan, marketing agency handoff, agency switch playbook, and marketing agency setup. Word count target is 1200-1800 words. Page type: Cornerstone guide (resources). Buyer target: Treatment center executives (CEO, COO, VP of Business Development) evaluating or executing an agency transition.
-Page type: Cornerstone Guide
-Buyer target: CEO, COO, or VP of Business Development at behavioral health or mental health treatment centers evaluating or executing a marketing agency transition
-Word count target: 1200-1800 words
-
-
 SEO METADATA
-Title tag (49 chars): Streamline Marketing Agency Onboarding in 90 Days
-Meta description (75 chars): Access a proven 90-day plan to smooth marketing agency transitions and setup.
-H1: 90-Day Guide to Marketing Agency Onboarding
-Hero image alt: Timeline visualization showing the three phases of a 90-day marketing agency onboarding process for treatment centers
+Title tag: 90-Day Agency Onboarding for Treatment Centers
+Meta description: A structured 90-day agency onboarding framework for behavioral health operators to align media spend, call routing, CRM tracking, and admissions.
+H1: 90-Day Marketing Agency Onboarding for Treatment Centers
+Hero image alt: A treatment center director and admissions leader reviewing intake workflows on a laptop in an administrative conference room.
 
 
 PAGE COPY
 
-
-90-Day Guide to Marketing Agency Onboarding
-A structured playbook for treatment center operators switching agencies without losing momentum.
-[CTA] Book Your Discovery Call
-
-
-Why a Streamlined Onboarding Is Crucial
-Switching marketing agencies is one of the highest-stakes decisions a treatment center operator makes. Get it wrong, and you lose months of momentum while your cost per admission climbs and your intake team sits idle. Get it right, and you can compress what typically takes six months of trial and error into a focused 90-day sprint that preserves lead flow while building toward better performance.
-The risk is not abstract. Treatment centers that experience a poorly managed marketing agency onboarding often see a 30 to 60 percent drop in qualified admissions calls during the transition window. That gap represents real revenue loss and, more importantly, real people who needed help and did not find your facility.
-A structured [agency transition plan](/who-we-help/mental-health/) eliminates the chaos that comes from ad-hoc handoffs. It establishes clear ownership of every asset, every tracking pixel, every conversion action, and every compliance requirement from day one. It also forces the incoming agency to demonstrate competence before they control your entire budget.
-For behavioral health and mental health operators specifically, the stakes include compliance exposure. An agency unfamiliar with [LegitScript certification requirements](https://www.legitscript.com/certification/) or Google's sensitive vertical restrictions can get your ads suspended within weeks. The onboarding process is where you verify that your new partner understands these constraints before they become expensive problems.
-The 90-Day Transition Plan: Step-by-Step
-A disciplined marketing agency onboarding follows three distinct phases, each with specific deliverables and decision points. Rushing any phase creates gaps that compound over the following months.
-Days 1-30: Discovery and asset transfer
-The first month is about information capture and system access. Your new agency should request complete access to historical campaign data, conversion tracking, CRM integrations, and call recording platforms. They should also audit your current [90-day plan](/services/paid-media/) performance against industry benchmarks.
-During this phase, expect the new agency to document every active campaign, identify tracking gaps, and flag compliance issues in existing creative or targeting. A competent partner will present a transition risk assessment by day 21, outlining what needs to change immediately versus what can wait for optimization.
-* Complete Google Ads, Meta, and analytics access transfer with conversion history preserved
-* CRM and intake tracking integration audit
-* LegitScript and sensitive vertical compliance review of all active ads
-* Baseline performance documentation (cost per lead, cost per admission, call volume)
-Days 31-60: Parallel operation and testing
-The second month is where most agency transitions fail. Operators get impatient and want to see new creative, new landing pages, and new strategies immediately. Resist that impulse.
-A responsible agency switch playbook keeps proven campaigns running while testing new approaches in parallel. Your incoming partner should allocate 70 to 80 percent of budget to maintaining existing performance and 20 to 30 percent to controlled tests. This protects your lead flow while building data on what improvements are actually possible.
-By day 45, the new agency should have launched at least two to three test campaigns with measurable hypotheses. By day 60, they should present initial results and a recommended scaling plan based on real data from your account, not projections borrowed from other clients.
-Days 61-90: Optimization and full transition
-The final phase is where the new agency takes full ownership. Underperforming legacy campaigns are paused or restructured. Winning test campaigns are scaled. Attribution tracking is validated against actual admissions data.
-By day 90, you should have a clear performance baseline under the new agency's management, documented processes for ongoing optimization, and a quarterly planning cadence established. The agency should also present a 90-day forward plan with specific KPI targets tied to your admission goals.
-[CTA] Book Your Discovery Call
-Common Pitfalls and How to Avoid Them
-Most agency transitions go sideways for predictable reasons. Understanding these patterns helps you avoid them.
-* Incomplete asset transfer: The previous agency controls domain registrations, tracking pixels, or creative files and becomes unresponsive. Solution: Audit ownership of every asset before signing with a new partner and negotiate transfer timelines in your exit agreement.
-* Compliance blind spots: The new agency launches campaigns that violate [Google's healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) or Meta's restrictions on health-related targeting. Solution: Require a compliance audit as a gated deliverable before any new campaigns launch.
-* Attribution gaps: Conversion tracking breaks during the transition, leaving you blind to which campaigns are actually driving admissions. Solution: Validate tracking on day one and again on day 30 before any significant budget shifts.
-* Impatient optimization: Operators demand immediate changes, and the new agency makes sweeping adjustments without baseline data. Solution: Commit to the 90-day timeline in writing and resist the urge to accelerate.
-Ensuring a Smooth Agency Handoff
-The [marketing agency handoff](/get-started/book-a-call/) is the single highest-risk moment in any transition. Poor handoffs lose institutional knowledge, break tracking, and create gaps that take months to diagnose.
-Effective handoffs require documentation that exists outside any single person's head. Your outgoing agency should provide a complete campaign history document, including what was tested, what failed, and why certain approaches were abandoned. Your incoming agency should conduct a formal intake review of this documentation before accepting budget responsibility.
-Communication protocols matter as much as documentation. Establish a weekly transition call between both agencies and your internal team for the first 30 days. These calls surface issues early, before they become performance problems. After day 30, shift to biweekly calls until full transition is complete.
-For treatment centers, handoff documentation must include compliance history. Which ads were flagged or rejected? What targeting restrictions apply? What language has been pre-approved by LegitScript? This institutional knowledge is often the most valuable and the most likely to be lost in a sloppy transition.
-Setting Up for Long-Term Success
-A successful marketing agency setup extends beyond the 90-day window. The onboarding process should establish frameworks that support [long-term success](/who-we-help/behavioral-health/) and adaptability as your treatment center grows.
-[Structured onboarding](/services/web-development/) creates documented processes for campaign management, reporting cadence, and escalation paths. These processes become the foundation for scaling from three locations to 24, or from $50K monthly ad spend to $500K.
-Consider [future-proofing](/ai-edge/) as part of your onboarding criteria. An agency built on manual processes will hit capacity constraints as you scale. An agency with AI-native infrastructure can absorb growth without proportional increases in management overhead or response time.
-The best indicator of long-term fit is how the agency handles the onboarding itself. Partners who rush the process, skip documentation, or resist structure during onboarding will demonstrate those same patterns when managing your campaigns. The 90-day window is an audition. Pay attention to what it reveals.
-Ready to Start Your 90-Day Transition?
-A structured marketing agency onboarding protects your lead flow, preserves institutional knowledge, and compresses the typical agency transition from months of uncertainty into a focused 90-day sprint with clear milestones.
-The playbook outlined here reflects how we approach every new treatment center relationship at Marketing Powered. We have managed over $50M in behavioral health and mental health media spend, scaled facilities from three to 24 locations, and maintained attribution discipline through every transition.
-If you are considering an agency switch or want to evaluate whether your current partner is performing at the level your facility requires, the next step is a conversation. We will review your current setup, identify the highest-impact opportunities, and outline what a structured transition would look like for your specific situation.
-[CTA] Book Your Discovery Call
-
+90-Day Marketing Agency Onboarding for Treatment Centers
+A structured 90 day agency onboarding process is an operational framework that transitions digital media management, compliance protocols, and data infrastructure from an internal team or prior vendor to an accountability partner. In behavioral healthcare and addiction treatment, this 90-day sequence establishes account ownership, deploys compliant call-tracking architecture, aligns intake workflows, and integrates marketing attribution with admission outcomes. Executed correctly, it eliminates campaign downtime, prevents regulatory compliance penalties, and establishes verified admissions accountability across every paid and organic channel.
+[CTA] Request a download template or request audit → /get-started/request-an-audit
+Why Month Three Fails: The Broken Treatment Center Agency Transition
+Treatment centers frequently churn digital marketing agencies between months three and six because typical handoffs prioritize surface metrics over census economics. A standard digital marketing firm celebrates impressions, click-through rates, and low cost-per-click averages while the admissions board shows empty residential beds. When an agency onboard is treated as a casual exchange of account logins and an introductory strategy call, the facility absorbs weeks of unvetted campaign tests while admissions coordinators field out-of-network or clinically inappropriate inquiries.
+This operational breakdown stems from a structural misalignment between advertising agency incentives and behavioral health facility overhead. Generalist agencies often treat substance use disorder and mental health programs like conventional e-commerce or local service businesses. They deploy broad-match keywords, launch unsegmented lead generation forms, and measure success by raw lead volume. For an addiction treatment center operating on intensive outpatient, partial hospitalization, or residential clinical models, an influx of unqualified calls does not drive growth. It creates an intake bottleneck that burns out admissions staff and prevents legitimate patients from receiving timely verification of benefits.
+A second failure point during vendor transitions is the unvetted "rip and replace" strategy. Incoming vendors frequently discard historical Google Ads campaigns, historical conversion data, and negative keyword lists built over years of media management. Wiping this operational history forces the advertising account back into a learning phase, driving up acquisition costs and exposing the facility to non-compliant search queries.
+A rigorous onboarding sequence eliminates this volatility. It treats onboarding not as a creative review, but as a systems integration between media management, specialized platform compliance, call-center routing, and electronic health record or customer relationship management pipeline milestones. Establishing clear operational boundaries from day one ensures that marketing investments produce verified census outcomes rather than unworkable contact lists. For treatment center leadership evaluating vendors, review our strategic analysis on [behavioral health acquisition systems](/who-we-help/behavioral-health).
+Days 1 to 30: Technical Infrastructure, Asset Audits, and Compliance Baselines
+The first thirty days of an agency onboarding engagement establish security, administrative control, and regulatory compliance before scaling advertising spend. The operational priority is simple: the treatment center must retain unconditional ownership of every digital asset, ad platform account, analytics container, and domain profile. Agencies should operate strictly under delegated administrative access. When a marketing agency creates advertising accounts within its own internal business manager, the healthcare provider loses historical data, campaign performance records, and structural continuity if the vendor relationship ends.
+Compliance requirements in behavioral healthcare require strict operational baselines. Digital advertising for addiction treatment services is tightly controlled across major ad networks to protect patients from predatory marketing practices. Before launching or restructuring paid campaigns, the incoming agency must audit and verify the status of the facility's [LegitScript Certification](https://www.legitscript.com/certification/addiction-treatment-certification/). LegitScript audits facility licensing, clinical credentials, physical premises, and website disclosures. Operating without this certification immediately suspends campaigns on both Google and Meta ad platforms.
+Simultaneously, the technical audit must review campaign settings against platform policies governing sensitive healthcare categories. Marketing teams must enforce adherence to [Google Ads Healthcare and Medicines Policy](https://support.google.com/adspolicy/answer/176031), ensuring that clinical terminology, levels of care, and geographical targeting comply with platform rules. Crucially, the account architecture must strictly respect [Google Ads Personalized Advertising Guidance](https://support.google.com/adspolicy/answer/143465). These rules explicitly prohibit remarketing lists, customer match audiences, and interest-based profiling for addiction treatment and clinical mental health conditions. Agencies that attempt to run retargeting campaigns using site-visitor lists or historical patient email lists risk immediate account suspension.
+The thirty-day audit must also address data privacy governance across all web properties. Following the published [HHS Guidance on Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html), covered entities cannot use tracking technologies that disclose protected health information to third-party marketing vendors without individual authorization or a valid business associate agreement. Standard third-party analytics pixels, unmanaged Meta pixels, and client-side tracking scripts deployed across intake funnels, appointment request forms, or patient portals present compliance liabilities. During this initial phase, the agency must strip non-compliant client-side marketing trackers and implement secure server-side tracking environments that filter out sensitive personal identifiers before data reaches analytics platforms.
+Completing this thirty-day baseline provides the operational security necessary to transition live media spend without risking compliance interventions or sudden traffic drops.
+Days 31 to 60: Call Routing, Intake Alignment, and Attribution Modeling
+Once technical assets are secured and verified against platform policies, the onboarding process focuses on the admissions pipeline. Digital acquisition in behavioral healthcare differs from other industries because transactions do not happen in an online shopping cart. Inquiries occur through phone calls, confidential chat widgets, and digital intake forms, often during moments of acute family crisis. If dynamic call routing and intake data pipelines are disconnected from media management, ad spend cannot be optimized against census growth.
+Dynamic Number Insertion (DNI) must be deployed across all website pages and landing environments. DNI pools dynamically assign unique phone numbers to individual site visitors, linking incoming phone calls directly to the specific campaign, ad group, and search keyword that generated the inquiry. However, call-tracking systems in healthcare require strict data protections. Audio call recordings, digital caller ID logs, and transcriptions can capture protected health information. The incoming agency must configure the call tracking platform to sign a formal Business Associate Agreement, encrypt data at rest, and prevent sensitive caller health notes from being passed to unencrypted platforms.
+Connecting intake operations to advertising attribution represents the core work of months two and three. Admissions coordinators operate under intense operational pressure, answering crisis calls, executing initial clinical assessments, and processing insurance verification of benefits (VOB). A successful onboarding sequence trains admissions teams to apply consistent intake disposition codes within the CRM. These dispositions must clearly categorize lead progression:
+* Inbound Inquiry (Unscreened caller)
+* Qualified Clinical Inquiry (Meets facility clinical criteria)
+* Financial / Insurance Match (In-network or acceptable out-of-network benefit)
+* Verification of Benefits Submitted (Active VOB process)
+* Clinical Review Complete (Intake approved by medical team)
+* Admission Scheduled (Arrival date confirmed)
+* Admitted (Patient arrives on unit)
+Attribution systems must track media dollars to an admitted patient rather than stopping at an initial lead. Generalist agencies frequently optimize campaigns for high call volume, which encourages broad, low-intent search traffic. An operator-led approach connects closed-loop CRM data back to advertising platforms via secure offline conversion imports. By feeding verified VOB completions and admissions back to the ad network without exposing personal identifiers, automated bidding models adjust to find users matching high-intent, clinically relevant profiles. Our approach to data modeling is detailed in our guide to [analytics and attribution services](/services/analytics-and-attribution).
+Days 61 to 90: Scaling Campaigns and Reconciling Census
+The final thirty days of the onboarding cycle transition the marketing account from defensive stabilization into scalable patient acquisition. With clean intake tracking, verified compliance baselines, and active call routing in place, the agency begins refining campaign structure to lower the cost per admitted patient while maintaining steady bed utilization.
+A major driver of media efficiency during this stage is the systematic expansion of negative keyword libraries. In paid search advertising for treatment centers, unmanaged search terms consume media budgets rapidly. Queries related to state-run free clinics, court-ordered community service, prison diversion programs, sovereign citizen legal disputes, and unrelated pharmaceuticals trigger generic addiction treatment ads if exact exclusions are not configured. The agency must review search term reports daily, adding hundreds of irrelevant terms to shared negative keyword lists across every campaign.
+* Days 1 to 30. Operational Workstream: Asset audits, delegated access, analytics rebuild. Platform Compliance Task: LegitScript audit, HHS tracking scrub, policy checks. Admissions Integration Goal: Intake baseline audit, initial call-handling review.
+* Days 31 to 60. Operational Workstream: DNI setup, secure telephony, CRM pipeline linking. Platform Compliance Task: Adherence to retargeting bans, server-side data hygiene. Admissions Integration Goal: Disposition training, VOB tracking, offline conversion imports.
+* Days 61 to 90. Operational Workstream: Campaign restructuring, negative keyword scrubbing. Platform Compliance Task: Daily search query audits, location radius verification. Admissions Integration Goal: Weekly census reconciliation, cost-per-admission reporting.
+Scalability also requires continuous census reconciliation meetings between the marketing agency and admissions leadership. Traditional vendor reviews focus on monthly impression reports and platform-reported conversion metrics. A healthcare marketing review must evaluate admissions economics. In weekly operations calls, the team reviews active bed capacity across residential, partial hospitalization (PHP), and intensive outpatient (IOP) tracks. If the residential wing is nearing maximum occupancy while daytime PHP chairs remain open, the agency must reallocate budget within twenty-four hours to target outpatient intent queries.
+Marketing Powered was built around this operational reality. Our founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations, managing $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. Having served as a court-certified expert witness in advertising strategy, our leadership structures acquisition systems specifically for Google's sensitive healthcare vertical, where remarketing is prohibited and tracking must link directly to an admission rather than an unverified lead.
+During days 61 to 90, the agency completes documentation on acquisition playbooks, establishes definitive cost-per-admission benchmarks by level of care, and integrates owned, local AI infrastructure for HIPAA-aware inference, enabling secure operational data processing without exposing intake data to external cloud networks.
+The Complete Treatment Center Agency Transition Checklist
+When replacing an incumbent agency or transitioning from an internal team, operators must run an explicit sequence to maintain lead flow and preserve historical campaign performance. Use this comprehensive transition checklist across every operational department:
+### 1. Administrative Asset Ownership and Security Audit
+* Confirm the facility owns the primary Google Ads MCC account, Google Analytics 4 property, and Google Tag Manager containers.
+* Verify ownership of the primary Meta Business Portfolio and connected advertising accounts.
+* Verify primary administrative access for Google Business Profiles across every facility address.
+* Confirm full ownership of domain registrars, DNS records, website content management systems (CMS), and dynamic landing page builders.
+* Revoke all former agency personnel logins and transition credentials to dedicated, multi-factor authenticated organizational emails.
+* Ensure all third-party platforms have executed valid Business Associate Agreements (BAAs) prior to data collection.
+### 2. Regulatory Compliance and Platform Verification
+* Verify that [LegitScript Certification](https://www.legitscript.com/certification/addiction-treatment-certification/) covers all active corporate entities, operating names, and physical program locations.
+* Submit updated LegitScript certification tokens to Google Ads and Meta support for account validation.
+* Audit active ad copy and landing page copy against [Google Ads Healthcare Policy](https://support.google.com/adspolicy/answer/176031) restrictions.
+* Confirm zero active remarketing audiences, customer match lists, or behavioral targeting segments exist within Google Ads, following [Google Ads Personalized Advertising Guidance](https://support.google.com/adspolicy/answer/143465).
+* Audit website source code and server configurations to ensure tracking scripts comply with [HHS Guidance on Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html).
+### 3. Telephony, Intake, and CRM Architecture
+* Deploy Dynamic Number Insertion across all digital touchpoints with call recording encryption enabled.
+* Verify that call-recording disclosure messages play for inbound callers in compliance with state two-party consent laws.
+* Align CRM lead status fields with standardized admissions milestones (Inquiry, Qualified, VOB, Clinical Review, Admitted).
+* Establish secure webhook or server-to-server data pipelines connecting intake CRM dispositions to advertising platform attribution engines.
+* Build call-center capacity reporting to track inquiry answer rates, abandoned call percentages, and intake team response times.
+### 4. Campaign Architecture and Media Management
+* Audit historical search term reports to construct master negative keyword exclusion lists.
+* Separate paid search campaigns by specific level of care (Medical Detox, Residential Inpatient, PHP, IOP, Outpatient Therapy).
+* Separate brand search campaigns from non-brand acquisition campaigns to prevent distorted conversion performance reporting.
+* Implement strict geographic location exclusions to eliminate search traffic originating outside designated licensing or service boundaries.
+* Set up automated platform budget pacing rules to prevent accidental overspend or sudden ad delivery halts.
+For additional documentation on agency transitions, explore our catalog of operational guides in our [marketing resources library](/resources).
+Operational Pitfalls and Data Misinterpretations
+Even disciplined behavioral health operators encounter operational hurdles when transitioning marketing agencies. Understanding these friction points protects facilities from costly media errors.
+### The Misleading Nature of Blended Cost-Per-Lead (CPL)
+The most common metric error in behavioral healthcare is managing to a blended cost-per-lead figure. A blended CPL calculates marketing spend divided by the total volume of inquiries across all channels. This calculation obscures performance reality. An agency generating hundreds of form fills from display campaigns or low-intent social media ads can demonstrate a CPL under $50. However, if zero of those individuals possess qualified commercial insurance, private funds, or appropriate clinical profiles for the facility's licensed care, the true cost per admission approaches infinity. Operators must force agencies to report on qualified inquiries and verified VOB completions rather than aggregate form submissions.
+### The Risk of Premature Budget Reallocations
+During the first 45 days of an onboarding sequence, acquisition costs may fluctuate as historical campaigns are reorganized, bid algorithms recalibrate, and non-compliant ad assets are remediated. Leadership teams frequently panic and pull media budgets prematurely, resetting algorithm learning phases and stranding campaigns in continuous volatility. Account transitions require clear operational runway. If baseline technical metrics, call routing accuracy, and qualified search query percentages are moving in the right direction, budget adjustments should be managed conservatively.
+### Inaccurate Attribution Due to Inconsistent CRM Hygiene
+Marketing attribution models rely entirely on the data hygiene of admissions coordinators. If an intake specialist answers a crisis call generated by a paid search ad but fails to select the appropriate campaign call pool in the CRM, that inquiry defaults to an untracked or organic source. If admissions staff wait three days to log a completed VOB or enter an admission after the patient has completed detox, closed-loop conversion attribution fails. Agency onboarding must include active, ongoing collaboration with admissions leadership to audit CRM record completeness every week.
+### Over-Reliance on Pure Automation
+Modern advertising networks rely heavily on automated smart bidding and broad match discovery. While automation is powerful, deploying unmonitored automated campaigns in behavioral healthcare creates regulatory and financial liabilities. Without continuous negative keyword management and strict geographic boundary controls, automated bidding algorithms pursue cheap clicks on non-clinical queries that do not translate to facility admissions. Machine learning models must be governed by strict human operational oversight.
 
 FAQ
-Q: What defines a successful agency transition?
-A: A successful agency transition maintains lead flow within 10 to 15 percent of baseline during the handoff period, preserves complete historical data and tracking continuity, and achieves full operational readiness within 90 days. For treatment centers, success also means zero compliance violations or ad suspensions during the transition window. The incoming agency should demonstrate measurable improvement over baseline within the first full quarter of management.
-Q: How can I ensure effective marketing agency handoff?
-A: Effective handoffs require three components: complete documentation of campaign history, compliance records, and institutional knowledge; formal intake review by the receiving agency before they accept budget responsibility; and structured communication protocols including weekly transition calls for the first 30 days. Never allow a handoff where knowledge exists only in email threads or individual memory.
-Q: What are the phases of a 90-day agency onboarding plan?
-A: The plan follows three phases. Days 1-30 focus on discovery, asset transfer, and baseline documentation. Days 31-60 involve parallel operation with 70-80 percent budget on proven campaigns and 20-30 percent on controlled tests. Days 61-90 complete the transition with full optimization, scaling of winning tests, and establishment of ongoing management processes. Each phase has specific deliverables that gate progression to the next.
-Q: How does a structured onboarding impact client relationships?
-A: Structured onboarding builds trust by demonstrating competence before the agency controls significant budget. It also surfaces potential fit issues early, when course correction is still possible. Treatment centers that experience smooth onboarding report higher confidence in their agency partner and are more likely to approve budget increases and expanded scope within the first year.
-
-
-SCHEMA RECOMMENDATION
-Schema type: Article, FAQPage, BreadcrumbList
-* headline
-* description
-* author
-* datePublished
-* dateModified
-* mainEntityOfPage
-* publisher
-* image
-* FAQPage mainEntity array with all four Q&A pairs
-* BreadcrumbList with Home > Resources > Guides > 90-Day Agency Onboarding Playbook
-
-
-DELIVERY NOTES
-External citations
-* LegitScript certification requirements https://www.legitscript.com/certification/ [Regulatory/Compliance] - Primary authority for healthcare advertising certification; directly relevant to compliance discussion in behavioral health agency onboarding
-* Google's healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform Policy] - Authoritative source for Google Ads restrictions on healthcare advertising; supports compliance blind spots discussion
-
-
-Brief conflicts
-* H2 1 is titled 'Why a Streamlined Onboarding Is Crucial' but 'crucial' is on the banned words list. Used the H2 as specified per brief-is-source-of-truth rule and flagging here for brief author review.
-* Primary audience in brief states 'CEO, COO, or VP of Business Development at a marketing agency' but Marketing Powered serves treatment centers, not marketing agencies. Interpreted this as treatment center executives onboarding a new marketing agency (Marketing Powered), which aligns with company positioning and the rest of the brief's context.
-
-
-Internal link gaps
-* No internal link specified for the /services/ hub page, which could be relevant for the services-related content
-* No link to /about/ or team page to support founder credibility proof points mentioned in the brief
-* The /results/case-studies/ link for 'client satisfaction' was not used as the phrase did not appear naturally in the copy; consider adding if case study content is live
-
-
-Compliance flags
-* Page references LegitScript and HIPAA awareness appropriately without making specific certification claims for Marketing Powered
-* No outcome guarantees or specific success rates claimed without sourcing
-* Google Ads sensitive vertical restrictions referenced appropriately
-
-
-Missing proof points
-* Brief mentions 'Haven 3 to 24 scale' but does not provide context on what Haven is; used the scale reference without the brand name
-* Court-certified expert witness credential not incorporated as it did not fit naturally into agency onboarding context; could be added if desired
-* Attribution proof 'Tracked attribution through to admission' referenced indirectly but could be strengthened with specific methodology if available
-
-
-Banned phrasing in brief
-* 'crucial' appears in H2 1 heading (used as specified, flagged above)
+Q: What should a provider expect from 90 day agency onboarding?
+A: A treatment provider should expect a structured, milestone-driven technical and operational integration during a 90 day agency onboarding. In the first 30 days, the agency audits asset ownership, verifies [LegitScript Certification](https://www.legitscript.com/certification/addiction-treatment-certification/), audits compliance with [Google Ads Healthcare Policy](https://support.google.com/adspolicy/answer/176031), removes non-compliant tracking scripts under [HHS Guidance on Online Tracking Technologies](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html), and secures administrative control. Days 31 to 60 establish Dynamic Number Insertion, HIPAA-aware call tracking, intake disposition tagging, and CRM integration. Days 61 to 90 deliver campaign restructuring, comprehensive negative keyword libraries, and closed-loop reporting connecting ad spend directly to verified admissions.
+Q: How should 90 day agency onboarding be measured against qualified calls or admissions?
+A: Onboarding should be measured by the progressive improvement of qualified clinical inquiries and verified admissions rather than raw impression or lead volume. Initial weeks measure tracking integrity, such as call capture rate, DNI script uptime, and correct CRM disposition logging. By day 60, success is evaluated by the ratio of inbound calls that advance to an active Verification of Benefits (VOB). By day 90, the primary operational benchmark is the validated cost-per-admission (CPA) calculated by dividing total media and management spend by verified patient intakes across each specific level of care.
+Q: Why is remarketing prohibited for addiction treatment programs?
+A: Remarketing is prohibited under [Google Ads Personalized Advertising Guidance](https://support.google.com/adspolicy/answer/143465), which restricts advertisers from using sensitive personal data, including physical and mental health conditions or addiction treatments, to build behavioral audience segments. Platforms forbid remarketing pixels, custom audience lists, and customer match databases from serving targeted ads to users who have previously visited clinical treatment pages or requested care, safeguarding individual privacy rights.
+Q: How can a treatment center prevent census drops during an agency transition?
+A: A treatment center prevents census disruptions during a vendor transition by avoiding the immediate deletion of historical ad campaigns. Incoming marketing teams should run parallel audits, maintaining existing campaign structures while auditing negative keywords, bid strategies, and tracking links. Media spend should be shifted gradually across segmented ad groups rather than executing an abrupt account overhaul. Concurrently, call routing and phone numbers must be validated daily to ensure every inbound clinical inquiry connects directly to admissions coordinators without dropped calls.
+Q: What administrative assets must a facility retain during an agency onboard?
+A: A healthcare facility must maintain unconditional primary administrative ownership of its Google Ads MCC, Meta Business Portfolio, Google Analytics 4, Google Tag Manager containers, Google Business Profiles, website CMS, and call tracking software accounts. External marketing agencies should receive delegated manager access through standard agency partner consoles. Never permit an agency to deploy campaigns through agency-owned proprietary ad accounts, which strips the facility of its historical conversion data and operational sovereignty. [Request an acquisition audit](/services/analytics-and-attribution)

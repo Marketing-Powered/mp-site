@@ -2645,22 +2645,34 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   ),
 
   "/resources/guides/90-day-agency-onboarding-playbook/": [
-    pageImg(
+    // [0] hero
+    studioImg(
       "resources/guides/90-day-agency-onboarding-playbook",
-      "01-hero-banner.jpg",
-      "90-day guide to marketing agency onboarding: a structured playbook for treatment center operators switching agencies without losing momentum",
+      "90-day-agency-onboarding.webp",
+      "A treatment center director and admissions leader reviewing intake workflows on a laptop in an administrative conference room.",
+      "43 / 24",
     ),
-    pageImg(
+    // [1] section image
+    studioImg(
       "resources/guides/90-day-agency-onboarding-playbook",
-      "02-concept.jpg",
-      "90-day marketing agency onboarding phases: discover and transfer, test and validate, then optimize and scale for better ROI",
+      "90-day-agency-onboarding-admissions-coordinator-wearing-headset.webp",
+      "An admissions coordinator wearing a headset reviews call logs at a computer workstation in a behavioral healthcare office.",
+      "79 / 53",
     ),
-    pageImg(
+    // [2] section image
+    studioImg(
       "resources/guides/90-day-agency-onboarding-playbook",
-      "03-process.jpg",
-      "The right onboarding process doesn't just protect performance, it sets the foundation for everything that follows",
+      "90-day-agency-onboarding-diagram-days-61-90-campaign-scalability.webp",
+      "Diagram · Days 61 to 90: Campaign Scalability, Negative Keyword Expansion, and C",
+      "79 / 53",
     ),
-    STATS,
+    // [3] section image
+    studioImg(
+      "resources/guides/90-day-agency-onboarding-playbook",
+      "90-day-agency-onboarding-healthcare-marketing-director-admissions.webp",
+      "A healthcare marketing director and admissions manager reviewing an onboarding checklist in a bright administrative room.",
+      "79 / 53",
+    ),
   ],
 
   "/resources/guides/landing-page-optimization-paid-media/": std4(

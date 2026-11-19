@@ -60,7 +60,7 @@ export const homeContent = {
   experience: {
     h2: "Experience earned inside growing organizations",
     paragraphs: [
-      "Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend.",
+      "Before founding Marketing Powered, [Mike Hulick](/author/mike-hulick) led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend.",
       "That responsibility extended beyond individual campaigns. Attribution, intake, conversion, reporting, and the systems supporting expansion had to work together. Marketing decisions needed to account for operating capacity, market differences, and revenue, not just activity inside an advertising account.",
       "Today, [our experience](/company/about) shapes how Marketing Powered approaches an engagement. We examine the operation behind the marketing, identify where performance breaks down, and connect execution to the business objective.",
       "Prior executive experience is distinct from agency client work. That distinction matters when evaluating [case studies](/results/case-studies), budgets managed, and the contribution marketing made to an organization's growth. You should know what the evidence actually represents.",

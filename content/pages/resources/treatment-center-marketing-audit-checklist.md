@@ -158,7 +158,7 @@ An honest review states its limits before anyone uses it to move a budget.
 * Starting with the website. Visible fixes are easy to assign. Test them against intake and capacity data before treating them as the census explanation.
 * Letting marketing define qualified. Admissions owns what can be admitted. Marketing supplies volume and source detail.
 * Reporting only the platform view. If the only report comes from the ad account, the center is grading acquisition with the platform's tools.
-* Leaving lead vendors outside the sheet. Purchased inquiries and marketplace calls belong on the same worksheet, and on the counsel review, before they are treated as a normal channel.
+* Leaving [lead vendors](/resources/drug-rehab-leads) outside the sheet. Purchased inquiries and marketplace calls belong on the same worksheet, and on the counsel review, before they are treated as a normal channel.
 * Auditing once. Without an owner and a reassessment date, the score expires.
 * Importing a peer rate. Compare definitions and operating conditions before using an external benchmark.
 Prioritize fixes in one working session

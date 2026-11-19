@@ -386,6 +386,71 @@ const REMAP: Record<string, string> = {
   // results hub → the case-studies page (the real destination)
   "/results": "/results/case-studies",
   // (placeholder remaps removed as the real /resources and /media pages now exist)
+
+  // Content Studio drafts link to planned slugs that were never built (or were
+  // built under another URL). Without these, RichText drops each link and shows
+  // its anchor as plain text. Each points at the live page its anchor describes.
+  "/about": "/company/about",
+  "/services/intake-attribution": "/services/call-tracking-and-intake-attribution",
+  "/services/behavioral-health-marketing": "/who-we-help/behavioral-health",
+  "/who-we-help/mental-health/iop-php": "/who-we-help/behavioral-health/iop-php",
+  "/healthcare-marketing-programs": "/who-we-help/hospitals-and-health-systems",
+  "/data-and-analytics-architecture": "/services/analytics-and-attribution",
+  // owned AI infrastructure
+  "/services/specialized-ai-systems": "/ai-edge/owned-ai-systems",
+  "/specialized-ai-systems": "/ai-edge/owned-ai-systems",
+  "/resources/ai-agents-healthcare-marketing": "/resources/ai-agents-for-marketing",
+  // privacy-safe tracking and marketing technology
+  "/services/privacy-safe-tracking": "/services/web-development/integrations-and-tracking",
+  "/privacy-safe-tracking": "/services/web-development/integrations-and-tracking",
+  // AI marketing: strategy, teams, budgets
+  "/ai-marketing-strategy-teams-budgets": "/resources/ai-marketing",
+  "/ai-marketing/strategy-teams-budgets": "/resources/ai-marketing",
+  "/resources/ai-marketing-strategy-teams-budgets": "/resources/ai-marketing",
+  "/blog/ai-marketing-strategy": "/resources/ai-marketing",
+  // agency evaluation guides → the matching service page
+  "/ai-marketing-agency-evaluation": "/services/ai-marketing-agency",
+  "/ai-marketing-agency/how-to-evaluate": "/services/ai-marketing-agency",
+  "/resources/how-to-evaluate-ai-marketing-agency": "/services/ai-marketing-agency",
+  "/blog/ai-seo-marketing-agency": "/services/ai-seo-marketing-agency",
+  "/blog/generative-engine-optimization-agency": "/services/generative-engine-optimization-agency",
+  "/generative-engine-optimization-agency/vetting-specialist-partner": "/services/generative-engine-optimization-agency",
+  "/google-ads-agency-specialist-partner": "/services/google-ads-agency",
+  "/healthcare-ppc-services-specialist-partner": "/services/healthcare-ppc-services",
+  "/cro-agency-guide": "/services/conversion-rate-optimization-agency",
+  "/landing-page-agency-guide": "/services/landing-page-optimization-agency",
+  "/resources/hipaa-compliant-marketing-companies": "/services/hipaa-compliant-marketing-companies",
+  "/resources/addiction-treatment-marketing-agency": "/services/addiction-treatment-marketing-agency",
+  "/resources/addiction-treatment-marketing-agency-checklist": "/services/addiction-treatment-marketing-agency",
+  "/mental-health-marketing-agency": "/resources/choose-mental-health-marketing-agency",
+  "/resources/mental-health-marketing-agency": "/resources/choose-mental-health-marketing-agency",
+  "/resources/mental-health-marketing-agency-vetting": "/resources/choose-mental-health-marketing-agency",
+  "/google-review-cards-nfc-qr-review-cards": "/services/google-review-cards",
+  // paid media
+  "/paid-media-management": "/services/paid-media",
+  "/services/paid-media-management": "/services/paid-media",
+  "/blog/healthcare-ppc-structuring-paid-search": "/resources/healthcare-ppc",
+  "/healthcare-ppc-qualified-patient-demand": "/resources/healthcare-ppc",
+  "/healthcare-ppc-strategy": "/resources/healthcare-ppc",
+  "/healthcare-ppc-structure": "/resources/healthcare-ppc",
+  // conversion and intake
+  "/services/conversion-optimization": "/services/conversion-rate-optimization",
+  "/services/conversion-and-intake": "/services/conversion-rate-optimization",
+  "/services/conversion-intake-automation": "/services/conversion-rate-optimization",
+  "/services/conversion-optimization-intake-automation": "/services/conversion-rate-optimization",
+  "/conversion-intake-automation": "/services/conversion-rate-optimization",
+  "/conversion-rate-optimization-for-lead-generation": "/resources/conversion-rate-optimization",
+  // guides published under a different slug
+  "/blog/multi-location-seo": "/resources/multi-location-seo",
+  "/multi-location-seo-guide": "/resources/multi-location-seo",
+  "/call-tracking-guide": "/resources/call-tracking",
+  "/resources/healthcare-call-tracking-guide": "/resources/call-tracking",
+  "/marketing-attribution-guide": "/resources/marketing-attribution",
+  "/resources/behavioral-health-marketing-guide": "/resources/what-is-behavioral-health-marketing",
+  "/resources/google-analytics-and-hipaa": "/resources/is-google-analytics-hipaa-compliant",
+  "/resources/google-analytics-hipaa": "/resources/is-google-analytics-hipaa-compliant",
+  "/resources/guides/meta-ads-treatment-center-restrictions": "/resources/guides/meta-ads-for-treatment-centers",
+  "/resources/rehab-marketing-rfp-template": "/resources/rehab-marketing-rfp",
 };
 
 /* Indexable routes for the sitemap. Mirrors VALID, minus thin/utility

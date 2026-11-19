@@ -22,7 +22,7 @@ AI-native advertising strategies built by operators who understand behavioral he
 
 
 Understanding ChatGPT as a Marketing Channel
-ChatGPT advertising represents a fundamental shift in how brands connect with audiences. Unlike traditional display or search advertising, ChatGPT creates a conversational environment where users actively seek information, recommendations, and solutions. This intent-rich context makes it a compelling channel for behavioral health providers who need to reach people at critical decision points.
+[ChatGPT](/resources/chatgpt-for-marketing) advertising represents a fundamental shift in how brands connect with audiences. Unlike traditional display or search advertising, ChatGPT creates a conversational environment where users actively seek information, recommendations, and solutions. This intent-rich context makes it a compelling channel for behavioral health providers who need to reach people at critical decision points.
 The platform's reach continues to expand rapidly. According to [OpenAI's usage data](https://openai.com/blog), ChatGPT serves hundreds of millions of users monthly, many of whom are researching health topics, treatment options, and provider comparisons. For treatment centers, this presents an opportunity to appear in conversations where prospective patients and their families are already seeking guidance.
 
 

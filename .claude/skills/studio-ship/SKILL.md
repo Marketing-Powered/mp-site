@@ -6,8 +6,8 @@ description: Build pages handed over from MAIOS Content Studio (MP FRESH > Ship 
 # Ship pages from MAIOS Content Studio
 
 Content Studio (maios.marketingpowered.ai/content-studio) holds the finished pages. A card moved to **Ship to dev**
-waits in the ship queue; the batch is **ready** once 5 minutes pass with no new card arriving. Build every ready page,
-merge to `main`, push, and report each page back. The studio shows the result on each card.
+waits in the ship queue; the batch is **ready** once 5 minutes pass with no new card arriving. Build the ready
+batch (at most 30 pages, highest priority first), merge to `main`, push, and report each page back. The studio shows the result on each card.
 
 The builder token goes in `.studio-ship/token` (git-ignored; write it with the file tool, not on a command line). The script reads it from there. It only opens the ship queue and image downloads.
 

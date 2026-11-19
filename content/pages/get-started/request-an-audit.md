@@ -1,108 +1,52 @@
 ---
-title: "Free Marketing Audit | Request Now"
+title: "Free Marketing Audit & Review | Marketing Powered"
 url: "/get-started/request-an-audit/"
-primary_keyword: "request marketing audit"
-secondary_keywords: "free ppc audit, marketing audit request"
-target_word_count: "200-400"
+primary_keyword: "free marketing audit"
+secondary_keywords: "marketing audit request, local visibility review"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /get-started/request-an-audit/ with primary keyword 'free marketing audit' and secondary keywords 'paid media audit' and 'google ads audit.' Target word count is 400-600 words. This is a P0 conversion page targeting CEOs, COOs, and VPs of Business Development at behavioral health treatment centers seeking an experienced marketing partner to audit their existing efforts.
-Page type: Conversion/Transactional Page
-Buyer target: CEOs, COOs, or VPs of Business Development at behavioral health treatment centers
-Word count target: 400-600 words
-
-
 SEO METADATA
-Title tag (35 chars): Free Marketing Audit | Request Now
-Meta description (77 chars): Request a free marketing audit from Marketing Powered. Get expert insights built on $50M+ in managed behavioral and mental health ad spend.
-H1: Request Your Free Marketing Audit Today
-Hero image alt: Marketing Powered free marketing audit request form for behavioral health treatment centers
+Title tag: Free Marketing Audit & Review | Marketing Powered
+Meta description: Request a free marketing audit and local visibility review. Get an operator-led written evaluation with three prioritized operational actions.
+H1: Request a Free Marketing Audit and Local Visibility Review
+Hero image alt: Marketing operator reviewing business intake metrics and local search analytics on a desktop display.
 
 
 PAGE COPY
 
-
-Request Your Free Marketing Audit Today
-Expert assessment backed by $50M+ in managed behavioral health ad spend
-[CTA] Request Your Free Audit Now
-
-
-Why Choose Our Free Marketing Audit?
-Most agencies offer audits as a sales pitch. We approach them differently. With $50M+ managed specifically in behavioral health and mental health advertising, our free marketing audit draws on operator experience that understands what actually moves admissions, not vanity metrics.
-A thorough marketing performance audit identifies where your budget is working and where it is not. We assess campaign structure, audience targeting, bid strategies, and conversion tracking to surface inefficiencies that cost treatment centers thousands each month.
-Our audits are built on real accountability. We have scaled treatment center portfolios through multi-market growth and managed $1.5M to $2M monthly in [Google Ads](/services/paid-media) across 11+ accounts. That depth means we spot problems and opportunities that generalist agencies miss.
-How Our Marketing Audit Works
-Our paid media audit follows a structured process designed for transparency.
-We start with a full assessment of your ad accounts: campaign architecture, keyword performance, audience segmentation, and conversion paths. Next, we run competitive analysis to benchmark your positioning against other treatment centers in your market. Finally, we deliver a customized strategic improvement plan with prioritized recommendations.
-Our founder, a court-certified expert witness in advertising strategy, reviews every audit. You receive clear findings, not a generic checklist.
-Benefits of a Google Ads Audit
-A Google Ads audit is especially valuable in healthcare verticals where policy compliance and cost efficiency intersect.
-Treatment center advertising operates under Google's sensitive vertical restrictions, which means no retargeting and strict ad copy requirements. Our [Google Ads audit services](/services/paid-media) identify wasted spend from broad match bleeding, poor negative keyword coverage, and misaligned landing page experiences.
-We also evaluate attribution discipline. Tracking clicks is not enough; we audit whether your setup connects ad spend to actual admission calls. That is how you measure real performance, not inflated lead counts.
-
-
-Client Success Stories
-Our operator-level insights have driven measurable results. We helped anonymized multi-market growth proof during a substantial growth period while expanding through multi-market growth, with attribution tracked through to admission.
-These outcomes come from understanding the behavioral health business model, not just the ad platforms. Explore more examples on our [case studies page](/results/case-studies).
-Get Started with Your Free Audit
-Requesting your free marketing audit takes less than two minutes. Complete the form below, and we will schedule a time to walk through your accounts together.
-No obligation. No generic PDF report. Just a direct conversation about your strategy, compliance posture, lead quality, and channel mix with a team that has operated at scale in your vertical.
-[CTA] Request Your Free Audit Now
-Ready to See What Your Marketing Is Missing?
-Get a free marketing audit built on $50M+ in behavioral health advertising experience. No obligation, no generic reports, just actionable insights from operators who understand your business.
-[CTA] Request Your Free Audit Now
-FAQ
-Q: What is a marketing audit?
-A: A marketing audit is a comprehensive evaluation of your current marketing strategies, campaigns, and spend allocation. It identifies strengths, weaknesses, and opportunities across your paid media, creative, and attribution setup. For treatment centers, this includes assessing compliance with LegitScript and Google's healthcare advertising policies.
-
-
-Q: How does a Google Ads audit improve performance?
-A: A Google Ads audit analyzes your account structure, keyword targeting, bid strategies, and conversion tracking to find inefficiencies. By identifying wasted spend, improving audience targeting, and aligning landing pages with search intent, treatment centers typically see better cost-per-click efficiency and higher-quality admission inquiries.
-Q: What can I expect from a paid media audit?
-A: You receive a detailed assessment of your ad performance across platforms, along with recommendations for budget reallocation and strategic adjustments. Our audits include competitive benchmarking and a prioritized action plan, reviewed by a court-certified advertising expert, so you know exactly where to focus.
-Q: How often should I perform a marketing audit?
-A: We recommend a full marketing audit at least annually, with quarterly reviews for high-spend accounts. Platform algorithms, competitor behavior, and compliance requirements shift regularly. Regular audits ensure your campaigns stay efficient and compliant with Google's sensitive vertical policies.
-
-
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, Service, BreadcrumbList
-* name
-* description
-* provider
-* areaServed
-* mainEntity (for FAQ)
-* itemListElement (for Breadcrumb)
-
-
-DELIVERY NOTES
-External citations
-* Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform Policy (Google Ads Policy Center)] - Supports compliance context for sensitive vertical advertising restrictions mentioned in the Google Ads audit section.
-
-
-Brief conflicts
-* Brief H2 1 description uses 'leveraging' which is a banned word. Rewrote to avoid this term.
-* Brief H2 5 description mentions 'seamless' which is a banned word. Rewrote to avoid this term.
-* FAQ Question 4 guidance references 'changing digital landscape' which uses banned metaphorical 'landscape.' Rewrote the answer to avoid this phrasing.
-
-
-Internal link gaps
-* Consider adding a link to /ai-edge/ from the technology or attribution section to reinforce the AI-native positioning.
-* The brief lists 'Book a Call' (/get-started/book-a-call/) as an internal link option but the page goal is audit requests; consider whether a secondary CTA to book a call should appear.
-
-
-Compliance flags
-* Page adheres to Google sensitive vertical restrictions by not mentioning retargeting capabilities.
-* No guaranteed results or specific performance increase percentages claimed.
-* LegitScript context referenced appropriately in FAQ answer.
-
-
-Missing proof points
-* Specific percentage improvements from past audits would strengthen H2 4 (Client Success Stories) but are not in the Proof Points Library.
-* Timeline for audit delivery (e.g., '5 business days') would help set expectations but is not provided in brief.
-
-
-Banned phrasing in brief
-* Brief H2 1 description: 'leveraging $50M+ ad spend expertise'
-* Brief H2 5 description: 'how seamless the process is'
-* FAQ Q4 guidance: 'changing digital landscape'
+Request a Free Marketing Audit and Local Visibility Review
+Marketing Powered provides a focused written evaluation for commercial service firms and healthcare practices across Palm Beach County and South Florida. We examine your actual local search presence, identify intake drop-off points, and highlight technical disconnects before you allocate additional media capital.
+[CTA] Request an audit → /get-started/request-an-audit
+The Scope of the Local Visibility Review
+Most digital marketing evaluations rely on automated scrapers that export generic scores. The Local Visibility Review is different: an operator-led, written assessment designed to isolate why qualified regional searches fail to convert into booked appointments, retained clients, or admitted patients.
+Rather than delivering a fifty-page checklist of automated warnings, this review isolates three operational areas: Google Business Profile configuration, local search presence for your primary service offering, and front-end intake friction. We examine how your business appears on desktop and mobile devices within your immediate operating radius, evaluating whether prospective clients encounter clear conversion actions or administrative friction. You receive an unvarnished technical assessment delivered directly to your inbox within three to five business days.
+What We Inspect Across Your Intake Journey
+Our evaluation examines three distinct touchpoints along the prospective client journey:
+* Google Business Profile Integrity: We verify category hierarchy, operational hours, attribute completeness, and review recency. According to [Google Business Profile Help](https://support.google.com/business/answer/7091?hl=en), prominence, distance, and relevance govern local map rankings. We cross-reference your public profile against local guidelines, ensuring your practice complies with the [Federal Trade Commission Consumer Reviews and Testimonials Guidance](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers) regarding review authenticity and disclosure standards.
+* Core Service and Location Alignment: Through our focus on [local SEO](/services/local-seo), we inspect one high-priority service page or regional landing page. We verify whether local search engines properly index your core location keywords and whether your on-page metadata aligns with actual commercial search intent in South Florida.
+* Conversion Path Mechanics: Clicks and organic rankings mean nothing if user pathways break down. We test interactive elements, including tap-to-call links, mobile form accessibility, appointment scheduling embeds, and tracking parameters. We pinpoint points of friction where potential inquiries drop out before reaching your intake coordinators.
+Why Automated SEO Reports Mislead Growing Businesses
+Automated audit tools run script-based crawls that flag superficial issues, such as missing image descriptions or theoretical CSS warnings. These tools do not understand whether a patient inquiry routes to a live intake coordinator or an unmonitored voicemail box. They cannot tell you if your paid ad messaging contradicts the primary headline on your intake page.
+Automated software cannot evaluate call-routing logic, after-hours emergency inquiry workflows, or compliance boundaries. For example, in sensitive categories like behavioral healthcare, personalized retargeting is strictly restricted under [Google Advertising Policies on Personalized Ads](https://support.google.com/adspolicy/answer/143465). Software scrapers frequently recommend generic retargeting pixels that violate platform standards. Our diagnostic looks at real intake architecture, reconciling your commercial objectives with platform governance and compliance boundaries.
+Who Directs Your Review
+Every review is conducted by senior practitioners rather than junior account coordinators or automated algorithms. Marketing Powered is led by a former healthcare Chief Marketing Officer who directed marketing operations for a regional treatment network that grew from 3 to 24 locations, managing $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts.
+Our founder is also a court-certified expert witness in advertising strategy. Our systems are built around accountable performance: AI-native since 2022, utilizing owned local AI infrastructure for privacy-conscious data evaluation. In regulated sectors, acquisition data must be handled with strict governance. We inspect acquisition funnels using direct operating knowledge, linking front-end media spend to verified business intake rather than soft vanity metrics. Learn more about our background on our [about page](/about).
+What You Receive: Three Prioritized Operational Actions
+Many agencies bury business owners under dozens of minor web development issues. We do the opposite. Your written marketing assessment culminates in exactly three prioritized operational actions, ranked by immediate commercial impact:
+* Immediate Structural Corrections: Fast fixes to broken intake links, incorrect category tags, or routing errors that actively depress patient and customer acquisition.
+* Search and Asset Enhancements: Targeted adjustments to your Google Business Profile, local review acquisition workflows, or core landing page content to strengthen organic prominence in your primary market.
+* Conversion Pipeline Adjustments: Architectural recommendations connecting ad traffic, [paid media](/services/paid-media), and call tracking directly to your CRM, supporting [intake attribution](/services/intake-attribution) through to retained revenue.
+Each recommendation includes a clear technical explanation detailing the issue, why it matters commercially, and the concrete steps required to address it.
+How the Process Works from Submission to Delivery
+We respect your operational time and do not require exploratory discovery calls before doing real work. The review process follows three straightforward steps:
+* Step 1: Submission. Complete the form below with your direct business details, primary web address, operating municipality, and core service focus.
+* Step 2: Manual Diagnostic. A senior strategist inspects your digital presence manually, testing live intake paths, checking local visibility signals, and compiling the written findings.
+* Step 3: Direct Delivery. Within three to five business days, we email your completed Local Visibility Review as a clear, written PDF. After reviewing the document, you have the option to schedule a focused 20-minute walkthrough call to discuss technical execution.
+Qualifying Criteria and Required Intake Details
+The Local Visibility Review is designed specifically for operating service enterprises, professional partnerships, and medical practices that depend on dependable phone calls, booked appointments, or patient admissions.
+To ensure our team delivers comprehensive analysis, submissions must meet the following criteria:
+* You are an owner, partner, executive, or internal marketing director of an active commercial business or healthcare practice.
+* You maintain a verified physical facility or clearly defined service territory within South Florida or target regional markets.
+* You have an active website and a claimable Google Business Profile.
+Please provide your complete corporate name, primary operating website, business email, and the exact city or service line you want analyzed. Once submitted, your review begins immediately.
+[CTA] Request an audit → /get-started/request-an-audit

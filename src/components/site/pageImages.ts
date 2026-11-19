@@ -86,6 +86,1074 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/palm-beach-county-local-visibility-audit/": [
+    // [0] hero
+    studioImg(
+      "resources/palm-beach-county-local-visibility-audit",
+      "palm-beach-county-local-visibility-audit.webp",
+      "A marketing director and operations lead examine local digital visibility metrics on a monitor in a bright West Palm Beach office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/palm-beach-county-local-visibility-audit",
+      "palm-beach-county-local-visibility-audit-process-diagram-showing-five-core.webp",
+      "Process diagram showing five core dimensions evaluated across Palm Beach County commercial service domains.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/palm-beach-county-local-visibility-audit",
+      "palm-beach-county-local-visibility-audit-photo-4-content-architecture.webp",
+      "Photo representing content architecture benchmarking for regional agency and provider pages.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/palm-beach-county-local-visibility-audit",
+      "palm-beach-county-local-visibility-audit-operations-lead-audits-location-records.webp",
+      "An operations lead audits location records and aggregator listings on a laptop in a modern Boca Raton office.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/local-seo-call-tracking/": [
+    // [0] hero
+    studioImg(
+      "resources/local-seo-call-tracking",
+      "local-seo-call-tracking.webp",
+      "An operations director analyzing intake and call routing dashboards on dual office monitors.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/local-seo-call-tracking",
+      "local-seo-call-tracking-process-flow-diagram-showing-disconnect.webp",
+      "Process flow diagram showing the disconnect between mobile call button clicks and completed conversations.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/local-seo-call-tracking",
+      "local-seo-call-tracking-funnel-diagram-outlining-four.webp",
+      "Funnel diagram outlining the four operational stages of local search lead qualification.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/local-seo-call-tracking",
+      "local-seo-call-tracking-healthcare-intake-manager-reviewing.webp",
+      "A healthcare intake manager reviewing encrypted telephony data and compliance logs in a private office.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/city-pages-for-service-businesses/": [
+    // [0] hero
+    studioImg(
+      "resources/city-pages-for-service-businesses",
+      "service-area-pages.webp",
+      "A regional operations manager and dispatch lead review municipal service territories on a fleet logistics screen.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/city-pages-for-service-businesses",
+      "service-area-pages-commercial-facility-manager-reviews.webp",
+      "A commercial facility manager reviews contractor landing pages and dispatch details on a laptop at a desk.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/city-pages-for-service-businesses",
+      "service-area-pages-four-part-wireframe-diagram-showing-high.webp",
+      "A four-part wireframe diagram showing the high-converting content layout for a multi-territory service area page.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/city-pages-for-service-businesses",
+      "service-area-pages-technical-seo-specialist-developer.webp",
+      "A technical SEO specialist and developer review structured JSON-LD code for service area business markup on a monitor.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/google-maps-vs-website-rankings/": [
+    // [0] hero
+    studioImg(
+      "resources/google-maps-vs-website-rankings",
+      "google-maps-vs-organic-rankings.webp",
+      "A marketing director examines website analytics and map data side by side on dual monitors.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/google-maps-vs-website-rankings",
+      "google-maps-vs-organic-rankings-healthcare-leader-reviews-mobile-local.webp",
+      "A healthcare leader reviews mobile local search results in a modern office lobby.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/google-maps-vs-website-rankings",
+      "google-maps-vs-organic-rankings-comparison-diagram-showing-limitations.webp",
+      "Comparison diagram showing limitations of static rank tracking versus multi-node geocoded grids.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/google-maps-vs-website-rankings",
+      "google-maps-vs-organic-rankings-two-professionals-review-search.webp",
+      "Two professionals review search visibility data together in a bright conference room.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/healthcare-marketing-budget-by-location/": [
+    // [0] hero
+    studioImg(
+      "resources/healthcare-marketing-budget-by-location",
+      "healthcare-marketing-budget-allocation-by.webp",
+      "Healthcare and marketing leaders reviewing multi-site performance dashboards in a modern office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/healthcare-marketing-budget-by-location",
+      "healthcare-marketing-budget-allocation-by-healthcare-admissions-coordinator.webp",
+      "Healthcare admissions coordinator managing patient capacity schedules on dual monitors.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/healthcare-marketing-budget-by-location",
+      "healthcare-marketing-budget-allocation-by-diagram-illustrating-three-tier.webp",
+      "Diagram illustrating the three-tier healthcare marketing budget allocation framework.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/healthcare-marketing-budget-by-location",
+      "healthcare-marketing-budget-allocation-by-process-table-outlining-weekly-media.webp",
+      "Process table outlining the weekly media pacing and census governance cadence.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/hospital-marketing-agency-rfp/": [
+    // [0] hero
+    studioImg(
+      "resources/hospital-marketing-agency-rfp",
+      "hospital-marketing-agency-rfp.webp",
+      "Healthcare executives reviewing an agency RFP in a modern board room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/hospital-marketing-agency-rfp",
+      "hospital-marketing-agency-rfp-clinical-operations-director-reviewing.webp",
+      "Clinical operations director reviewing hospital data pipelines on a monitor.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/hospital-marketing-agency-rfp",
+      "hospital-marketing-agency-rfp-diagram-showing-clinical-service-line.webp",
+      "Diagram showing clinical service line capacity and media action alignment.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/hospital-marketing-agency-rfp",
+      "hospital-marketing-agency-rfp-infographic-hospital-marketing-agency.webp",
+      "Infographic of the hospital marketing agency evaluation scoring matrix.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/42-cfr-part-2-marketing-data/": [
+    // [0] hero
+    studioImg(
+      "resources/42-cfr-part-2-marketing-data",
+      "42-cfr-part-2-marketing.webp",
+      "Treatment center marketing executive and admissions director reviewing acquisition metrics in an administrative office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/42-cfr-part-2-marketing-data",
+      "42-cfr-part-2-marketing-healthcare-compliance-officer-marketing.webp",
+      "Healthcare compliance officer and marketing director reviewing data privacy regulations in a private office.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/42-cfr-part-2-marketing-data",
+      "42-cfr-part-2-marketing-diagram-compliant-technical-architecture.webp",
+      "Diagram of a compliant technical architecture for addiction treatment marketing data privacy.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/42-cfr-part-2-marketing-data",
+      "42-cfr-part-2-marketing-admissions-leadership-team-data-analyst.webp",
+      "Admissions leadership team and data analyst collaborating on operational milestones in an administrative suite.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/referral-and-digital-attribution-treatment-centers/": [
+    // [0] hero
+    studioImg(
+      "resources/referral-and-digital-attribution-treatment-centers",
+      "referral-vs-digital-marketing-attribution-for.webp",
+      "Healthcare executives reviewing marketing attribution dashboards in a conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/referral-and-digital-attribution-treatment-centers",
+      "referral-vs-digital-marketing-attribution-for-photo-core-conflict-business-development.webp",
+      "Photo representing the conflict between business development outreach and paid acquisition.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/referral-and-digital-attribution-treatment-centers",
+      "referral-vs-digital-marketing-attribution-for-diagram-showing-workflow-incoming-calls.webp",
+      "Diagram showing the workflow from incoming calls to locked CRM attribution fields.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/referral-and-digital-attribution-treatment-centers",
+      "referral-vs-digital-marketing-attribution-for-cfo-analyzing-financial-spreadsheets.webp",
+      "CFO analyzing financial spreadsheets and unit economics data at a desk.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/cost-per-admission-rehab/": [
+    // [0] hero
+    studioImg(
+      "resources/cost-per-admission-rehab",
+      "cost-per-admission-rehab.webp",
+      "Behavioral health operations director and admissions lead reviewing intake reports in a brightly lit administrative office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/cost-per-admission-rehab",
+      "cost-per-admission-rehab-comparison-diagram-contrasting-direct.webp",
+      "Comparison diagram contrasting direct media cost per admission with fully loaded acquisition cost components.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/cost-per-admission-rehab",
+      "cost-per-admission-rehab-healthcare-compliance-officer-reviewing.webp",
+      "Healthcare compliance officer reviewing facility licensure and certification documentation at an office desk.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/cost-per-admission-rehab",
+      "cost-per-admission-rehab-dedicated-behavioral-health-admissions.webp",
+      "Dedicated behavioral health admissions coordinator wearing a headset while assisting an intake caller at a quiet desk.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/ai-search-healthcare-patient-acquisition/": [
+    // [0] hero
+    studioImg(
+      "resources/ai-search-healthcare-patient-acquisition",
+      "ai-search-optimization-healthcare.webp",
+      "Healthcare marketing and clinical operations executives review digital patient acquisition metrics on a display in a conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/ai-search-healthcare-patient-acquisition",
+      "ai-search-optimization-healthcare-diagram-illustrating-four-step-ai-search.webp",
+      "Diagram illustrating the four-step AI search retrieval process from natural language query to synthesized healthcare answer.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/ai-search-healthcare-patient-acquisition",
+      "ai-search-optimization-healthcare-technical-director-web-engineer.webp",
+      "Technical director and web engineer reviewing structured healthcare schema and JSON-LD code on an office workstation screen.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/ai-search-healthcare-patient-acquisition",
+      "ai-search-optimization-healthcare-healthcare-data-strategist-monitoring.webp",
+      "Healthcare data strategist monitoring private marketing data infrastructure and compliance telemetry at an office workstation.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/choose-mental-health-marketing-agency/": [
+    // [0] hero
+    studioImg(
+      "resources/choose-mental-health-marketing-agency",
+      "best-mental-health-marketing-agency.webp",
+      "Practice director analyzing appointment intake data on a modern office computer.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/choose-mental-health-marketing-agency",
+      "best-mental-health-marketing-agency-clinic-intake-coordinator-managing.webp",
+      "Clinic intake coordinator managing patient inquiries at a front desk workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/choose-mental-health-marketing-agency",
+      "best-mental-health-marketing-agency-infographic-agency-comparison-framework.webp",
+      "Infographic comparing generalist firms with specialized healthcare marketing operators.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/choose-mental-health-marketing-agency",
+      "best-mental-health-marketing-agency-practice-leaders-reviewing-strategic.webp",
+      "Practice leaders reviewing strategic agency evaluation criteria in a meeting room.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/healthcare-campaign-management-systems/": [
+    // [0] hero
+    studioImg(
+      "resources/healthcare-campaign-management-systems",
+      "healthcare-campaign-management-system.webp",
+      "Healthcare marketing director and intake leader reviewing digital acquisition reports in a modern administrative office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/healthcare-campaign-management-systems",
+      "healthcare-campaign-management-system-diagram-showing-six-core-stages-server.webp",
+      "Diagram showing the six core stages of a server-side healthcare campaign management system pipeline.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/healthcare-campaign-management-systems",
+      "healthcare-campaign-management-system-clinical-intake-coordinator-wearing.webp",
+      "Clinical intake coordinator wearing a headset at an admissions workstation managing an incoming inquiry.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/healthcare-campaign-management-systems",
+      "healthcare-campaign-management-system-two-healthcare-data-engineers-reviewing.webp",
+      "Two healthcare data engineers reviewing local secure server infrastructure in a private facility rack room.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/healthcare-crm-marketing-integration/": [
+    // [0] hero
+    studioImg(
+      "resources/healthcare-crm-marketing-integration",
+      "healthcare-crm-integration.webp",
+      "Healthcare executives reviewing marketing attribution dashboards in a bright modern office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/healthcare-crm-marketing-integration",
+      "healthcare-crm-integration-admissions-coordinator-reviewing-patient.webp",
+      "Admissions coordinator reviewing patient inquiry records on dual monitors.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/healthcare-crm-marketing-integration",
+      "healthcare-crm-integration-architectural-workflow-diagram-showing.webp",
+      "Architectural workflow diagram showing secure offline conversion tracking steps.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/healthcare-crm-marketing-integration",
+      "healthcare-crm-integration-analysts-reviewing-marketing-attribution.webp",
+      "Analysts reviewing marketing attribution charts and multi-touch data limitations.",
+      "79 / 53",
+    ),
+  ],
+  "/ai-edge/ai-governance/": [
+    // [0] hero
+    studioImg(
+      "ai-edge/ai-governance",
+      "ai-governance-for-healthcare.webp",
+      "Healthcare marketing and operations leaders review acquisition data governance policies in a modern medical administrative office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "ai-edge/ai-governance",
+      "ai-governance-for-healthcare-admissions-coordinator-secure.webp",
+      "An admissions coordinator at a secure workstation handles healthcare inquiries while following data intake boundaries.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "ai-edge/ai-governance",
+      "ai-governance-for-healthcare-technical-diagram-showing-four-stages.webp",
+      "Technical diagram showing four stages of healthcare AI inference from inbound data to audited conversion logs.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "ai-edge/ai-governance",
+      "ai-governance-for-healthcare-healthcare-admissions-marketing.webp",
+      "Healthcare admissions and marketing supervisors review lead attribution and audit records in an office setting.",
+      "79 / 53",
+    ),
+  ],
+  "/services/hospital-seo/": [
+    // [0] hero
+    studioImg(
+      "services/hospital-seo",
+      "hospital-seo.webp",
+      "Hospital marketing leadership and clinical directors reviewing digital patient acquisition and service line performance.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "services/hospital-seo",
+      "hospital-seo-diagram-showing-health-system-entity.webp",
+      "Diagram showing health system entity architecture connecting parent organization, hospital facilities, service lines, and physician profiles.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "services/hospital-seo",
+      "hospital-seo-healthcare-digital-strategist-analyzing.webp",
+      "Healthcare digital strategist analyzing technical crawl performance and multi-site indexing health across dual monitors.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "services/hospital-seo",
+      "hospital-seo-comparison-chart-contrasting-vanity.webp",
+      "Comparison chart contrasting vanity website traffic metrics with full-funnel hospital appointment attribution pathways.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/behavioral-health-intake-automation/": [
+    // [0] hero
+    studioImg(
+      "resources/behavioral-health-intake-automation",
+      "behavioral-health-intake-automation.webp",
+      "An admissions coordinator reviewing a secure intake dashboard in a modern office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/behavioral-health-intake-automation",
+      "behavioral-health-intake-automation-admissions-team-reviewing-intake.webp",
+      "An admissions team reviewing intake performance metrics in a conference room.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/behavioral-health-intake-automation",
+      "behavioral-health-intake-automation-process-diagram-illustrating-intake.webp",
+      "Process diagram illustrating the intake automation architecture from ad click to admission.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/behavioral-health-intake-automation",
+      "behavioral-health-intake-automation-healthcare-operations-leader-reviewing.webp",
+      "A healthcare operations leader reviewing data governance and compliance controls.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/healthcare-intake-marketing-data-dictionary/": [
+    // [0] hero
+    studioImg(
+      "resources/healthcare-intake-marketing-data-dictionary",
+      "healthcare-marketing-data-dictionary.webp",
+      "Healthcare marketing and admissions leaders reviewing intake performance dashboards together.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/healthcare-intake-marketing-data-dictionary",
+      "healthcare-marketing-data-dictionary-admissions-coordinator-entering.webp",
+      "Admissions coordinator entering structured inquiry notes into a healthcare CRM.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/healthcare-intake-marketing-data-dictionary",
+      "healthcare-marketing-data-dictionary-process-diagram-showing-marketing-intake.webp",
+      "Process diagram showing the marketing-to-intake pipeline from media spend to admissions.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/healthcare-intake-marketing-data-dictionary",
+      "healthcare-marketing-data-dictionary-healthcare-technology-strategist.webp",
+      "Healthcare technology strategist reviewing privacy-safe attribution architecture.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/rehab-marketing-rfp/": [
+    // [0] hero
+    studioImg(
+      "resources/rehab-marketing-rfp",
+      "rehab-marketing-agency-rfp.webp",
+      "Executive team reviewing an agency RFP document in a modern conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/rehab-marketing-rfp",
+      "rehab-marketing-agency-rfp-four-step-procurement-workflow-diagram.webp",
+      "A four-step procurement workflow diagram outlining core RFP evaluation areas.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/rehab-marketing-rfp",
+      "rehab-marketing-agency-rfp-five-stage-conversion-flowchart-tracing.webp",
+      "A five-stage conversion flowchart tracing the path from digital click to admission.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/rehab-marketing-rfp",
+      "rehab-marketing-agency-rfp-admissions-leaders-reviewing-technical.webp",
+      "Admissions leaders reviewing technical scorecard criteria on a laptop.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/measure-patient-acquisition-roi/": [
+    // [0] hero
+    studioImg(
+      "resources/measure-patient-acquisition-roi",
+      "how-to-measure-patient-acquisition-roi.webp",
+      "Healthcare marketing and finance leaders reviewing patient acquisition data on a monitor.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/measure-patient-acquisition-roi",
+      "how-to-measure-patient-acquisition-roi-diagram-breaking-down-revenue-cost.webp",
+      "Diagram breaking down the revenue and cost inputs in the healthcare acquisition ROI formula.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/measure-patient-acquisition-roi",
+      "how-to-measure-patient-acquisition-roi-analytics-engineer-reviewing-secure.webp",
+      "Analytics engineer reviewing secure offline conversion attribution workflows on dual monitors.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/measure-patient-acquisition-roi",
+      "how-to-measure-patient-acquisition-roi-admissions-team-lead-operations-manager.webp",
+      "Admissions team lead and operations manager reviewing multi-location intake metrics.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/mental-health-content-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/mental-health-content-marketing",
+      "mental-health-content-marketing.webp",
+      "Clinical director and marketing strategist reviewing educational health manuscripts in a modern outpatient clinic office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/mental-health-content-marketing",
+      "mental-health-content-marketing-licensed-psychiatrist-reviewing-medical.webp",
+      "Licensed psychiatrist reviewing medical source citations and diagnostic copy at an office desk.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/mental-health-content-marketing",
+      "mental-health-content-marketing-photo-privacy-architecture-regulatory.webp",
+      "Photo representing privacy architecture and regulatory constraints in mental health promotion.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/mental-health-content-marketing",
+      "mental-health-content-marketing-six-step-clinical-review-publishing.webp",
+      "Six-step clinical review and publishing workflow diagram showing stages from intent identification to sign-off.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/hospital-service-line-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/hospital-service-line-marketing",
+      "hospital-service-line-marketing.webp",
+      "Hospital marketing and service line leaders reviewing regional patient acquisition metrics in a boardroom.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/hospital-service-line-marketing",
+      "hospital-service-line-marketing-compliance-officer-digital-lead.webp",
+      "Compliance officer and digital lead reviewing healthcare ad restrictions and privacy guidelines.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/outpatient-rehab-seo/": [
+    // [0] hero
+    studioImg(
+      "resources/outpatient-rehab-seo",
+      "outpatient-rehab-seo.webp",
+      "Comparison diagram contrasting residential and outpatient search mechanics and logistics.",
+      "79 / 53",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/outpatient-rehab-seo",
+      "outpatient-rehab-seo-admissions-coordinator-reviewing.webp",
+      "Admissions coordinator reviewing schedule options and insurance verification on a dual-monitor workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/outpatient-rehab-seo",
+      "outpatient-rehab-seo-healthcare-marketing-executive-auditing.webp",
+      "Healthcare marketing executive auditing local search rankings and Google Business Profile analytics.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/detox-center-seo/": [
+    // [0] hero
+    studioImg(
+      "resources/detox-center-seo",
+      "detox-center-seo.webp",
+      "An admissions coordinator at a medical detox center speaks with a caller while reviewing intake logistics.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/detox-center-seo",
+      "detox-center-seo-comparison-diagram-showing-acute-detox.webp",
+      "Comparison diagram showing acute detox search intent versus evaluative rehab research behaviors.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/detox-center-seo",
+      "detox-center-seo-detox-clinical-director-operations.webp",
+      "A detox clinical director and operations manager review regional hospital transport logistics on a tablet.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/detox-center-seo",
+      "detox-center-seo-detox-facility-leadership-reviewing.webp",
+      "Detox facility leadership reviewing intake performance metrics and admissions data during an executive meeting.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/hospital-marketing-ideas/": [
+    // [0] hero
+    studioImg(
+      "resources/hospital-marketing-ideas",
+      "hospital-marketing-ideas.webp",
+      "Hospital executives reviewing service-line dashboards and clinical scheduling capacity in a conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/hospital-marketing-ideas",
+      "hospital-marketing-ideas-digital-media-manager-aligning-paid.webp",
+      "Digital media manager aligning paid search campaigns with live hospital outpatient appointment schedules.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/hospital-marketing-ideas",
+      "hospital-marketing-ideas-diagram-4-eliminate-intake-friction.webp",
+      "Diagram of removing intake friction between lead generation and scheduled encounters.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/hospital-marketing-ideas",
+      "hospital-marketing-ideas-photo-6-build-high-value-educational.webp",
+      "Photo representing educational content built around the patient care journey.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/therapist-marketing-guide/": [
+    // [0] hero
+    studioImg(
+      "resources/therapist-marketing-guide",
+      "therapist-marketing.webp",
+      "Practice owner reviewing patient acquisition dashboards in a modern office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/therapist-marketing-guide",
+      "therapist-marketing-practice-director-operations-manager.webp",
+      "Practice director and operations manager analyzing clinician utilization.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/therapist-marketing-guide",
+      "therapist-marketing-process-diagram-showing-multi-channel.webp",
+      "Process diagram showing the multi-channel patient intake and response workflow.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/therapist-marketing-guide",
+      "therapist-marketing-photo-privacy-tracking-regulatory.webp",
+      "Photo representing privacy, tracking, and regulatory guardrails for mental health practices.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/healthcare-tracking-pixel-audit/": [
+    // [0] hero
+    studioImg(
+      "resources/healthcare-tracking-pixel-audit",
+      "healthcare-website-compliance.webp",
+      "Healthcare marketing and operations leaders reviewing digital compliance data together.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/healthcare-tracking-pixel-audit",
+      "healthcare-website-compliance-flowchart-illustrating-patient-data.webp",
+      "Flowchart illustrating patient data routing and regulatory compliance assessment.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/healthcare-tracking-pixel-audit",
+      "healthcare-website-compliance-diagram-detailing-four-phases-healthcare.webp",
+      "Diagram detailing the four phases of a healthcare website tracking audit.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/healthcare-tracking-pixel-audit",
+      "healthcare-website-compliance-comparison-diagram-showing-vanity-lead.webp",
+      "Comparison diagram showing vanity lead funnels versus governed admission attribution.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/marketing-to-admissions-scorecard/": [
+    // [0] hero
+    studioImg(
+      "resources/marketing-to-admissions-scorecard",
+      "admissions-marketing.webp",
+      "Healthcare marketing executive reviewing an admissions performance dashboard in a modern office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/marketing-to-admissions-scorecard",
+      "admissions-marketing-admissions-director-intake-coordinator.webp",
+      "Admissions director and intake coordinator collaborating over an intake workflow diagram.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/marketing-to-admissions-scorecard",
+      "admissions-marketing-diagram-data-architecture-connecting-ad.webp",
+      "Diagram of connecting ad platforms to a CRM without compliance exposure.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/marketing-to-admissions-scorecard",
+      "admissions-marketing-healthcare-operations-leader-analyzing.webp",
+      "Healthcare operations leader analyzing phone tree metrics and staffing schedules on a tablet.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/hipaa-compliant-email-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/hipaa-compliant-email-marketing",
+      "hipaa-compliant-email-marketing.webp",
+      "A marketing director reviewing encrypted email infrastructure and campaign dashboards on a multi-monitor workstation.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/hipaa-compliant-email-marketing",
+      "hipaa-compliant-email-marketing-healthcare-operations-leader-specialist.webp",
+      "A healthcare operations leader and IT specialist reviewing network security and data segregation diagrams.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/hipaa-compliant-email-marketing",
+      "hipaa-compliant-email-marketing-diagram-consent-architecture.webp",
+      "Diagram of consent architecture separating healthcare operations from HIPAA marketing.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/hipaa-compliant-email-marketing",
+      "hipaa-compliant-email-marketing-photo-measuring-email-pipeline.webp",
+      "Photo representing email pipeline measurement through to admissions.",
+      "79 / 53",
+    ),
+  ],
+  "/problems/reduce-cpa/": [
+    // [0] hero
+    studioImg(
+      "problems/reduce-cpa",
+      "lower-cpa-ppc-agency.webp",
+      "Healthcare executives reviewing admission performance dashboards in a conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "problems/reduce-cpa",
+      "lower-cpa-ppc-agency-intake-coordinator-reviewing-patient.webp",
+      "Intake coordinator reviewing patient inquiries on a workstation headset.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "problems/reduce-cpa",
+      "lower-cpa-ppc-agency-four-step-process-diagram-illustrating.webp",
+      "Four-step process diagram illustrating the paid media audit workflow from search queries to admissions.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "problems/reduce-cpa",
+      "lower-cpa-ppc-agency-media-strategist-clinical-operations.webp",
+      "Media strategist and clinical operations leader collaborating over attribution data.",
+      "79 / 53",
+    ),
+  ],
+  "/who-we-help/behavioral-health/residential-treatment/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/behavioral-health/residential-treatment",
+      "residential-treatment-marketing.webp",
+      "Healthcare facility leaders review daily residential census reports in a brightly lit morning meeting room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/behavioral-health/residential-treatment",
+      "residential-treatment-marketing-admissions-coordinator-behavioral-health.webp",
+      "An admissions coordinator at a behavioral health facility reviews intake verification data at a dual-monitor desk.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/behavioral-health/residential-treatment",
+      "residential-treatment-marketing-mother-adult-daughter-review-accredited.webp",
+      "A mother and adult daughter review accredited residential treatment options on a digital tablet at home.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "who-we-help/behavioral-health/residential-treatment",
+      "residential-treatment-marketing-horizontal-flow-diagram-showing-six.webp",
+      "Horizontal flow diagram showing the six stages of closed-loop attribution from initial ad click to qualified admission.",
+      "79 / 53",
+    ),
+  ],
+  "/services/psychiatrist-seo/": [
+    // [0] hero
+    studioImg(
+      "services/psychiatrist-seo",
+      "psychiatrist-seo.webp",
+      "A mental health practice owner reviews local search analytics in a bright clinic office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "services/psychiatrist-seo",
+      "psychiatrist-seo-clinical-leaders-discuss-patient-inquiry.webp",
+      "Clinical leaders discuss patient inquiry routing and search intent data in an office.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "services/psychiatrist-seo",
+      "psychiatrist-seo-structural-diagram-showing-three-tiers.webp",
+      "A structural diagram showing three tiers of psychiatric website architecture.",
+      "79 / 53",
+    ),
+  ],
+  "/services/healthcare-marketing-automation/": [
+    // [0] hero
+    studioImg(
+      "services/healthcare-marketing-automation",
+      "healthcare-marketing-automation.webp",
+      "An admissions coordinator wearing a headset takes notes at an administrative desk in a healthcare facility.",
+      "79 / 53",
+    ),
+    // [1] section image
+    studioImg(
+      "services/healthcare-marketing-automation",
+      "healthcare-marketing-automation-healthcare-marketing-compliance-officers.webp",
+      "Healthcare marketing and compliance officers examine a regulatory workflow plan in a modern conference room.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "services/healthcare-marketing-automation",
+      "healthcare-marketing-automation-flow-diagram-illustrating-closed-loop.webp",
+      "Flow diagram illustrating closed-loop attribution progression from search ad click to confirmed healthcare admission.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/psychiatry-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/psychiatry-marketing",
+      "psychiatry-marketing.webp",
+      "A psychiatrist reviews upcoming patient appointments on a laptop in a brightly lit outpatient clinic office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/psychiatry-marketing",
+      "psychiatry-marketing-clinic-intake-coordinator-headset.webp",
+      "A clinic intake coordinator with a headset manages patient scheduling screens at a healthcare workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/psychiatry-marketing",
+      "psychiatry-marketing-comparison-diagram-showing-distinct.webp",
+      "Comparison diagram showing distinct intake funnels for general medication management versus interventional psychiatric care.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/psychiatry-marketing",
+      "psychiatry-marketing-healthcare-practice-leaders-review.webp",
+      "Healthcare practice leaders review patient appointment attendance data on a conference room screen.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/is-google-analytics-hipaa-compliant/": [
+    // [0] hero
+    studioImg(
+      "resources/is-google-analytics-hipaa-compliant",
+      "is-google-analytics-hipaa-compliant.webp",
+      "A healthcare marketing director and IT lead review website tracking code and analytics governance on a monitor in a modern hospital office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/is-google-analytics-hipaa-compliant",
+      "is-google-analytics-hipaa-compliant-healthcare-compliance-officer-digital.webp",
+      "A healthcare compliance officer and digital marketing specialist review vendor contracts and software agreements in a conference room.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/is-google-analytics-hipaa-compliant",
+      "is-google-analytics-hipaa-compliant-diagram-showing-five-compliance.webp",
+      "Diagram showing five compliance governance phases for healthcare analytics from script audit to admission attribution.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/hipaa-compliant-call-tracking/": [
+    // [0] hero
+    studioImg(
+      "resources/hipaa-compliant-call-tracking",
+      "hipaa-compliant-call-tracking.webp",
+      "Healthcare administrators reviewing privacy workflow diagrams on an office monitor under natural light.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/hipaa-compliant-call-tracking",
+      "hipaa-compliant-call-tracking-process-diagram-showing-five-steps.webp",
+      "Process diagram showing five steps of server-side healthcare call tracking routing phone numbers securely.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/hipaa-compliant-call-tracking",
+      "hipaa-compliant-call-tracking-behavioral-health-admissions-coordinator.webp",
+      "A behavioral health admissions coordinator sitting at a desk with a headset managing call records.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/hipaa-compliant-call-tracking",
+      "hipaa-compliant-call-tracking-analyst-reviewing-anonymized-healthcare.webp",
+      "An analyst reviewing anonymized healthcare marketing attribution metrics on a computer display.",
+      "79 / 53",
+    ),
+  ],
+  "/services/hipaa-conscious-marketing-agency/": [
+    // [0] hero
+    studioImg(
+      "services/hipaa-conscious-marketing-agency",
+      "hipaa-compliant-marketing-agency.webp",
+      "Healthcare operations leaders reviewing digital acquisition performance reports in a sunlit conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "services/hipaa-conscious-marketing-agency",
+      "hipaa-compliant-marketing-agency-healthcare-compliance-marketing-leaders.webp",
+      "Healthcare compliance and marketing leaders reviewing data governance checklists at an administrative workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "services/hipaa-conscious-marketing-agency",
+      "hipaa-compliant-marketing-agency-senior-media-strategist-analyzing-search.webp",
+      "Senior media strategist analyzing search campaign performance at a dual-monitor workstation.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "services/hipaa-conscious-marketing-agency",
+      "hipaa-compliant-marketing-agency-process-diagram-showing-five-steps.webp",
+      "Process diagram showing five steps of compliant downstream admission attribution using tokenized identifiers.",
+      "79 / 53",
+    ),
+  ],
+  "/problems/fix-attribution/": [
+    // [0] hero
+    studioImg(
+      "problems/fix-attribution",
+      "fix-marketing-attribution.webp",
+      "Healthcare executives review marketing performance and admissions reports together in an administrative conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "problems/fix-attribution",
+      "fix-marketing-attribution-admissions-director-reviews-call-logs.webp",
+      "An admissions director reviews call logs and facility bed occupancy records at an office workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "problems/fix-attribution",
+      "fix-marketing-attribution-photo-mapping-intake-call-attribution.webp",
+      "Photo representing intake call attribution mapped through telephony and dynamic number insertion.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "problems/fix-attribution",
+      "fix-marketing-attribution-diagram-rebuilding-offline-conversion.webp",
+      "Diagram of an offline conversion feedback loop that avoids protected health information.",
+      "79 / 53",
+    ),
+  ],
   "/resources/rehab-marketing-budget/": [
     // [0] hero
     studioImg(
@@ -1980,21 +3048,34 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   "/ai-edge/customizable-ai/": [DECO_ROWS, DECO_WINDOW],
   "/ai-edge/local-processing/": [DECO_ROWS],
   "/ai-edge/open-source/": [DECO_WINDOW],
-  "/who-we-help/hospitals-and-health-systems/": [DECO_FIELD],
-
-  /* ---- AI Edge cluster ---- */
-
-  // Hub (HubPage): only index [1] renders. Capabilities icon set.
-  "/ai-edge/": [
-    pageImg(
-      "ai-edge/hub",
-      "01-hero-banner.jpg",
-      "Marketing Powered's AI edge for behavioral health advertising",
+  "/who-we-help/hospitals-and-health-systems/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/hospitals-and-health-systems",
+      "hospital-digital-marketing.webp",
+      "Hospital marketing leaders reviewing operational service line capacity and campaign analytics in a conference room.",
+      "43 / 24",
     ),
-    pageImg(
-      "ai-edge/hub",
-      "05-capabilities.jpg",
-      "AI capabilities: owned AI infrastructure, predictive analytics, data sovereignty, admission tracking, multi-variant optimization, and ethical advertising",
+    // [1] section image
+    studioImg(
+      "who-we-help/hospitals-and-health-systems",
+      "hospital-digital-marketing-hospital-patient-intake-coordinator.webp",
+      "A hospital patient intake coordinator managing scheduling queues and inbound calls at a computer workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/hospitals-and-health-systems",
+      "hospital-digital-marketing-healthcare-marketing-directors-planning.webp",
+      "Healthcare marketing directors planning regional facility campaigns and service line governance around a table.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "who-we-help/hospitals-and-health-systems",
+      "hospital-digital-marketing-architecture-diagram-showing-privacy.webp",
+      "Architecture diagram showing privacy-safe healthcare tracking flow from search inquiry to admission attribution.",
+      "79 / 53",
     ),
   ],
 
@@ -2042,15 +3123,33 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.
   "/who-we-help/": [
-    pageImg(
-      "who-we-help/hub",
-      "01-hero-banner.jpg",
-      "Who Marketing Powered helps: behavioral health and mental health providers",
+    // [0] hero
+    studioImg(
+      "who-we-help",
+      "healthcare-marketing-agency.webp",
+      "Healthcare marketing and admissions leaders reviewing multi-site facility operational data in a sunlit administrative office.",
+      "43 / 24",
     ),
-    pageImg(
-      "who-we-help/hub",
-      "05-capabilities.jpg",
-      "How we help: operator expertise, compliant growth, mental health reach, admission attribution, tech-enabled marketing, and strategic navigation",
+    // [1] section image
+    studioImg(
+      "who-we-help",
+      "healthcare-marketing-agency-admissions-coordinator-operations.webp",
+      "Admissions coordinator and operations director reviewing clinical bed capacity at a multi-site facility intake desk.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help",
+      "healthcare-marketing-agency-five-step-diagram-showing-healthcare.webp",
+      "Five-step diagram showing healthcare conversion tracking from ad click and dynamic call to intake CRM and de-identified admission sync.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "who-we-help",
+      "healthcare-marketing-agency-technical-systems-engineer-monitoring.webp",
+      "Technical systems engineer monitoring on-premises computing infrastructure inside a secure local data room.",
+      "79 / 53",
     ),
   ],
 
@@ -2244,17 +3343,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     "Behavioral health marketing impact: $50M+ managed media spend, court-certified expert witness, and LegitScript certification fluency",
   ]),
 
-  /* ---- Problems: Reduce CPA ---- */
-
-  // Process slot uses the clean takeaways graphic (08) — Asana's 03 carried a
-  // "Just Sans Variable Semi Bold" placeholder subtitle.
-  "/problems/reduce-cpa/": std4("problems/reduce-cpa", [
-    "How to effectively reduce CPA for better budget management: smarter targeting, tighter attribution, compliance-first execution",
-    "Reducing cost per acquisition through refined targeting, smarter attribution, and compliance-first campaigns that protect reputation",
-    "Key takeaways to reduce CPA: refine targeting, deploy AI bidding, align landing pages, and close the attribution loop to admission",
-    "Pro strategies to reduce CPA: average CPA reduction, decreased wasted spend, and increased attributed admissions",
-  ]),
-
   /* ---- Get Started cluster ---- */
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.
@@ -2274,20 +3362,33 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // Hero swapped to the clean concept (02) — Asana's 01 hero headline was garbled
   // ("audit auditay"). Three clean images.
   "/get-started/request-an-audit/": [
-    pageImg(
+    // [0] hero
+    studioImg(
       "get-started/request-an-audit",
-      "01-hero-banner.jpg",
-      "Marketing audit to uncover inefficiencies: expert assessment backed by $50M+ in managed behavioral health spend",
+      "free-marketing-audit.webp",
+      "Marketing operator reviewing business intake metrics and local search analytics on a desktop display.",
+      "43 / 24",
     ),
-    pageImg(
+    // [1] section image
+    studioImg(
       "get-started/request-an-audit",
-      "02-concept.jpg",
-      "Our free marketing audit process: request the audit, full assessment, competitive benchmarking, and deliver findings",
+      "free-marketing-audit-process-diagram-outlining-three.webp",
+      "Process diagram outlining the three evaluation stages of profile setup, local presence, and intake pathways.",
+      "79 / 53",
     ),
-    pageImg(
+    // [2] section image
+    studioImg(
       "get-started/request-an-audit",
-      "03-process.jpg",
-      "Free marketing audit results: $50M+ behavioral health ad spend experience, wasted spend identified, and lower cost per admission call",
+      "free-marketing-audit-senior-digital-marketing-strategist.webp",
+      "Senior digital marketing strategist conducting a manual operational account audit across dual monitors.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "get-started/request-an-audit",
+      "free-marketing-audit-comparison-diagram-contrasting-automated.webp",
+      "Comparison diagram contrasting automated software scrapers with an operator-led written visibility review.",
+      "79 / 53",
     ),
   ],
 
@@ -3290,12 +4391,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
 
   /* ---- Problems cluster ---- */
 
-  "/problems/fix-attribution/": std4("problems/fix-attribution", [
-    "Fix GA4 attribution: stop misallocating ad spend",
-    "Resolve your marketing attribution challenges in GA4: from a broken attribution data flow to a corrected flow with efficient budget allocation",
-    "Steps to fix broken attribution in GA4: audit conversion configuration, verify cross-domain measurement, check attribution model settings, validate Google Ads linking, and test consent mode integration",
-    "Resolve your GA4 attribution challenges: common issues with attribution, the steps to fix them, and the benefits of accurate attribution",
-  ]),
 
   // The previous set framed the page for treatment centers only, prescribed a
   // single account architecture, and carried a LegitScript panel and

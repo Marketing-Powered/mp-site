@@ -63,6 +63,15 @@ export const NAV: {
     ],
   },
   {
+    label: "Areas We Serve",
+    href: "/areas-we-serve",
+    children: [
+      { label: "Palm Beach Gardens", href: "/areas-we-serve/palm-beach-gardens" },
+      { label: "West Palm Beach", href: "/areas-we-serve/west-palm-beach" },
+      { label: "Jupiter", href: "/areas-we-serve/jupiter" },
+    ],
+  },
+  {
     label: "Problems",
     href: "/problems/reduce-cpa",
     children: [

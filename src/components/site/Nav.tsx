@@ -38,6 +38,19 @@ const PRIMARY_NAV = [
     ],
   },
   {
+    // Local service-area pages. Linked from the header on every page so the
+    // city pages carry sitewide internal links (local SEO), not just the hub.
+    label: "Areas We Serve",
+    href: "/areas-we-serve",
+    children: [
+      { label: "Palm Beach Gardens", href: "/areas-we-serve/palm-beach-gardens" },
+      { label: "West Palm Beach", href: "/areas-we-serve/west-palm-beach" },
+      { label: "Jupiter", href: "/areas-we-serve/jupiter" },
+      { label: "Local SEO Services", href: "/services/local-seo" },
+      { label: "View All Areas", href: "/areas-we-serve" },
+    ],
+  },
+  {
     label: "Problems",
     href: "/problems/reduce-cpa",
     children: [
@@ -132,8 +145,9 @@ export default function Nav() {
           <Logo tone="light" className="h-9 w-auto lg:h-10" />
         </Link>
 
-        {/* desktop nav */}
-        <nav className="hidden items-center gap-6 lg:flex">
+        {/* desktop nav: one line per label; tighter spacing below xl so seven
+            tabs fit beside the phone number and audit button at 1024px */}
+        <nav className="hidden items-center gap-3 lg:flex xl:gap-6">
           {PRIMARY_NAV.map((item) => (
             <div
               key={item.label}
@@ -144,7 +158,7 @@ export default function Nav() {
               <Link
                 href={item.href}
                 prefetch={false}
-                className="flex items-center gap-1.5 py-2 text-[12px] tracking-wide text-white/55 transition-colors hover:text-white"
+                className="flex items-center gap-1.5 whitespace-nowrap py-2 text-[12px] tracking-normal text-white/55 xl:tracking-wide transition-colors hover:text-white"
               >
                 {item.label}
                 {item.children && (
@@ -178,22 +192,24 @@ export default function Nav() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 xl:gap-4">
           {/* Unboxed so the audit pill stays the single primary action here.
               Visibility lives on the wrapper: appending a display utility to
               CallCta's own class list loses to the `inline-flex` in its base. */}
-          <span className="hidden md:inline-flex">
+          {/* From lg to xl the seven nav tabs leave no room for the full
+              number, so that range shows the tap-to-call glyph instead. */}
+          <span className="hidden md:inline-flex lg:hidden xl:inline-flex">
             <CallCta variant="bare" />
           </span>
           {/* Below md the number itself doesn't fit, so the header carries the
               tap-to-call glyph on its own — visibility on the wrapper, same
               reason as above. */}
-          <span className="md:hidden">
+          <span className="md:hidden lg:inline-flex xl:hidden">
             <MobileCallButton />
           </span>
           <ModalCta
             href="/get-started/request-an-audit"
-            className="group relative hidden overflow-hidden rounded-full border border-white/15 px-5 py-2.5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
+            className="group relative hidden overflow-hidden rounded-full border border-white/15 px-4 py-2.5 xl:px-5 text-[12px] uppercase tracking-[0.18em] text-white/80 transition-colors hover:text-black sm:inline-flex"
           >
             <span className="relative z-10">Request Audit</span>
             <span className="absolute inset-0 -z-0 translate-y-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] transition-transform duration-300 group-hover:translate-y-0" />

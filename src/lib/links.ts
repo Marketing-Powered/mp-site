@@ -358,6 +358,14 @@ const VALID = new Set<string>([
   "/resources/hipaa-compliant-texting",
   "/resources/law-firm-marketing",
   "/resources/customer-acquisition-cost-by-industry",
+  "/resources/in-house-vs-agency-marketing",
+  "/resources/landing-page-vs-website",
+  "/resources/generative-engine-optimization-vs-seo",
+  "/resources/local-seo-vs-google-ads",
+  "/resources/local-seo-for-law-firms",
+  "/resources/marketing-attribution-in-salesforce",
+  "/resources/telehealth-marketing",
+  "/resources/behavioral-health-vs-mental-health",
 ]);
 
 const REMAP: Record<string, string> = {

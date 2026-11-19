@@ -86,6 +86,204 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/behavioral-health-vs-mental-health/": [
+    // [0] hero
+    studioImg(
+      "resources/behavioral-health-vs-mental-health",
+      "behavioral-health-vs-mental-health.webp",
+      "Two healthcare operations leaders discuss behavioral health service pathways around a conference table in an office setting.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/behavioral-health-vs-mental-health",
+      "behavioral-health-vs-mental-health-licensed-clinical-psychologist-reviews.webp",
+      "A licensed clinical psychologist reviews treatment notes with a colleague inside a modern outpatient therapy office.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/behavioral-health-vs-mental-health",
+      "behavioral-health-vs-mental-health-comparison-diagram-showing-key.webp",
+      "Comparison diagram showing key operational and clinical differences between behavioral health and behavioral medicine.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/telehealth-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/telehealth-marketing",
+      "telehealth-marketing.webp",
+      "A physician in a modern consultation room conducts a virtual visit via a dual-monitor desktop workstation.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/telehealth-marketing",
+      "telehealth-marketing-clinical-care-coordinator-reviews-daily.webp",
+      "A clinical care coordinator reviews daily provider scheduling queues at an administrative workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/telehealth-marketing",
+      "telehealth-marketing-diagram-contrasting-delayed-lead-forms.webp",
+      "A diagram contrasting delayed lead forms against direct EHR scheduling pathways for virtual patient visits.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/marketing-attribution-in-salesforce/": [
+    // [0] hero
+    studioImg(
+      "resources/marketing-attribution-in-salesforce",
+      "marketing-attribution-in-salesforce.webp",
+      "Marketing executives review campaign attribution dashboards and pipeline metrics on desktop displays in an enterprise office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/marketing-attribution-in-salesforce",
+      "marketing-attribution-in-salesforce-five-step-process-diagram-showing-how-ad.webp",
+      "A five-step process diagram showing how ad campaign parameters transfer through web forms into CRM records.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/marketing-attribution-in-salesforce",
+      "marketing-attribution-in-salesforce-data-engineer-configures-custom-crm.webp",
+      "A data engineer configures custom CRM webhook ingestion and deal mapping on a widescreen monitor in a studio workspace.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/marketing-attribution-in-salesforce",
+      "marketing-attribution-in-salesforce-intake-specialist-wearing-headset-logs.webp",
+      "An intake specialist wearing a headset logs patient referral data on an office computer during an inbound call.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/local-seo-for-law-firms/": [
+    // [0] hero
+    studioImg(
+      "resources/local-seo-for-law-firms",
+      "local-seo-for-law-firms.webp",
+      "A senior law partner and marketing director examine local case inquiries on a workstation in a modern law office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/local-seo-for-law-firms",
+      "local-seo-for-law-firms-diagram-comparing-map-pack-visibility.webp",
+      "Diagram comparing map pack visibility drop-off across metro mileage rings against outsized entity prominence.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/local-seo-vs-google-ads/": [
+    // [0] hero
+    studioImg(
+      "resources/local-seo-vs-google-ads",
+      "local-seo-vs-google-ads.webp",
+      "Two healthcare marketing leaders review localized search engine performance metrics on desktop monitors in a bright office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/local-seo-vs-google-ads",
+      "local-seo-vs-google-ads-digital-marketing-strategist-analyzes.webp",
+      "A digital marketing strategist analyzes local geo-grid search ranking boundaries across a regional territory on an office monitor.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/local-seo-vs-google-ads",
+      "local-seo-vs-google-ads-patient-taps-smartphone-against-nfc.webp",
+      "A patient taps a smartphone against an NFC review card at a contemporary clinic reception desk.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/generative-engine-optimization-vs-seo/": [
+    // [0] hero
+    studioImg(
+      "resources/generative-engine-optimization-vs-seo",
+      "generative-engine-optimization-vs-seo.webp",
+      "A marketing director and technical strategist review search analytics on dual monitors in a sunlit operational office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/generative-engine-optimization-vs-seo",
+      "generative-engine-optimization-vs-seo-diagram-comparing-traditional-search.webp",
+      "Diagram comparing traditional search indexing and ranking against generative semantic retrieval and synthesized answers.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/generative-engine-optimization-vs-seo",
+      "generative-engine-optimization-vs-seo-operations-manager-reviewing-multi.webp",
+      "Operations manager reviewing multi-location facility metrics on a digital tablet in a bright healthcare office.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/landing-page-vs-website/": [
+    // [0] hero
+    studioImg(
+      "resources/landing-page-vs-website",
+      "landing-page-vs-website.webp",
+      "Healthcare marketing directors reviewing acquisition metrics on an office screen in daylight.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/landing-page-vs-website",
+      "landing-page-vs-website-diagram-comparing-multi-link-corporate.webp",
+      "Diagram comparing multi-link corporate website exploration with a linear single-action landing page flow.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/landing-page-vs-website",
+      "landing-page-vs-website-institutional-evaluation-committee.webp",
+      "Institutional evaluation committee reviewing compliance and vendor specifications in a conference room.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/landing-page-vs-website",
+      "landing-page-vs-website-admissions-intake-specialist-handling.webp",
+      "Admissions intake specialist handling incoming inquiries at a healthcare operations desk.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/in-house-vs-agency-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/in-house-vs-agency-marketing",
+      "in-house-vs-agency-marketing.webp",
+      "Commercial healthcare executives review marketing operations and acquisition metrics during a strategy meeting in a bright conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/in-house-vs-agency-marketing",
+      "in-house-vs-agency-marketing-internal-marketing-director-operations.webp",
+      "An internal marketing director and operations manager discuss organizational strategy and performance across an office collaboration table.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/in-house-vs-agency-marketing",
+      "in-house-vs-agency-marketing-photo-specialization-gaps-why-generalist.webp",
+      "Marketing team reviewing where generalist skills fall short on conversion systems.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/in-house-vs-agency-marketing",
+      "in-house-vs-agency-marketing-architecture-diagram-outlining-five.webp",
+      "Architecture diagram outlining five stages of enterprise data sovereignty from owned ad accounts to admission attribution.",
+      "79 / 53",
+    ),
+  ],
   "/resources/customer-acquisition-cost-by-industry/": [
     // [0] hero
     studioImg(

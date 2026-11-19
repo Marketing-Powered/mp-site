@@ -30,8 +30,11 @@ test -d node_modules || npm ci
 
 ## 3. Claim and import
 
+Claim only the ids in the queue's `batch`: at most `batch_limit` pages (30), highest priority first. The rest of
+`items` wait for the next Ship check, which takes the next batch. A batch you claim, you finish (build, report).
+
 ```bash
-node scripts/studio-ship.mjs claim <id> <id> ...     # every id in items
+node scripts/studio-ship.mjs claim <id> <id> ...     # the ids in `batch`, nothing else
 node scripts/studio-ship.mjs import <id>             # one page at a time
 ```
 

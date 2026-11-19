@@ -302,6 +302,8 @@ async function importTask(id) {
   const ctaText = ctaLabel(pkg.cta);
   const conv = convertDraft(pkg.draft.markdown, { ctaText });
   const known = existingFile(route);
+  // A plan page's address is worked out from its slug; never let it replace a live page without a person deciding.
+  if (known && pkg.derived && pkg.mode !== 'refresh') throw new Error(`Held: a live page already exists at ${route}. Set "Mode: refresh" (to replace it) or another "URL:" in the card's notes.`);
   const file = known || `${route.replace(/^\//, '')}.md`;
   const prior = existsSync(join(ROOT, 'content/pages', file)) ? read(join('content/pages', file)) : '';
   const author = prior.match(/^author:\s*"?([^"\n]+)"?/m)?.[1] || (route.startsWith('/resources/') ? 'mike-hulick' : '');

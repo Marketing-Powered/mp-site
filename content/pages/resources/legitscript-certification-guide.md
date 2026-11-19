@@ -9,14 +9,14 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: LegitScript Certification for Addiction Treatment Advertising
 Meta description: A planning guide to LegitScript certification: when it applies, what it costs, who owns each step, and how to measure admissions.
-H1: LegitScript Certification for Addiction Treatment Advertising
+H1: LegitScript Certification: A Guide for Addiction Treatment Ads
 Hero image alt: Healthcare leadership team in a strategy meeting reviewing compliance and marketing documents.
 
 
 PAGE COPY
 
-LegitScript Certification for Addiction Treatment Advertising
-I'll verify the current Google and LegitScript requirements first, then rewrite the guide as a publishable page with those sources cited.Meta title: LegitScript Certification for Treatment Advertising
+LegitScript Certification: A Guide for Addiction Treatment Ads
+LegitScript certification is an eligibility step for addiction treatment ads, not a guarantee of results. This guide covers when you need it, what it costs, who owns each step, and how to measure the admissions it supports.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 What LegitScript certification decides
 Treat legitscript certification as a readiness project with named owners, documented requirements, and a measurement plan. It is an eligibility step for certain addiction treatment advertising, not a decision that ads are approved and not a measure of admissions. This guide explains when it applies, who owns each step, what to budget, and how to judge the channel it unlocks.

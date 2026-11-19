@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Rehab PPC vs SEO: Budget and Attribution Tradeoffs
 Meta description: Rehab ppc vs seo for treatment leaders: when to shift budget, how to measure qualified calls and admissions, and what channel data cannot prove.
-H1: Rehab PPC vs SEO: Budget and Attribution Tradeoffs
+H1: Rehab PPC vs SEO: Which Should Get Your Budget?
 Hero image alt: Marketing and admissions leaders review a budget worksheet together.
 
 
 PAGE COPY
 
-Rehab PPC vs SEO: Budget and Attribution Tradeoffs
+Rehab PPC vs SEO: Which Should Get Your Budget?
 Rehab ppc vs seo is not a contest between two interchangeable channels. Paid search buys speed and control at a marginal cost you can see, while organic search and local visibility build slower, more durable access to demand that is easier to misread. If you cannot connect inquiries to verified admissions, address that measurement gap before making a major reallocation.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 What paid and organic search buy

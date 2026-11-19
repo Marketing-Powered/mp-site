@@ -208,13 +208,14 @@ export default function MarkdownPage({
       {/* ---------- hub child cards (vertical hubs only) ---------- */}
       {hubChildren.length > 0 && (
         <section className="relative z-10 mx-auto max-w-7xl px-6 py-12 lg:px-12">
+          {/* h2 so the h3 card titles below don't skip a heading level */}
           <Reveal className="mb-8 flex items-center gap-4">
-            <span
+            <h2
               className="text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
               style={{ fontFamily: "var(--font-space-mono), ui-monospace, monospace" }}
             >
               Explore
-            </span>
+            </h2>
             <GoldRule className="flex-1" />
           </Reveal>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

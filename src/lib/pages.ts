@@ -4,6 +4,7 @@ import { cache } from "react";
 import type { Metadata } from "next";
 import { getAuthor } from "./authors";
 import { cyclicNeighbors } from "./related";
+import { splitLongParagraph } from "./paragraphs";
 
 /* ================================================================== */
 /*  Content layer — parses the Marketing Powered page briefs in        */
@@ -197,12 +198,42 @@ function parse(raw: string, file: string): ParsedPage {
     }
   }
 
+  // break long body paragraphs for phone screens (see lib/paragraphs.ts).
+  // The hero lead is left whole: only the first hero paragraph renders, so
+  // splitting it would drop the remainder.
+  for (const sec of sections) {
+    sec.nodes = sec.nodes.flatMap((n): Node[] =>
+      n.type === "paragraph"
+        ? splitLongParagraph(n.text).map((text) => ({ type: "paragraph" as const, text }))
+        : [n],
+    );
+  }
+
   return { file, frontmatter, seo, h1, lead, heroCta, sections, faq };
 }
 
 export const getPage = cache((file: string): ParsedPage => {
   const raw = fs.readFileSync(path.join(CONTENT_ROOT, file), "utf8");
   return parse(raw, file);
+});
+
+/** Served URL (no trailing slash) → page H1, for every content file.
+    Feeds the HTML sitemap's link directory. */
+export const titlesByUrl = cache((): Map<string, string> => {
+  const out = new Map<string, string>();
+  const walk = (dir: string) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.name.endsWith(".md")) {
+        const p = getPage(path.relative(CONTENT_ROOT, full));
+        const url = (p.frontmatter.url || "").replace(/\/+$/, "") || (p.frontmatter.url ? "/" : "");
+        if (url && p.h1 && !out.has(url)) out.set(url, p.h1);
+      }
+    }
+  };
+  walk(CONTENT_ROOT);
+  return out;
 });
 
 export function pageMetadata(file: string): Metadata {

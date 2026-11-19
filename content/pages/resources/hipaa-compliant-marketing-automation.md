@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: HIPAA and Marketing Automation | Provider Checklist
 Meta description: Deploy hipaa compliant marketing automation safely. Use this provider checklist to map data workflows and privacy controls for healthcare lead generation.
-H1: HIPAA and Marketing Automation | Provider Checklist
+H1: HIPAA Compliant Marketing Automation: A Provider Checklist
 Hero image alt: A healthcare operations leader reviews marketing automation workflows on a dual-monitor computer in a sunlit office.
 
 
 PAGE COPY
 
-HIPAA and Marketing Automation | Provider Checklist
+HIPAA Compliant Marketing Automation: A Provider Checklist
 Deploying hipaa compliant marketing automation requires healthcare organizations to establish strict workflow boundaries before any system processes regulated patient data. Without executed agreements and deliberate data exclusion controls, marketing platforms expose treatment providers to severe compliance risks and wasted advertising spend. This operational checklist maps the exact steps marketing and compliance leaders need to protect patient privacy while scaling qualified admissions.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 What compliant automation actually permits

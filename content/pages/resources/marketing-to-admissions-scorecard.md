@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Admissions Marketing Scorecard for Treatment Centers
 Meta description: Connect marketing spend, call quality, and intake dispositions to measure cost per admission across your behavioral healthcare network.
-H1: Admissions Marketing Scorecard for Treatment Centers
+H1: An Admissions Marketing Scorecard for Treatment Center Leaders
 Hero image alt: Healthcare marketing executive reviewing an admissions performance dashboard in a modern office.
 
 
 PAGE COPY
 
-Admissions Marketing Scorecard for Treatment Centers
+An Admissions Marketing Scorecard for Treatment Center Leaders
 Admissions marketing is the operational discipline of connecting paid and organic patient acquisition channels directly to clinical verification, pre-assessment, and verified bed placement. When treatment center leadership manages acquisition solely through raw form fills and phone rings, marketing spend flows toward low-intent inquiries that overwhelm intake teams without filling beds. A structured marketing-to-admissions scorecard unifies media data with downstream clinical milestones, establishing true visibility over your acquisition economics.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 What Admissions Marketing Means in Behavioral Healthcare

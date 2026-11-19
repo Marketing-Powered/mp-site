@@ -8,13 +8,13 @@ secondary_keywords: "healthcare lead generation, healthcare digital marketing se
 SEO METADATA
 Title tag: Healthcare Lead Generation for Multi-Location Providers
 Meta description: Healthcare lead generation measured by location fit, capacity, and admissions or booked appointments. Request an acquisition audit.
-H1: Healthcare Lead Generation for Multi-Location Providers
+H1: Healthcare Lead Generation Across Every Location
 Hero image alt: Healthcare marketing leader and admissions director reviewing performance data together in a conference room.
 
 
 PAGE COPY
 
-Healthcare Lead Generation for Multi-Location Providers
+Healthcare Lead Generation Across Every Location
 The same campaign can fill one location and strand inquiries at another, while a dashboard that stops at cost per lead looks fine either way. Healthcare lead generation for a multi-location provider is a routing and measurement problem as much as a media problem. A lead is qualified only when it matches that site's service line, eligibility rules, and open capacity that day.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Who needs healthcare lead generation

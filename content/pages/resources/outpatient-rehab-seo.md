@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Outpatient Rehab SEO for IOP and PHP Programs
 Meta description: Outpatient rehab seo: Practical treatment-provider guidance on visibility, qualified inquiries and intake measurement.
-H1: Outpatient Rehab SEO for IOP and PHP Programs
+H1: Outpatient Rehab SEO: Getting IOP and PHP Programs Found
 Hero image alt: Comparison diagram contrasting residential and outpatient search mechanics and logistics.
 
 
 PAGE COPY
 
-Outpatient Rehab SEO for IOP and PHP Programs
+Outpatient Rehab SEO: Getting IOP and PHP Programs Found
 Search engine optimization for outpatient addiction treatment operates under distinct operational and geographical constraints compared to residential inpatient care. When prospective patients or their families evaluate an Intensive Outpatient Program (IOP) or Partial Hospitalization Program (PHP), they calculate daily commute times, verify clinical scheduling around work obligations, and confirm insurance network participation. Executing an effective outpatient rehab seo strategy enables treatment facilities to generate qualified, intake-ready local inquiries while establishing durable search authority.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 The Commuter Logistics Dividing Outpatient and Inpatient Search

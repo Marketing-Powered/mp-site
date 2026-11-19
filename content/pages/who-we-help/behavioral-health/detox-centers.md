@@ -8,13 +8,13 @@ secondary_keywords: "detox marketing, detox center marketing"
 SEO METADATA
 Title tag: Detox Program Marketing That Supports Admissions
 Meta description: Detox program marketing aligned with capacity, qualified inquiries and admissions measurement. Request an acquisition audit from Marketing Powered.
-H1: Detox Program Marketing That Supports Admissions
+H1: Detox Program Marketing From First Call to Admission
 Hero image alt: An admissions coordinator wearing a headset answers an inquiry at a desk in a bright office, with a staffing sheet beside the laptop.
 
 
 PAGE COPY
 
-Detox Program Marketing That Supports Admissions
+Detox Program Marketing From First Call to Admission
 A busy admissions line does not tell you whether marketing is working. Before increasing spend, establish whether inquiries match your services, whether intake can respond and whether the program has capacity to accept appropriate admissions.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 When to bring in a detox marketing agency

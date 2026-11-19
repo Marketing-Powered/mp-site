@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Google Ads Cost: What Drives Spend and How to Set a Budget
 Meta description: Learn what drives Google Ads cost, how the ad auction sets actual click pricing, and how to build a defensible monthly paid media budget for your business.
-H1: Google Ads Cost: What Drives Spend and How to Set a Budget
+H1: What Google Ads Really Costs and How to Budget for It
 Hero image alt: Marketing leaders reviewing media performance metrics on a display screen in an executive conference room.
 
 
 PAGE COPY
 
-Google Ads Cost: What Drives Spend and How to Set a Budget
+What Google Ads Really Costs and How to Budget for It
 Google Ads does not require a fixed platform minimum, but your true google ads cost is determined by auction competition, ad relevance, and downstream conversion math. For marketing directors and business leaders, setting an effective media budget requires calculating what it takes to acquire a qualified customer profitably rather than relying on arbitrary industry estimates. Approaching your search spend as a variable acquisition engine turns media planning from guesswork into an accountable operational system.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Why Industry Average Cost Per Click Benchmarks Are Misleading

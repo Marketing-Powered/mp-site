@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Rehab Advertising: Channels, Policies, Measurement
 Meta description: Rehab advertising guidance for treatment leaders on channel eligibility, policy review, qualified inquiries, and admissions measurement.
-H1: Rehab Advertising: Channels, Policies, Measurement
+H1: Rehab Advertising Within Platform Rules: A Practical Guide
 Hero image alt: Marketing and admissions leaders review a planning sheet together.
 
 
 PAGE COPY
 
-Rehab Advertising: Channels, Policies, Measurement
+Rehab Advertising Within Platform Rules: A Practical Guide
 Rehab advertising is the paid promotion of addiction treatment services to people seeking care, their families, and other relevant audiences, run as a controlled admissions-acquisition system. An accountable program connects channel eligibility, accurate messaging, admissions operations, and privacy-reviewed measurement so appropriate prospective patients reach a process the organization can support. Define a qualified inquiry, name its owner, and decide how that inquiry connects to an admission before choosing a channel or setting a bid.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Agree on what a qualified inquiry means

@@ -8,13 +8,13 @@ secondary_keywords: "website design for mental health professionals (210 / KD8),
 SEO METADATA
 Title tag: Mental Health Website Design | Provider Conversion
 Meta description: Mental health website design focused on intake paths, secure forms, and attribution. Convert paid search traffic into qualified patient demand and admissions.
-H1: Mental Health Website Design | Provider Conversion
+H1: Mental Health Website Design That Turns Visitors Into Patients
 Hero image alt: Clinical leadership team reviewing website intake performance on a monitor in a bright healthcare office.
 
 
 PAGE COPY
 
-Mental Health Website Design | Provider Conversion
+Mental Health Website Design That Turns Visitors Into Patients
 Effective mental health website design functions as the conversion layer between paid search traffic and scheduled appointments. For multi-location clinics and group practices, a digital presence must solve for patient intake friction while measuring acquisition outcomes precisely. Marketing Powered builds the operational infrastructure required to turn online discovery into sustainable, qualified patient demand.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 When to Engage an Agency for Mental Health Website Design

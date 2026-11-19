@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Healthcare Location Page SEO: Architecture and Conversion
 Meta description: Build healthcare location pages around verified facility facts, clear intake paths and qualified-call measurement, with an ownership model and checklist.
-H1: Healthcare Location Page SEO: Architecture and Conversion
+H1: Healthcare Location Page SEO: Build Pages That Convert
 Hero image alt: Healthcare marketing and operations colleagues reviewing a location-page layout.
 
 
 PAGE COPY
 
-Healthcare Location Page SEO: Architecture and Conversion
+Healthcare Location Page SEO: Build Pages That Convert
 The operating rule for healthcare location page seo is simple: give each facility a distinct, crawlable page, and assign someone to keep it accurate. Include verified services, levels of care, insurance handling, arrival details and a clear contact path. Then measure qualified inquiries by facility, not rankings alone.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 What location page SEO covers

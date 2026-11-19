@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Healthcare Web Forms and HIPAA | Vendor Evaluation
 Meta description: Hipaa compliant web forms: Understand privacy, data handling and review requirements for safer marketing implementation in healthcare organizations.
-H1: Healthcare Web Forms and HIPAA | Vendor Evaluation
+H1: HIPAA Compliant Web Forms: How to Evaluate Vendors
 Hero image alt: Healthcare admissions coordinator working at a desk in a modern administrative office setting.
 
 
 PAGE COPY
 
-Healthcare Web Forms and HIPAA | Vendor Evaluation
+HIPAA Compliant Web Forms: How to Evaluate Vendors
 Securing patient data starts at the first point of contact, making hipaa compliant web forms a baseline requirement for medical and behavioral health marketing. Evaluating vendors requires looking past basic encryption to understand how data routes into your operational systems. Marketing Powered builds these data transitions to protect privacy while preserving the attribution visibility needed to measure return on ad spend.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Core Requirements for Privacy Compliance

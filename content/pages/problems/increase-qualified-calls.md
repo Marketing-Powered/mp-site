@@ -8,13 +8,13 @@ secondary_keywords: "qualified admissions calls, lead quality, payer-fit targeti
 SEO METADATA
 Title tag: Increase Qualified Healthcare Calls Without Inflating CPA
 Meta description: Connect marketing source data to intake outcomes. Diagnose why call volume rises but qualified admissions calls stall, then fix payer-fit targeting.
-H1: Increase Qualified Healthcare Calls Without Inflating CPA
+H1: Increase Qualified Calls, Not Just Call Volume
 Hero image alt: A healthcare admissions director examines intake call data on a laptop in a brightly lit administrative office.
 
 
 PAGE COPY
 
-Increase Qualified Healthcare Calls Without Inflating CPA
+Increase Qualified Calls, Not Just Call Volume
 Increasing qualified calls requires connecting marketing source data to downstream intake outcomes rather than simply increasing overall call volume. When these records remain disconnected, spend scales without corresponding admission gains, inflating cost per admitted patient. This page outlines how to diagnose that breakdown and rebuild the acquisition funnel around verified payer-fit targeting.
 [CTA] Request a download template or request audit → /get-started/request-an-audit
 The Operational Symptom Behind Rising Volume

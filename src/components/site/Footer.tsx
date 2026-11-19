@@ -47,6 +47,7 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "Who We Help", href: "/who-we-help" },
       { label: "Behavioral Health", href: "/who-we-help/behavioral-health" },
       { label: "Mental Health", href: "/who-we-help/mental-health" },
+      { label: "Areas We Serve", href: "/areas-we-serve" },
       { label: "About", href: "/company/about" },
       { label: "Contact", href: "/company/contact" },
     ],

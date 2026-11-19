@@ -8,14 +8,14 @@ secondary_keywords: "patient acquisition, admissions marketing"
 SEO METADATA
 Title tag: Patient Acquisition Marketing That Connects to Revenue
 Meta description: Patient acquisition marketing measured against admissions and open capacity, not inquiry volume alone. For treatment centers and health systems.
-H1: Patient Acquisition Marketing That Connects to Revenue
+H1: Patient Acquisition Marketing Tied to Revenue
 Hero image alt: Marketing and admissions leaders review a planning sheet together.
 
 
 PAGE COPY
 
-Patient Acquisition Marketing That Connects to Revenue
-I'll verify the policy and measurement claims first, then rewrite the page to the required layout.Meta title: Patient Acquisition Marketing That Connects to Revenue
+Patient Acquisition Marketing Tied to Revenue
+Patient acquisition marketing should be judged by the cost of each admitted patient or kept appointment, not by inquiry counts. We measure spend against admissions and open capacity for treatment centers and health systems.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Who needs patient acquisition marketing
 Patient acquisition marketing should be judged by cost per admitted patient or kept appointment, read against the capacity to serve that person. Identify who owns the link between inquiries and admissions before adding spend. The same question applies to treatment centers and to hospitals, health systems, and other multi-site providers.

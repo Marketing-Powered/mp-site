@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Is Google Analytics HIPAA Compliant? | Use Cases
 Meta description: Is Google Analytics HIPAA compliant? Learn where standard GA4 fails, how the AHA ruling impacts public pages, and how to build a compliant pipeline.
-H1: Is Google Analytics HIPAA Compliant? | Use Cases
+H1: Is Google Analytics HIPAA Compliant? It Depends on How You Use It
 Hero image alt: A healthcare marketing director and IT lead review website tracking code and analytics governance on a monitor in a modern hospital office.
 
 
 PAGE COPY
 
-Is Google Analytics HIPAA Compliant? | Use Cases
+Is Google Analytics HIPAA Compliant? It Depends on How You Use It
 Google Analytics is not HIPAA compliant on its own because Google will not sign a Business Associate Agreement for the service. When standard tracking tags collect IP addresses, device identifiers, and clinical URL parameters from healthcare websites, that data transmission creates direct regulatory exposure under federal privacy rules. Healthcare organizations can still measure marketing performance effectively, but only by establishing a compliant proxy architecture that sanitizes data before it reaches Google servers.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 What Constitutes PHI in Web Analytics: Lessons from HHS OCR Guidance
@@ -31,7 +31,7 @@ Consider an unauthenticated web user searching for specialty medical care. If th
 The issue becomes more severe when internal site search terms, form metadata, or click events pass query parameters containing patient names, email addresses, or appointment requests directly to third-party endpoints. Reviewing these vulnerabilities is critical to managing [HIPAA digital marketing risk](/resources/guides/hipaa-digital-marketing-risk) across digital properties.
 The AHA v. Becerra Decision: What Changed for Public Pages
 In response to enforcement actions, healthcare providers challenged the administrative reach of federal tracking guidance. On June 20, 2024, the legal landscape shifted through a major federal court decision that clarified tracking boundaries on public websites.
-In the case of American Hospital Association v. Becerra, the U.S. District Court for the Northern District of Texas vacated the specific portion of the OCR tracking guidance that classified an unauthenticated public webpage visit paired with an IP address as automatic PHI. As documented in the [AHA v. Becerra District Court Decision](https://www.aha.org/legal-documents/2024-06-20-district-court-decision-aha-v-becerra), the court ruled that the OCR exceeded its statutory authority by assuming that a visitor's subjective, unexpressed intent could transform ordinary metadata into protected health data. The court held that an IP address connected to a general, public web page visit does not inherently reveal an individual's past, present, or future health condition.
+In the case of American Hospital Association v. Becerra, the U.S. District Court for the Northern District of Texas vacated the specific portion of the OCR tracking guidance that classified an unauthenticated public webpage visit paired with an IP address as automatic PHI. As documented in the [AHA v. Becerra District Court Decision](https://www.aha.org/news/news/2024-06-20-judge-rules-favor-aha-vacating-hhs-online-tracking-bulletin-unlawful-and-beyond-agency-authority), the court ruled that the OCR exceeded its statutory authority by assuming that a visitor's subjective, unexpressed intent could transform ordinary metadata into protected health data. The court held that an IP address connected to a general, public web page visit does not inherently reveal an individual's past, present, or future health condition.
 This decision established essential legal distinctions that marketing leaders must understand:
 * Public Informational Content: Browsing general health education, physician directories, or hospital facility locations on unauthenticated public pages does not automatically trigger PHI status merely because an IP address is captured.
 * Authenticated Portals Remain Fully Protected: The court ruling did not alter protections for authenticated areas. Patient portals, electronic health record (EHR) logins, and billing systems remain strictly governed by HIPAA. Direct analytics scripts deployed inside authenticated environments violate federal privacy rules.

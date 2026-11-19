@@ -4,6 +4,7 @@ import { useState } from "react";
 import Reveal from "@/components/Reveal";
 import { serif } from "./theme";
 import { RichText } from "./ui";
+import { splitLongParagraph } from "@/lib/paragraphs";
 
 export default function FaqAccordion({
   items,
@@ -49,10 +50,13 @@ export default function FaqAccordion({
                 className="grid transition-all duration-500 ease-out"
                 style={{ gridTemplateRows: isOpen ? "1fr" : "0fr", opacity: isOpen ? 1 : 0 }}
               >
-                <div className="overflow-hidden">
-                  <p className="pb-6 pr-12 text-[0.97rem] leading-relaxed text-white/50">
-                    <RichText text={f.a} />
-                  </p>
+                <div className="space-y-3 overflow-hidden pb-6">
+                  {/* long answers break into short paragraphs on a phone */}
+                  {splitLongParagraph(f.a).map((para, j) => (
+                    <p key={j} className="pr-12 text-[0.97rem] leading-relaxed text-white/50">
+                      <RichText text={para} />
+                    </p>
+                  ))}
                 </div>
               </div>
             </div>

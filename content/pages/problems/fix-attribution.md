@@ -8,13 +8,13 @@ secondary_keywords: "admissions tracking gaps, CRM attribution, intake call attr
 SEO METADATA
 Title tag: Fix Healthcare Marketing Attribution Before Scaling Spend
 Meta description: Fix healthcare marketing attribution gaps across calls, CRM stages, and intake. Connect campaign spend directly to verified patient admissions.
-H1: Fix Healthcare Marketing Attribution Before Scaling Spend
+H1: Fix Marketing Attribution Before You Spend More
 Hero image alt: Healthcare executives review marketing performance and admissions reports together in an administrative conference room.
 
 
 PAGE COPY
 
-Fix Healthcare Marketing Attribution Before Scaling Spend
+Fix Marketing Attribution Before You Spend More
 Scaling paid media spend before establishing deterministic data connections between ad platforms, dynamic call tracking, and clinical intake records burns capital on unqualified inquiries. When automated bidding systems optimize for cheap form fills instead of qualified admissions, customer acquisition costs rise while treatment beds remain empty. Operators must fix marketing attribution across the entire intake pipeline to protect acquisition margins and direct media spend toward verified patient outcomes.
 [CTA] Request a download template or request audit → /get-started/request-an-audit
 The Disconnect Between Front-End Ad Clicks and Clinical Admissions

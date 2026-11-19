@@ -8,13 +8,13 @@ secondary_keywords: "marketing automation for healthcare, HIPAA marketing automa
 SEO METADATA
 Title tag: Healthcare Marketing Automation with Governance
 Meta description: Scale patient acquisition safely. Marketing Powered builds governed healthcare marketing automation connecting qualified demand to verified admissions.
-H1: Healthcare Marketing Automation with Governance
+H1: Healthcare Marketing Automation With Clear Guardrails
 Hero image alt: An admissions coordinator wearing a headset takes notes at an administrative desk in a healthcare facility.
 
 
 PAGE COPY
 
-Healthcare Marketing Automation with Governance
+Healthcare Marketing Automation With Clear Guardrails
 Deploying healthcare marketing automation requires an architecture fundamentally different from consumer software playbooks. Regulated providers cannot expose patient intent to public ad networks or overwhelm admissions teams with unverified form fills. Marketing Powered engineers governed acquisition systems that protect data privacy while connecting qualified patient inquiries directly to verified operational outcomes.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Why Consumer Marketing Automation Fails in Regulated Healthcare

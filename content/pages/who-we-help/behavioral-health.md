@@ -8,14 +8,14 @@ secondary_keywords: "behavioral health digital marketing, behavioral health mark
 SEO METADATA
 Title tag: Behavioral Health Marketing Agency | Admissions Growth
 Meta description: Behavioral health marketing agency focused on qualified inquiries, intake performance, and admissions economics by program and location.
-H1: Behavioral Health Marketing Agency | Admissions Growth
+H1: A Behavioral Health Marketing Agency Focused on Admissions
 Hero image alt: Healthcare executives and admissions leaders discussing facility capacity and inquiry trends in a modern office.
 
 
 PAGE COPY
 
-Behavioral Health Marketing Agency | Admissions Growth
-I will check current Google Ads, LegitScript, and privacy sources before writing the page, then draft the landing in one pass.Meta title: Behavioral Health Marketing Agency | Admissions Growth
+A Behavioral Health Marketing Agency Focused on Admissions
+Treatment center leaders hire a behavioral health marketing agency when inquiry volume stops explaining which programs can grow. We connect paid demand, intake, and admissions by program and location, so you can see what each dollar produces.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Who should hire, and when
 Treatment center CEOs, COOs, CMOs, and admissions leaders hire a behavioral health marketing agency when inquiry volume no longer explains which programs can grow. Marketing Powered connects paid demand, intake performance, and admissions economics at the program and location level. The useful question is which pathway can take another appropriate admission or kept appointment, not whether last month produced more form fills.

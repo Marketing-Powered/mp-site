@@ -8,13 +8,13 @@ secondary_keywords: "call tracking healthcare, healthcare marketing attribution"
 SEO METADATA
 Title tag: Healthcare Call Tracking and Intake Attribution
 Meta description: Connect healthcare calls, CRM stages and intake outcomes to assess marketing quality beyond lead counts. Explore practical attribution methods.
-H1: Healthcare Call Tracking and Intake Attribution
+H1: Healthcare Call Tracking That Follows Every Call to Intake
 Hero image alt: CMO and admissions leader reviewing campaign and intake data side by side at a shared desk
 
 
 PAGE COPY
 
-Healthcare Call Tracking and Intake Attribution
+Healthcare Call Tracking That Follows Every Call to Intake
 Healthcare call tracking is only useful when a campaign source can be tied to a call disposition, a CRM stage, and an admission or kept appointment. A ring, a form fill, or a cost per inquiry does not tell a CEO whether paid media is filling capacity. Marketing Powered builds those connections, and the governance around them, when the organization controls the records.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Who needs healthcare call tracking

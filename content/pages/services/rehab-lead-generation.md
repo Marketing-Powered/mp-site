@@ -8,13 +8,13 @@ secondary_keywords: "drug rehab lead generation (260 / KD3), treatment center le
 SEO METADATA
 Title tag: Rehab Lead Generation Measured to Admissions
 Meta description: Rehab lead generation focused on call quality, intake conversion and admissions reporting, not simply more unqualified leads.
-H1: Rehab Lead Generation Measured to Admissions
+H1: Rehab Lead Generation You Can Trace to Admissions
 Hero image alt: Marketing and admissions leaders review a laptop together.
 
 
 PAGE COPY
 
-Rehab Lead Generation Measured to Admissions
+Rehab Lead Generation You Can Trace to Admissions
 Lead volume is easy to put on a dashboard and hard to defend when admissions do not move with it. This page is for treatment center CEOs, COOs, CMOs and admissions leaders who want rehab lead generation judged by what happens after the inquiry. Our rehab lead generation work focuses on paid media, SEO, conversion systems and attribution through to admission, where authorized data supports it.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 When inquiry volume stops explaining admissions

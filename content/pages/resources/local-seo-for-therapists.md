@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Local SEO for Therapists | A Multi-Location Guide
 Meta description: Local seo for therapists: Approaches to qualified patient demand, online discovery and appointment conversion for multi-location mental health practices.
-H1: Local SEO for Therapists | A Multi-Location Guide
+H1: Local SEO for Therapists With More Than One Office
 Hero image alt: A mental health clinic director reviews multi-location operational schedules on a tablet in a sunlit outpatient reception lobby.
 
 
 PAGE COPY
 
-Local SEO for Therapists | A Multi-Location Guide
+Local SEO for Therapists With More Than One Office
 Local seo for therapists is the operational practice of optimizing a mental health clinic's digital presence to capture qualified patient demand within specific geographic areas. For group practices and outpatient networks, it requires configuring platform listings, establishing location-specific website architecture, and aligning local map visibility with privacy-safe intake systems. When executed correctly, local search connects patients in immediate need of specialized care directly with licensed providers.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 The Multi-Location Dilemma: Practice vs Practitioner Profiles

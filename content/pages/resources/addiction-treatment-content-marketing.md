@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Addiction Treatment Content Marketing Built for Accuracy
 Meta description: Addiction treatment content marketing for center leaders: named clinical review, intake-linked measurement, and the limits of attribution.
-H1: Addiction Treatment Content Marketing Built for Accuracy
+H1: Addiction Treatment Content Marketing People Can Trust
 Hero image alt: A marketing leader and clinical reviewer discuss a document at a conference table.
 
 
 PAGE COPY
 
-Addiction Treatment Content Marketing Built for Accuracy
+Addiction Treatment Content Marketing People Can Trust
 Addiction treatment content marketing is the practice of producing educational and service content for a treatment provider under named clinical and compliance review, then measuring it against qualified calls and admissions rather than traffic alone. This guide focuses on two gaps to examine: unclear review ownership and incomplete intake measurement. It is an operating model for treatment center leaders, not advice for people seeking care.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Who owns accuracy and intake

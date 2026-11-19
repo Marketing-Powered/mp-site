@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Healthcare Marketing Analytics Beyond Platform Leads
 Meta description: Healthcare marketing analytics: Explore practical methods, implementation checks and measurable acquisition outcomes.
-H1: Healthcare Marketing Analytics Beyond Platform Leads
+H1: Healthcare Marketing Analytics That Go Past Platform Leads
 Hero image alt: Healthcare executives in an administrative office reviewing patient acquisition and analytics data on a tablet.
 
 
 PAGE COPY
 
-Healthcare Marketing Analytics Beyond Platform Leads
+Healthcare Marketing Analytics That Go Past Platform Leads
 Healthcare marketing analytics tracks performance from initial inquiry through qualified calls, intake handoff, and verified admissions rather than stopping at platform lead counts. For treatment centers, hospitals, and regulated service providers, the gap between a reported click and a completed admission is where budget decisions are actually made. This guide outlines how to build an event-level measurement system that connects paid media spend to business outcomes you can defend in front of a board or compliance team.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 What Healthcare Marketing Analytics Must Measure After the Lead

@@ -8,14 +8,14 @@ secondary_keywords: "Google Business Profile management, multi-location local SE
 SEO METADATA
 Title tag: Local SEO Services for Palm Beach County Service Businesses
 Meta description: Local SEO services for Palm Beach County businesses. Google Business Profile management, listings, reviews, local content, and reporting by location.
-H1: Local SEO Services for Palm Beach County Service Businesses
+H1: Local SEO Services That Get Palm Beach County Businesses Found
 Hero image alt: A service business owner and colleague review a laptop and phone at a desk.
 
 
 PAGE COPY
 
-Local SEO Services for Palm Beach County Service Businesses
-I’ll verify the Google, FTC, and internal-page claims first, then rewrite the landing page from those sources only.Meta title: Local SEO Services in Palm Beach County | Marketing Powered
+Local SEO Services That Get Palm Beach County Businesses Found
+Our local SEO services help Palm Beach County service businesses show up in Google Maps and local search. We manage your Google Business Profile, listings, reviews, and local content, and report results by location.
 [CTA] Request a local visibility review → /get-started/request-an-audit
 What local SEO services cover
 A single ranking number does not explain both Maps visibility and organic website performance. Maps and local results and organic web results should be reported separately, although their ranking signals overlap. Marketing Powered's local SEO services cover that split for owners and marketing leads of service businesses in Palm Beach County.
@@ -29,6 +29,7 @@ Local search visibility is the work of making a business findable and contactabl
 * Measurement. Visibility by location and by service, read next to available website and profile interaction data.
 The work focuses on clear responsibility for profile, listing, and review updates, so a holiday closure or a new phone number has someone assigned to change it everywhere it appears.
 This page is the general definition. Home services, legal and financial practices, dental and medical offices, outpatient clinics, and other healthcare providers are all in the audience. Healthcare is one audience, not the frame. Provider-specific search patterns are a separate topic.
+We work with businesses across Palm Beach County, with dedicated pages for [Palm Beach Gardens](/areas-we-serve/palm-beach-gardens), [West Palm Beach](/areas-we-serve/west-palm-beach), and [Jupiter](/areas-we-serve/jupiter). See every location on our [areas we serve](/areas-we-serve) page.
 Local SEO and technical SEO are different jobs
 Technical SEO asks whether search engines can find, crawl, index, and understand the site. The [technical SEO and performance](/services/web-development/technical-seo-and-performance) page scopes that work to crawl access, sitemaps, indexing controls, site structure, structured data, and performance. That page states that the work does not include content writing, listings management, or link development.
 Local SEO asks a different question: does Google have consistent, specific information about this business for someone searching in a particular place?

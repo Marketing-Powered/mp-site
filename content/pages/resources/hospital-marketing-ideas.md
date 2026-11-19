@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Hospital Marketing Ideas with Operational Measurement
 Meta description: Discover practical hospital marketing ideas that connect service-line demand, clinical capacity, and patient acquisition to verified admissions.
-H1: Hospital Marketing Ideas with Operational Measurement
+H1: Hospital Marketing Ideas You Can Measure
 Hero image alt: Hospital executives reviewing service-line dashboards and clinical scheduling capacity in a conference room.
 
 
 PAGE COPY
 
-Hospital Marketing Ideas with Operational Measurement
+Hospital Marketing Ideas You Can Measure
 Evaluating practical hospital marketing ideas requires looking beyond standard brand awareness campaigns to address clinical scheduling capacity, intake coordination, and downstream encounter tracking. Health systems encounter significant operational waste when promotional initiatives generate inquiries that clinics cannot schedule or that contact centers fail to convert. Sustainable patient growth occurs when marketing investments align directly with verified clinical workflows, departmental margin contribution, and accountable measurement.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 1. Align Service-Line Paid Search with Clinic Capacity

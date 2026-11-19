@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Mental Health Advertising: Channels and Guardrails
 Meta description: Plan mental health advertising around patient intent, privacy review, qualified inquiries and first appointments, with a reusable launch checklist.
-H1: Mental Health Advertising: Channels and Guardrails
+H1: Mental Health Advertising: Where to Run Ads and What to Avoid
 Hero image alt: An intake coordinator takes a phone call at a clinic reception desk beside a printed intake checklist, while a practice owner stands nearby reviewing a tablet.
 
 
 PAGE COPY
 
-Mental Health Advertising: Channels and Guardrails
+Mental Health Advertising: Where to Run Ads and What to Avoid
 Mental health advertising is paid promotion that helps people discover a practice, understand its services and request care. For practice owners, the commercial task is connecting appropriate demand with available appointments while controlling claims, targeting and data handling.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 The operating principle: qualification before optimization

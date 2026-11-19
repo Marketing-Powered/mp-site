@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Mental Health Practice Marketing | Patient Demand
 Meta description: A capacity-first guide to mental health practice marketing: allocate spend to open slots and measure booked and attended appointments.
-H1: Mental Health Practice Marketing | Patient Demand
+H1: Mental Health Practice Marketing That Builds Patient Demand
 Hero image alt: Practice owner and intake lead review a capacity sheet together.
 
 
 PAGE COPY
 
-Mental Health Practice Marketing | Patient Demand
+Mental Health Practice Marketing That Builds Patient Demand
 Mental health practice marketing is the work of turning open clinical capacity into qualified patient inquiries and attended first appointments. It covers how people find a therapy or psychiatry practice, how those inquiries are answered, and how the practice judges the result. Spend follows the slots clinicians can fill, by service, payer, location, and telehealth status.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 What mental health practice marketing includes

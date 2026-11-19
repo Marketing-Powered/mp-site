@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: In-House vs Agency: Behavioral Health Marketing Economics
 Meta description: Compare in house vs agency behavioral health marketing on fully loaded cost per admission, data ownership, and control of key functions.
-H1: In-House vs Agency: Behavioral Health Marketing Economics
+H1: In-House vs Agency Marketing for Behavioral Health: The Real Costs
 Hero image alt: Healthcare executives in a meeting discussing marketing staffing options around a conference table.
 
 
 PAGE COPY
 
-In-House vs Agency: Behavioral Health Marketing Economics
+In-House vs Agency Marketing for Behavioral Health: The Real Costs
 The decision comes down to two questions: what the option actually costs once every line is counted, and which functions you need to control directly. In-house tends to suit organizations with stable volume and existing admissions reporting; an agency tends to fit a documented capacity gap in buying or production. The right comparison unit is fully loaded cost per verified admission, not salary versus retainer.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 When each model fits

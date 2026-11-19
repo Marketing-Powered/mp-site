@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Behavioral Health Intake Automation with Human Review
 Meta description: Discover how behavioral health intake automation balances speed with human review to protect compliance, improve response times, and lower admission costs.
-H1: Behavioral Health Intake Automation with Human Review
+H1: Behavioral Health Intake Automation With People in the Loop
 Hero image alt: An admissions coordinator reviewing a secure intake dashboard in a modern office.
 
 
 PAGE COPY
 
-Behavioral Health Intake Automation with Human Review
+Behavioral Health Intake Automation With People in the Loop
 Behavioral health intake automation applies governed digital workflows to capture inquiries, verify insurance benefits, and stage coordination instantly without replacing clinical judgment. In mental health and addiction treatment, response delays cause patients in crisis to seek care elsewhere, yet fully autonomous tools introduce severe diagnostic and privacy hazards. Effective intake pipelines resolve this tension by automating administrative velocity while mandating human approval at critical clinical milestones.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 The Operational Tension Between Intake Velocity and Empathy

@@ -15,12 +15,13 @@ export default function RelatedCards({
   return (
     <section className="relative z-10 mx-auto max-w-7xl px-6 py-12 lg:px-12">
       <Reveal className="mb-8 flex items-center gap-4">
-        <span
+        {/* h2 so the h3 card titles below sit under a heading of their own */}
+        <h2
           className="text-[11px] uppercase tracking-[0.3em] text-[#0090F0]"
           style={{ fontFamily: "var(--font-space-mono), ui-monospace, monospace" }}
         >
           {kicker}
-        </span>
+        </h2>
         <GoldRule className="flex-1" />
       </Reveal>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

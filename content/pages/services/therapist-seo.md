@@ -8,13 +8,13 @@ secondary_keywords: "SEO for therapists, therapist SEO, local SEO for therapists
 SEO METADATA
 Title tag: SEO for Therapists and Group Practices
 Meta description: Drive qualified patient inquiries and scheduled appointments with technical and local SEO built specifically for private therapy practices.
-H1: SEO for Therapists and Group Practices
+H1: SEO for Therapists: Get Your Practice Found Locally
 Hero image alt: A practice founder reviews intake schedules on a desktop monitor in a brightly lit outpatient clinic office.
 
 
 PAGE COPY
 
-SEO for Therapists and Group Practices
+SEO for Therapists: Get Your Practice Found Locally
 Organic discovery for therapy practices requires an integrated local search infrastructure that connects condition-specific searches to qualified booked appointments. Approaching seo for therapists as an operational growth engine lowers reliance on paid advertising and third-party referral marketplaces while filling clinical caseloads with financially viable patient demand. Building an owned patient acquisition asset fundamentally changes the economics of practice growth.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Why Generic Search Tactics Fail Mental Health Practices

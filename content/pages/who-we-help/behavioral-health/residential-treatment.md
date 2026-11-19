@@ -8,13 +8,13 @@ secondary_keywords: "residential rehab center social media marketing, residentia
 SEO METADATA
 Title tag: Residential Treatment Marketing | Admissions and Census
 Meta description: Residential treatment marketing: Explore practical methods, implementation checks and measurable acquisition outcomes.
-H1: Residential Treatment Marketing | Admissions and Census
+H1: Residential Treatment Marketing That Supports Census
 Hero image alt: Healthcare facility leaders review daily residential census reports in a brightly lit morning meeting room.
 
 
 PAGE COPY
 
-Residential Treatment Marketing | Admissions and Census
+Residential Treatment Marketing That Supports Census
 Residential treatment centers operate under unforgiving unit economics where fixed facility overhead remains constant regardless of daily census. When residential treatment marketing prioritizes call volume over qualified admissions, intake teams waste valuable hours vetting out-of-catchment inquiries or incorrect levels of care. Marketing Powered builds census acquisition systems designed around clinical criteria, operational capacity, and closed-loop attribution from initial search to arrival.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 1. The Economics of Residential Bed Utilization

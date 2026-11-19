@@ -8,14 +8,14 @@ secondary_keywords: "outpatient mental health marketing, mental health practice 
 SEO METADATA
 Title tag: Outpatient Mental Health Clinic Marketing | Patient Acquisition
 Meta description: Outpatient clinic marketing strategies to grow qualified appointment inquiries while connecting paid media, SEO and intake outcomes.
-H1: Outpatient Mental Health Clinic Marketing | Patient Acquisition
+H1: Outpatient Mental Health Clinic Marketing for New Patients
 Hero image alt: Outpatient clinic staff review scheduling on a tablet in a sunlit reception office.
 
 
 PAGE COPY
 
-Outpatient Mental Health Clinic Marketing | Patient Acquisition
-I’ll verify current Google healthcare advertising rules and related policy points before writing the page.Meta title: Outpatient Clinic Marketing | Patient Acquisition
+Outpatient Mental Health Clinic Marketing for New Patients
+Outpatient clinic marketing works when paid media and local search fill the appointment slots your clinicians actually have open. We connect ads, search, and intake so you can see which inquiries become kept first appointments.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 When outpatient clinics need dedicated support
 Outpatient clinic marketing has to win on the first visit, because retargeting is not permitted in Google's sensitive healthcare vertical and there is no paid second chance to explain clinical fit. Inquiries that miss the level of care, the payer, or the open slot still consume intake time while the schedule stays uneven. The commercial job is to connect paid media and local search to appointments the clinic can actually keep.

@@ -8,14 +8,14 @@ secondary_keywords: "website design for treatment centers, behavioral health web
 SEO METADATA
 Title tag: Addiction Treatment Website Design for Admissions
 Meta description: Addiction treatment website design that ties page structure to qualified calls, intake completion, and scheduled assessments.
-H1: Addiction Treatment Website Design for Admissions
+H1: Addiction Treatment Website Design That Supports Admissions
 Hero image alt: A behavioral health operations leader and admissions coordinator review intake workflows on a monitor in a modern administrative office.
 
 
 PAGE COPY
 
-Addiction Treatment Website Design for Admissions
-I will check current Google Ads, LegitScript, and accessibility rules that this page can cite, then write the landing page in one pass.Meta title: Addiction Treatment Website Design for Admissions
+Addiction Treatment Website Design That Supports Admissions
+Addiction treatment website design has one job: turn a qualified visitor into a scheduled assessment. We build pages that answer the questions callers ask, route them to the right intake path, and stay within ad platform rules.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Who needs addiction treatment website design
 Addiction treatment website design has one commercial job: move a qualified inquiry into a scheduled assessment or admission without creating an intake bottleneck or a policy problem. A site that looks current and still drops every caller into one queue is an admissions failure, not a branding gap. In a sensitive healthcare category, where advertiser-curated retargeting is not available, the page has to finish the work remarketing cannot.

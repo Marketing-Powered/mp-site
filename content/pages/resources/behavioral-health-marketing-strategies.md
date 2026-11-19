@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Behavioral Health Marketing Strategies for Operators
 Meta description: Marketing strategies for behavioral health: define a qualified admission, instrument calls, fix intake, then scale within policy.
-H1: Behavioral Health Marketing Strategies for Operators
+H1: Behavioral Health Marketing Strategies, From Search to Admission
 Hero image alt: Behavioral health admissions and marketing leaders reviewing census and call reports in a strategy meeting.
 
 
 PAGE COPY
 
-Behavioral Health Marketing Strategies for Operators
+Behavioral Health Marketing Strategies, From Search to Admission
 A practical way to organize marketing strategies for behavioral health is to work through dependencies before scaling channels. Define a qualified admission, instrument every call and form into the CRM, and tighten intake and benefits verification. Only then expand paid search, local visibility, and referral work, and measure against qualified calls and verified admissions where authorized data allows.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 What an effective strategy includes

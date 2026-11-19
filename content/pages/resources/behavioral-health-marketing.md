@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Behavioral Health SEO | Strategy and Agency Evaluation
 Meta description: Behavioral health seo company: Improve organic visibility with site structure, credible content and local discoverability to drive actual admissions.
-H1: Behavioral Health SEO | Strategy and Agency Evaluation
+H1: How to Evaluate a Behavioral Health SEO Company
 Hero image alt: Healthcare executives review marketing strategy around a conference table in a modern clinic office.
 
 
 PAGE COPY
 
-Behavioral Health SEO | Strategy and Agency Evaluation
+How to Evaluate a Behavioral Health SEO Company
 Evaluating a behavioral health seo company requires looking past top of funnel traffic to focus on building a measurable intake pipeline. Treatment center search rankings deliver sustainable commercial value only when your organic search presence connects directly to qualified calls and attributable patient admissions. Search visibility in this heavily regulated sector succeeds when technical site architecture, local search signals and specialized content align perfectly with how admissions teams actually process inquiries.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Why search visibility matters for admissions teams

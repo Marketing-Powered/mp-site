@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Mental Health Marketing Strategy for Providers
 Meta description: Mental health marketing strategies for practice owners: channels, owner roles, and how to measure qualified inquiries through to attended appointments.
-H1: Mental Health Marketing Strategy for Providers
+H1: Mental Health Marketing Strategies That Reach the Right Patients
 Hero image alt: Mental health practice owner reviewing acquisition reports at a desk.
 
 
 PAGE COPY
 
-Mental Health Marketing Strategy for Providers
+Mental Health Marketing Strategies That Reach the Right Patients
 Mental health marketing strategies work when they are built around the path from a search to an attended first appointment, not around traffic or inquiry volume. The practical version is three decisions. Define what a qualified inquiry means for your clinicians and capacity. Assign a named owner to every handoff between the ad, the website, the phone, intake and the calendar. Judge every channel by the appointments it produces, not the clicks or calls it generates. This guide covers where that approach applies, how to implement it, what each channel can and cannot prove, and what your data will not tell you.
 [CTA] Request an acquisition audit → /get-started/request-an-audit
 Who this guide is for

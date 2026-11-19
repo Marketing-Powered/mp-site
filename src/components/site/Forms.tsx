@@ -10,6 +10,7 @@ import {
   DEFAULT_FORM_HELPER,
   type LeadField as Field,
 } from "@/lib/leadForms";
+import { trackFormSubmit } from "@/lib/analytics";
 
 const inputCls =
   "w-full rounded-xl border border-white/12 bg-white/[0.03] px-4 py-3 text-base text-white/90 sm:text-[15px] outline-none transition-colors placeholder:text-white/25 focus:border-[#0090F0]/60 focus:bg-white/[0.05]";
@@ -60,6 +61,7 @@ export function LeadForm({
         body: JSON.stringify(payload),
       });
       if (!res.ok) throw new Error(`Lead request rejected: ${res.status}`);
+      trackFormSubmit(formId, source);
       // Confirmation page only once the server has accepted the request.
       router.push("/get-started/thanks");
     } catch {

@@ -18,6 +18,7 @@ import {
   leadFormKeyForHref,
   type LeadFormKey,
 } from "@/lib/leadForms";
+import { trackFormSubmit } from "@/lib/analytics";
 
 /* Popup lead form. CTA buttons across the site open this modal instead of
    navigating away; the form posts to /api/contact, which adds the lead to
@@ -87,6 +88,7 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
         body: JSON.stringify(payload),
       });
       if (!res.ok) throw new Error(`Lead request rejected: ${res.status}`);
+      if (active) trackFormSubmit(`${active.key}-modal`, LEAD_FORMS[active.key].source);
       // Confirmed only once the server has accepted the request.
       setStatus("sent");
     } catch {

@@ -5,6 +5,7 @@ import Analytics from "@/components/Analytics";
 import TawkChat from "@/components/TawkChat";
 import { LeadModalProvider } from "@/components/site/LeadModal";
 import { SITE_URL, SITE_NAME, SITE_TITLE, SITE_DESCRIPTION } from "@/lib/site";
+import { Analytics as VercelAnalytics } from '@vercel/analytics/next';
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -71,6 +72,7 @@ export default function RootLayout({
       <body className={`${manrope.className} min-h-full flex flex-col`}>
         <LeadModalProvider>{children}</LeadModalProvider>
         <Analytics />
+        <VercelAnalytics />
         <TawkChat />
       </body>
     </html>

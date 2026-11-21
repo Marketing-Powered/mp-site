@@ -1,5 +1,5 @@
 import Reveal from "@/components/Reveal";
-import { getPage, HUB_CHILDREN, cardBlurb, relatedSiblings } from "@/lib/pages";
+import { getPage, HUB_CHILDREN, cardBlurb, relatedSiblings, shortTitle } from "@/lib/pages";
 import PageShell from "./PageShell";
 import RelatedCards from "./RelatedCards";
 import Breadcrumbs from "./Breadcrumbs";
@@ -24,6 +24,7 @@ const KICKERS: Record<string, string> = {
   "who-we-help": "Who We Help",
   "get-started": "Get Started",
   problems: "Problems We Solve",
+  "areas-we-serve": "Areas We Serve",
   company: "Marketing Powered",
 };
 
@@ -88,10 +89,12 @@ export default function MarkdownPage({
       };
 
   // hub vertical pages (behavioral-health, mental-health) get child cards
-  const hubChildren = (HUB_CHILDREN[file] || []).map((c) => {
-    const child = getPage(c.file);
-    return { href: c.href, title: child.h1, description: cardBlurb(c.file) };
-  });
+  const hubChildren = (HUB_CHILDREN[file] || []).map((c) => ({
+    href: c.href,
+    title: shortTitle(c.file),
+    description: cardBlurb(c.file),
+    tag: c.tag,
+  }));
 
   // child pages cross-link 3 siblings under the same hub (cyclic neighbors),
   // so every child is reachable from several internal pages, not just the hub
@@ -140,7 +143,7 @@ export default function MarkdownPage({
       )}
       {/* ---------- HERO ---------- */}
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-16 pt-12 lg:px-12 lg:pt-16">
-        <Breadcrumbs url={url} current={page.h1} />
+        <Breadcrumbs url={url} current={shortTitle(file)} />
         <div className="mt-8 grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <Kicker>{kicker || kickerFor(url)}</Kicker>
@@ -226,6 +229,7 @@ export default function MarkdownPage({
                 title={c.title}
                 description={c.description}
                 href={c.href}
+                tag={c.tag}
               />
             ))}
           </div>

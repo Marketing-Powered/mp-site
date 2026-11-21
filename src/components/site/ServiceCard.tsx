@@ -1,17 +1,20 @@
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
-import { serif } from "./theme";
+import { serif, mono } from "./theme";
 
 export default function ServiceCard({
   index,
   title,
   description,
   href,
+  tag,
 }: {
   index: number;
   title: string;
   description: string;
   href: string;
+  /** Small label above the title (e.g. "Our base" on a location card). */
+  tag?: string;
 }) {
   return (
     <Reveal delay={index * 70}>
@@ -25,6 +28,14 @@ export default function ServiceCard({
         >
           {String(index + 1).padStart(2, "0")}
         </span>
+        {tag && (
+          <span
+            className="mb-3 text-[10px] uppercase tracking-[0.24em] text-[#0090F0]"
+            style={{ fontFamily: mono }}
+          >
+            {tag}
+          </span>
+        )}
         <h3
           className="max-w-[85%] text-[1.3rem] leading-snug transition-colors group-hover:translate-x-0.5"
           style={{ fontFamily: serif, fontWeight: 500, color: "#7FCBFF" }}

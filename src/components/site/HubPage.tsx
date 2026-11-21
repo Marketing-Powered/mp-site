@@ -1,5 +1,5 @@
 import Reveal from "@/components/Reveal";
-import { getPage, HUB_CHILDREN, cardBlurb } from "@/lib/pages";
+import { getPage, HUB_CHILDREN, cardBlurb, shortTitle } from "@/lib/pages";
 import PageShell from "./PageShell";
 import Breadcrumbs from "./Breadcrumbs";
 import Section from "./Section";
@@ -16,12 +16,17 @@ export default function HubPage({
   kicker = "Overview",
   cardKicker = "Explore",
   cards,
+  maxSections = 4,
 }: {
   file: string;
   kicker?: string;
   cardKicker?: string;
   /** override card list; defaults to the registered children of this hub */
-  cards?: { href: string; title: string; description: string }[];
+  cards?: { href: string; title: string; description: string; tag?: string }[];
+  /** How many of the page's copy sections to render under the cards. Hubs
+      show the first four by default; pass Infinity for a hub whose copy is
+      meant to be read through to its close. */
+  maxSections?: number;
 }) {
   const page = getPage(file);
   const url = page.frontmatter.url || "/";
@@ -33,16 +38,21 @@ export default function HubPage({
 
   const children =
     cards ||
-    (HUB_CHILDREN[file] || []).map((c) => {
-      const child = getPage(c.file);
-      return { href: c.href, title: child.h1, description: cardBlurb(c.file) };
-    });
+    (HUB_CHILDREN[file] || []).map((c) => ({
+      href: c.href,
+      title: shortTitle(c.file),
+      description: cardBlurb(c.file),
+      tag: c.tag,
+    }));
+
+  // A copy sub-heading that names one of the cards links to the same page.
+  const headingLinks = Object.fromEntries(children.map((c) => [c.title, c.href]));
 
   return (
     <PageShell>
       {/* ---------- HERO ---------- */}
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-14 pt-12 lg:px-12 lg:pt-16">
-        <Breadcrumbs url={url} current={page.h1} />
+        <Breadcrumbs url={url} current={shortTitle(file)} />
         <div className="mt-8 max-w-3xl">
           <Kicker>{kicker}</Kicker>
           <h1
@@ -84,6 +94,7 @@ export default function HubPage({
                 title={c.title}
                 description={c.description}
                 href={c.href}
+                tag={c.tag}
               />
             ))}
           </div>
@@ -91,9 +102,9 @@ export default function HubPage({
       )}
 
       {/* ---------- supporting copy ---------- */}
-      {page.sections.slice(0, 4).map((sec, i) => (
+      {page.sections.slice(0, maxSections).map((sec, i) => (
         <div key={i}>
-          <Section heading={sec.heading} nodes={sec.nodes} />
+          <Section heading={sec.heading} nodes={sec.nodes} headingLinks={headingLinks} />
           {i === 1 && (
             <div className="mx-auto max-w-5xl px-6 py-8 lg:px-12">
               <ImageSlot

@@ -274,12 +274,33 @@ export function pageMetadata(file: string): Metadata {
 
 export { NAV } from "./nav";
 
-/* hub → child source files, used to build card grids */
-export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
+/* Short names for pages whose H1 is a full headline written for search
+   ("A marketing agency Palm Beach Gardens businesses can evaluate"). Used
+   wherever a page is named in passing rather than introduced: hub and
+   sibling cards, and the last crumb of the breadcrumb trail. Pages not
+   listed are named by their H1, as before. */
+const SHORT_TITLES: Record<string, string> = {
+  "areas-we-serve.md": "Areas We Serve",
+  "areas-we-serve/palm-beach-gardens.md": "Palm Beach Gardens",
+  "areas-we-serve/west-palm-beach.md": "West Palm Beach",
+  "areas-we-serve/jupiter.md": "Jupiter",
+};
+
+/** The name to show for a page on a card or in a breadcrumb. */
+export function shortTitle(file: string): string {
+  return SHORT_TITLES[file] ?? getPage(file).h1;
+}
+
+/* hub → child source files, used to build card grids. `tag` is an optional
+   label shown above the card title. */
+export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: string }[]> = {
+  /* The location directory. The tags carry the distinction the page copy
+     insists on: Palm Beach Gardens is the office; the other two are areas
+     served, not additional offices. */
   "areas-we-serve.md": [
-    { href: "/areas-we-serve/palm-beach-gardens", file: "areas-we-serve/palm-beach-gardens.md" },
-    { href: "/areas-we-serve/west-palm-beach", file: "areas-we-serve/west-palm-beach.md" },
-    { href: "/areas-we-serve/jupiter", file: "areas-we-serve/jupiter.md" },
+    { href: "/areas-we-serve/palm-beach-gardens", file: "areas-we-serve/palm-beach-gardens.md", tag: "Our base" },
+    { href: "/areas-we-serve/west-palm-beach", file: "areas-we-serve/west-palm-beach.md", tag: "Area served" },
+    { href: "/areas-we-serve/jupiter", file: "areas-we-serve/jupiter.md", tag: "Area served" },
   ],
   "services/index.md": [
     { href: "/services/paid-media", file: "services/paid-media.md" },
@@ -643,6 +664,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string }[]> = {
    internal link is its hub's card grid. Child entries that are themselves
    hubs (e.g. /services/ppc) are skipped: they render their own card grid. */
 const RELATED_SIBLINGS: Record<string, string> = {
+  "areas-we-serve.md": "Other Areas We Serve",
   "resources/guides/index.md": "More Guides",
   "resources/index.md": "More Resource Topics",
   "research/studies/index.md": "More Studies",
@@ -659,15 +681,19 @@ const RELATED_SIBLINGS: Record<string, string> = {
     hub (cyclic), so each child gets three sibling links plus its hub's. */
 export function relatedSiblings(
   file: string,
-): { kicker: string; items: { href: string; title: string; description: string }[] } | null {
+): {
+  kicker: string;
+  items: { href: string; title: string; description: string; tag?: string }[];
+} | null {
   for (const [hub, kicker] of Object.entries(RELATED_SIBLINGS)) {
     const siblings = (HUB_CHILDREN[hub] || []).filter((c) => !HUB_CHILDREN[c.file]);
     const idx = siblings.findIndex((c) => c.file === file);
     if (idx < 0) continue;
     const items = cyclicNeighbors(siblings, idx).map((c) => ({
       href: c.href,
-      title: getPage(c.file).h1,
+      title: shortTitle(c.file),
       description: cardBlurb(c.file),
+      tag: c.tag,
     }));
     return { kicker, items };
   }

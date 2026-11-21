@@ -9,7 +9,7 @@ export default function RelatedCards({
   items,
 }: {
   kicker: string;
-  items: { href: string; title: string; description: string }[];
+  items: { href: string; title: string; description: string; tag?: string }[];
 }) {
   if (items.length === 0) return null;
   return (
@@ -32,6 +32,7 @@ export default function RelatedCards({
             title={g.title}
             description={g.description}
             href={g.href}
+            tag={g.tag}
           />
         ))}
       </div>

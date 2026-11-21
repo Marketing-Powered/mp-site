@@ -88,6 +88,7 @@ export function Figure({
   quality = 70,
   shadow = true,
   fit = "contain",
+  sizes = "(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 48vw",
 }: {
   src: string;
   alt: string;
@@ -103,6 +104,10 @@ export function Figure({
   quality?: number;
   shadow?: boolean;
   fit?: "contain" | "cover";
+  /** Rendered width, for srcset selection. The default suits a figure that is
+      near full-bleed on phones and half the container on desktop; pass the
+      exact width where a smaller variant would do (the homepage hero). */
+  sizes?: string;
 }) {
   return (
     <figure className={className}>
@@ -122,7 +127,7 @@ export function Figure({
           preload={priority}
           fetchPriority={fetchPriority}
           quality={quality}
-          sizes="(max-width: 640px) 92vw, (max-width: 1024px) 88vw, 48vw"
+          sizes={sizes}
           className={fit === "contain" ? "object-contain" : "object-cover"}
           style={
             fit === "contain"

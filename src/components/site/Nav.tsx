@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Logo } from "@/components/brand";
 import { mono } from "./theme";
 import { ModalCta } from "./LeadModal";
-import { CallCta } from "./ui";
+import { CallCta } from "./call";
 import { MobileCallButton, StickyCallBar } from "./MobileCallButton";
 
 const PRIMARY_NAV = [

@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { siteContent as s } from "@/lib/content";
+import { BRAND } from "@/lib/brand";
 import { ModalCta } from "./LeadModal";
-import { CallCta } from "./ui";
+import { CallCta } from "./call";
 
 /* Fixed bottom bar shown only on mobile (hidden on md+). Appears once
    the visitor scrolls past the hero, hides while scrolling down, and
@@ -72,7 +72,7 @@ export default function StickyMobileCta({
       <p className="mt-2 text-center text-[12px] text-white/45">
         or{" "}
         <a
-          href={`mailto:${s.brand.email}`}
+          href={`mailto:${BRAND.email}`}
           className="text-[#7FCBFF] underline underline-offset-2"
         >
           email us

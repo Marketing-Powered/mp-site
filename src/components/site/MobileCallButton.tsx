@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { Bolt, brand } from "@/components/brand";
-import { siteContent as s } from "@/lib/content";
-import { FOCUS_RING, PhoneIcon } from "./ui";
+import { BRAND } from "@/lib/brand";
+import { FOCUS_RING, PhoneIcon } from "./call";
 
 /* Tap-to-call for phones.
 
@@ -22,8 +22,8 @@ import { FOCUS_RING, PhoneIcon } from "./ui";
 export function MobileCallButton({ className = "" }: { className?: string }) {
   return (
     <a
-      href={`tel:${s.brand.phoneE164}`}
-      aria-label={`Call Marketing Powered at ${s.brand.phone}`}
+      href={`tel:${BRAND.phoneE164}`}
+      aria-label={`Call Marketing Powered at ${BRAND.phone}`}
       data-cta="call"
       className={`inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#0090F0] text-black shadow-[0_8px_26px_-10px_rgba(0,144,240,0.95)] transition hover:brightness-110 active:translate-y-px active:brightness-95 ${FOCUS_RING} ${className}`}
     >

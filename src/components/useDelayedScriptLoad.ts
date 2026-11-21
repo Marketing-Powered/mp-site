@@ -2,29 +2,63 @@
 
 import { useEffect, useState } from "react";
 
-/* Gate for third-party scripts: returns false until `delayMs` has passed (or
-   the visitor interacts, whichever comes first), then true.
+/* Gate for third-party scripts (Google tag, chat widget, ad pixels). Returns
+   false until one of two things happens, then true:
 
-   `delayMs` is measured from navigation start, not from when this effect runs.
-   Hydration is already 0.2-0.9s in on a fast connection and 2.6s in on slow
-   4G, and charging that to the budget twice pushed the launcher past ten
-   seconds on weak connections.
+     - the visitor does something: touches, scrolls, moves the pointer, or
+       presses a key; or
+     - the page has finished loading and then sat for `quietMs`.
 
-   `idleTimeoutMs` bounds the requestIdleCallback that follows the delay, so a
-   busy main thread can only push the load that much further out. Keep it small
-   for scripts whose UI the visitor is meant to see early. */
+   None of these scripts is needed to render or use the page, and together they
+   outweigh the site's own JavaScript. Started any earlier, they compete with
+   the hero image and the hydration bundle for a slow connection and a slow
+   CPU, and lab tools (Lighthouse, PageSpeed Insights) bill every byte that
+   lands before the largest paint to LCP. A visitor who interacts gets them
+   straight away; one who only reads gets them a few seconds after the page
+   has settled.
 
-/* Floor on the remaining wait, so a slow hydration never fires the load in the
-   same frame it finishes. */
-const MIN_REMAINING_MS = 500;
-export default function useDelayedScriptLoad(delayMs: number, idleTimeoutMs = 3000) {
+   `quietMs` runs from the window `load` event, not from navigation start, so
+   a slow connection can't have the timer expire while the page is still
+   loading.
+
+   `settleMs` is an extra wait after an interaction trigger. Every consumer
+   hears the same first touch, so without it they would all start at once, in
+   the middle of the visitor's first scroll. The quiet timers are already
+   spaced apart by their own `quietMs`.
+
+   `idleTimeoutMs` bounds the requestIdleCallback that follows either trigger,
+   so a busy main thread can only push the load that much further out. Keep it
+   small for scripts that should follow the trigger closely. */
+
+const INTERACTION_EVENTS = [
+  "pointerdown",
+  "pointermove",
+  "touchstart",
+  "wheel",
+  "scroll",
+  "keydown",
+] as const;
+
+export default function useDelayedScriptLoad(
+  quietMs: number,
+  { settleMs = 0, idleTimeoutMs = 3000 }: { settleMs?: number; idleTimeoutMs?: number } = {},
+) {
   const [shouldLoad, setShouldLoad] = useState(false);
 
   useEffect(() => {
     if (shouldLoad) return undefined;
 
+    let timeoutId: number | undefined;
     let idleId: number | undefined;
+    let triggered = false;
     let loaded = false;
+
+    const stopListening = () => {
+      for (const type of INTERACTION_EVENTS) window.removeEventListener(type, onInteraction);
+      window.removeEventListener("load", startQuietTimer);
+      if (timeoutId !== undefined) window.clearTimeout(timeoutId);
+      timeoutId = undefined;
+    };
 
     const load = () => {
       if (loaded) return;
@@ -32,6 +66,8 @@ export default function useDelayedScriptLoad(delayMs: number, idleTimeoutMs = 30
       setShouldLoad(true);
     };
 
+    /* Either trigger hands off to an idle callback, so the script never starts
+       in the middle of the frame that is handling the visitor's gesture. */
     const loadWhenIdle = () => {
       if (typeof window.requestIdleCallback === "function") {
         idleId = window.requestIdleCallback(load, { timeout: idleTimeoutMs });
@@ -40,21 +76,39 @@ export default function useDelayedScriptLoad(delayMs: number, idleTimeoutMs = 30
       }
     };
 
-    const elapsed = typeof performance !== "undefined" ? performance.now() : 0;
-    const timeoutId = window.setTimeout(loadWhenIdle, Math.max(MIN_REMAINING_MS, delayMs - elapsed));
+    function onQuiet() {
+      if (triggered) return;
+      triggered = true;
+      stopListening();
+      loadWhenIdle();
+    }
 
-    window.addEventListener("pointerdown", load, { once: true, passive: true });
-    window.addEventListener("keydown", load, { once: true });
+    function onInteraction() {
+      if (triggered) return;
+      triggered = true;
+      stopListening();
+      if (settleMs > 0) timeoutId = window.setTimeout(loadWhenIdle, settleMs);
+      else loadWhenIdle();
+    }
+
+    function startQuietTimer() {
+      timeoutId = window.setTimeout(onQuiet, quietMs);
+    }
+
+    for (const type of INTERACTION_EVENTS) {
+      window.addEventListener(type, onInteraction, { passive: true });
+    }
+    if (document.readyState === "complete") startQuietTimer();
+    else window.addEventListener("load", startQuietTimer);
 
     return () => {
-      window.clearTimeout(timeoutId);
+      stopListening();
+      if (timeoutId !== undefined) window.clearTimeout(timeoutId);
       if (idleId !== undefined && typeof window.cancelIdleCallback === "function") {
         window.cancelIdleCallback(idleId);
       }
-      window.removeEventListener("pointerdown", load);
-      window.removeEventListener("keydown", load);
     };
-  }, [delayMs, idleTimeoutMs, shouldLoad]);
+  }, [quietMs, settleMs, idleTimeoutMs, shouldLoad]);
 
   return shouldLoad;
 }

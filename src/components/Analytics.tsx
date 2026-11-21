@@ -1,5 +1,5 @@
-import Script from "next/script";
 import DelayedAdPixels from "@/components/DelayedAdPixels";
+import DelayedGoogleTag from "@/components/DelayedGoogleTag";
 
 /* Analytics / tracking pixels.
 
@@ -8,6 +8,11 @@ import DelayedAdPixels from "@/components/DelayedAdPixels";
    hardcoded to work in production without env setup. GA4 can still be overridden
    via NEXT_PUBLIC_GA4_ID, but defaults to the live property — and is configured
    inside this one gtag init so GA4 is never loaded twice.
+
+   Nothing here loads with the page. Every script waits behind the shared gate
+   in useDelayedScriptLoad (first interaction, or a few quiet seconds after
+   window load), staggered so they don't arrive in one burst: Google tag first,
+   then chat (TawkChat), then the ad pixels.
 
    Meta Pixel loads site-wide too — hardcoded to the live pixel so it fires in
    production without env setup, with NEXT_PUBLIC_META_PIXEL_ID as an optional
@@ -31,18 +36,10 @@ export default function Analytics() {
       {/* Google Tag — one gtag.js load, then config for the GT container, GA4,
           and Google Ads. Loading the GT id bootstraps the stack; GA4 is folded
           into this init rather than a second loader. */}
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TAG_ID}`}
-        strategy="lazyOnload"
+      <DelayedGoogleTag
+        tagId={GOOGLE_TAG_ID}
+        configIds={[GOOGLE_TAG_ID, GA4_ID, GOOGLE_ADS_ID]}
       />
-      <Script id="gtag-init" strategy="lazyOnload">
-        {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${GOOGLE_TAG_ID}');
-gtag('config', '${GA4_ID}');
-gtag('config', '${GOOGLE_ADS_ID}');`}
-      </Script>
 
       {/* No LinkedIn <noscript> image fallback: px.ads.linkedin.com is
           disallowed by LinkedIn's robots.txt, so every page was flagged by

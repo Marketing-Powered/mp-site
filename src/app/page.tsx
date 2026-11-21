@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { homeContent as c } from "@/lib/home";
 import { siteContent as s } from "@/lib/content";
@@ -23,7 +21,17 @@ import { INK, serif, sans, mono } from "@/components/site/theme";
 /* contextual links are real anchors, and photographs are decorative    */
 /* (empty alt text): they illustrate the section they sit in without    */
 /* being presented as staff, offices, client work, or results.          */
+/*                                                                      */
+/* This file is a Server Component: the copy and markup below never     */
+/* ship as JavaScript. Only the interactive pieces it renders (nav,     */
+/* scroll reveals, modal CTAs, the mobile bar) hydrate in the browser.  */
 /* ================================================================== */
+
+/* The hero image's real rendered width, so phones are served the 640px
+   variant rather than the 750px one and desktops the 1080px one rather than
+   1920px: full-bleed minus the 24px gutters below lg, then the right-hand
+   grid column of the 1280px container. */
+const HERO_SIZES = "(max-width: 1023px) calc(100vw - 48px), (max-width: 1280px) 42vw, 536px";
 
 const PRIMARY_BTN = `group relative inline-flex min-h-[44px] items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-[#7FCBFF] to-[#0090F0] px-8 py-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-black shadow-[0_10px_40px_-12px_rgba(0,144,240,0.6)] ${FOCUS_RING}`;
 
@@ -208,6 +216,7 @@ export default function HomePage() {
               rounded="26px"
               priority
               fetchPriority="high"
+              sizes={HERO_SIZES}
               fit="cover"
               className="relative"
             />

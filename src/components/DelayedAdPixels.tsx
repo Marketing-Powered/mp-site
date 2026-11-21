@@ -3,7 +3,11 @@
 import Script from "next/script";
 import useDelayedScriptLoad from "@/components/useDelayedScriptLoad";
 
-const PIXEL_DELAY_MS = 7000;
+/* After window load. Last of the third-party scripts, behind the Google tag
+   and the chat widget. */
+const PIXEL_QUIET_MS = 7000;
+/* After a first interaction: behind the Google tag and the chat widget. */
+const PIXEL_SETTLE_MS = 3000;
 
 export default function DelayedAdPixels({
   linkedInPartnerId,
@@ -12,7 +16,7 @@ export default function DelayedAdPixels({
   linkedInPartnerId: string;
   metaPixelId: string;
 }) {
-  const shouldLoad = useDelayedScriptLoad(PIXEL_DELAY_MS);
+  const shouldLoad = useDelayedScriptLoad(PIXEL_QUIET_MS, { settleMs: PIXEL_SETTLE_MS });
 
   if (!shouldLoad) return null;
 

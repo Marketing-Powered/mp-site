@@ -1,15 +1,9 @@
+import { BRAND } from "./brand";
+
 export const siteContent = {
-  brand: {
-    name: "Marketing Powered",
-    /** Display form. The Google Business Profile number — keep these three in
-        step: `phone` is what visitors read, `phoneE164` is what they dial and
-        what the LocalBusiness/Organization schema publishes. */
-    phone: "(561) 560-6804",
-    phoneE164: "+15615606804",
-    email: "info@marketingpowered.ai",
-    address: "9494 Osprey Isles Blvd, Palm Beach Gardens, FL 33412",
-    tagline: "AI Marketing Agency for Behavioral Health",
-  },
+  /* Phone, email and address live in ./brand so client components can import
+     them on their own. */
+  brand: BRAND,
   seo: {
     title: "AI Marketing Agency for Behavioral Health",
     description:

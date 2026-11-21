@@ -12,10 +12,14 @@ const manrope = Manrope({
   variable: "--font-manrope",
 });
 
+/* Upright only. next/font preloads every file a declaration names, and the
+   italic face (82 KB, the largest font on the site) is set in exactly one
+   place: the /design-1 concept page, which declares it for itself. Listing it
+   here preloaded it on every page ahead of the hero image. */
 const fraunces = Fraunces({
   subsets: ["latin"],
   display: "swap",
-  style: ["normal", "italic"],
+  style: ["normal"],
   axes: ["opsz"],
   variable: "--font-fraunces",
 });

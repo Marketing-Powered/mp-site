@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { Fraunces } from "next/font/google";
 import { siteContent as s } from "@/lib/content";
 import Reveal from "@/components/Reveal";
 import { Logo, Figure } from "@/components/brand";
@@ -13,8 +14,19 @@ import { Logo, Figure } from "@/components/brand";
 /*  Think Linear's precision dressed in luxury-brand restraint.        */
 /* ================================================================== */
 
+/* The italic serif is only set on this page, so it is declared here rather
+   than in the root layout, where it would be preloaded site-wide. */
+const frauncesItalic = Fraunces({
+  subsets: ["latin"],
+  display: "swap",
+  style: ["italic"],
+  axes: ["opsz"],
+  variable: "--font-fraunces-italic",
+});
+
 const INK = "#050B16";
 const serif = "var(--font-fraunces), Georgia, serif";
+const serifItalic = "var(--font-fraunces-italic), var(--font-fraunces), Georgia, serif";
 const sans = "var(--font-manrope), system-ui, sans-serif";
 const mono = "var(--font-space-mono), ui-monospace, monospace";
 
@@ -36,7 +48,7 @@ export default function Design1() {
   return (
     <div
       style={{ background: INK, color: "#EDEAE3", fontFamily: sans }}
-      className="relative min-h-screen overflow-hidden"
+      className={`relative min-h-screen overflow-hidden ${frauncesItalic.variable}`}
     >
       {/* film-grain + vignette atmosphere */}
       <div
@@ -106,6 +118,7 @@ export default function Design1() {
               <span
                 className="italic"
                 style={{
+                  fontFamily: serifItalic,
                   background:
                     "linear-gradient(100deg,#7FCBFF,#0090F0 60%,#0066CC)",
                   WebkitBackgroundClip: "text",
@@ -186,7 +199,7 @@ export default function Design1() {
                 <span
                   key={`${dup}-${i}`}
                   className="flex items-center gap-16 text-[15px] uppercase tracking-[0.2em] text-white/35"
-                  style={{ fontFamily: serif, fontStyle: "italic" }}
+                  style={{ fontFamily: serifItalic, fontStyle: "italic" }}
                 >
                   {t}
                   <span className="text-[#0090F0]">✦</span>

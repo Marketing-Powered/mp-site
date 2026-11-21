@@ -9,8 +9,10 @@
  *   node scripts/studio-ship.mjs done <id> <commit> # report the page built (records the live URL on the card)
  *   node scripts/studio-ship.mjs failed <id> "why"  # report the page not built (the card shows the reason)
  *
- * Needs the studio's builder token in .studio-ship/token (or STUDIO_BUILD_TOKEN) and optionally STUDIO_API
- * (default https://maios.marketingpowered.ai/api/studio). See .claude/skills/studio-ship/SKILL.md for the full procedure.
+ * Talks to the studio running on this Mac (http://127.0.0.1:4173, installed by content-studio/mac/install.sh) when
+ * it answers, otherwise to the hosted one (https://maios.marketingpowered.ai/api/studio, which needs the builder token
+ * in .studio-ship/token or STUDIO_BUILD_TOKEN). STUDIO_API picks one explicitly. See
+ * .claude/skills/studio-ship/SKILL.md for the full procedure.
  */
 import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync, unlinkSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -18,15 +20,26 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const API = (process.env.STUDIO_API || 'https://maios.marketingpowered.ai/api/studio').replace(/\/+$/, '');
+const HOSTED_STUDIO = 'https://maios.marketingpowered.ai/api/studio';
+const LOCAL_STUDIO = 'http://127.0.0.1:4173';
+const isLocal = (url) => /^https?:\/\/(127\.0\.0\.1|localhost|\[::1\])(:\d+)?$/.test(url);
+let API = (process.env.STUDIO_API || '').replace(/\/+$/, '');
+/** The studio on this Mac when it answers, otherwise the hosted one (unless STUDIO_API says which). */
+async function studioApi() {
+  if (API) return API;
+  try { if ((await fetch(`${LOCAL_STUDIO}/api/health`, { signal: AbortSignal.timeout(1500) })).ok) return (API = LOCAL_STUDIO); } catch { /* not running here */ }
+  return (API = HOSTED_STUDIO);
+}
 // The token comes from the environment or from .studio-ship/token (git-ignored), so it never has to appear in a command.
 const tokenFile = join(ROOT, '.studio-ship', 'token');
 const TOKEN = (process.env.STUDIO_BUILD_TOKEN || (existsSync(tokenFile) ? readFileSync(tokenFile, 'utf8') : '')).trim();
 const WORK = join(ROOT, '.studio-ship');
 
 async function api(path, method = 'GET', body) {
-  if (!TOKEN) throw new Error('No builder token: put it in .studio-ship/token (or set STUDIO_BUILD_TOKEN).');
-  const r = await fetch(`${API}${path}`, { method, headers: { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json', 'X-MAIOS-Actor': 'MP site builder' }, body: body ? JSON.stringify(body) : undefined });
+  const base = await studioApi();
+  // The studio on this Mac only listens to this Mac and asks for no token.
+  if (!TOKEN && !isLocal(base)) throw new Error('No builder token: put it in .studio-ship/token (or set STUDIO_BUILD_TOKEN). Or run the build on the Mac where the studio runs.');
+  const r = await fetch(`${base}${path}`, { method, headers: { ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}), 'Content-Type': 'application/json', 'X-MAIOS-Actor': 'MP site builder' }, body: body ? JSON.stringify(body) : undefined });
   if (!r.ok) throw new Error(`${method} ${path}: HTTP ${r.status} ${(await r.text()).slice(0, 300)}`);
   return (r.headers.get('content-type') || '').includes('json') ? r.json() : Buffer.from(await r.arrayBuffer());
 }

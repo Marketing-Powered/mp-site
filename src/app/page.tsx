@@ -179,6 +179,11 @@ export default function HomePage() {
         <Nav />
       </div>
 
+      {/* Everything between the nav and the footer is the page's main
+          landmark, as on interior pages (PageShell). Screen-reader users jump
+          straight to it; without it the page fails the "one main landmark"
+          accessibility check. <main> is unstyled, so nothing moves. */}
+      <main>
       {/* ---------- 01 HERO AND VALUE PROPOSITION ---------- */}
       <section
         id="hero"
@@ -529,6 +534,8 @@ export default function HomePage() {
           </div>
         </Reveal>
       </section>
+
+      </main>
 
       {/* ---------- FOOTER ---------- */}
       <Footer />

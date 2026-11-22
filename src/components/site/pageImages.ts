@@ -86,6 +86,66 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/services/churn-analysis/": [
+    // [0] hero
+    studioImg(
+      "services/churn-analysis",
+      "churn-analysis-services.webp",
+      "Operations, finance, and marketing leaders reviewing printed retention notes around a conference table in natural daylight.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/churn-analysis",
+      "churn-analysis-services-decision-diagram-showing-four-churn.webp",
+      "Decision diagram showing four churn categories flowing into cohort structure before deciding whether prediction is justified.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/churn-analysis",
+      "churn-analysis-services-customer-operations-managers-reviewing.webp",
+      "Customer operations managers reviewing printed onboarding workflow notes together at a sunlit desk with human oversight.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/churn-analysis",
+      "churn-analysis-services-marketing-leader-revenue-analyst.webp",
+      "A marketing leader and revenue analyst comparing printed acquisition and retention sheets at a glass-walled office table.",
+      "3 / 2",
+    ),
+  ],
+  "/services/private-ai-agency/": [
+    // [0] hero
+    studioImg(
+      "services/private-ai-agency",
+      "private-ai-agency.webp",
+      "A company operations leader and technical specialist review a printed system boundary schematic together across a sunlit office table.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/private-ai-agency",
+      "private-ai-agency-operations-manager-intake-coordinator.webp",
+      "An operations manager and intake coordinator review printed workflow checklists together at a quiet office workstation.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/private-ai-agency",
+      "private-ai-agency-six-step-process-diagram-showing.webp",
+      "Six-step process diagram showing Assessment, Dataset approval, Prototype, Evaluation, Controlled rollout, and Handoff in sequence.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/private-ai-agency",
+      "private-ai-agency-three-business-governance-leaders.webp",
+      "Three business and governance leaders compare printed evaluation packets and scope checklists around a bright conference table.",
+      "3 / 2",
+    ),
+  ],
   "/resources/first-party-data-vs-third-party-data/": [
     // [0] hero
     studioImg(

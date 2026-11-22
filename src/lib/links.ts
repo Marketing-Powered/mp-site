@@ -372,6 +372,8 @@ const VALID = new Set<string>([
   "/resources/google-ads-dashboard",
   "/resources/google-ads-audit",
   "/resources/first-party-data-vs-third-party-data",
+  "/services/private-ai-agency",
+  "/services/churn-analysis",
 ]);
 
 const REMAP: Record<string, string> = {

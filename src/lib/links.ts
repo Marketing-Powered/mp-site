@@ -366,6 +366,12 @@ const VALID = new Set<string>([
   "/resources/marketing-attribution-in-salesforce",
   "/resources/telehealth-marketing",
   "/resources/behavioral-health-vs-mental-health",
+  "/services/mental-health-marketing-agency",
+  "/resources/addiction-treatment-marketing",
+  "/resources/conversion-rate-optimization-examples",
+  "/resources/google-ads-dashboard",
+  "/resources/google-ads-audit",
+  "/resources/first-party-data-vs-third-party-data",
 ]);
 
 const REMAP: Record<string, string> = {

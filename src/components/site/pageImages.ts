@@ -86,6 +86,179 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/first-party-data-vs-third-party-data/": [
+    // [0] hero
+    studioImg(
+      "resources/first-party-data-vs-third-party-data",
+      "first-party-data-vs-third-party-data.webp",
+      "Healthcare marketing director and data analyst reviewing digital acquisition metrics on a display in an office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/first-party-data-vs-third-party-data",
+      "first-party-data-vs-third-party-data-healthcare-intake-coordinator-entering.webp",
+      "Healthcare intake coordinator entering patient consultation details into an office workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/first-party-data-vs-third-party-data",
+      "first-party-data-vs-third-party-data-diagram-showing-first-party-data-flowing.webp",
+      "Diagram showing first-party data flowing from user submission to server container, hashing, CRM, and ad network API.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/google-ads-audit/": [
+    // [0] hero
+    studioImg(
+      "resources/google-ads-audit",
+      "google-ads-audit.webp",
+      "A marketing director and paid media analyst review paid search campaign audit data together at a conference table.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/google-ads-audit",
+      "google-ads-audit-healthcare-intake-coordinator-verifies.webp",
+      "A healthcare intake coordinator verifies patient intake records at an administrative desk while handling a call.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/google-ads-audit",
+      "google-ads-audit-two-healthcare-operations-managers.webp",
+      "Two healthcare operations managers examine regional clinic territory boundaries and capacity in an office.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/google-ads-audit",
+      "google-ads-audit-four-step-audit-workflow-diagram-showing.webp",
+      "A four-step audit workflow diagram showing tracking audit, query scrub, network lock, and intake alignment.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/google-ads-dashboard/": [
+    // [0] hero
+    studioImg(
+      "resources/google-ads-dashboard",
+      "google-ads-dashboard.webp",
+      "Marketing director and media analyst reviewing campaign metrics at a conference table in a modern clinic office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/google-ads-dashboard",
+      "google-ads-dashboard-paid-search-strategist-analyzing.webp",
+      "Paid search strategist analyzing campaign trend lines and impression share metrics on a desktop monitor.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/google-ads-dashboard",
+      "google-ads-dashboard-architecture-diagram-showing-ad-network.webp",
+      "Architecture diagram showing ad network data separated from CRM admission records via an anonymized lead identifier.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/google-ads-dashboard",
+      "google-ads-dashboard-senior-paid-media-team-discussing-search.webp",
+      "Senior paid media team discussing search campaign attribution workflows during an executive audit session.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/conversion-rate-optimization-examples/": [
+    // [0] hero
+    studioImg(
+      "resources/conversion-rate-optimization-examples",
+      "conversion-rate-optimization-examples.webp",
+      "A marketing director and intake supervisor analyze digital conversion performance on desktop monitors in a sunlit administrative office.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/conversion-rate-optimization-examples",
+      "conversion-rate-optimization-examples-healthcare-intake-coordinator-headset.webp",
+      "A healthcare intake coordinator with a headset reviews an inbound digital referral at a sunlit workstation.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/conversion-rate-optimization-examples",
+      "conversion-rate-optimization-examples-horizontal-diagram-illustrating-three.webp",
+      "A horizontal diagram illustrating three conversion rate optimization techniques: message matching, contextual proof, and friction calibration.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/conversion-rate-optimization-examples",
+      "conversion-rate-optimization-examples-healthcare-operations-leaders-discuss.webp",
+      "Healthcare operations leaders discuss statistical testing models around a conference table in an administrative suite.",
+      "79 / 53",
+    ),
+  ],
+  "/resources/addiction-treatment-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/addiction-treatment-marketing",
+      "addiction-treatment-marketing.webp",
+      "Executive and clinical leadership team discussing admissions strategy at an addiction treatment facility.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/addiction-treatment-marketing",
+      "addiction-treatment-marketing-diagram-comparing-non-compliant.webp",
+      "Diagram comparing non-compliant addiction marketing triggers with a compliant acquisition pipeline.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/addiction-treatment-marketing",
+      "addiction-treatment-marketing-exterior-welcoming-entrance-accredited.webp",
+      "Exterior and welcoming entrance of an accredited addiction treatment center.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/addiction-treatment-marketing",
+      "addiction-treatment-marketing-attribution-flowchart-connecting.webp",
+      "Attribution flowchart connecting marketing clicks to verified patient admission stages.",
+      "79 / 53",
+    ),
+  ],
+  "/services/mental-health-marketing-agency/": [
+    // [0] hero
+    studioImg(
+      "services/mental-health-marketing-agency",
+      "mental-health-marketing-agency.webp",
+      "A clinical director and admissions supervisor review intake data on a laptop in an outpatient center conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "services/mental-health-marketing-agency",
+      "mental-health-marketing-agency-photo-why-behavioral-healthcare.webp",
+      "A manager points at a spreadsheet while an intake coordinator in a headset takes notes at a busy call-center desk.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "services/mental-health-marketing-agency",
+      "mental-health-marketing-agency-healthcare-executives-discuss.webp",
+      "Healthcare executives discuss operational vendor evaluation criteria around a conference table in an administrative office.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "services/mental-health-marketing-agency",
+      "mental-health-marketing-agency-process-diagram-illustrating-four-core.webp",
+      "Process diagram illustrating four core mental health acquisition services from compliant search to intake automation.",
+      "79 / 53",
+    ),
+  ],
   "/resources/behavioral-health-vs-mental-health/": [
     // [0] hero
     studioImg(

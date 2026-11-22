@@ -360,6 +360,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/services/healthcare-marketing-agency", file: "services/healthcare-marketing-agency.md" },
     { href: "/services/ai-seo-marketing-agency", file: "services/ai-seo-marketing-agency.md" },
     { href: "/services/ai-agents-for-marketing-agency", file: "services/ai-agents-for-marketing-agency.md" },
+    { href: "/services/mental-health-marketing-agency", file: "services/mental-health-marketing-agency.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },
@@ -587,6 +588,11 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/resources/marketing-attribution-in-salesforce", file: "resources/marketing-attribution-in-salesforce.md" },
     { href: "/resources/telehealth-marketing", file: "resources/telehealth-marketing.md" },
     { href: "/resources/behavioral-health-vs-mental-health", file: "resources/behavioral-health-vs-mental-health.md" },
+    { href: "/resources/addiction-treatment-marketing", file: "resources/addiction-treatment-marketing.md" },
+    { href: "/resources/conversion-rate-optimization-examples", file: "resources/conversion-rate-optimization-examples.md" },
+    { href: "/resources/google-ads-dashboard", file: "resources/google-ads-dashboard.md" },
+    { href: "/resources/google-ads-audit", file: "resources/google-ads-audit.md" },
+    { href: "/resources/first-party-data-vs-third-party-data", file: "resources/first-party-data-vs-third-party-data.md" },
   ],
   "legal/index.md": [
     { href: "/legal/terms", file: "legal/terms.md" },

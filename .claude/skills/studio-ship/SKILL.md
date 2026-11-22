@@ -5,14 +5,16 @@ description: Build pages handed over from MAIOS Content Studio (MP FRESH > Ship 
 
 # Ship pages from MAIOS Content Studio
 
-Content Studio holds the finished pages. It runs on Mike's Mac (http://127.0.0.1:4173, installed by
-`content-studio/mac/install.sh` in mpaios-dashboard); the hosted copy at maios.marketingpowered.ai/content-studio is
-the fallback. The script uses the Mac's studio whenever it answers, so build on that Mac (or in a session attached to
-its mp-site folder). A session elsewhere cannot reach it: `queue` then falls back to the hosted studio. A card moved to **Ship to dev**
-waits in the ship queue; the batch is **ready** once 5 minutes pass with no new card arriving. Build the ready
-batch (at most 30 pages, highest priority first), merge to `main`, push, and report each page back. The studio shows the result on each card.
+Content Studio (part of MAIOS) holds the finished pages. MAIOS runs on Mike's Mac (http://127.0.0.1:3000, installed
+by `mac/install.sh` in mpaios-dashboard); the hosted copy at maios.marketingpowered.ai is the fallback. A card moved
+to **Ship to dev** waits in the ship queue; the batch is **ready** once 5 minutes pass with no new card arriving.
+Build the ready batch (at most 30 pages, highest priority first), merge to `main`, push, and report each page back.
+The studio shows the result on each card.
 
-The studio on the Mac needs no token. For the hosted studio, the builder token goes in `.studio-ship/token` (git-ignored; write it with the file tool, not on a command line). The script reads it from there. It only opens the ship queue and image downloads.
+The script uses MAIOS on the Mac whenever it answers, with the builder token from MAIOS's settings file, so build on
+that Mac (or in a session attached to its mp-site folder). For the hosted studio, the builder token goes in
+`.studio-ship/token` (git-ignored; write it with the file tool, not on a command line). The token only opens the ship
+queue and image downloads.
 
 ## 1. Check the queue
 

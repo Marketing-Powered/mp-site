@@ -4,7 +4,7 @@ import "./globals.css";
 import Analytics from "@/components/Analytics";
 import TawkChat from "@/components/TawkChat";
 import { LeadModalProvider } from "@/components/site/LeadModal";
-import { SITE_URL, SITE_NAME, SITE_TITLE, SITE_DESCRIPTION } from "@/lib/site";
+import { SITE_URL, SITE_NAME, SITE_TITLE, SITE_DESCRIPTION, FEED_PATH, FEED_TITLE } from "@/lib/site";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -72,6 +72,10 @@ export default function RootLayout({
       lang="en"
       className={`h-full antialiased ${manrope.variable} ${fraunces.variable} ${spaceMono.variable}`}
     >
+      <head>
+        {/* Feed discovery for readers and aggregators (resources library). */}
+        <link rel="alternate" type="application/rss+xml" title={FEED_TITLE} href={FEED_PATH} />
+      </head>
       <body className={`${manrope.className} min-h-full flex flex-col`}>
         <LeadModalProvider>{children}</LeadModalProvider>
         <Analytics />

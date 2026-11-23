@@ -23,3 +23,7 @@ export const SITE_DESCRIPTION =
 export function absoluteUrl(path = "/") {
   return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
 }
+
+/** RSS feed of the resources library (served by app/feed.xml/route.ts). */
+export const FEED_PATH = "/feed.xml";
+export const FEED_TITLE = "Marketing Powered Resources";

@@ -1,0 +1,1845 @@
+{
+  "generatedAt": "2026-11-23T19:31:25.105Z",
+  "pages": {
+    "accessibility.md": {
+      "published": "2026-06-20T13:33:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "ai-edge/ai-governance.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "ai-edge/ai-in-paid-media.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "ai-edge/customizable-ai.md": {
+      "published": "2026-11-06T14:03:38-05:00",
+      "updated": "2026-11-06T14:03:38-05:00"
+    },
+    "ai-edge/data-sovereignty.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-18T01:16:14+00:00"
+    },
+    "ai-edge/index.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "ai-edge/local-processing.md": {
+      "published": "2026-11-06T14:03:38-05:00",
+      "updated": "2026-11-06T14:03:38-05:00"
+    },
+    "ai-edge/open-source.md": {
+      "published": "2026-11-06T14:03:38-05:00",
+      "updated": "2026-11-06T14:03:38-05:00"
+    },
+    "ai-edge/owned-ai-systems.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-17T22:02:10+00:00"
+    },
+    "ai-edge/social-media.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-08-27T14:52:54+00:00"
+    },
+    "areas-we-serve.md": {
+      "published": "2026-11-16T21:50:57+00:00",
+      "updated": "2026-11-16T22:10:10+00:00"
+    },
+    "areas-we-serve/jupiter.md": {
+      "published": "2026-11-16T22:23:43+00:00",
+      "updated": "2026-11-16T22:23:43+00:00"
+    },
+    "areas-we-serve/palm-beach-gardens.md": {
+      "published": "2026-11-16T21:50:57+00:00",
+      "updated": "2026-11-16T22:10:10+00:00"
+    },
+    "areas-we-serve/west-palm-beach.md": {
+      "published": "2026-11-16T22:23:43+00:00",
+      "updated": "2026-11-16T22:23:43+00:00"
+    },
+    "company/about.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-09T03:31:41+00:00"
+    },
+    "company/ai-systems-policy.md": {
+      "published": "2026-06-20T13:33:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "company/contact.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-08T21:36:07-05:00"
+    },
+    "company/data-sovereignty.md": {
+      "published": "2026-06-20T13:33:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "company/index.md": {
+      "published": "2026-06-20T13:33:37-04:00",
+      "updated": "2026-07-06T15:18:24-04:00"
+    },
+    "company/security.md": {
+      "published": "2026-06-20T13:33:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "get-started/book-a-call.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "get-started/index.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "get-started/qualification.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "get-started/request-an-audit.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "get-started/thanks.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "legal/advertising-disclaimer.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "legal/cookie-policy.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "legal/hipaa-phi-disclaimer.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "legal/index.md": {
+      "published": "2026-06-20T13:33:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "legal/privacy-policy.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-06-06T23:16:03-04:00"
+    },
+    "legal/terms.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "media/brand-assets.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-06-20T13:17:45-04:00"
+    },
+    "media/editorial-topics.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "media/email-marketing.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-07-06T15:18:24-04:00"
+    },
+    "media/guest-contributions.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "media/index.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "media/media-kit.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "media/newsroom.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-11-09T19:06:38+00:00"
+    },
+    "media/pitch-guidelines.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "media/podcast-appearances.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "media/press.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "media/syndication.md": {
+      "published": "2026-06-20T13:17:45-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "problems/fix-attribution.md": {
+      "published": "2026-06-20T13:26:13-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "problems/fix-lead-quality.md": {
+      "published": "2026-06-20T13:26:13-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "problems/increase-qualified-calls.md": {
+      "published": "2026-06-20T13:26:13-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "problems/reduce-cpa.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "problems/scale-multi-location-campaigns.md": {
+      "published": "2026-06-20T13:26:13-04:00",
+      "updated": "2026-11-16T22:23:43+00:00"
+    },
+    "research/index.md": {
+      "published": "2026-06-20T13:22:52-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "research/peptide-advertising-restrictions-evidence-review.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "research/studies/annual-paid-media-and-ai-trends.md": {
+      "published": "2026-06-20T13:22:52-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "research/studies/attribution-reality-check.md": {
+      "published": "2026-06-20T13:22:52-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "research/studies/index.md": {
+      "published": "2026-06-20T13:22:52-04:00",
+      "updated": "2026-07-06T19:25:32-04:00"
+    },
+    "research/studies/llm-advertising-early-signals.md": {
+      "published": "2026-06-20T13:22:52-04:00",
+      "updated": "2026-11-09T19:06:38+00:00"
+    },
+    "research/studies/meta-ads-benchmarks.md": {
+      "published": "2026-06-20T13:22:52-04:00",
+      "updated": "2026-06-20T13:22:52-04:00"
+    },
+    "resources/42-cfr-part-2-marketing-data.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/addiction-treatment-content-marketing.md": {
+      "published": "2026-11-17T03:20:14+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/addiction-treatment-marketing.md": {
+      "published": "2026-11-22T22:18:27+00:00",
+      "updated": "2026-11-22T22:18:27+00:00"
+    },
+    "resources/addiction-treatment-seo.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/admissions-marketing.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/ai-agents-for-marketing.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/ai-data-readiness-checklist.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/ai-for-healthcare-marketing.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/ai-in-marketing.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "resources/ai-infrastructure.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/ai-knowledge-base-permissions.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/ai-marketing-ideas.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/ai-marketing-tools.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/ai-marketing.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/ai-ownership.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/ai-proof-of-concept-success-criteria.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/ai-search-healthcare-patient-acquisition.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/ai-seo-pricing.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/ai-seo-tools.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/answer-engine-optimization.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/attribution-measurement.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-07-18T22:03:59+00:00"
+    },
+    "resources/behavioral-health-intake-automation.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/behavioral-health-marketing-strategies.md": {
+      "published": "2026-11-17T23:40:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/behavioral-health-marketing.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/behavioral-health-vs-mental-health.md": {
+      "published": "2026-11-19T19:42:57+00:00",
+      "updated": "2026-11-19T19:42:57+00:00"
+    },
+    "resources/best-conversion-rate-optimization-tools.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/call-tracking.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/chatgpt-for-marketing.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/choose-healthcare-ppc-agency.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/choose-mental-health-marketing-agency.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "resources/city-pages-for-service-businesses.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "resources/competitive-intelligence-research-methods.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/compliance-ad-policy.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "resources/consent-mode.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/conversion-rate-optimization-examples.md": {
+      "published": "2026-11-22T22:18:27+00:00",
+      "updated": "2026-11-22T22:18:27+00:00"
+    },
+    "resources/conversion-rate-optimization.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/cookieless-tracking.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/cost-per-admission-rehab.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "resources/cost-per-admission.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/cost-per-lead.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/creative-conversion.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-06-20T13:11:47-04:00"
+    },
+    "resources/customer-acquisition-cost-by-industry.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/customer-acquisition-cost.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/data-agency-vs-bi-consultant.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/data-sovereignty.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/dental-marketing.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/detox-center-seo.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "resources/drug-rehab-leads.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/facebook-ads-for-dentists.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/facebook-ads-for-healthcare.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/first-party-data-strategy.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "resources/first-party-data-vs-third-party-data.md": {
+      "published": "2026-11-22T22:18:27+00:00",
+      "updated": "2026-11-22T22:18:27+00:00"
+    },
+    "resources/fractional-cmo.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/franchise-seo.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/generative-engine-optimization-vs-seo.md": {
+      "published": "2026-11-19T19:42:57+00:00",
+      "updated": "2026-11-19T19:42:57+00:00"
+    },
+    "resources/generative-engine-optimization.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/google-ads-audit.md": {
+      "published": "2026-11-22T22:18:27+00:00",
+      "updated": "2026-11-22T22:18:27+00:00"
+    },
+    "resources/google-ads-best-practices.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/google-ads-cost.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/google-ads-dashboard.md": {
+      "published": "2026-11-22T22:18:27+00:00",
+      "updated": "2026-11-22T22:18:27+00:00"
+    },
+    "resources/google-ads-explained.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/google-ads-for-healthcare.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/google-ads-for-rehab.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/google-ads-for-therapists.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-18T23:19:11+00:00"
+    },
+    "resources/google-ads-peptide-drug-terms.md": {
+      "published": "2026-11-23T04:17:25+00:00",
+      "updated": "2026-11-23T04:17:25+00:00"
+    },
+    "resources/google-ads-vs-lsa.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/google-ads.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "resources/google-business-profile-optimization.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/google-maps-vs-website-rankings.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/guides/90-day-agency-onboarding-playbook.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-18T23:27:32+00:00"
+    },
+    "resources/guides/ai-discovery-optimization-what-replaces-traditional-seo.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-06-20T13:11:47-04:00"
+    },
+    "resources/guides/ai-visibility-seo-visibility-complementary.md": {
+      "published": "2026-08-27T05:21:36+00:00",
+      "updated": "2026-09-01T01:57:05+00:00"
+    },
+    "resources/guides/behavioral-health-paid-media-playbook.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "resources/guides/brand-citation-share-ai-metric.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-08-31T03:39:07+00:00"
+    },
+    "resources/guides/building-ai-native-marketing-function.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-09T03:20:10+00:00"
+    },
+    "resources/guides/creative-testing-system-for-meta-ads.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-11-15T04:13:57+00:00"
+    },
+    "resources/guides/cro-six-tests-lead-generation.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-09-01T01:57:05+00:00"
+    },
+    "resources/guides/evaluating-ai-marketing-capabilities.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-09T03:20:10+00:00"
+    },
+    "resources/guides/future-ai-search-2026-2027.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-09T03:20:10+00:00"
+    },
+    "resources/guides/generative-engine-optimization-content.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-09T19:06:38+00:00"
+    },
+    "resources/guides/google-ads-compliance-for-mental-and-behavioral-health.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-08-27T14:52:54+00:00"
+    },
+    "resources/guides/google-ads-match-types-2026-strategy.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-09-01T01:57:05+00:00"
+    },
+    "resources/guides/google-ads-quality-score-optimization.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-08-27T21:48:28+00:00"
+    },
+    "resources/guides/hipaa-digital-marketing-risk.md": {
+      "published": "2026-08-27T05:22:05+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/guides/index.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "resources/guides/intake-attribution-and-call-quality-framework.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-11-17T22:02:10+00:00"
+    },
+    "resources/guides/intake-call-quality-scoring-framework.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-08-27T21:48:28+00:00"
+    },
+    "resources/guides/intake-handoff-marketing-roi.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-08-27T05:20:48+00:00"
+    },
+    "resources/guides/landing-page-optimization-paid-media.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-08-27T05:20:48+00:00"
+    },
+    "resources/guides/llm-seo-vs-traditional-seo-behavioral-health.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-09T19:06:38+00:00"
+    },
+    "resources/guides/marketing-attribution-models-b2b.md": {
+      "published": "2026-08-27T05:21:36+00:00",
+      "updated": "2026-08-27T14:52:54+00:00"
+    },
+    "resources/guides/marketing-mix-modeling-modern-attribution.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/guides/mental-health-marketing-playbook.md": {
+      "published": "2026-08-27T05:29:37+00:00",
+      "updated": "2026-09-01T01:57:05+00:00"
+    },
+    "resources/guides/mental-health-paid-media-playbook.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-06-20T13:11:47-04:00"
+    },
+    "resources/guides/meta-ads-creative-behavioral-health.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-08-27T05:20:48+00:00"
+    },
+    "resources/guides/meta-ads-for-mental-health-practices.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "resources/guides/meta-ads-for-treatment-centers.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/guides/microsoft-ads-behavioral-health.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-08-31T03:39:07+00:00"
+    },
+    "resources/guides/multimodal-ai-search-discovery.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-08-31T03:39:07+00:00"
+    },
+    "resources/guides/phone-call-attribution-treatment-centers.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/guides/private-equity-rollup-threat-treatment-centers.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-09T03:18:37+00:00"
+    },
+    "resources/guides/server-side-tracking-modern-setup.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/guides/why-treatment-center-ceos-fire-marketing-agencies.md": {
+      "published": "2026-08-27T05:20:48+00:00",
+      "updated": "2026-11-17T23:40:29+00:00"
+    },
+    "resources/healthcare-advertising.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/healthcare-campaign-management-systems.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/healthcare-content-marketing.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/healthcare-crm-marketing-integration.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/healthcare-intake-marketing-data-dictionary.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/healthcare-marketing-analytics.md": {
+      "published": "2026-11-18T21:49:02+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/healthcare-marketing-benchmarks.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/healthcare-marketing-budget-by-location.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/healthcare-marketing-compliance-checklist.md": {
+      "published": "2026-11-17T22:02:10+00:00",
+      "updated": "2026-11-17T22:02:10+00:00"
+    },
+    "resources/healthcare-marketing-platform.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/healthcare-marketing-roi.md": {
+      "published": "2026-11-16T22:23:43+00:00",
+      "updated": "2026-11-17T01:20:34+00:00"
+    },
+    "resources/healthcare-marketing.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/healthcare-ppc-advertising-guide.md": {
+      "published": "2026-11-17T03:20:14+00:00",
+      "updated": "2026-11-17T03:20:14+00:00"
+    },
+    "resources/healthcare-ppc.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/healthcare-seo.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/healthcare-tracking-pixel-audit.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hhs-peptide-compounding-policy-marketing.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "resources/hipaa-compliant-ai.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/hipaa-compliant-analytics.md": {
+      "published": "2026-11-17T22:02:10+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hipaa-compliant-call-tracking.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hipaa-compliant-crm.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hipaa-compliant-email-marketing.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hipaa-compliant-marketing-automation.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hipaa-compliant-marketing.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hipaa-compliant-texting.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/hipaa-compliant-web-forms.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hipaa-compliant-website-examples.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hipaa-compliant-website.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hipaa-marketing-authorization.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hospital-marketing-agency-rfp.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hospital-marketing-guide.md": {
+      "published": "2026-11-17T22:02:10+00:00",
+      "updated": "2026-11-17T22:02:10+00:00"
+    },
+    "resources/hospital-marketing-ideas.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/hospital-marketing.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/hospital-service-line-marketing.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/how-does-call-tracking-work.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/how-to-get-more-google-reviews.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/in-house-vs-agency-behavioral-health.md": {
+      "published": "2026-11-17T23:40:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/in-house-vs-agency-marketing.md": {
+      "published": "2026-11-19T19:42:57+00:00",
+      "updated": "2026-11-19T19:42:57+00:00"
+    },
+    "resources/index.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "resources/intake-automation.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/is-google-analytics-hipaa-compliant.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/landing-page-optimization.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/landing-page-vs-website.md": {
+      "published": "2026-11-19T19:42:57+00:00",
+      "updated": "2026-11-19T19:42:57+00:00"
+    },
+    "resources/law-firm-marketing.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/lead-quality.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/lead-tracking.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/legitscript-certification-cost.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/legitscript-certification-guide.md": {
+      "published": "2026-11-17T20:15:57+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/legitscript-certification.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/llm-advertising.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "resources/local-llm.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/local-seo-best-practices.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/local-seo-call-tracking.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "resources/local-seo-cost.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/local-seo-for-dentists.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/local-seo-for-doctors.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/local-seo-for-law-firms.md": {
+      "published": "2026-11-19T19:42:57+00:00",
+      "updated": "2026-11-19T19:42:57+00:00"
+    },
+    "resources/local-seo-for-rehab-centers.md": {
+      "published": "2026-11-18T03:20:26+00:00",
+      "updated": "2026-11-18T03:20:26+00:00"
+    },
+    "resources/local-seo-for-therapists.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/local-seo-vs-google-ads.md": {
+      "published": "2026-11-19T19:42:57+00:00",
+      "updated": "2026-11-19T19:42:57+00:00"
+    },
+    "resources/local-service-ads.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "resources/location-page-seo-healthcare.md": {
+      "published": "2026-11-17T01:20:34+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/market-intelligence-brief-template.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/market-intelligence-cost.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/market-intelligence-vs-market-research.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/market-sizing-tam-sam-som.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/marketing-attribution-in-salesforce.md": {
+      "published": "2026-11-19T19:42:57+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/marketing-attribution-tools.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/marketing-attribution.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/marketing-budget.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/marketing-dashboard.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/marketing-economics.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/marketing-measurement.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/marketing-to-admissions-scorecard.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/measure-patient-acquisition-roi.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/medical-practice-marketing.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/mental-health-advertising-guide.md": {
+      "published": "2026-11-17T01:20:34+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/mental-health-content-marketing.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/mental-health-google-ads.md": {
+      "published": "2026-11-17T03:20:14+00:00",
+      "updated": "2026-11-17T03:20:14+00:00"
+    },
+    "resources/mental-health-marketing-campaigns.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/mental-health-marketing.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/mental-health-practice-marketing.md": {
+      "published": "2026-11-17T03:20:14+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/meta-ads-cost.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/meta-ads.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "resources/meta-health-event-restrictions-peptide-marketing.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "resources/meta-pixel-hipaa.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/multi-location-healthcare-reporting.md": {
+      "published": "2026-11-17T22:02:10+00:00",
+      "updated": "2026-11-17T22:02:10+00:00"
+    },
+    "resources/multi-location-marketing-best-practices.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-18T23:19:11+00:00"
+    },
+    "resources/multi-location-marketing-strategy.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "resources/multi-location-seo.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "resources/multi-touch-attribution.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/offline-conversion-tracking.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/outpatient-rehab-seo.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/paid-media.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "resources/palm-beach-county-local-visibility-audit.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/patient-acquisition.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/peptide-ad-appeal-evidence-packet.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "resources/peptide-ad-suspension-diagnosis.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "resources/peptide-advertiser-identity-verification.md": {
+      "published": "2026-11-23T04:17:25+00:00",
+      "updated": "2026-11-23T04:17:25+00:00"
+    },
+    "resources/peptide-advertising-circumventing-systems.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "resources/peptide-advertising-eligibility.md": {
+      "published": "2026-11-23T04:17:25+00:00",
+      "updated": "2026-11-23T04:17:25+00:00"
+    },
+    "resources/peptide-advertising-policy-monitoring.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-claims-knowledge-base.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-content-clinical-review.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-email-marketing.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-fda-approval-registration-certification.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "resources/peptide-influencer-affiliate-marketing.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-market-research-methodology.md": {
+      "published": "2026-11-23T04:17:25+00:00",
+      "updated": "2026-11-23T04:17:25+00:00"
+    },
+    "resources/peptide-marketing-ad-suspension-continuity.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-marketing-agency-rfp.md": {
+      "published": "2026-11-23T04:17:25+00:00",
+      "updated": "2026-11-23T04:17:25+00:00"
+    },
+    "resources/peptide-marketing-crm-data-governance.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-marketing-geographic-eligibility.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-marketing-in-house-vs-agency.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-marketing-plan-budget.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-reviews-testimonials-marketing.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "resources/peptide-supplement-cosmetic-claims.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/peptide-website-security-ad-recovery.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "resources/performance-max.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/physician-referral-marketing.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/ppc-lead-quality.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/ppc-management.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/privacy-first-marketing.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/private-ai-vendor-evaluation-checklist.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/private-ai-vs-public-ai.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/psychiatry-marketing.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "resources/rag-vs-fine-tuning.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/referral-and-digital-attribution-treatment-centers.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/rehab-advertising-guide.md": {
+      "published": "2026-11-17T20:15:57+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/rehab-marketing-budget.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/rehab-marketing-rfp.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/rehab-ppc-vs-seo.md": {
+      "published": "2026-11-17T03:20:14+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/reputation-management-for-doctors.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/reputation-management-software.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/research-peptide-catalog-architecture.md": {
+      "published": "2026-11-23T05:38:15+00:00",
+      "updated": "2026-11-23T05:38:15+00:00"
+    },
+    "resources/research-use-only-peptide-marketing.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "resources/research.md": {
+      "published": "2026-06-20T13:11:47-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "resources/residential-rehab-seo.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/senior-living-marketing.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T19:37:29+00:00"
+    },
+    "resources/server-side-tracking.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/service-line-marketing.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/speed-to-lead.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/telehealth-marketing.md": {
+      "published": "2026-11-19T19:42:57+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/therapist-marketing-guide.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/treatment-center-marketing-audit-checklist.md": {
+      "published": "2026-11-17T03:20:14+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/treatment-center-marketing-guide.md": {
+      "published": "2026-11-18T21:49:02+00:00",
+      "updated": "2026-11-18T21:49:02+00:00"
+    },
+    "resources/urgent-care-marketing.md": {
+      "published": "2026-11-19T19:37:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/what-is-ai-marketing.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/what-is-behavioral-health-marketing.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "resources/what-is-conversion-rate-optimization.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T19:23:18+00:00"
+    },
+    "resources/what-is-healthcare-marketing.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T19:09:22+00:00"
+    },
+    "resources/what-is-hipaa-marketing.md": {
+      "published": "2026-11-19T19:09:22+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "resources/what-is-local-seo.md": {
+      "published": "2026-11-19T19:23:18+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "services/addiction-treatment-marketing-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/addiction-treatment-website-design.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/ai-agents-for-marketing-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "services/ai-data-preparation.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/ai-marketing-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/ai-model-migration.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/ai-readiness-assessment.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/ai-seo-marketing-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "services/ai-workflow-automation.md": {
+      "published": "2026-11-23T04:17:25+00:00",
+      "updated": "2026-11-23T04:17:25+00:00"
+    },
+    "services/analytics-and-attribution.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/b2b-peptide-lead-generation.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/business-intelligence-consulting.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/call-tracking-services.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/call-tracking.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/channel-and-partner-research.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/churn-analysis.md": {
+      "published": "2026-11-22T23:17:07+00:00",
+      "updated": "2026-11-22T23:17:07+00:00"
+    },
+    "services/competitive-intelligence.md": {
+      "published": "2026-11-23T04:19:45+00:00",
+      "updated": "2026-11-23T04:19:45+00:00"
+    },
+    "services/competitive-positioning-research.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/conversion-rate-optimization-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/conversion-rate-optimization.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-07-18T22:03:59+00:00"
+    },
+    "services/creative-testing.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "services/customer-data-integration.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/customer-lifetime-value-analysis.md": {
+      "published": "2026-11-23T18:07:29+00:00",
+      "updated": "2026-11-23T18:07:29+00:00"
+    },
+    "services/customer-segmentation.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/data-agency.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/data-engineering.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/data-enrichment.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "services/data-strategy-consulting.md": {
+      "published": "2026-11-23T04:17:25+00:00",
+      "updated": "2026-11-23T04:17:25+00:00"
+    },
+    "services/data-warehouse-implementation.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "services/drug-rehab-seo.md": {
+      "published": "2026-11-17T01:20:34+00:00",
+      "updated": "2026-11-17T01:20:34+00:00"
+    },
+    "services/enterprise-search-implementation.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/fractional-cmo-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "services/generative-engine-optimization-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "services/google-ads-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/google-ads-management.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-17T01:20:34+00:00"
+    },
+    "services/google-review-cards.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "services/healthcare-conversion-rate-optimization.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-18T23:19:11+00:00"
+    },
+    "services/healthcare-digital-marketing-services.md": {
+      "published": "2026-11-17T22:02:10+00:00",
+      "updated": "2026-11-17T22:02:10+00:00"
+    },
+    "services/healthcare-lead-generation.md": {
+      "published": "2026-11-17T20:15:57+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/healthcare-local-seo.md": {
+      "published": "2026-11-17T23:40:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/healthcare-marketing-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/healthcare-marketing-automation.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/healthcare-ppc-services.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/healthcare-ppc.md": {
+      "published": "2026-11-17T01:20:34+00:00",
+      "updated": "2026-11-17T01:20:34+00:00"
+    },
+    "services/healthcare-seo-company.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/hipaa-compliant-marketing-companies.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/hipaa-conscious-marketing-agency.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "services/hospital-marketing-company.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "services/hospital-ppc.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/hospital-seo.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "services/hybrid-ai-architecture.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/ideal-customer-profile-research.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/index.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "services/intake-optimization.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-07-18T22:03:59+00:00"
+    },
+    "services/intelligent-document-processing.md": {
+      "published": "2026-11-23T18:07:29+00:00",
+      "updated": "2026-11-23T18:07:29+00:00"
+    },
+    "services/landing-page-optimization-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/landing-page-optimization.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "services/linkedin-ads.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-08-27T14:52:54+00:00"
+    },
+    "services/llm-advertising/ai-discovery-optimization.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-11-09T19:06:38+00:00"
+    },
+    "services/llm-advertising/chatgpt.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "services/llm-advertising/index.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-08-27T14:52:54+00:00"
+    },
+    "services/local-seo.md": {
+      "published": "2026-11-17T23:40:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/location-market-analysis.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/managed-private-ai.md": {
+      "published": "2026-11-23T01:16:21+00:00",
+      "updated": "2026-11-23T01:16:21+00:00"
+    },
+    "services/market-entry-research.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/market-intelligence-agency.md": {
+      "published": "2026-11-23T02:16:53+00:00",
+      "updated": "2026-11-23T02:16:53+00:00"
+    },
+    "services/market-intelligence-dashboards.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "services/market-sizing-research.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/market-trend-monitoring.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/marketing-attribution-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/mental-health-marketing-agency.md": {
+      "published": "2026-11-22T22:18:27+00:00",
+      "updated": "2026-11-22T22:18:27+00:00"
+    },
+    "services/mental-health-seo.md": {
+      "published": "2026-11-16T21:50:57+00:00",
+      "updated": "2026-11-16T22:10:10+00:00"
+    },
+    "services/mental-health-website-design.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/meta-ads-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "services/meta-ads-management.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/microsoft-ads-management.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-08-27T14:52:54+00:00"
+    },
+    "services/multi-location-healthcare-seo.md": {
+      "published": "2026-11-17T20:15:57+00:00",
+      "updated": "2026-11-17T20:15:57+00:00"
+    },
+    "services/multi-location-seo-services.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "services/on-premise-ai-deployment.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/paid-media.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-17T01:20:34+00:00"
+    },
+    "services/patient-acquisition-marketing.md": {
+      "published": "2026-11-17T23:40:29+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/peptide-ad-account-recovery.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-ad-policy-monitoring.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-clinic-local-seo.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-competitive-intelligence.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-content-marketing.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-conversion-optimization.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-legitscript-readiness.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/peptide-marketing-claims-review.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-marketing-eligibility-audit.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-marketing-measurement.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-merchant-center-remediation.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-paid-media.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-reputation-management.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-seo.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-website-design.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/peptide-website-policy-remediation.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/performance-max-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/ppc/index.md": {
+      "published": "2026-06-18T14:14:56-04:00",
+      "updated": "2026-11-16T22:10:10+00:00"
+    },
+    "services/ppc/introduction-to-ppc-campaign-management.md": {
+      "published": "2026-06-18T14:14:56-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "services/pricing-research.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/private-ai-agency.md": {
+      "published": "2026-11-22T23:17:07+00:00",
+      "updated": "2026-11-22T23:17:07+00:00"
+    },
+    "services/private-ai-assistant.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/private-ai-peptide-marketing.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "services/private-conversation-intelligence.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "services/product-validation-research.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "services/psychiatrist-seo.md": {
+      "published": "2026-11-19T03:04:19+00:00",
+      "updated": "2026-11-19T03:04:19+00:00"
+    },
+    "services/rag-development.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/rehab-lead-generation.md": {
+      "published": "2026-11-17T20:15:57+00:00",
+      "updated": "2026-11-19T22:48:53+00:00"
+    },
+    "services/rehab-ppc.md": {
+      "published": "2026-11-17T01:20:34+00:00",
+      "updated": "2026-11-17T01:20:34+00:00"
+    },
+    "services/reputation-management-agency.md": {
+      "published": "2026-11-19T18:55:40+00:00",
+      "updated": "2026-11-19T18:55:40+00:00"
+    },
+    "services/sales-pipeline-analytics.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/therapist-seo.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/therapist-website-design.md": {
+      "published": "2026-11-18T23:19:11+00:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "services/voice-of-customer-research.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/web-development/cro-development.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "services/web-development/index.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-06T14:03:38-05:00"
+    },
+    "services/web-development/integrations.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-06T14:03:38-05:00"
+    },
+    "services/web-development/landing-page-dev.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "services/web-development/technical-seo.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-06T14:03:38-05:00"
+    },
+    "services/web-development/website-design.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "services/win-loss-analysis.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "services/youtube-ads.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "sitemap.md": {
+      "published": "2026-06-20T13:33:37-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "tools/index.md": {
+      "published": "2026-06-20T14:13:21-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "top-10-open-source-ai-models-of-2025.md": {
+      "published": "2026-06-18T14:14:56-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "who-we-help/behavioral-health.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "who-we-help/behavioral-health/adolescent-treatment.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "who-we-help/behavioral-health/detox-centers.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "who-we-help/behavioral-health/dual-diagnosis.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "who-we-help/behavioral-health/iop-php.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "who-we-help/behavioral-health/residential-treatment.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "who-we-help/behavioral-health/substance-use-disorder.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-11-16T22:10:10+00:00"
+    },
+    "who-we-help/enterprise/private-ai.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "who-we-help/hospitals-and-health-systems.md": {
+      "published": "2026-11-06T14:03:38-05:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "who-we-help/index.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "who-we-help/mental-health.md": {
+      "published": "2026-06-05T12:39:37-04:00",
+      "updated": "2026-11-17T20:15:57+00:00"
+    },
+    "who-we-help/mental-health/adolescent-mental-health.md": {
+      "published": "2026-06-18T11:59:00-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "who-we-help/mental-health/outpatient-clinics.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-11-19T21:43:58+00:00"
+    },
+    "who-we-help/mental-health/psychiatric-practices.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-07-06T19:33:24-04:00"
+    },
+    "who-we-help/mental-health/tele-mental-health.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-08-27T14:52:54+00:00"
+    },
+    "who-we-help/mental-health/therapy-groups.md": {
+      "published": "2026-06-06T23:16:03-04:00",
+      "updated": "2026-06-23T13:12:33-04:00"
+    },
+    "who-we-help/multi-location/data-and-market-intelligence.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "who-we-help/peptide-businesses.md": {
+      "published": "2026-11-23T04:01:51+00:00",
+      "updated": "2026-11-23T04:01:51+00:00"
+    },
+    "who-we-help/peptide-clinics.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "who-we-help/peptide-manufacturers.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "who-we-help/peptide-pharmacies.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "who-we-help/peptide-skincare-brands.md": {
+      "published": "2026-11-23T05:30:52+00:00",
+      "updated": "2026-11-23T05:30:52+00:00"
+    },
+    "who-we-help/peptide-telehealth-providers.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    },
+    "who-we-help/research-peptide-suppliers.md": {
+      "published": "2026-11-23T04:17:25+00:00",
+      "updated": "2026-11-23T04:17:25+00:00"
+    },
+    "who-we-help/small-business/market-intelligence.md": {
+      "published": "2026-11-23T03:51:03+00:00",
+      "updated": "2026-11-23T03:51:03+00:00"
+    }
+  }
+}

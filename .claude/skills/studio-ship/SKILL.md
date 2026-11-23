@@ -110,6 +110,8 @@ fails before merging:
 
 ```bash
 git add -A && git commit -m "Studio ship: <n> pages (<paths>)"
+git fetch --unshallow 2>/dev/null; npm run content:dates          # RSS publish dates come from git history
+git add content/dates.json && git commit -m "Content dates for shipped pages"
 git checkout main && git merge --ff-only studio-ship
 git -c push.negotiate=true push origin main
 node scripts/studio-ship.mjs done <id> $(git rev-parse --short HEAD)      # each built page

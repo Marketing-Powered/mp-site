@@ -374,6 +374,7 @@ const VALID = new Set<string>([
   "/resources/first-party-data-vs-third-party-data",
   "/services/private-ai-agency",
   "/services/churn-analysis",
+  "/services/managed-private-ai",
 ]);
 
 const REMAP: Record<string, string> = {

@@ -86,6 +86,36 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/services/managed-private-ai/": [
+    // [0] hero
+    studioImg(
+      "services/managed-private-ai",
+      "managed-private-ai.webp",
+      "Clean private server room aisle with black equipment racks and blue network cabling under diffused overhead lighting.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/managed-private-ai",
+      "managed-private-ai-comparison-matrix-showing-operating.webp",
+      "Comparison matrix showing operating responsibilities across customer-owned hardware, provider capacity, and managed cloud deployments.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/managed-private-ai",
+      "managed-private-ai-hands-standing-technician-placing.webp",
+      "Hands of a standing technician placing an incident escalation checklist beside a desk telephone in late afternoon natural light.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/managed-private-ai",
+      "managed-private-ai-pre-contracted-handover-binder-sealed.webp",
+      "Pre-contracted handover binder, sealed document envelopes, and an encrypted data drive resting on a wooden tabletop in daylight.",
+      "3 / 2",
+    ),
+  ],
   "/services/churn-analysis/": [
     // [0] hero
     studioImg(

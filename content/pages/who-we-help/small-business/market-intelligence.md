@@ -8,13 +8,13 @@ secondary_keywords: "small business market research services, competitive analys
 SEO METADATA
 Title tag: Market Intelligence for Small-Business Decisions
 Meta description: Answer a bounded commercial question with proportionate research, practical sources and an explicit decision.
-H1: Market Intelligence for Small-Business Decisions
+H1: Market Intelligence Sized for Small-Business Decisions
 Hero image alt: Commercial retail storefront in morning sunlight with a leasing sign in the window and an open parking apron.
 
 
 PAGE COPY
 
-Market Intelligence for Small-Business Decisions
+Market Intelligence Sized for Small-Business Decisions
 Market research for small business often arrives as a priced industry report that does not describe your trade area, or it does not happen at all and the call gets made on instinct. A scoped study works differently. It starts from one decision you are about to make, uses the cheapest credible evidence first, and stops once the uncertainty has been resolved.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Start with the decision, not the research

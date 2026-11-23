@@ -8,13 +8,13 @@ secondary_keywords: "enterprise private AI consulting, secure enterprise AI depl
 SEO METADATA
 Title tag: Enterprise Private AI With Procurement-Ready Boundaries
 Meta description: Evaluate private AI delivery through identity, integration, governance, reliability and procurement evidence.
-H1: Enterprise Private AI With Procurement-Ready Boundaries
+H1: Enterprise Private AI With Boundaries Procurement Can Sign Off
 Hero image alt: Empty data facility corridor with locked black server racks, overhead fiber trays, and blue indicator lights.
 
 
 PAGE COPY
 
-Enterprise Private AI With Procurement-Ready Boundaries
+Enterprise Private AI With Boundaries Procurement Can Sign Off
 Enterprise private AI work often runs into security review and procurement questions that a model demo does not answer. Five decision areas usually settle those questions: identity, architecture and integration, data authorization, reliability, and procurement evidence. This page sets out how each one gets scoped, in the order the decisions tend to arrive.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Start with the sponsor, the control owners and the use case

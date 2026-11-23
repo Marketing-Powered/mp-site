@@ -8,13 +8,13 @@ secondary_keywords: "voice of customer services, customer interview research, cu
 SEO METADATA
 Title tag: Voice of Customer Research With Traceable Findings
 Meta description: Identify customer needs, language and friction through authorized qualitative evidence and a documented research process.
-H1: Voice of Customer Research With Traceable Findings
+H1: Voice of Customer Research With Findings You Can Trace
 Hero image alt: Empty modern healthcare corridor and entrance foyer illuminated by morning sunlight.
 
 
 PAGE COPY
 
-Voice of Customer Research With Traceable Findings
+Voice of Customer Research With Findings You Can Trace
 Most customer insight falls apart the moment someone in the room asks how you know. Voice of customer research only earns a decision when every finding points back to a specific, de-identified source statement, and when the limits of the sample are stated as plainly as the conclusion. This page describes how that work is scoped, collected, coded and handed over.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Set the decision and the respondent group first

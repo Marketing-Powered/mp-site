@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: AI Data Readiness: A Checklist for One Real Use Case
 Meta description: Evaluate source authority, rights, quality, coverage and maintenance for a specific AI workload.
-H1: AI Data Readiness: A Checklist for One Real Use Case
+H1: An AI Data Readiness Checklist Built Around One Real Use Case
 Hero image alt: A quiet hospital records room with steel shelving holding categorized document boxes and reference binders.
 
 
 PAGE COPY
 
-AI Data Readiness: A Checklist for One Real Use Case
+An AI Data Readiness Checklist Built Around One Real Use Case
 Most stalled AI projects do not fail on the model. They fail three weeks into a build when someone discovers the policy archive holds four versions of the same document, two of them wrong, and none of them cleared for this use. An AI data readiness checklist fixes that by testing one named use case against five checkable dimensions before anyone commissions work.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define what the application must know

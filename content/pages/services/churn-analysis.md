@@ -8,13 +8,13 @@ secondary_keywords: "customer churn analysis, retention analytics services, chur
 SEO METADATA
 Title tag: Churn Analysis That Separates Risk From Assumptions
 Meta description: Identify where customers stop returning and evaluate actionable retention factors without overstating prediction or causality.
-H1: Churn Analysis That Separates Risk From Assumptions
+H1: Churn Analysis Services That Separate Risk From Assumptions
 Hero image alt: Operations, finance, and marketing leaders reviewing printed retention notes around a conference table in natural daylight.
 
 
 PAGE COPY
 
-Churn Analysis That Separates Risk From Assumptions
+Churn Analysis Services That Separate Risk From Assumptions
 Most retention programs fail at the definition stage, not the modeling stage. Our churn analysis services begin by settling what actually counts as a lost customer, then rebuilding cohorts that can carry a business decision. Prediction comes later, and only when the data earns it.
 [CTA] Investigate a retention problem → /get-started/request-an-audit
 Define churn before anyone builds a model

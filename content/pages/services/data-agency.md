@@ -8,13 +8,13 @@ secondary_keywords: "data agency, data analytics agency, AI data agency, AI nati
 SEO METADATA
 Title tag: AI Data Agency for Analytics and Business Decisions
 Meta description: Choose a partner to turn fragmented business data into governed datasets, reliable analysis and usable operating decisions.
-H1: AI Data Agency for Analytics and Business Decisions
+H1: An AI Data Agency for Analytics and Business Decisions
 Hero image alt: Wide view of an on-premises enterprise server room corridor with black equipment racks and blue indicator lights.
 
 
 PAGE COPY
 
-AI Data Agency for Analytics and Business Decisions
+An AI Data Agency for Analytics and Business Decisions
 Sales reports one number, finance reports another, and the decision waits. Marketing Powered's data agency work focuses on cleaning, connecting and governing the records your business already creates, so analysis and AI use cases have something reliable underneath them. An AI data agency in this sense is not a training-data broker, an annotation marketplace or a seller of customer records.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Start with the decision your data cannot support

@@ -8,13 +8,13 @@ secondary_keywords: "B2B data enrichment services, customer data enrichment, fir
 SEO METADATA
 Title tag: Data Enrichment With Provenance and Permitted Use
 Meta description: Add permitted, verified context to existing records while documenting source rights, match confidence and intended use.
-H1: Data Enrichment With Provenance and Permitted Use
+H1: Data Enrichment Services With Provenance and Permitted Use
 Hero image alt: An empty admissions intake desk with a telephone and document folders in morning light.
 
 
 PAGE COPY
 
-Data Enrichment With Provenance and Permitted Use
+Data Enrichment Services With Provenance and Permitted Use
 Your approved records usually establish who the customer or account is, but not enough to route, score or prioritize them. Data enrichment services close that gap, and enrichment is often delivered without the source, match confidence and permitted use recorded alongside each field. This page describes a governed way to add context to records you already hold and are approved to hold.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Start from the decision, then request only allowed fields

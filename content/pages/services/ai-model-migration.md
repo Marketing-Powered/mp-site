@@ -8,13 +8,13 @@ secondary_keywords: "LLM migration services, AI vendor migration, move AI on pre
 SEO METADATA
 Title tag: AI Model Migration Without Losing Workflow Control
 Meta description: Move an existing AI workflow to a new model or environment while preserving required behavior, data boundaries and rollback options.
-H1: AI Model Migration Without Losing Workflow Control
+H1: AI Model Migration Services That Keep Workflow Control
 Hero image alt: Row of matte-black server cabinets in an enterprise facility with structured overhead cabling along an empty corridor.
 
 
 PAGE COPY
 
-AI Model Migration Without Losing Workflow Control
+AI Model Migration Services That Keep Workflow Control
 Most AI model migration services lead with the replacement model. The harder problem is everything built around the old one: prompts tuned to its quirks, retrieval and tool calls shaped to its output habits, and no tested path back when behavior shifts in production. This page describes how that change project is run.
 [CTA] Assess an AI migration → /get-started/request-an-audit
 Inventory what must move before anything changes

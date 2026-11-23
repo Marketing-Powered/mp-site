@@ -8,13 +8,13 @@ secondary_keywords: "pricing research agency, willingness to pay research, compe
 SEO METADATA
 Title tag: Pricing Research for Offers, Segments and Buying Decisions
 Meta description: Evaluate pricing options with customer evidence, competitive context and transparent commercial assumptions.
-H1: Pricing Research for Offers, Segments and Buying Decisions
+H1: Pricing Research Services for Offers, Segments and Buying Decisions
 Hero image alt: Wide exterior shot of a modern healthcare clinic entryway with concrete pillars and glass doors at early dawn.
 
 
 PAGE COPY
 
-Pricing Research for Offers, Segments and Buying Decisions
+Pricing Research Services for Offers, Segments and Buying Decisions
 Most price changes get decided on three weak inputs: a competitor's public price page, an industry report nobody can audit, and a finance model built on a guessed response rate. Pricing research services should replace those inputs with evidence you can trace to your own buyers and your own margin. This page explains how we scope that work, what each method can actually prove, and where it stops.
 [CTA] Investigate a pricing decision → /get-started/request-an-audit
 Define the pricing decision before you research it

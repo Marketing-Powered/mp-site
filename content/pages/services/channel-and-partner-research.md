@@ -8,13 +8,13 @@ secondary_keywords: "distribution channel research, partner market research, rou
 SEO METADATA
 Title tag: Channel and Partner Research for Market Access
 Meta description: Evaluate routes to market and potential partners using buyer access, fit, commercial structure and evidence quality.
-H1: Channel and Partner Research for Market Access
+H1: Channel and Partner Research That Opens Market Access
 Hero image alt: Exterior wide view of an empty commercial logistics staging apron with closed freight bay doors at dawn.
 
 
 PAGE COPY
 
-Channel and Partner Research for Market Access
+Channel and Partner Research That Opens Market Access
 Channel partner research is the work of testing how your buyers can actually be reached before you commit to a territory, a margin structure or an exclusivity clause. Most of those commitments get made on recycled industry reports, partner-supplied reach claims and internal assumptions nobody pressure-tested. This service evaluates routes to market and partner candidates against evidence you can inspect.
 [CTA] Investigate routes to market → /get-started/request-an-audit
 Define the buyer access problem before naming channels

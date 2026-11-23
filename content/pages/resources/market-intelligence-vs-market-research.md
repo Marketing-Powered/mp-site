@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Market Intelligence vs Market Research: Choose the Work
 Meta description: Distinguish decision-driven research projects, ongoing market intelligence and internal business analytics without imposing rigid labels.
-H1: Market Intelligence vs Market Research: Choose the Work
+H1: Market Intelligence vs Market Research: Which Work Do You Need?
 Hero image alt: Paved stone walkway splitting toward two entrances outside a modern outpatient medical pavilion at dawn.
 
 
 PAGE COPY
 
-Market Intelligence vs Market Research: Choose the Work
+Market Intelligence vs Market Research: Which Work Do You Need?
 The hard part of a market intelligence vs market research decision is not the vocabulary. It is that three different kinds of work (a bounded decision study, a continuous external watch, and analysis of data you already own) get sold under overlapping names, and the mismatch shows up months later. This guide gives you a way to classify your own question before a single proposal lands.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Start with the business question, not the research category

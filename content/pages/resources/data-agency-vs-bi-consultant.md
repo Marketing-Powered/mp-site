@@ -9,12 +9,12 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Data Agency vs BI Consultant: Match the Partner to the Job
 Meta description: Clarify which partner and delivery scope fits a data problem before issuing a brief or choosing a platform.
-H1: Data Agency vs BI Consultant: Match the Partner to the Job
+H1: Data Agency vs BI Consultant: Which Partner Fits the Job
 
 
 PAGE COPY
 
-Data Agency vs BI Consultant: Match the Partner to the Job
+Data Agency vs BI Consultant: Which Partner Fits the Job
 Two proposals land in the same week. Both promise to fix "the data problem," neither describes the same work, and the prices are far enough apart that comparison feels pointless. The data agency vs BI consultant question is rarely a vendor question at all. It is an unscoped problem wearing a vendor label.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Name the actual problem before you name a tool

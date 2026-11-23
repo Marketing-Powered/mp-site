@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Market Intelligence Cost: Scope the Work Before the Price
 Meta description: Understand the work and evidence requirements that determine market intelligence cost without relying on invented package benchmarks.
-H1: Market Intelligence Cost: Scope the Work Before the Price
+H1: What Market Intelligence Costs, and Why the Scope Comes First
 Hero image alt: Exterior view of an empty newly constructed outpatient healthcare building in morning sunlight.
 
 
 PAGE COPY
 
-Market Intelligence Cost: Scope the Work Before the Price
+What Market Intelligence Costs, and Why the Scope Comes First
 Two proposals for what sounds like the same study can arrive at very different numbers, and the gap is often scope rather than markup. Market intelligence cost is set by the decision you are supporting, the confidence that decision demands, and the work required to reach it. This guide breaks those drivers down so you can write a scope and compare bids on equal terms.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the decision and the confidence it requires

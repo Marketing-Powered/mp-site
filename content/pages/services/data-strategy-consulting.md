@@ -8,13 +8,13 @@ secondary_keywords: "data strategy services, data roadmap consulting, data matur
 SEO METADATA
 Title tag: Data Strategy Consulting That Produces an Executable Plan
 Meta description: Create a prioritized business data roadmap with clear use cases, ownership, architecture choices and investment dependencies.
-H1: Data Strategy Consulting That Produces an Executable Plan
+H1: Data Strategy Consulting That Ends in an Executable Plan
 Hero image alt: Empty sunlit hospital administrative hallway with polished floors leading toward double frosted glass doors.
 
 
 PAGE COPY
 
-Data Strategy Consulting That Produces an Executable Plan
+Data Strategy Consulting That Ends in an Executable Plan
 Most organizations have more data projects than data owners, and more dashboards than agreed definitions. Data strategy consulting should settle which decisions improve first, who is accountable for the records behind them, and what has to be built before anything else is trusted. The output is a prioritized roadmap, not another tool recommendation.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Start with the decisions, not the technology audit

@@ -8,13 +8,13 @@ secondary_keywords: "peptide advertising audit, peptide website compliance revie
 SEO METADATA
 Title tag: Peptide Marketing Eligibility Audit
 Meta description: Assess your peptide offers, destinations, certifications and channels before commissioning campaigns, with a documented remediation plan and review owners.
-H1: Peptide Marketing Eligibility Audit
+H1: Peptide Marketing Eligibility Audit Before You Commission Campaigns
 Hero image alt: Amber laboratory serum vials in a stainless steel inspection tray on a clean receiving counter in morning light.
 
 
 PAGE COPY
 
-Peptide Marketing Eligibility Audit
+Peptide Marketing Eligibility Audit Before You Commission Campaigns
 Peptide brands often discover the advertising problem after the invoice: creative built, pages shipped, account flagged. A peptide marketing compliance audit runs those checks in the opposite order, assessing each offer, destination, certification and channel before budget moves. The output is a written decision per line item: proceed, remediate, exclude, or escalate for specialist review.
 [CTA] Scope an eligibility audit → /get-started/request-an-audit
 Define the audit boundary before evidence collection starts

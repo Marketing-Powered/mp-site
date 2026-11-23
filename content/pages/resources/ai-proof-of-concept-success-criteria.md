@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: AI Proof of Concept: Set the Decision Before the Demo
 Meta description: Design an AI pilot that can justify a go, change or stop decision using agreed baselines and acceptance criteria.
-H1: AI Proof of Concept: Set the Decision Before the Demo
+H1: AI Proof of Concept Success Criteria: Decide Before the Demo
 Hero image alt: Empty data facility server aisle with clean cable conduits and soft dawn light receding down a quiet corridor.
 
 
 PAGE COPY
 
-AI Proof of Concept: Set the Decision Before the Demo
+AI Proof of Concept Success Criteria: Decide Before the Demo
 Most AI pilots end in an argument rather than a decision, because nobody wrote down what "working" meant before the first output appeared. This guide covers how to define AI proof of concept success criteria in advance: the decision the pilot must inform, the baseline it has to beat, the thresholds that separate go from stop, and the record that holds up in the next budget review.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Name the decision and the sponsor who owns it

@@ -8,13 +8,13 @@ secondary_keywords: "RAG consulting, retrieval augmented generation services, pr
 SEO METADATA
 Title tag: RAG Development Grounded in Approved Business Knowledge
 Meta description: Implement a retrieval and answer workflow that uses authorized company knowledge and makes unsupported answers visible.
-H1: RAG Development Grounded in Approved Business Knowledge
+H1: RAG Development Services Grounded in Approved Business Knowledge
 Hero image alt: Approved operational protocol binders arranged on an oak credenza in a sunlit administrative corridor.
 
 
 PAGE COPY
 
-RAG Development Grounded in Approved Business Knowledge
+RAG Development Services Grounded in Approved Business Knowledge
 A retrieval demo that reads well and a retrieval system that is safe in front of staff or customers are two different builds. Our RAG development services are organized around the two failures that end most internal assistant pilots: surfacing content a user is not cleared to see, and answering confidently when no approved source exists.
 [CTA] Scope a RAG pilot → /get-started/request-an-audit
 Choose the questions worth answering

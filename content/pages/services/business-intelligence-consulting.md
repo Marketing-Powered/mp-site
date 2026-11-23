@@ -8,13 +8,13 @@ secondary_keywords: "BI consulting services, business analytics consulting, exec
 SEO METADATA
 Title tag: Business Intelligence Consulting for Operating Decisions
 Meta description: Define trusted business measures and deliver reporting that supports specific operating decisions and follow-up actions.
-H1: Business Intelligence Consulting for Operating Decisions
+H1: Business Intelligence Consulting Built for Operating Decisions
 Hero image alt: Wide exterior view of a multi-location healthcare clinic entrance at dawn with open pavement in the foreground.
 
 
 PAGE COPY
 
-Business Intelligence Consulting for Operating Decisions
+Business Intelligence Consulting Built for Operating Decisions
 Most reporting failures are not visualization failures. When finance, sales, service delivery and operations each calculate the same measure differently, leadership spends the first half of every meeting deciding whose number is correct instead of deciding what to do. Our business intelligence consulting starts with the decision and the definition, then builds the reporting that serves them.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Choose the decision before the chart

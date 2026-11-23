@@ -8,18 +8,18 @@ secondary_keywords: "on premises AI services, local AI deployment, on premise LL
 SEO METADATA
 Title tag: On-Premise AI Deployment for Business Workloads
 Meta description: Deploy and hand over a bounded AI workload on client-controlled hardware with documented operations and egress.
-H1: On-Premise AI Deployment for Business Workloads
+H1: On-Premise AI Deployment Built for Business Workloads
 Hero image alt: Empty server room with locked matte-black racks on the right, bundled blue overhead cables, and an open gray wall on the left.
 
 
 PAGE COPY
 
-On-Premise AI Deployment for Business Workloads
+On-Premise AI Deployment Built for Business Workloads
 Most private AI pitches sell a location, not a boundary. An on premise AI deployment is only meaningful when someone writes down which processes run inside your walls, which ones still reach outward, who patches the box on a Tuesday, and what happens when a restore fails. This page describes how that work gets scoped, measured, documented and handed over.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the local boundary before you buy hardware
 "On-prem" is usually one word covering six separate behaviors. Inference, embedding generation, transcription, telemetry and crash reporting, model and package updates, and external connectors each deserve their own line in an inventory, with a stated destination for every one. Conflating them is how an organization ends up with a locally hosted business AI that quietly phones out for license checks or pulls documents from a third-party index.
-Connectors deserve particular scrutiny. OWASP documents that prompt injection can arrive indirectly through external content such as websites or files, with potential consequences including disclosure of sensitive information and unauthorized access to functions available to the LLM ([OWASP GenAI LLM01](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)). A boundary drawn around the server but not around its tools is an incomplete boundary.
+Connectors deserve particular scrutiny. OWASP documents that prompt injection can arrive indirectly through external content such as websites or files, with potential consequences including disclosure of sensitive information and unauthorized access to functions available to the LLM (OWASP GenAI LLM01). A boundary drawn around the server but not around its tools is an incomplete boundary.
 Size the system from workload evidence, not spec sheets
 Hardware selection should come last. Before anything is quoted, the work focuses on four measured inputs: peak concurrent users, realistic context length per request, acceptable first-token and completion latency, and memory headroom at the chosen quantization. A twelve-person legal team summarizing contracts and a 400-seat clinical intake operation running transcription are different machines, even when the model name is identical.
 Benchmarking on representative prompts and real document sizes produces numbers you can defend in a budget meeting. Estimates drawn from forum posts do not survive production. This is the same discipline behind [supported local processing](/ai-edge/local-processing): decide what the workload actually demands, then buy to that, with stated headroom for growth.

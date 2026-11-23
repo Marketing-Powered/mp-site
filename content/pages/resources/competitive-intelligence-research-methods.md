@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Competitive Intelligence Methods With Evidence You Can Trace
 Meta description: Understand how to collect, verify and interpret competitive evidence without crossing access boundaries or overstating confidence.
-H1: Competitive Intelligence Methods With Evidence You Can Trace
+H1: Competitive Intelligence Research Methods With Evidence You Can Trace
 Hero image alt: Rows of tall metal archival shelves holding uniform gray storage boxes and paper ledgers in a quiet records repository.
 
 
 PAGE COPY
 
-Competitive Intelligence Methods With Evidence You Can Trace
+Competitive Intelligence Research Methods With Evidence You Can Trace
 Most competitive research does not fail because the team missed a data point. It fails because a scraped claim, a sales anecdote and a filed public record all arrive in the same deck wearing the same level of certainty. The competitive intelligence research methods below treat provenance and confidence labeling as the core discipline, and walk through six steps: define the question, choose permitted sources, record provenance, verify and triangulate, separate fact from inference, and deliver with stated limits.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the intelligence question before choosing a method

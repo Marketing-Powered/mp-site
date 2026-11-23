@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Peptide Advertising Policy Change Intelligence
 Meta description: Track peptide regulatory, certification and platform changes with dated source records, impact review and clear ownership of marketing decisions.
-H1: Peptide Advertising Policy Change Intelligence
+H1: Peptide Advertising Policy Monitoring: Track Changes Before They Cost You
 Hero image alt: Wide view of closed regulatory register volumes and a blue ledger on an oak archive table illuminated by morning window light.
 
 
 PAGE COPY
 
-Peptide Advertising Policy Change Intelligence
+Peptide Advertising Policy Monitoring: Track Changes Before They Cost You
 Peptide rules move across four independent layers: federal policy, certifier standards, advertising platforms and payment providers. None of them updates in sync, and none of them answers the whole question on its own, which is why peptide advertising policy updates cause as much trouble when they are good news as when they are bad. A source change is an input to a decision, not the decision itself, and the difference between those two things is where most remediation cost is created.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the source universe before you monitor anything

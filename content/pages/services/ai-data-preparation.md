@@ -8,13 +8,13 @@ secondary_keywords: "RAG data preparation, AI-ready data services, LLM dataset p
 SEO METADATA
 Title tag: AI Data Preparation for Search, RAG and Evaluation
 Meta description: Prepare an approved, versioned business knowledge corpus and evaluation dataset for a specific AI use case.
-H1: AI Data Preparation for Search, RAG and Evaluation
+H1: AI Data Preparation Services for Search, RAG and Evaluation
 Hero image alt: Neat rows of bound reference binders with sky blue spines rest on metal shelving in an empty records room.
 
 
 PAGE COPY
 
-AI Data Preparation for Search, RAG and Evaluation
+AI Data Preparation Services for Search, RAG and Evaluation
 Most internal AI pilots stall for an unglamorous reason: nobody decided what the system was supposed to know, who owned that knowledge, or how anyone would prove an answer was correct. AI data preparation services close that gap by turning scattered documents into an approved, versioned corpus and a matching evaluation set for one defined use case. It is a different job from warehouse cleanup, from historical data migration, and from training a model.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the intended AI task before any data work

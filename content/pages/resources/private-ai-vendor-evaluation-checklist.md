@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Private AI Vendor Evaluation: Evidence to Request
 Meta description: Evaluate private AI providers using verifiable architecture, operating responsibilities, acceptance tests and exit terms.
-H1: Private AI Vendor Evaluation: Evidence to Request
+H1: Private AI Vendor Evaluation Checklist: The Evidence to Request
 Hero image alt: Enterprise server room corridor with an open rack cabinet showing blue and green network patch cables.
 
 
 PAGE COPY
 
-Private AI Vendor Evaluation: Evidence to Request
+Private AI Vendor Evaluation Checklist: The Evidence to Request
 Most private AI proposals compress five separate claims into one adjective. A useful private AI vendor evaluation pulls that adjective apart and asks for evidence behind each piece: network path, data location, identity and access, model ownership, and exit rights. This guide turns sales language into specific documents you can request, read and test before you sign anything.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Translate claims into evidence requests
@@ -44,7 +44,7 @@ Then ask about administrators. Who holds the highest privilege in the environmen
 * Add or replace a subprocessor. Vendor: Proposes. Buyer IT: Approves. Joint approval: Written notice before change.
 * Access production data for support. Vendor: Requests. Buyer IT: Approves. Joint approval: Time-bound, logged.
 * Export or delete client data. Vendor: Executes. Buyer IT: Requests. Joint approval: Confirmation record.
-Action controls matter because language-model systems can be influenced by the content they process. OWASP describes both direct and indirect prompt injection in language-model applications, where crafted input alters model behavior, with potential effects including unwanted information disclosure and unauthorized use of connected functions ([OWASP GenAI: LLM01 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)). The practical consequence for a buyer is that any integration which lets the system send email, write to a CRM, trigger a workflow or query another system needs its own authorization boundary. Ask which actions require human confirmation, which run unattended, what the system is permitted to do with untrusted content such as inbound email or scraped pages, and how an unauthorized action would be detected after the fact.
+Action controls matter because language-model systems can be influenced by the content they process. OWASP describes both direct and indirect prompt injection in language-model applications, where crafted input alters model behavior, with potential effects including unwanted information disclosure and unauthorized use of connected functions (OWASP GenAI: LLM01 Prompt Injection). The practical consequence for a buyer is that any integration which lets the system send email, write to a CRM, trigger a workflow or query another system needs its own authorization boundary. Ask which actions require human confirmation, which run unattended, what the system is permitted to do with untrusted content such as inbound email or scraped pages, and how an unauthorized action would be detected after the fact.
 Vendors who have operated these systems can answer these questions in specifics. Our own [published security practices](/company/security) describe how we document access and operating responsibilities, and the same level of detail is reasonable to request from anyone bidding.
 Evaluate reliability and quality
 A demo is a curated performance. An acceptance test is a measurement on your material, with criteria written before the test runs. The difference decides whether you learn anything about the system you are buying.

@@ -8,13 +8,13 @@ secondary_keywords: "market entry consulting, new market research, market expans
 SEO METADATA
 Title tag: Market Entry Research Before You Commit to Expansion
 Meta description: Compare expansion options using demand, competition, buyer access, economics and operating constraints before you commit capital to a new market.
-H1: Market Entry Research Before You Commit to Expansion
+H1: Market Entry Research Services Before You Commit to Expansion
 Hero image alt: Exterior view of an empty commercial healthcare building at sunrise with clean parking lot and glass entryway.
 
 
 PAGE COPY
 
-Market Entry Research Before You Commit to Expansion
+Market Entry Research Services Before You Commit to Expansion
 Expansion decisions are often made on a market size figure and a competitor's visible move. Market entry research services exist to answer the harder question: whether you can reach, convert and profitably serve buyers in a new region, segment or category at an operating load your organization can actually carry. This is the decision work that runs before leases, hires and campaign budgets are committed.
 [CTA] Evaluate an expansion decision → /get-started/request-an-audit
 Frame the real alternatives before gathering any data

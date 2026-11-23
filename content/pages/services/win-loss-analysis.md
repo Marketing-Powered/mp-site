@@ -8,13 +8,13 @@ secondary_keywords: "win loss research, win loss interview services, buyer decis
 SEO METADATA
 Title tag: Win-Loss Analysis That Explains the Buyer Decision
 Meta description: Investigate completed buying decisions through structured evidence and buyer interviews to improve commercial choices.
-H1: Win-Loss Analysis That Explains the Buyer Decision
+H1: Win-Loss Analysis Services That Explain the Buyer Decision
 Hero image alt: Empty glass-walled corporate boardroom with an unbranded conference phone hub on the table under morning daylight.
 
 
 PAGE COPY
 
-Win-Loss Analysis That Explains the Buyer Decision
+Win-Loss Analysis Services That Explain the Buyer Decision
 Many CRM loss reasons are entered by a rep who may not have seen the buyer's internal debate. Win loss analysis services replace that inference with structured evidence from the people who actually made the decision. This page explains how the sample is built, how interviews are run, and how the findings are reconciled and used.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the decision sample before anyone is interviewed

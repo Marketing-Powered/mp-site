@@ -8,12 +8,12 @@ secondary_keywords: "market intelligence services, market research agency, busin
 SEO METADATA
 Title tag: Market Intelligence for Decisions That Commit Capital
 Meta description: Commission evidence-led market intelligence that answers a named business decision with sources, uncertainty and usable recommendations.
-H1: Market Intelligence for Decisions That Commit Capital
+H1: A Market Intelligence Agency for Decisions That Commit Capital
 
 
 PAGE COPY
 
-Market Intelligence for Decisions That Commit Capital
+A Market Intelligence Agency for Decisions That Commit Capital
 Somewhere in your pipeline there is a decision with a dollar figure attached: a second market, a price change, a new site, an acquisition. Marketing Powered works as a market intelligence agency for that moment, scoping research to one named decision rather than to an industry. Every claim we hand back carries a source, a date, and a label that says whether it is measured, modeled, or inferred.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Name the decision before the research begins

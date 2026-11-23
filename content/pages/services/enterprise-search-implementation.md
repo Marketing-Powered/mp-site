@@ -8,13 +8,13 @@ secondary_keywords: "enterprise search consulting, internal knowledge search, se
 SEO METADATA
 Title tag: Enterprise Search Across Authorized Company Knowledge
 Meta description: Create a permission-aware search experience across approved repositories with useful ranking, filtering and source navigation.
-H1: Enterprise Search Across Authorized Company Knowledge
+H1: Enterprise Search Implementation Across Authorized Company Knowledge
 Hero image alt: Rows of steel storage shelving with labeled archival document boxes in an organized corporate records room.
 
 
 PAGE COPY
 
-Enterprise Search Across Authorized Company Knowledge
+Enterprise Search Implementation Across Authorized Company Knowledge
 Most staff do not need an assistant that talks. They need to find the current policy, the signed version of a contract, or the record a regulator will ask about, and they need it from a system that already knows what they are allowed to open. An enterprise search implementation should start there: approved repositories, preserved permissions, ranked results that lead back to real documents.
 [CTA] Review a knowledge-search problem → /get-started/request-an-audit
 Define the failed search journeys

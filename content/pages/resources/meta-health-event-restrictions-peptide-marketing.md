@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Meta Health Event Restrictions for Peptide Marketers
 Meta description: Understand blocked health-related Meta conversions, distinguish them from account suspensions and review the underlying data before requesting correction.
-H1: Meta Health Event Restrictions for Peptide Marketers
+H1: Meta Health Event Restrictions: What Peptide Marketers Need to Know
 Hero image alt: Row of server racks with neatly routed sky blue patch cables in an enterprise telecommunications facility.
 
 
 PAGE COPY
 
-Meta Health Event Restrictions for Peptide Marketers
+Meta Health Event Restrictions: What Peptide Marketers Need to Know
 Most teams searching for Meta health event restrictions peptides are looking at one blocked custom conversion, not a disabled ad account. Those are different decisions with different remediation paths. The fix almost always starts with what data reached Meta, not with what the event was called.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Identify which object Meta actually restricted

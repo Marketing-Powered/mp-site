@@ -8,13 +8,13 @@ secondary_keywords: "hybrid AI consulting, local and cloud AI, AI workload routi
 SEO METADATA
 Title tag: Hybrid AI Architecture for Private and Cloud Workloads
 Meta description: Decide which AI tasks run locally or in cloud services and implement the routing rules and approval boundaries.
-H1: Hybrid AI Architecture for Private and Cloud Workloads
+H1: Hybrid AI Architecture That Routes Private and Cloud Workloads
 Hero image alt: Structured fiber optic cabling runs overhead in an orderly enterprise server room.
 
 
 PAGE COPY
 
-Hybrid AI Architecture for Private and Cloud Workloads
+Hybrid AI Architecture That Routes Private and Cloud Workloads
 A hybrid AI architecture is a routing decision, not a product you buy. Inside one workflow, different tasks carry different sensitivity, capability and urgency requirements, and each one needs a declared home. What follows is the decision framework: how to classify work, place it, enforce the boundary and prove where data actually went.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Classify the work before routing

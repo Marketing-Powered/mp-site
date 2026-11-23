@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Email Marketing for Eligible Peptide Businesses
 Meta description: Plan peptide email communications around lawful offers, accurate claims, audience permissions and measurable customer or B2B outcomes.
-H1: Email Marketing for Eligible Peptide Businesses
+H1: Peptide Email Marketing for Eligible Businesses
 Hero image alt: Sealed laboratory transport vials resting in an aluminum staging rack beside dispatch packaging on a clean clinic counter.
 
 
 PAGE COPY
 
-Email Marketing for Eligible Peptide Businesses
+Peptide Email Marketing for Eligible Businesses
 Peptide email marketing begins with a classification decision rather than a template: what this business actually is, and what kind of message this actually is. A compounding clinic, a telehealth provider, a research-use-only supplier and a collagen supplement brand each carry different permission rules, different claim limits and different audiences. Consent capture, sequence design and reporting follow from that classification, not the other way around.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Classify the message before you build the sequence

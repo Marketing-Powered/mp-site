@@ -8,13 +8,13 @@ secondary_keywords: "unified customer data, customer data integration consulting
 SEO METADATA
 Title tag: Customer Data Integration Across the Systems You Use
 Meta description: Create a governed customer view by connecting approved records across systems with explicit matching and access rules.
-H1: Customer Data Integration Across the Systems You Use
+H1: Customer Data Integration Services Across the Systems You Use
 Hero image alt: Wide view of an empty clinic intake counter with an analog telephone console and document trays in morning light.
 
 
 PAGE COPY
 
-Customer Data Integration Across the Systems You Use
+Customer Data Integration Services Across the Systems You Use
 The same customer usually exists several times over: a CRM contact, a billing account, a support ticket, a scheduling record. None of those systems agrees on which version is correct, and no dashboard settles the argument for you. Customer data integration services should begin with that disagreement rather than with another platform purchase.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define what unified means before choosing a platform

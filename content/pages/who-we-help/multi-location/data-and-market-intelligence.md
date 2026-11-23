@@ -8,13 +8,13 @@ secondary_keywords: "multi location analytics, location intelligence services, m
 SEO METADATA
 Title tag: Data and Market Intelligence for Multi-Location Operators
 Meta description: Combine comparable location performance with external market evidence to support allocation and expansion decisions.
-H1: Data and Market Intelligence for Multi-Location Operators
+H1: Data and Market Intelligence Built for Multi-Location Operators
 Hero image alt: Exterior view of an empty regional medical pavilion entrance at dawn with concrete walkways and glass double doors.
 
 
 PAGE COPY
 
-Data and Market Intelligence for Multi-Location Operators
+Data and Market Intelligence Built for Multi-Location Operators
 Most regional operators hold two incomplete views: internal numbers that compare sites which are not actually comparable, and external market data that was never matched to the same geography or time period. Useful multi location business intelligence closes that gap in sequence, by standardizing the unit of comparison, reconciling internal performance against it, then adding dated market evidence. The output is an allocation or expansion decision you can defend to a board, not another dashboard.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define comparable location units before any ranking

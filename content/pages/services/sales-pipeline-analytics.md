@@ -8,13 +8,13 @@ secondary_keywords: "sales analytics consulting, pipeline analysis services, rev
 SEO METADATA
 Title tag: Sales Pipeline Analytics for Revenue Decisions
 Meta description: Explain pipeline movement and revenue exposure using consistent stages, historical cohorts and defensible forecast assumptions.
-H1: Sales Pipeline Analytics for Revenue Decisions
+H1: Sales Pipeline Analytics Built for Revenue Decisions
 Hero image alt: Empty glass skybridge between modern office buildings at dawn with morning light reflecting on polished concrete.
 
 
 PAGE COPY
 
-Sales Pipeline Analytics for Revenue Decisions
+Sales Pipeline Analytics Built for Revenue Decisions
 Pipeline looks healthy, the forecast is delivered with confidence, and the number still moves every week while deals marked committed slip another quarter. A forecast is only as reliable as the stage definitions and the historical record behind it. Our sales pipeline analytics services focus on rebuilding that foundation before anyone puts a number in a board deck or a budget plan.
 [CTA] Review pipeline data quality → /get-started/request-an-audit
 Agree what each pipeline stage actually means

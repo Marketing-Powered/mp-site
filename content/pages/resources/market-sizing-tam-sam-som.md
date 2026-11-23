@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: TAM, SAM and SOM: Build a Defensible Market Size
 Meta description: Build a transparent market-size estimate that distinguishes the total universe, serviceable opportunity and realistically reachable demand.
-H1: TAM, SAM and SOM: Build a Defensible Market Size
+H1: How to Build a Defensible Market Size With TAM, SAM and SOM
 Hero image alt: Wide exterior view of a multi-location clinic building with a glass facade and plaza at sunrise.
 
 
 PAGE COPY
 
-TAM, SAM and SOM: Build a Defensible Market Size
+How to Build a Defensible Market Size With TAM, SAM and SOM
 Market-size slides often struggle with one follow-up question: where did the one percent come from? Useful TAM SAM SOM market sizing treats the three figures as three separate calculations resting on three different kinds of evidence, not one guess sliced into progressively smaller fractions. This guide sets out that method and a worksheet structure you can rebuild in a spreadsheet before your next board or investor conversation.
 [CTA] Discuss a market-size assumption → /get-started/request-an-audit
 Define the buyer and the unit of demand first

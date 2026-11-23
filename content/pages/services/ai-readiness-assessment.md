@@ -8,13 +8,13 @@ secondary_keywords: "AI readiness consulting, AI maturity assessment, AI opportu
 SEO METADATA
 Title tag: AI Readiness Assessment Built Around Business Decisions
 Meta description: Prioritize viable AI use cases by business value, data readiness, risk and delivery requirements before commissioning implementation.
-H1: AI Readiness Assessment Built Around Business Decisions
+H1: An AI Readiness Assessment Built Around Business Decisions
 Hero image alt: Exterior of a modern outpatient healthcare pavilion at sunrise with concrete walkways and architectural glass.
 
 
 PAGE COPY
 
-AI Readiness Assessment Built Around Business Decisions
+An AI Readiness Assessment Built Around Business Decisions
 Most AI buying decisions start with a label and end with a contract nobody can defend: unclear data custody, no named operator, no agreed definition of working. An AI readiness assessment from Marketing Powered is a cross-functional review that ranks candidate use cases by business value, data readiness, risk and delivery requirements before any implementation spend is committed. The output is a decision, not a score.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Start with the decision, the owner and the constraints

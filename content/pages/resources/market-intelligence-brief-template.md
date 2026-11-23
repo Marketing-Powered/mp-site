@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Market Intelligence Brief Template for Better Decisions
 Meta description: Turn a broad research request into a clear decision brief with deliverables, source expectations, constraints and acceptance criteria.
-H1: Market Intelligence Brief Template for Better Decisions
+H1: A Market Intelligence Brief Template That Leads to a Decision
 Hero image alt: Empty modern boardroom overlooking a city skyline at dawn with a timber credenza and expansive morning light.
 
 
 PAGE COPY
 
-Market Intelligence Brief Template for Better Decisions
+A Market Intelligence Brief Template That Leads to a Decision
 Most research disappointments begin before any research happens. A request like "look at the competition" leaves the analyst to invent the question, and the answer arrives as a deck of industry facts nobody can act on. A market research brief template fixes that by converting a vague ask into a decision specification with named deliverables, source rules and acceptance criteria.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Name the decision, the decision maker and the deadline

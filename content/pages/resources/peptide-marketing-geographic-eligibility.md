@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Geographic Eligibility for Peptide Marketing
 Meta description: Align peptide marketing locations with service authority, product eligibility and channel rules using a documented market-permission register.
-H1: Geographic Eligibility for Peptide Marketing
+H1: Where You Can Market Peptides: Geographic Eligibility Explained
 Hero image alt: Wide empty shipping loading dock at dawn with marked floor staging lanes and industrial roller doors.
 
 
 PAGE COPY
 
-Geographic Eligibility for Peptide Marketing
+Where You Can Market Peptides: Geographic Eligibility Explained
 Peptide advertising geographic restrictions are not one list. They are three overlapping lists: where your entity is authorized to deliver the service, where the product itself can lawfully be sold and promoted, and where the advertising platform will let the account target at all. This guide shows how to reconcile those three into a single market-permission register before budget moves, and where to stop and get qualified review.
 [CTA] Audit your market alignment → /get-started/request-an-audit
 List every entity and every service before anything else

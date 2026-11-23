@@ -8,13 +8,13 @@ secondary_keywords: "peptide advertising claims audit, peptide content substanti
 SEO METADATA
 Title tag: Peptide Marketing Claims Review
 Meta description: Review peptide marketing claims across copy, imagery and customer journeys, with evidence mapping, correction priorities and documented approval ownership.
-H1: Peptide Marketing Claims Review
+H1: Peptide Marketing Claims Review Across Copy, Imagery and Customer Journeys
 Hero image alt: A bound claims audit dossier rests open on an oak table in morning light.
 
 
 PAGE COPY
 
-Peptide Marketing Claims Review
+Peptide Marketing Claims Review Across Copy, Imagery and Customer Journeys
 Peptide brands publish claims faster than they can document the evidence behind them, and the record of who approved what usually does not exist. A peptide marketing claims review fixes the traceability problem first: every express and implied claim in a defined asset set, mapped to its evidence, its gaps and a named approver.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the asset set before the review begins

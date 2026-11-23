@@ -8,12 +8,12 @@ secondary_keywords: "market sizing services, TAM SAM SOM research, market opport
 SEO METADATA
 Title tag: Market Sizing Research With Transparent Assumptions
 Meta description: Estimate addressable opportunity using a reproducible model with explicit definitions, sources and sensitivity ranges.
-H1: Market Sizing Research With Transparent Assumptions
+H1: Market Sizing Research Built on Transparent Assumptions
 
 
 PAGE COPY
 
-Market Sizing Research With Transparent Assumptions
+Market Sizing Research Built on Transparent Assumptions
 Most market size figures fail the second question: where did the number come from, and what moves if one assumption is wrong? Market sizing research should produce a model a reviewer can open, audit and rerun, with its definitions, inputs and ranges visible. That is the difference between a slide you present once and an estimate you can still defend when the plan is challenged.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the market precisely before any math

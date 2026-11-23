@@ -8,13 +8,13 @@ secondary_keywords: "ICP research services, ideal customer profile consulting, B
 SEO METADATA
 Title tag: Ideal Customer Profile Research Grounded in Evidence
 Meta description: Define which organizations fit the offer using customer outcomes, buying conditions and accessible market evidence.
-H1: Ideal Customer Profile Research Grounded in Evidence
+H1: Ideal Customer Profile Research Built on Evidence, Not Assumptions
 Hero image alt: Wide exterior shot of a modern multi-location healthcare campus entrance at dawn with concrete walkway and architectural glass doors.
 
 
 PAGE COPY
 
-Ideal Customer Profile Research Grounded in Evidence
+Ideal Customer Profile Research Built on Evidence, Not Assumptions
 Most ICP work ends as a slide with a logo wall and a few adjectives, which is not a targeting decision. Ideal customer profile research should produce account-level fit criteria built from what your customers actually bought, why they bought it and where the work succeeded after the contract was signed. Everything else is a segment someone found attractive.
 [CTA] Build an evidence-based ICP → /get-started/request-an-audit
 Start with the customer outcomes you can actually document

@@ -8,13 +8,13 @@ secondary_keywords: "site selection market research, local market analysis, trad
 SEO METADATA
 Title tag: Location Market Analysis Before Opening the Next Site
 Meta description: Compare prospective locations using accessible demand, competition, customer geography and operating constraints.
-H1: Location Market Analysis Before Opening the Next Site
+H1: Location Market Analysis Before You Open the Next Site
 Hero image alt: Exterior view of an unoccupied commercial storefront and empty asphalt parking lot during morning daylight.
 
 
 PAGE COPY
 
-Location Market Analysis Before Opening the Next Site
+Location Market Analysis Before You Open the Next Site
 Most expansion decisions get made with whatever market data was easiest to pull: a demographics export, a competitor count from a map search, a regional report written for somebody else's business. A location market analysis replaces that with one comparison method applied identically to every candidate site, so the number in the lease approval deck can be traced back to a dated source or labeled as an assumption.
 [CTA] Compare expansion locations → /get-started/request-an-audit
 Define the actual catchment before counting anything

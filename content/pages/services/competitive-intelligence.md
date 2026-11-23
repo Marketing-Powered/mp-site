@@ -8,13 +8,13 @@ secondary_keywords: "competitive intelligence agency, competitor research servic
 SEO METADATA
 Title tag: Competitive Intelligence With Sources and Strategic Context
 Meta description: Assess competitors, substitutes and market moves using authorized evidence that supports positioning and commercial decisions.
-H1: Competitive Intelligence With Sources and Strategic Context
+H1: Competitive Intelligence Services With Sources and Strategic Context
 Hero image alt: An empty library reference table with stacked research folders, a blue notebook, and morning window light across open space.
 
 
 PAGE COPY
 
-Competitive Intelligence With Sources and Strategic Context
+Competitive Intelligence Services With Sources and Strategic Context
 Most competitive decisions are made from a slide nobody can trace: a screenshot with no date, a revenue figure with no method, a deck recycled from a market that has since moved. Competitive intelligence services are only worth buying when every claim carries a source, a retrieval date, and a visible line between what was observed and what someone inferred. That discipline is the point of this work.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the competitive set around the real buyer decision

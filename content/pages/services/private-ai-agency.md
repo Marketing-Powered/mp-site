@@ -8,13 +8,13 @@ secondary_keywords: "secure AI agency, private AI consulting, private AI impleme
 SEO METADATA
 Title tag: Private AI Agency for Business Systems You Can Control
 Meta description: Choose a partner to scope, deploy and operate private AI around an approved business workflow and explicit data boundaries.
-H1: Private AI Agency for Business Systems You Can Control
+H1: A Private AI Agency for Business Systems You Control
 Hero image alt: A company operations leader and technical specialist review a printed system boundary schematic together across a sunlit office table.
 
 
 PAGE COPY
 
-Private AI Agency for Business Systems You Can Control
+A Private AI Agency for Business Systems You Control
 Most vendors selling private AI are describing a network path, a contract clause or a product tier, and all three can be accurate while you still control very little. Choosing a private AI agency is a decision about who operates the workflow, where data rests and moves, and who answers when an output is wrong. This page sets out the terms worth settling before anyone builds anything.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Start with the business decision, not the model

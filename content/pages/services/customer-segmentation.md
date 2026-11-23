@@ -8,13 +8,13 @@ secondary_keywords: "customer segmentation services, behavioral segmentation ana
 SEO METADATA
 Title tag: Customer Segmentation Analysis Built for Action
 Meta description: Define evidence-based customer segments that are interpretable, reachable and useful for a specific business decision.
-H1: Customer Segmentation Analysis Built for Action
+H1: Customer Segmentation Analysis You Can Act On
 Hero image alt: Wide view of a brightly lit clinic concourse at sunrise with two polished corridors diverging toward separate wings.
 
 
 PAGE COPY
 
-Customer Segmentation Analysis Built for Action
+Customer Segmentation Analysis You Can Act On
 Most segmentation work ends in names rather than decisions. A customer segmentation analysis is worth its cost only when each group points to a specific operating choice, survives the next data refresh, and describes people you can actually reach. That standard shapes how this work is scoped, validated and handed over.
 [CTA] Scope a segmentation study → /get-started/request-an-audit
 Start with the decision the segments must serve

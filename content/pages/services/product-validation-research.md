@@ -8,13 +8,13 @@ secondary_keywords: "product market validation research, new product market rese
 SEO METADATA
 Title tag: Product Validation Research Before Building or Launching
 Meta description: Test whether a proposed offer addresses a sufficiently important buyer problem before committing major build or launch resources.
-H1: Product Validation Research Before Building or Launching
+H1: Product Validation Research Before You Build or Launch
 Hero image alt: Wide view of an empty clinic reception lobby with polished floors and glass entrance doors in morning light.
 
 
 PAGE COPY
 
-Product Validation Research Before Building or Launching
+Product Validation Research Before You Build or Launch
 Some offers that fail were built well. They solved a problem that was real but not costly enough to make anyone change what they already do. Product validation research tests that assumption while being wrong is still inexpensive.
 [CTA] Validate an offer hypothesis → /get-started/request-an-audit
 State the product hypothesis in falsifiable terms

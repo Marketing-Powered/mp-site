@@ -9,13 +9,13 @@ author: "mike-hulick"
 SEO METADATA
 Title tag: Peptide Marketing Agency RFP and Due Diligence
 Meta description: Evaluate peptide marketing partners through verified capabilities, policy judgment, account ownership, transparent methods and a proposal scorecard.
-H1: Peptide Marketing Agency RFP and Due Diligence
+H1: How to Run a Peptide Marketing Agency RFP and Due Diligence
 Hero image alt: Three thick procurement evaluation binders with colored tabs resting on a slate counter in morning light.
 
 
 PAGE COPY
 
-Peptide Marketing Agency RFP and Due Diligence
+How to Run a Peptide Marketing Agency RFP and Due Diligence
 A pitch deck can be rewritten in an afternoon. A signed account-ownership clause, a redacted campaign artifact and a correct answer to a policy scenario cannot, which is why a peptide marketing agency RFP should score documents before it ever scores enthusiasm. This page gives you the request list, the scenario questions, a weighted scorecard and a worked comparison you can run against every vendor on your shortlist.
 [CTA] Request a Free Audit → /get-started/request-an-audit
 Define the business and the eligible scope before you ask

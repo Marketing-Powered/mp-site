@@ -395,6 +395,8 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/services/private-conversation-intelligence", file: "services/private-conversation-intelligence.md" },
     { href: "/services/market-intelligence-dashboards", file: "services/market-intelligence-dashboards.md" },
     { href: "/services/product-validation-research", file: "services/product-validation-research.md" },
+    { href: "/services/ai-workflow-automation", file: "services/ai-workflow-automation.md" },
+    { href: "/services/data-strategy-consulting", file: "services/data-strategy-consulting.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },
@@ -429,6 +431,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/who-we-help/small-business/market-intelligence", file: "who-we-help/small-business/market-intelligence.md" },
     { href: "/who-we-help/multi-location/data-and-market-intelligence", file: "who-we-help/multi-location/data-and-market-intelligence.md" },
     { href: "/who-we-help/peptide-businesses", file: "who-we-help/peptide-businesses.md" },
+    { href: "/who-we-help/research-peptide-suppliers", file: "who-we-help/research-peptide-suppliers.md" },
   ],
   "who-we-help/behavioral-health.md": [
     { href: "/who-we-help/behavioral-health/residential-treatment", file: "who-we-help/behavioral-health/residential-treatment.md" },
@@ -645,6 +648,11 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/resources/ai-proof-of-concept-success-criteria", file: "resources/ai-proof-of-concept-success-criteria.md" },
     { href: "/resources/market-intelligence-cost", file: "resources/market-intelligence-cost.md" },
     { href: "/resources/research-use-only-peptide-marketing", file: "resources/research-use-only-peptide-marketing.md" },
+    { href: "/resources/peptide-advertising-eligibility", file: "resources/peptide-advertising-eligibility.md" },
+    { href: "/resources/google-ads-peptide-drug-terms", file: "resources/google-ads-peptide-drug-terms.md" },
+    { href: "/resources/peptide-marketing-agency-rfp", file: "resources/peptide-marketing-agency-rfp.md" },
+    { href: "/resources/peptide-advertiser-identity-verification", file: "resources/peptide-advertiser-identity-verification.md" },
+    { href: "/resources/peptide-market-research-methodology", file: "resources/peptide-market-research-methodology.md" },
   ],
   "legal/index.md": [
     { href: "/legal/terms", file: "legal/terms.md" },

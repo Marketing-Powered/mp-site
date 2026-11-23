@@ -425,6 +425,14 @@ const VALID = new Set<string>([
   "/resources/ai-proof-of-concept-success-criteria",
   "/resources/market-intelligence-cost",
   "/resources/research-use-only-peptide-marketing",
+  "/services/ai-workflow-automation",
+  "/services/data-strategy-consulting",
+  "/who-we-help/research-peptide-suppliers",
+  "/resources/peptide-advertising-eligibility",
+  "/resources/google-ads-peptide-drug-terms",
+  "/resources/peptide-marketing-agency-rfp",
+  "/resources/peptide-advertiser-identity-verification",
+  "/resources/peptide-market-research-methodology",
 ]);
 
 const REMAP: Record<string, string> = {

@@ -86,6 +86,218 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/peptide-market-research-methodology/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-market-research-methodology",
+      "peptide-market-research.webp",
+      "Exterior view of an empty specialized medical compounding facility entrance at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-market-research-methodology",
+      "peptide-market-research-four-row-decision-matrix-comparing.webp",
+      "A four-row decision matrix comparing peptide buyer segments against primary constraints and validation thresholds.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-market-research-methodology",
+      "peptide-market-research-intake-counter-phone-console-illuminated.webp",
+      "An intake counter phone console with an illuminated line indicator next to file folders.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-market-research-methodology",
+      "peptide-market-research-hands-holding-open-black-document.webp",
+      "Hands holding an open black document verification binder with paper forms in front of a filing cabinet.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-advertiser-identity-verification/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-advertiser-identity-verification",
+      "peptide-advertiser-verification.webp",
+      "Physical corporate registration binders and an official seal rest on a wooden table in an empty office.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-advertiser-identity-verification",
+      "peptide-advertiser-verification-comparison-diagram-showing-entity-name.webp",
+      "Comparison diagram showing entity name, payment profile, and domain owner alignment for advertiser verification.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-advertiser-identity-verification",
+      "peptide-advertiser-verification-hands-positioning-blank-physical.webp",
+      "Hands positioning a blank physical identification card on a matte surface under even lighting for capture.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-marketing-agency-rfp/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-marketing-agency-rfp",
+      "peptide-marketing-agency-rfp.webp",
+      "Three thick procurement evaluation binders with colored tabs resting on a slate counter in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-marketing-agency-rfp",
+      "peptide-marketing-agency-rfp-four-column-scorecard-diagram-outlining.webp",
+      "Four-column scorecard diagram outlining agency evaluation categories: delivery evidence, policy judgment, asset ownership, and recovery safety.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-marketing-agency-rfp",
+      "peptide-marketing-agency-rfp-secure-metal-network-server-cabinet-data.webp",
+      "Secure metal network server cabinet in a data facility with mechanical key latch and small status indicator lights.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-marketing-agency-rfp",
+      "peptide-marketing-agency-rfp-three-aluminum-clipboards-resting.webp",
+      "Three aluminum clipboards resting on a stainless steel inspection surface in soft daylight.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/google-ads-peptide-drug-terms/": [
+    // [0] hero
+    studioImg(
+      "resources/google-ads-peptide-drug-terms",
+      "google-ads-peptide-policy.webp",
+      "Exterior glass double doors of an outpatient clinic building at sunrise with clean pavers and landscaped planters.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/google-ads-peptide-drug-terms",
+      "google-ads-peptide-policy-four-tier-vertical-stack-diagram.webp",
+      "A four-tier vertical stack diagram displaying review layers for keyword targeting, ad copy, linked destination, and business certification.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/google-ads-peptide-drug-terms",
+      "google-ads-peptide-policy-brightly-lit-interior-healthcare.webp",
+      "A brightly lit interior healthcare facility hallway with clean wayfinding lines along the floor leading toward an open suite.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-advertising-eligibility/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-advertising-eligibility",
+      "can-peptide-companies-advertise.webp",
+      "Unlabelled glass laboratory vial resting in an aluminum rack on a stainless steel counter in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-advertising-eligibility",
+      "can-peptide-companies-advertise-diagram-showing-four-peptide-business.webp",
+      "Diagram showing four peptide business categories: Clinical Care, Pharmacy Dispensing, Laboratory Supply, and Consumer Products.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-advertising-eligibility",
+      "can-peptide-companies-advertise-empty-climate-controlled-commercial.webp",
+      "Empty climate-controlled commercial laboratory distribution bay with metal shelving and stacked storage crates.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-advertising-eligibility",
+      "can-peptide-companies-advertise-open-hardbound-compliance-ledger.webp",
+      "Open hardbound compliance ledger with an archival pen resting on lined paper in natural midday light.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/research-peptide-suppliers/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/research-peptide-suppliers",
+      "research-peptide-marketing.webp",
+      "Exterior receiving entrance of a research facility with insulated reagent transport containers on a utility cart in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/research-peptide-suppliers",
+      "research-peptide-marketing-comparison-framework-distinguishing.webp",
+      "Comparison framework distinguishing genuine institutional lab peptide suppliers from consumer-facing sellers using research-only language.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/research-peptide-suppliers",
+      "research-peptide-marketing-laboratory-fulfillment-specialist.webp",
+      "Laboratory fulfillment specialist packing an insulated cold-chain shipment at a stainless steel station in a distribution facility.",
+      "3 / 2",
+    ),
+  ],
+  "/services/data-strategy-consulting/": [
+    // [0] hero
+    studioImg(
+      "services/data-strategy-consulting",
+      "data-strategy-consulting.webp",
+      "Empty sunlit hospital administrative hallway with polished floors leading toward double frosted glass doors.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/data-strategy-consulting",
+      "data-strategy-consulting-close-up-hands-placing-sky-blue-project.webp",
+      "Close-up of hands placing a sky-blue project portfolio on a wooden table before a morning meeting.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/data-strategy-consulting",
+      "data-strategy-consulting-three-stage-diagram-linking-priority.webp",
+      "Three-stage diagram linking a priority business decision to an assigned data owner and an early architecture choice.",
+      "3 / 2",
+    ),
+  ],
+  "/services/ai-workflow-automation/": [
+    // [0] hero
+    studioImg(
+      "services/ai-workflow-automation",
+      "ai-workflow-automation-services.webp",
+      "A climate-controlled server room with neatly dressed sky blue patch cables in an equipment rack, leaving open space on the right.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/ai-workflow-automation",
+      "ai-workflow-automation-services-manila-quote-folder-stamped-paper.webp",
+      "A manila quote folder and stamped paper pricing matrix resting on a birch counter in an administrative records room.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/ai-workflow-automation",
+      "ai-workflow-automation-services-process-diagram-showing-six-steps.webp",
+      "A process diagram showing six steps from incoming request through model draft, approval gate, and manual fallback path.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/ai-workflow-automation",
+      "ai-workflow-automation-services-open-operational-runbook-binder-tab.webp",
+      "An open operational runbook binder with tab dividers resting on a wooden table in an empty room at dusk.",
+      "3 / 2",
+    ),
+  ],
   "/resources/research-use-only-peptide-marketing/": [
     // [0] hero
     studioImg(

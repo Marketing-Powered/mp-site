@@ -26,7 +26,7 @@ import { SITE_URL } from "@/lib/site";
 const AUTHOR = AUTHORS["mike-hulick"];
 const PATH = AUTHOR.href;
 
-const TITLE = "Michael (Mike) Hulick | Marketing Executive & Author | Marketing Powered";
+const TITLE = "Mike Hulick | Marketing Executive & Author | Marketing Powered";
 const DESCRIPTION =
   "Meet Mike Hulick, founder of Marketing Powered and former enterprise CMO. Explore his work in growth strategy, healthcare marketing, owned AI infrastructure, and attribution.";
 
@@ -393,7 +393,7 @@ export default function AuthorPage() {
 
       {/* ---------- LEAD ---------- */}
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-16 pt-12 lg:px-12 lg:pt-16">
-        <Breadcrumbs url={`${PATH}/`} current="Michael Hulick" />
+        <Breadcrumbs url={`${PATH}/`} current="Mike Hulick" />
         {/* Phones: name block, headshot, then intro and CTAs. Desktop: text
             left, headshot right spanning both text rows. */}
         <div className="mt-8 grid gap-x-12 gap-y-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-y-0">
@@ -403,7 +403,7 @@ export default function AuthorPage() {
               className="text-[clamp(2.4rem,5vw,4.2rem)] leading-[1.02]"
               style={{ fontFamily: serif, fontWeight: 400, letterSpacing: "-0.02em" }}
             >
-              {AUTHOR.fullName}
+              {AUTHOR.name}
             </h1>
             <p className="mt-5 text-[clamp(1.05rem,1.4vw,1.25rem)] leading-snug text-white/80">
               {SUBHEAD}

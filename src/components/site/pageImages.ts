@@ -86,6 +86,504 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/research-use-only-peptide-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/research-use-only-peptide-marketing",
+      "research-use-only-peptide-marketing.webp",
+      "Wide view of an empty institutional research facility corridor with stainless steel benches and cryogenic storage vessels in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/research-use-only-peptide-marketing",
+      "research-use-only-peptide-marketing-close-up-laboratory-sample-vials.webp",
+      "Close-up of laboratory sample vials and measuring tools on a stainless steel inspection bench under soft daylight.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/research-use-only-peptide-marketing",
+      "research-use-only-peptide-marketing-comparison-table-contrasting.webp",
+      "Comparison table contrasting institutional laboratory supply practices with commercial human-use marketing signals.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/research-use-only-peptide-marketing",
+      "research-use-only-peptide-marketing-warehouse-logistics-technician-standing.webp",
+      "A warehouse logistics technician standing at a dispatch station sealing an institutional shipping container.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/market-intelligence-cost/": [
+    // [0] hero
+    studioImg(
+      "resources/market-intelligence-cost",
+      "market-intelligence-cost.webp",
+      "Exterior view of an empty newly constructed outpatient healthcare building in morning sunlight.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/market-intelligence-cost",
+      "market-intelligence-cost-two-two-matrix-categorizing-research.webp",
+      "A two-by-two matrix categorizing research decisions by reversibility and required confidence.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/market-intelligence-cost",
+      "market-intelligence-cost-archival-storage-box-metal-dispatch-tray.webp",
+      "An archival storage box and a metal dispatch tray resting on an oak credenza in an office corridor.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/market-intelligence-cost",
+      "market-intelligence-cost-close-up-hands-holding-aluminum.webp",
+      "Close-up of hands holding an aluminum clipboard with a paper scoping document in an equipment room.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/ai-proof-of-concept-success-criteria/": [
+    // [0] hero
+    studioImg(
+      "resources/ai-proof-of-concept-success-criteria",
+      "ai-proof-of-concept-success-criteria.webp",
+      "Empty data facility server aisle with clean cable conduits and soft dawn light receding down a quiet corridor.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/ai-proof-of-concept-success-criteria",
+      "ai-proof-of-concept-success-criteria-open-doorway-looking-quiet-executive.webp",
+      "An open doorway looking into a quiet executive office with morning light falling across a walnut credenza and binder.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/ai-proof-of-concept-success-criteria",
+      "ai-proof-of-concept-success-criteria-process-diagram-showing-five-pilot.webp",
+      "Process diagram showing five pilot stages from baseline measurement and test scope to preset thresholds and decision gate.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/ai-proof-of-concept-success-criteria",
+      "ai-proof-of-concept-success-criteria-hands-closing-two-page-document-folio.webp",
+      "Hands closing a two-page document folio on a stone counter in bright daylight.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/market-sizing-tam-sam-som/": [
+    // [0] hero
+    studioImg(
+      "resources/market-sizing-tam-sam-som",
+      "tam-sam-som-market-sizing.webp",
+      "Wide exterior view of a multi-location clinic building with a glass facade and plaza at sunrise.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/market-sizing-tam-sam-som",
+      "tam-sam-som-market-sizing-three-empty-armchairs-arranged-around.webp",
+      "Three empty armchairs arranged around a low table in an outpatient treatment room.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/market-sizing-tam-sam-som",
+      "tam-sam-som-market-sizing-three-tier-funnel-diagram-illustrating.webp",
+      "A three-tier funnel diagram illustrating total, serviceable, and obtainable market sizing layers.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/market-sizing-tam-sam-som",
+      "tam-sam-som-market-sizing-metal-date-stamper-resting-top-closed.webp",
+      "A metal date stamper resting on top of closed manila document folders on a wooden desk.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/competitive-intelligence-research-methods/": [
+    // [0] hero
+    studioImg(
+      "resources/competitive-intelligence-research-methods",
+      "competitive-intelligence-research-methods.webp",
+      "Rows of tall metal archival shelves holding uniform gray storage boxes and paper ledgers in a quiet records repository.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/competitive-intelligence-research-methods",
+      "competitive-intelligence-research-methods-standing-person-writes-intelligence.webp",
+      "A standing person writes an intelligence objective on a paper document on an oak standing desk with a graphite pencil.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/competitive-intelligence-research-methods",
+      "competitive-intelligence-research-methods-overhead-view-three-independent-research.webp",
+      "An overhead view of three independent research documents arranged in a triangle on a dark concrete inspection table.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/competitive-intelligence-research-methods",
+      "competitive-intelligence-research-methods-three-tier-confidence-diagram-outlining.webp",
+      "A three-tier confidence diagram outlining Confirmed, Likely, and Speculative standards for evaluating research findings.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/ai-data-readiness-checklist/": [
+    // [0] hero
+    studioImg(
+      "resources/ai-data-readiness-checklist",
+      "ai-data-readiness-checklist.webp",
+      "A quiet hospital records room with steel shelving holding categorized document boxes and reference binders.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/ai-data-readiness-checklist",
+      "ai-data-readiness-checklist-intake-coordinator-seen-behind-sorting.webp",
+      "An intake coordinator seen from behind sorting printed workflow reference cards on an outpatient clinic counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/ai-data-readiness-checklist",
+      "ai-data-readiness-checklist-decision-flow-diagram-routing-source.webp",
+      "A decision flow diagram routing source evaluation checks into stop, remediate, and pass with conditions outcomes.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/ai-knowledge-base-permissions/": [
+    // [0] hero
+    studioImg(
+      "resources/ai-knowledge-base-permissions",
+      "ai-knowledge-base-permissions.webp",
+      "An empty server room corridor with black compute racks and cool blue cable conduit illumination along polished concrete flooring.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/ai-knowledge-base-permissions",
+      "ai-knowledge-base-permissions-six-step-flow-diagram-tracking-document.webp",
+      "A six-step flow diagram tracking document access permissions from initial source rights to the final generated answer.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/ai-knowledge-base-permissions",
+      "ai-knowledge-base-permissions-close-up-stacked-archival-folders-blue.webp",
+      "Close-up of stacked archival folders with blue index tabs on a gray metal surface in an audit storage room.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/ai-knowledge-base-permissions",
+      "ai-knowledge-base-permissions-professional-viewed-behind-walking-down.webp",
+      "A professional viewed from behind walking down a sunlit modern hallway toward a frosted glass doorway.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/market-intelligence-vs-market-research/": [
+    // [0] hero
+    studioImg(
+      "resources/market-intelligence-vs-market-research",
+      "market-intelligence-vs-market-research.webp",
+      "Paved stone walkway splitting toward two entrances outside a modern outpatient medical pavilion at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/market-intelligence-vs-market-research",
+      "market-intelligence-vs-market-research-exterior-view-empty-commercial-medical.webp",
+      "Exterior view of an empty commercial medical office suite with bare concrete floors seen through clean glass windows.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/market-intelligence-vs-market-research",
+      "market-intelligence-vs-market-research-comparison-matrix-classifying-bounded.webp",
+      "Comparison matrix classifying bounded studies, recurring programs, and internal analytics across evidence sources.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/market-intelligence-vs-market-research",
+      "market-intelligence-vs-market-research-metal-mechanical-date-stamp-resting-dark.webp",
+      "Metal mechanical date stamp resting on a dark walnut table beside an archival folder in natural side light.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/private-ai-vendor-evaluation-checklist/": [
+    // [0] hero
+    studioImg(
+      "resources/private-ai-vendor-evaluation-checklist",
+      "private-ai-vendor-evaluation.webp",
+      "Enterprise server room corridor with an open rack cabinet showing blue and green network patch cables.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/private-ai-vendor-evaluation-checklist",
+      "private-ai-vendor-evaluation-four-row-comparison-diagram-mapping.webp",
+      "Four-row comparison diagram mapping private AI claims to required evidence documents including network diagrams and asset schedules.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/private-ai-vendor-evaluation-checklist",
+      "private-ai-vendor-evaluation-black-exit-schedule-binder-blue-index.webp",
+      "Black exit schedule binder with blue index tabs lying next to a compact external storage drive on an oak credenza.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/private-ai-vendor-evaluation-checklist",
+      "private-ai-vendor-evaluation-standing-procurement-evaluator-holding.webp",
+      "Standing procurement evaluator holding a tabbed technical folder in a sunlit architectural corridor.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/private-ai-vs-public-ai/": [
+    // [0] hero
+    studioImg(
+      "resources/private-ai-vs-public-ai",
+      "private-ai-vs-public-ai.webp",
+      "An on-premise server rack with neatly routed blue cables and indicator lights in a quiet administrative facility.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/private-ai-vs-public-ai",
+      "private-ai-vs-public-ai-diagram-showing-five-deployment.webp",
+      "Diagram showing five deployment boundaries: network access, hosting location, tenancy model, data use terms, and stack ownership.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/private-ai-vs-public-ai",
+      "private-ai-vs-public-ai-close-up-technician-s-hands-inserting.webp",
+      "Close-up of a technician's hands inserting a hot-swap drive caddy into a server chassis inside an equipment alcove.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/private-ai-vs-public-ai",
+      "private-ai-vs-public-ai-archival-evidence-binder-blue-indexing.webp",
+      "An archival evidence binder with blue indexing tabs resting on an oak counter in a bright, quiet records room.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/rag-vs-fine-tuning/": [
+    // [0] hero
+    studioImg(
+      "resources/rag-vs-fine-tuning",
+      "rag-vs-fine-tuning.webp",
+      "A server rack enclosure with neatly bundled network cables and soft blue and green status indicator lights.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/rag-vs-fine-tuning",
+      "rag-vs-fine-tuning-four-part-decision-diagram-connecting-ai.webp",
+      "A four-part decision diagram connecting AI failure types to recommended interventions including RAG and fine-tuning.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/rag-vs-fine-tuning",
+      "rag-vs-fine-tuning-archival-document-binders-tabbed-folders.webp",
+      "Archival document binders and tabbed folders resting on an office counter in natural morning light.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/rag-vs-fine-tuning",
+      "rag-vs-fine-tuning-close-up-hands-placing-blue-evaluation.webp",
+      "Close-up of hands placing a blue evaluation marker onto a testing grid on a white display board.",
+      "3 / 2",
+    ),
+  ],
+  "/research/peptide-advertising-restrictions-evidence-review/": [
+    // [0] hero
+    studioImg(
+      "research/peptide-advertising-restrictions-evidence-review",
+      "peptide-ad-suspension-research.webp",
+      "Empty pharmaceutical research laboratory with stainless steel counter and glass vials in a blue metal rack in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "research/peptide-advertising-restrictions-evidence-review",
+      "peptide-ad-suspension-research-four-stage-diagram-classifying-ad.webp",
+      "Four-stage diagram classifying ad rejection, delivery restriction, account suspension, and permanent exclusion enforcement levels.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "research/peptide-advertising-restrictions-evidence-review",
+      "peptide-ad-suspension-research-close-up-hands-placing-manila-compliance.webp",
+      "Close-up of hands placing a manila compliance audit folder into a metal storage archive shelf.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "research/peptide-advertising-restrictions-evidence-review",
+      "peptide-ad-suspension-research-granite-steps-iron-balustrade-federal.webp",
+      "Granite steps and iron balustrade of a federal building portico at twilight under an evening sky.",
+      "3 / 2",
+    ),
+  ],
+  "/services/product-validation-research/": [
+    // [0] hero
+    studioImg(
+      "services/product-validation-research",
+      "product-validation-research.webp",
+      "Wide view of an empty clinic reception lobby with polished floors and glass entrance doors in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/product-validation-research",
+      "product-validation-research-four-card-framework-diagram-showing.webp",
+      "Four-card framework diagram showing target buyer, current problem, current alternative, and proposed change.",
+      "3 / 2",
+    ),
+  ],
+  "/services/market-intelligence-dashboards/": [
+    // [0] hero
+    studioImg(
+      "services/market-intelligence-dashboards",
+      "market-intelligence-dashboard-services.webp",
+      "Exterior view of a multi-story glass healthcare headquarters building at sunrise with manicured green shrubs and an empty concrete terrace.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/market-intelligence-dashboards",
+      "market-intelligence-dashboard-services-three-labeled-archival-folders-linen.webp",
+      "Three labeled archival folders with linen covers and spine ribbons lie in a row on a wooden credenza in diffused morning light.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/market-intelligence-dashboards",
+      "market-intelligence-dashboard-services-horizontal-flow-diagram-linking-five.webp",
+      "Horizontal flow diagram linking five stages from external signal to stored observation, comparison view, owner threshold, and decision record.",
+      "3 / 2",
+    ),
+  ],
+  "/services/private-conversation-intelligence/": [
+    // [0] hero
+    studioImg(
+      "services/private-conversation-intelligence",
+      "private-conversation-intelligence.webp",
+      "An empty administrative telephone station with a landline handset and acoustic fabric privacy panel in soft morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/private-conversation-intelligence",
+      "private-conversation-intelligence-horizontal-process-diagram-outlining-six.webp",
+      "A horizontal process diagram outlining six stages from authorized corpus to decision use with traceable evidence highlighted.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/private-conversation-intelligence",
+      "private-conversation-intelligence-close-up-hands-highlighting-line-printed.webp",
+      "Close-up of hands highlighting a line on a printed transcript sheet marked with a blue index tab on an oak desk.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/private-conversation-intelligence",
+      "private-conversation-intelligence-operations-manager-seen-behind-placing.webp",
+      "An operations manager seen from behind placing a reviewed briefing folio into a wall-mounted distribution tray in a quiet hallway.",
+      "3 / 2",
+    ),
+  ],
+  "/services/data-warehouse-implementation/": [
+    // [0] hero
+    studioImg(
+      "services/data-warehouse-implementation",
+      "data-warehouse-implementation.webp",
+      "Structured network cables in blue and green jackets neatly organized on black server rack frames in a server room.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/data-warehouse-implementation",
+      "data-warehouse-implementation-brass-facility-keys-resting-beside.webp",
+      "Brass facility keys resting beside labeled paper intake folders on an oak wooden counter in natural morning light.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/data-warehouse-implementation",
+      "data-warehouse-implementation-process-diagram-showing-data-flow.webp",
+      "Process diagram showing data flow through source systems, raw ingestion, permission boundaries, transformation tests, and analytical store.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/data-warehouse-implementation",
+      "data-warehouse-implementation-hands-administrator-placing-bound.webp",
+      "Hands of an administrator placing a bound technical runbook binder onto an industrial steel shelf in a staging room.",
+      "3 / 2",
+    ),
+  ],
+  "/services/data-enrichment/": [
+    // [0] hero
+    studioImg(
+      "services/data-enrichment",
+      "data-enrichment-services.webp",
+      "An empty admissions intake desk with a telephone and document folders in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/data-enrichment",
+      "data-enrichment-services-close-up-hands-applying-green.webp",
+      "Close-up of hands applying a green verification seal to an intake folder on a dark slate counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/data-enrichment",
+      "data-enrichment-services-process-diagram-showing-five-data.webp",
+      "Process diagram showing five data enrichment stages from source licensing to permitted use flag.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/peptide-businesses/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/peptide-businesses",
+      "peptide-marketing-agency.webp",
+      "Clear laboratory vials and amber glass bottles resting on a stainless steel preparation counter in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/peptide-businesses",
+      "peptide-marketing-agency-comparison-table-classifying-four.webp",
+      "A comparison table classifying four peptide business models across legal status, certification, and ad channel eligibility.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/peptide-businesses",
+      "peptide-marketing-agency-manila-document-folders-archival-file.webp",
+      "Manila document folders and archival file jackets arranged neatly across a solid wood table in soft daylight.",
+      "3 / 2",
+    ),
+  ],
   "/who-we-help/multi-location/data-and-market-intelligence/": [
     // [0] hero
     studioImg(

@@ -1,0 +1,78 @@
+---
+title: "Market Intelligence vs Market Research: Choose the Work"
+url: "/resources/market-intelligence-vs-market-research/"
+primary_keyword: "market intelligence vs market research"
+secondary_keywords: "competitive intelligence vs market research, market intelligence vs business intelligence, types of market research, market research services comparison"
+author: "mike-hulick"
+---
+
+SEO METADATA
+Title tag: Market Intelligence vs Market Research: Choose the Work
+Meta description: Distinguish decision-driven research projects, ongoing market intelligence and internal business analytics without imposing rigid labels.
+H1: Market Intelligence vs Market Research: Choose the Work
+Hero image alt: Paved stone walkway splitting toward two entrances outside a modern outpatient medical pavilion at dawn.
+
+
+PAGE COPY
+
+Market Intelligence vs Market Research: Choose the Work
+The hard part of a market intelligence vs market research decision is not the vocabulary. It is that three different kinds of work (a bounded decision study, a continuous external watch, and analysis of data you already own) get sold under overlapping names, and the mismatch shows up months later. This guide gives you a way to classify your own question before a single proposal lands.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Start with the business question, not the research category
+A research purchase almost never begins with a research word. It begins with a meeting where someone has to commit money by a date. A regional health system is deciding whether to open a second outpatient site twenty minutes from the first. A professional services firm has not changed its fee structure in four years and suspects it is leaving margin on the table. A multi-location operator keeps losing deals late in the process and cannot say whether the cause is price, availability, or referral relationships.
+Write the question the way the decision owner would say it out loud, then attach three things: who signs off, when the decision happens regardless of what you learn, and what the decision costs if it is wrong. Those three attributes do more to define the engagement than any methodology section in a proposal.
+Notice what each example implies. The second-site question has a deadline set by a lease. The pricing question has no external deadline at all, which usually means it keeps getting postponed. The lost-deals question may already be answerable from records the business owns.
+A useful discipline: before you look at vendors, write the sentence "we will decide X by Y date, and the evidence that would change our answer is Z." If you cannot complete that sentence, no research type will rescue the engagement, because there is no decision for the evidence to serve.
+The overlapping disciplines, defined plainly
+Market research is usually organized as discrete study types aimed at a specific unknown. Teknicks, for example, separates market sizing and opportunity, competitive intelligence, industry trend analysis, win/loss analysis and market entry research as distinct components of a market research engagement ([Teknicks](https://www.teknicks.com/services/research/market-research/)). Each has a different evidence base, so "market research" as a line item on a quote tells you very little by itself.
+Competitive intelligence narrows the subject to rivals and the market around them, and it leans toward continuity. Fuld's competitive and market intelligence practice includes competitor deep-dives and benchmarking, sales enablement intelligence, pricing and value intelligence, war gaming, and an explicitly ongoing CI advisory and monitoring service ([Fuld](https://www.fuld.com/services/competitive-market-intelligence/)). The monitoring piece is the tell: it exists because competitive conditions move on their own schedule, not yours.
+Market intelligence in its broader, growth-oriented form looks outward at where value is moving. Fuld frames growth advisory around market white space, customer shifts and emerging business models, with the stated aim of informing where to invest and when to enter ([Fuld](https://www.fuld.com/services/business-strategy-and-foresight/)). That is a different job from counting a market.
+Business intelligence is internal. BI consulting is typically described as consolidating many internal data sources into a single point of truth and delivering reporting through dashboards for ongoing decision-making ([ScienceSoft](https://www.scnsoft.com/data/business-intelligence/consulting)). BI tells you what your own business did. It cannot observe people who never became your customers.
+These categories blur in practice, and vendors blur them further. Treat the labels as shorthand for evidence sources, not as a taxonomy worth defending. If you want the underlying methods rather than the category names, see our [research methods and resources](/resources/research).
+Project work versus recurring work
+A project answers one question and ends. It has a defined scope, a fixed deliverable, and a date after which the answer either held up or did not. A recurring program tracks a condition that keeps changing, so its value is measured in how early it surfaces a change rather than in a single conclusion. Fuld sells both shapes side by side: rapid research positioned as decision-grade analysis delivered in days, and CI advisory and monitoring positioned as continuous coverage for organizations that cannot afford surprises ([Fuld](https://www.fuld.com/services/competitive-market-intelligence/)).
+Illustrative example of project work: a specialty practice group wants to know whether a neighboring metro can support a new location. The inputs (population and payer mix, existing provider supply, referral patterns, drive-time behavior) are stable enough that a study closes the question. When the lease is signed, the study is spent. Buying a monitoring retainer here mostly buys reports no one reads.
+Illustrative example of recurring work: the same group competes against two aggressive regional networks that change offers and hiring patterns several times a year. No single study holds. What helps is a regular read on competitor positioning, pricing signals and capacity moves, delivered on a cadence that matches how fast your side can actually respond. A monthly brief no one can act on inside a month is not intelligence, it is subscription content.
+Both examples above are composites for illustration, not engagement results. For examples of how bounded studies are structured and published, see the [published research hub](/research).
+Match evidence to the question
+Pick the evidence first and the vendor second. Most disappointment traces to a question that needed primary contact with humans being answered with desk research, or the reverse: paying for interviews to learn something already sitting in a CRM.
+* How large is the opportunity in a new service area?. Evidence that actually answers it: Published population, demographic and provider-supply data, plus internal capacity assumptions. Shape of the work: Bounded study. What it will not tell you: Whether buyers will choose you.
+* Why are we losing late-stage deals?. Evidence that actually answers it: Structured interviews with won and lost buyers, plus CRM stage data. Shape of the work: Bounded study, repeatable. What it will not tell you: What competitors will do next.
+* Should we change pricing?. Evidence that actually answers it: Competitor price and packaging mapping, internal margin and elasticity records, buyer willingness-to-pay interviews. Shape of the work: Study, sometimes with ongoing price tracking. What it will not tell you: Exact competitor reaction timing.
+* How are competitors shifting position?. Evidence that actually answers it: Continuous monitoring of public competitor activity, hiring, messaging and offers. Shape of the work: Recurring program. What it will not tell you: Causes behind the moves without interviews.
+* Which segments retain and which churn?. Evidence that actually answers it: Internal records across CRM, billing and service systems. Shape of the work: Internal analytics. What it will not tell you: Behavior of non-customers.
+Pricing is the case where the evidence most often spans categories. Fuld treats competitor pricing as a strategic signal to be mapped across geographies, segments and product configurations rather than collected once ([Fuld](https://www.fuld.com/services/competitive-market-intelligence/)), while margin and discount history live inside your own systems. A pricing decision usually needs both, which is exactly why it gets scoped badly.
+One more rule: evidence has a shelf life. Demographic baselines age slowly, competitor offers age in weeks. Write the expiry date next to each input. Studies we publish and the evidence behind them are listed under [published studies and their evidence](/research/studies).
+Deliverables change with the cost of being wrong
+Four deliverables commonly sit behind the same word "report," and they are not interchangeable.
+A dataset is raw material: a competitor price matrix, a cleaned CRM extract, a list of facilities with attributes. It is useful when your team has the analysts to work it and the question is likely to be re-asked. It is a poor purchase when nobody internally owns analysis.
+An analytical memo interprets evidence and states what it implies. It should name its sources, its sample, and the parts of the question it could not reach. If a memo has no limitations section, assume the limitations still exist.
+A model (scenario, forecast, or allocation) is appropriate when the decision depends on how variables interact rather than on a single number. Models earn their keep by making assumptions explicit and testable. They lose credibility when the assumptions are buried in a tab nobody opens.
+A recommendation commits to a course of action and should carry a stated confidence level and the conditions that would reverse it. Fuld makes this part of its stated approach, including confidence levels and risk scenarios with recommendations ([Fuld](https://www.fuld.com/services/business-strategy-and-foresight/)). Higher-stakes decisions justify more explicit uncertainty, not less.
+BI work has a different output shape again: maintained reporting that runs continuously after the project ends ([ScienceSoft](https://www.scnsoft.com/data/business-intelligence/consulting)). That means a maintenance owner and a change process, not just a build.
+Deciding which deliverable to buy is partly a budgeting question. The economics of that trade-off are covered in [marketing investment economics](/resources/marketing-economics).
+Choose the smallest adequate scope
+The test is simple and uncomfortable: would resolving this unknown change what we do, or only how confident we feel? If the decision is the same either way, the research is optional. Confidence is worth paying for only when it changes action, pace, or the size of the commitment.
+A workable scope checklist before you sign anything:
+* Decision and date. The question in the decision owner's words, plus the date the decision happens with or without new evidence.
+* Reversal condition. The finding that would flip the recommendation. If none exists, stop here.
+* Source limits. Which sources are in scope, which are excluded, and whether primary interviews are included or merely possible.
+* Timing limits. How current each input must be, and how quickly each type of evidence goes stale.
+* Confidence threshold. The level of certainty the decision requires. Site selection and pricing rarely need the same rigor.
+* Ownership after delivery. Who holds the data, who maintains any reporting, and what happens to access when the engagement ends.
+* Renewal trigger. The specific condition that would justify converting a one-time study into an ongoing program.
+That last line prevents the most common overbuy. Start with the study. Let the recurrence of the question, not the vendor's preferred contract shape, decide whether a monitoring function is warranted.
+Marketing Powered's perspective here comes from operating inside decisions like these. The founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations, managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts, and built attribution tracked to admission rather than to lead. That history is why this page argues for attaching research to a decision and an outcome measure instead of to a reporting cadence.
+Related reading: [budget allocation principles](/resources/marketing-budget), [multi-location operating strategy](/resources/multi-location-marketing-strategy), and [our leadership and operating experience](/company/about).
+Questions buyers ask when scoping this work
+### Is competitive intelligence a type of market research?
+Partly, and the overlap is why proposals confuse buyers. Competitive analysis appears as one component inside market research engagements ([Teknicks](https://www.teknicks.com/services/research/market-research/)), while specialist firms position competitive intelligence as a broader discipline with its own continuous monitoring and advisory services ([Fuld](https://www.fuld.com/services/competitive-market-intelligence/)). Practical read: if the competitor question is bounded and tied to one decision, it belongs inside a study. If it needs to stay current, it belongs in a program.
+### When is an ongoing intelligence program justified?
+When the condition you care about changes faster than any single study can hold, and when your organization can act on a change within the monitoring interval. Continuous competitive monitoring exists precisely because competitor moves surface gradually and then suddenly ([Fuld](https://www.fuld.com/services/competitive-market-intelligence/)). If your pricing, staffing or market entry decisions are made annually, weekly intelligence will mostly accumulate unread.
+### Can internal business data answer an external market question?
+Only the part of the question that happened inside your business. BI consolidates internal sources into unified reporting for operational decisions and customer analysis ([ScienceSoft](https://www.scnsoft.com/data/business-intelligence/consulting)), which makes it strong on retention, segmentation, channel performance and deal history. It is silent on non-customers, on competitor intent, and on demand that never reached you. Check internal data first anyway, because it frequently answers more of the question than expected and shrinks the external scope.
+### How should a small team adapt this approach?
+Sequence rather than shrink. Resolve the single highest-stakes unknown with the smallest study that can close it, and defer the rest until a decision actually depends on it. Avoid committing to a recurring program before a completed study proves the question returns. Small teams also tend to underweight the maintenance cost of continuous reporting, which is a staffing commitment as much as a software one.
+### What evidence would change the recommended approach?
+Three findings reclassify the work. First, if the question recurs on its own schedule rather than resolving once, the correct shape is a program, not a project. Second, if existing internal records already contain the pattern, the work moves to internal analytics and the external budget drops. Third, if the decision would be identical under every plausible finding, the right answer is to run no study and spend the budget on the decision itself.
+[CTA] Turn a business question into a research brief → /get-started/request-an-audit

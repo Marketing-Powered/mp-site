@@ -390,6 +390,11 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/services/competitive-positioning-research", file: "services/competitive-positioning-research.md" },
     { href: "/services/market-trend-monitoring", file: "services/market-trend-monitoring.md" },
     { href: "/services/channel-and-partner-research", file: "services/channel-and-partner-research.md" },
+    { href: "/services/data-enrichment", file: "services/data-enrichment.md" },
+    { href: "/services/data-warehouse-implementation", file: "services/data-warehouse-implementation.md" },
+    { href: "/services/private-conversation-intelligence", file: "services/private-conversation-intelligence.md" },
+    { href: "/services/market-intelligence-dashboards", file: "services/market-intelligence-dashboards.md" },
+    { href: "/services/product-validation-research", file: "services/product-validation-research.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },
@@ -423,6 +428,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/who-we-help/enterprise/private-ai", file: "who-we-help/enterprise/private-ai.md" },
     { href: "/who-we-help/small-business/market-intelligence", file: "who-we-help/small-business/market-intelligence.md" },
     { href: "/who-we-help/multi-location/data-and-market-intelligence", file: "who-we-help/multi-location/data-and-market-intelligence.md" },
+    { href: "/who-we-help/peptide-businesses", file: "who-we-help/peptide-businesses.md" },
   ],
   "who-we-help/behavioral-health.md": [
     { href: "/who-we-help/behavioral-health/residential-treatment", file: "who-we-help/behavioral-health/residential-treatment.md" },
@@ -627,6 +633,18 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/resources/google-ads-audit", file: "resources/google-ads-audit.md" },
     { href: "/resources/first-party-data-vs-third-party-data", file: "resources/first-party-data-vs-third-party-data.md" },
     { href: "/resources/first-party-data-strategy", file: "resources/first-party-data-strategy.md" },
+    { href: "/resources/rag-vs-fine-tuning", file: "resources/rag-vs-fine-tuning.md" },
+    { href: "/resources/private-ai-vs-public-ai", file: "resources/private-ai-vs-public-ai.md" },
+    { href: "/resources/private-ai-vendor-evaluation-checklist", file: "resources/private-ai-vendor-evaluation-checklist.md" },
+    { href: "/resources/market-intelligence-vs-market-research", file: "resources/market-intelligence-vs-market-research.md" },
+    { href: "/resources/data-agency-vs-bi-consultant", file: "resources/data-agency-vs-bi-consultant.md" },
+    { href: "/resources/ai-knowledge-base-permissions", file: "resources/ai-knowledge-base-permissions.md" },
+    { href: "/resources/ai-data-readiness-checklist", file: "resources/ai-data-readiness-checklist.md" },
+    { href: "/resources/competitive-intelligence-research-methods", file: "resources/competitive-intelligence-research-methods.md" },
+    { href: "/resources/market-sizing-tam-sam-som", file: "resources/market-sizing-tam-sam-som.md" },
+    { href: "/resources/ai-proof-of-concept-success-criteria", file: "resources/ai-proof-of-concept-success-criteria.md" },
+    { href: "/resources/market-intelligence-cost", file: "resources/market-intelligence-cost.md" },
+    { href: "/resources/research-use-only-peptide-marketing", file: "resources/research-use-only-peptide-marketing.md" },
   ],
   "legal/index.md": [
     { href: "/legal/terms", file: "legal/terms.md" },
@@ -643,6 +661,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
   ],
   "research/index.md": [
     { href: "/research/studies", file: "research/studies/index.md" },
+    { href: "/research/peptide-advertising-restrictions-evidence-review", file: "research/peptide-advertising-restrictions-evidence-review.md" },
   ],
   "research/studies/index.md": [
     { href: "/research/studies/annual-paid-media-and-ai-trends", file: "research/studies/annual-paid-media-and-ai-trends.md" },

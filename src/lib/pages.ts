@@ -397,6 +397,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/services/product-validation-research", file: "services/product-validation-research.md" },
     { href: "/services/ai-workflow-automation", file: "services/ai-workflow-automation.md" },
     { href: "/services/data-strategy-consulting", file: "services/data-strategy-consulting.md" },
+    { href: "/services/competitive-intelligence", file: "services/competitive-intelligence.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },

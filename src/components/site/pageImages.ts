@@ -86,6 +86,22 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/services/competitive-intelligence/": [
+    // [0] hero
+    studioImg(
+      "services/competitive-intelligence",
+      "competitive-intelligence-services.webp",
+      "An empty library reference table with stacked research folders, a blue notebook, and morning window light across open space.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/competitive-intelligence",
+      "competitive-intelligence-services-exterior-glass-entrance-paved-walkway.webp",
+      "Exterior glass entrance and paved walkway of a modern outpatient healthcare center in morning sunlight.",
+      "3 / 2",
+    ),
+  ],
   "/resources/peptide-market-research-methodology/": [
     // [0] hero
     studioImg(

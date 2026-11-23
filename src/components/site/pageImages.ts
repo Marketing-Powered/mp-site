@@ -86,6 +86,45 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/services/customer-lifetime-value-analysis/": [
+    // [0] hero
+    studioImg(
+      "services/customer-lifetime-value-analysis",
+      "customer-lifetime-value-analysis.webp",
+      "Galvanized steel guardrail curving along an empty mountain road at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/customer-lifetime-value-analysis",
+      "customer-lifetime-value-analysis-diagram-showing-three-stacked-customer.webp",
+      "Diagram showing three stacked customer value tiers: Gross Revenue, Gross Margin, and Contribution.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/customer-lifetime-value-analysis",
+      "customer-lifetime-value-analysis-two-blank-intake-folders-analog-desk.webp",
+      "Two blank intake folders and an analog desk phone on a quartz reception counter.",
+      "3 / 2",
+    ),
+  ],
+  "/services/intelligent-document-processing/": [
+    // [0] hero
+    studioImg(
+      "services/intelligent-document-processing",
+      "intelligent-document-processing-services.webp",
+      "An empty institutional records intake station with sorting trays on an aluminum counter in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/intelligent-document-processing",
+      "intelligent-document-processing-services-decision-flow-diagram-showing-document.webp",
+      "A decision flow diagram showing document data extraction branching into automated system write or human exception review.",
+      "3 / 2",
+    ),
+  ],
   "/resources/peptide-email-marketing/": [
     // [0] hero
     studioImg(

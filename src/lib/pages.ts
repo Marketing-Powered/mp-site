@@ -415,6 +415,8 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/services/peptide-content-marketing", file: "services/peptide-content-marketing.md" },
     { href: "/services/peptide-competitive-intelligence", file: "services/peptide-competitive-intelligence.md" },
     { href: "/services/peptide-clinic-local-seo", file: "services/peptide-clinic-local-seo.md" },
+    { href: "/services/intelligent-document-processing", file: "services/intelligent-document-processing.md" },
+    { href: "/services/customer-lifetime-value-analysis", file: "services/customer-lifetime-value-analysis.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },

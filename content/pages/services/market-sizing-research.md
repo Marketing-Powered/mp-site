@@ -1,0 +1,46 @@
+---
+title: "Market Sizing Research With Transparent Assumptions"
+url: "/services/market-sizing-research/"
+primary_keyword: "market sizing research"
+secondary_keywords: "market sizing services, TAM SAM SOM research, market opportunity assessment, addressable market analysis"
+---
+
+SEO METADATA
+Title tag: Market Sizing Research With Transparent Assumptions
+Meta description: Estimate addressable opportunity using a reproducible model with explicit definitions, sources and sensitivity ranges.
+H1: Market Sizing Research With Transparent Assumptions
+
+
+PAGE COPY
+
+Market Sizing Research With Transparent Assumptions
+Most market size figures fail the second question: where did the number come from, and what moves if one assumption is wrong? Market sizing research should produce a model a reviewer can open, audit and rerun, with its definitions, inputs and ranges visible. That is the difference between a slide you present once and an estimate you can still defend when the plan is challenged.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Define the market precisely before any math
+A market size means nothing until the unit of analysis is written down. Definition work settles five things first: who the buyer is, which use case or service line is being purchased, the geography, the time period, and whether the count is people, episodes, contracts, procedures, employers or revenue dollars. In practice this is a working session with the people who will live with the answer. The operator planning capacity, the finance lead building the model, and the service line or practice leader who knows what the organization can absorb each define the boundary differently, and those differences surface fastest in one room. Industry boundaries get anchored to a published classification system so the definition stays comparable across every data source used later.
+Build the bottom-up logic
+Bottom-up market sizing counts the universe first, then prices it. That means establishing a defensible count of buyers, sites, employers, households or transactions, then applying a value assumption per unit with a reason attached to the figure. Public counting inputs exist for many segments. [County Business Patterns](https://www.census.gov/programs-surveys/cbp.html) is an annual Census Bureau series providing subnational data on establishments with paid employees by industry and employment size, including establishment counts, employment, and payroll. Every line in a model carries its source, vintage and logic, so a reviewer can change one input and watch the total move. Once the universe is sized, winning a share of it is a separate economic question, covered in [marketing investment economics](/resources/marketing-economics).
+Triangulate with independent evidence
+One source is an opinion. Triangulation rebuilds the same estimate from a second direction and explains the gap when the two disagree. Official statistics, licensed industry research and observed market activity carry different blind spots, and the disagreement itself is informative. Government series also carry timing and coverage limits worth stating openly. The [Quarterly Census of Employment and Wages](https://www.bls.gov/cew/) publishes a quarterly count of employment and wages reported by employers covering more than 95 percent of U.S. jobs, available by industry at county, metro, state and national levels, which makes it useful for counts and wage levels but not for measuring demand for a specific offer. Spend and conversion evidence such as [customer acquisition cost by industry](/resources/customer-acquisition-cost-by-industry) helps test whether a paper total behaves like a real buying population.
+Separate TAM, SAM and attainable share
+TAM SAM SOM research is a constraint-application step rather than the finished product. Total addressable market is the full universe under the written definition. Serviceable market assessment removes what cannot be reached: geographies not covered, buyers who fail regulatory or payer eligibility, segments the license, staffing or product does not serve. Attainable share then applies channel reach and delivery capacity. A study is scoped so each layer appears as a labeled subtraction with its assumption beside it.
+* Total addressable market. What it counts: All demand under the stated definition and unit. Example constraints applied: Definition boundary, timeframe.
+* Serviceable addressable market. What it counts: The portion you can legally and operationally serve. Example constraints applied: Geography, regulatory or payer eligibility, licensure.
+* Serviceable obtainable market. What it counts: The portion you could plausibly win in the period. Example constraints applied: Channel reach, competition, intake and delivery capacity.
+Illustrative framework showing TAM, SAM and SOM as narrowing layers with labeled assumption types at each stage. It contains no market figures and is not a specific calculation. Channel limits belong in this layer because they are real: Marketing Powered is built for Google's sensitive healthcare vertical, where retargeting is not permitted, which changes how much of a serviceable population paid media can realistically touch. Comparable method write-ups are collected in the [research hub](/research).
+Stress-test the assumptions
+A single-point market opportunity assessment is a presentation choice, not a finding. Scopes here call for a low, central and high case, with the weakest inputs named rather than buried in an appendix. Sensitivity analysis answers the question executives actually care about: which single assumption, if wrong, breaks the plan. Frequently it is the value per unit or an eligibility rate inferred from a proxy population, not the headcount itself. Inputs that are estimates get labeled as estimates and kept separate from measured facts. General research methods are collected in [research methods and resources](/resources/research).
+Connect the estimate to a decision
+An addressable market analysis earns its cost when it changes something concrete: how many sites or clinicians to add, how much capital to request, which market goes first, or what still needs field validation before money moves. Market sizing commonly supports entry, investment, planning, capacity and product extension choices, and the totals still have to be calculated from independently sourced inputs rather than lifted from a report. The founder previously ran marketing for a treatment network that grew from 3 to 24 locations, which shaped how this work treats capacity as a constraint instead of an afterthought. Sequencing is explored in [multi-location operating strategy](/resources/multi-location-marketing-strategy), spend implications in [budget allocation principles](/resources/marketing-budget), and worked method examples in [published studies](/research/studies).
+
+FAQ
+Q: What is the difference between TAM, SAM and SOM?
+A: TAM is the entire universe of demand under your written definition. SAM narrows it to what you are legally, geographically and operationally able to serve. SOM is the share you could plausibly win inside a stated period given channel reach, intake capacity and competition. The labels matter less than showing the subtraction and the reason at each step.
+Q: How do you size a niche market with limited published data?
+A: Thin segments are built from adjacent measurable quantities: establishment or facility counts, licensed provider registries, payer or procedure volumes, employer counts, or observed transaction frequency. Public statistical tools describe residents, businesses and locations, but their vintages and geographic boundaries do not measure demand for a particular offer, so proxy logic is written down explicitly and tested inside the range instead of being presented as a measurement.
+Q: Can market size be estimated without assuming a fixed market share?
+A: Yes, and it is usually stronger. Rather than applying an arbitrary share percentage, attainable volume can be modeled from capacity and reachable demand: how many units the organization can deliver, how many qualified buyers a channel can realistically engage, and what conversion behavior the category supports. Share then emerges as an output of the model rather than an assertion at the start.
+Q: What information and access are needed to scope this work?
+A: A clear statement of the decision the number must support, your current service footprint and capacity, any internal demand, CRM or intake data you are authorized to share, and the sources your stakeholders already trust or distrust. Market sizing does not require patient-identifying or protected health information, and scoping documents what data is shared, where it is processed and who has access.
+Q: What will our organization own and be able to export at the end?
+A: Ownership, retention and export terms are agreed in writing during scoping, before work begins. The intent is that an internal analyst can reopen the demand opportunity modeling months later, change an input and see exactly which conclusions move. Bring the decision you need the number for, and we can scope the model around it. [Scope a market sizing study](/get-started/book-a-call)

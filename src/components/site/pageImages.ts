@@ -86,6 +86,713 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/who-we-help/multi-location/data-and-market-intelligence/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/multi-location/data-and-market-intelligence",
+      "multi-location-business-intelligence.webp",
+      "Exterior view of an empty regional medical pavilion entrance at dawn with concrete walkways and glass double doors.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/multi-location/data-and-market-intelligence",
+      "multi-location-business-intelligence-close-up-hands-placing-color-coded-tab.webp",
+      "Close-up of hands placing color-coded tab dividers into a location registry binder on a counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/multi-location/data-and-market-intelligence",
+      "multi-location-business-intelligence-four-step-diagram-showing-diagnostic.webp",
+      "Four-step diagram showing the diagnostic sequence of Maturity, Capacity, Execution, and Market Residual.",
+      "3 / 2",
+    ),
+  ],
+  "/services/channel-and-partner-research/": [
+    // [0] hero
+    studioImg(
+      "services/channel-and-partner-research",
+      "channel-partner-research.webp",
+      "Exterior wide view of an empty commercial logistics staging apron with closed freight bay doors at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/channel-and-partner-research",
+      "channel-partner-research-frosted-glass-door-black-steel-frame.webp",
+      "A frosted-glass door and black steel frame leading into a hospital administrative office suite.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/channel-and-partner-research",
+      "channel-partner-research-comparison-matrix-evaluating-four.webp",
+      "Comparison matrix evaluating four commercial routes across commercial control and margin impact.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/channel-and-partner-research",
+      "channel-partner-research-bound-decision-document-folder-fountain.webp",
+      "A bound decision document folder and fountain pen resting on a dark slate tabletop.",
+      "3 / 2",
+    ),
+  ],
+  "/services/competitive-positioning-research/": [
+    // [0] hero
+    studioImg(
+      "services/competitive-positioning-research",
+      "competitive-positioning-research.webp",
+      "Exterior wide shot of a modern healthcare facility entrance at dawn with concrete walkway and blue glass awning.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/competitive-positioning-research",
+      "competitive-positioning-research-empty-administrative-corridor-multi.webp",
+      "Empty administrative corridor in a multi-location facility with terrazzo flooring and natural sunlight.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/competitive-positioning-research",
+      "competitive-positioning-research-diagram-three-intersecting-circles-buyer.webp",
+      "Diagram with three intersecting circles for buyer relevance, competitor differentiation, and provable evidence meeting at defensible position.",
+      "3 / 2",
+    ),
+  ],
+  "/services/pricing-research/": [
+    // [0] hero
+    studioImg(
+      "services/pricing-research",
+      "pricing-research-services.webp",
+      "Wide exterior shot of a modern healthcare clinic entryway with concrete pillars and glass doors at early dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/pricing-research",
+      "pricing-research-services-diagram-displaying-four-pricing-decision.webp",
+      "Diagram displaying four pricing decision pillars: Price Level, Packaging, Discounting, and Value Communication.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/pricing-research",
+      "pricing-research-services-close-up-hardbound-administrative-cost.webp",
+      "Close-up of hardbound administrative cost records and binders resting on a steel shelf in soft daylight.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/pricing-research",
+      "pricing-research-services-steel-highway-guardrail-curving-beside.webp",
+      "A steel highway guardrail curving beside a paved two-lane asphalt road bordered by green grass in afternoon light.",
+      "3 / 2",
+    ),
+  ],
+  "/services/sales-pipeline-analytics/": [
+    // [0] hero
+    studioImg(
+      "services/sales-pipeline-analytics",
+      "sales-pipeline-analytics-services.webp",
+      "Empty glass skybridge between modern office buildings at dawn with morning light reflecting on polished concrete.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/sales-pipeline-analytics",
+      "sales-pipeline-analytics-services-comparison-table-contrasting-crm-default.webp",
+      "Comparison table contrasting CRM default tracking fields with standardized stage dictionary criteria.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/sales-pipeline-analytics",
+      "sales-pipeline-analytics-services-gravel-path-diverging-two-trails-through.webp",
+      "A gravel path diverging into two trails through open grassy fields in late afternoon sunlight.",
+      "3 / 2",
+    ),
+  ],
+  "/services/hybrid-ai-architecture/": [
+    // [0] hero
+    studioImg(
+      "services/hybrid-ai-architecture",
+      "hybrid-ai-architecture.webp",
+      "Structured fiber optic cabling runs overhead in an orderly enterprise server room.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/hybrid-ai-architecture",
+      "hybrid-ai-architecture-two-color-coded-intake-classification.webp",
+      "Two color-coded intake classification folders rest on a clean wooden administrative counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/hybrid-ai-architecture",
+      "hybrid-ai-architecture-process-diagram-showing-automated.webp",
+      "Process diagram showing automated fallback pathways branching into stop and alert, queue for retry, and hand to human.",
+      "3 / 2",
+    ),
+  ],
+  "/services/private-ai-assistant/": [
+    // [0] hero
+    studioImg(
+      "services/private-ai-assistant",
+      "private-ai-assistant-for-business.webp",
+      "A wide view of an empty commercial building entrance foyer with a brushed metal passage stanchion glowing green at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/private-ai-assistant",
+      "private-ai-assistant-for-business-two-column-comparison-diagram-listing.webp",
+      "A two-column comparison diagram listing permitted jobs including drafting documents alongside excluded scope including clinical judgment.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/private-ai-assistant",
+      "private-ai-assistant-for-business-close-up-manila-classification-folders.webp",
+      "Close-up of manila classification folders with green divider tabs resting on an oak desk in afternoon sunlight.",
+      "3 / 2",
+    ),
+  ],
+  "/services/ai-model-migration/": [
+    // [0] hero
+    studioImg(
+      "services/ai-model-migration",
+      "ai-model-migration-services.webp",
+      "Row of matte-black server cabinets in an enterprise facility with structured overhead cabling along an empty corridor.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/ai-model-migration",
+      "ai-model-migration-services-archival-folders-technical-documentation.webp",
+      "Archival folders and technical documentation binders with colored index tabs resting on a stainless-steel table.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/ai-model-migration",
+      "ai-model-migration-services-process-flow-diagram-showing-six-model.webp",
+      "Process flow diagram showing six model migration steps from inventory through exit verification.",
+      "3 / 2",
+    ),
+  ],
+  "/services/enterprise-search-implementation/": [
+    // [0] hero
+    studioImg(
+      "services/enterprise-search-implementation",
+      "enterprise-search-implementation.webp",
+      "Rows of steel storage shelving with labeled archival document boxes in an organized corporate records room.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/enterprise-search-implementation",
+      "enterprise-search-implementation-hands-turning-tabbed-section-dividers.webp",
+      "Hands turning tabbed section dividers inside an open clinical protocol binder on an empty counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/enterprise-search-implementation",
+      "enterprise-search-implementation-horizontal-flowchart-showing-query.webp",
+      "A horizontal flowchart showing query processing through keyword and vector matches, permission checks, semantic ranking, and verified sources.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/first-party-data-strategy/": [
+    // [0] hero
+    studioImg(
+      "resources/first-party-data-strategy",
+      "first-party-data-strategy.webp",
+      "Marketing analytics director and intake operations manager analyzing conversion data on a desktop monitor in a conference room.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/first-party-data-strategy",
+      "first-party-data-strategy-healthcare-admissions-coordinator.webp",
+      "Healthcare admissions coordinator wearing a headset and reviewing intake status records on an office computer terminal.",
+      "79 / 53",
+    ),
+  ],
+  "/services/customer-data-integration/": [
+    // [0] hero
+    studioImg(
+      "services/customer-data-integration",
+      "customer-data-integration-services.webp",
+      "Wide view of an empty clinic intake counter with an analog telephone console and document trays in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/customer-data-integration",
+      "customer-data-integration-services-close-up-open-records-binder-blank-index.webp",
+      "Close-up of an open records binder with blank index tabs and a metal pen on a standing wooden counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/customer-data-integration",
+      "customer-data-integration-services-flow-diagram-showing-customer-data.webp",
+      "Flow diagram showing customer data moving through source systems, matching, conflict rules, lineage tags, and governed destinations.",
+      "3 / 2",
+    ),
+  ],
+  "/services/win-loss-analysis/": [
+    // [0] hero
+    studioImg(
+      "services/win-loss-analysis",
+      "win-loss-analysis-services.webp",
+      "Empty glass-walled corporate boardroom with an unbranded conference phone hub on the table under morning daylight.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/win-loss-analysis",
+      "win-loss-analysis-services-close-up-hands-arranging-three-distinct.webp",
+      "Close-up of hands arranging three distinct colored project folders on a dark slate work surface.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/win-loss-analysis",
+      "win-loss-analysis-services-two-three-matrix-diagram-displaying-six.webp",
+      "A two-by-three matrix diagram displaying six qualitative coding categories for win-loss analysis.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/small-business/market-intelligence/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/small-business/market-intelligence",
+      "market-research-for-small-business.webp",
+      "Commercial retail storefront in morning sunlight with a leasing sign in the window and an open parking apron.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/small-business/market-intelligence",
+      "market-research-for-small-business-vertical-flow-diagram-illustrating-six.webp",
+      "Vertical flow diagram illustrating six stages of a bounded market research process from decision framing to scope boundary.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/small-business/market-intelligence",
+      "market-research-for-small-business-close-up-hands-holding-clipboard-printed.webp",
+      "Close-up of hands holding a clipboard with a printed question set and pen outside a commercial storefront.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/enterprise/private-ai/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/enterprise/private-ai",
+      "enterprise-private-ai.webp",
+      "Empty data facility corridor with locked black server racks, overhead fiber trays, and blue indicator lights.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/enterprise/private-ai",
+      "enterprise-private-ai-vertical-five-tier-diagram-detailing.webp",
+      "Vertical five-tier diagram detailing governance categories from identity and architecture to procurement handoff.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/enterprise/private-ai",
+      "enterprise-private-ai-rack-mounted-utility-hardware-patch.webp",
+      "Rack-mounted utility hardware with patch cables, status LEDs, and a locked mechanical key switch.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/peptide-telehealth-providers/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/peptide-telehealth-providers",
+      "peptide-telehealth-marketing.webp",
+      "Frosted glass double doors and an architectural metal canopy at an empty outpatient clinic entrance at sunrise.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/peptide-telehealth-providers",
+      "peptide-telehealth-marketing-process-flow-diagram-showing-five.webp",
+      "Process flow diagram showing five enrollment stages from eligibility quiz to clinician evaluation, branching to prescription declined.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/peptide-telehealth-providers",
+      "peptide-telehealth-marketing-linen-binder-archival-file-folders-rest.webp",
+      "A linen binder and archival file folders rest on a slate windowsill in late afternoon sunlight.",
+      "3 / 2",
+    ),
+  ],
+  "/services/location-market-analysis/": [
+    // [0] hero
+    studioImg(
+      "services/location-market-analysis",
+      "location-market-analysis.webp",
+      "Exterior view of an unoccupied commercial storefront and empty asphalt parking lot during morning daylight.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/location-market-analysis",
+      "location-market-analysis-paved-roadway-junction-travel-corridor.webp",
+      "Paved roadway junction and travel corridor dividing traffic directions under overcast daytime lighting.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/location-market-analysis",
+      "location-market-analysis-commercial-facility-service-entrance.webp",
+      "Commercial facility service entrance with an open metal door beside an exterior delivery staging bay.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/location-market-analysis",
+      "location-market-analysis-decision-scorecard-matrix-comparing.webp",
+      "Decision scorecard matrix comparing candidate expansion sites across observed evidence and assumed demand.",
+      "3 / 2",
+    ),
+  ],
+  "/services/market-entry-research/": [
+    // [0] hero
+    studioImg(
+      "services/market-entry-research",
+      "market-entry-research-services.webp",
+      "Exterior view of an empty commercial healthcare building at sunrise with clean parking lot and glass entryway.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/market-entry-research",
+      "market-entry-research-services-interior-view-empty-clinic-room-prepared.webp",
+      "Interior view of an empty clinic room prepared for regulatory inspection with plastic-covered equipment and clean floors.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/market-entry-research",
+      "market-entry-research-services-decision-diagram-showing-demand-access.webp",
+      "Decision diagram showing demand access, operating limits, and entry economics inputs flowing to go, defer, and reject outcomes.",
+      "3 / 2",
+    ),
+  ],
+  "/services/voice-of-customer-research/": [
+    // [0] hero
+    studioImg(
+      "services/voice-of-customer-research",
+      "voice-of-customer-research.webp",
+      "Empty modern healthcare corridor and entrance foyer illuminated by morning sunlight.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/voice-of-customer-research",
+      "voice-of-customer-research-close-up-hands-organizing-color-coded.webp",
+      "Close-up of hands organizing color-coded intake category divider cards on a wooden surface.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/voice-of-customer-research",
+      "voice-of-customer-research-diagram-showing-four-stage-voice.webp",
+      "Diagram showing a four-stage voice of customer traceability workflow from source records to decision brief.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/voice-of-customer-research",
+      "voice-of-customer-research-fork-gravel-garden-path-dividing-around.webp",
+      "A fork in a gravel garden path dividing around a stone border in late afternoon light.",
+      "3 / 2",
+    ),
+  ],
+  "/services/ideal-customer-profile-research/": [
+    // [0] hero
+    studioImg(
+      "services/ideal-customer-profile-research",
+      "ideal-customer-profile-research.webp",
+      "Wide exterior shot of a modern multi-location healthcare campus entrance at dawn with concrete walkway and architectural glass doors.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/ideal-customer-profile-research",
+      "ideal-customer-profile-research-close-up-client-onboarding-folders.webp",
+      "Close-up of client onboarding folders and a fountain pen resting on a dark wood credenza in soft morning light.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/ideal-customer-profile-research",
+      "ideal-customer-profile-research-decision-matrix-diagram-showing-three.webp",
+      "Decision matrix diagram showing three account classification columns labeled Must-Haves, Disqualifiers, and Unknowns.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/ideal-customer-profile-research",
+      "ideal-customer-profile-research-admissions-desk-phone-station-intake.webp",
+      "Admissions desk phone station and intake folders on a stone counter next to an interior hallway at dusk.",
+      "3 / 2",
+    ),
+  ],
+  "/services/customer-segmentation/": [
+    // [0] hero
+    studioImg(
+      "services/customer-segmentation",
+      "customer-segmentation-analysis.webp",
+      "Wide view of a brightly lit clinic concourse at sunrise with two polished corridors diverging toward separate wings.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/customer-segmentation",
+      "customer-segmentation-analysis-empty-admissions-intake-station-multi.webp",
+      "An empty admissions intake station with a multi-line telephone and color-coded route binder tabs arranged in a wall rack.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/customer-segmentation",
+      "customer-segmentation-analysis-process-diagram-showing-five-step-path.webp",
+      "Process diagram showing a five-step path from defining business decisions through a stability validation gate to operating choices.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/customer-segmentation",
+      "customer-segmentation-analysis-staff-member-viewed-behind-opening.webp",
+      "Staff member viewed from behind opening a frosted-glass door into a dedicated care suite along a brightly lit corridor.",
+      "3 / 2",
+    ),
+  ],
+  "/services/business-intelligence-consulting/": [
+    // [0] hero
+    studioImg(
+      "services/business-intelligence-consulting",
+      "business-intelligence-consulting.webp",
+      "Wide exterior view of a multi-location healthcare clinic entrance at dawn with open pavement in the foreground.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/business-intelligence-consulting",
+      "business-intelligence-consulting-five-stage-process-diagram-showing.webp",
+      "Five-stage process diagram showing the sequence from naming an operating decision to defining owners, reconciling sources, reporting, and review.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/business-intelligence-consulting",
+      "business-intelligence-consulting-close-up-hands-pulling-indexed-admission.webp",
+      "Close-up of hands pulling an indexed admission record folder from a vertical filing rack.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/business-intelligence-consulting",
+      "business-intelligence-consulting-medium-shot-empty-admissions-desk.webp",
+      "Medium shot of an empty admissions desk with a landline telephone and metal clipboard at dusk.",
+      "3 / 2",
+    ),
+  ],
+  "/services/data-engineering/": [
+    // [0] hero
+    studioImg(
+      "services/data-engineering",
+      "data-engineering-services.webp",
+      "Structured blue data cabling neatly bundled in overhead ladder trays inside an empty enterprise server facility.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/data-engineering",
+      "data-engineering-services-process-diagram-showing-data-contract.webp",
+      "Process diagram showing a data contract step defining schema, refresh cadence, and volume SLAs between source and destination.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/data-engineering",
+      "data-engineering-services-clothbound-technical-binder-blue-ribbon.webp",
+      "A clothbound technical binder with a blue ribbon bookmark and a solid metal access key resting on a wooden counter.",
+      "3 / 2",
+    ),
+  ],
+  "/services/ai-data-preparation/": [
+    // [0] hero
+    studioImg(
+      "services/ai-data-preparation",
+      "ai-data-preparation-services.webp",
+      "Neat rows of bound reference binders with sky blue spines rest on metal shelving in an empty records room.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/ai-data-preparation",
+      "ai-data-preparation-services-standing-person-seen-behind-carries.webp",
+      "A standing person seen from behind carries a black documentation folder down an administrative hallway.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/ai-data-preparation",
+      "ai-data-preparation-services-flow-diagram-showing-six-stages-document.webp",
+      "Flow diagram showing six stages of document chunking and metadata tags routing to a query filter.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/ai-data-preparation",
+      "ai-data-preparation-services-close-up-structured-network-cables-green.webp",
+      "Close-up of structured network cables and green indicator lights plugged into a server chassis.",
+      "3 / 2",
+    ),
+  ],
+  "/services/rag-development/": [
+    // [0] hero
+    studioImg(
+      "services/rag-development",
+      "rag-development-services.webp",
+      "Approved operational protocol binders arranged on an oak credenza in a sunlit administrative corridor.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/rag-development",
+      "rag-development-services-two-protocol-reference-binders-color.webp",
+      "Two protocol reference binders with color-coded edge tabs resting on a clinic intake counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/rag-development",
+      "rag-development-services-process-diagram-showing-data-indexing.webp",
+      "Process diagram showing data indexing, identity filtering, and branching to a cited answer or abstention response.",
+      "3 / 2",
+    ),
+  ],
+  "/services/on-premise-ai-deployment/": [
+    // [0] hero
+    studioImg(
+      "services/on-premise-ai-deployment",
+      "on-premise-ai-deployment.webp",
+      "Empty server room with locked matte-black racks on the right, bundled blue overhead cables, and an open gray wall on the left.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/on-premise-ai-deployment",
+      "on-premise-ai-deployment-boundary-diagram-white-showing-six.webp",
+      "Boundary diagram on white showing six labeled tracks meeting a blue line, with a green arrow crossing the line for External connectors.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/on-premise-ai-deployment",
+      "on-premise-ai-deployment-close-up-hands-passing-steel-cabinet-key.webp",
+      "Close-up of hands passing a steel cabinet key with a blue tag and a closed linen binder in front of a bright frosted-glass hallway.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-legitscript-readiness/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-legitscript-readiness",
+      "peptide-legitscript-certification-support.webp",
+      "Neat folders with blue tabs and a pen arranged on a sunlit conference table in an administrative office.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-legitscript-readiness",
+      "peptide-legitscript-certification-support-decision-flowchart-showing-pathways.webp",
+      "Decision flowchart showing pathways between addiction treatment, healthcare merchant, and research-only certification eligibility.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-legitscript-readiness",
+      "peptide-legitscript-certification-support-professional-hands-placing-sealed-white.webp",
+      "Professional hands placing a sealed white document packet into an outgoing dispatch tray.",
+      "3 / 2",
+    ),
+  ],
+  "/services/data-agency/": [
+    // [0] hero
+    studioImg(
+      "services/data-agency",
+      "ai-data-agency.webp",
+      "Wide view of an on-premises enterprise server room corridor with black equipment racks and blue indicator lights.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/data-agency",
+      "ai-data-agency-close-up-printed-operational-summary.webp",
+      "Close-up of printed operational summary forms and a green highlighter on a wooden admissions counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/data-agency",
+      "ai-data-agency-clinical-operations-director-holding.webp",
+      "Clinical operations director holding a folder while walking down an empty hospital corridor in morning light.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/data-agency",
+      "ai-data-agency-diagram-showing-source-systems-flowing.webp",
+      "Diagram showing source systems flowing through identity governance into a governed dataset to drive an operating decision.",
+      "3 / 2",
+    ),
+  ],
+  "/services/ai-readiness-assessment/": [
+    // [0] hero
+    studioImg(
+      "services/ai-readiness-assessment",
+      "ai-readiness-assessment.webp",
+      "Exterior of a modern outpatient healthcare pavilion at sunrise with concrete walkways and architectural glass.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/ai-readiness-assessment",
+      "ai-readiness-assessment-close-up-multi-line-desk-phone-tabbed.webp",
+      "Close-up of a multi-line desk phone and tabbed intake folders on an admissions counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/ai-readiness-assessment",
+      "ai-readiness-assessment-decision-matrix-diagram-showing-workflow.webp",
+      "Decision matrix diagram showing workflow evaluation axes with pilot, hold, and no-go status gates.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/ai-readiness-assessment",
+      "ai-readiness-assessment-bound-executive-decision-pack-divider.webp",
+      "Bound executive decision pack with divider tabs resting on a dark wood credenza in afternoon light.",
+      "3 / 2",
+    ),
+  ],
   "/services/managed-private-ai/": [
     // [0] hero
     studioImg(

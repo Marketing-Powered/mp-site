@@ -1,0 +1,48 @@
+---
+title: "Customer Data Integration Across the Systems You Use"
+url: "/services/customer-data-integration/"
+primary_keyword: "customer data integration services"
+secondary_keywords: "unified customer data, customer data integration consulting, customer 360 implementation, CRM data integration"
+---
+
+SEO METADATA
+Title tag: Customer Data Integration Across the Systems You Use
+Meta description: Create a governed customer view by connecting approved records across systems with explicit matching and access rules.
+H1: Customer Data Integration Across the Systems You Use
+Hero image alt: Wide view of an empty clinic intake counter with an analog telephone console and document trays in morning light.
+
+
+PAGE COPY
+
+Customer Data Integration Across the Systems You Use
+The same customer usually exists several times over: a CRM contact, a billing account, a support ticket, a scheduling record. None of those systems agrees on which version is correct, and no dashboard settles the argument for you. Customer data integration services should begin with that disagreement rather than with another platform purchase.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Define what unified means before choosing a platform
+Start with the people who actually touch the records: the operations lead who needs one count of active customers, the finance manager reconciling billing, the marketing director tracing which demand converted, the intake or service lead answering the phone. The useful question is not what data exists. It is which decisions are currently made badly because records disagree. Write those decisions down, then list only the fields each decision requires. A customer 360 implementation scoped around the fields each decision needs can be finished. One scoped around every available attribute tends to become a permanent project. This is scoping work, not platform selection, and it is what makes the later matching rules arguable instead of arbitrary.
+Map identifiers and ownership across every source system
+Before a single record is matched, document what each system can actually be joined on: email, phone, member or account number, external IDs issued by a scheduling or billing vendor, and the relationships between account, contact, household and transaction. Record which system is authoritative for each field, who is permitted to edit it, and how often it changes. Teams often find that two systems have drifted apart because neither side owned the field. Unclear ownership is a common cause of failure in CRM data integration, alongside technical connectivity. A healthcare organization connecting intake, CRM and advertising platforms faces the same mapping discipline described in [a healthcare CRM integration example](/resources/healthcare-crm-marketing-integration).
+Resolve identities with explicit rules and confidence thresholds
+Entity resolution is a sequence, not a switch. Values are cleansed and standardized first, separately from matching, so that comparison is not defeated by formatting differences in names, addresses and phone numbers. Matching approaches then range from exact rules on a shared identifier to weighted comparison of attributes when no shared key exists. The real design decision is where thresholds sit, and what happens in the middle band.
+Illustrative decision model, not a performance claim:
+* High confidence. Rule applied: Shared identifier match, or strong agreement across several standardized attributes. What happens next: Records merge automatically, survivorship rule logged.
+* Middle band. Rule applied: Partial agreement, conflicting or missing attributes. What happens next: Routed to a human review queue, decision recorded.
+* Low confidence. Rule applied: Weak or contradictory evidence. What happens next: Records stay separate and appear on the unresolved-record report.
+Some identities will never resolve, and an honest output says so by volume and by band. Where acquisition data is involved, this sequencing supports [healthcare attribution implementation](/services/analytics-and-attribution) rather than replacing it.
+Keep lineage and permissions attached to every field
+A joined field without provenance is a liability. Each field in the unified table should carry where it came from, when it was last refreshed, the rule that produced it when sources conflicted, and who is permitted to use it. Permission is the part most projects skip. A billing balance may be appropriate for a service team and inappropriate for an advertising audience. Platform rules make this concrete: Google treats health content as a sensitive interest category with restricted targeting, where predefined Google audiences are supported and advertiser-curated audiences are not ([Google Ads policy](https://support.google.com/adspolicy/answer/16701855?hl=en)). A unified view therefore needs to mark fields and segments as off limits per destination. Marketing Powered is LegitScript-aware and HIPAA-aware, and treats storage, processing, access and third-party participation as explicit configuration decisions rather than assumptions. The same field-level discipline underpins [marketing attribution services](/services/marketing-attribution-agency).
+Deliver the view where work happens and keep it current
+Unified customer data has no value sitting in a layer nobody opens. Delivery usually takes one of three shapes: governed warehouse tables for analysts, resolved values written back into CRM fields for the people on the phone, or a controlled analytical access layer for reporting and modeling. Each carries a cost. Warehouse tables are clean but distant from daily work, CRM write-back is immediate but harder to reverse, and an access layer adds a dependency to maintain. Vendors commonly package integration and data quality together to prepare data for analytics and AI ([Qlik](https://www.qlik.com/us/products/qlik-talend-data-integration-and-quality)), which is useful vocabulary rather than a reason to default to a product. Delivery mechanics connect directly to [workflow integration and tracking](/services/web-development/integrations-and-tracking).
+A resolved view also decays. Sources add fields, vendors change APIs, a merge turns out to be wrong, and a deletion request has to travel to every downstream copy. Maintenance means a documented path that unwinds a bad merge, deletion propagation that reaches the warehouse and any synced destination, monitoring so refresh failures surface instead of going quiet, and periodic review of the unresolved queue. Marketing Powered operates owned, local AI infrastructure for HIPAA-aware inference, so processing boundaries can be defined per engagement instead of assumed. Private deployment does not by itself establish security or legal compliance. Related reading: [data sovereignty and business control](/resources/data-sovereignty), [decision-focused marketing dashboards](/resources/marketing-dashboard), and [tracking records from source to outcome](/resources/lead-tracking).
+Questions buyers ask before scoping this work
+### Can you join records without a universal customer ID?
+Often, yes, within stated limits. Without a shared key, matching relies on weighted comparison of attributes such as name, address, email, phone and transaction context, which produces a confidence score rather than certainty. The scope defines thresholds for automatic merge, human review and no match, and reports how many records land in each band.
+### Does a unified view require buying a CDP?
+No. A customer data platform is one delivery option. Many organizations reach a governed view using a warehouse they already pay for, plus resolved values written back into the CRM. The choice depends on how many sources exist, how often they change, and whether activation needs real-time audiences. Buying a platform before resolving records displays the same inconsistency faster.
+### What happens when the same person has conflicting records?
+Conflicts are settled by an explicit survivorship rule, not by whichever system synced last. The rule names the authoritative source per field, with recency or completeness as a tiebreaker. Ambiguous pairs below the automatic threshold go to a review queue where a person decides, and that decision is logged so the rules improve.
+### What information and access are needed to scope this work?
+A list of source systems and their owners, sample schemas or field exports, approximate record volumes, read access or extracts for a limited sample, and the names of whoever approves data use. Current contracts, policies governing permitted use, and any platform or jurisdictional limits in your sector also shape feasibility.
+### What will our organization own and be able to export?
+Ownership and export terms are set in the engagement agreement. Customer data integration consulting of this kind typically covers, depending on scope, the data source and identifier map, documented matching rules and thresholds, the field ownership and permission design, the unresolved-record report, and the resolved tables in an exportable format. Agency ownership of infrastructure does not transfer ownership of your records.
+Consolidation, analysis, segmentation and reporting are recognized customer intelligence capabilities ([ScienceSoft](https://www.scnsoft.com/data/business-intelligence/customer)), and each one rests on records your team can defend in a room. Feasibility depends on your actual systems, identifiers and governance, so the work starts by looking at them.
+[CTA] Map a unified customer view → /get-started/request-an-audit

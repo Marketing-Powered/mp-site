@@ -464,6 +464,19 @@ const VALID = new Set<string>([
   "/resources/peptide-fda-approval-registration-certification",
   "/resources/peptide-website-security-ad-recovery",
   "/resources/peptide-reviews-testimonials-marketing",
+  "/resources/peptide-marketing-geographic-eligibility",
+  "/resources/peptide-advertising-policy-monitoring",
+  "/resources/peptide-marketing-crm-data-governance",
+  "/resources/peptide-marketing-plan-budget",
+  "/resources/peptide-content-clinical-review",
+  "/resources/peptide-marketing-ad-suspension-continuity",
+  "/resources/peptide-claims-knowledge-base",
+  "/resources/peptide-influencer-affiliate-marketing",
+  "/resources/peptide-supplement-cosmetic-claims",
+  "/resources/research-peptide-catalog-architecture",
+  "/resources/peptide-marketing-in-house-vs-agency",
+  "/resources/market-intelligence-brief-template",
+  "/resources/peptide-email-marketing",
 ]);
 
 const REMAP: Record<string, string> = {

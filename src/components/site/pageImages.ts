@@ -86,6 +86,326 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/peptide-email-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-email-marketing",
+      "peptide-email-marketing.webp",
+      "Sealed laboratory transport vials resting in an aluminum staging rack beside dispatch packaging on a clean clinic counter.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-email-marketing",
+      "peptide-email-marketing-three-column-classification-diagram.webp",
+      "Three-column classification diagram mapping service messages, commercial promotions, and clinical communications to governing rules.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-email-marketing",
+      "peptide-email-marketing-gloved-hands-aligning-steel-ruler.webp",
+      "Gloved hands aligning a steel ruler against an unprinted product box carton on a gridded inspection mat.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/market-intelligence-brief-template/": [
+    // [0] hero
+    studioImg(
+      "resources/market-intelligence-brief-template",
+      "market-research-brief-template.webp",
+      "Empty modern boardroom overlooking a city skyline at dawn with a timber credenza and expansive morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/market-intelligence-brief-template",
+      "market-research-brief-template-executive-viewed-behind-walking-down.webp",
+      "Executive viewed from behind walking down a concrete corridor at dusk holding a closed document binder.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/market-intelligence-brief-template",
+      "market-research-brief-template-close-up-bound-linen-research.webp",
+      "Close-up of a bound linen research specification folder with a blue ribbon on a walnut tabletop.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-marketing-in-house-vs-agency/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-marketing-in-house-vs-agency",
+      "peptide-marketing-agency-vs-in-house.webp",
+      "Insulated transport container and sealed document envelopes on a stainless steel staging counter in an empty logistics hallway.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-marketing-in-house-vs-agency",
+      "peptide-marketing-agency-vs-in-house-capability-matrix-diagram-organizing.webp",
+      "Capability matrix diagram organizing five peptide marketing responsibilities with eligibility review highlighted in sky blue.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-marketing-in-house-vs-agency",
+      "peptide-marketing-agency-vs-in-house-operations-leader-standing.webp",
+      "An operations leader standing in an administrative hallway carrying a portfolio folder toward a sunlit corridor.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/research-peptide-catalog-architecture/": [
+    // [0] hero
+    studioImg(
+      "resources/research-peptide-catalog-architecture",
+      "research-peptide-catalog-seo.webp",
+      "Row of sealed scientific glass vials held in a blue anodized cold block on a clean laboratory workbench.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/research-peptide-catalog-architecture",
+      "research-peptide-catalog-seo-diagram-showing-four-research-peptide.webp",
+      "Diagram showing four research peptide data tiers leading from identifiers and specifications to an institutional quote request.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/research-peptide-catalog-architecture",
+      "research-peptide-catalog-seo-printed-technical-documentation-safety.webp",
+      "Printed technical documentation and safety sheets resting in a tabbed intake folder on a steel laboratory inspection cart.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/research-peptide-catalog-architecture",
+      "research-peptide-catalog-seo-open-cardboard-shipping-carton-custom.webp",
+      "Open cardboard shipping carton with custom foam cutouts holding laboratory vials on a wooden packaging station.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-supplement-cosmetic-claims/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-supplement-cosmetic-claims",
+      "peptide-supplement-cosmetic-claims.webp",
+      "Amber glass dropper bottle and white supplement container resting on a clean staging counter with open space on the right.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-supplement-cosmetic-claims",
+      "peptide-supplement-cosmetic-claims-two-column-comparison-diagram-showing.webp",
+      "Two-column comparison diagram showing supplement and cosmetic pathways converging into drug intended use when disease claims are made.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-supplement-cosmetic-claims",
+      "peptide-supplement-cosmetic-claims-spiral-technical-binder-resting-beside.webp",
+      "Spiral technical binder resting beside glass specimen vials on a stainless steel formulation bench.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-supplement-cosmetic-claims",
+      "peptide-supplement-cosmetic-claims-gloved-hands-set-aside-unprinted-product.webp",
+      "Gloved hands set aside an unprinted product carton along an industrial packaging guide rail.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-influencer-affiliate-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-influencer-affiliate-marketing",
+      "peptide-influencer-marketing.webp",
+      "Plain white cosmetic product boxes resting on a stainless steel inspection counter in a brightly lit staging room.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-influencer-affiliate-marketing",
+      "peptide-influencer-marketing-five-stage-horizontal-flow-diagram.webp",
+      "A five-stage horizontal flow diagram outlining claims library, creator brief, content review, monitoring sweeps, and quarterly review.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-claims-knowledge-base/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-claims-knowledge-base",
+      "peptide-claims-knowledge-base.webp",
+      "Empty clinical research library with oak reference counter, clothbound catalog ledgers, and morning light through tall windows.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-claims-knowledge-base",
+      "peptide-claims-knowledge-base-diagram-comparing-evidence-record.webp",
+      "Diagram comparing an evidence record to an approved claim record, separated by a human sign-off decision gate.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-marketing-ad-suspension-continuity/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-marketing-ad-suspension-continuity",
+      "peptide-ad-suspension-business-continuity.webp",
+      "A sealed shipping box and inspection clipboard rest on a stainless steel worktable in a distribution facility.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-marketing-ad-suspension-continuity",
+      "peptide-ad-suspension-business-continuity-four-labeled-archival-binders-stand.webp",
+      "Four labeled archival binders stand in a wooden organizer on an archive room shelf.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-marketing-ad-suspension-continuity",
+      "peptide-ad-suspension-business-continuity-vertical-process-diagram-showing-four.webp",
+      "A vertical process diagram showing four compliance review stages from lawful operation to account standing.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-marketing-ad-suspension-continuity",
+      "peptide-ad-suspension-business-continuity-enclosed-server-rack-neatly-organized.webp",
+      "An enclosed server rack with neatly organized blue ethernet cables and green indicator lights.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-content-clinical-review/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-content-clinical-review",
+      "peptide-content-review.webp",
+      "An empty clinical research archive hallway lined with gray reference binders on steel shelves in natural morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-content-clinical-review",
+      "peptide-content-review-three-column-comparison-diagram.webp",
+      "Three-column comparison diagram categorizing peptide content into Category Education, Service Explanation, and Clinical Claims.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-content-clinical-review",
+      "peptide-content-review-close-up-metal-date-stamp-resting-beside.webp",
+      "Close-up of a metal date stamp resting beside stacked linen document folders with green indexing tabs on a stone surface.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-marketing-plan-budget/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-marketing-plan-budget",
+      "peptide-marketing-plan.webp",
+      "Wide exterior view of a modern glass medical clinic entrance pavilion and empty courtyard in pale early morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-marketing-plan-budget",
+      "peptide-marketing-plan-close-up-still-life-consultation-room.webp",
+      "Close-up still life of a consultation room doorway key and blank clipboard in warm late afternoon sunlight.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-marketing-plan-budget",
+      "peptide-marketing-plan-stepped-flow-diagram-showing-three.webp",
+      "Stepped flow diagram showing three conditional 90-day phases from eligibility to controlled launch and scale decision.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-marketing-plan-budget",
+      "peptide-marketing-plan-medium-wide-view-empty-server-room.webp",
+      "Medium-wide view of an empty server room corridor with black cabinet racks and quiet blue indicator lights.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-marketing-crm-data-governance/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-marketing-crm-data-governance",
+      "peptide-marketing-data-governance.webp",
+      "Three-column comparison table separating patient care, institutional procurement, and consumer commerce data categories.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-marketing-crm-data-governance",
+      "peptide-marketing-data-governance-close-up-hands-organizing-access-tags.webp",
+      "Close-up of hands organizing access tags on a metal rack in a modern healthcare facility corridor.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-marketing-crm-data-governance",
+      "peptide-marketing-data-governance-cleanly-routed-blue-black-network-fiber.webp",
+      "Cleanly routed blue and black network fiber cables connected to enterprise server hardware.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-advertising-policy-monitoring/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-advertising-policy-monitoring",
+      "peptide-advertising-policy-updates.webp",
+      "Wide view of closed regulatory register volumes and a blue ledger on an oak archive table illuminated by morning window light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-advertising-policy-monitoring",
+      "peptide-advertising-policy-updates-four-linen-file-folders-colored-tabs.webp",
+      "Four linen file folders with colored tabs arranged neatly on a dark walnut credenza in natural daylight.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-advertising-policy-monitoring",
+      "peptide-advertising-policy-updates-flowchart-diagram-illustrating-five.webp",
+      "Flowchart diagram illustrating five sequential steps from source register through human review to action approval for policy updates.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-advertising-policy-monitoring",
+      "peptide-advertising-policy-updates-close-up-hands-inserting-green-divider.webp",
+      "Close-up of hands inserting a green divider into a physical policy audit binder on a wooden standing desk.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-marketing-geographic-eligibility/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-marketing-geographic-eligibility",
+      "peptide-advertising-geographic-restrictions.webp",
+      "Wide empty shipping loading dock at dawn with marked floor staging lanes and industrial roller doors.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-marketing-geographic-eligibility",
+      "peptide-advertising-geographic-restrictions-comparison-table-mapping-service.webp",
+      "Comparison table mapping service authority, product rules, and platform targeting across three peptide entity types.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-marketing-geographic-eligibility",
+      "peptide-advertising-geographic-restrictions-fulfillment-specialist-standing.webp",
+      "Fulfillment specialist standing at a stainless steel packaging counter placing a packing slip into a cardboard box.",
+      "3 / 2",
+    ),
+  ],
   "/resources/peptide-reviews-testimonials-marketing/": [
     // [0] hero
     studioImg(

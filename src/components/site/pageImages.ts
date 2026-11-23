@@ -86,6 +86,771 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/peptide-reviews-testimonials-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-reviews-testimonials-marketing",
+      "peptide-marketing-testimonials.webp",
+      "An amber dropper bottle and paper feedback card sit on an oak dispensary counter in morning sunlight.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-reviews-testimonials-marketing",
+      "peptide-marketing-testimonials-comparison-diagram-showing-differences.webp",
+      "A comparison diagram showing the differences in selection, claim responsibility, and substantiation duties between hosted reviews and marketing testimonials.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-reviews-testimonials-marketing",
+      "peptide-marketing-testimonials-clinical-review-station-microscope.webp",
+      "A clinical review station with a microscope and clipboard on a metal counter while a lab specialist reaches for a binder from behind.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-reviews-testimonials-marketing",
+      "peptide-marketing-testimonials-close-up-hands-filing-paper-document.webp",
+      "Close-up of hands filing a paper document into a manila folder in a clinic records area under warm evening light.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-website-security-ad-recovery/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-website-security-ad-recovery",
+      "peptide-website-compromised-ads.webp",
+      "Empty server room corridor with black equipment racks and subtle blue indicator lights along a polished floor.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-website-security-ad-recovery",
+      "peptide-website-compromised-ads-decision-flow-diagram-separating-website.webp",
+      "Decision flow diagram separating website security remediation steps from advertising offer eligibility checks.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-website-security-ad-recovery",
+      "peptide-website-compromised-ads-close-up-hands-holding-metal-clipboard.webp",
+      "Close-up of hands holding a metal clipboard with a paper verification checklist in morning window light.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-website-security-ad-recovery",
+      "peptide-website-compromised-ads-exterior-architectural-view-commercial.webp",
+      "Exterior architectural view of a commercial compliance building entrance with glass doors and stone paving at dusk.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-fda-approval-registration-certification/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-fda-approval-registration-certification",
+      "peptide-fda-approved-marketing-claims.webp",
+      "Stacked quality control folders and sealed glass analytical sample bottles on a stainless steel counter in an empty laboratory vestibule.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-fda-approval-registration-certification",
+      "peptide-fda-approved-marketing-claims-comparison-diagram-displaying-four.webp",
+      "Comparison diagram displaying four regulatory credential categories and their actual verification limits for marketing claims.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-fda-approval-registration-certification",
+      "peptide-fda-approved-marketing-claims-close-up-photograph-gloved-hand.webp",
+      "Close-up photograph of a gloved hand positioning a micropipette above clear glass sample vials in an analytical laboratory.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-fda-approval-registration-certification",
+      "peptide-fda-approved-marketing-claims-person-viewed-behind-retrieving-archive.webp",
+      "Person viewed from behind retrieving an archive binder from tall metal shelves in a sunlit records storage room.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-ad-suspension-diagnosis/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-ad-suspension-diagnosis",
+      "peptide-ad-suspension-diagnosis.webp",
+      "Exterior glass double doors of a quiet outpatient medical facility at dawn under early morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-ad-suspension-diagnosis",
+      "peptide-ad-suspension-diagnosis-close-up-stacked-archival-folders.webp",
+      "Close-up of stacked archival folders and an external hard drive resting on a wooden counter in natural light.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-ad-suspension-diagnosis",
+      "peptide-ad-suspension-diagnosis-vertical-diagram-routing-five-peptide.webp",
+      "Vertical diagram routing five peptide advertising restriction categories to primary remediation owners.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-ad-suspension-diagnosis",
+      "peptide-ad-suspension-diagnosis-paved-stone-walkway-splitting-two.webp",
+      "Paved stone walkway splitting into two distinct paths in an outdoor courtyard under midday sun.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/meta-health-event-restrictions-peptide-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/meta-health-event-restrictions-peptide-marketing",
+      "meta-health-event-restrictions-peptides.webp",
+      "Row of server racks with neatly routed sky blue patch cables in an enterprise telecommunications facility.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/meta-health-event-restrictions-peptide-marketing",
+      "meta-health-event-restrictions-peptides-process-diagram-showing-four-diagnostic.webp",
+      "Process diagram showing four diagnostic branches to identify restricted advertising objects: Event, Audience, Ad, and Account.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/meta-health-event-restrictions-peptide-marketing",
+      "meta-health-event-restrictions-peptides-close-up-organized-network-cables.webp",
+      "Close-up of organized network cables passing through an aluminum management comb with one line separated.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/meta-health-event-restrictions-peptide-marketing",
+      "meta-health-event-restrictions-peptides-charcoal-documentation-binder-index-tab.webp",
+      "Charcoal documentation binder with an index tab and archival pen resting on a wooden conference table in natural light.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/peptide-advertising-circumventing-systems/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-advertising-circumventing-systems",
+      "peptide-google-ads-circumventing-systems.webp",
+      "Exterior glass entrance and concrete walkway of a modern commercial clinical facility at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/peptide-advertising-circumventing-systems",
+      "peptide-google-ads-circumventing-systems-close-up-open-manila-compliance-folder.webp",
+      "Close-up of an open manila compliance folder secured with a brass binder clip on a dark walnut credenza.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/peptide-advertising-circumventing-systems",
+      "peptide-google-ads-circumventing-systems-empty-server-room-aisle-organized-fiber.webp",
+      "Empty server room aisle with organized fiber patch cabling and green indicator lights on rack equipment.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-advertising-circumventing-systems",
+      "peptide-google-ads-circumventing-systems-comparison-diagram-contrasting.webp",
+      "Comparison diagram contrasting documented remediation practices against prohibited circumvention risk tactics.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/hhs-peptide-compounding-policy-marketing/": [
+    // [0] hero
+    studioImg(
+      "resources/hhs-peptide-compounding-policy-marketing",
+      "hhs-peptide-policy-marketing.webp",
+      "Four-row comparison diagram contrasting HHS enforcement discretion, FDA approval, LegitScript review, and ad platform rules.",
+      "3 / 2",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/hhs-peptide-compounding-policy-marketing",
+      "hhs-peptide-policy-marketing-close-up-printed-marketing-review.webp",
+      "Close-up of printed marketing review checklists and a red pen on a standing wooden desk during a compliance sweep.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/hhs-peptide-compounding-policy-marketing",
+      "hhs-peptide-policy-marketing-intake-verification-counter-pharmacy.webp",
+      "Intake verification counter in a pharmacy facility staging bay with a document clipboard and scale in late afternoon light.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-clinic-local-seo/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-clinic-local-seo",
+      "peptide-clinic-local-seo.webp",
+      "Exterior entrance of a licensed medical clinic with glass double doors and bronze suite plaque in morning sunlight.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-clinic-local-seo",
+      "peptide-clinic-local-seo-horizontal-process-diagram-showing-six.webp",
+      "Horizontal process diagram showing six stages for verifying clinic identity, directories, content, reviews, inquiries, and ongoing governance.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-clinic-local-seo",
+      "peptide-clinic-local-seo-exterior-wayfinding-monument-sign-edge.webp",
+      "Exterior wayfinding monument sign at the edge of a clinic parking lot at dusk, showing suite numbers under warm low-voltage uplights.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-competitive-intelligence/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-competitive-intelligence",
+      "peptide-competitive-intelligence.webp",
+      "Exterior view of an empty commercial life sciences building facade and entrance plaza at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-competitive-intelligence",
+      "peptide-competitive-intelligence-closed-glass-doors-leading-unpopulated.webp",
+      "Closed glass doors leading into an unpopulated secondary medical clinic suite along a brightly lit corridor.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-competitive-intelligence",
+      "peptide-competitive-intelligence-close-up-landline-telephone-call.webp",
+      "Close-up of a landline telephone and call disposition folder on a wooden shelf in an admissions office.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-competitive-intelligence",
+      "peptide-competitive-intelligence-two-column-comparison-diagram.webp",
+      "Two-column comparison diagram contrasting observable public market signals against unverified commercial inferences.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-content-marketing/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-content-marketing",
+      "peptide-content-marketing.webp",
+      "Wide exterior view of an institutional life-sciences facility entrance with glass walls and concrete pillars at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-content-marketing",
+      "peptide-content-marketing-process-diagram-outlining-three-distinct.webp",
+      "Process diagram outlining three distinct peptide content audience lanes for commercial leaders, procurement teams, and clinic patients.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-content-marketing",
+      "peptide-content-marketing-closed-charcoal-document-binder-green.webp",
+      "Closed charcoal document binder with a green tab divider and metal pen resting on a wooden surface in warm afternoon light.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-content-marketing",
+      "peptide-content-marketing-wall-mounted-telephone-handset-outside.webp",
+      "Wall-mounted telephone handset outside an intake room in quiet evening hallway light.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/local-service-ads/": [
+    // [0] hero
+    studioImg(
+      "resources/local-service-ads",
+      "local-service-ads.webp",
+      "Clinic operations director reviewing patient intake analytics and campaign data on an office laptop.",
+      "43 / 24",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/local-service-ads",
+      "local-service-ads-diagram-showing-google-search-page-tiers.webp",
+      "Diagram showing Google search page tiers for Local Services Ads, paid search text ads, and local organic map listings.",
+      "79 / 53",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/local-service-ads",
+      "local-service-ads-intake-finance-manager-discussing.webp",
+      "Intake finance manager discussing acquisition cost models and lead bidding data on a tablet in an office.",
+      "79 / 53",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/local-service-ads",
+      "local-service-ads-healthcare-marketing-team-collaborating.webp",
+      "Healthcare marketing team collaborating on integrated paid search and Local Services Ads campaign architecture.",
+      "79 / 53",
+    ),
+  ],
+  "/services/peptide-reputation-management/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-reputation-management",
+      "peptide-reputation-management.webp",
+      "Exterior glass double doors of an empty medical clinic in soft morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-reputation-management",
+      "peptide-reputation-management-three-textured-linen-folders-arranged.webp",
+      "Three textured linen folders arranged on a dark stone surface.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-reputation-management",
+      "peptide-reputation-management-five-step-decision-diagram-illustrating.webp",
+      "Five-step decision diagram illustrating feedback categorization, routing to owners, and logging resolution.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/peptide-manufacturers/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/peptide-manufacturers",
+      "peptide-manufacturer-marketing.webp",
+      "Automated solid-phase peptide synthesizer reaction column and stainless manifold in a sterile pharmaceutical cleanroom.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/peptide-manufacturers",
+      "peptide-manufacturer-marketing-analytical-glass-vials-stainless-steel.webp",
+      "Analytical glass vials in a stainless steel rack for peptide chromatography purity testing.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/peptide-manufacturers",
+      "peptide-manufacturer-marketing-insulated-cold-chain-shipping-container.webp",
+      "Insulated cold-chain shipping container on an industrial conveyor at a manufacturing facility dock.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/peptide-skincare-brands/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/peptide-skincare-brands",
+      "peptide-skincare-marketing.webp",
+      "Amber glass dropper bottle for peptide skincare serum resting on a pale concrete surface in morning sunlight.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/peptide-skincare-brands",
+      "peptide-skincare-marketing-two-column-comparison-diagram-showing.webp",
+      "Two-column comparison diagram showing cosmetic appearance claims alongside unapproved drug claims for peptide skincare products.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/peptide-skincare-brands",
+      "peptide-skincare-marketing-standardized-camera-tripod-rig-color.webp",
+      "Standardized camera tripod rig and color calibration card set up in a photo studio for controlled cosmetic imaging.",
+      "3 / 2",
+    ),
+  ],
+  "/services/b2b-peptide-lead-generation/": [
+    // [0] hero
+    studioImg(
+      "services/b2b-peptide-lead-generation",
+      "b2b-peptide-lead-generation.webp",
+      "Automated liquid chromatography instrument and reagent vial rack on a stainless steel bench inside a laboratory.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/b2b-peptide-lead-generation",
+      "b2b-peptide-lead-generation-insulated-cold-chain-container-sealed.webp",
+      "Insulated cold-chain container with sealed glass sample vials and an inspection packet on a metal receiving table.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/b2b-peptide-lead-generation",
+      "b2b-peptide-lead-generation-two-column-comparison-diagram.webp",
+      "Two-column comparison diagram contrasting consumer inquiry signals against verified institutional qualification criteria.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-conversion-optimization/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-conversion-optimization",
+      "peptide-conversion-optimization.webp",
+      "Exterior entrance of a modern glass and steel medical facility at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-conversion-optimization",
+      "peptide-conversion-optimization-diagram-comparing-valid-conversion.webp",
+      "Diagram comparing valid conversion definitions for peptide clinic consultations, B2B lab quotes, and ecommerce purchases.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-seo/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-seo",
+      "peptide-seo-services.webp",
+      "Clean stainless steel laboratory intake area with distinct wire sorting bins under morning window light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-seo",
+      "peptide-seo-services-three-column-comparison-diagram.webp",
+      "Three-column comparison diagram contrasting search criteria for clinical care, laboratory procurement, and consumer product audiences.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-seo",
+      "peptide-seo-services-macro-close-up-hands-placing-green-index.webp",
+      "Macro close-up of hands placing a green index tab onto a printed compliance review document on a wooden table.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-seo",
+      "peptide-seo-services-empty-administrative-intake-station.webp",
+      "Empty administrative intake station with an analog desk telephone and notebook illuminated by late-afternoon window light.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-merchant-center-remediation/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-merchant-center-remediation",
+      "peptide-merchant-center-suspension-help.webp",
+      "Clean glass cosmetic dropper bottles and boxed supplements arranged on warehouse staging shelves in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-merchant-center-remediation",
+      "peptide-merchant-center-suspension-help-two-column-comparison-diagram.webp",
+      "A two-column comparison diagram illustrating account-level versus item-level policy issue classification paths.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-merchant-center-remediation",
+      "peptide-merchant-center-suspension-help-hands-fabric-gloves-placing-unbranded.webp",
+      "Hands in fabric gloves placing an unbranded cosmetic bottle into a sorting crate on a clean aluminum workbench.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/peptide-pharmacies/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/peptide-pharmacies",
+      "peptide-pharmacy-marketing.webp",
+      "Clean pass-through anteroom and stainless steel prep ledge inside a specialized compounding pharmacy facility at dawn.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/peptide-pharmacies",
+      "peptide-pharmacy-marketing-three-tier-classification-diagram.webp",
+      "Three-tier classification diagram sorting pharmacy offerings into FDA-approved, conditionally compounded, and unsupported categories.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/peptide-pharmacies",
+      "peptide-pharmacy-marketing-covered-glass-pedestrian-walkway.webp",
+      "Covered glass pedestrian walkway connecting two independent healthcare facility buildings at twilight.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-marketing-measurement/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-marketing-measurement",
+      "peptide-marketing-attribution.webp",
+      "Exterior facade of a modern clinical research building at sunrise with open sky on the left.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-marketing-measurement",
+      "peptide-marketing-attribution-process-diagram-mapping-clinic-b2b-quote.webp",
+      "Process diagram mapping clinic, B2B quote, and ecommerce peptide conversion streams against platform boundary rules.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-marketing-measurement",
+      "peptide-marketing-attribution-clean-premises-server-corridor-organized.webp",
+      "Clean on-premises server corridor with organized rack cabinets and muted status lights.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-marketing-measurement",
+      "peptide-marketing-attribution-close-up-hands-organizing-color-coded.webp",
+      "Close-up of hands organizing color-coded intake routing tabs in an archival binder.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-website-design/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-website-design",
+      "peptide-website-design.webp",
+      "Exterior architectural entrance of a modern medical research facility at dawn with dual glass wings and concrete pavers.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-website-design",
+      "peptide-website-design-three-column-comparison-diagram.webp",
+      "Three-column comparison diagram contrasting clinical consultation, laboratory procurement, and consumer product conversion paths.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-website-design",
+      "peptide-website-design-open-linen-audit-ledger-physical-sign.webp",
+      "Open linen audit ledger and physical sign-off stamp resting on a wooden standing review counter.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-website-design",
+      "peptide-website-design-close-up-organized-blue-network-patch.webp",
+      "Close-up of organized blue network patch cables terminating into an enterprise distribution panel in a server room.",
+      "3 / 2",
+    ),
+  ],
+  "/services/private-ai-peptide-marketing/": [
+    // [0] hero
+    studioImg(
+      "services/private-ai-peptide-marketing",
+      "private-ai-peptide-marketing.webp",
+      "Wide view of an on-premise server rack in a clean commercial facility corridor with cool directional lighting.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/private-ai-peptide-marketing",
+      "private-ai-peptide-marketing-medium-shot-empty-clinical-intake.webp",
+      "Medium shot of an empty clinical intake counter with a multi-line desk phone and closed reconciliation folders in morning light.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/private-ai-peptide-marketing",
+      "private-ai-peptide-marketing-flow-diagram-showing-product-claims.webp",
+      "Flow diagram showing product claims, spend changes, and published material passing through an accountable reviewer to create an approved record.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/private-ai-peptide-marketing",
+      "private-ai-peptide-marketing-close-up-linen-bound-operating-manual.webp",
+      "Close-up of a linen-bound operating manual and external data drive on a walnut table illuminated by late afternoon sun.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/peptide-clinics/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/peptide-clinics",
+      "peptide-clinic-marketing.webp",
+      "Exterior entrance of a licensed outpatient medical clinic at dawn with glass double doors and an open paved walkway.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/peptide-clinics",
+      "peptide-clinic-marketing-five-stage-horizontal-flow-diagram.webp",
+      "A five-stage horizontal flow diagram outlining clinic licensing verification, service definition, capacity mapping, inquiry targets, and visibility.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/peptide-clinics",
+      "peptide-clinic-marketing-medium-shot-premises-server-rack-clean.webp",
+      "Medium shot of an on-premises server rack with clean network cabling and illuminated status lights in a data room.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-paid-media/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-paid-media",
+      "peptide-advertising-agency.webp",
+      "Exterior view of a modern medical clinic building at dawn with glass entryway and concrete walkway.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-paid-media",
+      "peptide-advertising-agency-flow-diagram-showing-six-sequential.webp",
+      "Flow diagram showing six sequential stages of peptide campaign eligibility and pre-launch review.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-paid-media",
+      "peptide-advertising-agency-close-up-server-hardware-network-cabling.webp",
+      "Close-up of server hardware and network cabling with green indicator lights in an on-site equipment rack.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-paid-media",
+      "peptide-advertising-agency-compliance-specialist-seen-behind.webp",
+      "Compliance specialist seen from behind placing a folder into a wall sleeve in a bright clinic corridor.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-marketing-claims-review/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-marketing-claims-review",
+      "peptide-marketing-claims-review.webp",
+      "A bound claims audit dossier rests open on an oak table in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-marketing-claims-review",
+      "peptide-marketing-claims-review-campaign-storyboard-sheets-packaging.webp",
+      "Campaign storyboard sheets and packaging proofs grouped inside boundary lines on a workbench.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-marketing-claims-review",
+      "peptide-marketing-claims-review-vertical-four-tier-diagram-ranking.webp",
+      "A vertical four-tier diagram ranking claims corrections from treatment claims down to imprecise wording.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-marketing-claims-review",
+      "peptide-marketing-claims-review-metal-archive-shelving-holding-organized.webp",
+      "Metal archive shelving holding organized file boxes in an administrative records room.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-ad-policy-monitoring/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-ad-policy-monitoring",
+      "peptide-ad-policy-monitoring.webp",
+      "Exterior glass entrance of a modern healthcare facility at dawn with morning light reflecting off the facade.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-ad-policy-monitoring",
+      "peptide-ad-policy-monitoring-hardbound-audit-ledger-categorized.webp",
+      "Hardbound audit ledger and categorized reference folders resting on a wooden counter in an administrative records room.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-ad-policy-monitoring",
+      "peptide-ad-policy-monitoring-decision-flow-diagram-detailing-five.webp",
+      "Decision flow diagram detailing five stages of ad campaign escalation thresholds from change detection to logged outcome.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-ad-policy-monitoring",
+      "peptide-ad-policy-monitoring-close-up-hands-closing-heavy-canvas.webp",
+      "Close-up of hands closing a heavy canvas audit binder in a quiet corridor under late afternoon light.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-marketing-eligibility-audit/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-marketing-eligibility-audit",
+      "peptide-marketing-compliance-audit.webp",
+      "Amber laboratory serum vials in a stainless steel inspection tray on a clean receiving counter in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-marketing-eligibility-audit",
+      "peptide-marketing-compliance-audit-hand-nitrile-glove-places-archival.webp",
+      "A hand in a nitrile glove places an archival divider tab into an open metal file drawer.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-marketing-eligibility-audit",
+      "peptide-marketing-compliance-audit-illustrative-diagram-showing-peptide.webp",
+      "Illustrative diagram showing peptide offer and channel review feeding into proceed, remediate, exclude or specialist-review outcomes.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-ad-account-recovery/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-ad-account-recovery",
+      "peptide-ad-account-recovery.webp",
+      "An empty administrative compliance staging room with a navy folder and pen resting on a slate inspection counter in morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-ad-account-recovery",
+      "peptide-ad-account-recovery-process-diagram-displaying-four.webp",
+      "A process diagram displaying four advertising restriction categories: Account Suspension, Ad Disapproval, Identity Hold, and Billing Hold.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/peptide-ad-account-recovery",
+      "peptide-ad-account-recovery-close-up-hands-holding-metal-mechanical.webp",
+      "Close-up of hands holding a metal mechanical date stamper above a paper submission packet on a steel counter.",
+      "3 / 2",
+    ),
+  ],
+  "/services/peptide-website-policy-remediation/": [
+    // [0] hero
+    studioImg(
+      "services/peptide-website-policy-remediation",
+      "peptide-website-policy-remediation.webp",
+      "Tabbed blue archive folders and catalog documentation sheets arranged flat across an oak table in morning window light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/peptide-website-policy-remediation",
+      "peptide-website-policy-remediation-process-diagram-showing-documented.webp",
+      "Process diagram showing documented findings mapped across destination assets to produce an evidence register and dated capture.",
+      "3 / 2",
+    ),
+  ],
   "/services/competitive-intelligence/": [
     // [0] hero
     studioImg(

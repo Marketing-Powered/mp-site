@@ -417,6 +417,12 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/services/peptide-clinic-local-seo", file: "services/peptide-clinic-local-seo.md" },
     { href: "/services/intelligent-document-processing", file: "services/intelligent-document-processing.md" },
     { href: "/services/customer-lifetime-value-analysis", file: "services/customer-lifetime-value-analysis.md" },
+    { href: "/services/customer-intelligence", file: "services/customer-intelligence.md" },
+    { href: "/services/private-cloud-ai-deployment", file: "services/private-cloud-ai-deployment.md" },
+    { href: "/services/data-quality", file: "services/data-quality.md" },
+    { href: "/services/data-governance-consulting", file: "services/data-governance-consulting.md" },
+    { href: "/services/ai-evaluation-services", file: "services/ai-evaluation-services.md" },
+    { href: "/services/unstructured-data-processing", file: "services/unstructured-data-processing.md" },
   ],
   "services/ppc/index.md": [
     { href: "/services/ppc/introduction-to-ppc-campaign-management", file: "services/ppc/introduction-to-ppc-campaign-management.md" },
@@ -456,6 +462,8 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/who-we-help/peptide-pharmacies", file: "who-we-help/peptide-pharmacies.md" },
     { href: "/who-we-help/peptide-skincare-brands", file: "who-we-help/peptide-skincare-brands.md" },
     { href: "/who-we-help/peptide-manufacturers", file: "who-we-help/peptide-manufacturers.md" },
+    { href: "/who-we-help/small-business/private-ai", file: "who-we-help/small-business/private-ai.md" },
+    { href: "/who-we-help/collagen-peptide-supplement-brands", file: "who-we-help/collagen-peptide-supplement-brands.md" },
   ],
   "who-we-help/behavioral-health.md": [
     { href: "/who-we-help/behavioral-health/residential-treatment", file: "who-we-help/behavioral-health/residential-treatment.md" },

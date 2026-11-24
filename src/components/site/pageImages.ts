@@ -86,6 +86,225 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/who-we-help/collagen-peptide-supplement-brands/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/collagen-peptide-supplement-brands",
+      "collagen-peptide-marketing.webp",
+      "An unbranded white supplement canister and glass beaker of collagen peptide powder rest on a stainless steel counter beside a measuring scoop.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/collagen-peptide-supplement-brands",
+      "collagen-peptide-marketing-three-step-sequential-process-diagram.webp",
+      "A three-step sequential process diagram showing Category Review, Claims Substantiation, and Channel Eligibility steps on a white background.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/collagen-peptide-supplement-brands",
+      "collagen-peptide-marketing-printed-supplement-packaging-proof.webp",
+      "Printed supplement packaging proof sheets displaying an unbranded Supplement Facts panel lay across an illuminated inspection table.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "who-we-help/collagen-peptide-supplement-brands",
+      "collagen-peptide-marketing-gloved-hands-place-insert-card-unbranded.webp",
+      "Gloved hands place an insert card into an unbranded subscription mailer box on a steel roller conveyor inside a fulfillment facility.",
+      "3 / 2",
+    ),
+  ],
+  "/services/unstructured-data-processing/": [
+    // [0] hero
+    studioImg(
+      "services/unstructured-data-processing",
+      "unstructured-data-processing-services.webp",
+      "Industrial metal shelving holding organized archival storage boxes with blue inventory labels in a quiet records facility.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/unstructured-data-processing",
+      "unstructured-data-processing-services-process-diagram-showing-five-stages.webp",
+      "Process diagram showing five stages of archive conversion from inventory and extraction to governed dataset.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/unstructured-data-processing",
+      "unstructured-data-processing-services-close-up-view-hands-reviewing-paper.webp",
+      "Close-up view of hands reviewing a paper archive document with an audit verification stamp and green ink field notation.",
+      "3 / 2",
+    ),
+  ],
+  "/services/ai-evaluation-services/": [
+    // [0] hero
+    studioImg(
+      "services/ai-evaluation-services",
+      "ai-evaluation-services.webp",
+      "Wide view of an on-premises server corridor with overhead cable trays and quiet equipment rack indicator lights.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/ai-evaluation-services",
+      "ai-evaluation-services-process-diagram-outlining-four.webp",
+      "Process diagram outlining four evaluation stages: Name Decision, Set Baselines, Acceptance Thresholds, and Release Criteria.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/ai-evaluation-services",
+      "ai-evaluation-services-close-up-analog-stopwatch-beside-tabbed.webp",
+      "Close-up of an analog stopwatch beside tabbed intake folders on a records sorting shelf.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/ai-evaluation-services",
+      "ai-evaluation-services-operations-professional-seen-behind.webp",
+      "An operations professional seen from behind walking into a healthcare administration building at sunrise.",
+      "3 / 2",
+    ),
+  ],
+  "/services/data-governance-consulting/": [
+    // [0] hero
+    studioImg(
+      "services/data-governance-consulting",
+      "data-governance-consulting.webp",
+      "Wide view of a server room aisle with tall equipment racks illuminated by blue and green indicator lights.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/data-governance-consulting",
+      "data-governance-consulting-close-up-hands-holding-two-different.webp",
+      "Close-up of hands holding two different colored record folders over a wooden administrative counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/data-governance-consulting",
+      "data-governance-consulting-medium-shot-empty-administrative-desk.webp",
+      "Medium shot of an empty administrative desk station with a phone and review ledger in soft daylight.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/data-governance-consulting",
+      "data-governance-consulting-two-column-comparison-diagram.webp",
+      "Two-column comparison diagram contrasting small-team baseline governance requirements against enterprise operational cadence.",
+      "3 / 2",
+    ),
+  ],
+  "/services/data-quality/": [
+    // [0] hero
+    studioImg(
+      "services/data-quality",
+      "data-quality-services.webp",
+      "Wide exterior view of a modern glass clinic building entrance at sunrise with an open concrete plaza.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/data-quality",
+      "data-quality-services-close-up-black-desk-phone-intake-folder.webp",
+      "Close-up of a black desk phone and an intake folder resting on a wooden admissions counter.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/data-quality",
+      "data-quality-services-three-step-diagram-showing-validation.webp",
+      "Three-step diagram showing validation stages labeled Reconcile Totals, Sample Matches, and Log Exceptions.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/data-quality",
+      "data-quality-services-systems-specialist-seen-behind.webp",
+      "Systems specialist seen from behind inspecting cabling on an open server rack in a quiet data room.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/small-business/private-ai/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/small-business/private-ai",
+      "private-ai-for-small-business.webp",
+      "Empty medical clinic reception counter and waiting area with morning light on slate tile floor.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/small-business/private-ai",
+      "private-ai-for-small-business-four-stage-decision-diagram-filtering.webp",
+      "Four-stage decision diagram filtering small-business workflows by volume, effort, failure cost, and owner handoff.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "who-we-help/small-business/private-ai",
+      "private-ai-for-small-business-hands-loading-paper-document-invoices.webp",
+      "Hands loading paper document invoices into a desktop scanner feed tray on an oak credenza.",
+      "3 / 2",
+    ),
+  ],
+  "/services/private-cloud-ai-deployment/": [
+    // [0] hero
+    studioImg(
+      "services/private-cloud-ai-deployment",
+      "private-cloud-ai-deployment.webp",
+      "Empty server cabinet aisle in a secure data hall with subtle blue and green indicator lights along an open corridor.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/private-cloud-ai-deployment",
+      "private-cloud-ai-deployment-comparison-diagram-showing-architecture.webp",
+      "Comparison diagram showing architecture and ownership boundaries across dedicated hosting, customer VPC, and managed endpoint options.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/private-cloud-ai-deployment",
+      "private-cloud-ai-deployment-technician-hands-antistatic-gloves.webp",
+      "Technician hands in antistatic gloves installing cooling hardware into a server chassis on a clean staging workbench.",
+      "3 / 2",
+    ),
+  ],
+  "/services/customer-intelligence/": [
+    // [0] hero
+    studioImg(
+      "services/customer-intelligence",
+      "customer-intelligence-services.webp",
+      "An empty clinic admissions desk with a multi-line telephone and intake folders in early morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/customer-intelligence",
+      "customer-intelligence-services-document-portfolio-containing-decision.webp",
+      "A document portfolio containing a decision statement resting on a wooden standing lectern in daylight.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/customer-intelligence",
+      "customer-intelligence-services-comparison-diagram-contrasting-analysis.webp",
+      "A comparison diagram contrasting analysis-only segments and activation-approved segments across three governance boundaries.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/customer-intelligence",
+      "customer-intelligence-services-close-up-view-premise-local-inference.webp",
+      "A close-up view of an on-premise local inference server chassis with organized cabling in an equipment room.",
+      "3 / 2",
+    ),
+  ],
   "/services/customer-lifetime-value-analysis/": [
     // [0] hero
     studioImg(

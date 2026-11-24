@@ -479,6 +479,14 @@ const VALID = new Set<string>([
   "/resources/peptide-email-marketing",
   "/services/intelligent-document-processing",
   "/services/customer-lifetime-value-analysis",
+  "/services/customer-intelligence",
+  "/services/private-cloud-ai-deployment",
+  "/who-we-help/small-business/private-ai",
+  "/services/data-quality",
+  "/services/data-governance-consulting",
+  "/services/ai-evaluation-services",
+  "/services/unstructured-data-processing",
+  "/who-we-help/collagen-peptide-supplement-brands",
 ]);
 
 const REMAP: Record<string, string> = {

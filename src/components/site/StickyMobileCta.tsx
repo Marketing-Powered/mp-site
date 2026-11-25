@@ -56,6 +56,9 @@ export default function StickyMobileCta({
         background:
           "linear-gradient(to top, rgba(5,11,22,0.96) 55%, rgba(5,11,22,0))",
       }}
+      /* While the bar is translated off screen it is still in the layout, so
+         without this its CTA, call button and email link stay tabbable. */
+      inert={!visible}
     >
       {/* Calling is the strongest intent signal on a phone, so it gets equal
           billing here rather than being buried under the form CTA. */}

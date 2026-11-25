@@ -64,8 +64,11 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     const t = window.setTimeout(() => {
+      /* Skip the hidden `source` / `page` inputs: they match "input" first and
+         focusing one is a no-op, which left focus on the CTA behind the
+         dialog — so the first Tab walked the page instead of the form. */
       dialogRef.current
-        ?.querySelector<HTMLElement>("input, select, textarea")
+        ?.querySelector<HTMLElement>('input:not([type="hidden"]), select, textarea')
         ?.focus();
     }, 30);
     return () => {

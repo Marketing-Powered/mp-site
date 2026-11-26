@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { ModalCta } from "@/components/site/LeadModal";
 
@@ -121,23 +121,24 @@ function OpenAiMark() {
 }
 
 /* ---------------------------------------------------------------- */
-/*  Heatmap video — ambient, infinite, no controls                   */
+/*  Rank-grid video — ambient, infinite, no controls                 */
 /* ---------------------------------------------------------------- */
 
-function HeatmapVideo() {
+const GRID_VIDEO = "/media/paid-advertising-ld/local-rank-grid-dec2023.mp4";
+
+function RankGridVideo() {
   const ref = useRef<HTMLVideoElement | null>(null);
 
-  // Mobile browsers routinely refuse a cold autoplay. Force the properties
-  // (not just the attributes), retry on the readiness events, restart if the
-  // native loop point is ever missed, and unlock on the first interaction.
   useEffect(() => {
     const v = ref.current;
     if (!v) return;
+    // Properties as well as attributes: mobile browsers check the property
+    // when they decide whether a cold autoplay is allowed.
     v.muted = true;
     v.loop = true;
     v.autoplay = true;
 
-    let inView = true;
+    let inView = false;
     const play = () => {
       if (document.hidden || !inView) return;
       void v.play().catch(() => {});
@@ -156,18 +157,24 @@ function HeatmapVideo() {
     document.addEventListener("visibilitychange", onVisibility);
     const unlockEvents = ["pointerdown", "touchstart", "keydown", "scroll"] as const;
     unlockEvents.forEach((ev) => window.addEventListener(ev, play, { once: true, passive: true }));
-    if (v.readyState >= 2) play();
 
-    // Decoding a looping video the visitor has scrolled past costs phone
-    // battery for nothing. Park it off screen and resume on the way back —
-    // still no control, still an infinite loop while it is in view.
+    // The file is not referenced until the figure is nearly on screen, so a
+    // phone that opens the page and reads the hero never pays for it; a
+    // light poster still holds the frame until the first video frame lands.
+    // On desktop the figure is beside the headline, so this fires at once.
+    // Off screen the video pauses: decoding a loop nobody is looking at
+    // costs battery. Still no control, still an infinite loop in view.
     const io = new IntersectionObserver(
       ([entry]) => {
         inView = entry.isIntersecting;
-        if (inView) play();
-        else v.pause();
+        if (!inView) {
+          v.pause();
+          return;
+        }
+        if (!v.src) v.src = GRID_VIDEO;
+        play();
       },
-      { threshold: 0.1 },
+      { rootMargin: "200px 0px", threshold: 0 },
     );
     io.observe(v);
 
@@ -185,17 +192,16 @@ function HeatmapVideo() {
     <video
       ref={ref}
       className="pald-heat"
-      width={1082}
-      height={966}
+      width={900}
+      height={804}
       autoPlay
       loop
       muted
       playsInline
       disablePictureInPicture
-      preload="auto"
-      poster="/media/paid-advertising-ld/local-rank-heatmap-poster.webp"
-      src="/media/paid-advertising-ld/local-rank-heatmap.mp4"
-      aria-label="Local rank-tracking heatmap improving from December 1 to December 13, 2023"
+      preload="none"
+      poster="/media/paid-advertising-ld/local-rank-grid-dec2023-poster.webp"
+      aria-label="A client's local rank grid across a 60-mile radius, improving from December 1 to December 13, 2023"
     />
   );
 }
@@ -269,6 +275,21 @@ const FAQS = [
 
 export default function PaidAdsLanding() {
   const ctaHref = useCtaHref();
+  const heroCtaRef = useRef<HTMLDivElement | null>(null);
+  const [stickyCta, setStickyCta] = useState(false);
+
+  /* Phones show one action at a time: while the hero CTA is on screen the
+     bar stays down, and it rises the moment that button scrolls away, so
+     there is always a live way to convert without scrolling back. */
+  useEffect(() => {
+    const el = heroCtaRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(([entry]) => setStickyCta(!entry.isIntersecting), {
+      threshold: 0,
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   return (
     <div className="pald">
@@ -313,7 +334,7 @@ export default function PaidAdsLanding() {
                 fill your calendar — and to prove it. We assess OpenAI’s ChatGPT Ads for fit before
                 recommending a test.
               </p>
-              <div className="pald-hero-actions">
+              <div className="pald-hero-actions" ref={heroCtaRef}>
                 <Cta href={ctaHref} />
                 <p className="pald-hint">
                   For healthcare, professional services, and multi-location businesses.
@@ -333,7 +354,14 @@ export default function PaidAdsLanding() {
                   <PinMark />
                   Local SEO &amp; Maps
                 </div>
-                <HeatmapVideo />
+                <RankGridVideo />
+                {/* The grid is the page's only client result, so it says
+                    whose it is and over what window, rather than leaving
+                    the burned-in dates to carry the claim alone. */}
+                <p className="pald-proof-caption">
+                  <strong>One client&rsquo;s rank grid, two weeks apart.</strong>
+                  <span>60-mile radius · Dec 1 → Dec 13, 2023 · tracked rankings, not a projection</span>
+                </p>
               </div>
 
               <p className="pald-trace-label">Paid channels</p>
@@ -478,6 +506,22 @@ export default function PaidAdsLanding() {
         </section>
       </main>
 
+      {/* Phones only (hidden at >720px by CSS). */}
+      {/* inert, not just aria-hidden: while the bar is down its link must
+          not be reachable by keyboard either. */}
+      <div className={`pald-sticky${stickyCta ? " is-up" : ""}`} inert={!stickyCta}>
+        <ModalCta
+          href={ctaHref}
+          className="pald-btn pald-sticky-btn"
+          ariaLabel="Schedule a consult today"
+        >
+          Schedule a consult today{" "}
+          <span className="pald-arrow" aria-hidden="true">
+            ↗
+          </span>
+        </ModalCta>
+      </div>
+
       <footer className="pald-foot">
         <div className="pald-wrap">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -542,7 +586,10 @@ body:has(.pald){background:#071424}
 .pald-signal figcaption span{color:#c0d4e4;font:10px/1.35 var(--mono);text-align:right;letter-spacing:.1em;text-transform:uppercase}
 .pald-trace-label{text-transform:uppercase;color:#b1cee2;font-size:10px;letter-spacing:.13em;font-weight:750;margin:17px 0 10px}
 .pald-localseo{display:grid;gap:8px}
-.pald-heat{width:100%;height:auto;border-radius:10px;border:1px solid #334d64;display:block}
+.pald-heat{width:100%;height:auto;aspect-ratio:900/804;border-radius:10px;border:1px solid #334d64;display:block;background:#0d2236}
+.pald-proof-caption{display:flex;flex-direction:column;gap:3px;margin:2px 0 4px}
+.pald-proof-caption strong{font-size:12.5px;font-weight:750;color:#e7f4ff}
+.pald-proof-caption span{font-size:11px;color:#9fbdd4;font-variant-numeric:tabular-nums}
 .pald-sources{display:grid;grid-template-columns:1fr 1fr;gap:7px}
 .pald-source{min-width:0;border:1px solid #334d64;border-radius:8px;padding:8px 9px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:7px;background:#13293e}
 .pald-source.pald-seo{grid-column:1/-1;padding-block:10px}
@@ -604,6 +651,25 @@ body:has(.pald){background:#071424}
 .pald-foot{border-top:1px solid var(--line);padding:28px 0}
 .pald-foot p{font-size:12px;color:var(--mist);text-align:right}
 .pald-foot .pald-brand-logo{height:26px}
+/* Sticky conversion bar, phones only. Mounted always, revealed by class so
+   there is no layout work on scroll. */
+.pald-sticky{display:none}
+@media(max-width:720px){
+  .pald-sticky{
+    display:block;position:fixed;left:0;right:0;bottom:0;z-index:40;
+    padding:10px 20px calc(10px + env(safe-area-inset-bottom,0px));
+    transform:translateY(130%);transition:transform .26s ease-out;
+    pointer-events:none
+  }
+  .pald-sticky.is-up{transform:none;pointer-events:auto}
+  .pald-sticky-btn{
+    display:flex;width:100%;
+    box-shadow:0 10px 30px #02091373,0 2px 10px #02091359
+  }
+  /* Keep the bar from sitting on the last line of the footer. */
+  .pald-foot{padding-bottom:92px}
+}
+@media(prefers-reduced-motion:reduce){.pald-sticky{transition:none}}
 @media(max-width:920px){
   .pald-wrap{padding-inline:28px}
   .pald-hero-grid{gap:30px;padding-block:58px}

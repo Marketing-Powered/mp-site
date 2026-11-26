@@ -137,8 +137,9 @@ function HeatmapVideo() {
     v.loop = true;
     v.autoplay = true;
 
+    let inView = true;
     const play = () => {
-      if (document.hidden) return;
+      if (document.hidden || !inView) return;
       void v.play().catch(() => {});
     };
     const onEnded = () => {
@@ -157,7 +158,21 @@ function HeatmapVideo() {
     unlockEvents.forEach((ev) => window.addEventListener(ev, play, { once: true, passive: true }));
     if (v.readyState >= 2) play();
 
+    // Decoding a looping video the visitor has scrolled past costs phone
+    // battery for nothing. Park it off screen and resume on the way back —
+    // still no control, still an infinite loop while it is in view.
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        inView = entry.isIntersecting;
+        if (inView) play();
+        else v.pause();
+      },
+      { threshold: 0.1 },
+    );
+    io.observe(v);
+
     return () => {
+      io.disconnect();
       v.removeEventListener("ended", onEnded);
       v.removeEventListener("canplay", play);
       v.removeEventListener("loadeddata", play);
@@ -178,7 +193,7 @@ function HeatmapVideo() {
       playsInline
       disablePictureInPicture
       preload="auto"
-      poster="/media/paid-advertising-ld/local-rank-heatmap-poster.jpg"
+      poster="/media/paid-advertising-ld/local-rank-heatmap-poster.webp"
       src="/media/paid-advertising-ld/local-rank-heatmap.mp4"
       aria-label="Local rank-tracking heatmap improving from December 1 to December 13, 2023"
     />
@@ -618,6 +633,13 @@ body:has(.pald){background:#071424}
   .pald-channel,.pald-channel:nth-last-child(-n+2){grid-column:auto}
   .pald-channel:last-child{grid-column:1/-1}
 }
+/* Phones: the page's one action is the CTA, so give it the full column
+   width and a thumb-sized target rather than a pill floated left. */
+@media(max-width:560px){
+  .pald-hero-actions .pald-btn,.pald-audit .pald-btn,.pald-closing .pald-btn{
+    display:flex;width:100%;padding-inline:18px
+  }
+}
 @media(max-width:430px){
   .pald h1{font-size:clamp(40px,11vw,49px)}
   .pald-lede{font-size:16px}
@@ -626,6 +648,18 @@ body:has(.pald){background:#071424}
   .pald-channels{grid-template-columns:1fr}
   .pald-foot .pald-wrap{align-items:flex-start}
   .pald-foot p{max-width:21ch}
+  /* Single-column cards are wide enough that the centred watermark sits
+     right under the paragraph. Hold the 0.26 opacity the handoff calls for
+     and move the mark out of the text column instead. */
+  .pald-channel::before{left:auto;right:14px;width:34%;height:44%;margin-block:auto}
+}
+/* Narrowest phones (320px): the logo and the header CTA together overflow
+   the row at their default sizes. */
+@media(max-width:380px){
+  .pald-top .pald-brand-logo{height:30px}
+  .pald-top .pald-btn{font-size:11px;padding-inline:13px;gap:8px}
+  .pald-signal figcaption{flex-direction:column;align-items:flex-start;gap:2px}
+  .pald-signal figcaption span{text-align:left}
 }
 @media(prefers-reduced-motion:reduce){
   .pald *,.pald *::before,.pald *::after{transition:none!important}

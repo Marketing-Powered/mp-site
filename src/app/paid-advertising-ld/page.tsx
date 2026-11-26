@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Suspense } from "react";
 import PaidAdsLanding from "./PaidAdsLanding";
 
@@ -13,7 +13,12 @@ export const metadata: Metadata = {
     "Operator-led Google Ads, Meta Ads, Microsoft Ads and local SEO. ChatGPT Ads readiness for eligible advertisers. Request a Marketing Powered audit.",
   robots: { index: false, follow: true },
   alternates: { canonical: "/paid-advertising-ld" },
-  other: { "theme-color": "#071424" },
+};
+
+/* Tints the phone browser chrome to the page background so the navy band
+   runs to the top of the screen instead of stopping at a white bar. */
+export const viewport: Viewport = {
+  themeColor: "#071424",
 };
 
 export default function Page() {

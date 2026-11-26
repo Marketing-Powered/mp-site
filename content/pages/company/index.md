@@ -1,99 +1,38 @@
 ---
-title: "Marketing Powered Company Info"
+title: "Marketing Powered | Operator-Led, AI-Native Marketing"
 url: "/company/"
-primary_keyword: "marketing powered company"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets the /company/ URL with primary keyword 'marketing powered company (brand)' and secondary keywords 'marketing agency company info' and 'marketing agency about.' Word count target is 400-800 words. Page type: Company/About page (P5 trust-building). Buyer target: Business owners or decision-makers seeking insights into the agency's background, values, and credibility before engaging.
-Page type: Company/About page
-Buyer target: Business owners or decision-makers seeking agency background, values, and credibility
-Word count target: 400-800 words
-
-
 SEO METADATA
-Title tag (32 chars): Marketing Powered Company Info
-Meta description (111 chars): Discover Marketing Powered's unique approach, industry expertise, and how we differ from traditional agencies.
-H1: Learn More About Marketing Powered
-Hero image alt: Marketing Powered company overview with team expertise in behavioral health marketing
+Title tag: Marketing Powered | Operator-Led, AI-Native Marketing
+Meta description: Marketing Powered is an operator-led, AI-native marketing firm built for regulated markets: paid media, conversion systems, and attribution to admission.
+H1: The Company Behind Marketing Powered
+Hero image alt: Empty hospital corridor at dawn with natural light and long shadows
 
 
 PAGE COPY
 
+The Company Behind Marketing Powered
+Marketing Powered is an operator-led, AI-native marketing firm built for businesses where mistakes are expensive and measurement is non-negotiable. We work with hospitals, healthcare organizations, professional services firms, and multi-location operators who need acquisition tied to revenue, not vanity metrics.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Built by an operator, not a pitch deck
+Most agencies are founded by salespeople. This one was founded by a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations, managing $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. That means budget reviews with a CFO, intake teams that depended on the phone ringing, and board meetings where the only slide that mattered was cost per admission. The founder is also a court-certified expert witness in advertising strategy, which sets the standard for every claim this company publishes: if it would not survive cross-examination, it does not go on a page.
+What the work focuses on
+The work centers on paid media that produces qualified demand, conversion systems that turn clicks into booked conversations, first-party data architecture that survives privacy changes, and attribution that connects spend to signed business. We treat the landing page, the call tracking, the CRM, and the ad account as one system, because that is how revenue actually moves. AI has been part of the workflow since 2022, but it is a production method, not the product. The product is a measurable acquisition result.
+Regulated markets are the home field
+Healthcare advertising punishes generalists. Recovery-oriented addiction services require LegitScript certification before Google will run the ads at all ([Google Ads Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en)), and Google's sensitive healthcare vertical does not permit retargeting, which removes the crutch most agencies lean on. Marketing Powered was built LegitScript-aware and HIPAA-aware from the start, so campaigns are designed to perform inside those constraints rather than fight them. The same discipline transfers to hospitals, health systems, legal, finance, and any market where compliance review sits between the draft and the launch.
+Owned compute, deliberate data boundaries
+We own and operate local AI infrastructure for HIPAA-aware inference. In practice, that means sensitive analysis can run on hardware we control, with configurable boundaries around what data goes where, instead of routing everything through third-party tools by default. Not every workload needs that treatment, and we do not pretend it does. The point is choice: when a client's data deserves a tighter perimeter, we have one, and the process intelligence we build stays an asset rather than a subscription.
+Attribution to admission, not just lead
+A lead is not a result. In our operating model, tracking runs past the form fill to the admission, the signed engagement, or the booked procedure, wherever authorized data supports it. That changes decisions. Campaigns that look efficient at the lead level often collapse at the revenue level, and the reverse is just as common. Budgets should follow the number the business actually banks.
+How an engagement starts
+It starts with a working session, not a slideshow. You bring the business problem: growth stalled in two markets, intake missing calls, spend rising faster than admissions. We look at the accounts, the tracking, the landing pages, and the handoff between marketing and operations, then tell you plainly where the gap between investment and results actually sits. If the fit is right, we scope the work around closing that gap. If it is not, you leave with a clearer diagnosis than you arrived with.
 
-Learn More About Marketing Powered
-From operator-level experience to agency execution: the Marketing Powered company story.
-[CTA] Schedule a Discovery Call
-
-
-Our Journey and Expertise
-Marketing Powered was founded by former treatment center executives who managed [paid media services](/services/paid-media) at scale before building an agency. The founder spent years as an internal marketing leader, overseeing $50M+ in managed media spend across behavioral health networks. That operator-level experience shapes every campaign we run today.
-
-
-The transition from running internal marketing for treatment centers to founding an external agency was deliberate. We saw how traditional agencies approached [behavioral health marketing](/who-we-help/behavioral-health): generic playbooks, surface-level compliance knowledge, and little understanding of what actually moves admissions. We built Marketing Powered to solve those gaps.
-
-
-Our team tracks attribution through to admission, not just to form fills or phone calls. We understand census pressure, intake bottlenecks, and the difference between a lead and a qualified admission. This company information reflects years of operating inside the vertical, not observing it from the outside.
-Our Values and Mission
-Marketing Powered operates on three core principles: ethical marketing, transparent reporting, and measurable outcomes. We support behavioral health providers who need a partner that understands LegitScript requirements, [HIPAA-conscious infrastructure](/ai-edge), and Google Ads sensitive vertical restrictions.
-
-
-Our AI-driven strategies are built on proprietary systems we have developed since 2022. We do not wrap commercial APIs and call it innovation. We run local AI inference on owned hardware, maintaining data sovereignty and HIPAA-conscious practices throughout our stack. Compliance is not a feature we bolt on; it is foundational to how we operate.
-Why We're Different
-Most agencies position themselves as vendors. Marketing Powered functions as a partner with operator-level stakes in your outcomes. The founder is a court-certified marketing expert, a credential earned through litigation work that required demonstrating advertising strategy expertise under examination.
-We deliver faster project turnarounds because we built [AI-powered marketing](/ai-edge) infrastructure specifically for this work. Multi-variant optimization, predictive analytics, and real-time campaign adjustments happen without the weeks of lag traditional agencies require. Our [case studies](/results/case-studies) show what this speed and precision produce for treatment centers and mental health practices.
-
-
-Meet Our Team
-Our team combines marketing execution with deep vertical knowledge. The founder scaled a behavioral health network and built the marketing infrastructure that supported that growth. Team members bring expertise in paid media, [web development](/services/web-development), analytics, and creative production, all focused on behavioral health and [mental health marketing](/who-we-help/mental-health).
-
-
-Every team member understands that behind every lead metric is a person seeking treatment. That perspective keeps our work grounded and our strategies ethical.
-[CTA] Schedule a Discovery Call
-Get to Know Marketing Powered
-Marketing Powered exists to give behavioral health and mental health providers a marketing partner with real operational experience. If you are evaluating agencies and want to discuss strategy, compliance posture, lead quality, or channel mix, we are ready for that conversation.
-The best way to understand how we work is to talk directly. Schedule a discovery call, and we will walk through your current challenges, no pitch deck, just a direct discussion about what you need.
-[CTA] Schedule a Discovery Call
-Ready to Work With a Team That Understands Your Business?
-Schedule a discovery call to discuss your marketing challenges, compliance requirements, and growth goals. No pitch deck, just a direct conversation about what you need.
-[CTA] Schedule a Discovery Call
 FAQ
-Q: What experience does Marketing Powered have in behavioral health?
-A: The founder managed internal marketing for treatment center networks, overseeing $50M+ in media spend and scaling operations across multiple locations. This direct operator experience translates into marketing strategies built around admission economics, intake capacity, and the compliance realities of behavioral health advertising.
-
-
-Q: How does Marketing Powered ensure compliance?
-A: We operate with LegitScript awareness and HIPAA-conscious infrastructure throughout our stack. All advertising strategies adhere to Google Ads sensitive vertical policies and Meta health restrictions. Our AI systems run on owned hardware with data sovereignty controls, ensuring PHI never leaves our controlled environment.
-Q: What sets Marketing Powered apart from other agencies?
-A: Three factors: operator experience from years inside treatment center marketing, AI-native infrastructure built on proprietary systems since 2022, and execution speed that traditional agencies cannot match. We function as a partner with operational stakes, not a vendor running generic playbooks.
-Q: Can Marketing Powered handle large-scale campaigns?
-A: Yes. Our team has managed $50M+ in behavioral health media spend and scaled networks from startup to multi-location operations. We have the infrastructure, attribution systems, and vertical expertise to manage substantial budgets while maintaining compliance and lead quality standards.
-
-
-SCHEMA RECOMMENDATION
-Schema type: Organization, FAQPage, BreadcrumbList
-* Organization: name, url, logo, description, foundingDate, founder, sameAs (social profiles)
-* FAQPage: mainEntity with Question and acceptedAnswer for each FAQ
-* BreadcrumbList: Home > Company
-
-
-DELIVERY NOTES
-External citations
-* Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy] - Referenced for sensitive vertical restrictions context; recommended for compliance section if page is expanded
-* LegitScript certification standards https://www.legitscript.com/certification/ [Regulatory and compliance] - Supports compliance claims; recommended if compliance section is expanded in future versions
-
-
-Brief conflicts
-* Internal link map includes 'Team Expertise' pointing to /services/web-development/ which is an unusual target for team information. Used as specified but flagging for brief author review.
-* Internal link map includes 'Learn More About Our Journey' pointing to /who-we-help/mental-health/ which may not be the intended target for journey content. Used contextually in team section.
-
-
-Internal link gaps
-* No link to /about/ or /company/team/ if those pages exist for deeper team bios
-* Consider adding link to /results/ hub page if one exists separate from case studies
-
-
-Missing proof points
-* Specific number of locations scaled (brief mentions 'founder's scaled network' but no specific count)
-* Specific revenue growth figures that could strengthen credibility (e.g., an anonymized multi-location behavioral health organization substantial revenue growth reference from system prompt proof points)
-* Specific timeframe for the $50M+ managed media figure
+Q: Do you only work with behavioral health companies?
+A: No. Behavioral health is where the operating experience was earned, and it remains a specialization. The firm serves hospitals, healthcare organizations, professional services, and multi-location businesses in regulated markets.
+Q: What does AI-native actually mean here?
+A: AI has been embedded in research, production, and analysis workflows since 2022, with human governance on every claim. It makes the work faster and more consistent; it does not replace judgment.
+Q: How do you report results?
+A: Against business outcomes. Reporting connects spend to qualified opportunities and, where authorized data allows, to admissions or signed revenue. [Request a strategy call](/company/contact/)

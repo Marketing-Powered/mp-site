@@ -1,87 +1,51 @@
 ---
-title: "Podcast Appearances - Marketing Powered"
+title: "Podcast Appearances | Marketing Powered"
 url: "/media/podcast-appearances/"
-primary_keyword: "podcast appearances"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /media/podcast-appearances/ with primary keyword 'podcast appearances (positioning)' and secondary keywords 'founder podcast guest, marketing podcast, podcast marketing strategies.' Target word count is 600-1000 words. Page type: Media hub sub-page. Buyer target: CEOs and CMOs of mental health and behavioral health practices exploring media opportunities to build brand authority.
-Page type: Media hub sub-page
-Buyer target: CEOs and CMOs of mental health and behavioral health practices
-Word count target: 600-1000 words
-
-
 SEO METADATA
-Title tag (42 chars): Podcast Appearances - Marketing Powered
-Meta description (103 chars): Listen to Marketing Powered's podcast appearances on AI advertising, behavioral health marketing, and attribution, or invite us on your show.
-H1: Maximize Your Reach with Podcast Guest Appearances
-Hero image alt: Marketing Powered founder recording a podcast interview focused on behavioral health marketing strategy
+Title tag: Podcast Appearances | Marketing Powered
+Meta description: Book Marketing Powered's founder as a podcast guest: healthcare paid media at scale, attribution to admission, and owned AI infrastructure, explained plainly.
+H1: Podcast Appearances
+Hero image alt: Former healthcare CMO describing real budget decisions and attribution gaps from operator experience.
 
 
 PAGE COPY
 
+Podcast Appearances
+Most marketing podcast guests talk in frameworks. Marketing Powered's founder talks about what happened when real budgets, regulated categories and platform policy collided, and what the data showed afterward. This page covers what the founder speaks about, how episodes come together, and how to request one.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+An Operator Guest, Not a Commentator
+The difference shows up in the first ten minutes of any episode. A commentator describes trends. An operator describes decisions: which campaigns got cut, which attribution gaps cost real money, and what changed when leadership saw the numbers.
+Marketing Powered's founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations. Along the way the founder managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. The founder is also a court-certified expert witness in advertising strategy, which means the founder’s claims have been tested somewhere far less forgiving than a podcast studio.
+That background shapes the conversations. Hosts get specifics about budget allocation under constraint, intake operations, and the gap between what a lead costs and what an admitted patient is worth. Listeners get answers they can take back to their own P&L.
+Topics That Hold Up Under Questioning
+Episode topics cluster around a few areas where the founder has direct, verifiable experience:
+* Healthcare paid media at scale. Running Google Ads in a category where most generic advice fails on contact with policy.
+* Attribution to admission, not just lead. Why counting form fills flatters agencies and misleads CFOs, and how to connect spend to the outcome the business actually bills for.
+* Multi-location growth. What changes in marketing operations when a healthcare organization goes from a handful of sites to dozens.
+* AI governance and economics. What AI agents can responsibly do in marketing production, what they should never do unsupervised, and what the work actually costs.
+* Owned compute and data sovereignty. Why Marketing Powered runs owned, local AI infrastructure for HIPAA-aware inference instead of sending everything to third-party APIs.
+Why Regulated Marketing Makes Good Radio
+Regulated-category marketing is where lazy playbooks go to die, which makes it genuinely interesting to talk about. Google classifies health as a sensitive interest category and does not support advertiser-curated audiences for it, which takes remarketing off the table for most health advertisers ([Google Ads policy: Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855)). That single constraint invalidates a large share of the funnel advice repeated on general marketing shows.
+The founder has operated inside that constraint for years, with a LegitScript-aware and HIPAA-aware approach built for Google's sensitive healthcare vertical. On air, that translates into practical discussion: how to build demand when you cannot follow users around the internet, how first-party data and conversion systems carry the load retargeting cannot, and how hospitals, health systems and professional services firms should think about the same trade-offs.
+How Every Episode Gets Prepared
+Preparation is a short, structured process rather than a scripted performance. Before recording, the founder or the Marketing Powered team reviews the show's audience, recent episodes and typical format, then proposes two or three specific angles the host can accept, adjust or replace.
+A pre-call is available when the host wants one. It covers the thesis of the episode, any numbers the founder plans to reference, and the boundaries: no client names, no former-employer data, no figures that cannot be sourced. Hosts are encouraged to push back and ask the uncomfortable follow-up questions. Prepared does not mean rehearsed; the goal is a conversation where the host's hardest question gets the most interesting answer.
+AI, Owned Compute and Honest Economics
+Marketing Powered has been AI-native since 2022, early enough to have formed opinions through production work rather than headlines. That makes the AI conversation unusually grounded for a marketing podcast.
+The founder's position is deliberately unfashionable in both directions. AI meaningfully compresses content and analysis work, and pretending otherwise is denial. At the same time, unsupervised AI output in regulated marketing is a liability, fabricated claims are a legal exposure, and the economics of API-dependent workflows deserve more scrutiny than they get. Running inference on owned, local infrastructure is one answer to the data-handling question in HIPAA-aware environments, and the founder will explain both the benefits and the limits of that choice.
+Formats, Logistics and What Hosts Can Expect
+Recording setup is straightforward: remote recording on the host's preferred platform, a quiet dedicated space, quality audio, and camera-on for video podcasts. Scheduling typically lands within a few weeks of a confirmed invitation, depending on the calendar.
+Interview formats work best, whether a classic one-on-one, a panel, or a debate-style episode where the founder takes a contested position on attribution, AI in marketing, or agency accountability. Episodes aimed at healthcare executives, agency operators, or founders in regulated markets tend to produce the strongest material. Promotion is reciprocal: Marketing Powered shares every published episode with its own audience.
 
-Maximize Your Reach with Podcast Guest Appearances
-Strategic podcast placements that build authority and generate qualified conversations for behavioral health and mental health brands.
-[CTA] Book Your Discovery Call Now
-
-
-Why Podcast Appearances Matter
-Podcast appearances put your expertise in front of audiences who are actively listening, not passively scrolling. For behavioral health and mental health practices, this format offers something paid media cannot: extended, uninterrupted time to demonstrate category knowledge and build trust with potential referral partners, operators, and industry peers.
-Unlike a 30-second ad spot or a static blog post, a podcast conversation lets you address the real concerns your audience carries. Compliance complexity. Lead quality. The challenge of scaling admissions without sacrificing care standards. These topics require nuance, and podcast formats give you the space to deliver it.
-The reach compounds over time. Episodes remain searchable and shareable months after recording. A single well-placed appearance can generate backlinks, social proof, and inbound inquiries long after the initial publish date. For treatment center operators and practice owners, this extended shelf life makes podcast guest appearances one of the highest-ROI media opportunities available.
-Benefits of Founder-Led Podcast Appearances
-When founders speak directly to audiences, credibility follows. Listeners hear the person who built the business, made the difficult decisions, and solved the problems your prospects are facing today. That authenticity is difficult to replicate through polished marketing copy or third-party endorsements.
-Marketing Powered brings founder expertise backed by court-certified marketing knowledge and experience scaling organizations for multi-location behavioral health organizations. This is not theoretical knowledge. It is operator-level insight delivered in a format that builds trust before a single sales conversation takes place.
-Founder-led appearances also create content assets your team can repurpose: audiograms for social, pull quotes for case studies, and talking points that reinforce your positioning across every channel.
-How Marketing Powered Secures Strategic Podcast Placements
-Not every podcast is worth your time. Marketing Powered approaches strategic podcast placements with the same discipline we apply to paid media: audience alignment, message fit, and measurable outcomes.
-We identify shows where your target audience already listens. For behavioral health operators, that means shows focused on healthcare leadership, addiction treatment, practice management, or healthcare marketing. For mental health practice owners, we prioritize shows that reach clinic operators, group practice founders, and mental health entrepreneurs.
-Our process includes pitch development, host relationship management, talking point preparation, and post-appearance distribution strategy. Every placement is selected to reinforce your brand positioning while generating backlinks and brand mentions that support long-term discoverability.
-Success Stories and Impactful Outcomes
-Marketing Powered has managed $50M+ in lifetime paid media spend across behavioral health and mental health verticals. That experience informs how we approach earned media, including podcast placements. We understand which messages resonate, which compliance guardrails to respect, and which audiences convert.
-Our attribution discipline extends to podcast appearances. We track referral sources and measure how earned media supports admission inquiries over time. Visit our case studies to see how our integrated approach connects media exposure to business outcomes.
-Get Started with Us
-If you are ready to explore how podcast guest appearances can build authority for your behavioral health or mental health brand, start with a conversation. We will discuss your positioning, identify target shows, and outline a placement strategy that aligns with your growth goals.
-Marketing Powered brings LegitScript and HIPAA awareness to every engagement. We operate with the compliance discipline your vertical requires.
-Ready to Build Authority Through Podcast Appearances?
-Book a discovery call to discuss your podcast placement strategy. We will review your positioning, identify target shows, and outline a plan that supports your growth goals while respecting the compliance requirements of your vertical.
-[CTA] Book Your Discovery Call Now
 FAQ
-Q: What are the benefits of podcast appearances for brands?
-A: Podcast appearances extend your reach to engaged audiences who are actively seeking industry insights. Unlike traditional advertising, podcasts provide time to demonstrate expertise, address complex topics like compliance and lead quality, and build trust before a sales conversation. Episodes remain discoverable for months, generating backlinks and inbound inquiries long after the initial publish date.
-
-
-Q: How can a founder's appearance on a podcast benefit the brand?
-A: Founder-led podcast appearances deliver authenticity that polished marketing cannot replicate. Listeners hear directly from the person who built the business and solved the problems they face today. This builds trust and credibility while creating repurposable content assets, including audiograms, pull quotes, and talking points for your broader marketing efforts.
-Q: What strategies does Marketing Powered use for podcast placements?
-A: Marketing Powered applies the same discipline to podcast placements that we use for paid media: audience alignment, message fit, and measurable outcomes. We identify shows where your target audience listens, develop pitches, manage host relationships, prepare talking points, and create post-appearance distribution strategies. Every placement is selected to reinforce brand positioning and support discoverability.
-Q: How do I choose the right podcasts for my brand?
-A: Evaluate podcasts based on audience alignment, content relevance, and host credibility. For behavioral health brands, prioritize shows focused on healthcare leadership, addiction treatment, or practice management. Assess download numbers and listener demographics when available, but also consider the host's network and the show's backlink value for long-term SEO benefit.
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, BreadcrumbList
-* mainEntity (FAQ questions and answers)
-* itemListElement (breadcrumb path: Home > Media > Podcast Appearances)
-* name
-* description
-
-
-DELIVERY NOTES
-External citations
-* Edison Research podcast listener statistics https://www.edisonresearch.com/the-infinite-dial-2024/ [Industry research] - Could strengthen the Why Podcast Appearances Matter section with listener growth data. Recommend adding if the brief author wants quantitative support for podcast reach claims.
-* Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy] - Referenced implicitly in compliance section. Recommend adding explicit citation if page expands on paid media restrictions.
-
-
-Brief conflicts
-* The H1 'Maximize Your Reach with Podcast Guest Appearances' uses 'Maximize' which borders on hyperbolic language, though it is not explicitly banned in the brief. Used as specified per brief authority.
-
-
-Internal link gaps
-* Consider adding a link to /about/ or /about/team/ if one exists, to support the founder credibility claims.
-* The brief maps 'podcast marketing strategies' to /services/paid-media/ which is the same target as 'strategic podcast placements.' Used only one instance to avoid duplicate anchor/target combinations.
-
-
-Missing proof points
-* Specific podcast appearance examples or episode titles would strengthen the Success Stories section.
-* Number of podcast appearances secured or facilitated would add credibility.
-* Specific metrics from podcast-driven leads or referrals would support attribution claims.
+Q: What shows are the best fit?
+A: Podcasts serving healthcare executives, multi-location operators, marketing leaders and agency owners. Shows about AI in business work well when the host wants substance over hype.
+Q: Will the founder share client results on air?
+A: No. The founder speaks from personal operating history and from verifiable, public information. The founder does not present agency client outcomes or name former employers.
+Q: How long does an episode commitment take?
+A: Plan for the recording itself plus a short prep exchange beforehand. Most hosts need under two hours of total involvement.
+Q: Can hosts suggest their own topics?
+A: Yes. The angle list is a starting point. Hosts who bring their audience's hardest questions usually get the best episode. Heard an episode and want the same scrutiny applied to your own acquisition numbers? [Request an acquisition audit](/get-started/request-an-audit/)

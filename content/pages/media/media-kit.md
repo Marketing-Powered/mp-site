@@ -1,91 +1,50 @@
 ---
 title: "Download Our Media Kit - Brand Assets & More"
 url: "/media/media-kit/"
-primary_keyword: "media kit"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /media/media-kit/ with a primary keyword of 'media kit (functional)' and secondary keywords 'brand assets' and 'press kit.' Word count target is 400-600 words. Page type: Media resource page. Buyer target: Media professionals or journalists seeking detailed information and assets for accurate coverage of Marketing Powered.
-Page type: Media resource page
-Buyer target: Media professionals and journalists
-Word count target: 400-600 words
-
-
 SEO METADATA
-Title tag (46 chars): Download Our Media Kit - Brand Assets & More
-Meta description (72 chars): Download the Marketing Powered media kit: official logos, brand assets, leadership bios, and press resources for journalists and partners.
-H1: Access Our Comprehensive Media Kit
-Hero image alt: Marketing Powered media kit preview showing brand assets, logo files, and press materials organized for journalists
+Title tag: Download Our Media Kit - Brand Assets & More
+Meta description: Download the Marketing Powered media kit: official logos, brand assets, a founder bio, and press resources for journalists and partners.
+H1: Download the Marketing Powered Media Kit
+Hero image alt: Printed lower-third graphic template beside an unopened media kit envelope on a studio table.
 
 
 PAGE COPY
-Access Our Comprehensive Media Kit
-Everything you need for accurate, consistent coverage of Marketing Powered in one place.
-[CTA] Download Our Media Kit
 
-
+Download the Marketing Powered Media Kit
+Press, partners, and producers should not rebuild Marketing Powered from a directory listing or an image-search logo. The kit holds approved marks, the founder biography, and the language used to describe the work. A story can move from assignment to publish without a chain of clarification emails.
+[CTA] Request a Free Audit → /get-started/request-an-audit
 Why a Media Kit Is Essential
-Accurate media coverage starts with accurate source materials. A media kit provides journalists, editors, and content creators with verified information, approved imagery, and direct contact channels all in one location.
-For coverage of Marketing Powered's work in behavioral health and mental health marketing, having consistent brand assets matters. Our media kit ensures that every publication, podcast mention, or feature article represents the agency correctly. No outdated logos. No misquoted positioning. No guesswork about who to contact for verification.
-This is a journalist's resource hub built for efficiency.
-What's Inside Our Media Kit
-The downloadable media kit includes everything a media professional needs for coverage:
-* High-resolution logo files in multiple formats (PNG, SVG, EPS) for print and digital use
-* Executive biography and headshot for founder attribution
-* Company fact sheet with founding date, specialization areas, and scale proof points
-* Approved boilerplate copy for article mentions and press releases
-* Brand color codes and typography specifications for accurate visual representation
-* Direct media contact information for interview requests and fact-checking
-How to Use Our Brand Assets
-Brand consistency across press kits and media features protects both your publication and our agency. When using Marketing Powered assets, follow these guidelines:
-Use logo files at the provided dimensions without stretching, cropping, or altering colors. The full logo lockup is preferred for primary placement; the standalone mark works for smaller accent uses or trust blocks. Maintain clear space around all logo placements.
-For written mentions, use 'Marketing Powered' as two words. Descriptions should reference our specialization in behavioral health and mental health marketing, not generic 'digital marketing' language.
-
-
+A producer closing a night package still needs a logo for the lower third and one sentence a host will not have to correct. Without files, that producer crops the first mark from image search and paraphrases a directory that may be years old. That is how outdated lockups reach print, podcast notes, and partner pages.
+What's Inside the Download
+The download is one package:
+* PNG, SVG, and EPS logos, including the full lockup and the standalone mark
+* Founder biography and headshot
+* Fact sheet with specialization and approved public proof points
+* Boilerplate for mentions and releases
+* Color codes and typography specifications
+* Media contact for interviews and fact checks
+Treat the biography as the founder's history, not as agency client work. The founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations, managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts, and has served as a court-certified expert witness in advertising strategy. Leave the figures exact. Do not name the network.
+Also approved for quotation: AI-native since 2022; LegitScript-aware and HIPAA-aware; built for Google's sensitive healthcare vertical, where retargeting is not permitted; attribution tracked to admission, not just lead; owned, local AI infrastructure for HIPAA-aware inference. Do not present those lines as a certification or a client result.
+How to Use the Brand Assets
+Use logo files at the supplied size. Do not stretch, crop, recolor, or set the mark on a low-contrast background. Prefer the full lockup, keep clear space, and use the standalone mark only as a small accent.
+Write Marketing Powered as two words. Describe operator-led paid media, qualified demand, first-party data, attribution, and conversion systems for hospitals, healthcare organizations, professional services, and other regulated markets. Behavioral health is a specialization, not the whole firm. Do not add client names, revenue figures, or sentences the boilerplate does not contain.
+From Research Scramble to Single Download
+The scramble starts with an email for a logo, a wait, and a low-resolution file. Follow-ups then ask about the founder's background and which figures can be quoted. The story ships with a cropped mark and a line that folds hospitals, professional services, and multi-location work into one vague category.
+The kit is one download: print-ready files, the approved bio, and boilerplate limited to public facts. The reporter places the lockup and uses the media contact only for an interview or a document that is not in the package.
 Download the Media Kit
-Access the complete media kit through the link below. The download includes all assets, guidelines, and contact information in a single organized package.
-If you need additional materials, interview access, or media engagement support for a specific story, use the contact information inside the kit or reach out directly.
-[CTA] Download Our Media Kit
-FAQ
-Q: What is included in a press kit?
-A: A standard press kit includes executive bios with headshots, company fact sheets, high-resolution logo files, approved boilerplate copy, and direct media contact information. Marketing Powered's kit also includes brand guidelines, color specifications, and typography standards to ensure consistent representation across publications.
-Q: How do brand assets assist journalists?
-A: Brand assets give journalists verified materials that maintain consistency across all coverage. Instead of pulling outdated logos from image searches or guessing at company positioning, reporters can use approved files and copy. This saves editorial time and reduces correction requests after publication.
-Q: Why is a media kit beneficial for media professionals?
-A: A media kit consolidates the research phase of coverage into a single download. Journalists covering behavioral health marketing or healthcare agency news can access verified facts, imagery, and contacts without multiple email exchanges. This accelerates deadline workflows and improves source accuracy.
-
-
-Q: How often is the media kit updated?
-A: The media kit is updated when significant company changes occur: new leadership, major client milestones, brand refresh, or expanded service offerings. Current materials reflect the most recent verified information. Contact us directly if you need confirmation on any included data points.
-
-
-SCHEMA RECOMMENDATION
-Schema type: WebPage with FAQPage
-* name
-* description
-* url
-* mainEntity (for FAQ items)
-* publisher
-* dateModified
-
-
-DELIVERY NOTES
-External citations
-* Society of Professional Journalists ethics guidelines https://www.spj.org/ethicscode.asp [Professional journalism standards body] - Could support section on why accurate source materials matter for journalism, but opted not to include as it felt forced for a 400-600 word resource page.
-
-
-Brief conflicts
-* The primary CTA 'Download Our Media Kit' routes to /get-started/book-a-call/ rather than an actual download link. This may confuse users expecting a direct file download. Recommend creating a dedicated download URL or clarifying the CTA leads to a contact form.
-
-
-Internal link gaps
-* No link provided for executive bio or founder page that could support the media kit content.
-* A dedicated /media/press-releases/ page, if it exists, would be a natural internal link from this page.
-
-
-Missing proof points
-* The brief's proof points (scale proof, founder proof, media proof, etc.) are not naturally suited for a media kit page aimed at journalists. These would fit better in the actual downloadable kit materials rather than the page copy describing the kit.
-
-
-Banned phrasing in brief
-* The brief's Avoid list includes 'crucial' which aligns with the system prompt banned words. No conflicts identified between brief H1/title and banned words.
+Request the package from the link at the end of this page. Assets, usage notes, and contact details come together. Marks alone are on [brand assets](/media/brand-assets/). If a format is missing, ask. Do not redraw the logo.
+Interviews, Fact Checks, and Additional Materials
+Some stories need a conversation. A feature on regulated paid media, a podcast on tracking to admission, or a partner announcement may require a check against the approved proof points. Use the media contact in the kit and name the exact claim: which figure, which role, which market. Bylines sit on [guest contributions](/media/guest-contributions/). Republishing questions sit on [syndication](/media/syndication/).
+Questions, Answered
+### What is included in the press kit?
+Founder bio and headshot, a fact sheet, PNG, SVG, and EPS logos, boilerplate, color and type specifications, and a media contact.
+### How do brand assets help journalists?
+They replace image-search logos and guessed positioning with approved files and copy.
+### Who should use this kit?
+Journalists, editors, podcast producers, event organizers, and partners who need accurate materials for coverage or co-marketing.
+### How often is the kit updated?
+When a public fact changes, such as leadership, a brand refresh, or how services are described. Confirm any data point with the media contact before publication.
+[CTA] Request the media kit → /company/contact

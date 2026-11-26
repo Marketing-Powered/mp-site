@@ -1,109 +1,33 @@
 ---
-title: "Company News & Updates - Marketing Powered"
+title: "Newsroom | Marketing Powered"
 url: "/media/newsroom/"
-primary_keyword: "company news"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /media/newsroom/ as the Company News & Updates Hub. Primary keyword: company news (brand). Secondary keywords: company updates, agency announcements. Word count target: 600-1000 words. Page type: Media hub (informational). Buyer target: CEO or Marketing Manager at a behavioral or mental health treatment provider seeking relevant, trustworthy industry and agency updates.
-Page type: Media hub (informational)
-Buyer target: CEO or Marketing Manager at a behavioral or mental health treatment provider
-Word count target: 600-1000 words
-
-
 SEO METADATA
-Title tag (46 chars): Company News & Updates - Marketing Powered
-Meta description (107 chars): Read the latest Marketing Powered news: product updates, partnerships, and milestones from the AI-native behavioral health marketing agency.
-H1: Latest Updates from Marketing Powered
-Hero image alt: Marketing Powered company news and updates hub featuring the latest agency announcements for behavioral health and mental health marketing professionals
+Title tag: Newsroom | Marketing Powered
+Meta description: Company news, announcements, and media contact for Marketing Powered, an operator-led, AI-native marketing firm serving healthcare and regulated markets.
+H1: Marketing Powered Newsroom
+Hero image alt: Operator-led team reviewing generic ad performance data together in the office.
 
 
 PAGE COPY
 
-
-Latest Updates from Marketing Powered
-Company news, agency announcements, and developments from your behavioral health and mental health marketing partner.
-
-
-Why Company Updates Matter
-Behavioral health and mental health marketing operates under constant pressure: shifting platform policies, compliance requirements that tighten without warning, and competitive dynamics that reward operators who move first. Staying informed about company news from your marketing partner is not a passive exercise. It is a strategic function.
-When Marketing Powered announces a new capability, partnership, or operational change, that information directly affects how your campaigns perform. Updates on [AI edge](/ai-edge) capabilities, compliance posture shifts, or new [paid media services](/services/paid-media) translate into decisions you can act on before your competitors catch up.
-For treatment center operators managing admissions pipelines, this awareness creates a planning advantage. You allocate budget more effectively when you understand what tools and approaches are available to you.
-Recent Marketing Powered Announcements
-Marketing Powered continues to expand the infrastructure and expertise that support [behavioral health marketing](/who-we-help/behavioral-health) and [mental health treatment marketing](/who-we-help/mental-health) clients. Here are recent company updates worth noting:
-
-
-* AI-native operations expansion: Marketing Powered has operated as AI-native since 2022, and recent infrastructure investments have deepened proprietary capabilities in predictive analytics, multi-variant optimization, and intelligent automation for healthcare verticals.
-* Media management milestone: The agency has now managed $50M+ in paid media spend across behavioral health and mental health accounts, reinforcing depth in sensitive vertical advertising where compliance mistakes carry real consequences.
-* Attribution discipline advancement: Continued investment in tracking attribution through to admission, giving treatment center operators visibility into which channels and campaigns actually fill beds, not just generate clicks.
-* Founder credential recognition: Marketing Powered's founder holds court-certified expert witness status in advertising strategy, a credential that reflects the level of operational and legal scrutiny the agency's work can withstand.
-* Compliance infrastructure updates: Ongoing enhancements to LegitScript and HIPAA-aware processes ensure campaigns operate within platform policies and healthcare advertising restrictions.
-
-
-Impact of Updates on Clients
-Agency announcements are not press releases for their own sake. They signal changes that affect client outcomes.
-When Marketing Powered supported operator-side multi-market growth, that growth required constant iteration on media strategy, attribution modeling, and compliance posture. The agency updates that emerged from that work, including new approaches to admission tracking and budget allocation frameworks, became available to other clients facing similar scaling challenges.
-Recent [case studies](/results/case-studies) reflect how these operational improvements translate into measurable results: lower cost per qualified lead, higher admission rates from paid channels, and cleaner compliance records with platform reviewers. Clients who stay informed about company updates can request these capabilities proactively rather than waiting for a quarterly review.
-Future Projections and Plans
-Marketing Powered is investing in expanded AI governance frameworks, deeper vertical specialization, and additional infrastructure for [data sovereignty](/company/data-sovereignty). These investments address the compliance and performance pressures treatment center operators face as platform policies evolve.
-Upcoming announcements will cover new service offerings, expanded partnerships, and research findings from proprietary campaign data. Operators who track these updates gain early access to strategies tested at scale before they become standard practice.
-The [media hub](/media) will serve as the primary channel for these announcements, alongside direct communications for existing clients.
-Connect with Marketing Powered
-Stay current with company news by returning to this newsroom regularly or connecting with Marketing Powered directly.
-For operators ready to discuss how recent developments apply to their specific situation, you can [book a call](/get-started/book-a-call) or [request an audit](/get-started/request-an-audit) to evaluate your current marketing performance against what is now possible.
-
-
-Agency announcements are one piece of the picture. The real value comes from applying these updates to your admissions pipeline, compliance posture, and budget allocation. That conversation starts when you reach out.
-
-
-Stay Informed on What Matters
-Company news from Marketing Powered is built for operators who need actionable information, not noise. Return to this newsroom for the latest agency announcements, or connect directly to discuss how recent developments apply to your treatment center's marketing strategy.
-[CTA] Discover More News
-FAQ
-Q: What kinds of updates can I expect from Marketing Powered?
-A: Marketing Powered shares agency announcements covering new service offerings, AI and technology infrastructure developments, compliance posture updates, partnership news, and industry accolades. Updates focus on information that directly affects how behavioral health and mental health treatment providers can improve marketing performance.
-Q: How often does Marketing Powered release company news?
-A: Company updates are released as developments warrant, with a focus on timely communication rather than arbitrary schedules. Significant announcements, such as new capabilities or operational milestones, are published promptly so clients and prospective partners can act on the information.
-Q: How do company updates benefit my business?
-A: Staying informed about agency developments gives you a strategic advantage. You learn about new tools, compliance changes, and proven strategies before they become widely adopted. This awareness supports better budget allocation, faster adoption of effective approaches, and proactive conversations with your marketing team.
-Q: Can I subscribe to receive company news directly?
-A: Yes. Contact Marketing Powered to join direct communications for agency announcements. You can also return to this newsroom regularly or follow the media hub for the latest updates on company news and industry developments.
-
-
-SCHEMA RECOMMENDATION
-Schema type: WebPage with FAQPage
-* name
-* description
-* url
-* publisher
-* mainEntity (for FAQ questions)
-* breadcrumb
-
-
-DELIVERY NOTES
-External citations
-* LegitScript certification standards https://www.legitscript.com/certification/ [Regulatory and compliance] - Supports the compliance proof point and gives readers a reference for what LegitScript certification entails.
-* Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy] - Provides context for sensitive vertical restrictions referenced in the compliance and announcements sections.
-
-
-Brief conflicts
-* The primary CTA 'Discover More News' links to /media/newsroom/, which is the current page. This creates a circular reference. Recommend changing the CTA destination to a different action (e.g., /get-started/book-a-call/ or a newsletter signup) or clarifying the intent.
-* H2 1 description references 'fast-paced environment' but the Avoid list includes 'in today's fast-paced.' I avoided this phrasing in the body copy as instructed.
-
-
-Internal link gaps
-* No link target provided for newsletter or email subscription, though FAQ Question 4 asks about subscription options. Recommend adding a subscription mechanism or clarifying the CTA for this.
-* The /media/newsroom/ page would benefit from links to specific press release or announcement subpages once those exist.
-
-
-Compliance flags
-* Page references case studies but does not cite specific metrics. This is intentional to avoid claiming specific success rates without full citation context, per compliance guardrails.
-
-
-Missing proof points
-* Specific dates for recent announcements would strengthen the 'Recent Announcements' section. The brief does not provide dated news items, so the section uses capability milestones instead.
-* Client testimonials or quotes about the value of agency updates would add credibility but are not in the Proof Points Library.
-
-
-Banned phrasing in brief
-* The H2 1 section description uses 'fast-paced environment' which conflicts with the Avoid guidance. Reworded in body copy.
+Marketing Powered Newsroom
+This is the official record of company news, announcements, and public commentary from Marketing Powered, an operator-led, AI-native marketing firm. It exists for journalists, partners, and healthcare and regulated-industry leaders who want to verify who we are before they talk to us. Everything published here is checked the same way we check client-facing claims: against evidence, or not at all.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Latest Company Updates
+This newsroom is newly established, and we would rather say that plainly than pad the page with manufactured headlines. There is no "as featured in" logo strip here because we will not display coverage we cannot document. What you will find as this page grows: dated company announcements, notes on service and market expansion, commentary on advertising policy changes that affect healthcare and regulated advertisers, and position statements on how AI should be governed inside a marketing operation. Each update will carry a real date, a named author, and sources for any external claim. If an item ever needs correction, the correction will be posted here, visibly, rather than silently edited. That standard is the point of the page.
+About Marketing Powered
+Marketing Powered is a digital marketing and marketing-technology firm built by an operator, not by an agency holding company. The work centers on paid media, qualified demand generation, conversion systems, first-party data and analytics architecture, and multi-location growth. The firm has been AI-native since 2022, which in practice means AI is wired into research, production, and quality control, with human governance over every published claim. The markets we focus on are the ones where precision matters most: hospitals and health systems, healthcare services, behavioral health, professional services, and other regulated or multi-location businesses. Behavioral health is a credibility specialization, not a ceiling. The common thread across every engagement is accountability to business outcomes rather than to vanity metrics.
+Leadership Background
+Marketing Powered's founder is a former healthcare CMO who ran marketing for a treatment network as it grew from 3 to 24 locations. In that role, the founder managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts, operating inside one of the most restricted advertising categories that exists. The founder is also a court-certified expert witness in advertising strategy, which means the founder’s analysis of advertising claims and practices has been accepted in legal proceedings, not just in pitch decks. These are facts about the founder's own history, stated as such. We draw a hard line between what the founder did in prior roles and what the firm claims as its own results, because conflating the two is exactly the kind of inflation this company was built to reject.
+How We Work
+The operating model is deliberately specific. Paid media programs are built for Google's sensitive healthcare vertical, where remarketing to past visitors is not an available tactic: Google classifies health as a sensitive interest category and does not permit advertiser-curated audiences such as remarketing data segments, customer match, or lookalike segments for these campaigns ([Google Ads policy help](https://support.google.com/adspolicy/answer/16701855)). That constraint forces better fundamentals, which is where the work concentrates: intent-driven search strategy, landing pages and intake paths engineered to convert, call tracking and CRM integration, and attribution tracked to admission rather than stopping at the lead. On the technology side, the firm owns and operates local AI infrastructure for HIPAA-aware inference, which gives us configurable control over where sensitive workloads run. We describe this as HIPAA-aware and LegitScript-aware by design, and we do not present any tool or workflow as a compliance certification.
+Media Inquiries
+Journalists and researchers are welcome to reach out directly through this site. Marketing Powered can speak credibly to a defined set of topics: paid media in restricted and regulated categories, healthcare advertising policy and its practical effects on providers, attribution and measurement from first click through admission, multi-location and local growth marketing, and the governance of AI systems inside a working marketing operation. We respond fastest to specific questions with clear deadlines. What we will not do is supply unverifiable statistics for a story, comment on former employers or their data, or discuss any client or patient-level information. If a question falls outside what we can responsibly answer, we will say so and, where possible, point to a better source.
+Speaking and Expert Commentary
+The founder's court-certified expert witness status in advertising strategy reflects work that happens in a specific setting: reviewing advertising evidence, forming independent opinions, and defending them under cross-examination. That discipline shapes how commentary is offered here. The founder is available for interviews, panels, and expert commentary on advertising strategy, healthcare marketing compliance, and the economics of AI in marketing operations, in formats ranging from a podcast conversation to a conference stage to a deposition room. Requests should include the topic, the audience, and the format. Engagements are accepted when the subject sits inside demonstrated expertise, and declined when it does not. No speaking history will be listed on this page until each engagement has actually occurred and can be documented.
+Stay Connected
+New announcements, commentary, and company milestones will publish on this page first, so the canonical version of any Marketing Powered statement lives at this URL. Bookmark it if you cover healthcare marketing, regulated-industry advertising, or applied AI governance, or check back before quoting any secondhand description of the firm. If you are evaluating Marketing Powered for your own organization rather than for a story, the most useful next step is a direct look at your current acquisition system, with findings you can act on whether or not we ever work together.
+[CTA] Request an acquisition audit → /get-started/request-an-audit/

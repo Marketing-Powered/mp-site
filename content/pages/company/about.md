@@ -1,108 +1,46 @@
 ---
-title: "About Marketing Powered: Leadership and Experience"
+title: "About Marketing Powered | Leadership and Experience"
 url: "/company/about/"
-primary_keyword: "Marketing Powered (brand) + marketing leadership"
-secondary_keywords: "healthcare marketing agency founder, former CMO marketing agency"
-target_word_count: "800-1200"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /company/about/ with the brand term and the positioning 'marketing leadership built on operating experience'. Secondary terms are healthcare marketing agency founder and former CMO marketing agency. Word count target is 800-1200 words. Page type: About/Company page (credibility and positioning). Buyer target: CEOs, CMOs, and marketing leaders at hospitals, health systems, multi-location organizations, and behavioral health or mental health providers who want to know who runs the agency and how to read its evidence. Revised November 6, 2026 against the Homepage Copy and Implementation Package (source audit W02; claims register C01 to C07). Founder experience is separated from agency results, the agency founding-year wording and credential wording are removed, and the audience is broadened.
-Page type: About/Company Page
-Buyer target: CEOs, CMOs, and marketing leaders at healthcare and multi-location organizations
-Word count target: 800-1200 words
-
-
 SEO METADATA
-Title tag (50 chars): About Marketing Powered: Leadership and Experience
-Meta description (147 chars): Marketing Powered is led by a former CMO of a multi-state behavioral health operator. See how we work, whom we serve, and how to read our evidence.
-H1: Marketing leadership earned inside a growing healthcare organization
-Hero image alt: Abstract Marketing Powered brand graphic with upward arrows
+Title tag: About Marketing Powered | Leadership and Experience
+Meta description: Operator-led marketing for healthcare and regulated markets, founded by a former healthcare CMO with large-scale paid media and attribution experience.
+H1: About Marketing Powered: Leadership and Experience
+Hero image alt: Former healthcare CMO standing in office corridor reviewing documents.
 
 
 PAGE COPY
 
+About Marketing Powered: Leadership and Experience
+Marketing Powered is an operator-led marketing firm built for healthcare organizations, multi-location businesses, professional services firms, and other regulated markets. The company was founded by a former healthcare CMO who ran marketing from the inside before offering it as a service. Every system we build starts with the same question: which business outcome does this actually move?
+[CTA] Request a Free Audit → /get-started/request-an-audit
+From Operator to Founder
+Most agencies are built by people who have only ever sold marketing. Marketing Powered was built by someone who had to live with the results. Before founding the company, our founder served as CMO of a behavioral health treatment network that grew from 3 locations to 24 during the founder’s tenure. That growth was not a branding exercise. It meant standing up acquisition for new markets, building intake processes that could absorb demand, and answering to a leadership team that measured marketing by admissions and revenue, not impressions.
+Along the way the founder managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts, and the founder has served as a court-certified expert witness in advertising strategy. That combination of operating pressure and technical depth is the foundation the firm is built on.
+What the Work Focuses On
+The service territory is deliberately connected rather than piecemeal. [Paid media](/services/paid-media/) on Google and Meta drives qualified demand. [Website development](/services/web-development/) and conversion-focused landing pages turn that demand into inquiries. [Technical SEO and site performance](/services/web-development/technical-seo-and-performance/) work protects organic visibility and page speed. Analytics architecture, call tracking, and CRM and intake automation connect the front of the funnel to what happens after the form fill or phone call.
+The reason for the connected approach is simple: in most accounts we review, the weakest link is not the ad. It is the handoff between channels, pages, phones, and intake. Fixing one piece in isolation rarely changes the commercial result. Documented examples of this methodology live in our [case studies](/results/case-studies/).
+Why Regulated Markets Shape Everything We Build
+Healthcare advertising does not forgive improvisation. Google treats health as a sensitive interest category in personalized advertising, and advertiser-curated audiences, including remarketing lists, cannot be used when promoting in sensitive interest categories ([Google Advertising Policies Help](https://support.google.com/adspolicy/answer/16701855)). That single constraint invalidates a large share of the generic playbooks agencies carry from e-commerce into healthcare.
+Google also restricts the promotion of recovery-oriented drug and alcohol addiction services, and advertisers in eligible locations must be certified before those ads can run ([Google Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031)). Marketing Powered is LegitScript-aware and HIPAA-aware, and our acquisition systems are built for Google's sensitive healthcare vertical, where retargeting is not permitted. When you cannot follow users around the internet, your first impression, your landing page, and your intake speed have to carry the entire conversion.
+Owned Infrastructure and Data Sovereignty
+Marketing Powered has been AI-native since 2022, but the more important decision is where that AI runs. The firm operates owned, local AI infrastructure for HIPAA-aware inference. In practice, that means sensitive workloads can be processed on hardware the company controls, with configurable privacy boundaries, instead of routing everything through third-party tools with shifting terms.
+The business case is control, not novelty. Owned compute lets us decide which models run, how data is handled at each step, and which workloads never need to leave the building. For healthcare organizations and other regulated buyers, that is a materially different conversation than an agency stacking subscriptions to rented tools. To be clear about scope: owning infrastructure does not change who owns client data, and not every workload requires local inference. The point is having the option, deliberately, where it matters.
+Attribution to Admission, Not Just the Lead
+A lead is not a business outcome. In treatment marketing, the gap between a form fill and an admission is where budgets quietly die: unqualified inquiries, slow callbacks, insurance mismatches, and intake handoffs that nobody measures. The same gap exists in hospitals, legal practices, and home services. It just has different names.
+That is why attribution at Marketing Powered is tracked to admission, not just lead. Connecting ad spend through calls, forms, CRM stages, and final disposition changes what you optimize for. Campaigns that look expensive per lead often produce the cheapest admissions, and the reverse is just as common. Without closed-loop data, you cannot tell the difference, and you end up funding the wrong keywords with confidence.
+How an Engagement Typically Begins
+The first weeks look less like a kickoff party and more like an inspection. We sit with your account history, your call recordings where authorized, your landing pages, and your tracking setup, and we map where demand enters and where it leaks. Ad account structure gets compared against actual search behavior. Forms and phone routing get tested the way a frustrated prospect would use them, on a phone, at night.
+From there the work sequences by commercial impact: fix measurement first so decisions are trustworthy, then conversion paths, then media. Reporting is built around the questions an operator would ask, including cost per qualified opportunity and movement toward admission or signed engagement, not vanity dashboards. Estimates are labeled as estimates. Measured results are labeled as measured.
 
-Marketing leadership earned inside a growing healthcare organization
-Marketing Powered is a marketing agency led by a former CMO. We bring executive experience with budgets, expansion, and measurement to hospitals, health systems, multi-location organizations, and behavioral health and mental health providers.
-[CTA] Request a Free Audit
-
-
-Who We Are and Whom We Serve
-Marketing Powered combines experienced marketing leadership, technology we own and configure, and execution tied to measurable growth. The company is founder-led. Strategic decisions are made by someone who has carried executive responsibility for marketing budgets, expansion, and the systems behind performance.
-We serve organizations where marketing has to connect to an operation: [hospitals and health systems](/who-we-help/hospitals-and-health-systems), multi-location providers, and other distributed organizations. Behavioral health, addiction treatment, and mental health remain named specialties because our founder's experience comes from that field.
-Our [services](/services) run from acquisition through conversion to measurement: paid media, search and content, websites, creative, optimization, analytics and attribution, and workflow automation. We treat them as one operating system rather than a list of separate offers.
-Our Founder's Experience
-Before founding Marketing Powered, Mike Hulick led marketing as CMO of a multi-state behavioral health operator. During his tenure, the organization expanded from 3 to 24 locations across 9 states. He managed about $1.5 million to $2 million per month in Google Ads spend.
-During that tenure his employer grew from about $30 million to about $140 million in revenue. That is organizational growth during his tenure, not an agency result or a claim that marketing alone caused it.
-That responsibility covered more than campaigns. Attribution, intake, conversion, reporting, and the systems supporting expansion had to work together. Marketing decisions had to account for operating capacity, market differences, and revenue, not just activity inside an advertising account.
-That is prior executive experience, not agency client work. We keep the two separate across this site, including the [experience section](/#experience) of our homepage and the case studies page. You should know what each piece of evidence represents before you weigh it.
-Read the full [Mike Hulick author profile](/author/mike-hulick) for his career history, published writing, and the perspective behind his bylined articles.
-How We Work
-### Leadership that understands the operation
-Engagements start with the business problem: where growth is stuck, what leadership needs to see, and where investment is not turning into results. We examine the operation behind the marketing before we recommend a channel.
-### Technology we own and configure
-Marketing Powered invests in and operates its own computing hardware and systems. Our [owned infrastructure](/ai-edge/owned-ai-systems) gives us control over supported deployments, customization, and capacity instead of relying entirely on rented access. Clients retain ownership of their data. Access to our services does not automatically transfer our technology, workflows, or configurations.
-### Execution connected to the business
-We treat acquisition, conversion, and measurement as related responsibilities. Reporting covers spend, acquisition quality, conversion, and the next decisions, and it distinguishes measured outcomes from estimates.
-### People accountable for the decisions
-Automation supports the work. Human judgment remains responsible for priorities, approvals, and the changes that affect your organization. You will know who is responsible and what happens next.
-What to Expect From an Engagement
-The first conversation covers fit: your priorities, current measurement, and the operational gaps between investment and results. If a deeper review would be useful, we scope it before any work begins.
-We propose weekly operating checks and a monthly executive review, with the cadence defined in your engagement. The weekly check covers spend, acquisition quality, and open issues. The monthly review covers results against the plan and the decisions ahead.
-Data handling and governance belong in the planning discussion. We define responsibilities, approved data uses, and deployment boundaries before implementation, and we work within your review process.
-How to Evaluate Our Evidence
-Evidence on this site is labeled by what it represents. Founder history is presented as prior executive experience, with the role, the organization type, and the period named. Agency work is presented only where an approved case record exists.
-Our [case studies](/results/case-studies) page explains the standard: who did the work and when, the baseline and comparison period, the metric definition, the scope, and the limitations. We would rather publish fewer, well-documented cases than a panel of aggregate numbers.
-Evaluate any result against the starting point, the measurement period, the work performed, and the business context. A useful result should help you make a decision, not simply give you a larger number.
-Start With the Decisions Your Marketing Needs to Support
-Tell us where growth is getting stuck and what your leadership team needs to see. Request an audit of your current marketing, or send us the business problem and we will start there.
-[CTA] Request a Free Audit
 FAQ
-Q: Who leads Marketing Powered?
-A: Marketing Powered was founded and is led by Mike Hulick. Before founding the agency he served as CMO of a multi-state behavioral health operator, where he was responsible for marketing during an expansion from 3 to 24 locations across 9 states. The agency is founder-led, and strategic decisions are made by someone with executive operating experience.
-Q: Does Marketing Powered only work with behavioral health providers?
-A: No. Behavioral health, addiction treatment, and mental health are named specialties grounded in our founder's experience. The same operating model serves hospitals, health systems, and other multi-location organizations that need coordinated campaigns, consistent execution, and comparable reporting.
-Q: Are the founder's numbers agency results?
-A: No. The locations, states, monthly spend, and employer revenue figures describe our founder's prior executive responsibility and the organization he worked for. They are not agency client results, and we do not present them as such. Agency results are published only where an approved case record exists.
-Q: What does working with Marketing Powered look like?
-A: It starts with a conversation about fit and the business problem. Engagements connect acquisition, conversion, and measurement, with responsibilities and data handling defined before implementation. We propose weekly operating checks and a monthly executive review, with the cadence set in your engagement.
-Q: What technology does Marketing Powered use?
-A: We invest in and operate our own computing hardware and systems, and we select, configure, and integrate software around each client's operation. Clients retain ownership of their data. Our technology, workflows, and configurations remain ours unless an agreement says otherwise.
-SCHEMA RECOMMENDATION
-Schema type: Organization (site-wide entity) + BreadcrumbList
-* The Organization entity is rendered site-wide from the root layout with the approved description and founder fields. This page must not add a competing Organization node.
-* BreadcrumbList is rendered by the Breadcrumbs component: Home > Company > About.
-* Do not add FAQPage markup, certifications, awards, review ratings, or a founding date.
-
-
-DELIVERY NOTES
-Revision basis
-* Homepage Copy and Implementation Package, November 6, 2026: source audit W02 (separate founder experience from agency results; remove the founding-year implication; verify credential wording before display) and claims register C01 to C07.
-
-
-Claims removed from the previous version
-* The agency founding-year wording and the technology-first descriptor attached to it.
-* The credential wording and the related "withstood legal scrutiny" sentence.
-* The agency-wide spend total and the "numbers that reflect operator-level results" section.
-* Certification-body language and HIPAA assurance language presented as Marketing Powered credentials.
-* The discovery-call promise; interior pages use the site-wide audit request CTA.
-* The multi-location expansion framed as agency proof; it now appears only as attributed founder history with the organizational subject.
-
-
-External citations
-* Removed: the Google Ads healthcare policy and certification-body links, because the revised copy no longer makes the claims they supported.
-
-
-Approvals pending
-* Founder figures C01 to C05 (role, 3 to 24 locations across 9 states, monthly Google Ads responsibility, employer revenue growth) need Mike's final sign-off on wording before publication.
-* The proposed weekly operating check and monthly executive review (C06) need approval from Mike and operations.
-* The former employer stays anonymous. No founding year, employment dates, or credential wording is published unless separately approved.
-
-
-Internal links
-* /#experience, /results/case-studies, /services, /ai-edge/owned-ai-systems, /who-we-help/hospitals-and-health-systems (created in this release).
-
-
-Image note
-* The hero keeps the abstract brand graphic. The former results graphic, growth-framework graphic, and founder quote card were removed from the page's image set because they carried held figures, the former employer's name, the credential, and placeholder CTA text.
+Q: Does Marketing Powered only work with behavioral health organizations?
+A: No. Behavioral health is a credibility specialization because of the founder's operating history, but the firm works with hospitals and health systems, healthcare services, professional services firms, and local and multi-location businesses in other regulated markets.
+Q: Is Marketing Powered HIPAA certified?
+A: There is no government HIPAA certification for vendors, and we do not claim one. We describe the firm as HIPAA-aware: infrastructure, workflows, and data handling are designed with those obligations in mind, and scope is defined per engagement.
+Q: What makes an operator-led agency different?
+A: The founder has sat in the CMO seat, defended budgets, and been accountable for admissions, not just lead counts. That history shapes what gets measured, what gets prioritized, and what gets cut.
+Q: How does the AI capability actually get used?
+A: As leverage for execution: research, analysis, and production work that runs on owned, local infrastructure where sensitivity requires it. Strategy and accountability stay human. [Request an acquisition audit](/get-started/request-an-audit/)

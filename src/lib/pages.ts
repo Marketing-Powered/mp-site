@@ -720,6 +720,7 @@ export const HUB_CHILDREN: Record<string, { href: string; file: string; tag?: st
     { href: "/company/ai-systems-policy", file: "company/ai-systems-policy.md" },
     { href: "/company/data-sovereignty", file: "company/data-sovereignty.md" },
     { href: "/company/security", file: "company/security.md" },
+    { href: "/company/about", file: "company/about.md" },
   ],
   "research/index.md": [
     { href: "/research/studies", file: "research/studies/index.md" },

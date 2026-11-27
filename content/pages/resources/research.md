@@ -1,120 +1,61 @@
 ---
 title: "Marketing Research for Paid Media | Insight Hub"
 url: "/resources/research/"
-primary_keyword: "marketing research paid media"
+primary_keyword: ""
+author: "mike-hulick"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /resources/research/ as a resource hub for paid media marketing research in behavioral health. Primary keywords are marketing research and paid media research; secondary keywords include paid media benchmarks and behavioral health marketing research. The page serves informational intent for treatment center executives evaluating marketing strategies and seeking industry benchmarks to improve ROI.
-Page type: Resource Hub / Informational
-Buyer target: CEO, COO, or VP of Business Development at a behavioral health treatment center
-Word count target: 800-1200 words
-
-
 SEO METADATA
-Title tag (46 chars): Marketing Research for Paid Media | Insight Hub
-Meta description (101 chars): Explore paid media research and benchmarks for behavioral health: CPA data, channel performance, and insights that unlock better ROI.
-H1: In-Depth Marketing Research for Paid Media Strategies
-Hero image alt: Data visualization showing paid media marketing research benchmarks for behavioral health campaigns
+Title tag: Marketing Research for Paid Media | Insight Hub
+Meta description: Operator-led paid media research frameworks for healthcare and regulated markets covering demand mapping, offer audits, governance, and attribution.
+H1: Marketing research for paid media: an operator's insight hub
+Hero image alt: Exterior view of a multi-location medical clinic building with glass doors and blue architectural accents at sunrise.
 
 
 PAGE COPY
-In-Depth Marketing Research for Paid Media Strategies
-Data-driven benchmarks and methodologies that separate high-performing behavioral health campaigns from wasted spend.
-[CTA] Request an Audit
 
-
-Why Paid Media Research Matters
-Running paid media in behavioral health without current benchmark data is like navigating intake volume without tracking call sources. You might hit your numbers, but you have no idea which spend is working and which is burning budget. Marketing research grounds every dollar in context.
-Treatment centers operating in this space face a unique challenge: Google Ads sensitive vertical restrictions, no behavioral health retargeting, and compliance frameworks that most agencies never learn to navigate. Without research that accounts for these constraints, you are comparing your performance to benchmarks that do not apply to your vertical.
-At Marketing Powered, we have managed [over $50M in behavioral health and mental health media spend](/who-we-help/behavioral-health). That scale generates proprietary data that most agencies simply do not have access to. When we talk about paid media benchmarks, we are not pulling from generic SaaS reports. We are drawing from thousands of campaigns across admission-focused treatment centers, from 3-location startups to 24-location regional operators.
-Key Benchmarks in Paid Media
-Behavioral health paid media benchmarks differ significantly from standard healthcare or B2C verticals. The patient journey is longer, the decision-maker is often not the patient themselves, and the compliance environment restricts targeting options that other industries take for granted.
-Based on campaigns managing [$1.5M to $2M monthly in Google Ads](/services/paid-media) across treatment center clients, we track benchmarks across several categories:
-
-
-* Cost per click (CPC): Addiction treatment and rehab keywords consistently command premium CPCs, often 3x to 5x general healthcare terms. According to [WordStream's industry benchmarks](https://www.wordstream.com/blog/ws/2016/02/29/google-adwords-industry-benchmarks), legal and healthcare verticals see the highest CPCs, and behavioral health falls at the top of that range.
-* Click-through rate (CTR): Treatment center campaigns typically see CTRs between 3% and 6% for well-optimized search campaigns. Lower CTRs often indicate ad copy compliance issues or poor keyword-to-landing-page alignment.
-* Cost per admission lead: This is the metric that matters. We track attribution through to admission, not just form fills. A $200 lead that never converts to intake is worth less than a $400 lead that admits.
-* Conversion rate by channel: Search consistently outperforms display in this vertical, partly due to retargeting restrictions. Performance Max campaigns require careful audience exclusions to avoid wasted impression share.
-
-
-Behavioral Health Marketing Research Methodologies
-Effective marketing research in behavioral health combines quantitative performance data with qualitative insights about patient acquisition dynamics. Neither approach alone gives you the full picture.
-Quantitative approaches
-Quantitative research relies on measurable data points: CPC trends, conversion rates, channel attribution, and admission tracking. We pull this data from live campaigns and compare it against historical performance across similar facility types. According to [SAMHSA's National Survey on Drug Use and Health](https://www.samhsa.gov/data/nsduh), treatment admission patterns shift by region, substance type, and demographic. Paid media research must account for these variables.
-
-
-Multi-variant optimization allows us to test landing page variations at scale, routing traffic to the highest-performing version for each visitor segment. This generates statistically significant data faster than traditional A/B testing.
-Qualitative approaches
-Qualitative research includes intake call analysis, patient journey mapping, and competitive positioning audits. Understanding why a lead converts (or does not) requires more than numbers. It requires listening to intake conversations, reviewing call recordings, and identifying friction points that data alone cannot surface.
-Both methodologies feed into strategy formation. Quantitative data tells you what is happening; qualitative research explains why. Treatment centers that combine both approaches make better budget decisions and avoid the common trap of optimizing for vanity metrics.
-How Research Links to ROI and Success
-Marketing research directly impacts ROI by eliminating guesswork from budget allocation. When you know your cost per admission by channel, you can shift spend toward what works and cut what does not.
-Consider a treatment center spending $150,000 monthly across Google Ads, Meta (within compliance limits), and programmatic display. Without research-driven attribution, they might allocate budget based on lead volume alone. With proper attribution tracked through to admission, they discover that 70% of actual admissions originate from search, even though display generates more form fills. That insight shifts $30,000 monthly from low-converting channels to high-converting ones.
-We have seen this pattern repeatedly across the [case studies](/results/case-studies) in our portfolio. Operator-side multi-market growth using a research-driven media strategy. The difference was not more spending. It was a smarter allocation based on real admission data.
-
-
-[CTA] Request an Audit
-Getting Started with Research-Driven Marketing Strategies
-Implementing marketing research into your paid media strategy does not require a complete overhaul. Start with what you can measure today and build from there.
-* Audit your current attribution: Can you trace a lead from an ad click to admission? If not, that is the first gap to close.
-* Benchmark against vertical-specific data: Generic industry reports will mislead you. Seek benchmarks from operators who have actually run behavioral health campaigns at scale.
-* Review compliance alignment: Are your campaigns structured for [Google Ads healthcare vertical restrictions](https://support.google.com/adspolicy/answer/176031)? LegitScript certification context matters here.
-* Test and measure: Use multi-variant optimization to generate statistically valid insights faster. Small sample sizes lead to bad decisions.
-* Connect research to action: Data without implementation is just reporting. Every insight should tie to a specific budget or creative decision.
-Next Steps
-If your current agency cannot show you cost per admission by channel, or if your benchmarks come from generic reports that ignore behavioral health compliance constraints, you are operating blind.
-Marketing Powered brings [AI-native infrastructure](/ai-edge) built specifically for healthcare marketing research, combined with the operational experience of managing eight-figure annual media budgets in this vertical. We track attribution through to admission and hold ourselves accountable to the metrics that actually matter to your census.
-
-
-Request an audit to see how your current performance compares to behavioral health benchmarks, and where the gaps are costing you admissions.
-[CTA] Request an Audit
-
-
-See How Your Campaigns Compare
-Request an audit to benchmark your current paid media performance against behavioral health industry standards. We will identify where the budget is being wasted and where opportunities exist to increase qualified admission leads.
-[CTA] Request an Audit
-FAQ
-Q: What are common paid media benchmarks in behavioral health?
-A: Behavioral health paid media benchmarks include cost per click (typically 3x to 5x general healthcare), click-through rates between 3% and 6% for optimized search campaigns, and cost per admission lead rather than cost per form fill. These benchmarks vary by treatment type, geography, and facility size. Generic healthcare benchmarks do not account for sensitive vertical restrictions that limit targeting options in this space.
-Q: Why is marketing research critical for paid media strategies?
-A: Marketing research identifies which channels, keywords, and creative approaches generate actual admissions rather than just leads. Without research grounded in behavioral health data, treatment centers often allocate budget based on vanity metrics like lead volume while missing the channels that drive census. Research also surfaces compliance gaps and competitive positioning opportunities that intuition alone cannot reveal.
-Q: How can I utilize marketing research to improve ROI?
-A: Connect research insights directly to budget allocation decisions. If your data shows that search generates 70% of admissions but receives 50% of the budget, shift spend accordingly. Use attribution tracking that follows leads through to admission, not just form submission. Test landing page variations through multi-variant optimization to improve conversion rates with statistical confidence.
-Q: What methodologies are used in marketing research?
-A: Effective marketing research combines quantitative and qualitative approaches. Quantitative methods include performance data analysis, attribution modeling, and multi-variant testing. Qualitative methods include intake call analysis, patient journey mapping, and competitive audits. Both are necessary: quantitative data shows what is happening, while qualitative research explains why.
-
-
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, BreadcrumbList, WebPage
-* name
-* description
-* mainEntity (for FAQ)
-* itemListElement (for Breadcrumb)
-* isPartOf
-* breadcrumb
-
-
-DELIVERY NOTES
-External citations
-* WordStream's industry benchmarks https://www.wordstream.com/blog/ws/2016/02/29/google-adwords-industry-benchmarks [Industry research / Benchmarks] - Authoritative source for Google Ads CPC benchmarks by industry, supporting the claim that healthcare and legal verticals see the highest CPCs.
-* SAMHSA's National Survey on Drug Use and Health https://www.samhsa.gov/data/nsduh [Government / Public health] - Primary federal source for substance use and mental health data, supporting the claim that admission patterns vary by region and demographic.
-* Google Ads healthcare vertical restrictions https://support.google.com/adspolicy/answer/176031 [Platform policy] - Direct link to Google's healthcare and medicines policy, supporting compliance discussion and LegitScript context.
-
-
-Brief conflicts
-* Meta description contains 'Unlock,' which is listed as a banned word in the system voice rules. Used as specified in the brief per source-of-truth protocol, but recommend revising to: 'Explore paid media benchmarks for behavioral health. Deep insights, no fluff. Start improving ROI today.'
-* Internal link map includes 'Marketing Research Techniques → /services/web-development/' which appears to be an incorrect target URL. Web development is not semantically related to marketing research techniques. Did not use this link. Recommend updating the link map with an appropriate target or removing.
-Internal link gaps
-* Consider adding a link to /resources/ (Resources Hub) from the body copy to strengthen the resource cluster.
-* A link to a specific research report or whitepaper would strengthen the hub's positioning if such content exists.
-Compliance flags
-* Page correctly avoids guaranteed results and specific outcome claims without context.
-* All campaign performance references are framed as marketing metrics (cost per admission lead, conversion rates), not patient outcomes.
-* Google Ads sensitive vertical and no-retargeting context are addressed in the Key Benchmarks section.
-Missing proof points
-* Specific CPC ranges for behavioral health keywords would strengthen the benchmarks section if available.
-* Specific conversion rate data from managed campaigns would add credibility if approved for publication.
-Banned phrasing in brief
-* 'Unlock' appears in the meta description specified by the brief.
+Marketing research for paid media: an operator's insight hub
+Marketing research for paid media defines who can actually buy and where inquiries break down after the click. Paid acquisition accounts rarely stall because an ad platform lacks another automated bidding toggle. They stall when campaigns launch on untested assumptions about buyer urgency, local capacity, competitor offers, and post-click intake reality across healthcare and regulated markets.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Paid media research must precede campaign architecture
+Paid media research builds the commercial blueprint before any ad group launches, aligning keyword tiers with service margins and open capacity. Skipping this groundwork forces ad platforms to optimize around noisy form volume instead of qualified demand that operations teams can fulfill.
+Picture two acquisition teams preparing a regional launch for a multi-location healthcare group. The first team opens a keyword planner, mirrors rival headlines, and pushes campaigns live within a week. The second team meets with clinic intake directors and regional finance leaders before touching an ad account. Together they review service-line margins, open appointment capacity by facility, drive-time boundaries, and the exact objections callers raise during their first five minutes on the phone.
+Those two launches produce completely different account structures. Research-first teams separate high-margin and low-margin services into distinct budget tiers instead of blending them into broad campaigns. They also pause aggressive bidding in ZIP codes where schedules are already full, and they build negative keyword exclusions directly from documented intake disqualifiers.
+When structured research precedes buildout, every lever in [paid media](/services/paid-media/) becomes easier to diagnose. Budget pacing reflects real market ceilings rather than guesses, while leadership evaluates spend against operational capacity instead of isolated clicks.
+Demand and intent mapping separate buyers from casual researchers
+Demand mapping separates ready buyers from casual readers by classifying queries according to buyer urgency and search result composition. High search volume alone misleads regulated-market teams because broad terms frequently blend urgent prospects with students or readers researching general symptoms without intent to book care or retain a firm.
+Platform policy rules raise the cost of loose targeting. In Google's sensitive healthcare vertical, where retargeting is not permitted, marketers cannot rely on display follow-up ads to recapture undecided first-click visitors. Every paid click carries full acquisition weight during the initial visit. Demand research therefore targets the specific phrasing decision-makers and family members type when they are ready to act, while excluding adjacent informational queries that drain spend without realistic eligibility.
+Compliance planning belongs inside the same research sprint rather than in a late-stage review queue. LegitScript-aware and HIPAA-aware research identifies restricted terms, verification prerequisites, ad-copy limits, and privacy-safe tracking methods before accounts go live. Documenting those boundaries upfront prevents preventable ad disapprovals and costly mid-quarter rebuilds.
+Competitive and offer intelligence looks past ad library screenshots
+Competitive paid media research audits the full buyer path from search result to live intake response rather than stopping at ad library headlines. Reviewing short ad copy shows what nearby rivals promise, but it reveals nothing about whether their landing pages and intake teams convert paid traffic into scheduled evaluations or retained clients.
+An operator-level competitive audit evaluates five elements across each priority market:
+* SERP ownership and crowding: Identify which national directories, hospital systems, aggregator sites, and local operators hold paid placements and map packs for core service terms.
+* Offer clarity above the fold: Check whether competing pages state service scope, clinic locations, insurance or fee expectations, and clear next steps without forcing visitors through vague forms.
+* Mobile speed and usability: Measure mobile load speed and form friction on standard cellular connections, where strong [technical SEO](/services/web-development/technical-seo-and-performance/) and disciplined web development directly protect paid conversion rates.
+* Proof and credential density: Document how competitors substantiate clinical authority, state licensure, local Google reviews, and multi-site scale without leaning on empty claims.
+* Intake responsiveness: Track phone answer speed and after-hours call routing to expose barriers between initial contact and a confirmed appointment.
+Mapping these operational gaps uncovers positioning whitespace that ad copy alone cannot manufacture. When regional competitors hide intake timelines behind slow contact forms, a transparent scheduling path backed by clear service pages creates an immediate conversion advantage.
+Internal intake and CRM data turn research into attribution
+Connecting paid search research to internal CRM and call disposition logs shows which queries generate revenue rather than raw inquiry counts. External keyword tools explain what prospects search, while internal records show who is operationally eligible and ready to book.
+Consider a weekly calibration meeting where a paid media strategist and an admissions manager sit beside an analytics engineer to review four records side by side. They compare raw search-term exports, recorded call disposition logs, CRM stage progression, and verified admissions or retained matters. Within an hour, commercial patterns surface that platform dashboards hide. One campaign may look inexpensive on cost per form fill while sending out-of-network callers who never schedule, whereas a higher-CPC campaign consistently drives qualified consultations that convert into admissions.
+Closing that loop requires building research around downstream outcomes from day one. Marketing Powered's founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations and managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. The founder is also a court-certified expert witness in advertising strategy. Across that background and the firm's approach to [marketing leadership](/company/about/), attribution tracked to admission, not just lead, turns post-click reality into the primary research input for capital allocation.
+Multi-location and hospital markets require local segmentation
+Hospital systems and multi-location service organizations require market-by-market research because blended national averages hide sharp local differences. Competitor density, payer mix, drive-time tolerance, and local brand awareness often shift dramatically between adjacent counties.
+Operators segment regional markets through four steps before assigning media budgets:
+* Map catchment and drive-time boundaries: Define realistic travel radii for each service line, since urgent outpatient care and elective specialty procedures carry distinct geographic limits.
+* Benchmark local reputation baselines: Compare Google review volume and rating averages for every facility against its closest local competitors, because weak local proof depresses both click-through and call rates.
+* Audit site-level capacity: Document open provider schedules and intake staffing by location so paid campaigns accelerate demand where teams can fulfill it.
+* Profile regional payer dynamics: Adjust keyword prioritization and page messaging where insurance participation and cash-pay demand differ across states or metro areas.
+Local segmentation prevents a common multi-location budget error: overfunding saturated legacy facilities while underinvesting in newer locations that have open appointment capacity and lower auction pressure.
+Governed AI workflows protect privacy during qualitative research
+Governed AI research workflows accelerate qualitative synthesis without exposing regulated intake data to public third-party models. Research teams gain usable speed only when de-identification standards and controlled compute environments remain enforced before findings touch live campaigns.
+Contrast how two marketing teams synthesize buyer objections from call summaries and intake notes. In an ad-hoc setup, an analyst pastes raw summaries containing patient-adjacent details into a consumer web chatbot, creating privacy exposure and unverifiable output. In a governed setup, researchers strip direct identifiers and run structured objection clustering inside controlled infrastructure before human reviewers verify conclusions against primary logs.
+* Data preparation; Ad-hoc consumer AI workflow: Raw notes pasted into public tools; Governed local-infrastructure workflow: Direct identifiers stripped before synthesis
+* Compute boundary; Ad-hoc consumer AI workflow: External third-party web platforms; Governed local-infrastructure workflow: Owned, controlled compute environments
+* Output review; Ad-hoc consumer AI workflow: Unchecked summaries copied into ads; Governed local-infrastructure workflow: Human validation against CRM records
+Marketing Powered has been AI-native since 2022 and operates owned, local AI infrastructure for HIPAA-aware inference. Within research workflows, that architecture supports clustering large search-term exports and tagging recurring caller objections across multi-location portfolios. Owned infrastructure helps configure privacy boundaries for sensitive workflows, though not every campaign task runs offline and agency hardware ownership does not replace client data ownership agreements or formal compliance review.
+Conversion value per cost anchors research to commercial testing
+Paid media research creates business value only when findings feed controlled landing page tests and commercial bidding metrics. Teams should convert verified caller objections into structured page variants and use multi variant optimization to route visitors toward the highest-performing experiences. On the media side, operators should measure PPC against conversion value per cost, where higher is better, rather than rewarding low-cost leads that stall in intake.
+Research also requires a fixed operating cadence so insights stay current as markets shift. Foundational demand mapping and competitive funnel audits should precede major launches or account restructures. Once campaigns are live, paid media and intake teams should review search-term intent and CRM disposition patterns monthly, then refresh local competitive and review audits quarterly.
+Every research sprint should close with a short decision log naming which queries move to negative exclusions and which locations earn incremental spend based on open capacity. Treating research as a recurring operating discipline keeps acquisition budgets tied to commercial reality instead of ad-platform defaults.
+[CTA] Request an acquisition audit → /get-started/request-an-audit/

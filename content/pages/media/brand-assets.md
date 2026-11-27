@@ -1,93 +1,50 @@
 ---
 title: "Brand Assets Download | Official Logos & Kits"
 url: "/media/brand-assets/"
-primary_keyword: "brand assets"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /media/brand-assets/ with primary keyword 'brand assets' and secondary keywords 'logo download' and 'brand kit.' Target word count is 400-800 words. Page type: Resource/tool page for media outreach and backlink enablement. Buyer target: Brand managers, marketing directors, journalists, and partners seeking official brand materials for consistent representation.
-Page type: Resource/Tool Page
-Buyer target: Brand managers, marketing directors, journalists, and partners needing official brand assets
-Word count target: 400-800 words
-
-
 SEO METADATA
-Title tag (45 chars): Brand Assets Download | Official Logos & Kits
-Meta description (134 chars): Access official Marketing Powered brand assets. Download logos, brand kits, and usage guidelines for media, partners, and collaborators.
-H1: Find and Download Official Brand Assets
-Hero image alt: Marketing Powered official logo lockup displayed with brand color palette and typography samples
+Title tag: Brand Assets Download | Official Logos & Kits
+Meta description: Access official Marketing Powered brand assets. Download logos, brand kits, and usage guidelines for media, partners, and collaborators.
+H1: Download Official Marketing Powered Brand Assets
+Hero image alt: Marketing Powered primary logo on brand background.
 
 
 PAGE COPY
 
-
-Find and Download Official Brand Assets
-Official logos, brand kits, and usage guidelines for media, partners, and collaborators.
-[CTA] Download Brand Assets
-
-
-Why Brand Assets Matter
-Brand assets are the visual foundation of every touchpoint between Marketing Powered and the market. When partners, media outlets, and collaborators use consistent logos, colors, and typography, they reinforce recognition and trust with every impression.
-For an agency operating in behavioral health and mental health verticals, where compliance and credibility carry real weight, accurate brand representation is non-negotiable. Mismatched colors, stretched logos, or outdated marks create confusion and undermine the professional positioning built through $50M+ in managed paid media spend across these specialized verticals.
-These resources exist to make consistency simple. Download what you need, follow the guidelines, and represent the brand correctly every time.
-Available Brand Resources
-The brand kit includes everything required for accurate representation across digital and print applications.
-* Primary logo lockup: Full horizontal and stacked versions in PNG, SVG, and EPS formats for press mentions, partnership announcements, and co-branded materials.
-* Standalone mark: The simplified icon for smaller applications, social avatars, and accent placements.
-* Color palette: Official hex codes with guidance on primary and secondary usage across all applications.
-* Typography: Just Sans Variable specifications with weight recommendations for headings and body copy.
-* Usage guidelines: Clear rules on minimum sizing, clear space requirements, and prohibited modifications.
-How to Download
-Accessing the brand assets takes three steps.
-First, click the download button at the bottom of this page. The complete brand kit is packaged as a single ZIP file containing all logo formats, color specifications, and the usage guidelines PDF.
-Second, review the usage guidelines before publishing. The PDF covers acceptable applications, spacing requirements, and common mistakes to avoid.
-Third, if your use case requires custom formats or higher resolution files, contact us directly. We respond to media and partner requests within one business day.
-There are no access restrictions for standard downloads. The assets are provided for legitimate editorial, partnership, and collaborative use.
-Maintaining Brand Integrity
-Proper use of these assets protects both your work and the Marketing Powered brand.
-Do not alter the logo proportions, colors, or typography. Do not place the logo on busy backgrounds that reduce legibility. Do not recreate the logo using alternative fonts or approximate colors.
-Partners and vendors may use these assets for co-marketing materials, press coverage, and event collateral. If you are unsure whether your intended use falls within guidelines, reach out before publishing. We would rather answer a quick question than correct a misrepresentation after the fact.
-Download the Complete Brand Kit
-Get official logos, color specifications, and usage guidelines in one package. All formats included for digital and print applications.
-[CTA] Download Brand Assets
-FAQ
-Q: What is included in a brand kit?
-A: The Marketing Powered brand kit includes primary logo lockups in horizontal and stacked formats, the standalone mark, official color palette with hex codes, typography specifications for Just Sans Variable, and a comprehensive usage guidelines PDF. All logo files are provided in PNG, SVG, and EPS formats.
-Q: How can I download the brand assets?
-A: Click the download button on this page to receive the complete brand kit as a ZIP file. No registration or access restrictions apply. For custom formats or high-resolution files, contact us, and we will respond within one business day.
-
-
-Q: Why are consistent brand assets important?
-A: Consistent assets ensure that every touchpoint reinforces brand recognition and professional credibility. In regulated verticals like behavioral health and mental health, accurate representation also supports compliance positioning and partner trust.
-Q: Are there different logo formats available?
-A: Yes. Logos are provided in PNG for web and presentations, SVG for scalable digital applications, and EPS for print production. Each format includes both full-color and single-color versions.
-Q: Can I share these brand assets with partners?
-A: Yes. Partners, vendors, and media outlets may use these assets for co-marketing, press coverage, and event materials. Review the usage guidelines before sharing, and contact us if you have questions about a specific application.
-
-
-SCHEMA RECOMMENDATION
-Schema type: WebPage with FAQPage
-* name
-* description
-* mainEntity (for FAQ questions)
-* publisher
-* datePublished
-* dateModified
-
-
-DELIVERY NOTES
-Brief conflicts
-* The primary CTA URL in the brief points to /media/brand-assets/ which is the current page itself, creating a self-referential CTA. Recommend updating to an actual download link or a page anchor pointing to a download button.
-* The brief's Message Strategy references proof points around budget depth, compliance awareness, and attribution discipline that are more relevant to service pages than a brand asset resource page. These were used only where they fit naturally.
-
-
-Internal link gaps
-* Brief includes links to /resources/, /tools/, /results/case-studies/, /ai-edge/, and /get-started/request-an-audit/ that were not contextually relevant to a brand assets page and were omitted to preserve content quality.
-
-
-Missing proof points
-* No specific proof points about brand asset downloads, media coverage metrics, or partner usage statistics were available in the brief to cite on this page.
-
-
-Banned phrasing in brief
-* Avoided any language implying guaranteed results or performance claims not substantiated by cited data.
+Download Official Marketing Powered Brand Assets
+This page is the source for official Marketing Powered brand assets: logos, color values, typography, and usage rules. Partners, press, directory editors, and vendors can download the correct files without waiting on a reply. Match these values, and do not redraw a mark from a screenshot.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+What's in the brand kit
+The kit is one ZIP file for handoff. It holds logo files, color values, a type specimen, and a usage guide, each with a descriptive name.
+Logo files are the horizontal and stacked lockups plus the standalone mark, in PNG, SVG, and EPS, full color and single color. Colors are electric blue, black, white, and green, with hex values on this page. The specimen is Just Sans Variable in semibold, medium, and light. The usage guide covers clear space, minimum size, backgrounds, and changes that are not allowed.
+The image is a flat grid of those tiles: logo, swatches, and specimen, kept separate so each piece is identifiable. A reporter or vendor who needs one value can read it here and leave the archive closed.
+Logo files and formats
+Three marks cover ordinary placements. Choose by the shape of the space. If the placement is still undecided, send the horizontal lockup.
+The horizontal lockup is the default for websites, press articles, email signatures, and co-branded documents where the wordmark stays readable. The stacked lockup fits square and vertical layouts such as event signage, social profiles, and directory tiles. The standalone mark is for avatars, favicons, and other small placements where the wordmark would fail. If viewers will not already know the mark, use a lockup.
+Use SVG wherever the platform accepts it, because it scales cleanly. Use PNG for decks and standard web embeds. Use EPS when a print vendor expects vector art. Full color and single color ship with each version. Single color is for one-color print and for a reversed mark on a solid brand field, not for a new hue.
+The reference view is the primary mark centered on white or on electric blue, with no caption competing with the wordmark. Clear space and minimum size are in the usage guide. Follow the guide, not an estimate made by eye.
+### File naming and formats provided
+Filenames state the asset, the color variant, and the format. Numbered exports and generic labels are not kit files. Web imagery is WebP. Logos stay in PNG, SVG, and EPS. Do not convert a logo yourself, because color and clear space can shift. If a system rejects a format, request it. Share /media/brand-assets/ as the address for this kit.
+Logo usage do's and don'ts
+Place the supplied file on a clean, high-contrast background, keep its proportions, and leave clear space free of type and other logos.
+Do not recolor, stretch, rotate, or add effects. Do not set the mark on photography or patterns that cut the wordmark. Do not redraw it or sample color from a screenshot. A screenshot is not a master file. If the layout needs an altered logo, change the layout.
+Partners may use the marks for co-marketing, press, directory listings, and events after reading the usage guide.
+Color palette
+Four colors, set from these hex values, never from a sampled image. Check the label under each block before you enter the value in a design file.
+* Electric blue, #2CACE8. Primary color for the logo mark, links, and key accents.
+* Black, #000000. Text and high-contrast backgrounds.
+* White, #FFFFFF. Backgrounds and reversed text.
+* Green, #08AE67. Secondary accent for highlights and confirmation states. It supports electric blue and does not replace it.
+The image is four solid blocks in that order, each with its hex value. Electric blue leads, green accents, and black and white carry structure. If green is given equal weight, pull it back to a status or a small confirmation. On white, use electric blue and black. On those colors, use white type. Do not set electric blue on green, and do not blend a partner palette into these four.
+Typography
+Just Sans Variable is the brand typeface, in semibold, medium, and light. Semibold is for headlines and primary emphasis. Medium is for subheadings, labels, navigation, and interface text. Light is for quieter supporting copy. Use medium when type is small or the background is busy, so the line stays readable.
+Match the specimen in the kit. Do not treat a heavier or lighter cut as the same weight. If the font cannot load, use a plain geometric sans-serif for live text only, and leave the logo files untouched. The wordmark is artwork, not text to retype in a similar font.
+Photography and imagery style
+The reference is a small team at a desk in a neutral office, with monitors showing marketing dashboards, notebooks, and plain daylight. The subject is the work and the room. The palette is an accent, not a filter over the frame.
+For co-branded photos, show an operator at a desk, a whiteboard mid-session, or a plain workspace. Skip handshake tables, lightbulb props, and posed laughter at a laptop. Do not put client names or private figures on a screen to make a picture look specific. A dashboard should look like a working tool, not a named result. New photos need real rooms, real tools, neutral light, and no watermark or caption inside the frame.
+Requesting additional assets
+The kit covers standard digital and print use. For another size, a single-color variant, or a format the archive does not include, state the placement, dimensions, background, and file type before you change a master. Asking first avoids a published file that has to be replaced.
+The [About page](/company/about/) is the company account for press references. Send a format request through the [contact page](/company/contact/). The [homepage](/) holds the wider picture of the work.
+[CTA] Download Brand Assets → /get-started/request-an-audit/

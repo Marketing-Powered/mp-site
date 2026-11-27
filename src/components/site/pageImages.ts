@@ -86,6 +86,112 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/compliance-ad-policy/": [
+    // [0] hero
+    studioImg(
+      "resources/compliance-ad-policy",
+      "compliance-ad-policy.webp",
+      "Hospital admissions entrance at dusk showing the setting for healthcare advertising compliance.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/compliance-ad-policy",
+      "compliance-ad-policy-ringing-desk-phone-intake-folders.webp",
+      "Ringing desk phone next to intake folders representing failed healthcare ad launches.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/compliance-ad-policy",
+      "compliance-ad-policy-server-room-racks-representing-first.webp",
+      "Server room racks representing first-party measurement infrastructure.",
+      "3 / 2",
+    ),
+  ],
+  "/research/studies/attribution-reality-check/": [
+    // [0] hero
+    studioImg(
+      "research/studies/attribution-reality-check",
+      "attribution-reality-check.webp",
+      "Empty conference room table with financial reports and marketing dashboard laptop in morning light",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "research/studies/attribution-reality-check",
+      "attribution-reality-check-hands-pointing-two-printed-reports.webp",
+      "Hands pointing at two printed reports showing conflicting marketing and revenue numbers on a desk",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "research/studies/attribution-reality-check",
+      "attribution-reality-check-two-column-comparison-attribution.webp",
+      "Two-column comparison of attribution challenges in consumer versus regulated markets",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "research/studies/attribution-reality-check",
+      "attribution-reality-check-hand-marking-dates-wall-calendar-show.webp",
+      "Hand marking dates on a wall calendar to show repeated validation process",
+      "3 / 2",
+    ),
+  ],
+  "/resources/guides/microsoft-ads-behavioral-health/": [
+    // [0] hero
+    studioImg(
+      "resources/guides/microsoft-ads-behavioral-health",
+      "microsoft-ads-behavioral-health.webp",
+      "Exterior view of a modern behavioral healthcare facility building with clean glass architecture under morning light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/guides/microsoft-ads-behavioral-health",
+      "microsoft-ads-behavioral-health-close-up-admissions-desk-phone-organized.webp",
+      "Close-up of an admissions desk phone and organized intake folders in a treatment facility intake station.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/guides/microsoft-ads-behavioral-health",
+      "microsoft-ads-behavioral-health-four-step-process-diagram-showing.webp",
+      "Four-step process diagram showing compliant Microsoft Ads campaign setup steps for behavioral health providers.",
+      "3 / 2",
+    ),
+  ],
+  "/resources/guides/google-ads-compliance-for-mental-and-behavioral-health/": [
+    // [0] hero
+    studioImg(
+      "resources/guides/google-ads-compliance-for-mental-and-behavioral-health",
+      "google-ads-compliance-for-mental-and-behavioral.webp",
+      "Exterior entrance of a modern healthcare facility at sunrise with concrete walkways and architectural pillars.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "resources/guides/google-ads-compliance-for-mental-and-behavioral-health",
+      "google-ads-compliance-for-mental-and-behavioral-two-column-graphic-comparing-healthcare.webp",
+      "Two-column graphic comparing Healthcare Policy requirements against Personalized Advertising rules for healthcare accounts.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/guides/google-ads-compliance-for-mental-and-behavioral-health",
+      "google-ads-compliance-for-mental-and-behavioral-close-up-paper-compliance-document-pen.webp",
+      "Close-up of a paper compliance document and pen resting on a wooden tabletop in soft daylight.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/guides/google-ads-compliance-for-mental-and-behavioral-health",
+      "google-ads-compliance-for-mental-and-behavioral-directional-stone-post-along-paved.webp",
+      "Directional stone post along a paved walkway outside a medical office building at dusk.",
+      "3 / 2",
+    ),
+  ],
   "/resources/guides/landing-page-optimization-paid-media/": [
     // [0] hero
     studioImg(
@@ -3862,29 +3968,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "resources/ai-seo-pricing",
       "ai-seo-pricing.webp",
-      "Healthcare marketing leaders analyzing organic search analytics and cost projections on a monitor in a modern office.",
-      "43 / 24",
+      "A wide view of a server room corridor with blue and green cabling organized inside dark equipment racks.",
+      "7 / 4",
     ),
     // [1] section image
     studioImg(
       "resources/ai-seo-pricing",
-      "ai-seo-pricing-two-technical-search-specialists.webp",
-      "Two technical search specialists reviewing semantic entity data and website schema at a dual-monitor workstation.",
-      "79 / 53",
+      "ai-seo-pricing-close-up-view-open-technical-audit.webp",
+      "A close-up view of an open technical audit ledger with blue and green index tabs on a tall wooden counter.",
+      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "resources/ai-seo-pricing",
-      "ai-seo-pricing-comparison-diagram-contrasting-rented.webp",
-      "Comparison diagram contrasting rented software wrappers against owned infrastructure across cost and data privacy.",
-      "79 / 53",
-    ),
-    // [3] section image
-    studioImg(
-      "resources/ai-seo-pricing",
-      "ai-seo-pricing-photo-specialized-ai-systems-how.webp",
-      "Operator reviewing a specialized AI system that supports search operations.",
-      "79 / 53",
+      "ai-seo-pricing-horizontal-three-step-process-diagram.webp",
+      "A horizontal three-step process diagram illustrating Phase 1 Audit Repair, Phase 2 Governed Production, and Phase 3 Specialist Growth.",
+      "3 / 2",
     ),
   ],
   "/resources/fractional-cmo/": [
@@ -4194,29 +4293,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "resources/ai-infrastructure",
       "ai-infrastructure.webp",
-      "Marketing executive and systems operator collaborating beside an owned compute workstation in a bright office.",
-      "43 / 24",
+      "A dedicated server rack with clean cable management inside a climate-controlled equipment room.",
+      "7 / 4",
     ),
     // [1] section image
     studioImg(
       "resources/ai-infrastructure",
-      "ai-infrastructure-photo-three-layers-marketing-ai.webp",
-      "Marketing leader mapping subscription, API, and owned layers of AI tooling.",
-      "79 / 53",
+      "ai-infrastructure-yellow-note-attached-corner-bezel-high.webp",
+      "A yellow note attached to the corner bezel of a high-performance batch processing workstation.",
+      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "resources/ai-infrastructure",
-      "ai-infrastructure-horizontal-bar-chart-comparing-three.webp",
-      "Horizontal bar chart comparing three-year costs for SaaS seats, hosted APIs, and owned local hardware.",
-      "79 / 53",
-    ),
-    // [3] section image
-    studioImg(
-      "resources/ai-infrastructure",
-      "ai-infrastructure-healthcare-admissions-director-marketing.webp",
-      "Healthcare admissions director and marketing manager reviewing regional intake workflows in an office.",
-      "79 / 53",
+      "ai-infrastructure-comparison-chart-displaying-break-even.webp",
+      "A comparison chart displaying break-even utilization thresholds between owned compute hardware and cloud services.",
+      "3 / 2",
     ),
   ],
   "/resources/meta-ads-cost/": [
@@ -5724,29 +5816,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "resources/ai-ownership",
       "ai-ownership.webp",
-      "A marketing operations director reviews local terminal diagnostics and attribution models on a monitor in a sunlit office.",
-      "43 / 24",
+      "A wide view of enterprise server hardware racks with sky blue ambient indicators in a quiet room.",
+      "7 / 4",
     ),
     // [1] section image
     studioImg(
       "resources/ai-ownership",
-      "ai-ownership-growth-marketing-manager-reviews.webp",
-      "A growth marketing manager reviews fragmented software invoices across dual screens in an office setting.",
-      "79 / 53",
+      "ai-ownership-industrial-steel-power-conduit-box.webp",
+      "An industrial steel power conduit box and cabling mounted on a concrete building wall in direct sunlight.",
+      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "resources/ai-ownership",
-      "ai-ownership-comparison-chart-contrasting-linear.webp",
-      "A comparison chart contrasting linear cloud API expenses against fixed capital expenditure for owned infrastructure.",
-      "79 / 53",
-    ),
-    // [3] section image
-    studioImg(
-      "resources/ai-ownership",
-      "ai-ownership-photo-operator-model-deploying.webp",
-      "Operator and marketing lead reviewing a plan to deploy specialized AI systems.",
-      "79 / 53",
+      "ai-ownership-five-step-process-diagram-illustrating.webp",
+      "A five-step process diagram illustrating the flow from input separation to human verification and output record writing.",
+      "3 / 2",
     ),
   ],
   "/resources/ai-marketing-ideas/": [
@@ -7051,30 +7136,30 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "resources/ai-search-healthcare-patient-acquisition",
-      "ai-search-optimization-healthcare.webp",
-      "Healthcare marketing and clinical operations executives review digital patient acquisition metrics on a display in a conference room.",
-      "43 / 24",
+      "ai-search-healthcare-patient-acquisition.webp",
+      "Mother searching on phone at kitchen table at night for her son's behavioral health care options.",
+      "7 / 4",
     ),
     // [1] section image
     studioImg(
       "resources/ai-search-healthcare-patient-acquisition",
-      "ai-search-optimization-healthcare-diagram-illustrating-four-step-ai-search.webp",
-      "Diagram illustrating the four-step AI search retrieval process from natural language query to synthesized healthcare answer.",
-      "79 / 53",
+      "ai-search-healthcare-patient-acquisition-empty-admissions-phone-station-intake.webp",
+      "Empty admissions phone station and intake folders in healthcare facility corridor at dusk.",
+      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "resources/ai-search-healthcare-patient-acquisition",
-      "ai-search-optimization-healthcare-technical-director-web-engineer.webp",
-      "Technical director and web engineer reviewing structured healthcare schema and JSON-LD code on an office workstation screen.",
-      "79 / 53",
+      "ai-search-healthcare-patient-acquisition-four-step-vertical-flow-diagram-creating.webp",
+      "Four-step vertical flow diagram for creating intake-legible content: inventory questions, assign canonical page, make facts machine-readable, wire answers to intake.",
+      "3 / 2",
     ),
     // [3] section image
     studioImg(
       "resources/ai-search-healthcare-patient-acquisition",
-      "ai-search-optimization-healthcare-healthcare-data-strategist-monitoring.webp",
-      "Healthcare data strategist monitoring private marketing data infrastructure and compliance telemetry at an office workstation.",
-      "79 / 53",
+      "ai-search-healthcare-patient-acquisition-guardrail-along-winding-mountain-road.webp",
+      "Guardrail along winding mountain road at dawn illustrating compliance constraints in healthcare strategy.",
+      "3 / 2",
     ),
   ],
   "/resources/choose-mental-health-marketing-agency/": [
@@ -10212,15 +10297,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ),
   ],
 
-  // Concept slot uses the clean compliance icon set (05) — Asana's 02 carried
-  // hex-swatch placeholders and a garbled "COMPLILADICS" label.
-  "/resources/compliance-ad-policy/": std4("resources/compliance-ad-policy", [
-    "Guide to healthcare advertising compliance: protect your campaigns, budget, and organization from preventable compliance failures",
-    "Healthcare advertising compliance areas: HIPAA regulations, LegitScript certification, FTC standards, platform policies, and compliance strategies",
-    "The healthcare advertising compliance framework: define requirements, conduct audits, build a review process, and monitor policies",
-    "Healthcare advertising compliance data: major risk layers, HIPAA checkpoints in ads, the LegitScript certification mandate, and quarterly audit benefits",
-  ]),
-
 
 
   // 03 process infographic was a placeholder draft ("Rehulini tive Variable",
@@ -10270,32 +10346,35 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // 03 process infographic had a duplicated step number, so the performance
   // stats graphic (04) fills the second slot. Three clean images.
   "/resources/guides/creative-testing-system-for-meta-ads/": [
-    pageImg(
+    // [0] hero
+    studioImg(
       "resources/guides/creative-testing-system-for-meta-ads",
-      "01-hero-banner.jpg",
-      "Optimizing creative testing for Meta Ads: systematic iteration, data-driven results, and continuous improvement",
+      "creative-testing-system-for-meta-ads.webp",
+      "Marketing director reviewing printed ad performance reports in a hospital office early morning.",
+      "7 / 4",
     ),
-    pageImg(
+    // [1] section image
+    studioImg(
       "resources/guides/creative-testing-system-for-meta-ads",
-      "02-concept.jpg",
-      "The systematic creative testing loop for Meta Ads: hypothesize and build, structure tests, measure results, and iterate and scale",
+      "creative-testing-system-for-meta-ads-ringing-desk-phone-printed-ad-variant.webp",
+      "Ringing desk phone and printed ad variant sheets with notes on a marketing office table.",
+      "3 / 2",
     ),
-    pageImg(
+    // [2] section image
+    studioImg(
       "resources/guides/creative-testing-system-for-meta-ads",
-      "03-process.jpg",
-      "Boosting Meta Ads performance through creative testing: up to 40% lower cost per acquisition, the iteration framework, and creative best practices",
+      "creative-testing-system-for-meta-ads-vertical-timeline-infographic-five-day.webp",
+      "Vertical timeline infographic of the five-day weekly creative testing cadence for Meta ads.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/guides/creative-testing-system-for-meta-ads",
+      "creative-testing-system-for-meta-ads-metal-key-open-testing-log-notebook.webp",
+      "Metal key on an open testing log notebook in a server room at dusk.",
+      "3 / 2",
     ),
   ],
-
-  "/resources/guides/google-ads-compliance-for-mental-and-behavioral-health/": std4(
-    "resources/guides/google-ads-compliance-for-mental-and-behavioral-health",
-    [
-      "Master Google Ads compliance for mental health: LegitScript certified, sensitive-vertical adherent, and HIPAA-compliant data",
-      "Google Ads compliance for mental and behavioral health advertising: LegitScript, HIPAA, and sensitive-vertical guardrails",
-      "Navigating Google Ads compliance for healthcare: obtain certification, implement sensitive-vertical restrictions, optimize compliant pages, and ensure regulatory alignment",
-      "Google Ads compliance data: the LegitScript certification gateway, key compliance pillars, ad-disapproval triggers, and the impact of a compliance-first posture",
-    ],
-  ),
 
   // 01 hero had a placeholder headline and 02 was a "Just Sans Variable" draft,
   // so the clean overview (08) is promoted to hero, followed by process (03),
@@ -10404,16 +10483,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
      grid as hero and one quote card or data graphic in-article. AI-generated
      people-photo hero banners were dropped. Guides still awaiting review keep
      their original set. ---- */
-
-  "/resources/guides/microsoft-ads-behavioral-health/": std4(
-    "resources/guides/microsoft-ads-behavioral-health",
-    [
-      "Microsoft Ads for behavioral health: diversify beyond Google, reach high-intent audiences, and lower competition",
-      "Diversify beyond Google: how Microsoft Ads reaches qualified behavioral health audiences with lower CPCs, desktop reach, LinkedIn layering, and admission tracking",
-      "Microsoft Ads vs Google Ads for behavioral health: lower CPCs, less competition, older higher-income users, desktop strength, and easy campaign import",
-      "Diversifying beyond Google is how treatment centers win in a competitive landscape: reach high-intent audiences at a lower cost and focus on admissions",
-    ],
-  ),
 
   "/resources/guides/brand-citation-share-ai-metric/": std4(
     "resources/guides/brand-citation-share-ai-metric",
@@ -10532,17 +10601,33 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
 
   "/resources/guides/intake-handoff-marketing-roi/": [
     // [0] hero
-    pageImg(
+    studioImg(
       "resources/guides/intake-handoff-marketing-roi",
-      "02-concept.jpg",
-      "From lead to admission: a clearer intake handoff improves conversion and ROI across response time, qualification, scheduling, and measurement",
+      "intake-handoff-marketing-roi.webp",
+      "Sunlit interior entrance hall of a modern healthcare facility with glass doors and polished concrete floors at dawn.",
+      "7 / 4",
     ),
-    // [1] single in-article slot
-    shaped("1 / 1", pageImg(
+    // [1] section image
+    studioImg(
       "resources/guides/intake-handoff-marketing-roi",
-      "04-results.jpg",
-      "Every lead you don't convert isn't just a missed admission, it's lost impact: optimize intake to maximize every marketing dollar",
-    )),
+      "intake-handoff-marketing-roi-phone-headset-closed-intake-folder.webp",
+      "A phone headset and closed intake folder resting on a sunlit wooden desk in an admissions office.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "resources/guides/intake-handoff-marketing-roi",
+      "intake-handoff-marketing-roi-horizontal-timeline-diagram-illustrating.webp",
+      "A horizontal timeline diagram illustrating five intake progression steps from initial call to arrival plan.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/guides/intake-handoff-marketing-roi",
+      "intake-handoff-marketing-roi-two-physical-document-folders-resting.webp",
+      "Two physical document folders resting side by side on a dark wooden table with a pen.",
+      "3 / 2",
+    ),
   ],
 
   "/resources/guides/private-equity-rollup-threat-treatment-centers/": [
@@ -10857,15 +10942,26 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.
   "/media/": [
-    pageImg(
-      "media/hub",
-      "01-hero-banner.jpg",
-      "Marketing Powered media coverage: industry recognition, compliance leadership, and measurable results",
+    // [0] hero
+    studioImg(
+      "media",
+      "media.webp",
+      "Operator-style professional reviewing paid media performance data on a monitor in a clean office setting.",
+      "7 / 4",
     ),
-    pageImg(
-      "media/hub",
-      "05-capabilities.jpg",
-      "Media coverage themes: media coverage, behavioral health, agency credibility, documented results, compliance leadership, and measurable impact",
+    // [1] section image
+    studioImg(
+      "media",
+      "media-healthcare-marketing-lead-operator.webp",
+      "Healthcare marketing lead and operator-consultant meeting in a hospital administrative conference room to discuss advertising strategy.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "media",
+      "media-comparison-diagram-showing-lead-only.webp",
+      "Comparison diagram showing lead-only attribution tracking versus attribution tracked to admission.",
+      "3 / 2",
     ),
   ],
 
@@ -10936,20 +11032,33 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // 04 stats carried a garbled headline ("BRAND BPIND / BRAND BRAND"), so three
   // clean images are used: hero, the brand-kit showcase, and the access process.
   "/media/brand-assets/": [
-    pageImg(
+    // [0] hero
+    studioImg(
       "media/brand-assets",
-      "01-hero-banner.jpg",
-      "Find and download official brand assets: logos, brand kits, and usage guidelines for media and partners",
+      "brand-assets.webp",
+      "Marketing Powered primary logo on brand background.",
+      "7 / 4",
     ),
-    pageImg(
+    // [1] section image
+    studioImg(
       "media/brand-assets",
-      "02-concept.jpg",
-      "The Marketing Powered brand kit: logo files (PNG, SVG, EPS), the color palette, typography, and usage guidelines",
+      "brand-assets-grid-overview-brand-kit-contents-logo.webp",
+      "Grid overview of brand kit contents: logo, color swatches, and typography specimen.",
+      "3 / 2",
     ),
-    pageImg(
+    // [2] section image
+    studioImg(
       "media/brand-assets",
-      "03-process.jpg",
-      "How to access and use brand assets: find and download the kit, review the guidelines, and implement and represent the brand consistently",
+      "brand-assets-marketing-powered-brand-color-palette.webp",
+      "Marketing Powered brand color palette: electric blue, black, white, and green swatches with hex values.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "media/brand-assets",
+      "brand-assets-marketing-powered-team-working.webp",
+      "Marketing Powered team working in a professional office setting.",
+      "3 / 2",
     ),
   ],
 
@@ -11028,16 +11137,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ),
   ],
 
-
-  "/research/studies/attribution-reality-check/": std4(
-    "research/studies/attribution-reality-check",
-    [
-      "Unveiling the reality in marketing attribution: how $50M+ in media spend reveals what models actually deliver",
-      "The attribution gap: marketing channels and attributed performance versus actual business outcomes and real value",
-      "Methodology, the Greenfield attribution study: gather multi-platform data, evaluate seven models, calculate accuracy ratios, identify over/under-credit, and publish robust findings",
-      "Reality check, marketing attribution study findings: the attribution gap of expectation versus reality, systematic bias by channel, and accuracy impact on media spend",
-    ],
-  ),
 
   "/research/studies/meta-ads-benchmarks/": std4(
     "research/studies/meta-ads-benchmarks",
@@ -11190,25 +11289,33 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // "Light weight black" placeholder + typos; the clean concept (02) is promoted
   // to hero, with the compliance process, summary takeaways, and icon set.
   "/accessibility/": [
-    pageImg(
+    // [0] hero
+    studioImg(
       "accessibility",
-      "01-hero-banner.jpg",
-      "Our accessibility commitment, building inclusive digital experiences: ADA compliance, patient access, and WCAG 2.1 AA standards",
+      "accessibility.webp",
+      "Modern office workspace with desk laptop and adjustable monitor representing an accessible considered digital environment.",
+      "7 / 4",
     ),
-    pageImg(
+    // [1] section image
+    studioImg(
       "accessibility",
-      "02-concept.jpg",
-      "Our accessibility compliance process: full website assessment, strategic compliance plan, barrier removal guidance, and sustainable accessibility against WCAG 2.1 AA standards",
+      "accessibility-person-navigating-website-using-keyboard.webp",
+      "Person navigating a website using keyboard controls.",
+      "3 / 2",
     ),
-    pageImg(
+    // [2] section image
+    studioImg(
       "accessibility",
-      "03-process.jpg",
-      "Summary takeaways on understanding your accessibility statement: what it is, achieving WCAG 2.1 AA compliance, our human-led approach, and why accessibility matters in healthcare",
+      "accessibility-diagram-showing-repeating-cycle.webp",
+      "Diagram showing a repeating cycle of accessibility review, issue identification, remediation, and re-testing.",
+      "3 / 2",
     ),
-    pageImg(
+    // [3] section image
+    studioImg(
       "accessibility",
-      "04-results.jpg",
-      "Accessibility statement essentials: understand standards, ensure ADA compliance, perform audits, boost usability, serve patients better, and build trust",
+      "accessibility-desk-phone-laptop-representing.webp",
+      "Desk phone and laptop representing alternative contact paths for third-party content and integrations.",
+      "3 / 2",
     ),
   ],
 

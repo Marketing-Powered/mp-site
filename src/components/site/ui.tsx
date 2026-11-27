@@ -101,7 +101,8 @@ export function GhostCta({
    Internal links (/…) use next/link; external links open in a new tab. */
 export function RichText({ text }: { text: string }) {
   const parts: React.ReactNode[] = [];
-  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  // the label may itself be a bracketed citation marker: [[1]](https://…)
+  const re = /\[(\[[^\]]+\]|[^\]]+)\]\(([^)]+)\)/g;
   let last = 0;
   let m: RegExpExecArray | null;
   let key = 0;

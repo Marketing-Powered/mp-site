@@ -86,6 +86,24 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/resources/peptide-ad-appeal-evidence-packet/": [
+    // [0] hero
+    studioImg(
+      "resources/peptide-ad-appeal-evidence-packet",
+      "peptide-ad-appeal-evidence-packet.webp",
+      "An open legal document sleeve and brass key sit on a dark wood reception counter in a clinic hallway.",
+      "3 / 2",
+    ),
+  ],
+  "/who-we-help/mental-health/therapy-groups/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/mental-health/therapy-groups",
+      "therapy-groups.webp",
+      "Exterior view of a modern multi-suite outpatient healthcare facility with glass doors and morning sunlight.",
+      "7 / 4",
+    ),
+  ],
   "/who-we-help/behavioral-health/iop-php/": [
     // [0] hero
     studioImg(
@@ -1123,52 +1141,31 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "resources/peptide-marketing-ad-suspension-continuity",
-      "peptide-ad-suspension-business-continuity.webp",
-      "A sealed shipping box and inspection clipboard rest on a stainless steel worktable in a distribution facility.",
+      "peptide-marketing-ad-suspension-continuity.webp",
+      "Exterior view of a modern medical clinic building at dawn with glass entrance doors and empty parking spaces.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "resources/peptide-marketing-ad-suspension-continuity",
-      "peptide-ad-suspension-business-continuity-four-labeled-archival-binders-stand.webp",
-      "Four labeled archival binders stand in a wooden organizer on an archive room shelf.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "resources/peptide-marketing-ad-suspension-continuity",
-      "peptide-ad-suspension-business-continuity-vertical-process-diagram-showing-four.webp",
-      "A vertical process diagram showing four compliance review stages from lawful operation to account standing.",
-      "3 / 2",
-    ),
-    // [3] section image
-    studioImg(
-      "resources/peptide-marketing-ad-suspension-continuity",
-      "peptide-ad-suspension-business-continuity-enclosed-server-rack-neatly-organized.webp",
-      "An enclosed server rack with neatly organized blue ethernet cables and green indicator lights.",
-      "3 / 2",
     ),
   ],
   "/resources/peptide-content-clinical-review/": [
     // [0] hero
     studioImg(
       "resources/peptide-content-clinical-review",
-      "peptide-content-review.webp",
-      "An empty clinical research archive hallway lined with gray reference binders on steel shelves in natural morning light.",
+      "peptide-content-clinical-review.webp",
+      "A clinical review binder and pen resting on a bright clinic reception counter near a glass entrance corridor.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "resources/peptide-content-clinical-review",
-      "peptide-content-review-three-column-comparison-diagram.webp",
-      "Three-column comparison diagram categorizing peptide content into Category Education, Service Explanation, and Clinical Claims.",
-      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "resources/peptide-content-clinical-review",
-      "peptide-content-review-close-up-metal-date-stamp-resting-beside.webp",
-      "Close-up of a metal date stamp resting beside stacked linen document folders with green indexing tabs on a stone surface.",
+      "peptide-content-clinical-review-wall-mounted-compliance-tracking-board.webp",
+      "A wall-mounted compliance tracking board displaying review dates and color-coded status markers in a clinic corridor.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "resources/peptide-content-clinical-review",
+      "peptide-content-clinical-review-compliance-coordinator-carrying-document.webp",
+      "A compliance coordinator carrying a document folder down a bright clinical hallway.",
       "3 / 2",
     ),
   ],
@@ -4122,30 +4119,16 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "resources/ai-marketing-tools",
-      "ai-marketing-tools.webp",
-      "Marketing director and operations strategist reviewing campaign workflows on a laptop in a brightly lit modern office.",
-      "43 / 24",
-    ),
-    // [1] section image
-    studioImg(
-      "resources/ai-marketing-tools",
-      "ai-marketing-tools-two-marketing-professionals-discussing.webp",
-      "Two marketing professionals discussing software workflow bottlenecks at a desktop workstation in an office.",
-      "79 / 53",
+      "ai-marketing-tools-two-column-comparison-graphic-evaluating.webp",
+      "A two-column comparison graphic evaluating rented software wrappers against owned workflow systems.",
+      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "resources/ai-marketing-tools",
-      "ai-marketing-tools-comparison-diagram-displaying-trade-offs.webp",
-      "Comparison diagram displaying trade-offs between rented SaaS tools and owned internal marketing workflows.",
-      "79 / 53",
-    ),
-    // [3] section image
-    studioImg(
-      "resources/ai-marketing-tools",
-      "ai-marketing-tools-marketing-operations-manager-analyzing.webp",
-      "Marketing operations manager analyzing search query data and ad performance on dual monitors in a daylight office.",
-      "79 / 53",
+      "ai-marketing-tools-intake-phone-station-folder-counter.webp",
+      "An intake phone station and folder on a counter in a clinic entry at morning light.",
+      "3 / 2",
     ),
   ],
   "/resources/ai-seo-pricing/": [
@@ -6022,29 +6005,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "resources/marketing-economics",
       "marketing-economics.webp",
-      "Two executives analyze marketing unit economics and customer acquisition data at a boardroom table.",
-      "43 / 24",
-    ),
-    // [1] section image
-    studioImg(
-      "resources/marketing-economics",
-      "marketing-economics-marketing-director-finance-executive.webp",
-      "A marketing director and finance executive discuss capital allocation during a conference meeting.",
-      "79 / 53",
+      "Exterior view of a modern multi-story healthcare clinic building with glass windows and green landscaping at dawn.",
+      "7 / 4",
     ),
     // [2] section image
     studioImg(
       "resources/marketing-economics",
-      "marketing-economics-diagram-showing-how-conversion-rate.webp",
-      "A diagram showing how conversion rate increases customer acquisition from the same traffic volume.",
-      "79 / 53",
+      "marketing-economics-clean-interior-hallway-multi-location.webp",
+      "Clean interior hallway of a multi-location medical clinic showing open consultation room doors.",
+      "3 / 2",
     ),
     // [3] section image
     studioImg(
       "resources/marketing-economics",
-      "marketing-economics-photo-conversion-optimization-intake.webp",
-      "Operator reviewing conversion and intake automation results against marketing spend.",
-      "79 / 53",
+      "marketing-economics-close-up-view-hands-holding-physical.webp",
+      "Close-up view of hands holding a physical patient intake file folder with a green status tab.",
+      "3 / 2",
     ),
   ],
   "/resources/local-llm/": [
@@ -9864,16 +9840,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ),
   ],
 
-  "/who-we-help/mental-health/therapy-groups/": std4(
-    "who-we-help/mental-health/therapy-groups",
-    [
-      "Therapy practice marketing built for compliance and qualified client growth",
-      "Therapy practice marketing flow: compliance and reputation, performance campaigns, and qualified client inquiries",
-      "Proven framework for therapy practice marketing: define and optimize high-intent channels, build authority and trust, expand reach and referrals, measure and optimize",
-      "Measuring success for therapy practice marketing: channel effectiveness, inquiry-to-intake conversion, return on ad spend, and lifetime value by acquisition",
-    ],
-  ),
-
   /* ---- Company: Contact ---- */
 
 
@@ -9987,9 +9953,13 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // Hero is the article's original illustration (cover); in-article section
   // slots use brand icon set + takeaways graphics.
   "/top-10-open-source-ai-models-of-2025/": [
-    { src: "/images/pages/top-10-open-source-ai-models-of-2025/01-hero.jpg", alt: "Top 10 open source AI models of 2025", fit: "cover" },
-    ICONS,
-    TAKEAWAYS,
+    // [0] hero
+    studioImg(
+      "top-10-open-source-ai-models-of-2025",
+      "top-10-open-source-ai-models-of-2025.webp",
+      "A wide server room corridor with tall metal equipment racks and sky blue status LEDs.",
+      "7 / 4",
+    ),
   ],
 
   /* ---- Resources cluster ---- */

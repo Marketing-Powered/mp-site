@@ -86,6 +86,29 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/who-we-help/mental-health/tele-mental-health/": [
+    // [0] hero
+    studioImg(
+      "who-we-help/mental-health/tele-mental-health",
+      "tele-mental-health.webp",
+      "A wide ocean highway framed by pine trees at dawn under a clear morning sky.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "who-we-help/mental-health/tele-mental-health",
+      "tele-mental-health-glass-entrance-doors-quiet-outpatient.webp",
+      "The glass entrance doors of a quiet outpatient clinic building at dusk.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "who-we-help/mental-health/tele-mental-health",
+      "tele-mental-health-wall-clock-mounted-sunlit-hallway.webp",
+      "A wall clock mounted in a sunlit hallway showing late afternoon time.",
+      "3 / 2",
+    ),
+  ],
   "/research/studies/llm-advertising-early-signals/": [
     // [0] hero
     studioImg(
@@ -9986,16 +10009,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "79 / 53",
     ),
   ],
-
-  "/who-we-help/mental-health/tele-mental-health/": std4(
-    "who-we-help/mental-health/tele-mental-health",
-    [
-      "Telehealth marketing for mental health: acquire patients and scale virtually with AI-powered strategies",
-      "Boosting virtual mental health appointments: geo-targeted paid media, telehealth-specific SEO, and HIPAA-conscious campaigns",
-      "Proven process for virtual provider patient acquisition: compliance audit, paid media targeting, multi-state landing pages, full-funnel attribution, AI optimization",
-      "Effective telehealth marketing strategies: virtual visits up 30x, geographic precision, attribution to admission, 20-40% lower cost per acquisition",
-    ],
-  ),
 
   "/who-we-help/mental-health/therapy-groups/": std4(
     "who-we-help/mental-health/therapy-groups",

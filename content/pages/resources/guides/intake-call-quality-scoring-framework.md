@@ -1,144 +1,80 @@
 ---
-title: "Call Quality Scoring Intake Guide | MP"
+title: "Intake call quality scoring framework for healthcare"
 url: "/resources/guides/intake-call-quality-scoring-framework/"
-primary_keyword: "call quality scoring intake"
+primary_keyword: ""
+author: "mike-hulick"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /resources/guides/intake-call-quality-scoring-framework/ with primary keyword 'call quality scoring intake' and secondary keywords 'intake call quality, treatment center call scoring, conversation intelligence behavioral health.' Word count target is 2000-2500 words. Page type: Cornerstone guide / resource page. Buyer target: COO or Quality Assurance Manager at a behavioral health treatment center seeking practical methods to improve intake call effectiveness.
-Page type: Cornerstone guide / Resource page
-Buyer target: COO or Quality Assurance Manager at a behavioral health treatment center
-Word count target: 2000-2500
-
-
 SEO METADATA
-Title tag (42 chars): Call Quality Scoring Intake Guide | MP
-Meta description (124 chars): Master intake call quality scoring to boost patient engagement and admissions in behavioral health. Download the framework now.
-H1: Mastering Call Quality Scoring for Intakes in Behavioral Health
-Hero image alt: Behavioral health intake specialist on a call with quality scoring metrics displayed on screen
+Title tag: Intake call quality scoring framework for healthcare
+Meta description: Score healthcare intake calls on observable behaviors, tie weights to real dispositions, and keep call data inside platform privacy rules.
+H1: An intake call quality scoring framework that predicts the next step
+Hero image alt: A printed call evaluation rubric clipboard sitting on an empty wooden reception counter next to a desk phone.
 
 
 PAGE COPY
 
-
-Mastering Call Quality Scoring for Intakes in Behavioral Health
-A practical framework for COOs and QA managers who need to measure, improve, and scale intake call performance across their treatment center teams.
-[CTA] Book a Discovery Call
-
-
-The Importance of Call Quality Scoring
-Every admission starts with a conversation. For behavioral health treatment centers, that first intake call determines whether a person in crisis becomes a patient or falls through the cracks. Intake call quality scoring processes give you visibility into what actually happens during those conversations, not just whether the phone was answered.
-The stakes are not abstract. A 2023 analysis from the Substance Abuse and Mental Health Services Administration found that only 10.8% of people with a substance use disorder received treatment in the past year. When someone does call, you cannot afford a weak intake experience. Scoring those calls systematically helps you identify where your team excels and where leads slip away.
-Consistency matters as much as individual performance. Without a scoring framework, intake quality depends entirely on who picks up the phone. One specialist might demonstrate exceptional empathy and close 60% of calls. Another might rush through the conversation and lose half of their opportunities. Call quality scoring gives you the data to replicate what works and coach what does not.
-Beyond individual performance, scoring creates a direct link between your marketing spend and admission outcomes. When you track attribution through to admission, as we do across $50M+ in managed behavioral health media spend, you see exactly which channels produce calls that convert. That insight changes how you allocate budget and how you train your team to handle leads from different sources.
-Building an Effective Scoring Framework
-An effective call scoring framework measures what actually predicts admission outcomes, not what sounds good on paper. Start with the behaviors that separate high-converting intake specialists from average performers, then build your scorecard around those observable actions.
-Core Scoring Dimensions
-Communication clarity forms the foundation. Score whether the specialist clearly explained the admissions process, insurance verification steps, and what the caller can expect next. Ambiguity kills conversions. Callers in crisis need concrete information delivered calmly.
-Empathy and rapport separate transactional calls from therapeutic ones. This is not about sounding nice. Score whether the specialist acknowledged the caller's situation, used the caller's name appropriately, and demonstrated active listening through relevant follow-up questions. Research published in the Journal of Substance Abuse Treatment consistently shows that perceived empathy in initial contact predicts treatment engagement.
-Information gathering completeness determines whether your team captured what they need to move the admission forward. Did they collect insurance information? Confirm the substance or presenting issue? Identify barriers to admission? Incomplete information creates friction that lets leads go cold.
-Compliance adherence is non-negotiable in behavioral health. Score whether the specialist avoided prohibited language, stayed within scope, and did not make promises the treatment center cannot keep. This protects the organization and the patient.
-Next-step commitment measures whether the call ended with a clear path forward. Did the specialist schedule a callback, initiate a benefits verification, or transfer to clinical staff? Calls that end with vague assurances rarely convert.
-Weighting Your Scorecard
-Not every dimension carries equal weight. Assign point values based on correlation with admission outcomes. For most treatment centers, empathy and next-step commitment drive conversions more than perfect information gathering. Your data will tell you where to weight your scorecard, but only if you are tracking attribution through to admission.
-Build your framework with 10 to 15 scorable elements maximum. More granularity sounds thorough, but creates reviewer fatigue and inconsistent application. A focused scorecard applied consistently beats an exhaustive one used sporadically.
-Technology in Call Scoring
-Manual call scoring does not scale. Listening to recordings, scoring each element, and documenting results takes 15 to 30 minutes per call. At any meaningful call volume, that math breaks down quickly. Technology changes the equation.
-Conversation intelligence platforms use AI to transcribe, analyze, and score calls automatically. The technology has matured significantly since 2022, when Marketing Powered began integrating AI-native approaches into client workflows. Today, these systems can identify specific phrases, measure talk-to-listen ratios, flag compliance risks, and score empathy signals with accuracy that rivals trained human reviewers.
-AI and healthcare applications in call scoring offer three core advantages:
-* Speed and coverage: AI scores every call, not a sample. You move from reviewing 5% of calls manually to analyzing 100% automatically. Issues surface immediately instead of festering undetected.
-* Consistency: Human reviewers drift over time. They score differently on Monday morning than on Friday afternoon. AI applies the same criteria to every call, eliminating reviewer variance.
-* Pattern recognition at scale: AI identifies trends across hundreds or thousands of calls that no human reviewer could detect. Which objections appear most often? Which responses correlate with conversions? Which specialists consistently miss specific scoring elements?
-Choosing the Right Technology
-Not all conversation intelligence platforms are built for behavioral health. Google Ads classifies addiction treatment as a sensitive vertical with specific restrictions. Your call scoring technology must handle protected health information appropriately. HIPAA compliance is not optional, and platforms that work for general sales teams may not meet healthcare data handling requirements.
-Look for platforms that offer configurable scoring criteria, real-time alerting for compliance flags, integration with your CRM or EMR, and clear data handling policies that satisfy your compliance officer. The technology should support your framework, not force you into a generic one.
-Benefits for Treatment Centers
-Implementing intake call quality scoring processes produces measurable returns across operations, marketing, and client satisfaction.
-Lower cost per admission: When intake calls convert at higher rates, you need fewer leads to fill beds. We have seen treatment centers reduce cost per admission by 25% to 40% simply by improving intake conversion rates through structured scoring and coaching. That improvement compounds when you are managing $1.5M to $2M monthly in paid media.
-Faster feedback loops: Without call scoring, you discover intake problems weeks or months later when census drops. With real-time scoring, you identify issues within hours. A new specialist struggling with insurance objections? You know by day two, not day thirty.
-Data-driven coaching: Subjective feedback rarely changes behavior. Showing a specialist that their empathy scores lag 15% behind the team average, with specific call examples, creates actionable improvement paths. Coaching becomes collaborative instead of confrontational.
-Attribution visibility: Call scoring data connects to your broader attribution model. You see not just which channels produce calls, but which produce calls that score well and convert. That insight lets you optimize media spend toward quality, not just quantity. This is the discipline we apply across managed accounts for organizations like Haven Health Management, which scaled from 3 to 24 locations with attribution tracked through to admission.
-Compliance documentation: Scored calls create an audit trail. If a question arises about what was said during an intake conversation, you have documentation. For treatment centers operating under LegitScript certification or preparing for Joint Commission review, that record matters.
-[CTA] Book a Discovery Call
-Step-by-Step Implementation
-Implementing a call quality scoring system does not require months of planning. Follow this sequence to move from concept to operational framework in four to six weeks.
-Step 1: Establish Your Baseline
-Before building a scorecard, understand current performance. Pull a random sample of 50 to 100 recent intake calls. Listen to each one and document what happens. Where do specialists excel? Where do calls break down? What patterns emerge?
-This baseline review should involve both operations leadership and your highest-performing intake specialists. They know what separates good calls from bad ones better than anyone.
-Step 2: Define Scoring Criteria
-Based on your baseline review, identify 10 to 15 scorable elements organized into the dimensions discussed earlier: communication clarity, empathy, information gathering, compliance, and next-step commitment. Assign point values that reflect each element's importance to conversion.
-Document specific examples of what constitutes a passing score versus a failing score for each element. Ambiguous criteria produce inconsistent scoring.
-Step 3: Select Your Technology
-Evaluate conversation intelligence platforms against your specific requirements. Prioritize HIPAA compliance, configurable scoring criteria, and integration with your existing systems. Request demos using actual call recordings with appropriate consent to see how each platform handles your specific scenarios.
-If budget constraints prevent immediate technology adoption, start with manual scoring on a sample basis. Even 10% coverage beats zero visibility.
-
-
-Step 4: Train Reviewers and Calibrate
-Whether you are using AI-assisted scoring or manual review, calibration ensures consistency. Have multiple reviewers score the same set of calls independently, then compare results. Where scores diverge, discuss the criteria and refine definitions until reviewers reach consistent conclusions.
-For AI platforms, this calibration phase feeds the system the examples it needs to score accurately. Most platforms require 100 to 200 scored examples before automated scoring reaches reliable accuracy.
-Step 5: Launch and Iterate
-Roll out scoring across all intake calls. Establish a review cadence: daily dashboards for operations managers, weekly coaching sessions for specialists, and monthly trend reviews for leadership.
-Your framework will need refinement. New objections emerge, compliance requirements shift, and high performers develop techniques worth codifying. Build quarterly reviews into your process to update scoring criteria based on what the data reveals.
-The organizations that extract the most value from call quality scoring treat it as an ongoing discipline, not a one-time project. They connect scoring data to patient engagement strategies, media optimization, and specialist development in a continuous improvement loop.
-Ready to Build Your Call Scoring Framework?
-Marketing Powered brings AI-native infrastructure and $50M+ in managed behavioral health media experience to every engagement. We understand the compliance requirements, the attribution challenges, and the operational realities of scaling treatment center admissions. Let's discuss how call quality scoring fits into your broader growth strategy.
-[CTA] Book a Discovery Call
-
-
-FAQ
-Q: What metrics are most important for intake call quality?
-A: Focus on response time, empathy indicators such as active listening and acknowledgment of the caller's situation, information clarity, including a clear explanation of next steps, and alignment with client needs through appropriate matching of services to the caller's presenting issues. Weight these metrics based on their correlation with actual admission outcomes in your data.
-Q: How does technology improve call quality scoring?
-A: Conversation intelligence platforms use AI to transcribe and analyze every call automatically, eliminating the sampling limitations of manual review. These systems capture data like talk-to-listen ratios, keyword usage, and sentiment signals while flagging compliance risks in real time. The result is 100% call coverage with consistent scoring criteria applied across your entire intake team.
-Q: Why is call scoring essential for treatment centers?
-A: Call scoring connects your marketing investment to admission outcomes by revealing which intake behaviors convert callers into patients. It provides objective data for coaching, ensures compliance documentation exists for every call, and identifies performance patterns across your team. Without scoring, intake quality depends entirely on individual specialist judgment with no visibility into what actually happens on calls.
-Q: What is conversation intelligence in behavioral health?
-A: Conversation intelligence refers to AI-powered platforms that record, transcribe, and analyze intake calls to extract actionable insights. In behavioral health specifically, these tools must handle protected health information appropriately under HIPAA while identifying patterns in caller objections, specialist responses, and conversion drivers. The technology enables treatment centers to improve patient engagement by understanding what happens during the first conversation.
-
-
-SCHEMA RECOMMENDATION
-Schema type: Article, FAQPage, BreadcrumbList
-* headline
-* author
-* datePublished
-* dateModified
-* description
-* mainEntityOfPage
-* publisher
-* FAQPage mainEntity with Question and acceptedAnswer for each FAQ item
-* BreadcrumbList with itemListElement for Resources > Guides > Intake Call Quality Scoring Framework
-
-
-DELIVERY NOTES
-External citations
-* Substance Abuse and Mental Health Services Administration 2023 report https://www.samhsa.gov/data/report/2023-nsduh-annual-national-report [Government/Public Health] - Authoritative source for treatment gap statistics establishing the stakes of intake call performance
-* Journal of Substance Abuse Treatment https://www.sciencedirect.com/journal/journal-of-substance-abuse-treatment [Peer-reviewed journal] - Academic source supporting the claim that perceived empathy predicts treatment engagement
-* Google Ads sensitive verticals policy https://support.google.com/adspolicy/answer/176031 [Platform policy] - Primary source for sensitive vertical classification and compliance requirements in behavioral health advertising
-
-
-Brief conflicts
-* The brief guidance for FAQ Question 1 used 'crucial' which appears on the banned phrasing list. Rephrased to 'most important' in the final output.
-* The brief section description for H2 1 used 'crucial' in guidance copy. Avoided in all body copy.
-
-
-Internal link gaps
-* A dedicated LegitScript certification or compliance page would strengthen the compliance documentation proof point in the Benefits section
-* A case study page featuring Haven Health Management would add credibility to the attribution and scaling reference
-* A dedicated conversation intelligence or AI tools page would support the technology section link
-
-
-Compliance flags
-* All outcome references framed as marketing and business performance metrics, not patient health outcomes
-* No retargeting implications introduced in technology discussion
-* HIPAA considerations explicitly addressed in technology selection guidance
-* No cure language or treatment efficacy claims made anywhere in the copy
-
-
-Missing proof points
-* Specific before-and-after conversion rate data from call scoring implementations would strengthen the Benefits section
-* Named conversation intelligence platform partnerships or integrations would add credibility to the Technology section
-* A client quote or case study excerpt referencing call scoring ROI would support the cost per admission reduction claim
-
-
-Banned phrasing in brief
-* crucial - appeared in brief guidance for H2 1 and FAQ Question 1, avoided in all body copy
+An intake call quality scoring framework that predicts the next step
+An intake score that cannot be tied to a scheduled next step or an admission is a coaching note with a number on it. This framework gives treatment centers, hospital service lines, and regulated intake teams one shared standard for a useful call. Score only what a second listener can hear on the recording, then join that score to source, location, and disposition.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Why the live call has to carry the conversion
+Picture a weekday morning at a multi-site intake desk. One coordinator is on a headset with a parent who found the program through search, while another returns an overnight voicemail. A third is checking whether a caller needs a service the facility actually offers at a location it can staff. The marketing report shows three calls, whereas the operating report needs three facts: who answered, what was asked, and whether a next step was set.
+That distinction matters more in healthcare because the usual recovery path for a missed conversation is restricted. Google treats health as a sensitive interest category in personalized advertising, covering physical or mental health conditions and counseling for issues such as depression, anxiety, and addiction. For ads in that category, advertisers cannot use advertiser-curated audiences, including Customer Match, your data segments, audience expansion, and lookalike segments, though predefined Google audiences remain available because Google excludes sensitive signals from them, per [Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855?hl=en).
+Marketing Powered is built for Google's sensitive healthcare vertical, where retargeting is not permitted. A caller who hangs up cannot be rebuilt into a remarketing list from a service-page visit. The live conversation is the conversion system, and call scoring shows leadership whether that system is holding by site and shift.
+National demand data underscores why a weak first call is costly. In the 2025 National Survey on Drug Use and Health (SAMHSA, 2025), 11.0 percent of people aged 12 or older who had a past-year substance use disorder received substance use treatment, and 89.0 percent did not, while 16.0 percent of those classified as needing substance use treatment received it, according to the [2025 NSDUH](https://www.samhsa.gov/data/sites/default/files/reports/rpt57150/2025-nsduh-annual-national-html/2025-nsduh-annual-national.htm). Those figures describe treatment receipt among the U.S. civilian, noninstitutionalized population aged 12 or older, not any organization's media benchmark, yet they show how rare it is for someone in need to reach a live line.
+The same logic applies outside addiction care. A hospital service line losing a qualified caller before a booked visit faces the same measurement gap, and a regulated professional-services firm faces it when a caller never reaches an attorney or clinician who can take the case. Score the outcome your organization is allowed to complete instead of borrowing another vertical's label.
+Score observable behaviors a second listener can hear
+A working scorecard is a short list of observable behaviors paired with written pass and miss examples. If two trained reviewers listen to the same recording and disagree on an item, that item is a preference rather than a criterion. Preferences create debates during coaching, while criteria show patterns managers can fix.
+Before scoring, confirm two prerequisites: your team has a written scope of services by site, and your compliance officer has approved the call-recording workflow. Once those are set, keep the card compact enough to run every week. A five-dimension card gets used; a forty-item checklist gets ignored until a complaint arrives.
+* Live opening; Pass behavior: Human answers promptly with a clear facility greeting and identifies call intent; Miss behavior: Voicemail drop, long unannounced hold, or failure to separate a patient inquiry from a vendor call; Scoring type: Weighted
+* Needs and fit; Pass behavior: Confirms service needed, caller timing, and site match inside role without diagnosing; Miss behavior: Offers clinical advice, guesses at eligibility, or holds an out-of-scope caller; Scoring type: Weighted
+* Practical logistics; Pass behavior: Covers insurance, referral rules, or site assignment and names who owns the next step; Miss behavior: Leaves benefits checks, required documents, or campus routing vague; Scoring type: Weighted
+* Compliance gate; Pass behavior: Stays inside approved program descriptions and makes no unsupported claims; Miss behavior: Promises clinical outcomes or advertises services outside certified scope; Scoring type: Pass or fail
+* Concrete close; Pass behavior: Sets a dated next step with a channel and named owner; Miss behavior: Ends with "someone will be in touch" or hangs up without a confirmation; Scoring type: Weighted
+Duration alone is a poor proxy for quality. A twelve-minute monologue can still miss the close, while a four-minute call that cleanly refers an out-of-scope caller elsewhere is a pass. Counting a well-handled wrong-fit call as a failed conversion teaches staff to keep callers who belong with another provider.
+Compliance belongs on the card as a pass-or-fail gate rather than style points. In the United States, Google's healthcare and medicines policy requires certification as an addiction services provider through LegitScript before recovery-oriented drug and alcohol addiction services can be advertised, and advertisers must also be certified with Google. Services that are not eligible for that certification are not allowed to advertise those services on Google, under the [Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031/). Marketing Powered is LegitScript-aware and HIPAA-aware, and a scorecard should confirm that every spoken offer stays inside what the certified program can actually provide.
+Weight points to a disposition you can defend
+Equal weights look tidy and usually hide the behavior that drives conversion. A polite insurance overview does not rescue a call that ends with no scheduled follow-up, and warm rapport does not fix a booking for a service the site cannot deliver. Assign point weights only after you define the disposition the scorecard is meant to predict.
+Name that disposition chain before opening a single recording. A treatment center may track qualified inquiry, benefits verification started, clinical screening scheduled, and admission decision. A hospital service line may track qualified inquiry, scheduled appointment, and completed visit, while a professional practice may stop at a booked consultation. Every "qualified" status needs a single operational owner, a set of not-qualified reason codes, and an unknown bucket for incomplete records. Unknown is a data-hygiene status, not a sales loss; if unknown grows, fix the handoff before rewriting the rubric.
+Once disposition history exists, weight the card toward items that separate calls that advance from calls that stall. Those weights are local to your operation. A residential program with complex benefits checks may find that naming a verification owner predicts advancement more than opening tone, while a specialty clinic with referral rules may find that confirming the referral on call one predicts kept visits. Do not borrow another company's point table, and if you lack historical outcome data, publish provisional weights and label them provisional until the disposition file is large enough to test.
+Connect attribution to the furthest legitimate outcome rather than stopping at call count. Marketing Powered tracks attribution to admission, not just lead, where authorized data supports that link, and evaluates paid search against conversion value per cost, where higher is better. Where admission data does not apply or is not authorized, stop at qualified, scheduled, or completed visit.
+Multi-location scale exposes why blended averages mislead leadership. The founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations. At multi-site scale, one network-wide conversion rate hides which campuses and which traffic sources are moving qualified callers forward, so weighting without a location break masks underperforming desks behind your strongest site.
+Calibrate reviewers before any model scores a call
+Put two reviewers in a room with the same ten recordings and have them score independently. Compare their marks item by item, because every disagreement shows a gap in your rubric. If one reviewer passes empathy for saying "I understand" and the other marks a miss because the specialist asked no follow-up question, rewrite the example until both reviewers point to the exact same words on the audio. Repeat calibration whenever a new reviewer joins, a new site opens, or the clinical offer changes.
+Manual review cannot cover every call once volume grows, so sample by rule instead of memory. Cover every location, every shift, every major traffic source, every new hire, and every call with an unknown disposition. Pure random sampling often misses a cheap media source that generates high call counts but low qualification rates.
+Model-assisted scoring can expand coverage only after human reviewers agree on the card. Marketing Powered has been AI-native since 2022, and the practical role for models here is transcription and item detection against written pass and miss examples, with a manager still owning coaching and rubric edits. A generic model trained to score sales calls will reward pushy closing tactics that fit poorly when a parent calls for an adolescent or a patient tries to book a procedure. Hold out a set of calibrated calls the model has not seen, and check item agreement against human scores before using model output in staff coaching.
+When transcripts may contain sensitive details that should stay under tight control, scoring inference can run on owned, local AI infrastructure for HIPAA-aware inference. Treat that setup as a deployment option rather than a certification; it does not mean every workload stays offline, and hardware ownership never changes who owns client data. Even with local inference, teams still need strict field limits, role-based access, and written rules for what never enters marketing reports.
+Reviewer drift happens on every team. People score differently at the start of a shift than at the end, and managers often excuse misses from specialists they like. Rotate in a reviewer who does not manage the rep being scored, and keep the short audio clip linked to the score so disputes are settled by listening.
+Hold recordings and scores inside a real data boundary
+A recorded healthcare inquiry can hold a caller's name, a family member's details, insurance information, a medical condition, and a care plan. Treating that recording like an ordinary marketing asset creates privacy exposure that undermines the entire program. Write down which fields marketing staff can view: source, location, duration, item scores, reason code, and disposition answer commercial questions without exposing transcripts in ad platforms or shared inboxes.
+Google draws an explicit line around its own call features. The [Call Ads Supplemental Terms](https://support.google.com/google-ads/answer/16914745?hl=en) state that, unless Google specifies otherwise in writing, Google does not intend use of its Communication Features to create obligations under HIPAA and makes no representations that those features satisfy HIPAA requirements. A covered entity or business associate that wants to use the features should not accept those terms and should ask Google for exclusion from monitoring and recording, because accepting the terms includes a warranty that the features will not be used in a manner involving protected health information.
+Apply that as an operational boundary rather than legal advice. Do not use Google's monitored call path as your intake recording library. Record only through a call-tracking setup reviewed by your compliance officer, using the recording notice and consent required in every state where you operate. When sending conversion events back to an ad platform, pass only an approved status such as qualified, scheduled, or admitted, with zero condition names, clinical notes, or patient identifiers.
+Keep that same discipline on web forms and landing-page URLs. A page slug containing a diagnosis or a CRM field synced directly to analytics can leak sensitive data even when call scoring is clean. Scoring hygiene and tracking hygiene are one workflow.
+Set a written retention schedule and restrict audio access to designated reviewers. The founder is a court-certified expert witness in advertising strategy, a background that reinforces keeping records an outside auditor can trace: which call was scored, against which written example, by whom, and on what date. If a third-party vendor offers transcription or scoring, confirm where audio sits, who can access it, whether a business associate agreement covers that workflow, and whether model training on your calls is disabled. If those answers are unclear, score a defined manual sample instead of uploading the library.
+Separate media problems from intake problems every week
+The report that turns scoring into commercial action is a source-by-location comparison rather than a rep leaderboard. Consider two search sources sending calls to the same campus during the same week.
+* Live-answered calls; Source A (Campus East): High volume; Source B (Campus East): Moderate volume; Primary diagnosis: Both reach the desk
+* Median fit and close score; Source A (Campus East): High fit, low qualification; Source B (Campus East): High fit, low close; Primary diagnosis: Different failure points
+* Share qualified; Source A (Campus East): Low; Source B (Campus East): High; Primary diagnosis: Source A traffic mismatch
+* Share reaching next step; Source A (Campus East): Low; Source B (Campus East): Stalled after benefits check; Primary diagnosis: Source B intake handoff gap
+* Unknown disposition rate; Source A (Campus East): Low; Source B (Campus East): Low; Primary diagnosis: Data clean enough to act
+A chief operating officer should be able to read that table without an analyst in the room. Source A is a targeting, keyword, or offer problem because specialists asked the right questions and still found callers outside program scope. Source B is an intake or scheduling problem because qualified callers arrived and stalled before a concrete close. If the unknown rate climbs for either row, fix disposition capture before cutting ad spend or retraining staff.
+Read the table by campus, because paid media in this vertical cannot use retargeting to recover callers dropped by a weak desk. Also track unit capacity as its own disposition; a high-scoring intake team that cannot book visits because beds or clinic slots are full is a capacity constraint, not a coaching failure.
+Run the framework in four numbered steps on a repeatable cadence:
+* Pull a baseline sample. Listen to recent calls across sites and sources with operations and one senior specialist to document where calls actually break.
+* Freeze the rubric and boundary. Publish the five scoring dimensions, pass and miss examples, provisional weights, disposition owners, and data-sharing limits.
+* Calibrate and coach weekly. Review unanswered calls, unknown dispositions, and compliance fails daily, then coach specialists weekly using short clips tied to specific items.
+* Reallocate monthly and audit quarterly. Use the monthly source-by-location table to decide whether the next dollar goes to media, staffing, or scheduling, and prune or update rubric items every quarter.
+Expected result: leadership separates traffic quality from desk execution within one operating cycle, coaches from evidence rather than opinion, and keeps every recorded conversion inside platform and privacy rules.
+Questions on scoring, privacy, and outcomes
+### Which scorecard items should carry the most weight?
+Weight the items that separate calls reaching your defined next step from calls that stall, once you have a clean disposition history. In most regulated intake teams, that puts the heaviest weight on accurate fit and a dated close, keeps compliance as a pass-or-fail gate, and scores rapport only when tied to relevant follow-up questions. Label initial weights as provisional until disposition volume supports local validation.
+### Can an AI model replace human call reviewers?
+No. A model can transcribe recordings and apply a calibrated rubric across higher call volumes, but it should not invent criteria, deliver coaching without a human manager and an audio clip, or run before reviewers agree on shared examples. Test model scores against held-out human-scored calls first, and treat owned, local AI infrastructure for HIPAA-aware inference as a deployment option for sensitive transcripts rather than a compliance certification.
+### What call data should never be sent to an ad platform?
+Never send audio recordings, transcripts, condition names, clinical details, or patient identifiers to an advertising platform. Under Google's [Call Ads Supplemental Terms](https://support.google.com/google-ads/answer/16914745?hl=en), Google does not intend its Communication Features to create HIPAA obligations, and a covered entity or business associate that wants to use the features should not accept those terms and should ask Google for exclusion from monitoring and recording. Pass only an approved conversion status back to the ad account.
+### How does this framework differ for hospitals versus treatment programs?
+The core call behaviors stay the same: prompt live answer, accurate scope matching, clear logistics, compliant descriptions, and a named next step. Only the outcome label changes, moving from authorized admission tracking in addiction treatment to scheduled or completed visits for hospital service lines and booked consultations for professional firms. Neither hospitals nor treatment centers can rely on advertiser-curated retargeting under Google's [Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855?hl=en) policy.
+### How often should teams revise the scoring card?
+Audit the scorecard quarterly, or sooner if your service mix, certification scope, or scheduling process changes. Update an item when calibrated reviewers disagree on it or when it stops predicting your disposition, and add written examples as new payer rules appear without inflating the total item count. Do not rewrite the card simply because monthly conversion rates shift with seasonality or capacity.
+[CTA] Request an intake and attribution audit → /get-started/request-an-audit/

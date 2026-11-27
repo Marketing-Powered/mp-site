@@ -1,108 +1,93 @@
 ---
-title: "Mental Health Marketing Playbook Guide"
+title: "Mental Health Marketing Playbook for Operators"
 url: "/resources/guides/mental-health-marketing-playbook/"
-primary_keyword: "mental health marketing"
+primary_keyword: ""
+author: "mike-hulick"
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /resources/guides/mental-health-marketing-playbook/ with a primary keyword of 'mental health marketing' and secondary keywords including 'mental health digital marketing,' 'mental health marketing campaigns,' and 'digital marketing for mental health professionals.' The target word count is 2000-2500 words. This is a cornerstone guide designed for marketing directors and business development managers at mental health practices or agencies who need strategic, compliance-aware marketing guidance. The core conversion action is requesting an audit.
-Page type: Cornerstone Guide
-Buyer target: Marketing director or business development manager at a mental health practice or agency
-Word count target: 2000-2500 words
-
-
 SEO METADATA
-Title tag (38 chars): Mental Health Marketing Playbook Guide
-Meta description (81 chars): Discover mental health marketing strategies and solutions. Request an audit today.
-H1: Comprehensive Guide to Mental Health Marketing Strategies
-Hero image alt: Mental health marketing strategy guide showing digital marketing channels and compliance frameworks for therapy practices
+Title tag: Mental Health Marketing Playbook for Operators
+Meta description: Build mental health marketing around clinical capacity, Google and Meta ad rules, HIPAA boundaries, and admission-level attribution.
+H1: Mental Health Marketing Playbook
+Hero image alt: Exterior view of a modern healthcare facility entrance at sunrise with stone paving and green foliage.
 
 
 PAGE COPY
 
-Comprehensive Guide to Mental Health Marketing Strategies
-Strategic frameworks for mental health practices that need qualified leads, compliant campaigns, and marketing partners who understand the category.
-[CTA] Request an Audit
-
-
-Why Standard Agency Playbooks Fail Mental Health Practices
-Mental health marketing operates under constraints that most agencies never encounter. Google classifies mental health services as a sensitive healthcare vertical, which eliminates retargeting entirely. Meta enforces strict limitations on health-related targeting. LegitScript certification requirements add another layer of scrutiny. These are not minor inconveniences. They fundamentally change how campaigns must be structured.
-Most marketing agencies approach mental health practices the same way they approach dentists or chiropractors. They propose retargeting funnels, broad demographic targeting, and conversion-focused landing pages that make claims about outcomes. This approach fails compliance review, wastes budget on disapproved ads, and generates leads that never convert to actual patients.
-The mental health sector requires marketing partners who understand clinical sensitivity, regulatory boundaries, and the longer decision cycles typical of therapy seekers. A person researching anxiety treatment is not making the same purchase decision as someone shopping for a new mattress. The messaging, the funnel structure, and the attribution model all need to reflect that reality.
-This guide draws from experience managing [over $50M in lifetime ad spend](/results/case-studies/) across behavioral health and mental health verticals. The strategies here are built on what actually works when you cannot retarget, when compliance teams review every ad, and when the goal is qualified admissions rather than vanity metrics. Mental health practice marketing demands this level of specialization.
-Channel Selection and Optimization for Therapy Practices
-Mental health digital marketing requires a different channel mix than other healthcare verticals. Search remains the highest-intent channel because people actively seeking therapy or psychiatric services are already problem-aware. Display and social function as awareness channels, but face severe targeting restrictions. Email works well for nurturing existing patient relationships, but cannot be used for acquisition in the same way retail brands use it.
-Search engine optimization forms the foundation of sustainable mental health marketing. When someone searches 'anxiety therapist near me' or 'depression treatment options,' organic visibility drives traffic without the per-click costs that strain smaller practice budgets. According to [Search Engine Journal's analysis of healthcare search behavior](https://www.searchenginejournal.com/healthcare-seo/), medical and mental health queries continue to grow year over year, and practices with strong local SEO capture a disproportionate share of new patient inquiries.
-
-Paid search through Google Ads remains effective but requires careful execution. Google's [healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031) prohibits certain targeting methods and ad formats. Campaigns must be structured around condition-related keywords with compliant landing pages that avoid outcome guarantees. The [paid media strategies](/services/paid-media/) that work in mental health look different from standard PPC playbooks.
-
-* Local SEO optimization: Google Business Profile completeness, local citations, and review velocity directly impact visibility for 'therapist near me' searches.
-* Content marketing: Educational content addressing specific conditions builds authority and captures long-tail search traffic from people researching symptoms and treatment options.
-* Paid search structure: Single keyword ad groups, tight geographic targeting, and compliant ad copy that focuses on accessibility rather than outcomes.
-* Social media presence: Organic content that educates and destigmatizes rather than direct-response advertising, which faces platform restrictions.
-Messaging, Channels, and Timing for Mental Health Audiences
-Mental health marketing campaigns succeed when they meet prospective patients where they are in their decision journey. Someone who just realized they might benefit from therapy is not ready to book an intake appointment. Someone who has been researching therapists for three weeks is. Campaigns must address both audiences with appropriate messaging and calls to action.
-Effective campaign messaging in mental health centers on accessibility, understanding, and professionalism. Avoid clinical jargon that creates distance. Avoid overly casual language that undermines credibility. The tone should feel like a knowledgeable professional who takes the work seriously but does not make it intimidating. Campaign creative should reflect the actual patient experience rather than stock imagery that feels generic.
-Channel selection depends on budget and practice specialty. A tele-mental health platform with national reach can invest in broader paid campaigns. A solo practitioner in a specific metro needs hyper-local targeting. [IOP and PHP programs](/who-we-help/mental-health/iop-php/) require different messaging than individual therapy practices because they serve patients at different acuity levels.
-Timing matters more in mental health than in most verticals. Searches for mental health services spike during January (post-holiday), September (back-to-school stress), and during periods of social uncertainty. Campaign budgets should flex to capture these demand windows rather than running flat throughout the year. Attribution modeling must account for the longer consideration periods typical of therapy seekers, often 30 to 90 days from first touch to booked appointment.
-HIPAA, LegitScript, and Platform Policies That Shape What You Can Do
-Compliance is not optional in mental health marketing. It shapes every campaign decision from targeting to creative to landing page structure. Understanding these constraints is the difference between campaigns that run profitably and campaigns that get disapproved, waste budget, or create legal exposure.
-HIPAA applies to marketing when protected health information is involved. Marketing emails to current patients require compliant consent frameworks. Website forms must be configured properly. Testimonials and success stories require careful handling. The [HHS guidance on marketing and HIPAA](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html) defines what qualifies as marketing versus treatment communications. Practices that blur this line face regulatory risk.
-Google Ads treats mental health as a sensitive healthcare vertical under its [personalized advertising policies](https://support.google.com/adspolicy/answer/143465). This means no remarketing to people who have visited your site, no custom audience targeting based on health conditions, and no personalized ads based on sensitive categories. Campaigns must rely on contextual and keyword-based targeting instead.
-
-LegitScript certification is required for certain addiction treatment advertising, but also signals legitimacy for mental health practices. Google and Meta both reference LegitScript standards in their enforcement. Even when certification is not required, operating within LegitScript guidelines reduces disapproval risk and builds credibility with referral partners who verify these credentials.
-[CTA] Request an Audit
-
-
-From Marketing Spend to Booked Appointments
-Marketing activity means nothing if it does not convert to actual patients. Mental health practices often struggle with the gap between website traffic and booked appointments. The problem is usually not the marketing. It is the conversion infrastructure: the website, the forms, the phone handling, and the intake process.
-Website conversion optimization starts with page load speed and mobile experience. According to [Google's Core Web Vitals research](https://developers.google.com/search/docs/appearance/core-web-vitals), sites that meet performance thresholds see measurably higher engagement. Mental health practices with outdated [web development](/services/web-development/) often lose visitors before they ever see the intake form.
-
-Form design matters. Mental health forms should ask for the minimum information needed to qualify and schedule. Every additional field creates friction. Phone numbers should be prominent. Click-to-call should be enabled on mobile. Chat widgets can help, but must be staffed consistently, or they create worse experiences than no chat at all.
-Attribution tracking connects marketing spend to actual outcomes. Marketing Powered tracks attribution through to admission, not just to form fill. This level of tracking requires proper CRM integration, call tracking, and conversion modeling. When you know which campaigns and keywords generate patients who actually complete intake, you can optimize budgets toward what works.
-The practices that succeed in mental health marketing treat it as a system, not a series of disconnected tactics. Paid media drives qualified traffic. SEO captures intent-based searches. The website converts visitors into leads. The intake process converts leads into patients. Each component must work, and the connections between them must be measured. [Our AI-native infrastructure](/ai-edge/) enables this level of integrated optimization across every touchpoint.
-Ready to Improve Your Mental Health Marketing?
-Request an audit to discuss your current marketing strategy, compliance posture, lead quality, and channel mix. We will review what is working, identify gaps, and outline a path to better results.
-[CTA] Request an Audit
-
+Mental Health Marketing Playbook
+A mental health marketing playbook is an operating standard for paid media, compliance, and intake, built to hold up under financial and regulatory scrutiny. It aligns ad spend with open clinical capacity, separates regulated service lines before policy blocks spread, and keeps protected health information off advertising platforms. Operators use this framework to buy demand their programs can actually serve while respecting the rules platforms enforce in healthcare.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Prerequisites: align media plans with clinical capacity
+Before editing bids or keywords, confirm weekly clinical capacity by location, level of care, and payer mix. Paid acquisition fails financially when marketing buys inquiries for full programs or out-of-network callers that intake cannot schedule.
+Picture a Tuesday capacity review instead of an ad dashboard. A clinical director reports open intensive outpatient chairs at two suburban clinics and a three-week waitlist at the flagship site. The marketing lead brings search term reports by city, while the intake coordinator brings a tally of callers who dropped off because of payer restrictions or slow callbacks.
+Use that meeting to set spending permissions before any campaign launches:
+* Open capacity by location and program, including any waitlist thresholds that trigger an immediate spend cap.
+* Hard payer exclusions, so landing pages and ad copy do not draw inquiries the clinic cannot accept.
+* Current response time from inquiry to live intake call, measured by site.
+* Verified local landing pages and phone routing that connect each geographic campaign to the right admissions desk.
+Pausing spend in a full market leaves cheap clicks behind, yet it protects budget for locations with available clinicians and workable payer mix. Marketing Powered tracks attribution to admission, not just lead, because a form submission that never reaches a scheduled assessment is an unrecovered cost.
+Step 1: build search campaigns around active intent
+Google classifies physical and mental health conditions, along with the services used to treat them, as a sensitive interest category. In its [Google Ads Health in Personalized Advertising policy](https://support.google.com/adspolicy/answer/16701855?hl=en), Google explicitly lists counseling for depression, anxiety, and addiction as health content.
+Under the [Google Ads Personalized Advertising policy](https://support.google.com/adspolicy/answer/143465?hl=en), advertisers promoting sensitive health services cannot use advertiser-curated audiences. That restriction blocks Customer Match, your data segments (formerly remarketing), audience expansion, and lookalike segments because those lists can carry sensitive user signals. Predefined Google audiences, including in-market and affinity segments, remain permitted, while users under 18 are ineligible for personalized advertising of any kind under the [Health in Personalized Advertising policy](https://support.google.com/adspolicy/answer/16701855?hl=en).
+Two campaign settings catch teams looking for workarounds. Custom segments tied to sensitive ad creative or landing pages can only serve on Display to non-sensitive audiences or contextually, and other campaign types using those custom segments cannot serve at all. Discovery and Demand Gen campaigns rely on advertiser-curated audiences by default and may face serving restrictions in health categories under the [Personalized Advertising policy](https://support.google.com/adspolicy/answer/143465?hl=en).
+Marketing Powered is built for Google's sensitive healthcare vertical, where retargeting is not permitted. Structure search accounts around active intent instead:
+* Isolate outpatient counseling, psychiatry, and addiction treatment into separate campaigns so a policy flag on one line does not halt another.
+* Segment queries by intent: prospective patients, family members seeking care, job seekers, students, and acute crisis searches.
+* Restrict geographic targeting to the catchment area of sites that can admit this week.
+* Separate clinician outreach from patient ads. In a May 29, 2025 clarification under the [Update to the Personalized Advertising policy](https://support.google.com/adspolicy/answer/16258024?hl=en), Google excluded content directed at healthcare professionals in their professional capacity from the Health sensitive interest category while keeping the ban on targeting users by sensitive health conditions intact.
+Step 2: separate certification requirements from everyday counseling
+Google's [Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en) divides health advertising into prohibited content, location-restricted certified content, and standard health services. When a certified advertiser targets approved countries, Google marks eligible ads as Eligible (limited) so they can serve in those locations.
+Outpatient mental health counseling does not have a standalone certification gate under that policy, though it remains bound by personalized advertising limits. Recovery-oriented drug and alcohol addiction services follow stricter rules. In the United States and Canada, advertisers must hold addiction services certification through LegitScript and separate approval from Google, and LegitScript charges processing and monitoring fees with potential fee waivers in certain cases per the [Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en).
+Check scope and geography before launching any addiction campaign. Google's [Addiction services policy](https://support.google.com/adspolicy/answer/15598649?hl=en) covers clinical treatment providers, sober living and mutual-help organizations, lead generators or referral agencies, and drug and alcohol crisis hotlines, while placing impulse control disorders, behavioral addiction, and nicotine addiction outside that policy. In Australia, France, Ireland, and New Zealand, recovery-oriented drug and alcohol addiction ads are limited to government entities with Google certification under the [Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en).
+Prescribing and medication references require equal precision. In the United States, online pharmacies and telemedicine providers promoting prescription drug services must complete Google certification alongside either LegitScript's Healthcare Merchant Certification Program or listed NABP programs under the [Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en). For medication names themselves, the [Google Ads Restricted drug terms policy](https://support.google.com/adspolicy/answer/15595717?hl=en) sets a distinct line: in Canada, New Zealand, and the United States, prescription drug terms may be used in ads and landing pages without certification, in line with local law, while keyword-targeting those terms requires certification. Certification is also required for specific business types, including online pharmacies, telemedicine providers, and pharmaceutical manufacturers. Outside those three countries, do not use prescription drug terms in ads or landing pages except for permitted non-promotional uses such as regulatory warnings, legal notices, public-health campaigns, and academic publications.
+Two bans carry immediate account risk under the [Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en). Google prohibits speculative and experimental medical treatments, apart from a narrow United States exception for FDA-licensed or approved cell or gene therapies promoted by the license holder and exclusively educational ads. Google also bans ads promoting or selling prescription opioid painkillers, with a carve-out for qualifying medication-assisted treatment drugs for opioid use disorder and limited exceptions such as certified United States addiction treatment providers. Unauthorized-pharmacy and opioid violations are treated as egregious and can trigger immediate account suspension without warning, whereas violations of the [Addiction services policy](https://support.google.com/adspolicy/answer/15598649?hl=en) receive at least 7 days of warning before suspension.
+Marketing Powered is LegitScript-aware and HIPAA-aware, led by a founder who is a court-certified expert witness in advertising strategy. Always verify the certification status of the exact legal entity paying for the media before linking domains or service lines.
+Step 3: audit ad copy and landing pages for compliance
+Run creative review with a media buyer, a compliance lead, and an intake supervisor looking at two drafts side by side. The first draft states the clinical service, the location, and how to schedule an assessment. The second draft implies the ad platform already knows the reader's diagnosis. Only the first draft should ship.
+Meta's [Privacy Violations and Personal Attributes ad standard](https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes) prohibits ads that assert or imply personal attributes, including mental health conditions. Meta allows direct service statements such as "Depression counseling" or "Bulimia counseling available," and prohibits lines such as "Depression getting you down? Get help now." You may use "you" and "your" without attaching a personal attribute, and you may not imply knowledge of a user's or family member's medical information.
+Google evaluates both the ad and its landing page under the [Health in Personalized Advertising policy](https://support.google.com/adspolicy/answer/16701855?hl=en). Apply the same discipline to claims on the page. In its [Health Claims business guidance](https://www.ftc.gov/business-guidance/advertising-marketing/health-claims), the FTC says companies must support advertising claims with solid proof, and says that is especially true for businesses that market food, over-the-counter drugs, dietary supplements, contact lenses, and other health-related products. Operators in behavioral health should hold service pages and testimonials to that same evidentiary bar: omit unverified cure rates, recovery timelines, or superiority claims.
+Check four items before publishing any ad or landing page:
+* Name the exact service, level of care, and city rather than addressing a presumed symptom.
+* Separate general therapy offers from prescribing offers. Under Meta's [Drugs and Pharmaceuticals ad standard](https://transparency.meta.com/policies/ad-standards/restricted-goods-services/drugs-pharmaceuticals), online pharmacies and telehealth providers promoting prescription drugs require active LegitScript certification, Meta authorization, and compliance with country and age limits, while advertisers do not need written authorization merely to promote telehealth services in general.
+* State clearly what happens after a form fill or call so visitors do not mistake an intake form for clinical care.
+* Provide a visible path for people in acute distress rather than trapping crisis visitors on a lead form. SAMHSA operates [FindTreatment.gov](https://www.samhsa.gov/find-help/locators) as a confidential, anonymous resource for people seeking mental and substance use treatment in the United States and its territories.
+Step 4: track conversion value to admission, not just leads
+Cost per form fill is an incomplete metric in behavioral health because it rewards cheap clicks from job seekers, out-of-area residents, and incompatible payers. Evaluate paid search against conversion value per cost, where higher is better, anchored to completed assessments and confirmed admissions by location.
+Build a weekly scorecard shared by marketing, finance, and intake so every drop-off points to a specific operational owner:
+* Spend and qualified inquiries; Operational scope: By location and service line; Primary leak revealed: Off-target queries, wrong geography, or policy limits
+* Inquiry to first live call; Operational scope: By clinic admissions desk; Primary leak revealed: Staffing gaps, slow callbacks, or voicemail drop-off
+* Scheduled to completed assessments; Operational scope: By program level of care; Primary leak revealed: Friction in scheduling, insurance verification, or transport
+* Declined inquiries by reason; Operational scope: Out of network, full census, wrong acuity; Primary leak revealed: Missing payer copy, unpaused full sites, or loose keywords
+* Admissions and conversion value per cost; Operational scope: By campaign and facility; Primary leak revealed: True acquisition economics across locations
+Move automated bidding down the funnel only when conversion volume supports stable learning, and audit search terms weekly by hand. Once landing page traffic and verified intake outcomes are consistent, teams can apply multi variant optimization to match local service pages to high-intent queries without inflating unqualified form fills.
+Step 5: keep clinical and intake data off ad platforms
+Spend an hour beside an intake desk before writing a tracking spec. Callers share symptoms, insurance member numbers, and family details on recorded lines. None of that clinical context belongs in Google Ads, Meta, or an agency creative sheet; marketing only needs source, location, timestamp, and coded funnel status.
+Under the [HHS HIPAA Privacy Rule marketing guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html), marketing is a communication about a product or service that encourages the recipient to purchase or use it. Per the [HHS Marketing Authorization FAQ](https://www.hhs.gov/hipaa/for-professionals/faq/when-is-patient-authorization-required-for-marketing/index.html), a covered entity must obtain individual authorization before using or disclosing protected health information for marketing, except for face-to-face communications or promotional gifts of nominal value, and the authorization must disclose any third-party remuneration.
+Communications describing a covered entity's own health-related product or service, or payment for it, fall outside that marketing definition under the [HHS HIPAA Privacy Rule marketing guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html). Vendor boundaries still apply: according to the [HHS HIPAA Telemarketer FAQ](https://www.hhs.gov/hipaa/for-individuals/faq/can-telemarketers-obtain-my-health-information-and-use-it/index.html), a covered entity may share protected health information with a telemarketer for a non-marketing communication about its own goods or services only under a business associate relationship, while sharing information to sell other goods or services requires authorization.
+Enforce four technical guardrails across the marketing stack:
+* Never upload patient or inquiry lists to ad platforms for audience matching; Google prohibits those lists in health categories under the [Personalized Advertising policy](https://support.google.com/adspolicy/answer/143465?hl=en).
+* Execute a business associate agreement before any call center, CRM vendor, or agency touches protected health information on a covered entity's behalf.
+* Store recordings, full names, and insurance records inside clinical or authorized intake systems, passing only coded status updates back to analytics.
+* Limit web intake forms to scheduling essentials rather than open-ended symptom boxes.
+Marketing Powered has been AI-native since 2022 and runs owned, local AI infrastructure for HIPAA-aware inference. Local infrastructure gives operators tighter control over internal analysis and query classification, though it is not a HIPAA certification, and a covered entity's privacy officer still governs any workflow that handles protected health information.
+Expected result: one operating standard across multiple locations
+When prerequisites, policy splits, attribution, and data boundaries work together, multi-site organizations run one central standard with local execution. The founder's work as a former healthcare CMO running marketing for a treatment network that grew from 3 to 24 locations shows why blended reporting breaks at scale: brand rules and compliance stay central, while budgets follow site-level capacity.
+Compare two clinics running the same search campaign. Site A answers the phone in three rings and books an assessment during the first call. Site B sends midday calls to voicemail and returns them the next morning. Site A produces admissions while Site B wastes spend, even with identical keywords and ads.
+Hold five standards constant across every facility:
+* One pre-launch policy review across ads and pages before local variants go live.
+* One attribution schema that rolls up to leadership and breaks down by clinic and service line.
+* Local pages reflecting real hours, accepted payers, and phone paths for each site.
+* A shared pause rule when census reaches capacity at a specific clinic.
+* Separate domains, accounts, and certification records for clinical lines regulated differently by Google or Meta, including keeping hospital clinician-outreach campaigns distinct from patient acquisition.
 
 FAQ
-Q: What marketing strategies work for mental health providers?
-A: The most effective strategies combine search engine optimization for local visibility, compliant paid search campaigns targeting condition-specific keywords, and content marketing that builds authority around treatment approaches. Digital channels generally outperform traditional advertising for mental health because they capture people actively searching for help. The key is adapting each strategy to the compliance constraints of the mental health vertical, particularly the inability to retarget website visitors.
-Q: How can digital marketing benefit a mental health practice?
-A: Digital marketing extends a practice's reach beyond referral networks to capture people actively searching for mental health services. It enables precise geographic targeting, measurable cost-per-lead tracking, and the ability to adjust campaigns based on what generates actual appointments. For practices looking to grow beyond word-of-mouth, digital marketing provides a scalable patient acquisition channel with clear attribution from ad spend to booked intake.
-Q: What are common challenges in mental health marketing campaigns?
-A: The primary challenges are compliance restrictions, audience sensitivity, and attribution complexity. Google and Meta classify mental health as a sensitive vertical, eliminating retargeting and limiting targeting options. Messaging must resonate with people in difficult situations without making outcome claims. Attribution is harder because decision cycles are longer than typical consumer purchases, often spanning 30 to 90 days from first search to booked appointment.
-Q: Why is compliance important in mental health marketing?
-A: Compliance protects both the practice and prospective patients. HIPAA violations carry significant financial penalties. Ad platform policy violations result in disapproved campaigns and potentially suspended accounts. Beyond legal exposure, compliance builds trust with patients who expect mental health providers to handle their information and their care responsibly. Practices that cut corners on compliance eventually face consequences that outweigh any short-term gains.
-Q: How do I choose a mental health marketing agency?
-A: Evaluate agencies on three criteria: vertical experience, compliance awareness, and attribution discipline. Ask how much they have managed specifically in mental health or behavioral health. Ask how they handle Google's sensitive healthcare policies and HIPAA considerations. Ask how they track results beyond clicks and form fills. An agency that has scaled practices in this vertical will have specific answers. An agency that treats mental health like any other client will give generic responses.
-
-
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, Article, BreadcrumbList
-* mainEntity (for FAQ questions and answers)
-* headline
-* author (Marketing Powered)
-* datePublished
-* dateModified
-* publisher
-* description
-* breadcrumb itemListElement array
-
-
-DELIVERY NOTES
-External citations
-* Search Engine Journal's analysis of healthcare search behavior https://www.searchenginejournal.com/healthcare-seo/ [Industry trade press] - Supports claim about growing healthcare search volume and SEO importance for medical practices.
-* healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy (Google Ads)] - Primary source for Google's restrictions on healthcare advertising, directly relevant to mental health marketing.
-* personalized advertising policies https://support.google.com/adspolicy/answer/143465 [Platform policy (Google Ads)] - Documents the sensitive category restrictions that eliminate retargeting for mental health advertisers.
-* HHS guidance on marketing and HIPAA https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/marketing/index.html [Government regulatory guidance] - Authoritative source for HIPAA marketing requirements, essential for compliance section credibility.
-* Google's Core Web Vitals research https://developers.google.com/search/docs/appearance/core-web-vitals [Platform documentation (Google)] - Supports claim about page performance impact on user engagement and conversions.
-
-Internal link gaps
-* The brief includes /who-we-help/behavioral-health/sober-living/ in the link map but the page focus is mental health, not behavioral health. This link was not used as it would feel forced in context.
-* Consider adding a link to a mental health vertical hub page if one exists, as this guide would benefit from linking to a parent category page.
-
-Missing proof points
-* Specific mental health vertical case study metrics would strengthen the guide. The proof points reference Haven Health (behavioral health) but a mental health specific example would resonate more with the target reader.
-* Specific cost-per-lead or cost-per-acquisition benchmarks for mental health vertical would add credibility to the conversion section.
+Q: Can a mental health practice run Google remarketing ads?
+A: No, not for ads promoting health services in Google's sensitive interest category. Customer Match, your data segments, audience expansion, and lookalike segments are prohibited advertiser-curated audiences under the [Google Ads Personalized Advertising policy](https://support.google.com/adspolicy/answer/143465?hl=en), though predefined Google audiences remain eligible for adult users.
+Q: Does every mental health advertiser need LegitScript certification?
+A: No. Under the [Google Ads Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031?hl=en), United States advertisers need LegitScript and Google certification for recovery-oriented drug and alcohol addiction services, and online pharmacies or telemedicine providers promoting prescription drug services require LegitScript or listed NABP accreditation plus Google certification. General outpatient counseling does not require addiction certification, though addiction lead generators fall inside the [Addiction services policy](https://support.google.com/adspolicy/answer/15598649?hl=en).
+Q: When does HIPAA require patient authorization for marketing?
+A: Covered entities must obtain patient authorization before using or disclosing protected health information for marketing, except for face-to-face communications or promotional gifts of nominal value, and must disclose third-party payment in the authorization per the [HHS Marketing Authorization FAQ](https://www.hhs.gov/hipaa/for-professionals/faq/when-is-patient-authorization-required-for-marketing/index.html). Communications describing the entity's own services are excluded from the marketing definition, though vendors handling protected health information still require a business associate agreement per the [HHS HIPAA Telemarketer FAQ](https://www.hhs.gov/hipaa/for-individuals/faq/can-telemarketers-obtain-my-health-information-and-use-it/index.html). Always have your privacy officer review specific workflows.
+Q: Can mental health ads ask whether a reader has depression?
+A: No. Meta's [Privacy Violations and Personal Attributes ad standard](https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes) allows neutral service descriptions such as "Depression counseling" and rejects copy such as "Depression getting you down? Get help now." Describe the care offered instead of implying knowledge of a reader's condition.
+Q: What should behavioral health teams optimize toward instead of cost per lead?
+A: Optimize paid media and intake operations toward completed assessments, confirmed admissions, and conversion value per cost by location. Treat form fills and phone calls as early funnel stages rather than final outcomes so campaigns do not bid toward inquiries your clinical team cannot admit. [Review your behavioral health acquisition and attribution setup](/get-started/request-an-audit/)

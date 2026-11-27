@@ -1,100 +1,60 @@
 ---
-title: "Press Mentions and Media Coverage | Marketing Powered"
+title: "Press and media inquiries | Marketing Powered"
 url: "/media/press/"
-primary_keyword: "press mentions"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /media/press/ with primary keyword 'press mentions (positioning)' and secondary keywords 'featured in, agency in the press, as featured in.' Target word count is 600-1000 words. Page type is a Media Hub page (P3) designed to build authority and support backlink acquisition. Buyer target is a CEO or Marketing Director at a behavioral health treatment provider evaluating agency partners for media presence.
-Page type: Media Hub
-Buyer target: CEO or Marketing Director at a behavioral health treatment provider
-Word count target: 600-1000 words
-
-
 SEO METADATA
-Title tag (52 chars): Press Mentions and Media Coverage | Marketing Powered
-Meta description (105 chars): See where Marketing Powered has been featured: press mentions and media coverage of our AI-native approach to behavioral health marketing.
-H1: Explore Our Recent Press Mentions and Media Appearances
-Hero image alt: Marketing Powered press mentions and media coverage featuring behavioral health industry publications
+Title tag: Press and media inquiries | Marketing Powered
+Meta description: Source record, commentary topics, and interview request process for journalists covering healthcare advertising policy, attribution, and AI governance.
+H1: Press and media coverage
+Hero image alt: An empty studio setup with a podium, broadcast microphone, and wall panels lit in sky blue and green.
 
 
 PAGE COPY
 
-
-Explore Our Recent Press Mentions and Media Appearances
-Strategic media exposure that builds credibility in behavioral health and mental health treatment.
-[CTA] Book a Discovery Call
-
-
-Our Approach to Media Coverage
-Press mentions in behavioral health require a different approach than general business media. Treatment center operators face scrutiny from regulators, referral partners, and prospective patients. Every media appearance must reinforce clinical credibility while supporting broader marketing objectives.
-Marketing Powered approaches media exposure as an extension of your behavioral health marketing strategy. We identify publications and platforms where your target referral sources and decision-makers actually spend time: industry trade publications, healthcare business outlets, and regional news platforms covering addiction and mental health treatment.
-With $50M+ managed across behavioral health and mental health media spend, we understand which stories resonate with stakeholders in this space. Our founder's experience bringing operator-side revenue-growth experience informs how we position treatment centers for media opportunities that matter.
-Notable Press Mentions
-Marketing Powered has been featured in publications covering digital marketing strategy, healthcare business operations, and advertising technology. These press appearances reflect our positioning as a specialized agency operating at the intersection of AI infrastructure and regulated healthcare verticals.
-Our agency has contributed expert commentary on topics including paid media performance in sensitive verticals, attribution modeling for treatment centers, and the compliance considerations unique to mental health marketing. Our founder holds court-certified expert witness credentials in advertising strategy, a distinction that has supported coverage in legal and business contexts.
-Being featured in industry press builds more than awareness. It creates a credibility layer that supports your intake team's conversations with prospective patients and families. When a treatment center can point to media coverage in respected outlets, it signals operational maturity and clinical seriousness to referral partners evaluating placement options.
-* Industry trade publications covering behavioral health business operations
-* Digital marketing and advertising technology outlets
-* Healthcare compliance and regulatory news platforms
-* Regional business publications in markets where we operate client campaigns
-
-
-How We Secure Press Opportunities
-Securing press coverage for treatment centers requires understanding both the media landscape and the compliance boundaries that govern healthcare marketing. We do not pitch stories that create regulatory risk or make claims that could trigger LegitScript scrutiny.
-Our process starts with identifying the publications and journalists covering behavioral health business topics. We build relationships with editors at outlets like Behavioral Health Business and healthcare trade publications, where your target audience reads industry news.
-Pitch development focuses on positioning your leadership team as subject matter experts. We craft angles around operational insights, treatment innovation, and market trends rather than promotional messaging. This approach earns coverage that builds long-term credibility instead of one-time mentions that read as advertising.
-Why Media Coverage Matters for Treatment Centers
-For treatment centers, media coverage serves multiple strategic functions. It builds trust with families researching options during a crisis. It signals credibility to referral partners evaluating where to send patients. And it creates backlink equity that supports your paid media and organic search performance.
-Treatment centers with consistent press appearances report stronger intake conversion rates. Prospective patients and families who see your leadership quoted in industry publications arrive at the intake call with higher confidence and fewer objections. Review our case studies to see how integrated marketing strategies support overall growth.
-[CTA] Book a Discovery Call
-Get Started with Marketing Powered
-If you are evaluating how media exposure fits into your broader marketing strategy, we should talk. Marketing Powered brings operator-level experience in behavioral health and mental health treatment marketing, including managing $1.5M to $2M monthly in Google Ads across 11+ accounts in these verticals.
-Our AI infrastructure supports campaign optimization and attribution tracking through to admission, so we can measure how media coverage contributes to qualified leads. Request an audit of your current marketing mix, or book a discovery call to discuss a tailored media strategy for your treatment center.
-
-
-Ready to Build Your Media Presence?
-Book a discovery call to discuss how strategic press coverage fits into your behavioral health marketing strategy. We will review your current positioning, identify media opportunities in your market, and outline a plan that builds credibility with referral partners and prospective patients.
-[CTA] Book a Discovery Call
-FAQ
-Q: What types of media are most effective for behavioral health providers?
-A: Industry trade publications like Behavioral Health Business and healthcare business outlets reach the referral partners and operators who influence patient placement decisions. Regional news coverage builds local credibility, while digital marketing and healthcare technology publications support thought leadership positioning with prospective partners evaluating your operational sophistication.
-Q: How can I get my treatment center featured in the media?
-A: Start by identifying the publications your referral partners and target families actually read. Develop story angles around operational expertise, treatment program innovation, or market insights rather than promotional messaging. Build relationships with editors covering behavioral health business topics. We handle pitch development, journalist outreach, and placement tracking as part of our media services.
-Q: Why is media coverage important for behavioral health marketing?
-A: Media coverage builds credibility that supports every other marketing channel. Families researching treatment options trust providers they have seen quoted in respected publications. Referral partners prefer placing patients with centers that demonstrate operational maturity. Press mentions also create high-authority backlinks that improve organic search performance.
-Q: Do you provide customized media strategies?
-A: Every treatment center operates in a different competitive environment with different referral relationships and patient demographics. We develop media strategies based on your specific market position, growth objectives, and the publications that reach your target audience. This includes pitch angle development, journalist targeting, and integration with your broader paid and organic marketing efforts.
-
-
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, Organization, BreadcrumbList
-* mainEntity for FAQ questions and answers
-* name and description for Organization
-* itemListElement for breadcrumb navigation from home to media hub to press page
-
-
-DELIVERY NOTES
-External citations
-* LegitScript https://www.legitscript.com/certification/ [Regulatory and compliance] - Primary authority for healthcare advertising certification, directly relevant to compliance positioning in behavioral health media coverage
-* Behavioral Health Business https://bhbusiness.com/ [Industry trade press] - Leading trade publication for behavioral health business news, cited as example of target media outlet for treatment center coverage
-
-
-Internal link gaps
-* The brief includes 'request an audit' twice in the internal link map with the same target URL. Used once to avoid redundancy.
-* Consider adding a link to /about/ or /about/team/ if the page exists, to support the founder credibility proof point with a destination.
-
-
-Compliance flags
-* Page does not claim any media placement guarantees per brief compliance guardrails.
-* No PHI, patient stories, or before/after testimonials included.
-* All outcome framing focuses on marketing performance metrics, not patient or treatment outcomes.
-
-
-Missing proof points
-* Specific press outlet names where Marketing Powered has actually been featured would strengthen the Notable Press Mentions section. The brief references media proof but does not provide specific publication names.
-* Dates or timeframes for press appearances would add credibility to the coverage claims.
-
-
-Banned phrasing in brief
-* No conflicts detected. Title, H1, and meta description avoid all banned phrases listed in the brief.
+Press and media coverage
+This page gives journalists, podcast producers, and event organizers a verified source record before booking an interview or requesting background comment. It outlines Marketing Powered's operating scope, the founder's career credentials, available commentary topics, and the media inquiry process. Confirmed third-party placements are not listed here until titles, dates, and usage rights are cleared for publication.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Who Marketing Powered is
+Marketing Powered is an operator-led digital marketing and marketing-technology firm working with hospitals, healthcare organizations, professional services, and other regulated markets. Behavioral health is a core depth area rather than the firm's entire market. The work focuses on paid media, qualified demand, first-party data, conversion systems, multi-location growth, and full-funnel attribution.
+Day-to-day execution happens in small operator teams rather than layered account hierarchies. A typical working session pairs campaign architecture and landing page routing on one screen with written definitions for qualified inquiries or admissions on another. Public visuals stay abstract because client names, account identifiers, and patient details never belong in press material.
+The firm has operated AI-native since 2022, pairing internal systems with human review. Technology sits behind the commercial question: how a regulated organization controls acquisition costs, data boundaries, and claim accuracy.
+Founder background and operating history
+Marketing Powered is led by a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations. The treatment network is not named on this site. That multi-location expansion belongs strictly to the founder's personal operating history and is never presented as a Marketing Powered agency result.
+In that executive role, the founder managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. The founder is also a court-certified expert witness in advertising strategy. Reporters can cite those figures directly on the record without adding employer names, tenure dates, or lifetime spend estimates that fall outside this documented scope.
+Preparation for media briefings follows the same discipline: a written topic list, confirmed background facts, and clear boundaries on what can be attributed on the record. On multi-location healthcare growth, commentary focuses on operational alignment across ad messaging, location pages, intake call handling, and media buying as an organization expands into new markets.
+Expert witness work in advertising strategy
+As a court-certified expert witness in advertising strategy, the founder evaluates how paid acquisition and digital marketing programs were planned, built, measured, and reported. Questions in this scope involve campaign structure, ad and landing page claims, keyword and audience selection, budget allocation, and whether reported metrics match the underlying tracking setup.
+This credential applies to advertising strategy and measurement practices rather than clinical care. It does not cover medical efficacy, legal advice, or predictions about how a dispute will resolve. This page does not list case names, parties, or legal outcomes.
+Reporters reach out for this perspective when a story examines contested healthcare ad claims, platform policy restrictions, or the gap between reported lead volume and actual patient admissions.
+Topics available for comment
+Commentary is restricted to five areas grounded in direct operating work:
+* Sensitive-category Google Ads policy for healthcare and how audience limits reshape campaign structure.
+* HIPAA-aware marketing infrastructure and the technical limits behind that term.
+* Multi-location healthcare marketing operations during network expansion.
+* Attribution tracked to admission rather than reporting that stops at an initial lead.
+* AI governance in regulated marketing, covering data sovereignty, local inference, and human review.
+Platform rules shape every one of those discussions. Under Google's sensitive interest categories policy, health conditions and related treatments, including counseling for depression, anxiety, and addiction, are restricted so advertisers cannot target audiences using Customer Match, their own data segments, audience expansion, or lookalike segments ([Google Ads personalized advertising policy](https://support.google.com/adspolicy/answer/16701855?hl=en)). In the United States, organizations advertising recovery-oriented drug and alcohol addiction services on Google must obtain LegitScript certification as an addiction services provider and complete Google's certification process ([Google Ads healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031/)).
+Those restrictions change how [paid media](/services/paid-media/) and [Google Ads management](/services/google-ads-management/) operate in healthcare. Acquisition relies on search intent, policy-compliant messaging, and conversion-ready landing pages rather than remarketing lists. The constraints appear most visibly in [behavioral health](/who-we-help/behavioral-health/), and the same category rules apply whenever hospital or clinic campaigns cross into protected health topics.
+Operating stances and AI governance
+Marketing Powered distinguishes published platform rules from its own operating stances. The firm is LegitScript-aware and HIPAA-aware, and it builds acquisition programs for Google's sensitive healthcare vertical, where retargeting is not permitted. Those descriptions reflect internal workflows and design constraints; they are not claims of HIPAA certification or LegitScript certification for Marketing Powered or any healthcare organization.
+The firm has been AI-native since 2022 and runs owned, local AI infrastructure for HIPAA-aware inference. Owned compute gives the team control over where specific model workloads execute, though it does not imply every campaign tool runs offline or that agency hardware changes who owns customer data. Human review sits over every published claim and workflow decision.
+Measurement follows the same accountability standard. Marketing Powered tracks attribution to admission, not just lead, when an organization authorizes outcome data to support that connection. Effective [analytics and attribution](/services/analytics-and-attribution/) closes the gap between ad spend and confirmed business outcomes without exposing private health information.
+How to submit a media or interview request
+Media inquiries move through three straightforward steps:
+* Inquiry received: Submit your name, publication or show, topic, format (live interview, written quote, or background call), deadline, and whether the conversation is on the record.
+* Topic and scheduling confirmed: The team verifies that the requested subject sits within the confirmed record on this page and proposes an interview window or written response timeline.
+* Interview or materials delivered: The briefing takes place as scheduled, or approved written quotes and press files are sent ahead of deadline.
+If a story requires statistics or third-party details outside Marketing Powered's verified record, the team flags that limit early rather than offering rough estimates. Never include patient details, account screenshots, or private personal data in a media inquiry.
+### Brand and founder assets
+Current founder headshots, approved Marketing Powered logo files, and a short verified bio are available on request during step one. Use Marketing Powered as the company name and marketingpowered.ai as the website domain. Request current assets directly rather than cropping older graphics or recreating marks from memory.
+Questions journalists ask
+### What is this page for if I am evaluating the firm rather than booking an interview?
+This page is a verified source sheet, not a press clipping archive. Prospective healthcare and regulated-industry buyers can review it to verify the founder's background and the firm's operating boundaries without sorting through unconfirmed logo walls.
+### Can the founder comment on a specific lawsuit or advertising dispute?
+Availability depends on what is public, what is cleared for discussion, and whether the question stays within advertising strategy. The founder can explain general industry practices, tracking standards, and platform rules without speculating on sealed records or case outcomes.
+### Which facts about the founder and firm can be cited directly from this page?
+Refer to the Founder background and operating history section above for confirmed historical figures and credentials, and the Operating stances and AI governance section for firm-level practices. Any figure, former employer name, or certification statement outside those sections requires written confirmation before publication.
+Send your outlet, topic, format, and deadline through our intake form to schedule a briefing or request approved media files.
+[CTA] Submit a media or interview inquiry → /get-started/request-an-audit/

@@ -1,94 +1,51 @@
 ---
-title: "Marketing Powered Security Overview"
+title: "Security and Data Handling | Marketing Powered"
 url: "/company/security/"
-primary_keyword: "security overview"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /company/security/ with primary keyword 'security overview (positioning)' and secondary keywords 'data security' and 'hipaa security.' Word count target is 600-1000 words. Page type: Company trust page. Buyer target: CTO or IT manager at a behavioral health organization evaluating vendor security posture and compliance readiness.
-Page type: Company trust page
-Buyer target: CTO or IT manager at a behavioral health organization
-Word count target: 600-1000 words
-
-
 SEO METADATA
-Title tag (37 chars): Marketing Powered Security Overview
-Meta description (85 chars): Explore Marketing Powered's security overview: HIPAA-conscious infrastructure, access controls, and data protection for healthcare marketing clients.
-H1: Security Overview at Marketing Powered
-Hero image alt: Marketing Powered security infrastructure diagram showing data protection layers for behavioral health marketing operations
+Title tag: Security and Data Handling | Marketing Powered
+Meta description: How Marketing Powered handles regulated marketing data: HIPAA-aware controls, Google health ad limits, admission attribution, and local AI.
+H1: How Marketing Powered Handles Healthcare Marketing Data
+Hero image alt: A small on-premises server rack in a dim utility room with blue and green status lights.
 
 
 PAGE COPY
 
-
-Security Overview at Marketing Powered
-HIPAA-conscious infrastructure built for behavioral health marketing operations.
-[CTA] Book a Discovery Call
-
-
-Our Approach to Security
-This security overview reflects how Marketing Powered protects client data across every engagement. We operate in behavioral health and mental health marketing, two verticals where data security is not optional. Our clients manage sensitive patient acquisition pipelines, and our infrastructure is built to meet that responsibility.
-Our security framework starts with architecture decisions, not afterthoughts. We run proprietary AI systems on owned hardware: a Mac Studio M3 Ultra cluster with local inference capabilities, backed by TerraMaster NAS storage on a static IP business network. This setup gives us control over where data lives and how it moves. PHI never leaves our controlled environment.
-The team behind this infrastructure has operated in healthcare-adjacent marketing since 2022, managing over $50M in behavioral health and mental health media spend. That scale forces discipline. We have built compliance awareness into every layer of our operations, from vendor selection to daily workflow.
-Data Protection Measures
-Client data security depends on layered controls, not single points of defense. We implement encryption at rest and in transit for all client information. Access controls are role-based and audited regularly. No team member has broader access than their function requires.
-Our security technologies include network segmentation, endpoint protection, and continuous monitoring for anomalous activity. We conduct frequent internal audits to verify that controls are functioning as designed. When gaps appear, we close them before they become vulnerabilities.
-These measures are not theoretical. They are the same protections we use to manage $1.5M to $2M monthly in Google Ads spend across 11+ behavioral health accounts, where a single compliance failure could shut down an entire acquisition channel.
-HIPAA and Legal Compliance
-Marketing Powered maintains a HIPAA-conscious posture throughout our operations. We handle PHI in accordance with business associate requirements and have structured our infrastructure to support those obligations. Our local AI inference setup exists specifically because cloud-based alternatives introduced compliance risks we were not willing to accept.
-HIPAA compliance strategies extend beyond technical controls. Our team understands the regulatory environment that governs behavioral health marketing, including Google Ads healthcare vertical restrictions that prohibit retargeting in sensitive categories.
-LegitScript certification awareness is standard in our operations. We have navigated the certification process with clients and understand how advertising platforms enforce healthcare advertising policies. This compliance depth protects our clients from account suspensions and policy violations that could interrupt patient acquisition.
-Continuous Improvement in Security
-Security is not a fixed state. We treat it as an ongoing operational requirement. Our team receives regular training on emerging threats and compliance updates. When regulations shift or new vulnerabilities emerge, we update our controls accordingly.
-We conduct periodic reviews of our security posture, testing assumptions and validating that previous decisions still hold. This approach has kept us ahead of platform policy changes and helped us maintain uninterrupted operations for clients who depend on consistent lead flow.
-Why Choose Marketing Powered
-Marketing Powered brings operator-level experience to data security in behavioral health marketing. Our founder holds court-certified expert witness credentials in advertising strategy and has scaled organizations through multi-market growth. That background shapes how we think about risk: not as an abstract concern, but as something that affects real operations and real revenue.
-Choosing a marketing partner with weak security practices exposes your organization to compliance violations, platform bans, and reputational damage. Marketing Powered's security commitment is built into our infrastructure, not bolted on as a sales talking point.
-We understand what CTOs and IT managers need to see before approving a vendor relationship. If you are evaluating marketing partners and need to discuss security measures, compliance protocols, or data handling practices, we are ready for that conversation.
-Ready to Discuss Security and Compliance?
-If you need a marketing partner who understands data security in behavioral health, let's talk. We are prepared to walk through our security measures, compliance protocols, and infrastructure decisions in detail.
-[CTA] Book a Discovery Call
-
-
-FAQ
-Q: What makes Marketing Powered's approach to data security unique?
-A: We specialize in behavioral health and mental health marketing, which means our security measures are tailored to healthcare-adjacent operations. Our proprietary AI systems run on owned hardware with local inference, giving us complete control over data handling. This is not a wrapper on commercial APIs; it is infrastructure we built specifically to meet the compliance requirements of sensitive verticals.
-Q: How does Marketing Powered ensure HIPAA compliance?
-A: We maintain a HIPAA-conscious posture through business associate protocols, role-based access controls, encryption at rest and in transit, and infrastructure designed to keep PHI within our controlled environment. Our team receives regular compliance training, and we conduct internal audits to verify our controls are functioning as designed.
-Q: What specific technologies does Marketing Powered use for data protection?
-A: Our infrastructure includes a Mac Studio M3 Ultra cluster for local AI inference, TerraMaster NAS storage, network segmentation, endpoint protection, and continuous monitoring. We use encryption for all data at rest and in transit, with role-based access controls limiting data exposure to only what each team member needs.
-Q: How often is security auditing conducted at Marketing Powered?
-A: We conduct internal security audits regularly, with continuous monitoring for anomalous activity between formal reviews. When platform policies change or new vulnerabilities emerge in our technology stack, we conduct targeted reviews to ensure our controls remain effective.
-
-
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, Organization
-* name
-* description
-* url
-* mainEntity (for FAQ)
-* question
-* acceptedAnswer
-
-
-DELIVERY NOTES
-External citations
-* HIPAA Security Rule requirements https://www.hhs.gov/hipaa/for-professionals/security/index.html [Government regulatory guidance] - Authoritative source for HIPAA security standards; supports compliance claims in the HIPAA section.
-* Google Ads healthcare and medicines policy https://support.google.com/adspolicy/answer/176031 [Platform policy] - Primary source for sensitive vertical restrictions; supports claims about retargeting prohibitions.
-* LegitScript certification standards https://www.legitscript.com/certification/ [Regulatory and compliance] - Authoritative source for LegitScript certification process; supports compliance proof point.
-
-
-Internal link gaps
-* Consider adding a link to /company/about/ if it exists, as security pages often benefit from linking to team credentials.
-* A link to a dedicated HIPAA or compliance page would strengthen this section if one exists in the site architecture.
-
-
-Compliance flags
-* Page correctly avoids guaranteeing security against all breaches.
-* Page does not include specific client data or identifiable patient information.
-* Page respects Google Ads healthcare vertical restrictions and does not imply prohibited retargeting.
-
-
-Missing proof points
-* Specific security certifications (SOC 2 Type II, ISO 27001) would strengthen this page if Marketing Powered holds or is pursuing them.
-* Incident response statistics or breach history (if clean) would add credibility.
+How Marketing Powered Handles Healthcare Marketing Data
+Healthcare organizations cannot vet a marketing vendor on reassurance alone. This page explains how Marketing Powered structures data handling for hospitals, behavioral health networks, and regulated professional services across ad platforms, attribution, and AI infrastructure. It documents the controls we actually operate rather than making a blanket compliance claim.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Why healthcare marketing data handling is different
+Healthcare marketing data sits closer to sensitive personal information than standard commercial advertising. In a standard e-commerce setup, agencies deploy retargeting pixels, upload customer lists, and share conversion payloads broadly across third-party ad tools. In healthcare and behavioral health, ad accounts, call tracking logs, form submissions, and intake records all sit adjacent to protected health information, even before a prospective caller becomes a patient.
+A person who clicks an ad for mental health or addiction care and submits an inquiry has shared sensitive health context before any clinical record exists. Generic agency security pages rarely address that boundary. They focus on office passwords while running the same tracking pixels and data brokers used for consumer retail.
+In regulated markets, the marketing stack itself creates the exposure. Legal, compliance, and procurement teams ask vendors to document data paths before signing an agreement, and this page answers those questions directly.
+What HIPAA-aware means in our work
+HIPAA-aware means federal healthcare privacy obligations shape which marketing tools Marketing Powered deploys, what data those tools collect, where AI inference runs, and which details stay out of external platforms. Marketing Powered does not claim HIPAA certification, because HHS and OCR do not certify any persons or products as HIPAA compliant ([HHS OCR, misleading marketing claims](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/be-aware-misleading-marketing-claims/index.html)). Neither a software workflow nor an AI model makes a healthcare organization compliant on its own.
+In practice, HIPAA-aware operations follow clear boundaries:
+* Minimize what marketing tools collect at the ad and landing page layer.
+* Keep identifiable patient or caller details out of external advertising platforms.
+* Treat every integration between marketing software and intake systems as a documented review item rather than a default connector.
+Your legal and compliance teams hold final authority over your regulatory obligations. Marketing Powered builds acquisition systems designed to withstand their review cleanly.
+Google's sensitive health category and retargeting
+Google classifies content tied to physical and mental health conditions, including counseling for depression, anxiety, and addiction, as a sensitive interest category in personalized advertising. Under that policy, advertiser-curated audiences such as Customer Match, your data segments, and lookalike segments cannot be used, while predefined Google audiences remain permitted ([Google Ads policy: Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855?hl=en)).
+Marketing Powered is built for Google's sensitive healthcare vertical, where retargeting is not permitted. Campaign architecture starts from that rule instead of adjusting after an account flag. Paid search budgets focus on high-intent queries, landing pages are built to convert first-visit traffic cleanly, and audience targeting relies on Google's permitted predefined segments rather than uploaded patient or inquiry lists.
+Attribution to admission, not just lead
+Measurement is where many healthcare marketing programs quietly overreach. Connecting ad spend to patient acquisition requires moving signals across systems, and every unreviewed connection creates a risk of sending sensitive health details into an ad account.
+Marketing Powered tracks attribution to admission, not just lead. Measuring paid media against verified admissions lets operators evaluate campaigns on conversion value per cost rather than raw inquiry volume.
+The tracking process follows four defined stages:
+* Ad click: A prospective patient or family member clicks a search ad and lands on a tracked page.
+* Tracked inquiry: A phone call or web form submission is logged inside a controlled system.
+* Intake disposition: Admissions staff record whether the inquiry is qualified and clinically appropriate.
+* Admission: Confirmed admission status connects back to the originating campaign inside controlled reporting.
+Identity resolution happens inside controlled environments, never inside external ad platforms. Conversion signals returned to ad accounts confirm only that a qualified event occurred, without transmitting identifiable health information.
+Owned, local AI infrastructure as a control
+Marketing Powered has been AI-native since 2022, and we treat AI deployment as a data-control decision. We operate owned, local AI infrastructure for HIPAA-aware inference. When analysis involves sensitive context, workloads can run on infrastructure we control rather than going to a third-party API by default.
+Owned infrastructure provides configurable privacy boundaries and a known data path, allowing teams to decide which tasks run locally and which do not. It does not mean every campaign workflow runs locally or that all data stays offline. Owning compute hardware also never changes data ownership: organizations retain full ownership of their own data.
+LegitScript awareness and advertising compliance
+Google restricts the promotion of recovery-oriented drug and alcohol addiction services, and advertisers targeting certain locations can run these ads only if certified by Google ([Google Ads: Healthcare and medicines policy](https://support.google.com/adspolicy/answer/176031)). For advertisers targeting the United States, Google's policy requires LegitScript addiction-treatment certification in addition to Google certification ([Google Ads: Certification for addiction services](https://support.google.com/adspolicy/answer/15598649?hl=en)).
+LegitScript's certification standards evaluate facility licensure, accurate website representation of services and locations, and truthful advertising ([LegitScript Addiction Treatment Certification Standards](https://www.legitscript.com/addiction-treatment-certification-standards)). Marketing Powered is LegitScript-aware. Advertising claims, landing page language, and site structure are checked against the certification standards before launch, because an unsupported claim can affect certification review and ad eligibility.
+Where this operating discipline comes from
+Marketing Powered's data-handling posture grew out of direct healthcare operating experience. Marketing Powered's founder is a former healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations, managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts, and is a court-certified expert witness in advertising strategy.
+That operational history shapes how Marketing Powered approaches regulated acquisition for hospitals, behavioral health organizations, and professional services firms today. If your compliance, legal, or procurement team has questions this page does not cover, ask us during evaluation. Specific questions get specific answers.
+[CTA] Discuss data handling in an acquisition audit → /get-started/request-an-audit/

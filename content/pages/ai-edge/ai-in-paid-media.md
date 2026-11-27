@@ -1,125 +1,67 @@
 ---
-title: "How AI Enhances Paid Media Strategies"
+title: "AI in paid media for accountable spend and attribution"
 url: "/ai-edge/ai-in-paid-media/"
-primary_keyword: "ai in paid media"
-secondary_keywords: "ai ppc management, automated bid management"
-target_word_count: "1200-1800"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /ai-edge/ai-in-paid-media/ with primary keyword 'ai in paid media' and secondary keywords 'ai paid advertising, ai ppc, ai for ppc, ai ppc management, ai-optimized ppc campaigns.' Target word count is 1200-1800 words. Page type: AI Edge informational page. Buyer target: CEO or VP of Marketing at a digital advertising agency exploring AI integration for paid media optimization.
-Page type: AI Edge - Informational
-Buyer target: CEO or VP of Marketing at a digital advertising agency
-Word count target: 1200-1800 words
-
-
 SEO METADATA
-Title tag (38 chars): How AI Enhances Paid Media Strategies
-Meta description (94 chars): See how AI enhances paid media: smarter bidding, predictive budgets, and creative optimization that lift ROI for behavioral health advertisers.
-H1: Exploring the Role of AI in Paid Media
-Hero image alt: Abstract visualization of AI algorithms optimizing paid media campaigns with data flows and performance metrics
+Title tag: AI in paid media for accountable spend and attribution
+Meta description: Learn how marketing teams use AI in paid media to raise conversion value per cost, align attribution to revenue, and stay within healthcare ad policies.
+H1: Turning paid media spend into accountable revenue with AI
+Hero image alt: Empty auction hall at dawn with rows of wooden bidding seats facing a vacant podium.
 
 
 PAGE COPY
 
+Turning paid media spend into accountable revenue with AI
+Paid media budgets leak when bidding algorithms chase cheap clicks instead of qualified pipeline, booked appointments, or patient admissions. Paired with disciplined account structure and clean conversion data, AI helps marketing teams raise conversion value per cost across search and multi-location campaigns. This page explains where automated bidding improves paid media economics, where platform rules draw hard limits, and how regulated organizations keep human operators in control.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Where paid media budgets fail without disciplined AI systems
+Most paid media waste happens before an algorithm ever adjusts a bid. Accounts accumulate overlapping campaigns, loose keyword matching, and conversion actions that reward low-intent clicks, short phone calls, or incomplete forms. When an ad platform receives noisy feedback, manual bid changes cannot correct the drift fast enough across dozens of markets and devices.
+Picture a paid media analyst sitting at a multi-monitor workstation on a Monday morning, reviewing campaign dashboards for a multi-location healthcare group or professional services firm. One screen shows cost per lead dropping in three regional markets, while a second screen shows intake conversions falling in those same zip codes. Without a system that connects auction-level bidding to verified conversion quality, the analyst is forced to react days after budget has already been spent on the wrong inquiries.
+Rule-based automation does not solve that lag because static scripts only follow preset conditions, such as pausing a keyword after a fixed spend threshold or raising bids during business hours. Machine learning models operate differently: they evaluate auction context continuously and update bid predictions inside parameters defined by the marketing team. Marketing Powered has been AI-native since 2022, and its [paid media services](/services/paid-media/) focus on pairing automated execution with operator oversight across hospitals, healthcare services, professional services, and multi-location businesses.
+How auction-time bidding and testing improve conversion value per cost
+Paid media efficiency comes down to conversion value per cost, where higher is better. Automated systems improve that ratio across two daily bottlenecks: pricing individual ad auctions accurately and routing landing page traffic away from weak page variants before they burn budget.
+Traditional campaign management sets bids at the keyword or ad-group level, treating every searcher inside that bucket roughly the same. Google's [automated bidding documentation](https://support.google.com/google-ads/answer/10964872) states that Smart Bidding can adjust for interactions between billions of combinations of signals when predicting conversion likelihood at auction time. Those signals include device type, geographic location, time of day, and search query context, allowing the system to bid aggressively for high-intent impressions while pulling back on low-probability clicks.
+Landing page testing benefits from a similar shift away from static schedules. Standard A/B tests split traffic evenly until a test reaches fixed statistical thresholds, which forces advertisers to keep sending spend to an underperforming page while waiting for a report. Multi variant optimization routes incoming traffic toward higher-converting page combinations based on observed conversion behavior, reducing wasted clicks during active campaigns.
+Budget allocation across geographies and service lines follows the same logic. Rather than dividing monthly budgets evenly across clinics or office locations, predictive pacing moves marginal spend toward markets producing stronger conversion value per cost. High daily spend magnifies small auction errors quickly. Before launching Marketing Powered, the founder managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts, where manual bid adjustments were too slow to keep pace with shifting regional competition.
+Which AI platforms and tools fit paid media management
+Paid media teams rarely rely on a single software vendor. Most operating stacks combine native ad-platform bidding from Google or Microsoft with cross-channel management tools or local inference hardware, depending on channel mix, budget scale, and privacy requirements.
+* Google Ads Smart Bidding; Primary capability: Auction-time bidding for Target CPA, Target ROAS, Maximize conversions, and Maximize conversion value; Main operational limitation: Optimizes inside Google's ad ecosystem only and depends on accurate conversion imports
+* Google Performance Max; Primary capability: Goal-based campaign running across Search, Display, YouTube, Discover, Gmail, and Maps; Main operational limitation: Offers less granular query control and requires tight asset and conversion-signal governance
+* Microsoft Advertising; Primary capability: Automated bidding across Bing and Microsoft properties with LinkedIn profile targeting; Main operational limitation: Search profile targeting is bid-only, so impressions still reach users outside selected profiles
+* Cross-platform bid tools; Primary capability: Cross-channel budget pacing, custom bidding rules, and downstream reporting layers; Main operational limitation: Adds software overhead and still requires clean CRM data to guide decisions
+* Owned local AI infrastructure; Primary capability: HIPAA-aware inference and internal analytics on company-owned hardware; Main operational limitation: Applies to selected workloads rather than replacing third-party ad delivery platforms
+Platform-native bidding is the starting point for most search accounts because ad networks hold auction signals that outside tools cannot see directly. According to Google's [About Smart Bidding](https://support.google.com/google-ads/answer/7065882?hl=en) documentation, Smart Bidding uses Google AI to optimize for conversions or conversion value in every auction. For broader reach beyond standard search campaigns, Google's [About Performance Max campaigns](https://support.google.com/google-ads/answer/10724817?hl=en) documentation states that the campaign type uses Google AI to find converting customers across Google's channels, spanning Search, Display, YouTube, Discover, Gmail, and Maps.
+For B2B and professional services buyers, Microsoft Advertising adds demographic reach across Bing and the Microsoft Audience Network. Per Microsoft's [LinkedIn profile targeting](https://help.ads.microsoft.com/apex/index/3/en/56905) documentation, advertisers can target by LinkedIn company, industry, and job function on specified campaign types; on Search campaigns, that targeting is bid-only, meaning ads can still appear to searchers outside the selected profiles.
+Cross-channel management platforms such as Skai (which rebranded from Kenshoo on June 8, 2021, per the [Skai press release](https://skai.io/press-releases/skai-pr/)), Optmyzr, and Marin Software add budget pacing, alerting, and reporting across multiple ad networks. For organizations operating in regulated healthcare markets, Marketing Powered operates owned, local AI infrastructure for HIPAA-aware inference. That setup is a technical control for selected analytical and operational workloads, not a claim that every ad campaign or every data flow stays on owned hardware, and client data ownership remains separate from agency hardware ownership.
+How attribution connects ad spend to admissions and revenue
+Automated bidding only performs as well as the conversion goal it is trained to pursue. When a hospital, treatment center, or legal practice trains Google Ads on raw form fills or 30-second phone calls, the bidding algorithm finds the cheapest people willing to fill out a form, even if their insurance is out of network or their inquiry falls outside the service line.
+Closing that gap requires an end-to-end signal loop connecting ad spend to verified revenue outcomes:
+* Ad spend and query capture: Search and local campaigns capture active demand separated cleanly by service line and geography.
+* Intake and qualification signals: Call tracking, intake teams, and CRM records distinguish valid prospects from spam, job seekers, or out-of-area inquiries.
+* Bid and budget adjustment: Qualified conversion stages feed back into ad platforms, where permitted by policy, so bidding algorithms weight high-value inquiries over raw lead volume.
+* Attributed outcome: Executive reporting tracks acquisition cost through to admission, booked appointment, or signed engagement rather than stopping at cost per lead.
+Marketing Powered builds measurement systems around attribution tracked to admission, not just lead. That operational focus reflects executive-level marketing experience rather than ad-agency theory. Before founding the firm, the founder worked as a healthcare CMO who ran marketing for a treatment network that grew from 3 to 24 locations, and is a court-certified expert witness in advertising strategy. Readers evaluating the team's operating philosophy and approach to accountable reporting can review [Marketing Powered leadership](/company/about/) and explore how engagements are structured across [agency case work](/results/case-studies/).
+What compliance limits shape AI in regulated verticals
+Generic AI advertising playbooks often fail in healthcare and behavioral health because they assume unrestricted audience targeting and remarketing. Platform policies and healthcare privacy rules restrict both, which changes how paid media teams train bidding models and measure performance.
+Under Google's [Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855?hl=en) policy, health content, including counseling for mental health and addiction, is classified as a sensitive interest category. For campaigns in that category, advertiser-curated audiences such as Customer Match, your data segments, audience expansion, and lookalike segments are not permitted, though predefined Google audiences can still be used. Because retargeting is not allowed in Google's sensitive healthcare vertical, teams cannot rely on remarketing lists to recapture bounced visitors. Performance has to come from search intent alignment, clear landing page messaging, and multi variant optimization on the first visit.
+Addiction treatment advertising carries additional verification rules. Under Google's [Healthcare and medicines](https://support.google.com/adspolicy/answer/176031?hl=en) policy, recovery-oriented drug and alcohol addiction ads are restricted, and Google requires certification, including LegitScript certification in specified locations (for example, Canada requires LegitScript's Addiction Treatment Certification along with Google certification).
+HIPAA awareness introduces a separate operational boundary that is not a Google Ads certification. Connecting website forms, call recordings, or intake CRMs to ad platforms requires careful review under applicable privacy policies so protected health information is never exposed through tracking pixels or third-party scripts. Marketing Powered is built to be LegitScript-aware and HIPAA-aware inside Google's sensitive healthcare vertical, treating compliance as an architecture constraint from day one rather than a software checkbox.
+How to integrate AI into paid media without disrupting performance
+Transitioning an active ad account to AI-assisted management should happen in controlled stages so reporting stays readable and lead flow does not drop during the changeover. Teams see cleaner results when they fix measurement hygiene before turning on broader automation.
+* Audit conversion actions and campaign structure: Separate branded queries from non-branded service queries, pause vanity conversion goals like page scroll events, and verify that primary bidding goals reflect qualified inquiries.
+* Connect CRM outcomes to conversion values: Assign clear relative values to qualified calls, scheduled consultations, or verified intakes so automated bidding optimizes for conversion value per cost instead of equal-weight leads.
+* Establish policy and privacy guardrails: Confirm required platform certifications, strip prohibited audience segments from sensitive health campaigns, and document which analytics tasks run inside local HIPAA-aware infrastructure versus standard ad networks.
+* Phase in automated bidding against volume baselines: Test Smart Bidding on high-volume campaigns first while keeping manual or hybrid controls on low-volume or highly seasonal service lines. According to Google's [About Smart Bidding](https://support.google.com/google-ads/answer/7065882?hl=en) guidance, Google recommends evaluating Smart Bidding over a period with at least 30 conversions, and 50 conversions for Target ROAS, rather than treating 30 as a rigid activation switch.
+During each rollout phase, human operators review search term reports, landing page conversion rates, and intake feedback weekly. Automation handles high-frequency auction calculations; operators handle offer positioning, clinical accuracy, compliance checks, and budget priorities across business units.
 
-Exploring the Role of AI in Paid Media
-Strategic AI integration that turns ad spend into measurable growth, not wasted budget.
-[CTA] Book a Discovery Call
-
-
-Understanding AI in Paid Media
-AI in paid media represents a fundamental shift in how advertisers manage campaigns, allocate budgets, and reach qualified audiences. Rather than relying solely on manual bid adjustments and static audience segments, AI systems process thousands of signals per impression to make decisions that would take human teams weeks to analyze.
-The integration spans three core areas: targeting, bid management, and performance analysis. On the targeting side, machine learning advertising models identify patterns in conversion data that reveal which audience characteristics actually predict purchase intent, not just engagement. For bid management, AI systems adjust bids in real time based on predicted conversion probability, competitive pressure, and budget pacing. Performance analysis moves from retrospective reporting to predictive insights that inform tomorrow's strategy.
-What makes AI-powered ads different from traditional automation is the ability to learn and adapt without explicit programming. A rule-based system follows instructions you set. An AI system identifies patterns you never specified and acts on them within parameters you define. This distinction matters because the variables affecting paid media performance change constantly: competitor behavior, seasonal demand, platform algorithm updates, and audience fatigue.
-For agencies managing multiple accounts across verticals, this adaptability compounds. The AI learns from patterns across the portfolio, identifying what works in similar contexts and applying those insights faster than any manual process could replicate. Marketing Powered has operated with [AI integration for PPC](/ai-edge) since 2022, building systems that learn from $50M+ in managed media spend across behavioral health and mental health verticals.
-Impact of AI on Advertising Efficiency
-Efficiency in paid media comes down to two metrics: how much you spend to acquire a customer and how accurately you predict which spend will convert. AI addresses both by automating the high-frequency decisions that determine campaign performance.
-Bid optimization is where most agencies see immediate impact. Instead of setting bids at the ad group or campaign level, AI systems evaluate each auction independently. They factor in device, location, time of day, user behavior signals, and competitive dynamics to determine the optimal bid for that specific impression. According to [Google's documentation on Smart Bidding](https://support.google.com/google-ads/answer/7065882), their machine learning models process billions of signals to predict conversion likelihood in real time.
-
-
-Creative testing accelerates significantly with AI. Traditional A/B testing requires statistical significance, which means waiting for enough impressions to declare a winner. Multi-variant optimization routes traffic dynamically based on early performance signals, identifying winning combinations faster and reducing wasted spend on underperforming variations.
-Budget allocation benefits from predictive models that forecast performance across campaigns and channels. Rather than spreading the budget evenly or adjusting manually based on last week's data, AI systems project where the next dollar will generate the highest return and shift allocation accordingly. Marketing Powered applies this approach across [paid media services](/services/paid-media), where managing $1.5M to $2M monthly in Google Ads requires precision that manual methods cannot match.
-
-
-The compounding effect matters most. Each optimization builds on previous learnings. Each data point refines the model. Over months, the gap between AI-managed campaigns and manually optimized campaigns widens because the AI accumulates insights that would take human teams years to develop.
-Best AI Tools for PPC Management
-The AI ppc management space includes platform-native tools from Google and Microsoft, standalone optimization platforms, and custom-built solutions. Each category serves different needs depending on budget, technical resources, and strategic requirements.
-* Google Ads Smart Bidding uses machine learning to optimize for conversions or conversion value at auction time. Target CPA, Target ROAS, and Maximize Conversions strategies leverage Google's data on user intent signals that advertisers cannot access directly. The limitation: it optimizes within Google's ecosystem only.
-* Microsoft Advertising automated bidding applies similar principles to Bing and the Microsoft Audience Network. For B2B advertisers or those targeting demographics that index higher on Microsoft properties, the AI capabilities parallel Google's, with access to LinkedIn profile data for targeting.
-* Performance Max campaigns combine search, display, YouTube, and Discovery into a single AI-driven campaign type. The system allocates budget across channels based on predicted performance. According to [Google's Performance Max documentation](https://support.google.com/google-ads/answer/10724817), the format uses machine learning to find converting customers across all Google inventory.
-* Third-party bid management platforms like Marin Software, Kenshoo (now Skai), and Optmyzr layer additional AI capabilities on top of platform-native tools. They enable cross-platform optimization, custom bidding algorithms, and reporting that connects paid media to downstream metrics platforms that cannot track.
-* Custom AI solutions built on proprietary data offer the deepest integration but require significant investment. Marketing Powered operates owned AI infrastructure specifically designed for HIPAA-conscious verticals where data cannot flow through third-party APIs. This approach ensures data sovereignty while enabling machine learning that learns from patterns unique to healthcare marketing.
-
-
-Case Studies of AI-Optimized Campaigns
-The difference between AI-assisted and AI-optimized campaigns shows most clearly in healthcare verticals where compliance constraints limit standard automation options.
-Operator-side multi-market growth while Marketing Powered managed their paid media. The AI systems tracked attribution through to admission, not just to form fills or phone calls. This distinction matters because lead volume means nothing if those leads do not convert to revenue. By training models on admission data rather than surface-level conversions, the campaigns optimized for outcomes that actually drove business growth.
-Across [AI-driven marketing case studies](/results/case-studies), a consistent pattern emerges: the combination of vertical expertise and AI capabilities outperforms either alone. Generic AI tools lack the compliance awareness required for [behavioral health marketing](/who-we-help/behavioral-health). Manual optimization by specialists lacks the processing speed to capitalize on real-time signals. The integration of both creates campaigns that perform within regulatory constraints while adapting faster than competitors.
-
-
-The court-certified marketing expert credential behind Marketing Powered's methodology adds accountability that pure-play AI vendors cannot offer. When strategy requires defense or explanation, the foundation exists to support it with [expert analysis in advertising](/services/paid-media) that stands up to scrutiny.
-Integrating AI into Your Marketing Strategy
-Starting with AI integration does not require replacing your entire paid media infrastructure. The practical path begins with identifying where manual processes create bottlenecks and where data exists to train AI systems.
-Audit your current bidding approach first. If you manage bids manually or use basic automated rules, platform-native smart bidding offers immediate improvement with minimal setup. Enable conversion tracking that captures actual business outcomes, not just clicks or form submissions. The AI can only optimize for what it can measure.
-Evaluate your data infrastructure next. AI ppc campaigns improve as they learn from more data. If your CRM disconnects from your ad platforms, you lose the feedback loop that makes machine learning effective. Offline conversion imports, customer match audiences, and server-side tracking close these gaps.
-Consider compliance requirements before selecting tools. For [mental health advertising strategies](/who-we-help/mental-health) and other sensitive verticals, standard AI tools may not respect the restrictions that Google's healthcare policies require. LegitScript certification, HIPAA awareness, and the prohibition on retargeting in behavioral health all constrain which AI approaches work.
-The integration question is not whether to adopt AI in paid media but how to adopt it in ways that match your vertical's requirements and your organization's data maturity. Marketing Powered builds AI systems designed for exactly these constraints, combining predictive paid media capabilities with the compliance discipline that healthcare-adjacent verticals demand.
-[CTA] Book a Discovery Call
-Ready to Explore AI Integration for Your Paid Media?
-Marketing Powered combines AI-native infrastructure with operator-level expertise in regulated verticals. If you are evaluating how AI can improve your paid media performance while respecting compliance requirements, a discovery call provides the space to discuss strategy, lead quality, and the specific constraints of your vertical.
-[CTA] Book a Discovery Call
 FAQ
-Q: How is AI changing paid media?
-A: AI shifts paid media from reactive optimization to predictive decision-making. Instead of analyzing last week's performance to adjust this week's bids, AI systems predict conversion probability at the impression level and act in real time. This changes targeting from demographic assumptions to behavioral pattern recognition, bid management from manual rules to auction-time optimization, and reporting from historical summaries to forward-looking forecasts that guide strategy.
-Q: What are the benefits of AI in PPC?
-A: The primary benefits include improved targeting accuracy through pattern recognition that identifies converting audiences, cost efficiency from real-time bid optimization that reduces wasted spend, faster creative testing through multi-variant optimization, and attribution insights that connect ad spend to actual business outcomes. These compounds over time as the AI accumulates data and refines its models.
-Q: How can AI tools optimize PPC campaigns?
-A: AI tools optimize PPC through auction-time bidding that adjusts for each impression, dynamic budget allocation that shifts spend toward the highest-performing campaigns, predictive analytics that forecast performance before spend occurs, and automated creative testing that identifies winning combinations faster than traditional A/B testing. The depth of optimization depends on data quality and how well conversion tracking captures real business outcomes.
-
-
-Q: Which AI tools are best for paid advertising?
-A: Google's Smart Bidding and Performance Max represent the most accessible AI options with access to proprietary user signals. Microsoft Advertising offers similar capabilities with LinkedIn data integration. Third-party platforms like Skai and Optmyzr add cross-platform optimization. For regulated verticals like healthcare, custom AI solutions built on owned infrastructure provide the deepest integration while maintaining data sovereignty and compliance.
-Q: Is AI suitable for all PPC campaigns?
-A: AI performs best with sufficient conversion volume to train models accurately, typically requiring 30+ conversions per month at a minimum. Campaigns with very low volume, highly seasonal patterns, or rapid market changes may benefit from hybrid approaches that combine AI automation with human strategic oversight. Compliance-sensitive verticals require AI solutions designed to operate within regulatory constraints.
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, Article, BreadcrumbList
-* @type
-* mainEntity (for FAQ)
-* headline
-* author
-* datePublished
-* dateModified
-* publisher
-* description
-* itemListElement (for breadcrumbs)
-
-
-DELIVERY NOTES
-External citations
-* Google's documentation on Smart Bidding https://support.google.com/google-ads/answer/7065882 [Platform policy/documentation] - Primary source for how Google's machine learning bidding works, supports claims about auction-time optimization
-* Google's Performance Max documentation https://support.google.com/google-ads/answer/10724817 [Platform policy/documentation] - Authoritative source for Performance Max campaign capabilities, supports AI tool recommendations
-
-
-Brief conflicts
-* The meta description at 94 characters is quite short. Consider expanding to 150-160 characters for better SERP real estate.
-* The brief's primary audience (agency CEO/VP) differs from Marketing Powered's core verticals (behavioral health/mental health operators). The page has been written to bridge both audiences by discussing general AI capabilities while referencing healthcare-specific compliance and case studies.
-
-
-Internal link gaps
-* Consider adding a link to a dedicated LegitScript or compliance page if one exists, given the compliance discussion.
-* A link to a specific AI methodology or technology page under /ai-edge/ would strengthen the technology proof section if available.
-
-
-Compliance flags
-* Page discusses healthcare/behavioral health marketing examples. All outcome claims reference marketing metrics (lead quality, attribution to admission) rather than patient outcomes, per compliance rules.
-* No retargeting claims made. LegitScript and HIPAA awareness mentioned appropriately.
-
-
-Missing proof points
-* Specific percentage improvements from AI optimization would strengthen the efficiency section if available.
-* Concrete numbers on time saved or cost reduction from AI bid management would add credibility to the tools section.
-
-
-Banned phrasing in brief
-* The Avoid list in the brief includes 'leverage' and 'robust' which are also in the system banned list. No conflicts with H1/title/meta.
+Q: How does AI change day-to-day paid media management?
+A: AI shifts paid media teams from making manual bid spreadsheets to governing conversion data, account structure, and creative testing. Instead of editing keyword bids by hand every afternoon, analysts monitor conversion value per cost, audit search queries, refine landing page messaging, and align intake data with campaign goals.
+Q: How many conversions do you need for Google Ads Smart Bidding?
+A: There is no single mandatory switch-on threshold, though low conversion volume makes automated models slower to stabilize. Google's [About Smart Bidding](https://support.google.com/google-ads/answer/7065882?hl=en) documentation recommends evaluating performance over a period that includes at least 30 conversions, and 50 conversions for Target ROAS, so the system has enough data to assess conversion likelihood accurately.
+Q: Can healthcare advertisers use AI bidding without retargeting?
+A: Yes, healthcare advertisers can run auction-time bidding without remarketing lists by anchoring campaigns on high-intent search queries and compliant conversion tracking. Because Google's [Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855?hl=en) policy bars advertiser-curated audiences like Customer Match, your data segments, and lookalikes for sensitive health categories, bidding models rely on real-time search signals and predefined audience context instead.
+Q: Does owned AI infrastructure keep all paid media data offline?
+A: No, owned local hardware does not take ad delivery or platform bidding offline because campaigns still run through Google Ads or Microsoft Advertising. Marketing Powered's owned, local AI infrastructure handles selected HIPAA-aware inference and internal analytical workloads, giving organizations tighter control over sensitive processing without implying that every marketing data flow stays off third-party ad networks. If you want a direct assessment of your paid media accounts, conversion tracking, and attribution setup, start with an audit from an operator-led team. [Request an acquisition audit](/get-started/request-an-audit/)

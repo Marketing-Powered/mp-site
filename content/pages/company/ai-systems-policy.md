@@ -1,118 +1,60 @@
 ---
-title: "AI Systems Policy | Responsible Governance"
+title: "AI Systems Policy | Marketing Powered"
 url: "/company/ai-systems-policy/"
-primary_keyword: "ai systems policy"
+primary_keyword: ""
 ---
 
-PAGE BRIEF ACKNOWLEDGMENT
-This page targets /company/ai-systems-policy/ with a primary keyword of 'ai systems policy' and secondary keywords including 'ai use policy,' 'responsible ai policy,' and 'ai acceptable use policy.' The page type is a company policy/trust page aimed at government regulators, compliance officers, and CTOs seeking clarity on AI governance frameworks. Target word count is 600-1000 words.
-Buyer target: Government regulators, compliance officers, and CTOs in tech companies seeking assurances about responsible AI use and transparency
-Word count target: 600-1000 words
-
-
 SEO METADATA
-Title tag (43 chars): AI Systems Policy | Responsible Governance
-Meta description (94 chars): Read Marketing Powered's AI systems policy: transparent, compliant, and responsible AI use across every campaign, tool, and client engagement.
-H1: Understanding Our AI Systems Policy
-Hero image alt: Abstract visualization of AI governance framework with interconnected nodes representing policy, compliance, and transparency
+Title tag: AI Systems Policy | Marketing Powered
+Meta description: How Marketing Powered governs AI systems: human review, owned local inference, HIPAA-aware data handling, and regulated ad policy controls.
+H1: AI Systems Policy: responsible governance in practice
+Hero image alt: Operator reviewing printed AI model output at owned local workstation in healthcare marketing office
 
 
 PAGE COPY
 
+AI Systems Policy: responsible governance in practice
+Most AI policies exist to reassure buyers during procurement. This page documents the systems Marketing Powered runs in production, the rules those systems follow, and who carries accountability when an output misses the mark. Every standard below reflects live operating practice across hospitals, healthcare organizations, professional services, and other regulated markets.
+[CTA] Request a Free Audit → /get-started/request-an-audit
+Why a marketing firm publishes a working AI policy
+Marketing Powered has been AI-native since 2022, and publishing a working AI policy gives regulated buyers a written standard they can inspect before signing an agreement. In healthcare and other regulated sectors, an unverified marketing claim creates regulatory exposure and ad account disruption. Documented operating rules establish clear boundaries before a campaign launches.
+That standard comes directly from the founder's operating history. Before building the firm, the founder served as a healthcare CMO running marketing for a treatment network that grew from 3 to 24 locations and managed $1.5 to $2M per month in Google Ads across 11+ behavioral and mental health accounts. Running paid acquisition at that volume under clinical and platform oversight leaves zero margin for fabricated figures or unreviewed copy.
+Publishing these controls lets procurement and compliance teams inspect how risk is managed across production workflows. Each system ties deliverables to documented prompt rules, model configurations, and archived source records.
+What this policy covers and what it does not
+This policy governs every AI system Marketing Powered operates across research, drafting, analytics, technical quality assurance, and supporting data infrastructure. It defines how client information moves through those pipelines and which categories of sensitive data remain excluded.
+This policy does not cover external software a client operates independently. Software tools and agency workflows do not confer legal compliance by themselves, because regulatory compliance depends on an organization's full framework of safeguards and operating controls.
+For that reason, Marketing Powered uses precise scope terms: HIPAA-aware and LegitScript-aware. Those terms describe documented workflow safeguards that buyers can inspect and test directly.
+A named person owns every output
+No AI system at Marketing Powered publishes content, modifies ad spend, or delivers reporting on its own authority. Every deliverable passes through a human reviewer with authority to reject the work, and a named owner holds direct accountability for what ships.
+Model output enters production as draft material that requires verification against primary documentation before reaching a client or a public URL. Any statistic, policy reference, or factual assertion without a traceable origin is removed during review.
+The founder is a court-certified expert witness in advertising strategy, and that evidentiary standard guides internal quality checks. Every published claim must hold up under direct scrutiny against documented facts.
+Where inference runs: owned, local infrastructure
+Marketing Powered owns and operates local AI infrastructure for HIPAA-aware inference. Sensitive workloads can execute on physically controlled hardware inside a private network boundary instead of routing by default through external third-party APIs with outside retention terms.
+Local compute architecture isolates sensitive processing from public cloud endpoints. System configurations define the assigned model, the permitted data directory, and the local storage path for job logs after execution completes.
+Clear scope matters when describing infrastructure. Not every marketing task runs on local hardware, and agency ownership of physical servers never changes ownership of client data. Client data remains the client's property at all times, while local inference provides a controllable processing boundary when data sensitivity requires it.
+Data handling in HIPAA-regulated environments
+The HIPAA Security Rule sets national standards requiring administrative, physical, and technical safeguards for electronic protected health information, applying to covered entities and their business associates ([HHS Summary of the HIPAA Security Rule](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)). Marketing Powered structures its internal data handling around that separation of regulated records.
+Patient identifiers and protected health information never enter third-party generative models. Marketing performance data and clinical records remain segregated across separate environments, with system access scoped strictly to the assigned task.
+Where client systems and proper authorization support it, attribution is tracked to admission, not just lead. Measuring paid media against conversion value per cost and verified admission outcomes requires sensitive-data controls from initial pipeline setup.
+Platform rules we design around, not against
+Google classifies health as a sensitive interest category covering physical and mental health conditions, treatments, and procedures, and prohibits advertiser-curated audiences such as customer match, your-data segments, and lookalike segments ([Google Advertising Policies: Health in personalized advertising](https://support.google.com/adspolicy/answer/16701855?hl=en)). Retargeting is not permitted in this vertical, and Marketing Powered builds regulated acquisition programs around those constraints.
+AI systems supporting media planning and campaign analysis are configured to recommend only tactics permitted inside the account's vertical. Without restricted audience shortcuts, paid acquisition wins on search intent, message match, landing page conversion systems, and first-party measurement.
+* Restricted; Healthcare paid media tactics: Retargeting, customer match, your-data segments, lookalike segments
+* Permitted; Healthcare paid media tactics: High-intent search targeting, policy-aligned ad creative, multi variant optimization on landing pages, first-party measurement
+How we audit our systems and published pages
+Marketing Powered models its internal AI audit workflow on the NIST AI Risk Management Framework, a voluntary standard structured around four core functions: Govern, Map, Measure, and Manage ([NIST AI RMF](https://airc.nist.gov/airmf-resources/airmf/)). Production systems that fail factual or policy verification are removed from active use until the underlying defect is resolved.
+Internal audits follow a four-step technical checklist across active workflows and live web assets:
+* Sample live production outputs: Completed briefs, landing pages, and media recommendations are drawn on a recurring schedule for structured accuracy checks.
+* Verify claims against primary sources: External policy citations, figures, and scope statements are checked against original publisher documentation, and unsupported claims are cut.
+* Trace defects to system components: Every error is logged against the responsible prompt configuration or data input so fixes correct the pipeline at the root.
+* Check technical site hygiene: Published pages are verified for descriptive image filenames, accurate alt text, image sitemap parity, trailing-slash canonical URLs, and working links.
 
-Understanding Our AI Systems Policy
-Transparent governance, accountable practices, and a framework built for regulated industries.
-[CTA] Request an AI Policy Audit
-
-
-Introduction to AI Systems Policy
-An AI system's policy defines how an organization develops, deploys, and governs artificial intelligence across its operations. For companies working with AI technologies, this document establishes the rules of engagement: what AI can and cannot do, how decisions are made, and who is accountable when something goes wrong.
-At Marketing Powered, our AI systems policy reflects the reality that we operate in regulated healthcare verticals. We have managed [over $50M in behavioral health and mental health media spend](/results/case-studies), and that experience taught us that governance is not optional. It is the foundation that makes everything else possible.
-Sound AI governance starts with clear principles: transparency in how AI influences decisions, accountability for outcomes, and privacy protection that meets the standards of industries where mistakes carry real consequences. These are not aspirations. They are operational requirements we build into every system we deploy.
-Key Elements of Our AI Use Policy
-Our [ai use policy](/ai-edge) addresses three areas that matter most to compliance-conscious organizations: user guidelines, data privacy commitments, and alignment with recognized standards.
-
-
-User guidelines specify who can access AI systems, what tasks those systems can perform, and the human oversight required for sensitive decisions. Every AI application we deploy has defined boundaries and documented approval workflows.
-Data privacy commitments are non-negotiable in healthcare-adjacent work. Our infrastructure is built for HIPAA-conscious processing, with data sovereignty maintained on controlled hardware rather than third-party cloud environments. PHI does not leave our systems.
-Compliance alignment means we do not treat regulatory requirements as checkboxes. We operate with awareness of LegitScript certification standards, Google Ads sensitive vertical restrictions, and the no-retargeting rules that govern behavioral health advertising. Our AI tools are configured to respect these boundaries by default.
-
-
-Ensuring Responsible AI Practices
-Responsible AI policy requires more than documentation. It requires operational discipline.
-Accountability means every AI-assisted decision has a human owner. When our systems generate recommendations, optimize campaigns, or surface insights, a person reviews the output before it affects client outcomes. We have been AI-native since 2022, long enough to know that automation without oversight creates risk.
-Fairness in our context means AI does not introduce bias into targeting, messaging, or budget allocation. We audit model outputs against known demographic and geographic patterns to catch drift before it affects performance.
-Transparency is how we build trust with clients and regulators. We document what AI does in our workflows, explain its role in specific deliverables, and provide clear answers when asked how a decision was made. Our founder has served as a [court-certified expert witness](/about-us) in advertising strategy, which reinforces why we treat auditability as a core requirement.
-
-
-If your organization needs clarity on how AI governance translates to operational practice, we can help you map out a framework that fits your risk profile.
-[CTA] Request an AI Policy Audit
-Compliance and Governance Framework
-Our governance framework draws from multiple regulatory and industry sources. We do not operate in a single compliance silo.
-The legal structures that guide our AI policy include HIPAA requirements for protected health information, FTC guidance on AI transparency and advertising claims, and platform-specific rules from Google, Meta, and Microsoft for healthcare advertising. We also track emerging frameworks from NIST on AI risk management and international standards as they develop.
-Enforcement procedures include quarterly policy reviews, incident documentation protocols, and defined escalation paths when AI behavior deviates from expected parameters. We treat policy violations the same way we treat campaign performance issues: document, diagnose, fix, and prevent recurrence.
-Regular updates are built into our governance cycle. AI capabilities change quickly, and policies written for 2022 technology do not address 2025 realities. We revise our framework at least annually, or sooner when significant regulatory guidance emerges.
-Future of AI Policies
-AI governance is moving from voluntary best practice to a regulatory requirement. The EU AI Act, state-level legislation in the US, and sector-specific guidance from healthcare regulators all point toward a more structured compliance environment.
-We expect AI policies to become more specific about model documentation, bias testing, and human oversight thresholds. Organizations that build governance infrastructure now will adapt more easily than those who treat it as a future problem.
-Marketing Powered is committed to staying ahead of these requirements. [Explore our services](/services) to see how we integrate responsible AI practices across paid media, analytics, and campaign optimization for regulated industries.
-Ready to Build Your AI Governance Framework?
-Whether you need a formal AI systems policy, an audit of existing practices, or guidance on compliance requirements for regulated industries, we can help you build a framework that protects your organization and supports responsible growth.
-[CTA] Request an AI Policy Audit
 FAQ
-Q: What is an AI systems policy?
-A: An AI systems policy is a formal document that defines how an organization develops, deploys, and governs artificial intelligence. It typically includes user access guidelines, data handling requirements, accountability structures, and compliance standards. For organizations in regulated industries, this policy establishes the boundaries that keep AI applications within legal and ethical limits.
-Q: How do we ensure compliance with AI policies?
-A: We maintain compliance through quarterly policy reviews, documented incident protocols, and defined escalation paths when AI behavior deviates from expected parameters. Our team conducts regular audits of AI outputs against fairness and accuracy benchmarks. We also track regulatory developments from NIST, the FTC, and healthcare-specific authorities to update our framework as requirements change.
-Q: Why is transparency important in AI use?
-A: Transparency builds trust with clients, regulators, and end users. When people understand how AI influences decisions, they can evaluate whether those decisions are fair and appropriate. Our transparency measures include documentation of AI roles in specific workflows, clear explanations of how recommendations are generated, and audit trails that support regulatory inquiries.
-
-
-Q: What are the components of an acceptable AI use policy?
-A: An acceptable AI use policy typically includes authorized user definitions, permitted use cases, data handling and privacy requirements, security measures, human oversight protocols, and incident response procedures. These components establish who can use AI, what they can use it for, how data is protected, and what happens when something goes wrong.
-
-
-SCHEMA RECOMMENDATION
-Schema type: FAQPage, WebPage, BreadcrumbList
-* name
-* description
-* mainEntity (for FAQ)
-* breadcrumb
-* publisher
-* datePublished
-* dateModified
-
-
-DELIVERY NOTES
-External citations
-* NIST AI Risk Management Framework https://www.nist.gov/itl/ai-risk-management-framework [Standards body (government)] - Authoritative source for AI governance framework referenced in Compliance and Governance Framework section
-* EU AI Act https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai [Government regulatory body] - Primary source for international AI regulation referenced in Future of AI Policies section
-* FTC guidance on AI and algorithms https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check [Government regulatory body (US)] - Supports claims about advertising and AI transparency requirements in Compliance section
-
-
-Brief conflicts
-* The primary audience is listed as 'government regulators, compliance officers, and CTOs in tech companies' but the Proof Points Library contains only behavioral health marketing metrics. I adapted by positioning the BH/MH experience as evidence of operating in regulated environments rather than forcing mismatched proof points.
-* Internal link 'Learn More about Our Compliance Frameworks' points to /services/web-development/ which does not appear to be a compliance-related page. I omitted this link to avoid confusing readers. Recommend updating the link map with a more appropriate target.
-* Meta description at 94 characters is functional but could be expanded to 150-160 characters for better SERP visibility.
-
-
-Internal link gaps
-* Consider adding a dedicated /company/compliance/ or /company/data-privacy/ page that this policy page could link to for deeper compliance documentation.
-* The /ai-edge/ page should be verified as live and appropriate for the 'ai use policy' anchor context.
-* About Us links to '/' per the brief, but a dedicated /company/about/ or /about-us/ URL would be more appropriate.
-
-
-Compliance flags
-* Page makes no medical outcome claims, treatment efficacy statements, or guarantees as required.
-* No PHI, patient names, or retargeting language included.
-* AI outcome guarantees explicitly avoided per compliance guardrails.
-
-
-Missing proof points
-* Specific AI governance certifications or third-party audits would strengthen the page.
-* Details on the local AI infrastructure (Mac Studio M3 Ultra cluster, TerraMaster NAS mentioned in system context) could support data sovereignty claims but were not in the brief's Proof Points Library.
-* Timeline or version history of the AI policy would demonstrate ongoing governance commitment.
-
-
-Banned phrasing in brief
-* The brief's Avoid list includes 'crucial' and 'ever-evolving landscape' which were not used in the body copy. No conflicts between brief-specified text and banned words.
+Q: Does Marketing Powered train AI models on client data?
+A: No. Client data is processed solely to deliver work for that specific account. It is never pooled across accounts or used to train models for other businesses, and ownership remains with the client regardless of where inference runs.
+Q: Are Marketing Powered AI systems HIPAA certified?
+A: No. HIPAA requirements govern covered entities, business associates, and their full organizational safeguards, not standalone software tools. Marketing Powered builds HIPAA-aware systems engineered to keep protected health information out of unauthorized environments.
+Q: What happens when an AI output contains an error?
+A: Errors are caught during human review, corrected before release, and logged as system findings. If an inaccurate output ever reached a client, the named account owner would handle the correction directly and update the underlying workflow.
+Q: Can buyers inspect which workflows use AI on their account?
+A: Yes. Marketing Powered walks clients through the active production pipeline for their engagement, detailing which workloads run on local infrastructure and who signs off before delivery. [See how this governance holds up under an audit of your own acquisition program](/get-started/request-an-audit/)

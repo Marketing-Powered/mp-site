@@ -46,6 +46,13 @@ const nextConfig: NextConfig = {
         headers: longLivedPublicAssetHeaders,
       },
       {
+        // Landing-page media (video posters, brand marks). Same contract as
+        // /images: the bytes at a given path never change — a new asset gets
+        // a new filename.
+        source: "/media/:path*",
+        headers: longLivedPublicAssetHeaders,
+      },
+      {
         source: "/logo.svg",
         headers: longLivedPublicAssetHeaders,
       },

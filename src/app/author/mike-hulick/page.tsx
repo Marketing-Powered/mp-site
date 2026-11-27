@@ -26,7 +26,7 @@ import { SITE_URL } from "@/lib/site";
 const AUTHOR = AUTHORS["mike-hulick"];
 const PATH = AUTHOR.href;
 
-const TITLE = "Michael (Mike) Hulick | Marketing Executive & Author | Marketing Powered";
+const TITLE = "Mike Hulick | Marketing Executive & Author | Marketing Powered";
 const DESCRIPTION =
   "Meet Mike Hulick, founder of Marketing Powered and former enterprise CMO. Explore his work in growth strategy, healthcare marketing, owned AI infrastructure, and attribution.";
 
@@ -71,7 +71,7 @@ const BIO: { heading: string; paragraphs: string[] }[] = [
   {
     heading: "Executive perspective",
     paragraphs: [
-      "Michael “Mike” Hulick is a marketing executive, founder, author, and applied AI strategist whose career has centered on one question: how do you turn marketing investment into lasting business growth? He has spent more than a decade building the teams, measurement systems, acquisition programs, and operating processes that connect demand to revenue. His experience spans enterprise healthcare, multi-location expansion, professional services, and complex markets where compliance, trust, and commercial performance must work together.",
+      "Mike Hulick is a marketing executive, founder, author, and applied AI strategist whose career has centered on one question: how do you turn marketing investment into lasting business growth? He has spent more than a decade building the teams, measurement systems, acquisition programs, and operating processes that connect demand to revenue. His experience spans enterprise healthcare, multi-location expansion, professional services, and complex markets where compliance, trust, and commercial performance must work together.",
       "Hulick is the founder of [Marketing Powered](/company/about), a marketing and technology company built around experienced operators, [owned AI infrastructure](/ai-edge/owned-ai-systems), first-party intelligence, and measurable outcomes. Before launching the company in 2025, he served as Chief Marketing Officer at Haven Health Management, helping support its expansion from three locations to 24 across nine states, with more than 1,000 inpatient beds. During that period, annual revenue grew from approximately $30 million to $140 million. His responsibility was to connect marketing performance with admissions capacity, commercial strategy, and organizational execution, not simply to produce more leads.",
     ],
   },
@@ -393,7 +393,7 @@ export default function AuthorPage() {
 
       {/* ---------- LEAD ---------- */}
       <section className="relative z-10 mx-auto max-w-7xl px-6 pb-16 pt-12 lg:px-12 lg:pt-16">
-        <Breadcrumbs url={`${PATH}/`} current="Michael Hulick" />
+        <Breadcrumbs url={`${PATH}/`} current="Mike Hulick" />
         {/* Phones: name block, headshot, then intro and CTAs. Desktop: text
             left, headshot right spanning both text rows. */}
         <div className="mt-8 grid gap-x-12 gap-y-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-y-0">

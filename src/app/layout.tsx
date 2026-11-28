@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Manrope, Space_Mono } from "next/font/google";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
+import ConversionEvents from "@/components/ConversionEvents";
 import TawkChat from "@/components/TawkChat";
 import { LeadModalProvider } from "@/components/site/LeadModal";
 import { SITE_URL, SITE_NAME, SITE_TITLE, SITE_DESCRIPTION } from "@/lib/site";
@@ -75,6 +76,7 @@ export default function RootLayout({
       <body className={`${manrope.className} min-h-full flex flex-col`}>
         <LeadModalProvider>{children}</LeadModalProvider>
         <Analytics />
+        <ConversionEvents />
         <TawkChat />
       </body>
     </html>

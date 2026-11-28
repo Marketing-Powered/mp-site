@@ -1,16 +1,24 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { BRAND } from "@/lib/brand";
+import { gtagEvent, recordPageVisit } from "@/lib/track";
 
 /* GA4 conversion events, captured with document-level listeners so every
    occurrence site-wide is covered without instrumenting each component:
 
      - form_button_click   any <button> or <input type=submit|button> inside
                            a <form> (lead forms, the lead modal, the cards
-                           order form, assessments)
+                           order form)
      - contact_email_click any mailto: link to the brand contact email
      - contact_email_copy  the contact email copied to the clipboard
+
+   (form_submit_success — the server accepting a submission — is fired from
+   the form components themselves, since only they see the response.)
+
+   This component also records every pathname change into the session's page
+   journey, which gtagEvent stamps onto all events (see src/lib/track.ts).
 
    Events go through the standard gtag stub: pushed onto window.dataLayer as
    Arguments objects, which gtag.js drains when it loads. The Google tag only
@@ -21,28 +29,16 @@ import { BRAND } from "@/lib/brand";
    To count these as conversions, mark each event name as a key event in
    GA4 Admin → Events once it has fired (or create it under Key events). */
 
-type GtagWindow = Window & {
-  dataLayer?: unknown[];
-  gtag?: (...args: unknown[]) => void;
-};
-
-function gtagEvent(name: string, params: Record<string, string>) {
-  const w = window as GtagWindow;
-  w.dataLayer = w.dataLayer ?? [];
-  if (typeof w.gtag !== "function") {
-    w.gtag = function gtag() {
-      /* gtag.js only processes Arguments objects on the dataLayer, so this
-         must push `arguments`, never a plain array. */
-      // eslint-disable-next-line prefer-rest-params
-      (window as GtagWindow).dataLayer!.push(arguments);
-    };
-  }
-  w.gtag("event", name, { page_path: window.location.pathname, ...params });
-}
-
 const CONTACT_EMAIL = BRAND.email.toLowerCase();
 
 export default function ConversionEvents() {
+  const pathname = usePathname();
+
+  /* Journey: one entry per page seen this session, in order. */
+  useEffect(() => {
+    if (pathname) recordPageVisit(pathname);
+  }, [pathname]);
+
   useEffect(() => {
     /* Capture phase, so a component calling stopPropagation can't hide the
        click; keyboard activation (Enter/Space on a button) also dispatches a

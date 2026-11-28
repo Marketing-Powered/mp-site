@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Reveal from "@/components/Reveal";
+import { gtagEvent } from "@/lib/track";
 import { serif, mono } from "./theme";
 import { handleInput, handleInvalid } from "./formValidation";
 import {
@@ -60,6 +61,8 @@ export function LeadForm({
         body: JSON.stringify(payload),
       });
       if (!res.ok) throw new Error(`Lead request rejected: ${res.status}`);
+      // The server accepted the lead — this is the real conversion.
+      gtagEvent("form_submit_success", { form_name: source });
       // Confirmation page only once the server has accepted the request.
       router.push("/get-started/thanks");
     } catch {

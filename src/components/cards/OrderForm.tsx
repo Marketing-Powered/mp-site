@@ -6,6 +6,7 @@ import { ArrowLeft, Check, Minus, Plus, X } from "lucide-react";
 import { FOCUS_RING } from "@/components/site/ui";
 import { handleInput, handleInvalid } from "@/components/site/formValidation";
 import { cn } from "@/lib/cn";
+import { gtagEvent } from "@/lib/track";
 import { PILL_OUTLINE, PILL_PRIMARY } from "./ui";
 import {
   ORDER_ITEMS,
@@ -226,6 +227,8 @@ export default function OrderForm({
         body: JSON.stringify(payload),
       });
       if (!res.ok) throw new Error(`Order request rejected: ${res.status}`);
+      // The server accepted the order request — this is the real conversion.
+      gtagEvent("form_submit_success", { form_name: SOURCE });
       goTo("done");
     } catch {
       setFailed(true);

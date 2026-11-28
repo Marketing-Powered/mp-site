@@ -9,6 +9,7 @@ import {
   useState,
 } from "react";
 import Link from "next/link";
+import { gtagEvent } from "@/lib/track";
 import { serif, mono } from "./theme";
 import { handleInput, handleInvalid } from "./formValidation";
 import {
@@ -87,6 +88,10 @@ export function LeadModalProvider({ children }: { children: React.ReactNode }) {
         body: JSON.stringify(payload),
       });
       if (!res.ok) throw new Error(`Lead request rejected: ${res.status}`);
+      // The server accepted the lead — this is the real conversion.
+      gtagEvent("form_submit_success", {
+        form_name: typeof payload.source === "string" ? payload.source : "Lead Modal",
+      });
       // Confirmed only once the server has accepted the request.
       setStatus("sent");
     } catch {

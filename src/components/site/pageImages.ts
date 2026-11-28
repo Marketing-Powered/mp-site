@@ -86,6 +86,242 @@ const DECO_WINDOW = decoCover("home-experience-window-light.jpg");
 const DECO_ROWS = decoCover("home-infrastructure-light-rows.jpg");
 
 const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
+  "/ai-edge/open-source/": [
+    // [0] hero
+    studioImg(
+      "ai-edge/open-source",
+      "open-source.webp",
+      "Wide shot of a tall server rack cabinet in a local compute room with blue patch cables and subtle green status LEDs.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "ai-edge/open-source",
+      "open-source-comparison-graphic-listing-code.webp",
+      "Comparison graphic listing Code Visibility, Data Routing, Infrastructure, and Exit Path across Closed SaaS and Open Stack options.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "ai-edge/open-source",
+      "open-source-process-diagram-showing-five-steps.webp",
+      "Process diagram showing five steps from scoping tasks and configuring layers to wiring data, running tests, and human approval.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "ai-edge/open-source",
+      "open-source-still-life-photo-closed-record-binder.webp",
+      "Still life photo of a closed record binder on a wooden lectern in a clinic hallway with sky blue door trim.",
+      "3 / 2",
+    ),
+  ],
+  "/alt-text-audit/": [
+    // [0] hero
+    studioImg(
+      "alt-text-audit",
+      "alt-text-audit.webp",
+      "Exterior entrance of a multi-location healthcare clinic at dusk with architectural lighting.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "alt-text-audit",
+      "alt-text-audit-illuminated-glass-security-barrier.webp",
+      "Illuminated glass security barrier inside a modern data center hallway.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "alt-text-audit",
+      "alt-text-audit-four-step-process-diagram-sitemap.webp",
+      "Four-step process diagram for sitemap reconciliation from trailing slashes to crawler access.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "alt-text-audit",
+      "alt-text-audit-healthcare-administrative-leader-walking.webp",
+      "Healthcare administrative leader walking down a bright medical clinic corridor.",
+      "3 / 2",
+    ),
+  ],
+  "/services/web-development/landing-page-development/": [
+    // [0] hero
+    studioImg(
+      "services/web-development/landing-page-development",
+      "landing-page-development.webp",
+      "Wide exterior shot of a modern healthcare facility entrance at dusk with sky blue architectural panels and illuminated glass doors.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/web-development/landing-page-development",
+      "landing-page-development-close-up-desk-telephone-intake-folder.webp",
+      "Close-up of a desk telephone and intake folder on a wooden counter inside a healthcare reception office in daylight.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/web-development/landing-page-development",
+      "landing-page-development-healthcare-administrator-walking-along.webp",
+      "Healthcare administrator walking along a sunlit glass corridor holding a document binder, viewed from a three-quarter back angle.",
+      "3 / 2",
+    ),
+  ],
+  "/services/ppc/": [
+    // [0] hero
+    studioImg(
+      "services/ppc",
+      "ppc.webp",
+      "A wide exterior photo of a multi-specialty healthcare facility at sunrise with open sky on the left.",
+      "7 / 4",
+    ),
+  ],
+  "/services/microsoft-ads-management/": [
+    // [0] hero
+    studioImg(
+      "services/microsoft-ads-management",
+      "microsoft-ads-management.webp",
+      "Exterior view of a modern medical facility entrance at dawn with floor-to-ceiling glass doors and quiet concrete walkways.",
+      "7 / 4",
+    ),
+  ],
+  "/services/market-trend-monitoring/": [
+    // [0] hero
+    studioImg(
+      "services/market-trend-monitoring",
+      "market-trend-monitoring.webp",
+      "Wide exterior view of a modern multi-location healthcare facility at dusk with architectural lighting.",
+      "7 / 4",
+    ),
+  ],
+  "/services/market-intelligence-agency/": [
+    // [0] hero
+    studioImg(
+      "services/market-intelligence-agency",
+      "market-intelligence-agency.webp",
+      "Exterior view of a modern multi-location medical clinic building with glass windows and green landscaping under a clear morning sky.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/market-intelligence-agency",
+      "market-intelligence-agency-bound-market-intelligence-research.webp",
+      "A bound market intelligence research document lying open on a wooden table beside a pen.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/market-intelligence-agency",
+      "market-intelligence-agency-five-stage-process-diagram-showing.webp",
+      "A five-stage process diagram showing the market intelligence feasibility workflow from framing economic floors to delivering execution models.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/market-intelligence-agency",
+      "market-intelligence-agency-close-up-view-metal-server-rack-cabinet.webp",
+      "A close-up view of a metal server rack cabinet with blue status indicator lights inside a climate-controlled server room.",
+      "3 / 2",
+    ),
+  ],
+  "/services/linkedin-ads/": [
+    // [0] hero
+    studioImg(
+      "services/linkedin-ads",
+      "linkedin-ads.webp",
+      "A wide exterior view of a multi-story healthcare headquarters building at sunrise with sky blue window reflections.",
+      "7 / 4",
+    ),
+  ],
+  "/services/intake-optimization/": [
+    // [0] hero
+    studioImg(
+      "services/intake-optimization",
+      "intake-optimization.webp",
+      "Quiet entrance corridor of a behavioral health center in early morning natural light.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/intake-optimization",
+      "intake-optimization-admissions-desk-telephone-paper-call.webp",
+      "Admissions desk telephone and paper call routing log on a counter at dusk.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/intake-optimization",
+      "intake-optimization-premises-network-server-rack-cabinet-sky.webp",
+      "On-premises network server rack cabinet with sky blue cabling and green LED status lights.",
+      "3 / 2",
+    ),
+  ],
+  "/services/creative-testing/": [
+    // [0] hero
+    studioImg(
+      "services/creative-testing",
+      "creative-testing.webp",
+      "Exterior front entrance of a multi-location regional healthcare clinic at dawn with sky blue canopy accents and glass doors.",
+      "7 / 4",
+    ),
+    // [1] section image
+    studioImg(
+      "services/creative-testing",
+      "creative-testing-close-up-healthcare-intake-desk.webp",
+      "Close-up of a healthcare intake desk with a telephone, open log book, and color-coded filing folders.",
+      "3 / 2",
+    ),
+  ],
+  "/services/conversion-rate-optimization/": [
+    // [0] hero
+    studioImg(
+      "services/conversion-rate-optimization",
+      "conversion-rate-optimization.webp",
+      "A wide view of a modern outpatient facility hallway leading toward an intake entrance framed by morning sunlight.",
+      "7 / 4",
+    ),
+  ],
+  "/services/llm-advertising/chatgpt/": [
+    // [0] hero
+    studioImg(
+      "services/llm-advertising/chatgpt",
+      "chatgpt-close-up-open-binder-notebook-wooden.webp",
+      "A close-up of an open binder and notebook on a wooden desk in a bright compliance office.",
+      "3 / 2",
+    ),
+    // [2] section image
+    studioImg(
+      "services/llm-advertising/chatgpt",
+      "chatgpt-5-step-process-diagram-illustrating.webp",
+      "A 5-step process diagram illustrating campaign audit, compliance review, landing page setup, controlled spend, and closed-loop review.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/llm-advertising/chatgpt",
+      "chatgpt-close-up-staff-member-reaching-desk.webp",
+      "Close-up of a staff member reaching for a desk phone next to an intake folder at a healthcare coordination station.",
+      "3 / 2",
+    ),
+  ],
+  "/services/llm-advertising/ai-discovery-optimization/": [
+    // [0] hero
+    studioImg(
+      "services/llm-advertising/ai-discovery-optimization",
+      "ai-discovery-optimization.webp",
+      "Wide exterior view of a multi-location healthcare center entrance at dusk with glass architectural panels.",
+      "7 / 4",
+    ),
+    // [3] section image
+    studioImg(
+      "services/llm-advertising/ai-discovery-optimization",
+      "ai-discovery-optimization-modern-telephone-station-medical-intake.webp",
+      "Modern telephone station on a medical intake desk representing patient communication and inquiry tracking.",
+      "3 / 2",
+    ),
+  ],
   "/resources/peptide-ad-appeal-evidence-packet/": [
     // [0] hero
     studioImg(
@@ -1455,21 +1691,28 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "services/peptide-clinic-local-seo",
       "peptide-clinic-local-seo.webp",
-      "Exterior entrance of a licensed medical clinic with glass double doors and bronze suite plaque in morning sunlight.",
+      "Exterior entrance of a licensed medical clinic with glass double doors, stone steps, sky blue signpost, and green planters in morning light.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/peptide-clinic-local-seo",
-      "peptide-clinic-local-seo-horizontal-process-diagram-showing-six.webp",
-      "Horizontal process diagram showing six stages for verifying clinic identity, directories, content, reviews, inquiries, and ongoing governance.",
+      "peptide-clinic-local-seo-four-step-process-diagram-illustrating.webp",
+      "A four-step process diagram illustrating clinic listing verification steps from street address to service list.",
       "3 / 2",
     ),
     // [2] section image
     studioImg(
       "services/peptide-clinic-local-seo",
-      "peptide-clinic-local-seo-exterior-wayfinding-monument-sign-edge.webp",
-      "Exterior wayfinding monument sign at the edge of a clinic parking lot at dusk, showing suite numbers under warm low-voltage uplights.",
+      "peptide-clinic-local-seo-close-up-clinic-reception-counter-sky.webp",
+      "Close-up of a clinic reception counter with a sky blue card display stand, printed feedback cards, and a green succulent.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-clinic-local-seo",
+      "peptide-clinic-local-seo-perspective-view-quiet-clinic-hallway.webp",
+      "Perspective view of a quiet clinic hallway focusing on a key ring with a sky blue tag on a wall-mounted brass board.",
       "3 / 2",
     ),
   ],
@@ -2192,21 +2435,21 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "services/data-strategy-consulting",
       "data-strategy-consulting.webp",
-      "Empty sunlit hospital administrative hallway with polished floors leading toward double frosted glass doors.",
+      "Exterior dusk view of a glass and concrete healthcare administrative building with soft ambient architectural lighting.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/data-strategy-consulting",
-      "data-strategy-consulting-close-up-hands-placing-sky-blue-project.webp",
-      "Close-up of hands placing a sky-blue project portfolio on a wooden table before a morning meeting.",
+      "data-strategy-consulting-hands-placing-printed-intake-performance.webp",
+      "Hands placing a printed intake performance report onto a wooden table next to paper audit folders.",
       "3 / 2",
     ),
     // [2] section image
     studioImg(
       "services/data-strategy-consulting",
-      "data-strategy-consulting-three-stage-diagram-linking-priority.webp",
-      "Three-stage diagram linking a priority business decision to an assigned data owner and an early architecture choice.",
+      "data-strategy-consulting-quiet-administrative-hallway-inside.webp",
+      "Quiet administrative hallway inside a modern healthcare facility with morning sunlight.",
       "3 / 2",
     ),
   ],
@@ -2844,45 +3087,17 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "services/hybrid-ai-architecture",
       "hybrid-ai-architecture.webp",
-      "Structured fiber optic cabling runs overhead in an orderly enterprise server room.",
+      "Owned local server rack cabinet with blue and green status indicator lights in a secure compute room.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "services/hybrid-ai-architecture",
-      "hybrid-ai-architecture-two-color-coded-intake-classification.webp",
-      "Two color-coded intake classification folders rest on a clean wooden administrative counter.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "services/hybrid-ai-architecture",
-      "hybrid-ai-architecture-process-diagram-showing-automated.webp",
-      "Process diagram showing automated fallback pathways branching into stop and alert, queue for retry, and hand to human.",
-      "3 / 2",
     ),
   ],
   "/services/private-ai-assistant/": [
     // [0] hero
     studioImg(
       "services/private-ai-assistant",
-      "private-ai-assistant-for-business.webp",
-      "A wide view of an empty commercial building entrance foyer with a brushed metal passage stanchion glowing green at dawn.",
+      "private-ai-assistant.webp",
+      "Clean healthcare administration lobby with polished floors and glass windows.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "services/private-ai-assistant",
-      "private-ai-assistant-for-business-two-column-comparison-diagram-listing.webp",
-      "A two-column comparison diagram listing permitted jobs including drafting documents alongside excluded scope including clinical judgment.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "services/private-ai-assistant",
-      "private-ai-assistant-for-business-close-up-manila-classification-folders.webp",
-      "Close-up of manila classification folders with green divider tabs resting on an oak desk in afternoon sunlight.",
-      "3 / 2",
     ),
   ],
   "/services/ai-model-migration/": [
@@ -3172,29 +3387,15 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "services/customer-segmentation",
-      "customer-segmentation-analysis.webp",
-      "Wide view of a brightly lit clinic concourse at sunrise with two polished corridors diverging toward separate wings.",
+      "customer-segmentation.webp",
+      "Wide exterior photo of a modern multi-location clinic building at dawn with separate entrance walkways under a clear blue sky.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/customer-segmentation",
-      "customer-segmentation-analysis-empty-admissions-intake-station-multi.webp",
-      "An empty admissions intake station with a multi-line telephone and color-coded route binder tabs arranged in a wall rack.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "services/customer-segmentation",
-      "customer-segmentation-analysis-process-diagram-showing-five-step-path.webp",
-      "Process diagram showing a five-step path from defining business decisions through a stability validation gate to operating choices.",
-      "3 / 2",
-    ),
-    // [3] section image
-    studioImg(
-      "services/customer-segmentation",
-      "customer-segmentation-analysis-staff-member-viewed-behind-opening.webp",
-      "Staff member viewed from behind opening a frosted-glass door into a dedicated care suite along a brightly lit corridor.",
+      "customer-segmentation-close-up-brushed-stainless-steel-door.webp",
+      "Close-up of a brushed stainless steel door handle and badge scanner on an intake operations wing wall.",
       "3 / 2",
     ),
   ],
@@ -3232,22 +3433,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "services/data-engineering",
-      "data-engineering-services.webp",
-      "Structured blue data cabling neatly bundled in overhead ladder trays inside an empty enterprise server facility.",
+      "data-engineering.webp",
+      "A wide exterior photograph of a modern healthcare facility at dusk with fiber optic conduits entering an exterior wall panel.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "services/data-engineering",
-      "data-engineering-services-process-diagram-showing-data-contract.webp",
-      "Process diagram showing a data contract step defining schema, refresh cadence, and volume SLAs between source and destination.",
-      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "services/data-engineering",
-      "data-engineering-services-clothbound-technical-binder-blue-ribbon.webp",
-      "A clothbound technical binder with a blue ribbon bookmark and a solid metal access key resting on a wooden counter.",
+      "data-engineering-empty-admissions-desk-hospital-corridor.webp",
+      "An empty admissions desk in a hospital corridor with a desk phone and an open logging binder on a wood counter.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/data-engineering",
+      "data-engineering-close-up-photograph-organized-server.webp",
+      "A close-up photograph of organized server rack units with blue patch cables in an enterprise equipment room.",
       "3 / 2",
     ),
   ],
@@ -3354,29 +3555,15 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "services/data-agency",
-      "ai-data-agency.webp",
-      "Wide view of an on-premises enterprise server room corridor with black equipment racks and blue indicator lights.",
+      "data-agency.webp",
+      "Wide view of a sunlit glass-walled office corridor at dawn with open floor space.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/data-agency",
-      "ai-data-agency-close-up-printed-operational-summary.webp",
-      "Close-up of printed operational summary forms and a green highlighter on a wooden admissions counter.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "services/data-agency",
-      "ai-data-agency-clinical-operations-director-holding.webp",
-      "Clinical operations director holding a folder while walking down an empty hospital corridor in morning light.",
-      "3 / 2",
-    ),
-    // [3] section image
-    studioImg(
-      "services/data-agency",
-      "ai-data-agency-diagram-showing-source-systems-flowing.webp",
-      "Diagram showing source systems flowing through identity governance into a governed dataset to drive an operating decision.",
+      "data-agency-close-up-hands-reviewing-two-printed.webp",
+      "Close-up of hands reviewing two printed summary packets side-by-side on a wooden table.",
       "3 / 2",
     ),
   ],
@@ -3461,29 +3648,8 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "services/private-ai-agency",
       "private-ai-agency.webp",
-      "A company operations leader and technical specialist review a printed system boundary schematic together across a sunlit office table.",
+      "Clean rack units housed in a quiet data server corridor with subtle blue LED accent lines.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "services/private-ai-agency",
-      "private-ai-agency-operations-manager-intake-coordinator.webp",
-      "An operations manager and intake coordinator review printed workflow checklists together at a quiet office workstation.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "services/private-ai-agency",
-      "private-ai-agency-six-step-process-diagram-showing.webp",
-      "Six-step process diagram showing Assessment, Dataset approval, Prototype, Evaluation, Controlled rollout, and Handoff in sequence.",
-      "3 / 2",
-    ),
-    // [3] section image
-    studioImg(
-      "services/private-ai-agency",
-      "private-ai-agency-three-business-governance-leaders.webp",
-      "Three business and governance leaders compare printed evaluation packets and scope checklists around a bright conference table.",
-      "3 / 2",
     ),
   ],
   "/resources/first-party-data-vs-third-party-data/": [
@@ -6127,22 +6293,8 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "services/ai-seo-marketing-agency",
       "ai-seo-marketing-agency.webp",
-      "Senior marketing director and technical search strategist reviewing organic query data on a large display in a sunlit office.",
-      "43 / 24",
-    ),
-    // [1] section image
-    studioImg(
-      "services/ai-seo-marketing-agency",
-      "ai-seo-marketing-agency-comparison-diagram-showing-traditional.webp",
-      "Comparison diagram showing traditional search agency manual tasks versus AI-native algorithmic workflows across six clear labels.",
-      "79 / 53",
-    ),
-    // [2] section image
-    studioImg(
-      "services/ai-seo-marketing-agency",
-      "ai-seo-marketing-agency-healthcare-compliance-director-search.webp",
-      "Healthcare compliance director and search engineer reviewing private data governance protocols in an administrative office.",
-      "79 / 53",
+      "Exterior view of a modern multi-location healthcare building entrance at sunrise.",
+      "7 / 4",
     ),
   ],
   "/services/healthcare-marketing-agency/": [
@@ -7769,30 +7921,9 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "problems/fix-attribution",
-      "fix-marketing-attribution.webp",
-      "Healthcare executives review marketing performance and admissions reports together in an administrative conference room.",
-      "43 / 24",
-    ),
-    // [1] section image
-    studioImg(
-      "problems/fix-attribution",
-      "fix-marketing-attribution-admissions-director-reviews-call-logs.webp",
-      "An admissions director reviews call logs and facility bed occupancy records at an office workstation.",
-      "79 / 53",
-    ),
-    // [2] section image
-    studioImg(
-      "problems/fix-attribution",
-      "fix-marketing-attribution-photo-mapping-intake-call-attribution.webp",
-      "Photo representing intake call attribution mapped through telephony and dynamic number insertion.",
-      "79 / 53",
-    ),
-    // [3] section image
-    studioImg(
-      "problems/fix-attribution",
-      "fix-marketing-attribution-diagram-rebuilding-offline-conversion.webp",
-      "Diagram of an offline conversion feedback loop that avoids protected health information.",
-      "79 / 53",
+      "fix-attribution.webp",
+      "Architectural exterior of a multi-location specialty medical facility at morning twilight with an empty glass entrance canopy.",
+      "7 / 4",
     ),
   ],
   "/resources/rehab-marketing-budget/": [
@@ -9192,29 +9323,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "areas-we-serve/jupiter",
-      "marketing-agency-jupiter-fl.webp",
-      "A business owner and marketing lead discuss priorities at a table.",
-      "3 / 2",
-    ),
-    // [1] section image
-    studioImg(
-      "areas-we-serve/jupiter",
-      "marketing-agency-jupiter-fl-four-marketing-problems-paired-starting.webp",
-      "Four marketing problems paired with starting scopes, from local information review to attribution and intake measurement.",
-      "3 / 2",
+      "jupiter.webp",
+      "Exterior view of a modern two-story commercial building in Jupiter under morning sunlight with palm trees and green landscaping.",
+      "7 / 4",
     ),
     // [2] section image
     studioImg(
       "areas-we-serve/jupiter",
-      "marketing-agency-jupiter-fl-marketing-lead-reviews-website-layout.webp",
-      "A marketing lead reviews a website layout and notes about service access.",
+      "jupiter-glass-entrance-doors-concrete-access.webp",
+      "Glass entrance doors and concrete access ramp of a specialty medical building lit by natural daylight.",
       "3 / 2",
     ),
     // [3] section image
     studioImg(
       "areas-we-serve/jupiter",
-      "marketing-agency-jupiter-fl-business-owner-prepares-call-notebook.webp",
-      "A business owner prepares for a call with a notebook nearby.",
+      "jupiter-closed-paper-scope-folder-fountain-pen.webp",
+      "Closed paper scope folder and fountain pen on a dark wood table with a blue ceramic mug in soft background light.",
       "3 / 2",
     ),
   ],
@@ -9372,30 +9496,9 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "areas-we-serve",
-      "south-florida-marketing-services.webp",
-      "A marketing lead and a practice owner review a printed page and a laptop together at a bright office table.",
-      "3 / 2",
-    ),
-    // [1] section image
-    studioImg(
-      "areas-we-serve",
-      "south-florida-marketing-services-map-palm-beach-county-showing-marketing.webp",
-      "Map of Palm Beach County showing Marketing Powered's base in Palm Beach Gardens and the areas served, West Palm Beach and Jupiter.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "areas-we-serve",
-      "south-florida-marketing-services-marketing-coordinator-colleague-compare.webp",
-      "A marketing coordinator and a colleague compare service pages on a tablet at a desk.",
-      "3 / 2",
-    ),
-    // [3] section image
-    studioImg(
-      "areas-we-serve",
-      "south-florida-marketing-services-four-step-flow-reviewing-existing-search.webp",
-      "Four-step flow from reviewing existing search, website and ad accounts, through sharing access, a senior team review, and agreed scoping.",
-      "3 / 2",
+      "areas-we-serve.webp",
+      "A wide sunlit South Florida boulevard with palm trees in Palm Beach Gardens under a clear sky.",
+      "7 / 4",
     ),
   ],
   // Only the abstract hero remains. The founder-quote, growth-framework, and
@@ -9555,37 +9658,17 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.
   "/services/llm-advertising/": [
-    pageImg(
-      "services/llm-advertising/hub",
-      "01-hero-banner.jpg",
-      "LLM advertising for behavioral health: AI-driven campaigns optimized for admissions",
-    ),
-    pageImg(
-      "services/llm-advertising/hub",
-      "05-capabilities.jpg",
-      "LLM advertising capabilities: contextual messaging, AI-driven optimization, healthcare compliance, closed-loop measurement, patient journey tracking, strategic growth",
+    // [0] hero
+    studioImg(
+      "services/llm-advertising",
+      "llm-advertising.webp",
+      "Architectural exterior of a modern healthcare facility entrance with glass doors and manicured landscaping at dawn.",
+      "7 / 4",
     ),
   ],
 
-  "/services/llm-advertising/chatgpt/": std4("services/llm-advertising/chatgpt", [
-    "Revolutionize your advertising with ChatGPT: AI-native strategies for behavioral health",
-    "AI chat advertising with ChatGPT: intent-rich context and conversational engagement driving qualified admissions, compliance, and patient journey",
-    "Get started with ChatGPT advertising: audit your current state, align on compliance posture, define attribution requirements, request your audit",
-    "ChatGPT advertising takeaways: reach intent-rich audiences, strategize effective ads, navigate compliance rigor, track attribution through admission",
-  ]),
-
   // Concept slot uses the clean capabilities icons (05) — Asana's 02 carried
   // "Just Sans Variable" placeholder text and garbled labels.
-  "/services/llm-advertising/ai-discovery-optimization/": std4(
-    "services/llm-advertising/ai-discovery-optimization",
-    [
-      "AI discovery optimization for enhanced visibility: position your brand where AI assistants find answers",
-      "AI discovery optimization essentials: understanding AI discovery, shift from ranking to citation, generative engine optimization, practical AI search strategies, measured outcomes",
-      "Your path to AI citation visibility: discovery and assessment, comprehensive audit, strategic implementation, measurement and iteration",
-      "Accelerate visibility with data-driven AI discovery optimization: the shift from ranking to citation, generative AI reshaping search, optimized content driving citation rates",
-    ],
-  ),
-
   /* ---- Web Development sub-cluster ---- */
 
   // Hub (HubPage): only index [1] renders. Capabilities icon set.
@@ -9593,29 +9676,30 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // "HIPAA compliance" and "leveraging AI" labels, so a decorative image is
   // used for the overview slot.
   "/services/web-development/": [DECO_FIELD, DECO_ROWS],
-  "/services/web-development/landing-page-development/": std4(
-    "services/web-development/landing-page-development",
-    [
-      "Custom landing page development for healthcare: convert visitors into qualified leads",
-      "From first click to patient admission: strategy, mobile-first design, integration and attribution",
-      "Our landing page development process: strategy and discovery, design and architecture, development and integration, testing and optimization",
-      "Landing page development as your conversion accelerator: healthcare expertise, operator experience, custom architecture, measurable outcomes",
-    ],
-  ),
-
   // PARTIAL: only 01/02/04 supplied by Asana, and 01's hero headline was garbled
   // ("OPTIMIZATTION") — so the clean conversion funnel (02) is promoted to hero and
   // the results graphic (04) fills the first section slot. Two images, by design.
   "/services/web-development/cro-development/": [
-    pageImg(
+    // [0] hero
+    studioImg(
       "services/web-development/cro-development",
-      "01-hero-banner.jpg",
-      "Behavioral health treatment center conversion optimization funnel: from visitors to fueled admissions",
+      "cro-development.webp",
+      "An empty healthcare admissions intake desk in a quiet facility corridor during early morning light.",
+      "7 / 4",
     ),
-    pageImg(
+    // [1] section image
+    studioImg(
       "services/web-development/cro-development",
-      "02-concept.jpg",
-      "Maximizing admissions with data-driven CRO: full-funnel tracking, reduced cost per inquiry, measurable success metrics",
+      "cro-development-close-up-hands-organizing-paper-intake.webp",
+      "A close-up of hands organizing paper intake folders at a healthcare admissions desk.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/web-development/cro-development",
+      "cro-development-exterior-view-modern-multi-location.webp",
+      "Exterior view of a modern multi-location healthcare clinic building at dusk.",
+      "3 / 2",
     ),
   ],
 
@@ -9644,37 +9728,34 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     ),
   ],
   /* ---- November 2026 supporting pages (decorative photography) ---- */
-  "/ai-edge/customizable-ai/": [DECO_ROWS, DECO_WINDOW],
-  "/ai-edge/local-processing/": [DECO_ROWS],
-  "/ai-edge/open-source/": [DECO_WINDOW],
-  "/who-we-help/hospitals-and-health-systems/": [
+  "/ai-edge/customizable-ai/": [
     // [0] hero
     studioImg(
-      "who-we-help/hospitals-and-health-systems",
-      "hospital-digital-marketing.webp",
-      "Hospital marketing leaders reviewing operational service line capacity and campaign analytics in a conference room.",
-      "43 / 24",
+      "ai-edge/customizable-ai",
+      "customizable-ai.webp",
+      "A wooden clipboard holding a structured paper checklist rests on a reception counter in a bright clinic lobby with open architectural space on the left.",
+      "7 / 4",
     ),
     // [1] section image
     studioImg(
-      "who-we-help/hospitals-and-health-systems",
-      "hospital-digital-marketing-hospital-patient-intake-coordinator.webp",
-      "A hospital patient intake coordinator managing scheduling queues and inbound calls at a computer workstation.",
-      "79 / 53",
+      "ai-edge/customizable-ai",
+      "customizable-ai-three-tabbed-administrative-folders-rest.webp",
+      "Three tabbed administrative folders rest in a wall-mounted metal holder along a quiet hospital hallway illuminated by overhead lights.",
+      "3 / 2",
     ),
     // [2] section image
     studioImg(
-      "who-we-help/hospitals-and-health-systems",
-      "hospital-digital-marketing-healthcare-marketing-directors-planning.webp",
-      "Healthcare marketing directors planning regional facility campaigns and service line governance around a table.",
-      "79 / 53",
+      "ai-edge/customizable-ai",
+      "customizable-ai-five-stage-horizontal-process-diagram.webp",
+      "A five-stage horizontal process diagram listing Approved input, Model configuration, Structured output, Human approval in green, and Logged action.",
+      "3 / 2",
     ),
     // [3] section image
     studioImg(
-      "who-we-help/hospitals-and-health-systems",
-      "hospital-digital-marketing-architecture-diagram-showing-privacy.webp",
-      "Architecture diagram showing privacy-safe healthcare tracking flow from search inquiry to admission attribution.",
-      "79 / 53",
+      "ai-edge/customizable-ai",
+      "customizable-ai-close-up-view-hand-placing-pen-printed.webp",
+      "A close-up view of a hand placing a pen on a printed verification sheet with a green status box on a wooden table.",
+      "3 / 2",
     ),
   ],
 

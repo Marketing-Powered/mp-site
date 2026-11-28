@@ -116,36 +116,6 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
       "3 / 2",
     ),
   ],
-  "/alt-text-audit/": [
-    // [0] hero
-    studioImg(
-      "alt-text-audit",
-      "alt-text-audit.webp",
-      "Exterior entrance of a multi-location healthcare clinic at dusk with architectural lighting.",
-      "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "alt-text-audit",
-      "alt-text-audit-illuminated-glass-security-barrier.webp",
-      "Illuminated glass security barrier inside a modern data center hallway.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "alt-text-audit",
-      "alt-text-audit-four-step-process-diagram-sitemap.webp",
-      "Four-step process diagram for sitemap reconciliation from trailing slashes to crawler access.",
-      "3 / 2",
-    ),
-    // [3] section image
-    studioImg(
-      "alt-text-audit",
-      "alt-text-audit-healthcare-administrative-leader-walking.webp",
-      "Healthcare administrative leader walking down a bright medical clinic corridor.",
-      "3 / 2",
-    ),
-  ],
   "/services/web-development/landing-page-development/": [
     // [0] hero
     studioImg(
@@ -1971,22 +1941,15 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "who-we-help/peptide-pharmacies",
-      "peptide-pharmacy-marketing.webp",
-      "Clean pass-through anteroom and stainless steel prep ledge inside a specialized compounding pharmacy facility at dawn.",
+      "peptide-pharmacies.webp",
+      "Insulated pharmaceutical shipping containers with temperature monitors arranged on stainless steel shelves inside a pharmacy distribution area.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "who-we-help/peptide-pharmacies",
-      "peptide-pharmacy-marketing-three-tier-classification-diagram.webp",
-      "Three-tier classification diagram sorting pharmacy offerings into FDA-approved, conditionally compounded, and unsupported categories.",
-      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "who-we-help/peptide-pharmacies",
-      "peptide-pharmacy-marketing-covered-glass-pedestrian-walkway.webp",
-      "Covered glass pedestrian walkway connecting two independent healthcare facility buildings at twilight.",
+      "peptide-pharmacies-wall-mounted-document-rack-holding-state.webp",
+      "A wall-mounted document rack holding state licensing folders and shipping dispatch manifests in a pharmacy office.",
       "3 / 2",
     ),
   ],
@@ -2084,22 +2047,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "who-we-help/peptide-clinics",
-      "peptide-clinic-marketing.webp",
-      "Exterior entrance of a licensed outpatient medical clinic at dawn with glass double doors and an open paved walkway.",
+      "peptide-clinics.webp",
+      "A exterior wide shot of a modern glass medical clinic building entrance at morning light with green landscaping.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "who-we-help/peptide-clinics",
-      "peptide-clinic-marketing-five-stage-horizontal-flow-diagram.webp",
-      "A five-stage horizontal flow diagram outlining clinic licensing verification, service definition, capacity mapping, inquiry targets, and visibility.",
-      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "who-we-help/peptide-clinics",
-      "peptide-clinic-marketing-medium-shot-premises-server-rack-clean.webp",
-      "Medium shot of an on-premises server rack with clean network cabling and illuminated status lights in a data room.",
+      "peptide-clinics-empty-clinical-consultation-room.webp",
+      "An empty clinical consultation room with armchairs and natural window light ready for a patient evaluation.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "who-we-help/peptide-clinics",
+      "peptide-clinics-rack-secure-local-server-infrastructure.webp",
+      "A rack of secure local server infrastructure with organized blue network cables and green indicator lights.",
       "3 / 2",
     ),
   ],
@@ -2244,14 +2207,21 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "services/peptide-website-policy-remediation",
       "peptide-website-policy-remediation.webp",
-      "Tabbed blue archive folders and catalog documentation sheets arranged flat across an oak table in morning window light.",
+      "A closed compliance review folder and pen resting on a dark wood desk in an administrative office with morning light.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/peptide-website-policy-remediation",
-      "peptide-website-policy-remediation-process-diagram-showing-documented.webp",
-      "Process diagram showing documented findings mapped across destination assets to produce an evidence register and dated capture.",
+      "peptide-website-policy-remediation-printed-issue-register-clipped-aluminum.webp",
+      "A printed issue register clipped to an aluminum clipboard with a green highlighter resting on top.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/peptide-website-policy-remediation",
+      "peptide-website-policy-remediation-formal-bound-review-packet-presentation.webp",
+      "A formal bound review packet in a presentation folder resting on a glass conference room table.",
       "3 / 2",
     ),
   ],
@@ -2411,22 +2381,15 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "who-we-help/research-peptide-suppliers",
-      "research-peptide-marketing.webp",
-      "Exterior receiving entrance of a research facility with insulated reagent transport containers on a utility cart in morning light.",
+      "research-peptide-suppliers.webp",
+      "Organized reagent vials sit in labeled trays on stainless steel cold-storage shelves in a laboratory receiving bay.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "who-we-help/research-peptide-suppliers",
-      "research-peptide-marketing-comparison-framework-distinguishing.webp",
-      "Comparison framework distinguishing genuine institutional lab peptide suppliers from consumer-facing sellers using research-only language.",
-      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "who-we-help/research-peptide-suppliers",
-      "research-peptide-marketing-laboratory-fulfillment-specialist.webp",
-      "Laboratory fulfillment specialist packing an insulated cold-chain shipment at a stainless steel station in a distribution facility.",
+      "research-peptide-suppliers-courier-moves-insulated-shipping-crate.webp",
+      "A courier moves an insulated shipping crate toward an institutional receiving door at dusk.",
       "3 / 2",
     ),
   ],
@@ -2934,22 +2897,15 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "who-we-help/peptide-businesses",
-      "peptide-marketing-agency.webp",
-      "Clear laboratory vials and amber glass bottles resting on a stainless steel preparation counter in morning light.",
-      "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "who-we-help/peptide-businesses",
-      "peptide-marketing-agency-comparison-table-classifying-four.webp",
-      "A comparison table classifying four peptide business models across legal status, certification, and ad channel eligibility.",
+      "peptide-businesses-server-rack-enclosures-neatly-organized.webp",
+      "Server rack enclosures with neatly organized blue network cables inside a technical equipment room.",
       "3 / 2",
     ),
     // [2] section image
     studioImg(
       "who-we-help/peptide-businesses",
-      "peptide-marketing-agency-manila-document-folders-archival-file.webp",
-      "Manila document folders and archival file jackets arranged neatly across a solid wood table in soft daylight.",
+      "peptide-businesses-close-up-view-administrative.webp",
+      "Close up view of administrative documentation folders and state licensing map documents arranged on a wooden desk.",
       "3 / 2",
     ),
   ],
@@ -2957,22 +2913,15 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "who-we-help/multi-location/data-and-market-intelligence",
-      "multi-location-business-intelligence.webp",
-      "Exterior view of an empty regional medical pavilion entrance at dawn with concrete walkways and glass double doors.",
+      "data-and-market-intelligence.webp",
+      "Wide morning exterior view of a multi-building regional healthcare outpatient center with empty entryways and quiet access roads.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "who-we-help/multi-location/data-and-market-intelligence",
-      "multi-location-business-intelligence-close-up-hands-placing-color-coded-tab.webp",
-      "Close-up of hands placing color-coded tab dividers into a location registry binder on a counter.",
-      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "who-we-help/multi-location/data-and-market-intelligence",
-      "multi-location-business-intelligence-four-step-diagram-showing-diagnostic.webp",
-      "Four-step diagram showing the diagnostic sequence of Maturity, Capacity, Execution, and Market Residual.",
+      "data-and-market-intelligence-wide-interior-view-empty-executive.webp",
+      "Wide interior view of an empty executive meeting room with a large table set for an operating review.",
       "3 / 2",
     ),
   ],
@@ -3212,22 +3161,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "who-we-help/small-business/market-intelligence",
-      "market-research-for-small-business.webp",
-      "Commercial retail storefront in morning sunlight with a leasing sign in the window and an open parking apron.",
+      "market-intelligence.webp",
+      "Wide exterior view of a suburban commercial building and parking lot under a clear sky blue morning sky.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
       "who-we-help/small-business/market-intelligence",
-      "market-research-for-small-business-vertical-flow-diagram-illustrating-six.webp",
-      "Vertical flow diagram illustrating six stages of a bounded market research process from decision framing to scope boundary.",
+      "market-intelligence-printed-commercial-lease-agreement.webp",
+      "Printed commercial lease agreement documents and architectural blueprints lying on a dark wooden counter.",
       "3 / 2",
     ),
-    // [2] section image
+    // [3] section image
     studioImg(
       "who-we-help/small-business/market-intelligence",
-      "market-research-for-small-business-close-up-hands-holding-clipboard-printed.webp",
-      "Close-up of hands holding a clipboard with a printed question set and pen outside a commercial storefront.",
+      "market-intelligence-hardcover-presentation-binder-resting.webp",
+      "Hardcover presentation binder resting on a quartz reception counter near a green potted plant.",
       "3 / 2",
     ),
   ],
@@ -3304,22 +3253,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "services/market-entry-research",
-      "market-entry-research-services.webp",
-      "Exterior view of an empty commercial healthcare building at sunrise with clean parking lot and glass entryway.",
+      "market-entry-research.webp",
+      "Architectural wide shot of a modern multi-story commercial healthcare facility at early dawn with wide empty space on the left.",
       "7 / 4",
-    ),
-    // [1] section image
-    studioImg(
-      "services/market-entry-research",
-      "market-entry-research-services-interior-view-empty-clinic-room-prepared.webp",
-      "Interior view of an empty clinic room prepared for regulatory inspection with plastic-covered equipment and clean floors.",
-      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "services/market-entry-research",
-      "market-entry-research-services-decision-diagram-showing-demand-access.webp",
-      "Decision diagram showing demand access, operating limits, and entry economics inputs flowing to go, defer, and reject outcomes.",
+      "market-entry-research-medium-close-up-open-clinic-intake.webp",
+      "Medium close-up of an open clinic intake doorway with natural morning light illuminating an empty administrative hallway.",
+      "3 / 2",
+    ),
+    // [3] section image
+    studioImg(
+      "services/market-entry-research",
+      "market-entry-research-close-up-secure-local-server-rack.webp",
+      "Close-up of a secure local server rack cabinet with active status indicators in a clean server room setting.",
       "3 / 2",
     ),
   ],
@@ -3328,28 +3277,21 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "services/voice-of-customer-research",
       "voice-of-customer-research.webp",
-      "Empty modern healthcare corridor and entrance foyer illuminated by morning sunlight.",
+      "Wide view of an empty healthcare clinic lobby with sky blue architectural wall accents in morning light.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/voice-of-customer-research",
-      "voice-of-customer-research-close-up-hands-organizing-color-coded.webp",
-      "Close-up of hands organizing color-coded intake category divider cards on a wooden surface.",
+      "voice-of-customer-research-close-up-multi-line-desk-phone-inquiry.webp",
+      "Close-up of a multi-line desk phone and inquiry clipboards on a healthcare intake counter.",
       "3 / 2",
     ),
     // [2] section image
     studioImg(
       "services/voice-of-customer-research",
-      "voice-of-customer-research-diagram-showing-four-stage-voice.webp",
-      "Diagram showing a four-stage voice of customer traceability workflow from source records to decision brief.",
-      "3 / 2",
-    ),
-    // [3] section image
-    studioImg(
-      "services/voice-of-customer-research",
-      "voice-of-customer-research-fork-gravel-garden-path-dividing-around.webp",
-      "A fork in a gravel garden path dividing around a stone border in late afternoon light.",
+      "voice-of-customer-research-bound-printed-decision-brief-document.webp",
+      "Bound printed decision brief document with green divider tabs on a wooden table surface.",
       "3 / 2",
     ),
   ],
@@ -3358,28 +3300,21 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "services/ideal-customer-profile-research",
       "ideal-customer-profile-research.webp",
-      "Wide exterior shot of a modern multi-location healthcare campus entrance at dawn with concrete walkway and architectural glass doors.",
+      "A bound account review folder resting on a wooden credenza in a sunlit corner office.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/ideal-customer-profile-research",
-      "ideal-customer-profile-research-close-up-client-onboarding-folders.webp",
-      "Close-up of client onboarding folders and a fountain pen resting on a dark wood credenza in soft morning light.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "services/ideal-customer-profile-research",
-      "ideal-customer-profile-research-decision-matrix-diagram-showing-three.webp",
-      "Decision matrix diagram showing three account classification columns labeled Must-Haves, Disqualifiers, and Unknowns.",
+      "ideal-customer-profile-research-hands-holding-account-ledger-folder.webp",
+      "Hands holding an account ledger folder in a clean healthcare facility hallway.",
       "3 / 2",
     ),
     // [3] section image
     studioImg(
       "services/ideal-customer-profile-research",
-      "ideal-customer-profile-research-admissions-desk-phone-station-intake.webp",
-      "Admissions desk phone station and intake folders on a stone counter next to an interior hallway at dusk.",
+      "ideal-customer-profile-research-empty-reception-counter-glass-entrance.webp",
+      "An empty reception counter and glass entrance doors of a healthcare clinic at dawn.",
       "3 / 2",
     ),
   ],
@@ -3532,22 +3467,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "services/peptide-legitscript-readiness",
-      "peptide-legitscript-certification-support.webp",
-      "Neat folders with blue tabs and a pen arranged on a sunlit conference table in an administrative office.",
+      "peptide-legitscript-readiness.webp",
+      "An organized navy compliance binder standing on a stone reception counter in a sunlit clinic entrance.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/peptide-legitscript-readiness",
-      "peptide-legitscript-certification-support-decision-flowchart-showing-pathways.webp",
-      "Decision flowchart showing pathways between addiction treatment, healthcare merchant, and research-only certification eligibility.",
+      "peptide-legitscript-readiness-compliance-lead-dark-jacket-standing.webp",
+      "A compliance lead in a dark jacket standing in a bright medical facility corridor viewed from behind.",
       "3 / 2",
     ),
-    // [2] section image
+    // [3] section image
     studioImg(
       "services/peptide-legitscript-readiness",
-      "peptide-legitscript-certification-support-professional-hands-placing-sealed-white.webp",
-      "Professional hands placing a sealed white document packet into an outgoing dispatch tray.",
+      "peptide-legitscript-readiness-close-up-hands-setting-white-document.webp",
+      "Close-up of hands setting a white document folder into a metal outgoing tray on a stone counter.",
       "3 / 2",
     ),
   ],
@@ -8043,30 +7978,30 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "services/therapist-seo",
-      "seo-for-therapists.webp",
-      "A practice founder reviews intake schedules on a desktop monitor in a brightly lit outpatient clinic office.",
-      "43 / 24",
+      "therapist-seo.webp",
+      "Exterior entrance of a modern outpatient therapy practice building in daylight.",
+      "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/therapist-seo",
-      "seo-for-therapists-diagram-comparing-national-informational.webp",
-      "Diagram comparing national informational search drop-off to local search driving qualified intake inquiries.",
-      "79 / 53",
+      "therapist-seo-paper-intake-folder-pen-resting-wooden.webp",
+      "Paper intake folder and pen resting on a wooden reception counter in a therapy practice.",
+      "3 / 2",
     ),
     // [2] section image
     studioImg(
       "services/therapist-seo",
-      "seo-for-therapists-clinical-director-two-associate.webp",
-      "A clinical director and two associate therapists discuss caseload scheduling in a clinic conference room.",
-      "79 / 53",
+      "therapist-seo-two-column-diagram-comparing-operational.webp",
+      "Two-column diagram comparing operational intake factors between solo and group therapy practices.",
+      "3 / 2",
     ),
     // [3] section image
     studioImg(
       "services/therapist-seo",
-      "seo-for-therapists-intake-coordinator-reviews-digital.webp",
-      "An intake coordinator reviews digital compliance documentation at an outpatient clinic reception desk.",
-      "79 / 53",
+      "therapist-seo-practice-intake-staff-walking-down.webp",
+      "Practice intake staff walking down a bright office hallway carrying administrative files.",
+      "3 / 2",
     ),
   ],
   "/services/therapist-website-design/": [
@@ -9294,29 +9229,22 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     studioImg(
       "services/healthcare-ppc",
       "healthcare-ppc.webp",
-      "Healthcare marketing and admissions leads review a laptop together.",
-      "3 / 2",
+      "Exterior of a modern multi-location medical clinic entrance with evening exterior lighting on a glass canopy.",
+      "7 / 4",
     ),
     // [1] section image
     studioImg(
       "services/healthcare-ppc",
-      "healthcare-ppc-healthcare-executive-marketing-lead.webp",
-      "A healthcare executive and marketing lead discuss a document at a meeting table.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "services/healthcare-ppc",
-      "healthcare-ppc-marketing-analyst-admissions-manager.webp",
-      "A marketing analyst and admissions manager review a worksheet beside a laptop.",
+      "healthcare-ppc-close-up-view-medical-intake-reception.webp",
+      "A close-up view of a medical intake reception counter with stacked patient file folders and a landline desk phone.",
       "3 / 2",
     ),
     // [3] section image
     studioImg(
       "services/healthcare-ppc",
-      "healthcare-ppc-illustrative-comparison-both-locations.webp",
-      "Illustrative comparison: both locations spend $10,000 and receive 100 calls. Location A has 50 qualified inquiries and 10 admitted or scheduled outcomes; Location B has 25 and 5.",
-      "2 / 3",
+      "healthcare-ppc-physical-server-rack-enclosure-neatly.webp",
+      "A physical server rack enclosure with neatly bundled network cables and active status indicator lights in a server room.",
+      "3 / 2",
     ),
   ],
   "/areas-we-serve/jupiter/": [
@@ -9675,30 +9603,19 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
   // Hub (HubPage): only index [1] renders. The capabilities icon set carried
   // "HIPAA compliance" and "leveraging AI" labels, so a decorative image is
   // used for the overview slot.
-  "/services/web-development/": [DECO_FIELD, DECO_ROWS],
-  // PARTIAL: only 01/02/04 supplied by Asana, and 01's hero headline was garbled
-  // ("OPTIMIZATTION") — so the clean conversion funnel (02) is promoted to hero and
-  // the results graphic (04) fills the first section slot. Two images, by design.
-  "/services/web-development/cro-development/": [
+  "/services/web-development/": [
     // [0] hero
     studioImg(
-      "services/web-development/cro-development",
-      "cro-development.webp",
-      "An empty healthcare admissions intake desk in a quiet facility corridor during early morning light.",
+      "services/web-development",
+      "web-development.webp",
+      "A wide exterior view of a modern multi-location healthcare facility entrance in soft morning light.",
       "7 / 4",
     ),
     // [1] section image
     studioImg(
-      "services/web-development/cro-development",
-      "cro-development-close-up-hands-organizing-paper-intake.webp",
-      "A close-up of hands organizing paper intake folders at a healthcare admissions desk.",
-      "3 / 2",
-    ),
-    // [3] section image
-    studioImg(
-      "services/web-development/cro-development",
-      "cro-development-exterior-view-modern-multi-location.webp",
-      "Exterior view of a modern multi-location healthcare clinic building at dusk.",
+      "services/web-development",
+      "web-development-close-up-shot-glass-entrance-door-handle.webp",
+      "A close-up shot of a glass entrance door handle leading into a brightly lit healthcare reception foyer.",
       "3 / 2",
     ),
   ],
@@ -9861,29 +9778,15 @@ const ROUTE_OVERRIDES: Record<string, SlotImg[]> = {
     // [0] hero
     studioImg(
       "who-we-help/mental-health",
-      "mental-health-marketing-agency.webp",
-      "Practice leader and admissions coordinator review scheduling capacity together.",
-      "3 / 2",
-    ),
-    // [1] section image
-    studioImg(
-      "who-we-help/mental-health",
-      "mental-health-marketing-agency-clinic-operations-manager-clinician.webp",
-      "A clinic operations manager and clinician discuss a weekly capacity plan.",
-      "3 / 2",
-    ),
-    // [2] section image
-    studioImg(
-      "who-we-help/mental-health",
-      "mental-health-marketing-agency-marketing-specialist-intake-coordinator.webp",
-      "A marketing specialist and intake coordinator discuss an inquiry handoff.",
-      "3 / 2",
+      "mental-health.webp",
+      "Wide view of an empty, sunlit mental health clinic reception area at opening hour with seating and a light wood counter.",
+      "7 / 4",
     ),
     // [3] section image
     studioImg(
       "who-we-help/mental-health",
-      "mental-health-marketing-agency-practice-leaders-compare-planning-sheets.webp",
-      "Practice leaders compare planning sheets during a multi-location discussion.",
+      "mental-health-server-rack-blue-indicator-lights.webp",
+      "Server rack with blue indicator lights and organized fiber optic cables inside a dark data infrastructure facility.",
       "3 / 2",
     ),
   ],

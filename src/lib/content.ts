@@ -55,7 +55,7 @@ export const siteContent = {
   },
   servicesIntro: {
     headline: "How AI Technology Delivers Better Marketing Outcomes",
-    body: "AI is not a feature we added to check a box. It is the foundation of how we operate. Our proprietary infrastructure runs on local hardware, including Mac Studio M3 Ultra clusters and dedicated NAS storage, purpose-built for HIPAA-compliant local AI inference. Your data never leaves our controlled environment.",
+    body: "AI is not a feature we added to check a box. It is the foundation of how we operate. We run owned, local AI infrastructure for HIPAA-aware inference, keeping sensitive workflows inside a controlled environment.",
   },
   // `href` targets are all entries in links.ts VALID so they resolve to real pages.
   services: [

@@ -209,7 +209,7 @@ export default function Design6() {
         {/* ---------- TRUST STRIP ---------- */}
         <section className="border-y border-white/8 bg-white/[0.015]">
           <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-6 py-5 text-[12.5px] text-white/40 lg:px-8" style={{ fontFamily: mono }}>
-            {["$1.5–2M / mo Google Ads", "HIPAA-conscious infrastructure", "Mac Studio M3 clusters", "full-funnel attribution"].map((t, i) => (
+            {["$1.5–2M / mo Google Ads", "HIPAA-conscious infrastructure", "owned local AI infrastructure", "full-funnel attribution"].map((t, i) => (
               <span key={t} className="flex items-center gap-3">
                 {i > 0 && <span className="text-white/15">/</span>} {t}
               </span>

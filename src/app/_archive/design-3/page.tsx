@@ -178,7 +178,7 @@ export default function Design3() {
       {/* ---------- LOGO STRIP / PROOF ---------- */}
       <section className="relative z-10 mx-auto max-w-6xl px-6 py-10 lg:px-10">
         <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-[13px] uppercase tracking-[0.18em] text-white/35">
-          {["$1.5–2M / mo Google Ads", "LegitScript Compliant", "Mac Studio M3 Clusters", "Full-Funnel Attribution"].map(
+          {["$1.5–2M / mo Google Ads", "LegitScript Compliant", "Owned Local AI Infrastructure", "Full-Funnel Attribution"].map(
             (t) => (
               <span key={t} className="flex items-center gap-3">
                 <span className="h-1 w-1 rounded-full bg-white/40" /> {t}

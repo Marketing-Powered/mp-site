@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
-    url: SITE_URL,
+    url: `${SITE_URL}/`,
     images: [SHARE_IMAGE],
   },
   twitter: {

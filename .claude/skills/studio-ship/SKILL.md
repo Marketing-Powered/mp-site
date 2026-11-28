@@ -117,7 +117,7 @@ node scripts/studio-ship.mjs failed <id> "<reason>"                       # each
 ```
 
 If `--ff-only` fails, `main` moved: rebase `studio-ship` onto `origin/main`, rebuild, then merge. Never force-push.
-Vercel deploys `main` to marketingpowered.ai. After a few minutes, confirm each live URL returns 200, then submit them:
+Vercel deploys `main` to marketingpowered.ai. Live page URLs are the trailing-slash form (https://marketingpowered.ai/path/ — see AGENTS.md, URL convention). After a few minutes, confirm each live URL returns 200 in that form, then submit them:
 `node scripts/indexnow-ping.mjs <path> ...`.
 
 Finish with one short summary: pages built (live URLs), pages failed (why), cards held (why).

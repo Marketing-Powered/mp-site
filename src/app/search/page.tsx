@@ -13,7 +13,7 @@ const URL = "/search";
 export const metadata: Metadata = {
   title: "Functional Site Search - Marketing Powered",
   description: "Quickly search Marketing Powered's site for services, resources, and more.",
-  alternates: { canonical: URL },
+  alternates: { canonical: `${URL}/` },
   robots: { index: false, follow: true },
 };
 

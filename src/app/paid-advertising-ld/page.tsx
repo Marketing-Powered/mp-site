@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Operator-led Google Ads, Meta Ads, Microsoft Ads and local SEO. ChatGPT Ads readiness for eligible advertisers. Request a Marketing Powered audit.",
   robots: { index: false, follow: true },
-  alternates: { canonical: "/paid-advertising-ld" },
+  alternates: { canonical: "/paid-advertising-ld/" },
 };
 
 /* Tints the phone browser chrome to the page background so the navy band

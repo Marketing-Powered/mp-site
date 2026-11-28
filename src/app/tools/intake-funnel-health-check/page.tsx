@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   title: "Intake Funnel Health Check Tool | Optimize Admissions",
   description:
     "Enhance your clinic's admissions with our intake funnel health check tool. Identify gaps and increase effectiveness. Try it today!",
-  alternates: { canonical: URL },
+  alternates: { canonical: `${URL}/` },
   openGraph: {
     type: "website",
     title: "Intake Funnel Health Check Tool | Optimize Admissions",
     description:
       "Enhance your clinic's admissions with our intake funnel health check tool. Identify gaps and increase effectiveness. Try it today!",
-    url: URL,
+    url: `${URL}/`,
   },
 };
 

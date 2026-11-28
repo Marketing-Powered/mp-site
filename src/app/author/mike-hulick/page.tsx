@@ -24,7 +24,7 @@ import { SITE_URL } from "@/lib/site";
 /* ================================================================== */
 
 const AUTHOR = AUTHORS["mike-hulick"];
-const PATH = AUTHOR.href;
+const PATH = `${AUTHOR.href}/`; // the served (trailing-slash) URL
 
 const TITLE = "Mike Hulick | Marketing Executive & Author | Marketing Powered";
 const DESCRIPTION =
@@ -279,7 +279,7 @@ function ProfileJsonLd({ guides }: { guides: { href: string; title: string }[] }
     hasPart: guides.map((g) => ({
       "@type": "Article",
       headline: g.title,
-      url: `${SITE_URL}${g.href}`,
+      url: `${SITE_URL}${g.href}/`,
       author: { "@id": person["@id"] },
     })),
   };

@@ -29,7 +29,7 @@ const DESCRIPTION =
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  alternates: { canonical: "/results/case-studies" },
+  alternates: { canonical: "/results/case-studies/" },
   openGraph: {
     type: "website",
     title: TITLE,

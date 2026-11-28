@@ -60,7 +60,7 @@ export function authorPersonSchema(author: Author) {
     name: author.name,
     alternateName: author.fullName,
     jobTitle: author.jobTitle,
-    url: `${SITE_URL}${author.href}`,
+    url: `${SITE_URL}${author.href}/`,
     image: `${SITE_URL}${author.image}`,
     sameAs: author.sameAs,
     worksFor: { "@id": `${SITE_URL}/#organization` },

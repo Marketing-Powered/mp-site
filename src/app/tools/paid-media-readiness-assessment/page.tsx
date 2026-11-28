@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   title: "Paid Media Readiness Assessment Tool",
   description:
     "Identify your readiness for paid media success. Use our tool to assess maturity and get actionable insights to optimize spend and improve lead quality.",
-  alternates: { canonical: URL },
+  alternates: { canonical: `${URL}/` },
   openGraph: {
     type: "website",
     title: "Paid Media Readiness Assessment Tool",
     description:
       "Identify your readiness for paid media success. Use our tool to assess maturity and get actionable insights to optimize spend and improve lead quality.",
-    url: URL,
+    url: `${URL}/`,
   },
 };
 

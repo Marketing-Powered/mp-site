@@ -17,12 +17,12 @@ const URL = "/tools/attribution-tracking-audit";
 export const metadata: Metadata = {
   title: "Attribution Audit Tool | Accurate Tracking Insights",
   description: "Audit your attribution and tracking setup in minutes: find broken conversions, missing call tracking, and gaps costing you ad spend visibility.",
-  alternates: { canonical: URL },
+  alternates: { canonical: `${URL}/` },
   openGraph: {
     type: "website",
     title: "Attribution Audit Tool | Accurate Tracking Insights",
     description: "Audit your attribution and tracking setup in minutes: find broken conversions, missing call tracking, and gaps costing you ad spend visibility.",
-    url: URL,
+    url: `${URL}/`,
   },
 };
 

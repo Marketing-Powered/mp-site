@@ -244,10 +244,10 @@ export function pageMetadata(file: string): Metadata {
     file.endsWith("qualification.md");
   const title = p.seo.title || p.frontmatter.title || p.h1;
   const description = p.seo.description;
-  // canonical must be the served (non-trailing-slash) URL, not a 308 redirect;
-  // frontmatter urls are written with trailing slashes, so normalize here
+  // canonical must be the served (trailing-slash) URL, not a 308 redirect;
+  // frontmatter urls are written with trailing slashes — normalize to exactly one
   const url = p.frontmatter.url
-    ? p.frontmatter.url.replace(/\/+$/, "") || "/"
+    ? `${p.frontmatter.url.replace(/\/+$/, "")}/`
     : undefined;
   const author = getAuthor(p.frontmatter.author);
   return {

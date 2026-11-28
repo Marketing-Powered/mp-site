@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   title: "Meta Ads Readiness Score Tool | Marketing Powered",
   description:
     "Assess your Meta Ads readiness with our free tool. Get tailored insights to boost campaign efficiency and avoid compliance pitfalls.",
-  alternates: { canonical: URL },
+  alternates: { canonical: `${URL}/` },
   openGraph: {
     type: "website",
     title: "Meta Ads Readiness Score Tool | Marketing Powered",
     description:
       "Assess your Meta Ads readiness with our free tool. Get tailored insights to boost campaign efficiency and avoid compliance pitfalls.",
-    url: URL,
+    url: `${URL}/`,
   },
 };
 

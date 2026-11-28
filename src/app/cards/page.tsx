@@ -31,12 +31,12 @@ const DESCRIPTION =
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  alternates: { canonical: URL },
+  alternates: { canonical: `${URL}/` },
   openGraph: {
     type: "website",
     title: TITLE,
     description: DESCRIPTION,
-    url: URL,
+    url: `${URL}/`,
     images: [
       {
         url: "/images/pages/cards/powered-cards-hero-white.jpg",

@@ -8,6 +8,10 @@ const longLivedPublicAssetHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // The canonical URL form is WITH a trailing slash (matching the content SOP).
+  // Every page serves 200 at /path/, and /path answers a single 308 to /path/,
+  // which carries the indexing signals of the previously served form.
+  trailingSlash: true,
   images: {
     minimumCacheTTL: 2678400,
     qualities: [70, 72, 75],
@@ -65,99 +69,99 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       // /company/about-us/ was a duplicate of /company/about/; redirect permanently.
-      // Paths are non-trailing-slash to match the served canonical (trailingSlash
-      // defaults to false), so requests land directly on the 200 without an extra hop.
+      // Sources and destinations use the canonical trailing-slash form; a request
+      // without the slash is first normalized by the trailingSlash 308, then matched.
       {
-        source: "/company/about-us",
-        destination: "/company/about",
+        source: "/company/about-us/",
+        destination: "/company/about/",
         permanent: true,
       },
       // Legacy WordPress URLs that still receive Google Analytics traffic
       // (flagged by Semrush as orphaned pages returning 404). Each points at
       // the closest equivalent page on the current site.
       {
-        source: "/services/ppc-campaign-management",
-        destination: "/services/ppc",
+        source: "/services/ppc-campaign-management/",
+        destination: "/services/ppc/",
         permanent: true,
       },
       {
         // Slug uses non-breaking hyphens (U+2011) in the original WordPress URL.
         source:
-          "/services/lead-generation/why-mental%E2%80%91health-pay%E2%80%91per%E2%80%91click-is-different-and-why-you-need-an-expert",
-        destination: "/resources/guides/mental-health-paid-media-playbook",
+          "/services/lead-generation/why-mental%E2%80%91health-pay%E2%80%91per%E2%80%91click-is-different-and-why-you-need-an-expert/",
+        destination: "/resources/guides/mental-health-paid-media-playbook/",
         permanent: true,
       },
       {
         source: "/services/lead-generation/:slug*",
-        destination: "/resources/paid-media",
+        destination: "/resources/paid-media/",
         permanent: true,
       },
       {
-        source: "/specialties/mental-health-ppc-for-intakes-and-admissions",
-        destination: "/who-we-help/mental-health",
+        source: "/specialties/mental-health-ppc-for-intakes-and-admissions/",
+        destination: "/who-we-help/mental-health/",
         permanent: true,
       },
       {
         source: "/specialties/:slug*",
-        destination: "/who-we-help",
+        destination: "/who-we-help/",
         permanent: true,
       },
       {
         source:
-          "/the-agentic-revolution-the-definitive-top-10-ai-martech-tools-defining-2025",
-        destination: "/resources/ai-in-marketing",
+          "/the-agentic-revolution-the-definitive-top-10-ai-martech-tools-defining-2025/",
+        destination: "/resources/ai-in-marketing/",
         permanent: true,
       },
       {
-        source: "/search-is-everywhere-why-your-brand-needs-seo-across-every-channel",
-        destination: "/resources/guides/ai-visibility-seo-visibility-complementary",
+        source: "/search-is-everywhere-why-your-brand-needs-seo-across-every-channel/",
+        destination: "/resources/guides/ai-visibility-seo-visibility-complementary/",
         permanent: true,
       },
       // Legacy WordPress URLs reported as "Not found (404)" in Google Search
       // Console (Coverage export, 2026-11-18). Each points at the closest
       // equivalent page on the current site.
       {
-        source: "/privacy-policy",
-        destination: "/legal/privacy-policy",
+        source: "/privacy-policy/",
+        destination: "/legal/privacy-policy/",
         permanent: true,
       },
       {
-        source: "/top-10-digital-marketing-tools-for-small-businesses",
-        destination: "/resources",
+        source: "/top-10-digital-marketing-tools-for-small-businesses/",
+        destination: "/resources/",
         permanent: true,
       },
       {
-        source: "/services/reputation-management",
-        destination: "/services",
+        source: "/services/reputation-management/",
+        destination: "/services/",
         permanent: true,
       },
       {
-        source: "/services/ppc/pay-per-click-vs-seo",
-        destination: "/resources/rehab-ppc-vs-seo",
-        permanent: true,
-      },
-      {
-        source:
-          "/services/ppc/best-practices-and-top-tips-on-creating-effective-ppc-ad-copies",
-        destination: "/resources/google-ads",
+        source: "/services/ppc/pay-per-click-vs-seo/",
+        destination: "/resources/rehab-ppc-vs-seo/",
         permanent: true,
       },
       {
         source:
-          "/services/search-engine-optimization/large-language-model-optimization-llmo-ai-optimization-aio",
+          "/services/ppc/best-practices-and-top-tips-on-creating-effective-ppc-ad-copies/",
+        destination: "/resources/google-ads/",
+        permanent: true,
+      },
+      {
+        source:
+          "/services/search-engine-optimization/large-language-model-optimization-llmo-ai-optimization-aio/",
         destination:
-          "/resources/guides/ai-discovery-optimization-what-replaces-traditional-seo",
+          "/resources/guides/ai-discovery-optimization-what-replaces-traditional-seo/",
         permanent: true,
       },
       {
-        source: "/services/search-engine-optimization/youtube-video-seo-services",
-        destination: "/services/youtube-ads",
+        source: "/services/search-engine-optimization/youtube-video-seo-services/",
+        destination: "/services/youtube-ads/",
         permanent: true,
       },
       // The old SEO service hub and any remaining children.
       {
         source: "/services/search-engine-optimization/:slug*",
-        destination: "/services/local-seo",
+        destination: "/services/local-seo/",
         permanent: true,
       },
     ];

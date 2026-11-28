@@ -590,13 +590,14 @@ export function indexableRoutes(): string[] {
 
 /** Resolve an internal href. Returns a valid path, or null if the link
     should be rendered as plain text (no good destination exists).
-    Always returns the non-trailing-slash form — the site serves
-    non-trailing-slash URLs, so a trailing slash costs a 308 hop. */
+    Always returns the trailing-slash form — the site serves trailing-slash
+    URLs, so a link without the slash costs a 308 hop. */
 export function resolveLink(href: string): string | null {
   const [path, hash] = href.split("#");
   const norm = path.replace(/\/+$/, "") || "/";
   const suffix = hash ? `#${hash}` : "";
-  if (REMAP[norm]) return `${REMAP[norm]}${suffix}`;
-  if (VALID.has(norm)) return `${norm}${suffix}`;
+  const slashed = (p: string) => (p === "/" ? "/" : `${p}/`);
+  if (REMAP[norm]) return `${slashed(REMAP[norm])}${suffix}`;
+  if (VALID.has(norm)) return `${slashed(norm)}${suffix}`;
   return hash && norm === "" ? href : null;
 }

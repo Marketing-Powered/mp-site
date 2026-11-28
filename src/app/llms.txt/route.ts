@@ -56,7 +56,7 @@ export function GET() {
       .sort();
     if (!group.length) continue;
     lines.push("", `## ${label}`, "");
-    for (const r of group) lines.push(`- [${titleize(r)}](${SITE_URL}${r})`);
+    for (const r of group) lines.push(`- [${titleize(r)}](${SITE_URL}${r}/)`);
   }
   return new Response(lines.join("\n") + "\n", {
     headers: { "Content-Type": "text/plain; charset=utf-8" },

@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   title: "LLM Visibility Check | AI Search Visibility Tool",
   description:
     "Measure your brand's LLM visibility across AI search platforms. See how often AI assistants cite your brand and where gaps exist.",
-  alternates: { canonical: URL },
+  alternates: { canonical: `${URL}/` },
   openGraph: {
     type: "website",
     title: "LLM Visibility Check | AI Search Visibility Tool",
     description:
       "Measure your brand's LLM visibility across AI search platforms. See how often AI assistants cite your brand and where gaps exist.",
-    url: URL,
+    url: `${URL}/`,
   },
 };
 

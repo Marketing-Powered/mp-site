@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   title: "CPA Calculator Tool - Marketing Powered",
   description:
     "Benchmark your cost per acquisition against behavioral health industry data and see how your ad spend efficiency compares. Free CPA calculator.",
-  alternates: { canonical: URL },
+  alternates: { canonical: `${URL}/` },
   openGraph: {
     type: "website",
     title: "CPA Calculator Tool - Marketing Powered",
     description:
       "Benchmark your cost per acquisition against behavioral health industry data and see how your ad spend efficiency compares. Free CPA calculator.",
-    url: URL,
+    url: `${URL}/`,
   },
 };
 

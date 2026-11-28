@@ -20,8 +20,10 @@ async function urlsFromSitemap() {
 }
 
 const args = process.argv.slice(2);
+// Site paths are submitted in the served (trailing-slash) form; files keep their names.
+const slashed = (p) => (/\.[a-z0-9]+$/i.test(p) || p.endsWith("/") ? p : `${p}/`);
 const urlList = args.length
-  ? args.map((p) => (p.startsWith("http") ? p : `${SITE_URL}${p}`))
+  ? args.map((p) => (p.startsWith("http") ? p : `${SITE_URL}${slashed(p)}`))
   : await urlsFromSitemap();
 
 const res = await fetch("https://api.indexnow.org/indexnow", {
